@@ -1,0 +1,24 @@
+
+state={
+	id=611
+	name="STATE_611"
+
+	history={
+		owner = QIN
+		buildings = {
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			11752 3 
+		}
+
+	}
+
+	provinces={
+		952 1137 1590 6904 9776 
+	}
+	manpower=1470000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

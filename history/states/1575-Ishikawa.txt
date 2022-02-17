@@ -1,0 +1,26 @@
+state={
+	id=1575
+	name="STATE_1575"
+	
+	resources={
+		lead = 2.000
+	}
+	
+	provinces={
+		998 7102 10032 
+	}
+	manpower=1389201
+	buildings_max_level_factor=1.000
+	state_category = city
+						history={
+		owner = TOK
+		add_core_of = TOK
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+	}
+		victory_points = {
+		10032 15
+		}
+			}
+}

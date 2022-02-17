@@ -1,0 +1,13 @@
+state={
+	id=1259
+	name="STATE_1259"
+	provinces={
+		2081 9152 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+				history={
+		owner = SOK
+		add_core_of = BOR
+	}
+}

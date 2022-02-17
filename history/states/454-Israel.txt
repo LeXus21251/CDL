@@ -1,0 +1,36 @@
+
+state={
+	id=454
+	name="STATE_454"
+
+	history={
+		owner = TUR
+		buildings = {
+			4206 = {
+				naval_base = 3
+			}
+			1065 = {
+				naval_base = 4
+			}
+
+		}
+		victory_points = {
+			1086 1 
+		}
+		victory_points = {
+			4206 1 
+		}
+		victory_points = {
+			1065 1 
+		}
+		add_core_of = SYR
+
+	}
+
+	provinces={
+		1065 1201 4088 4206 7176 
+	}
+	manpower=933142
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

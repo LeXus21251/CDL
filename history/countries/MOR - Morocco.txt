@@ -1,0 +1,27 @@
+﻿capital = 461
+set_cosmetic_tag = MOR_SPR
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+SPR = {
+		set_autonomy = {
+			target = MOR
+			autonomy_state = autonomy_protectorate
+			freedom_level = 0.5
+		}
+	}
+
+set_politics = {
+	ruling_party = absolutism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+}
+
+recruit_character = MOR_abd_aziz_iv

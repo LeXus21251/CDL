@@ -1,0 +1,16 @@
+state={
+	id=1126
+	name="STATE_1126"
+
+	history={
+		owner = QUE
+
+	}
+
+	provinces={
+		1719 1734 1849 3699 6767 6827 7776 12550 
+	}
+	manpower=890000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

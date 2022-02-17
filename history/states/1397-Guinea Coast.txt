@@ -1,0 +1,16 @@
+state={
+	id=1397
+	name="STATE_1397"
+
+	history={
+		owner = GNA
+		add_core_of = SIE
+
+	}
+
+	provinces={
+		1909 2038 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

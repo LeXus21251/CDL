@@ -1,0 +1,37 @@
+
+state={
+	id=741
+	name="STATE_741"
+	resources={
+		fabrics=5.000
+		wood=8.000
+		coal=3.000
+		rubber=5.000
+	}
+
+	history={
+		add_core_of = CAM
+		owner = CAM
+		victory_points = {
+			7376 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			7432 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1324 4639 7319 7376 7404 7432 10289 10317 12191 12447 12475 
+	}
+	manpower=462523
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

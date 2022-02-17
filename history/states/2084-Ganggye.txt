@@ -1,0 +1,13 @@
+state={
+	id=2084
+	name="STATE_2084"
+	provinces={
+		852 906 978 6963 11775 11828 
+	}
+	history={
+		owner = KOR
+		add_core_of = KOR
+		}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

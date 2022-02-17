@@ -1,0 +1,13 @@
+state={
+	id=1006
+	name="STATE_1006"
+	provinces={
+		3305 
+	}
+	manpower=402854
+	buildings_max_level_factor=1.000
+	state_category=rural
+			history={
+		owner = DEN
+	}
+}

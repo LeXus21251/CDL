@@ -1,0 +1,16 @@
+state={
+	id=2086
+	name="STATE_2086"
+
+	history={
+		owner = MON
+		add_core_of = MON
+
+	}
+
+	provinces={
+		1868 4792 4873 7749 7823 7885 10575 10578 10647 10708 12533 12557 12612 12629 12665 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

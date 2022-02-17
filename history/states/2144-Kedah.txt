@@ -1,0 +1,24 @@
+state={
+	id=2144
+	name="STATE_2144"
+	resources={
+		wood = 7.000
+		steel = 6.000
+	}
+	provinces={
+		7342 12215 
+	}
+	history = {
+		owner = FEI
+		add_core_of = FEI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+	}
+	manpower=548239
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

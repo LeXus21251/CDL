@@ -1,0 +1,16 @@
+state={
+	id=1968
+	name="STATE_1968"
+	provinces={
+		14158 14159 14160 14161 14162 14163 14164 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SNS
+		victory_points = {
+			14159 5
+		}
+
+	}
+}

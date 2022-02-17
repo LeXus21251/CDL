@@ -1,0 +1,26 @@
+
+state={
+	id=185
+	name="STATE_185"
+	resources={
+		steel=14.000
+	}
+
+	history={
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			1205 1
+		}
+	}
+
+	provinces={
+		1205 11786 11895 12001 
+	}
+	manpower=240371
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

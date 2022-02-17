@@ -1,0 +1,18 @@
+﻿l_english:
+
+ ##NAMES
+  TON:0 "Tonga"
+  TON_ADJ:0 "Tongan"
+  TON_DEF:0 "Tonga"
+  
+ ##CTAGS
+  #DLC
+   TON_FRA_autonomy_protectorate: "Kingdom of Tonga"
+  #NO DLC
+   TON_FRA_subject: "Kingdom of Tonga"
+ 
+ ##PARTIES
+  
+ ##IDEAS
+  TON_french_protection:0 "French Protection"
+  TON_french_protection_desc:0 "The tribes on the islands of Tonga were divided until European colonization. Throughout the 19th century there were a series of agreements until the islands finally united in 1845.\n\nThe §tKingdom of Tonga§! successfully resisted colonization so the §BFrench§! government came to the conclusion to create a protectorate. It was proclaimed in 1897 and §OSiaosi Tupou II§! remained king."

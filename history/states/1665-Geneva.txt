@@ -1,0 +1,17 @@
+state={
+	id=1665
+	name="STATE_1665"
+	provinces={
+		13694 
+	}
+	manpower=126374
+	buildings_max_level_factor=1.000
+	state_category = large_town
+	history={
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+		13694 10
+		}
+	}
+}

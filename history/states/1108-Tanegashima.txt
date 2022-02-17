@@ -1,0 +1,17 @@
+state={
+	id=1108
+	name="STATE_1108"
+	provinces={
+		4198 
+	}
+	manpower=49081
+	buildings_max_level_factor=1.000
+	state_category = small_island
+			history={
+		owner = TOK
+		add_core_of = TOK
+		buildings = {
+			infrastructure = 2
+	}
+			}
+}

@@ -1,0 +1,22 @@
+state={
+	id=1313
+	name="STATE_1313"
+
+	history={
+		owner = ABD
+		add_core_of = ABD
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4932 14566 
+	}
+	manpower=2781
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.000
+}

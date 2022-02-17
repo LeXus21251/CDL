@@ -1,0 +1,22 @@
+state={
+	id=916
+	name="STATE_916"
+
+	history={
+		owner = MUS
+		add_core_of = MUS
+		buildings = {
+			infrastructure = 1
+			14552 = {naval_base = 2}
+		}
+
+	}
+
+	provinces={
+		2029 14552 
+	}
+	manpower=46771
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

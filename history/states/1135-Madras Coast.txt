@@ -1,0 +1,26 @@
+state={
+	id=1135
+	name="STATE_1135"
+	resources={
+		coal = 12.000
+		wood = 14.000
+	}
+
+	history={
+		owner = FEI
+		add_core_of = FEI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+		}
+
+	}
+
+	provinces={
+		1344 1430 4321 4365 7310 10152 12180 
+	}
+	manpower=6273612
+	buildings_max_level_factor=1.000
+	state_category=town
+}

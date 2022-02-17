@@ -1,0 +1,16 @@
+characters={
+	PHI_diego_rios={
+		name="Diego de los Rios"
+		portraits={
+			civilian={
+				large="gfx/leaders/PHI/.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarianism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

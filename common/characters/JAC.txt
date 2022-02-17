@@ -1,0 +1,16 @@
+characters={
+	JAC_nakayama_sakura={
+		name="Nakayama Sakura"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAC/Nakayama_Sakura.dds"
+			}
+		}
+		country_leader={
+			ideology=traditionalism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

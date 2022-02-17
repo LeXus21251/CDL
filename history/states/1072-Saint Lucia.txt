@@ -1,0 +1,14 @@
+state={
+	id=1072
+	name="STATE_1072"
+	provinces={
+		13009 
+	}
+	manpower=13000
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+			history={
+		owner = CAY
+                add_core_of = HAI
+	}
+}

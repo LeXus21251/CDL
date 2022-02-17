@@ -1,0 +1,16 @@
+characters={
+	MAR_eugene_debs={
+		name="Eugene Debs"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAR/.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

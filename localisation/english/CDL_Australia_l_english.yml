@@ -1,0 +1,26 @@
+﻿l_english:
+
+ ##NAMES
+  AST:0 "Australia"
+  AST_ADJ:0 "Australian"
+  AST_DEF:0 "Australia"
+  
+ ##CTAGS
+  #DLC
+   AST_FRA_autonomy_dominion: "Kingdom of Nouvelle Hollande"
+  #NO DLC
+   AST_FRA_subject: "Kingdom of Nouvelle Hollande"
+ 
+ ##PARTIES
+  AST_conservatism_party:0 "Parti Loyaliste"
+  AST_nationalism_party:0 "Action Pacifica"
+  AST_liberalism_party:0 "Parti libéral de Nouvelle Hollande"
+  AST_social_cooperatism_party:0 "Parti travailliste de Nouvelle Hollande"
+  
+ ##IDEAS
+  AST_new_kingdom:0 "Colony became kingdom"
+  AST_new_kingdom_desc:0 "In 1902, the metropolitan government decided to raise the status of §CNouvelle Hollande§! from a colony to a kingdom under France as a dominion."
+  AST_queen_regnant:0 "Queen Regnant"
+  AST_queen_regnant_desc:0 "Queen §OMarie-Dorothée§!, became the ruler of the kingdom thanks to her husband §OLouis XIX§!, king of France. despite having de jure power, the state is managed by persons designated for this purpose."
+  AST_native_wars:0 "War with natives"
+  AST_native_wars_desc:0 "From the very beginning, the French treated the indigenous people worse than animals. They were thrown out of more and more lands, murder and exploitation to work in inhuman conditions were the order of the day.\n\n All this time, the aborigines are fighting with the oppressors, and their salvation turned out to be the creation of the §RUnion of Oz§! where they can live with dignity and equality with the whites."

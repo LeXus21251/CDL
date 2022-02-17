@@ -1,0 +1,26 @@
+
+state={
+	id=432
+	name="STATE_432"
+	resources={
+		oil=5.000
+	}
+
+	history={
+		owner = BAN
+		add_core_of = BAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		7455 12366 12395 13560 13561 13562 
+	}
+	manpower=3816352
+	buildings_max_level_factor=1.000
+	state_category=village
+}

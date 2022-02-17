@@ -1,0 +1,14 @@
+state={
+	id=1145
+	name="STATE_1145"
+	provinces={
+		1992 4889 7978 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+		history={
+		owner = CMR
+		add_core_of = CMR
+	}
+}

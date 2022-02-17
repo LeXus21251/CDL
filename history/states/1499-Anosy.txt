@@ -1,0 +1,15 @@
+state={
+	id=1499
+	name="STATE_1499"
+
+	history={
+		owner = MON
+
+	}
+
+	provinces={
+		4777 7773 7843 10563 10669 12520 12695 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

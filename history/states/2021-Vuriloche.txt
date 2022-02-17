@@ -1,0 +1,13 @@
+state={
+	id=2021
+	name="STATE_2021"
+	provinces={
+		2199 8161 8192 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = MAP
+
+	}
+}

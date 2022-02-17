@@ -1,0 +1,25 @@
+
+state={
+	id=212
+	name="STATE_212"
+	resources={
+	}
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+		878 3
+		}
+	}
+
+	provinces={
+		878 893 13689 
+	}
+	manpower=131264
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

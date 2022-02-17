@@ -1,0 +1,24 @@
+state={
+	id=1493
+	name="STATE_1493"
+	provinces={
+		13565 
+	}
+	manpower=87281
+	buildings_max_level_factor=1.000
+	state_category = village
+			history={
+		owner = KUW
+		add_core_of KUW
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			10840 = {naval_base = 4}
+
+		}
+		victory_points = {
+		8085 10
+		}
+	}
+}

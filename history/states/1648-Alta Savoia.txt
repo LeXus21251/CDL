@@ -1,0 +1,19 @@
+state={
+	id=1648
+	name="STATE_1648"
+	provinces={
+		778 9603 11573 
+	}
+	manpower=403984
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+	owner = SAR
+	add_core_of = SAR
+	add_core_of = FRA
+	add_core_of = SAV
+		victory_points = {
+		778 3
+		}
+	}
+}

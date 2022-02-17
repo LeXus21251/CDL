@@ -1,0 +1,17 @@
+state={
+	id=2141
+	name="STATE_2141"
+
+	history={
+		owner = RUS
+		add_core_of = TMS
+
+	}
+
+	provinces={
+		7491 7602 10510 12333 12359 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

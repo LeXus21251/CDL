@@ -1,0 +1,26 @@
+
+state={
+	id=679
+	name="STATE_679"
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = HEJ
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1033 2027 2095 8092 10835 12101 14603 
+	}
+	manpower=436228
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

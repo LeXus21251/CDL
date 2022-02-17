@@ -1,0 +1,27 @@
+state={
+	id=823
+	name="STATE_823"
+	resources={
+		rubber=7.000
+		oil=13.000
+		steel = 16.000
+		wood = 9.000
+	}
+
+	history = {
+		owner = VOC
+		add_core_of = VOC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+
+	provinces={
+		1413 4390 10491 12277 12293 
+	}
+	manpower=4733821
+	buildings_max_level_factor=1.000
+	state_category=village
+}

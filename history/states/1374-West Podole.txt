@@ -1,0 +1,18 @@
+state={
+	id=1374
+	name="STATE_1374"
+
+	history={
+		owner = POL
+		add_core_of = POL
+
+	}
+
+	provinces={
+		466 3434 6522 13749 
+	}
+	manpower=372617
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

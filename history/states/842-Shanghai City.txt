@@ -1,0 +1,16 @@
+state={
+	id=842
+	name="STATE_842"
+
+	history={
+		owner = QIN
+
+	}
+
+	provinces={
+		7014 10034 10076 12052 12076 
+	}
+	manpower=8341000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

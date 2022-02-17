@@ -1,0 +1,14 @@
+state={
+	id=2194
+	name="STATE_2194"
+	provinces={
+		7584 7984 10852 12248 12877 
+	}
+	history={
+		owner = AFG
+		add_core_of = UZB
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=960
+	name="STATE_960"
+
+	history={
+		owner = SNS
+
+	}
+
+	provinces={
+		1060 1140 10785 11951 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

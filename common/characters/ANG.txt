@@ -1,0 +1,16 @@
+characters={
+	ANG_henrique_couceiro={
+		name="Henrique de Paiva Couceiro"
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/.dds"
+			}
+		}
+		country_leader={
+			ideology=traditionalism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

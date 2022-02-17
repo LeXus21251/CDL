@@ -1,0 +1,15 @@
+state={
+	id=1276
+	name="STATE_1276"
+
+	history={
+		owner = ZAM
+
+	}
+
+	provinces={
+		191 4515 10594 13244 13387 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

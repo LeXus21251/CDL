@@ -1,0 +1,13 @@
+state={
+	id=1240
+	name="STATE_1240"
+	provinces={
+		13343 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+			history={
+		owner = GNA
+		add_core_of = LIB
+	}
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=771
+	name="STATE_771"
+	resources={
+		tungsten=8.000
+	}
+
+	history={
+		owner = ZAM
+		add_core_of = ZAM
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		697 1968 8054 
+	}
+	manpower=7080089
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

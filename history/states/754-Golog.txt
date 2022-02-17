@@ -1,0 +1,17 @@
+
+state={
+	id=754
+	name="STATE_754"
+
+	history={
+		owner = QIN
+
+	}
+
+	provinces={
+		4536 10490 12732 12815 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

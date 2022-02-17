@@ -1,0 +1,13 @@
+state={
+	id=1960
+	name="STATE_1960"
+	provinces={
+		1057 4191 7985 10104 14140 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SNS
+
+	}
+}

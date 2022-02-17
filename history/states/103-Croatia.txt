@@ -1,0 +1,23 @@
+
+state={
+	id=103
+	name="STATE_103"
+
+	history={
+		owner = VNC
+		add_core_of = VNC
+		add_core_of = DAL
+		add_claim_by = CRO
+		add_claim_by = SER
+		victory_points = {
+		3924 5
+		}
+	}
+
+	provinces={
+		984 3924 3974 11901 13638 13639 
+	}
+	manpower=246874
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

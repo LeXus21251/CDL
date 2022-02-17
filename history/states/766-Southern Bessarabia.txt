@@ -1,0 +1,22 @@
+
+state={
+	id=766
+	name="STATE_766"
+
+	history={
+		victory_points = {
+			6727 1 
+		}
+		add_core_of = RUS
+		add_claim_by = MOL
+		owner = RUS
+
+	}
+
+	provinces={
+		6727 6743 
+	}
+	manpower=566600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,21 @@
+state={
+	id=1024
+	name="STATE_1024"
+
+	history={
+		owner = PRM
+		add_core_of = PRM
+		add_core_of = MOD
+		victory_points = {
+			3976 7 
+		}
+
+	}
+
+	provinces={
+		3976 9752 
+	}
+	manpower=621947
+	buildings_max_level_factor=1.000
+	state_category=city
+}

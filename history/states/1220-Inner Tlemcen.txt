@@ -1,0 +1,16 @@
+state={
+	id=1220
+	name="STATE_1220"
+
+	history={
+		owner = TOU
+		victory_points = {9960 5}
+
+	}
+
+	provinces={
+		1126 1967 4018 4970 5053 7149 8077 9943 9960 12888 13074 13821 13822 13823 13824 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

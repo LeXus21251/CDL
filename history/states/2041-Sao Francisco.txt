@@ -1,0 +1,16 @@
+
+state={
+	id=2041
+	name="STATE_2041"
+
+	history={
+		owner = BRA
+
+	}
+
+	provinces={
+		5174 5194 5218 8129 8177 10926 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

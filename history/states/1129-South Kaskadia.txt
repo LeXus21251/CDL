@@ -1,0 +1,15 @@
+state={
+	id=1129
+	name="STATE_1129"
+
+	history={
+		owner = CAS
+	}
+
+	provinces={
+		1393 1408 1858 4385 4413 4428 7753 7853 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

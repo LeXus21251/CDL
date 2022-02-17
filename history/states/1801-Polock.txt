@@ -1,0 +1,14 @@
+state={
+	id=1801
+	name="STATE_1801"
+	provinces={
+		3219 6249 6326 9323 
+	}
+	manpower=278119
+	buildings_max_level_factor=1.000
+	state_category = town
+	history={
+		owner = LIT
+		add_core_of = LIT
+	}
+}

@@ -1,0 +1,18 @@
+state={
+	id=1000
+	name="STATE_1000"
+	provinces={
+		44 91 3058 3082 3145 6130 11050 11090 
+	}
+	manpower=68365
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	history={
+		owner = DEN
+		add_core_of = NOR
+		add_core_of = DEN
+		victory_points = {
+			11050 3
+		}
+	}
+}

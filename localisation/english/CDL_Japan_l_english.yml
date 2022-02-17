@@ -1,0 +1,22 @@
+﻿l_english:
+
+ ##NAMES
+  JAP:0 "Japan"
+  JAP_ADJ:0 "Japanese"
+  JAP_DEF:0 "Japan"
+  JAP_absolutism:0 "Empire of Japan"
+  JAP_DEF_absolutism:0 "Empire of Japan"
+  
+ ##CTAGS
+ 
+ ##PARTIES
+  
+ ##IDEAS
+  daimyo_nation:0 "Daimyo Nation"
+  daimyo_nation_desc:0 "Japanese islands contains many smaller feudal lords - daimyos who may not agree with the overlord"
+  sakoku_edict:0 "Sakoku Edict"
+  sakoku_edict_desc:0 "Islands are closed since 1635. International trade can only be done on the special §1Dejima island§! and it's still very limited. \n\nAnyone who try to enter or leave island without permission will be executed or imprisoned in a milder case."
+  bushido:0 "Bushidō"
+  bushido_desc:0 "§OBushidō§! is an unwritten set of rules that every honorary samurai follows. It is about following perfection and moral rules. Samurai fight whether or not they may die."
+  JAP_emperor:0 "Nihon belongs to Emperor"
+  JAP_emperor_desc:0 "Many believe that the §OEmperor§!, not the Shogun, is the only true ruler of §WJapan§!. They will ruthlessly fight for the victory of their true leader."

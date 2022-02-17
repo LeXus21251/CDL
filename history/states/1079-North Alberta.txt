@@ -1,0 +1,16 @@
+state={
+	id=1079
+	name="STATE_1079"
+
+	history={
+		owner = CAN
+
+	}
+
+	provinces={
+		515 1763 1804 3010 6726 6754 6779 7348 7766 7787 10684 12166 12534 
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

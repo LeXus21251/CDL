@@ -1,0 +1,23 @@
+﻿capital = 2
+
+oob = "ITA_1936"
+set_research_slots = 4
+set_stability = 0.6
+set_war_support = 0.7
+add_ideas = {
+}
+
+
+
+
+set_convoys = 200
+
+set_politics = {
+	ruling_party = social_cooperatism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+}
+

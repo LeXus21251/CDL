@@ -1,0 +1,25 @@
+
+state={
+	id=117
+	name="STATE_117"
+	resources={
+		aluminium=10.000
+		steel=15.000
+	}
+
+	history={
+		owner = SIC
+		add_core_of = SIC
+		add_core_of = NAP
+		victory_points = {
+			955 7
+	}
+	}
+
+	provinces={
+		851 955 3958 11803 
+	}
+	manpower=989271
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,15 @@
+state={
+	id=1773
+	name="STATE_1773"
+	provinces={
+		3547 11470 11494 
+	}
+	manpower=682922
+	buildings_max_level_factor=1.000
+	state_category = large_town
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = TRR
+	}
+}

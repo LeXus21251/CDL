@@ -1,0 +1,16 @@
+characters={
+	SAR_victor_emmanuel_iii={
+		name="Victor Emmanuel III"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAR/Victor_Emmanuel_III.dds"
+			}
+		}
+		country_leader={
+			ideology=social_cooperatism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

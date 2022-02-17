@@ -1,0 +1,29 @@
+
+state={
+	id=320
+	name="STATE_320"
+	resources={
+		steel = 6.000
+		aluminium = 6.000
+		lead = 4.000
+		rubber = 12.000
+	}
+
+	history={
+		owner = FEI
+		add_core_of = FEI
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+
+		}
+
+	}
+
+	provinces={
+		1381 10149 12164 
+	}
+	manpower=5387192
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

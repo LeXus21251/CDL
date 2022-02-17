@@ -1,0 +1,13 @@
+state={
+	id=2019
+	name="STATE_2019"
+	provinces={
+		10981 12321 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = MAP
+
+	}
+}

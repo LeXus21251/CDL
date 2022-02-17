@@ -1,0 +1,30 @@
+state={
+	id=1327
+	name="STATE_1327"
+	resources={
+		aluminium = 8.400
+		fabrics = 2.500
+	}
+
+	history = {
+		owner = LAN
+		add_core_of = LAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			
+			13430 = {naval_base = 1}
+		}
+		victory_points = {
+			4279 3
+		}
+	}
+
+	provinces={
+		1230 1304 1316 2170 2222 4279 4335 12129 13430 13431 13433 
+	}
+	manpower= 1067228
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

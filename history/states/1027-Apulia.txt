@@ -1,0 +1,26 @@
+state={
+	id=1027
+	name="STATE_1027"
+
+	history={
+		owner = SIC
+		add_core_of = SIC
+		add_core_of = NAP
+		victory_points = {
+			11837 15 
+		}
+		buildings = {
+			11837 = {
+				naval_base = 4
+			}
+		}
+
+	}
+
+	provinces={
+		6979 11837 11998 
+	}
+	manpower=625325
+	buildings_max_level_factor=1.000
+	state_category=city
+}

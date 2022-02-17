@@ -1,0 +1,15 @@
+state={
+	id=1286
+	name="STATE_1286"
+	provinces={
+		6020 10761 10976 13383 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={
+		owner = KEN
+		victory_points = {
+			13383 3 
+		}
+	}
+}

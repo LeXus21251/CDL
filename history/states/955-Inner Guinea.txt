@@ -1,0 +1,17 @@
+state={
+	id=955
+	name="STATE_955"
+
+	history={
+		owner = MLI
+		add_core_of = MSS
+
+	}
+
+	provinces={
+		8116 12851 14401 
+	}
+	manpower=1450000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

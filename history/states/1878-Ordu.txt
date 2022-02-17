@@ -1,0 +1,14 @@
+state={
+	id=1878
+	name="STATE_1878"
+	provinces={
+		960 975 3965 11894 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = TUR
+		add_core_of = PON
+
+	}
+}

@@ -1,0 +1,16 @@
+characters={
+	TRP_recep_pasha={
+		name="Recep Pasha"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRP/Recep_Pasha.dds"
+			}
+		}
+		country_leader={
+			ideology=absolutism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

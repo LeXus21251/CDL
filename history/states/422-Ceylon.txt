@@ -1,0 +1,31 @@
+state=
+{
+	id=422
+	name="STATE_422"
+	manpower = 4725192
+	
+	state_category = town
+
+	resources={
+		rubber= 19.000
+		wood = 13.000
+		fabrics = 15.000
+	}
+
+	history={
+		add_core_of = VOC
+		owner = VOC
+		victory_points = {10201 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			10201 = {naval_base = 1}
+			7260 = {naval_base = 2}
+		}
+
+	}
+	
+	provinces={
+		1213 4219 7260 7344 10201 10229 10287 12258 
+	}
+}

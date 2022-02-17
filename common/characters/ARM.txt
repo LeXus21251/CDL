@@ -1,0 +1,16 @@
+characters={
+	ARM_andranik_ozanian={
+		name="Andranik Ozanian"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARM/Andranik_Ozanian.dds"
+			}
+		}
+		country_leader={
+			ideology=social_cooperatism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

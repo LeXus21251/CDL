@@ -1,0 +1,16 @@
+state={
+	id=941
+	name="STATE_941"
+
+	history={
+		owner = KEN
+
+	}
+
+	provinces={
+		11014 12941 13306 
+	}
+	manpower=900000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

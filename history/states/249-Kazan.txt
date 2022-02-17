@@ -1,0 +1,38 @@
+
+state={
+	id=249
+	name="STATE_249"
+	resources={
+		steel=25.000
+	}
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+
+		}
+		victory_points = {
+			6338 10 
+		}
+		add_core_of = RUS
+		add_core_of = CHU
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		372 3315 3365 6338 9354 11243 11292 11356 
+	}
+	manpower=2761291
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

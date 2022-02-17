@@ -1,0 +1,17 @@
+
+state={
+	id=180
+	name="STATE_180"
+
+	history={
+		owner = POR
+		add_core_of = POR
+	}
+
+	provinces={
+		724 877 3892 6921 6941 11673 
+	}
+	manpower=820331
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

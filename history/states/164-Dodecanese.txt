@@ -1,0 +1,22 @@
+state=
+{
+	id=164
+	name="STATE_164"
+	manpower = 91226
+	
+	state_category = small_island
+	
+	history=
+	{
+		owner = TUR
+		add_core_of = GRE
+		add_claim_by = TUR
+		add_claim_by = VNC
+		victory_points = {
+			10007 1 
+		}
+	}
+	provinces=
+	{
+7003 10007 	}
+}

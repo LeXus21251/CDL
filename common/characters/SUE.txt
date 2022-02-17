@@ -1,0 +1,16 @@
+characters={
+	SUE_suez_government={
+		name="Suez Zone International Government"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUE/suez_government.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarianism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

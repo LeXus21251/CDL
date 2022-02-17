@@ -1,0 +1,16 @@
+state={
+	id=1260
+	name="STATE_1260"
+
+	history={
+		owner = CAR
+		add_core_of = RAF
+
+	}
+
+	provinces={
+		12719 13307 13361 13362 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

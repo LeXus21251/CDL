@@ -1,0 +1,16 @@
+state={
+	id=1966
+	name="STATE_1966"
+
+	history={
+		owner = SNS
+
+	}
+
+	provinces={
+		12733 13276 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,29 @@
+state={
+	id=824
+	name="STATE_824"
+	resources={
+		oil = 3.500
+		wood = 6.500
+	}
+
+	history = {
+		owner = ACE
+		add_core_of = ACE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			7658 = {naval_base = 1}
+		}
+		victory_points = {
+			7658 3
+		}
+	}
+
+	provinces={
+		7658 10509 12488 13456 
+	}
+	manpower=689201
+	buildings_max_level_factor=1.000
+	state_category=town
+}

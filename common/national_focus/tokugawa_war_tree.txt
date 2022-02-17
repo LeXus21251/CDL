@@ -1,0 +1,597 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = tokugawa_war_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TOK
+		}
+	}
+	default = no 
+	## WAR ##
+	focus = {
+		id = focus_TOK_itsushi_war
+		icon = GFX_focus_TOK_itsushi_war
+		cost = 10.00
+		x = 30
+		y = 0
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_north_remember
+		icon = GFX_focus_TOK_north_remember
+		cost = 10.00
+		x = 30
+		y = 2
+		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_itsushi_war
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_yamashiro_defensives
+		icon = GFX_focus_TOK_yamashiro_defensives
+		cost = 10.00
+		x = 28
+		y = 3
+		search_filters = {FOCUS_FILTER_MANPOWER}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_north_remember
+		}
+		mutually_exclusive = {
+			focus = focus_TOK_move_emperor_to_edo
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_move_emperor_to_edo
+		icon = GFX_focus_TOK_move_emperor_to_edo
+		cost = 10.00
+		x = 32
+		y = 3
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_north_remember
+		}
+		mutually_exclusive = {
+			focus = focus_TOK_yamashiro_defensives
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_cleanse_of_kansai
+		icon = GFX_focus_TOK_cleanse_of_kansai
+		cost = 10.00
+		x = 30
+		y = 4
+		search_filters = {FOCUS_FILTER_ANNEXATION FOCUS_FILTER_WAR_SUPPORT}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_yamashiro_defensives
+			focus = focus_TOK_move_emperor_to_edo
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_second_invasion_of_shikoku
+		icon = GFX_focus_TOK_second_invasion_of_shikoku
+		cost = 10.00
+		x = 28
+		y = 5
+		search_filters = {FOCUS_FILTER_ANNEXATION FOCUS_FILTER_WAR_SUPPORT}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_cleanse_of_kansai
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_push_them_out_of_honshu
+		icon = GFX_focus_TOK_push_them_out_of_honshu
+		cost = 10.00
+		x = 32
+		y = 5
+		search_filters = {FOCUS_FILTER_ANNEXATION FOCUS_FILTER_WAR_SUPPORT}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_cleanse_of_kansai
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_fall_of_satsuma
+		icon = GFX_focus_TOK_fall_of_satsuma
+		cost = 10.00
+		x = 30
+		y = 6
+		search_filters = {FOCUS_FILTER_ANNEXATION}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_second_invasion_of_shikoku
+		}
+		prerequisite = {
+			focus = focus_TOK_push_them_out_of_honshu
+		}
+		completion_reward = {
+		
+
+	}
+	
+	}
+	focus = {
+		id = focus_TOK_war_is_over
+		icon = GFX_focus_TOK_war_is_over
+		cost = 10.00
+		x = 30
+		y = 7
+		search_filters = {FOCUS_FILTER_ANNEXATION FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY}
+		
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_fall_of_satsuma
+		}
+		completion_reward = {
+		
+
+	}
+	
+	}
+	## DUTCH ##
+	focus = {
+		id = focus_TOK_dutch_missions
+		icon = GFX_focus_TOK_dutch_missions
+		cost = 10.00
+		x = 22
+		y = 1
+		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_itsushi_war
+		}
+		mutually_exclusive = {
+			focus = focus_TOK_expel_the_barbarians
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_dutch_military_mission
+		icon = GFX_focus_TOK_dutch_military_mission
+		cost = 10.00
+		x = 25
+		y = 2
+		search_filters = {FOCUS_FILTER_MANPOWER}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_dutch_missions
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_new_old_guns
+		icon = GFX_focus_TOK_new_old_guns
+		cost = 10.00
+		x = 25
+		y = 3
+		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_dutch_military_mission
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_arm_contracts
+		icon = GFX_focus_TOK_arm_contracts
+		cost = 10.00
+		x = 25
+		y = 4
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_new_old_guns
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_dutch_industrial_mission
+		icon = GFX_focus_TOK_dutch_industrial_mission
+		cost = 10.00
+		x = 19
+		y = 2
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_dutch_missions
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_dutch_investors
+		icon = GFX_focus_TOK_dutch_investors
+		cost = 10.00
+		x = 19
+		y = 3
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_dutch_industrial_mission
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_edo_industrial_complex
+		icon = GFX_focus_TOK_edo_industrial_complex
+		cost = 10.00
+		x = 19
+		y = 4
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_dutch_investors
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_denshutai
+		icon = GFX_focus_TOK_denshutai
+		cost = 10.00
+		x = 22
+		y = 3
+		search_filters = {FOCUS_FILTER_MANPOWER}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_dutch_investors
+		}
+		prerequisite = {
+			focus = focus_TOK_new_old_guns
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_peasant_army
+		icon = GFX_focus_TOK_peasant_army
+		cost = 10.00
+		x = 22
+		y = 5
+		search_filters = {FOCUS_FILTER_MANPOWER FOCUS_FILTER_WAR_SUPPORT}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_denshutai
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_the_way_of_the_west
+		icon = GFX_focus_TOK_the_way_of_the_west
+		cost = 10.00
+		x = 22
+		y = 6
+		search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_peasant_army
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	
+	## TRADITION ##
+	focus = {
+		id = focus_TOK_expel_the_barbarians
+		icon = GFX_focus_TOK_expel_the_barbarians
+		cost = 10.00
+		x = 38
+		y = 1
+		search_filters = {FOCUS_FILTER_STABILITY}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_itsushi_war
+		}
+		mutually_exclusive = {
+			focus = focus_TOK_dutch_missions
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_strenghten_the_shugo_system
+		icon = GFX_focus_TOK_strenghten_the_shugo_system
+		cost = 10.00
+		x = 41
+		y = 2
+		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_expel_the_barbarians
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_warrior_and_the_landlord
+		icon = GFX_focus_TOK_warrior_and_the_landlord
+		cost = 10.00
+		x = 41
+		y = 3
+		search_filters = {FOCUS_FILTER_MANPOWER FOCUS_FILTER_RESEARCH}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_strenghten_the_shugo_system
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_our_soil
+		icon = GFX_focus_TOK_our_soil
+		cost = 10.00
+		x = 41
+		y = 4
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_warrior_and_the_landlord
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_bow_over_the_muskeet
+		icon = GFX_focus_TOK_bow_over_the_muskeet
+		cost = 10.00
+		x = 35
+		y = 2
+		search_filters = {FOCUS_FILTER_MANPOWER FOCUS_FILTER_WAR_SUPPORT}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_expel_the_barbarians
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_revive_the_spirit
+		icon = GFX_focus_TOK_revive_the_spirit
+		cost = 10.00
+		x = 35
+		y = 3
+		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_bow_over_the_muskeet
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_our_traditions
+		icon = GFX_focus_TOK_our_traditions
+		cost = 10.00
+		x = 35
+		y = 4
+		search_filters = {FOCUS_FILTER_MANPOWER}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_revive_the_spirit
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_devils_of_edo
+		icon = GFX_focus_TOK_devils_of_edo
+		cost = 10.00
+		x = 38
+		y = 3
+		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_revive_the_spirit
+		}
+		prerequisite = {
+			focus = focus_TOK_warrior_and_the_landlord
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_nobles_army
+		icon = GFX_focus_TOK_nobles_army
+		cost = 10.00
+		x = 38
+		y = 5
+		search_filters = {FOCUS_FILTER_MANPOWER}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_devils_of_edo
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = focus_TOK_the_way_samurai
+		icon = GFX_focus_TOK_the_way_samurai
+		cost = 10.00
+		x = 38
+		y = 6
+		search_filters = {FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_POLITICAL}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = focus_TOK_nobles_army
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	
+}

@@ -1,0 +1,17 @@
+state={
+	id=1169
+	name="STATE_1169"
+	provinces={
+		13257 
+	}
+	manpower=15273
+	buildings_max_level_factor=1.000
+	state_category = large_town
+				history={
+		owner = SNM
+		add_core_of = SNM
+		victory_points = {
+		13257 3
+		}
+	}
+}

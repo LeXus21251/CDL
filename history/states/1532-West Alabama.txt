@@ -1,0 +1,15 @@
+state={
+	id=1532
+	name="STATE_1532"
+
+	history={
+		owner = CHE
+
+	}
+
+	provinces={
+		10192 13249 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

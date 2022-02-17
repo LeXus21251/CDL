@@ -1,0 +1,15 @@
+state={
+	id=1787
+	name="STATE_1787"
+	provinces={
+		6375 9346 
+	}
+	manpower=77683
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history={
+		owner = PRE
+		add_core_of = PRE
+		add_core_of = POL
+	}
+}

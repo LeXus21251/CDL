@@ -1,0 +1,14 @@
+state={
+	id=1811
+	name="STATE_1811"
+	provinces={
+		535 3496 6520 6579 11503 
+	}
+	manpower=368991
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history={
+		owner = LIT
+		add_core_of = LIT
+	}
+}

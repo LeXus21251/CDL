@@ -1,0 +1,23 @@
+state={
+	id=1361
+	name="STATE_1361"
+
+	history={
+		owner = RML
+		add_core_of = RML
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			9837 2 
+		}
+
+	}
+
+	provinces={
+		9837 
+	}
+	manpower=113291
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

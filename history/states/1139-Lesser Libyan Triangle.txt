@@ -1,0 +1,16 @@
+state={
+	id=1139
+	name="STATE_1139"
+
+	history={
+		owner = QIN
+
+	}
+
+	provinces={
+		13647 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

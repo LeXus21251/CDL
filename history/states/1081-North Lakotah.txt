@@ -1,0 +1,13 @@
+state={
+	id=1081
+	name="STATE_1081"
+	provinces={
+		1262 3769 7718 10552 
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+			history={
+		owner = LOU
+		}
+}

@@ -1,0 +1,19 @@
+
+state={
+	id=10
+	name="STATE_10"
+
+	history={
+		owner = POL
+		add_core_of = POL
+
+	}
+
+	provinces={
+		548 3482 9400 11492 
+	}
+	manpower=1492732
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

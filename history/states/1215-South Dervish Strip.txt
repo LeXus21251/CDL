@@ -1,0 +1,15 @@
+state={
+	id=1215
+	name="STATE_1215"
+
+	history={
+		owner = SOM
+
+	}
+
+	provinces={
+		1964 12840 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

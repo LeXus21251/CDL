@@ -1,0 +1,20 @@
+
+state={
+	id=371
+	name="STATE_371"
+	resources={
+		oil=44.000
+	}
+
+	history={
+		owner = LOU
+
+	}
+
+	provinces={
+		1528 1643 4507 4535 12313 12401 
+	}
+	manpower=2101592
+	buildings_max_level_factor=1.000
+	state_category=city
+}

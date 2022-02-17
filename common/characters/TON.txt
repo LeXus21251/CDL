@@ -1,0 +1,16 @@
+characters={
+	TON_siaosi_tupou_ii={
+		name="Siaosi Tupou II"
+		portraits={
+			civilian={
+				large="gfx/leaders/TON/Siaosi_Tupou_II.dds"
+			}
+		}
+		country_leader={
+			ideology=absolutism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

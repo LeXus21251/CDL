@@ -1,0 +1,13 @@
+state={
+	id=1147
+	name="STATE_1147"
+	provinces={
+		1752 1836 4772 4880 7862 10685 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+		state_category=rural
+				history={
+		owner = LOU
+		}
+}

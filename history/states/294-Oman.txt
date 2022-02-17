@@ -1,0 +1,24 @@
+
+state={
+	id=294
+	name="STATE_294"
+
+	history={
+		owner = OMA
+		add_core_of = OMA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = {13418 5 }
+
+	}
+
+	provinces={
+		5049 13416 13417 13418 13420 14560 
+	}
+	manpower=94723
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

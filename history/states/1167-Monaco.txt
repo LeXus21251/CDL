@@ -1,0 +1,22 @@
+state={
+	id=1167
+	name="STATE_1167"
+	provinces={
+		13259
+	}
+	manpower=25837
+	buildings_max_level_factor=1.000
+	state_category = large_town
+						history={
+		owner = MNC
+		add_core_of = MNC
+		victory_points = {
+		13259 3
+		}
+		buildings = {
+			13259 = {
+				naval_base = 3
+			}
+		}
+	}
+}

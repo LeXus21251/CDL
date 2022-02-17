@@ -1,0 +1,16 @@
+characters={
+	MAP_tribe={
+		name="Mapuche Tribal Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAP/Mapuche_council.dds"
+			}
+		}
+		country_leader={
+			ideology=traditionalism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,16 @@
+state={
+	id=1531
+	name="STATE_1531"
+
+	history={
+		owner = CRE
+		victory_points = {492 5}
+
+	}
+
+	provinces={
+		492 1587 4622 4756 7422 13248 13616 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

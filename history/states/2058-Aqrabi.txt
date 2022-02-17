@@ -1,0 +1,18 @@
+state={
+	id=2058
+	name="STATE_2058"
+	provinces={
+		14304 
+	}
+	history={
+		owner = ADE
+		add_core_of = ADE
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	manpower=2617
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

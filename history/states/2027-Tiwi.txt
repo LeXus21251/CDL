@@ -1,0 +1,18 @@
+state={
+	id=2027
+	name="STATE_2027"
+	provinces={
+		10276 12246 
+	}
+	manpower=82172
+	buildings_max_level_factor=1.000
+	state_category = small_island
+	history={
+		owner = OSS
+		add_core_of = OSS
+	buildings = {
+	infrastructure = 1
+	}
+
+	}
+}

@@ -1,0 +1,25 @@
+state={
+	id=1899
+	name="STATE_1899"
+
+	history={
+		owner = DEN
+		add_core_of = KAA
+		add_claim_by = DEN
+		add_claim_by = NOR
+		victory_points = {14038 1}
+		buildings = {
+			infrastructure = 1
+			14038 = {naval_base = 1}
+
+		}
+
+	}
+
+	provinces={
+		10636 13066 14035 14036 14037 14038 
+	}
+	manpower=2331
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -1,0 +1,16 @@
+state={
+	id=925
+	name="STATE_925"
+
+	history={
+		owner = BOT
+
+	}
+
+	provinces={
+		12940 13245 
+	}
+	manpower=1450000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

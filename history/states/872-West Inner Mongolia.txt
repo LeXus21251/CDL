@@ -1,0 +1,15 @@
+state={
+	id=872
+	name="STATE_872"
+
+	history={
+		owner = QIN
+	}
+
+	provinces={
+		13645 
+	}
+	manpower=34000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=116
+	name="STATE_116"
+
+	history={
+		owner = MLT
+		add_core_of = MLT
+		victory_points = {
+			12003 5 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			12003 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		12003 13764 
+	}
+	manpower=221621
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

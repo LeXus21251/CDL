@@ -1,0 +1,23 @@
+
+state={
+	id=775
+	name="STATE_775"
+
+	history={
+		owner = SNS
+		add_core_of = CHA
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		4902 13282 
+	}
+	manpower=18744
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

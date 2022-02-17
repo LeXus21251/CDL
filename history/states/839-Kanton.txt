@@ -1,0 +1,13 @@
+state={
+	id=839
+	name="STATE_839"
+	provinces={
+		1047 
+	}
+	manpower=3250000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+				history={
+		owner = QIN
+	}
+}

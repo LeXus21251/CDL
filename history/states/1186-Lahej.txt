@@ -1,0 +1,18 @@
+state={
+	id=1186
+	name="STATE_1186"
+	provinces={
+		13269 
+	}
+	manpower=17251
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+				history={
+		owner = ADE
+		add_core_of = ADE
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+}

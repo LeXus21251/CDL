@@ -1,0 +1,21 @@
+state={
+	id=2031
+	name="STATE_2031"
+	resources={
+		oil=4.000
+	}
+	provinces={
+		5138 10969 
+	}
+	manpower=4722
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history={
+		owner = OSS
+		add_core_of = OSS
+	buildings = {
+	infrastructure = 1
+	}
+
+	}
+}

@@ -1,0 +1,25 @@
+state={
+	id=1341
+	name="STATE_1341"
+	resources={
+		rubber=6.000
+		oil=10.000
+		coal = 13.000
+	}
+
+	history = {
+		owner = VOC
+		add_core_of = VOC
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		1345 1373 1533 4364 4381 10294 12268 12415 
+	}
+	manpower=1137291
+	buildings_max_level_factor=1.000
+	state_category = town
+}

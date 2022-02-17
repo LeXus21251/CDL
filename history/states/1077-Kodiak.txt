@@ -1,0 +1,16 @@
+state={
+	id=1077
+	name="STATE_1077"
+
+	history={
+		owner = ALA
+
+	}
+
+	provinces={
+		1135 10694 12661 13090 
+	}
+	manpower=30000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

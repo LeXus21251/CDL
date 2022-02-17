@@ -1,0 +1,13 @@
+state={
+	id=2164
+	name="STATE_2164"
+	provinces={
+		873 951 3823 10343 11873 11888 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history={
+		owner = VIR
+	}
+}

@@ -1,0 +1,15 @@
+state={
+	id=1301
+	name="STATE_1301"
+
+	history={
+		owner = ANG
+
+	}
+
+	provinces={
+		4735 10538 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

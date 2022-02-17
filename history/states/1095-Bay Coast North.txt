@@ -1,0 +1,17 @@
+state={
+	id=1095
+	name="STATE_1095"
+
+	history={
+		owner = CAN
+		victory_points = {761 5 }
+
+	}
+
+	provinces={
+		761 1299 1782 4784 4869 7794 9740 10621 12701 13878 
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

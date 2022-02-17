@@ -1,0 +1,15 @@
+state={
+	id=2159
+	name="STATE_2159"
+	provinces={
+		3917 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history={
+		owner = MAR
+		add_claim_by = VIR
+
+	}
+}

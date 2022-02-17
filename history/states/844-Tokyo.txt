@@ -1,0 +1,29 @@
+state={
+	id=844
+	name="STATE_844"
+
+	history={
+		owner = TOK
+		add_core_of = TOK
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			dockyard = 2
+
+		}
+		victory_points = {
+			1182 50 
+		}
+		victory_points = {
+			9998 5 
+		}
+
+	}
+
+	provinces={
+		1182 9998 14381 14382 
+	}
+	manpower=4021672
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

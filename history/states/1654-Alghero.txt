@@ -1,0 +1,24 @@
+state={
+	id=1654
+	name="STATE_1654"
+	provinces={
+		13691 
+	}
+	manpower=42735
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+	owner = SAR
+	add_core_of = SAR
+	add_core_of = SPR
+	add_core_of = CAT
+		victory_points = {
+		13691 3
+		}
+		buildings = {
+			13691 = {
+				naval_base = 2
+			}
+		}
+	}
+}

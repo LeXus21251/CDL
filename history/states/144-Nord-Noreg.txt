@@ -1,0 +1,25 @@
+
+state={
+	id=144
+	name="STATE_144"
+	resources={
+		steel=9.000
+		tungsten=15.000
+	}
+
+	history={
+		owner = DEN
+		add_core_of = NOR
+		add_core_of = DEN
+		victory_points = {
+			192 2
+		}
+	}
+
+	provinces={
+		38 173 192 3034 3048 3088 3126 3132 6071 6111 6187 6214 9126 9208 11157 
+	}
+	manpower=89201
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

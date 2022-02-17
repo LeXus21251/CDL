@@ -1,0 +1,14 @@
+state={
+	id=953
+	name="STATE_953"
+	provinces={
+		12785 
+	}
+	manpower=345000
+	buildings_max_level_factor=1.000
+	state_category=rural
+			history={
+		owner = TOG
+		add_core_of = TOG
+	}
+}

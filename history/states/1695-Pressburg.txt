@@ -1,0 +1,16 @@
+state={
+	id=1695
+	name="STATE_1695"
+	provinces={
+		13702 
+	}
+	manpower=428352
+	buildings_max_level_factor=1.000
+	state_category = city
+	history={
+		owner = HUN
+		add_core_of = HUN
+		add_core_of = SLO
+		add_claim_by = AUS
+	}
+}

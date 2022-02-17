@@ -1,0 +1,13 @@
+state={
+	id=2000
+	name="STATE_2000"
+	provinces={
+		8240 10924 10938 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = ARG
+
+	}
+}

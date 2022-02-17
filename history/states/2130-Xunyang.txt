@@ -1,0 +1,13 @@
+state={
+	id=2130
+	name="STATE_2130"
+	provinces={
+		1628 7653 10114 10501 11988 12495 
+	}
+	history={
+		owner = QIN
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

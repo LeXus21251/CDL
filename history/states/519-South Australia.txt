@@ -1,0 +1,21 @@
+
+state={
+	id=519
+	name="STATE_519"
+
+	history={
+		owner = OSS
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = OSS
+	}
+
+	provinces={
+		2191 5197 12948 12976 
+	}
+	manpower=121321
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

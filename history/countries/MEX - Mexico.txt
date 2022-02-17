@@ -1,0 +1,81 @@
+﻿capital = 277
+
+oob = "MEX_1936"
+set_cosmetic_tag = MEX_SPR
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "MEX_1936_naval_mtg"
+	else = {
+		set_naval_oob = "MEX_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		coastal_defense_ships = 1
+	}
+}
+
+
+set_convoys = 45
+set_stability = 0.2
+set_war_support = 0.1
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	add_ideas = {
+		MEX_callistas
+		MEX_church_power_2
+		MEX_oil_concessions
+		MEX_politicised_army
+		MEX_cedillo_tension_2
+	}
+}
+
+
+SPR = {
+		set_autonomy = {
+			target = MEX
+			autonomy_state = autonomy_dominion
+			freedom_level = 0.5
+		}
+	}
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1934.7.1"
+	election_frequency = 72
+	elections_allowed = yes
+}
+set_popularities = {
+}
+
+recruit_character = MEX_ramon_blanco

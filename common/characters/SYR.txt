@@ -1,0 +1,16 @@
+characters={
+	SYR_abd_shahbandar={
+		name="Abd al-Rahman Shahbandar"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Abd_Shahbandar.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

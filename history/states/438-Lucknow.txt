@@ -1,0 +1,31 @@
+
+state={
+	id=438
+	name="STATE_438"
+	resources={
+		steel = 7.000
+		lead = 4.000
+		aluminium = 5.000
+	}
+
+	history={
+		owner = AWA
+		add_core_of = AWA
+		victory_points = {12137 1 }
+		victory_points = {9973 5 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		1377 1569 4299 5055 8114 9973 10751 12137 12777 12786 
+	}
+	manpower=13829371
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

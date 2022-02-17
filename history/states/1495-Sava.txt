@@ -1,0 +1,17 @@
+state={
+	id=1495
+	name="STATE_1495"
+	provinces={
+		5222 13567 13570 
+	}
+	manpower=362784
+	buildings_max_level_factor=1.000
+	state_category = village
+						history={
+		owner = MAD
+		add_core_of = MAD
+		buildings = {
+		infrastructure = 2
+		}
+	}
+}

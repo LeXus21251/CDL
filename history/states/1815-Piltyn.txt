@@ -1,0 +1,15 @@
+state={
+	id=1815
+	name="STATE_1815"
+	provinces={
+		3296 6322 13753 13754 
+	}
+	manpower=298331
+	buildings_max_level_factor=1.000
+	state_category = town
+	history={
+		owner = COU
+		add_core_of = COU
+		add_core_of = LAT
+	}
+}

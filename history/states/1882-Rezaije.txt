@@ -1,0 +1,14 @@
+state={
+	id=1882
+	name="STATE_1882"
+	provinces={
+		7604 13869 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = PER
+		add_core_of = ASY
+
+	}
+}

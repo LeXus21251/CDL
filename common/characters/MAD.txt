@@ -1,0 +1,16 @@
+characters={
+	MAD_antoni_beniowski={
+		name="Antoni Beniowski"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAD/Antoni_Beniowski.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			traits={madagascar_unifier}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

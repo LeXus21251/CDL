@@ -1,0 +1,16 @@
+state={
+	id=1398
+	name="STATE_1398"
+
+	history={
+		owner = SEN
+		add_core_of = MLI
+
+	}
+
+	provinces={
+		8015 10915 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

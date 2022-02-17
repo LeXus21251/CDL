@@ -1,0 +1,16 @@
+characters={
+	ALW_saleh_ali={
+		name="Saleh al-Ali"
+		portraits={
+			civilian={
+				large="gfx/leaders/ALW/Saleh_Ali.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarianism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

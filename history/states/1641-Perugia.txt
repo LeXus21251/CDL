@@ -1,0 +1,17 @@
+state={
+	id=1641
+	name="STATE_1641"
+	provinces={
+		3885 
+	}
+	manpower=92836
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+	owner = PAP
+	add_core_of = PAP
+		victory_points = {
+		3885 3
+		}
+	}
+}

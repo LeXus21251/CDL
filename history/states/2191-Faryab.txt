@@ -1,0 +1,14 @@
+state={
+	id=2191
+	name="STATE_2191"
+	provinces={
+		7448 13551 
+	}
+	history={
+		owner = PER
+		add_core_of = UZB
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

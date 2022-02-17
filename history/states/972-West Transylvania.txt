@@ -1,0 +1,19 @@
+state={
+	id=972
+	name="STATE_972"
+
+	history={
+		owner = TRA
+		add_core_of = TRA
+		victory_points = { 9672 1 }
+		victory_points = { 6731 1 }
+
+	}
+
+	provinces={
+		727 6731 9672 9685 
+	}
+	manpower=137226
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,13 @@
+state={
+	id=1509
+	name="STATE_1509"
+	provinces={
+		13599 13600 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+				history={
+		owner = EGY
+		set_demilitarized_zone = yes
+	}
+}

@@ -1,0 +1,18 @@
+state={
+	id=917
+	name="STATE_917"
+	provinces={
+		8000 
+	}
+	manpower=6221
+	buildings_max_level_factor=1.000
+	state_category=small_island
+		history={
+		owner = MUS
+		add_core_of = MUS
+		buildings = {
+			infrastructure = 1
+			8000 = {naval_base = 1}
+		}
+	}
+}

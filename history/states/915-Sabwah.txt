@@ -1,0 +1,20 @@
+state={
+	id=915
+	name="STATE_915"
+
+				history={
+		owner = ADE
+		add_core_of = ADE
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		12821 14548 14549 14550 
+	}
+	manpower=5213
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,19 @@
+state={
+	id=2073
+	name="STATE_2073"
+	provinces={
+		14339 
+	}
+	history={
+		owner = PRU
+		add_core_of = PRU
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			14339 = {naval_base = 1}
+		}
+	}
+	manpower=981
+	buildings_max_level_factor=1.000
+	state_category = small_island
+}

@@ -1,0 +1,15 @@
+state={
+	id=1666
+	name="STATE_1666"
+	provinces={
+		6286 9309 9403 
+	}
+	manpower=973664
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+	owner = HOL
+	victory_points = { 9403 2 }
+	victory_points = { 6286 5 }
+	}
+}

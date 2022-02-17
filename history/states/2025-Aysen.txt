@@ -1,0 +1,13 @@
+state={
+	id=2025
+	name="STATE_2025"
+	provinces={
+		2161 5118 5159 10961 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = MAP
+
+	}
+}

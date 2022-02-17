@@ -1,0 +1,24 @@
+state={
+	id=1560
+	name="STATE_1560"
+	resources={
+		coal = 15.000
+	}
+	provinces={
+		10512 12421 12493 
+	}
+	manpower=268826
+	buildings_max_level_factor=1.000
+	state_category = rural
+						history={
+		owner = TOK
+		add_core_of = TOK
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+	}
+		victory_points = {
+		12421 5
+		}
+			}
+}

@@ -1,0 +1,17 @@
+state={
+	id=873
+	name="STATE_873"
+
+	history={
+		owner = RUS
+		add_core_of = KAZ
+
+	}
+
+	provinces={
+		1591 1840 4651 4773 4845 7711 7795 7856 10146 10547 10550 10619 
+	}
+	manpower=79000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

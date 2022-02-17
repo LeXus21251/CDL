@@ -1,0 +1,14 @@
+state={
+	id=1715
+	name="STATE_1715"
+	provinces={
+		3369 3422 3463 6351 9484 9562 
+	}
+	manpower=1927336
+	buildings_max_level_factor=1.000
+	state_category = city
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+}

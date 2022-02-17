@@ -1,0 +1,16 @@
+state={
+	id=1152
+	name="STATE_1152"
+
+	history={
+		owner = QIN
+
+	}
+
+	provinces={
+		13649 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

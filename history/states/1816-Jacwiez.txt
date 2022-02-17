@@ -1,0 +1,18 @@
+state={
+	id=1816
+	name="STATE_1816"
+
+	history={
+		owner = LIT
+		add_core_of = LIT
+
+	}
+
+	provinces={
+		6407 
+	}
+	manpower=144721
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

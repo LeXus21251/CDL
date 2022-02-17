@@ -1,0 +1,19 @@
+state={
+	id=886
+	name="STATE_886"
+
+	history={
+		owner = BUK
+		victory_points = {
+			1573 3
+		}
+
+	}
+
+	provinces={
+		1216 1573 1632 7639 10205 10671 12239 12722 
+	}
+	manpower=1123000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

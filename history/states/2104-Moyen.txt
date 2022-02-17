@@ -1,0 +1,13 @@
+state={
+	id=2104
+	name="STATE_2104"
+	provinces={
+		10071 13365 
+	}
+	history={
+		owner = COG
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

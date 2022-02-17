@@ -1,0 +1,24 @@
+
+state={
+	id=830
+	name="STATE_830"
+
+	history={
+		owner = VIN
+		add_core_of = VIN
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		1285 4405 10162 10232 12204 
+	}
+	manpower=1176253
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,17 @@
+state={
+	id=2092
+	name="STATE_2092"
+
+	history={
+		owner = GAB
+		add_core_of = AKA
+
+	}
+
+	provinces={
+		6008 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	impassable = yes
+}

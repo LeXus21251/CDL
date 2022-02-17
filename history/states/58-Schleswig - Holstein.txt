@@ -1,0 +1,18 @@
+
+state={
+	id=58
+	name="STATE_58"
+
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = SHL
+	}
+
+	provinces={
+		3368 6257 11331 
+	}
+	manpower=681226
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

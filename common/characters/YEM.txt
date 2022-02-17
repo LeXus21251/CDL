@@ -1,0 +1,16 @@
+characters={
+	YEM_yahya_din={
+		name="Yahya Muhammad Hamid ed-Din"
+		portraits={
+			civilian={
+				large="gfx/leaders/YEM/Yahya_Din.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarianism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

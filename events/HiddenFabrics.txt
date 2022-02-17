@@ -1,0 +1,27 @@
+###########################
+# HIDDEN Events
+###########################
+
+add_namespace = offmap
+
+#Ryukyu Factories
+country_event = {
+	id = offmap.0
+	title = offmap.0.t
+	desc = offmap.0.d
+	
+	
+	hidden = yes
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+	hidden_effect = {
+	add_offsite_building = { 
+	type = industrial_complex
+	level = 2
+	}
+				}
+			}
+}

@@ -1,0 +1,13 @@
+state={
+	id=1951
+	name="STATE_1951"
+	provinces={
+		2007 2079 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = COL
+
+	}
+}

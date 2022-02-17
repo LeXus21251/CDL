@@ -1,0 +1,16 @@
+state={
+	id=985
+	name="STATE_985"
+	provinces={
+		104 9097 11186 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	history={
+		owner = RUS
+
+		add_core_of = SWE
+		}
+}

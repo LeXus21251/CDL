@@ -1,0 +1,18 @@
+state={
+	id=987
+	name="STATE_987"
+
+	history={
+		owner = RUS
+		add_claim_by = RUS
+		add_core_of = FIN
+
+	}
+
+	provinces={
+		204 3061 3161 6009 6108 6144 6186 9129 9194 11066 11172 11211 
+	}
+	manpower=519946
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,21 @@
+state={
+	id=1431
+	name="STATE_1431"
+
+	history={
+		owner = JAB
+		add_core_of = JAB
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		2090 4981 8004 10748 14495 14496 14527 
+	}
+	manpower=95281
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.000
+}

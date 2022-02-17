@@ -1,0 +1,30 @@
+state={
+	id=2072
+	name="STATE_2072"
+	resources={
+		lead = 1.000
+		fabrics = 2.400
+		wood = 1.900
+	}
+	provinces={
+		14327 14328 14331 14332 14333 14334 14335 
+	}
+	history={
+		owner = NZL
+		add_core_of = NZL
+		buildings = {
+			infrastructure = 1
+			14327 = {naval_base = 1}
+			14328 = {naval_base = 1}
+			14321 = {naval_base = 1}
+			14322 = {naval_base = 1}
+			14333 = {naval_base = 1}
+			14334 = {naval_base = 1}
+			14335 = {naval_base = 1}
+		}
+
+	}
+	manpower=8971
+	buildings_max_level_factor=1.000
+	state_category = small_island
+}

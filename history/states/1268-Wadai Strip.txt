@@ -1,0 +1,15 @@
+state={
+	id=1268
+	name="STATE_1268"
+
+	history={
+		owner = WAD
+
+	}
+
+	provinces={
+		4897 4978 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,16 @@
+characters={
+	MEX_ramon_blanco={
+		name="Ramón Blanco"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEX/Ramon_Blanco.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

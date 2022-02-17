@@ -1,0 +1,27 @@
+
+state={
+	id=201
+	name="STATE_201"
+
+	history={
+		victory_points = {
+			11490 3 
+		}
+		owner = RUT
+		buildings = {
+			infrastructure = 5
+			air_base = 3
+
+		}
+		add_core_of = RUT
+
+	}
+
+	provinces={
+		441 550 3543 9466 9568 11453 11490 13759 
+	}
+	manpower=982112
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

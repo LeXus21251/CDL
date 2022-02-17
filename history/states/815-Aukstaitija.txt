@@ -1,0 +1,25 @@
+state={
+	id=815
+	name="STATE_815"
+	resources={
+		fabrics = 5.500
+		aluminium = 3.500
+	}
+
+	history = {
+		owner = PHI
+		add_core_of = PHI
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			10153 = {naval_base = 1}
+		}
+	}
+
+	provinces={
+		1098 1289 4262 4307 7311 10153 10169 10197 13445 
+	}
+	manpower=492771
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

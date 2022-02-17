@@ -1,0 +1,25 @@
+state={
+	id=913
+	name="STATE_913"
+
+	history={
+		owner = ANZ
+		add_core_of = ANZ
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			10815 3
+		}
+
+	}
+
+	provinces={
+		1631 4951 4974 10744 10815 14573 14574 14575 14576 14577 14578 
+	}
+	manpower=263712
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

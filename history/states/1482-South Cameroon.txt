@@ -1,0 +1,16 @@
+state={
+	id=1482
+	name="STATE_1482"
+
+	history={
+		owner = CMR
+		add_core_of = FAN
+
+	}
+
+	provinces={
+		5036 14404 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

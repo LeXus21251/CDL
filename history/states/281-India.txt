@@ -1,0 +1,28 @@
+
+state={
+	id=281
+	name="STATE_281"
+	resources={
+		wood = 4.000
+		fabrics = 12.000
+	}
+
+	history={
+		owner = VOC
+		add_core_of = VOC
+		buildings = {
+			infrastructure = 2
+			4967 = {naval_base = 1	}
+
+		}
+		victory_points = {4967 1 }
+
+	}
+
+	provinces={
+		4967 14351 
+	}
+	manpower=95291
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

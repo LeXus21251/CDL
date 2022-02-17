@@ -1,0 +1,17 @@
+state={
+	id=1166
+	name="STATE_1166"
+	provinces={
+		13256 
+	}
+	manpower=32475
+	buildings_max_level_factor=1.000
+	state_category = large_town
+				history={
+		owner = LIE
+		add_core_of = LIE
+		victory_points = {
+		13256 5
+		}
+	}
+}

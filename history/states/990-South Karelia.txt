@@ -1,0 +1,18 @@
+state={
+	id=990
+	name="STATE_990"
+	provinces={
+		3060 9100 9150 9206 
+	}
+	manpower=86208
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = RUS
+		add_claim_by = RUS
+		add_core_of = FIN
+		victory_points = {
+		9206 3
+		}
+}
+}

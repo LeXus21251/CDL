@@ -1,0 +1,25 @@
+
+state={
+	id=533
+	name="STATE_533"
+	resources={
+		coal = 7.000
+		wood = 16.000
+	}
+
+	history={
+		owner = TOK
+		add_core_of = TOK
+		buildings = {
+			infrastructure = 4
+	}
+
+	}
+
+	provinces={
+		4067 12056 
+	}
+	manpower=762001
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,15 @@
+state={
+	id=1518
+	name="STATE_1518"
+	provinces={
+		13603 
+	}
+	manpower=19226
+	buildings_max_level_factor=1.000
+	state_category = small_island
+					history={
+		owner = TUS
+		add_core_of = TUS
+
+	}
+}

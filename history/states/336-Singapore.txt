@@ -1,0 +1,23 @@
+
+state={
+	id=336
+	name="STATE_336"
+	resources={
+		rubber=342.000
+		steel=20.000
+		tungsten=189.000
+		aluminium=15.000
+	}
+
+	history={
+		owner = BRA
+
+	}
+
+	provinces={
+		10956 13881 13882 13883 13884 13885 13886 13887 13888 13889 13890 13891 13892 13893 13894 13895 13896 13897 
+	}
+	manpower=893200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

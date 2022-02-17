@@ -1,0 +1,13 @@
+state={
+	id=1909
+	name="STATE_1909"
+	provinces={
+		715 718 905 908 3710 3906 6732 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = NEN
+
+	}
+}

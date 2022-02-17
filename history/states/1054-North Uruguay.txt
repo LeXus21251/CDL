@@ -1,0 +1,16 @@
+state={
+	id=1054
+	name="STATE_1054"
+
+	history={
+		owner = ARG
+
+	}
+
+	provinces={
+		1613 1626 4457 10502 12440 12468 12496 
+	}
+	manpower=1300000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

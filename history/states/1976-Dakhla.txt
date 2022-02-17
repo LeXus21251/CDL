@@ -1,0 +1,13 @@
+state={
+	id=1976
+	name="STATE_1976"
+	provinces={
+		10869 12099 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = EGY
+
+	}
+}

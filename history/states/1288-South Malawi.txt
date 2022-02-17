@@ -1,0 +1,12 @@
+state={
+	id=1288
+	name="STATE_1288"
+	provinces={
+		12908 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={
+		owner = MZB
+	}
+}

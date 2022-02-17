@@ -1,0 +1,12 @@
+state={
+	id=1474
+	name="STATE_1474"
+	provinces={
+		7501 7507 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+			history={
+		owner = KHI
+	}
+}

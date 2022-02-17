@@ -1,0 +1,14 @@
+state={
+	id=2190
+	name="STATE_2190"
+	provinces={
+		2058 4467 4923 12581 
+	}
+	history={
+		owner = KOK
+		add_core_of = KYR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=1231
+	name="STATE_1231"
+	provinces={
+		13333 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+			history={
+		owner = TOU
+	}
+	impassable = yes
+}

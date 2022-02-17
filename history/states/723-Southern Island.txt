@@ -1,0 +1,27 @@
+
+state={
+	id=723
+	name="STATE_723"
+	resources={
+		coal = 7.100
+		tungsten = 2.000
+		aluminium = 1.000
+		wood = 2.700
+	}
+
+	history={
+		owner = NZL
+		add_core_of = NZL
+	buildings = {
+	infrastructure = 1
+	industrial_complex = 1
+	}
+	}
+
+	provinces={
+		2203 2211 8232 8241 12966 12974 12980 12988 
+	}
+	manpower=131182
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,15 @@
+state={
+	id=2183
+	name="STATE_2183"
+	provinces={
+		3724 9683 
+	}
+	history={
+		owner = RUS
+		add_core_of = GAG
+		add_core_of = MOL
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

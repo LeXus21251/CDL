@@ -1,0 +1,22 @@
+
+state={
+	id=73
+	name="STATE_73"
+
+	history={
+		victory_points = {
+			3548 1 
+		}
+		owner = HUN
+		add_core_of = HUN
+		add_core_of = RSY
+
+	}
+
+	provinces={
+		3548 6571 9563 11536 
+	}
+	manpower=502118
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

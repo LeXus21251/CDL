@@ -1,0 +1,17 @@
+state={
+	id=1598
+	name="STATE_1598"
+	provinces={
+		13654 
+	}
+	manpower=11821
+	buildings_max_level_factor=1.000
+	state_category = trade_port
+		history={
+		owner = TOK
+		add_core_of = TOK
+		buildings = {
+			infrastructure = 3
+	}
+	}
+}

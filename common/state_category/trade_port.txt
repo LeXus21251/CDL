@@ -1,0 +1,8 @@
+state_categories={
+	trade_port = {
+		local_building_slots = 7
+	
+		color = { 80 0 130 }
+
+	}
+}

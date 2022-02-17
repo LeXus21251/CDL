@@ -1,0 +1,16 @@
+state={
+	id=1146
+	name="STATE_1146"
+
+	history={
+		owner = LOU
+
+	}
+
+	provinces={
+		1866 6752 9880 10618 10719 
+	}
+	manpower=1245000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

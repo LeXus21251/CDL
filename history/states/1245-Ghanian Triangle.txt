@@ -1,0 +1,16 @@
+state={
+	id=1245
+	name="STATE_1245"
+
+	history={
+		owner = MLI
+		add_core_of = SON
+
+	}
+
+	provinces={
+		2001 7950 13349 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

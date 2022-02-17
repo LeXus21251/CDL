@@ -1,0 +1,15 @@
+state={
+	id=1233
+	name="STATE_1233"
+
+	history={
+		owner = TOU
+
+	}
+
+	provinces={
+		13830 13831 13832 13833 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

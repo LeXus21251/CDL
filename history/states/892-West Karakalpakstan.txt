@@ -1,0 +1,17 @@
+state={
+	id=892
+	name="STATE_892"
+
+	history={
+		owner = RUS
+		add_core_of = TMS
+
+	}
+
+	provinces={
+		7541 10348 10485 12383 12454 13207 
+	}
+	manpower=970000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

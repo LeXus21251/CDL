@@ -1,0 +1,16 @@
+characters={
+	KUR_mahmud_barzanji={
+		name="Mahmud Barzanji"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/Mahmud_Barzanji.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarianism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

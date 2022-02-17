@@ -1,0 +1,24 @@
+state={
+	id=1551
+	name="STATE_1551"
+	resources={
+		oil = 4.000
+		aluminium = 5.000
+	}
+	provinces={
+		1409 4327 4416 7265 12247 13512 13513 
+	}
+	manpower=6981762
+	buildings_max_level_factor=1.000
+	state_category = large_town
+		history={
+		add_core_of = VOC
+		owner = VOC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			7265 = {naval_base = 2}
+		}
+
+	}
+}

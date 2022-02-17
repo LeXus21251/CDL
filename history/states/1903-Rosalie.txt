@@ -1,0 +1,13 @@
+state={
+	id=1903
+	name="STATE_1903"
+	provinces={
+		1559 4522 7555 7599 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = LOU
+
+	}
+}

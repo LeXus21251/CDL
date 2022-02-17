@@ -1,0 +1,22 @@
+state = {
+	id=182
+	name="STATE_182"
+	manpower = 323997
+	
+	state_category = town
+	history = {
+		owner = TUR
+		add_core_of = GRE
+		add_claim_by = TUR
+		add_claim_by = VNC
+		victory_points = {
+			9940 5
+		}
+		victory_points = {
+			12058 3
+		}
+	}
+	provinces = {
+		1164 4170 9940 12058
+	}
+}

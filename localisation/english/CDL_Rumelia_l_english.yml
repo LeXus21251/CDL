@@ -1,0 +1,24 @@
+﻿l_english:
+
+ ##NAMES
+  RML:0 "Rumelia"
+  RML_ADJ:0 "Rumelian"
+  RML_DEF:0 "Rumelia"
+  
+ ##CTAGS
+  #DLC
+   RML_TUR_autonomy_ottoman_autonomous_vilayet: "Vilayet of Rumelia"
+  #NO DLC
+   RML_TUR_subject: "Vilayet of Rumelia"
+ 
+ ##PARTIES
+  
+ ##IDEAS
+  RML_beyliks:0 "Beyliks Regime"
+  RML_beyliks_desc:0 "Despite the creation of §tRumelia§! to be an Bulgarian State the power of the Porta and slavs was only illusory. The local officials recrut themself from the muslim population to be the §1'Beys'§!. \n\nWith a support from landowners they become last instance of the law that is virtually irrevocable, misery of the peasants are the tax system that provide to the landowners to set tax rate as they want and demand it often by the force requsitions of the backlogs."
+  RML_turkish_army:0 "Turkish 3rd Army"
+  RML_turkish_army_desc:0 "§Y'Rum-İli Üçüncü Ordu'§! - Third Army of §ROttoman Empire§! that operate in whole Turkish Western Balkans. Originally established in Üsküb in 1877 with initial headquarters at Selanik later moved to Niş. \n\nAfter the Mutiny of Bulgarian Based Rumelia Military forces the Third Army plays dominant role to disarm and pacify any rebellious army groups and later incorporate survive loyal forces into their ranks with this they become main military organisation in the country quickly also replacing officers and officials in security forces with their loyal men. \n\nWith the control of security comes an political power within the province, many of its officers holds places in the Provincial Counsel with their Commander §OEsat Paşa§! acts as Minister of Militia in government. With such competencies Turkish Army become one of main political powers within the realm that Governor should recon with and with their loyalty to Kostantiniye the lasts that will give up to Bulgarian demands"
+  RML_vmro:0 "VMRO"
+  RML_vmro_desc:0 "Founded in 1893 the §gInternal Macedonian-Adrianople Revolutionary Organization (Vŭtreshna Makedono-Odrinska Revolutsionna Organizatsiya)§! in Solun by anti-Ottoman band of macedono-bulgarian revolutionaries. \n\nThe organisation is a secret revolutionary society operating at §1Macedonian region§! with the goal of autonomous Macedonia and Thrace regions and in outcome unification with Bulgaria. Although §gIMRO§! was predominantly ethnic §GBulgarian§! since its establishment some activists also comes from local Aromanian and Serbian populations. \n\nIn last years they gain significant support among christian population due to skirmishes with §RTurkish§! authorities and gendarmerie."
+  RML_porte_tribute:0 "Tribute to the Porte"
+  RML_porte_tribute_desc:0 "After the §YConstatinople Conference§! the participants were arguing about the Organic Status of §tRumelia§! whatever it become Autonomus Province or Vassal to the Porte, compromise that been signed gives Rumelia an Administrative independence within the empire but requires to pay an tribute once an year to the §OSultan§! in the form of thirty percent of they all income. \n\nEven despite the diplomatic talks in 1898 after which tax was reduced to twenty percent, the money that we give away to the capital reduce greatly our economic possibilities."

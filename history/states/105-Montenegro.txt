@@ -1,0 +1,27 @@
+
+state={
+	id=105
+	name="STATE_105"
+	resources={
+		aluminium=70.000
+	}
+
+	history={
+		victory_points = {
+			13498 3 
+		}
+		owner = MNT
+		add_core_of = MNT
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		11858 13498 
+	}
+	manpower=112739
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

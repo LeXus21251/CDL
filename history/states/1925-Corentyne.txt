@@ -1,0 +1,14 @@
+state={
+	id=1925
+	name="STATE_1925"
+	provinces={
+		8107 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SUR
+
+	}
+	impassable = yes
+}

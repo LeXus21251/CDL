@@ -1,0 +1,18 @@
+state={
+	id=1311
+	name="STATE_1311"
+
+	history={
+		owner = KUW
+		add_core_of = KUW
+
+	}
+
+	provinces={
+		13402 14584 
+	}
+	manpower=145271
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.000
+}

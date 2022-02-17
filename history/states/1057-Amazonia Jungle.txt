@@ -1,0 +1,18 @@
+
+state={
+	id=1057
+	name="STATE_1057"
+
+	history={
+		owner = BRA
+
+	}
+
+	provinces={
+		2168 12913 
+	}
+	manpower=60000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

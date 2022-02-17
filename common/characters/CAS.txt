@@ -1,0 +1,16 @@
+characters={
+	CAS_johan_stirum={
+		name="Johan Paul van Limburg Stirum"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAS/Johan_Stirum.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarianism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

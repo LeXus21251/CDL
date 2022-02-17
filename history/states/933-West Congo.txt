@@ -1,0 +1,16 @@
+state={
+	id=933
+	name="STATE_933"
+
+	history={
+		owner = COG
+
+	}
+
+	provinces={
+		4128 7548 10025 12896 12945 14420 14422 14423 14424 
+	}
+	manpower=3890000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

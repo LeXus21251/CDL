@@ -1,0 +1,16 @@
+characters={
+	SPR_carlos_vii={
+		name="Carlos VII de Burbon"
+		portraits={
+			civilian={
+				large="gfx/leaders/SPR/Carlos_VII.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=587
+	name="STATE_587"
+
+	history={
+		owner = RUS
+		add_core_of = TMS
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			1517 1 
+		}
+
+	}
+
+	provinces={
+		757 1517 3593 4523 4620 7641 9753 11701 11736 
+	}
+	manpower=245133
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

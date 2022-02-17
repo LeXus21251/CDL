@@ -1,0 +1,17 @@
+state={
+	id=1480
+	name="STATE_1480"
+
+	history={
+		owner = LIT
+		add_core_of = LIT
+
+	}
+
+	provinces={
+		289 9351 9396 11230 13555 
+	}
+	manpower=361882
+	buildings_max_level_factor=1.000
+	state_category=town
+}

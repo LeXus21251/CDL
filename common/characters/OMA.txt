@@ -1,0 +1,16 @@
+characters={
+	OMA_salim_jabir={
+		name="Salim bin Jabir Al-Bahiri"
+		portraits={
+			civilian={
+				large="gfx/leaders/OMA/Salim_Jabir.dds"
+			}
+		}
+		country_leader={
+			ideology=traditionalism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

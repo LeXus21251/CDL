@@ -1,0 +1,17 @@
+state={
+	id=1576
+	name="STATE_1576"
+	provinces={
+		4172 7187 7217 
+	}
+	manpower=1020955
+	buildings_max_level_factor=1.000
+	state_category = village
+						history={
+		owner = TOK
+		add_core_of = TOK
+		buildings = {
+			infrastructure = 3
+	}
+			}
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=529
+	name="STATE_529"
+	
+	resources={
+		fabrics = 25.000
+	}
+
+	history={
+		owner = TOK
+		add_core_of = TOK
+		buildings = {
+			infrastructure = 4
+	}
+
+	}
+
+	provinces={
+		1167 10055 
+	}
+	manpower=437812
+	buildings_max_level_factor=1.000
+	state_category=town
+}

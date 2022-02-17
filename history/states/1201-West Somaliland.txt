@@ -1,0 +1,12 @@
+state={
+	id=1201
+	name="STATE_1201"
+	provinces={
+		10777 13297 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={
+		owner = ERI
+	}
+}

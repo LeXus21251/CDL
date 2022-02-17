@@ -1,0 +1,12 @@
+state={
+	id=1279
+	name="STATE_1279"
+	provinces={
+		13379 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+				history={
+		owner = RWA
+	}
+}

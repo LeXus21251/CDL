@@ -1,0 +1,24 @@
+state={
+	id=734
+	name="STATE_734"
+	resources={
+		wood = 1.100
+	}
+	manpower = 5167
+	state_category = tiny_island
+
+	history={
+		owner = NZL
+		add_core_of = NZL
+		buildings = {
+			infrastructure = 1
+			7390 = {naval_base = 1}
+		}
+	}
+
+	buildings_max_level_factor=1.000
+
+	provinces={
+		7390 
+	}
+}

@@ -1,0 +1,16 @@
+characters={
+	CRE_blue_eagle={
+		name="Blue Eagle"
+		portraits={
+			civilian={
+				large="gfx/leaders/CRE/.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,16 @@
+characters={
+	CAY_louis_mouttet={
+		name="Louis Mouttet"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAY/.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarianism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

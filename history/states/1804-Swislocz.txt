@@ -1,0 +1,14 @@
+state={
+	id=1804
+	name="STATE_1804"
+	provinces={
+		342 3378 6292 11322 
+	}
+	manpower=276998
+	buildings_max_level_factor=1.000
+	state_category = town
+	history={
+		owner = LIT
+		add_core_of = LIT
+	}
+}

@@ -1,0 +1,28 @@
+state=
+{
+	id=163
+	name="STATE_163"
+	manpower = 36251
+	
+	state_category = town
+	
+	history={
+		owner = VNC
+		add_core_of = VNC
+		add_core_of = DAL
+		add_claim_by = CRO
+		add_claim_by = SER
+		victory_points = {
+		3943 3
+		}
+		buildings = {
+			3943 = {
+				naval_base = 4
+			}
+		}
+	}
+		
+	provinces={	
+		3943 
+	}
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=782
+	name="STATE_782"
+
+	history={
+		owner = SEN
+		add_core_of = SON
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		7930 10788 10868 
+	}
+	manpower=79243
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

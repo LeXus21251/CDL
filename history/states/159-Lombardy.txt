@@ -1,0 +1,27 @@
+
+state={
+	id=159
+	name="STATE_159"
+
+	history={
+		owner = VNC
+		add_core_of = VNC
+		victory_points = {
+			11568 5 
+		}
+		victory_points = {
+			969 3 
+		}
+		victory_points = {
+			773 3 
+		}
+
+	}
+
+	provinces={
+		969 6661 11568 11587 
+	}
+	manpower=1735284
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

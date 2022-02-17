@@ -1,0 +1,16 @@
+state={
+	id=1128
+	name="STATE_1128"
+
+	history={
+		owner = LOU
+
+	}
+
+	provinces={
+		1832 3781 4778 4838 12124 12676 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,16 @@
+characters={
+	NAJ_jabir_abu_saq={
+		name="Jabir Abu Saq"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAJ/Jabir_Abu_Saq.dds"
+			}
+		}
+		country_leader={
+			ideology=absolutism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,17 @@
+state={
+	id=928
+	name="STATE_928"
+
+	history={
+		owner = SWA
+		victory_points = {8178 5 }
+
+	}
+
+	provinces={
+		1494 7900 8178 13388 
+	}
+	manpower=2380000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,13 @@
+state={
+	id=1306
+	name="STATE_1306"
+	provinces={
+		1015 11970 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+			history={
+		owner = TUR
+		add_core_of = SYR
+	}
+}

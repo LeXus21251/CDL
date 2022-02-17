@@ -1,0 +1,12 @@
+state={
+	id=1938
+	name="STATE_1938"
+	provinces={
+		14089 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = CAY
+	}
+}

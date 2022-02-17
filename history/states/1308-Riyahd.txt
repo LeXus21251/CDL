@@ -1,0 +1,24 @@
+state={
+	id=1308
+	name="STATE_1308"
+
+	history={
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13593 30 
+		}
+
+	}
+
+	provinces={
+		13499 13593 14515 
+	}
+	manpower=162773
+	buildings_max_level_factor=1.000
+	state_category=village
+	local_supplies=0.000
+}

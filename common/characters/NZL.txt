@@ -1,0 +1,16 @@
+characters={
+	NZL_isabelle_orlean={
+		name="Isabelle d'Orléans"
+		portraits={
+			civilian={
+				large="gfx/leaders/NZL/Isabelle_Orlean.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			traits={queen_regnant}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

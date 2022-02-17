@@ -1,0 +1,16 @@
+characters={
+	DZU_makhmud_yakub_beg={
+		name="Makhmud Yaqub Beg"
+		portraits={
+			civilian={
+				large="gfx/leaders/DZU/Makhmud_Yaqub_Beg.dds"
+			}
+		}
+		country_leader={
+			ideology=absolutism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=379
+	name="STATE_379"
+	resources={
+		steel=70.000
+		tungsten=32.000
+		aluminium=25.000
+	}
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = USA
+
+	}
+
+	provinces={
+		610 710 766 768 781 1601 1862 3588 3644 4331 4607 4736 6482 6665 6681 6745 6757 6772 7827 9697 9730 10159 10422 11698 12134 12399 
+	}
+	manpower=91057
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

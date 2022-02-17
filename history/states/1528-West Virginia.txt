@@ -1,0 +1,15 @@
+state={
+	id=1528
+	name="STATE_1528"
+
+	history={
+		owner = IRO
+
+	}
+
+	provinces={
+		801 3941 3975 4627 6823 6958 6971 7466 7588 7646 9923 10441 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

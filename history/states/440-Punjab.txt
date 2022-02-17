@@ -1,0 +1,24 @@
+
+state={
+	id=440
+	name="STATE_440"
+
+	history={
+		victory_points = {10887 5 }
+		owner = MUG
+		add_core_of = MUG
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		8007 9084 10066 10772 10843 10887 10898 12005 12792 12822 13529 13530 
+	}
+	manpower=16293730
+	buildings_max_level_factor=1.000
+	state_category=town
+}

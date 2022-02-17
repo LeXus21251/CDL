@@ -1,0 +1,31 @@
+
+state={
+	id=337
+	name="STATE_337"
+
+	history={
+		owner = DEN
+		add_core_of = DEN
+		add_core_of = FAR
+		add_claim_by = NOR
+		buildings = {
+			infrastructure = 4
+			13003 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			13003 3 
+		}
+
+	}
+
+	provinces={
+		13003 13681 13682 
+	}
+	manpower=22836
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

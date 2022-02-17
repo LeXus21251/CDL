@@ -1,0 +1,14 @@
+state={
+	id=1729
+	name="STATE_1729"
+	provinces={
+		13710 
+	}
+	manpower=10823
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history={
+		owner = POR
+		add_core_of = POR
+	}
+}

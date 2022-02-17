@@ -1,0 +1,20 @@
+state={
+	id=891
+	name="STATE_891"
+
+	history={
+		owner = KHI
+		victory_points = {
+			12465 3 
+		}
+
+	}
+
+	provinces={
+		1576 12324 12465 
+	}
+	manpower=1420000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

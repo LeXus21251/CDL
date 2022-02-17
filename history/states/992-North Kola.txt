@@ -1,0 +1,17 @@
+state={
+	id=992
+	name="STATE_992"
+
+	history={
+		owner = RUS
+		add_core_of = SWE
+
+	}
+
+	provinces={
+		116 3134 3170 6157 9179 11031 11117 11140 11196 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

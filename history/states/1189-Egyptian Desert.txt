@@ -1,0 +1,16 @@
+state={
+	id=1189
+	name="STATE_1189"
+
+	history={
+		owner = SNS
+
+	}
+
+	provinces={
+		10907 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	impassable = yes
+}

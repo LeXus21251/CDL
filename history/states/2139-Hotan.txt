@@ -1,0 +1,14 @@
+state={
+	id=2139
+	name="STATE_2139"
+	provinces={
+		4973 8112 10911 
+	}
+	history={
+		owner = DZU
+		add_core_of = SIK
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

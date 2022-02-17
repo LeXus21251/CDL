@@ -1,0 +1,24 @@
+state={
+	id=1568
+	name="STATE_1568"
+
+	history={
+		owner = TOK
+		add_core_of = TOK
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			7145 5 
+		}
+
+	}
+
+	provinces={
+		1191 7050 7145 14454 
+	}
+	manpower=734612
+	buildings_max_level_factor=1.000
+	state_category=town
+}

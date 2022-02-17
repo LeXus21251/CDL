@@ -1,0 +1,14 @@
+state={
+	id=1948
+	name="STATE_1948"
+	provinces={
+		13083 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = COL
+
+	}
+	impassable = yes
+}

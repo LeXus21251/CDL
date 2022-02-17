@@ -1,0 +1,230 @@
+focus_tree = {
+	id = ezo_war_tree
+	continuous_focus_position = { x = 0 y = 1000 } 
+	country = {
+		factor = 0
+	}
+	focus = {
+		id = ezo_elections
+		icon = GFX_ezo_elections
+		x = 20
+		y = 0
+		cost = 1
+		completion_reward = {
+		}
+	}
+		## RIGHT BRANCH ##
+		focus = {
+		id = ezo_to_the_last_soldier
+		icon = GFX_ezo_to_the_last_soldier
+		x = 25
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = ezo_elections
+		}
+		mutually_exclusive = {
+			focus = ezo_final_charge
+		}
+		completion_reward = {
+		}
+
+			
+		}
+		focus = {
+		id = ezo_for_honour
+		icon = GFX_ezo_for_honour
+		x = 25
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = ezo_to_the_last_soldier
+		}
+		completion_reward = {
+		}
+
+			
+		}
+		focus = {
+		id = ezo_for_traditions
+		icon = GFX_ezo_for_traditions
+		x = 25
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ezo_for_honour
+		}
+		completion_reward = {
+		}
+
+			
+		}
+		focus = {
+		id = ezo_suicidal_charge
+		icon = GFX_ezo_suicidal_charge
+		x = 25
+		y = 4
+		cost = 1
+		prerequisite = {
+			focus = ezo_for_traditions
+		}
+		completion_reward = {
+		}
+
+			
+		}
+		
+		## LEFT BRANCH ##
+		focus = {
+		id = ezo_final_charge
+		icon = GFX_ezo_final_charge
+		x = 15
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = ezo_elections
+		}
+		mutually_exclusive = {
+			focus = ezo_to_the_last_soldier
+		}
+		completion_reward = {
+		}
+
+			
+		}
+		focus = {
+		id = ezo_restore_northern_alliance
+		icon = GFX_ezo_restore_northern_alliance
+		x = 15
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = ezo_final_charge
+		}
+		completion_reward = {
+		}
+
+			
+		}
+		focus = {
+		id = ezo_offensive_on_edo
+		icon = GFX_ezo_offensive_on_edo
+		x = 15
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ezo_restore_northern_alliance
+		}
+		completion_reward = {
+		}
+
+			
+		}
+		focus = {
+		id = ezo_retaking_kyoto
+		icon = GFX_ezo_retaking_kyoto
+		x = 15
+		y = 4
+		cost = 1
+		prerequisite = {
+			focus = ezo_offensive_on_edo
+		}
+		completion_reward = {
+		}
+
+			
+		}
+		focus = {
+		id = ezo_cleanse_of_kansai
+		icon = GFX_TOK_cleanse_of_kansai
+		cost = 10.00
+		x = 15
+		y = 5
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = ezo_retaking_kyoto
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = ezo_second_invasion_of_shikoku
+		icon = GFX_TOK_second_invasion_of_shikoku
+		cost = 10.00
+		x = 13
+		y = 6
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = ezo_cleanse_of_kansai
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = ezo_push_them_out_of_honshu
+		icon = GFX_TOK_push_them_out_of_honshu
+		cost = 10.00
+		x = 17
+		y = 6
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = ezo_cleanse_of_kansai
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = ezo_fall_of_satsuma
+		icon = GFX_TOK_fall_of_satsuma
+		cost = 10.00
+		x = 15
+		y = 7
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = ezo_second_invasion_of_shikoku
+		}
+		prerequisite = {
+			focus = ezo_push_them_out_of_honshu
+		}
+		completion_reward = {
+		
+
+	}
+		}
+		focus = {
+		id = ezo_war_is_over
+		icon = GFX_TOK_war_is_over
+		cost = 10.00
+		x = 15
+		y = 8
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = ezo_fall_of_satsuma
+		completion_reward = {
+		
+
+	}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+state={
+	id=1743
+	name="STATE_1743"
+	provinces={
+		503 9867 11465 11616 
+	}
+	manpower=1026712
+	buildings_max_level_factor=1.000
+	state_category = large_city
+	history={
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+		11465 = {
+				naval_base = 7
+			}
+		}
+	}
+}

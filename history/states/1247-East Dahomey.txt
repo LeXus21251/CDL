@@ -1,0 +1,16 @@
+state={
+	id=1247
+	name="STATE_1247"
+
+	history={
+		owner = TOG
+		add_core_of = HAU
+
+	}
+
+	provinces={
+		12817 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

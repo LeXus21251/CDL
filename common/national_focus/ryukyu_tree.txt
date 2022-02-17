@@ -1,0 +1,217 @@
+focus_tree = {
+	id = ryukyu_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RYU
+		}
+	}
+	## START ##
+	focus = {
+		id = RYU_resolve_crisis
+		icon = GFX_RYU_resolve_crisis
+		cost = 10.00
+		x = 30
+		y = 0
+		
+		ai_will_do = {
+		factor = 1
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	## GOVERNMENT ##
+	focus = {
+		id = RYU_side_advisor
+		icon = GFX_RYU_side_advisor
+		cost = 10.00
+		x = 27
+		y = 1
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = RYU_resolve_crisis
+		}
+		mutually_exclusive = {
+			focus = RYU_side_wako
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	## PIRATES ##
+	focus = {
+		id = RYU_side_wako
+		icon = GFX_RYU_side_wako
+		cost = 10.00
+		x = 33
+		y = 1
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = RYU_resolve_crisis
+		}
+		mutually_exclusive = {
+			focus = RYU_side_advisor
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = RYU_treaty_nn
+		icon = GFX_RYU_treaty_nn
+		cost = 10.00
+		x = 33
+		y = 2
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = RYU_side_wako
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = RYU_pirate_trade
+		icon = GFX_RYU_pirate_trade
+		cost = 10.00
+		x = 32
+		y = 3
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = RYU_treaty_nn
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = RYU_pirate_ports
+		icon = GFX_RYU_pirate_ports
+		cost = 10.00
+		x = 34
+		y = 3
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = RYU_treaty_nn
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = RYU_pirate_property
+		icon = GFX_RYU_pirate_property
+		cost = 10.00
+		x = 33
+		y = 4
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = RYU_pirate_trade
+		}
+		prerequisite = {
+			focus = RYU_pirate_ports
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = RYU_pirate_military
+		icon = GFX_RYU_pirate_military
+		cost = 10.00
+		x = 32
+		y = 5
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = RYU_pirate_property
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = RYU_pirate_rank_advance
+		icon = GFX_RYU_pirate_rank_advance
+		cost = 10.00
+		x = 32
+		y = 6
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = RYU_pirate_military
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = RYU_pirate_ship_repair
+		icon = GFX_RYU_pirate_ship_repair
+		cost = 10.00
+		x = 34
+		y = 5
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = RYU_pirate_property
+		}
+		completion_reward = {
+		
+
+	}
+	}
+	focus = {
+		id = RYU_pirate_official_ship
+		icon = GFX_RYU_pirate_official_ship
+		cost = 10.00
+		x = 34
+		y = 6
+		
+		ai_will_do = {
+		factor = 1
+		}
+		prerequisite = {
+			focus = RYU_pirate_ship_repair
+		}
+		completion_reward = {
+		
+
+	}
+	}
+}

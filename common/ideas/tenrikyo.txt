@@ -1,0 +1,82 @@
+ideas = {
+
+	country = {
+	sakoku_edict = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = sakoku_edict
+			
+			modifier = {
+			research_sharing_per_country_bonus = -0.95
+			research_speed_factor = -0.25
+			}
+		}
+		JAC_tenrikyo = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = JAC_tenrikyo
+			
+			modifier = {
+			surrender_limit = 0.85
+			
+			}
+		}
+		JAC_war = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = JAC_war
+			
+			modifier = {
+			offence = -0.025
+			defence = 0.1
+			conscription = 0.035
+			army_org_factor = -0.075
+			}
+		}
+		JAC_iburi_izo = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = JAC_iburi_izo
+			
+			modifier = {
+			conscription = 0.005
+			max_planning = 0.005
+			planning_speed = 0.005
+			attrition = 0.005
+			supply_consumption_factor = -0.05
+			stability_factor = 0.1
+			political_power_gain = 0.1
+			
+			}
+		}
+	
+	}
+}

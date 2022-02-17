@@ -1,0 +1,16 @@
+state={
+	id=1252
+	name="STATE_1252"
+
+	history={
+		owner = SOK
+		add_core_of = HAU
+
+	}
+
+	provinces={
+		1932 2056 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

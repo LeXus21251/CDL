@@ -1,0 +1,17 @@
+state={
+	id=1059
+	name="STATE_1059"
+
+	history={
+		owner = CAY
+		add_core_of = NIS
+
+	}
+
+	provinces={
+		4980 14075 
+	}
+	manpower=120000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

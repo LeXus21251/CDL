@@ -1,0 +1,25 @@
+state={
+	id=811
+	name="STATE_811"
+	resources={
+		fabrics = 5.200
+	}
+	provinces={
+		1814 4804 7826 
+	}
+	manpower=556152
+	buildings_max_level_factor=1.000
+	state_category=town
+					history={
+		owner = NZL
+		add_core_of = NZL
+	buildings = {
+	infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			1814 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {1814 25}
+}

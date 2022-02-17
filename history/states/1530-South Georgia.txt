@@ -1,0 +1,16 @@
+state={
+	id=1530
+	name="STATE_1530"
+
+	history={
+		owner = MEX
+		add_core_of = MEX
+
+	}
+
+	provinces={
+		1433 1480 1556 1572 7583 10407 10492 12325 12353 12381 12470 12498 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,16 @@
+characters={
+	SHI_awadh_umar={
+		name="Awadh bin Umar"
+		portraits={
+			civilian={
+				large="gfx/leaders/SHI/Awadh_Umar.dds"
+			}
+		}
+		country_leader={
+			ideology=absolutism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

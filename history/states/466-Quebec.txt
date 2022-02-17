@@ -1,0 +1,20 @@
+
+state={
+	id=466
+	name="STATE_466"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = QUE
+
+	}
+
+	provinces={
+		12149 
+	}
+	manpower=318860
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

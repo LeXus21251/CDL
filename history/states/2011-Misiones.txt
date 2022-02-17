@@ -1,0 +1,13 @@
+state={
+	id=2011
+	name="STATE_2011"
+	provinces={
+		11007 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = ARG
+
+	}
+}

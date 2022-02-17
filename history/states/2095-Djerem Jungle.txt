@@ -1,0 +1,15 @@
+state={
+	id=2095
+	name="STATE_2095"
+	provinces={
+		14406 
+	}
+	history={
+		owner = CMR
+		add_core_of = CMR
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	impassable = yes
+}

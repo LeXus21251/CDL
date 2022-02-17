@@ -1,0 +1,16 @@
+
+state={
+	id=715
+	name="STATE_715"
+
+	history={
+		owner = QIN
+	}
+
+	provinces={
+		1499 1558 1567 1627 4503 4561 4572 4633 4642 7663 7812 11744 12337 
+	}
+	manpower=3643373
+	buildings_max_level_factor=1.000
+	state_category=town
+}

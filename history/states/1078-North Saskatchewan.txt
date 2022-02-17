@@ -1,0 +1,16 @@
+state={
+	id=1078
+	name="STATE_1078"
+
+	history={
+		owner = CAN
+
+	}
+
+	provinces={
+		1671 3800 4695 12682 
+	}
+	manpower=70000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

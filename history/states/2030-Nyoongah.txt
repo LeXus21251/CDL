@@ -1,0 +1,29 @@
+state={
+	id=2030
+	name="STATE_2030"
+	resources={
+		steel=5.000
+		fabrics = 18.000
+	}
+
+	history={
+		owner = OSS
+		add_core_of = OSS
+	buildings = {
+	infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+	}
+	victory_points = {
+			12323 1 
+		}
+
+	}
+
+	provinces={
+		1498 1511 1540 7579 10936 10955 12323 12926 
+	}
+	manpower=203821
+	buildings_max_level_factor=1.000
+	state_category = village
+}

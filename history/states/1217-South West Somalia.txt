@@ -1,0 +1,12 @@
+state={
+	id=1217
+	name="STATE_1217"
+	provinces={
+		2063 10928 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={
+		owner = SOM
+	}
+}

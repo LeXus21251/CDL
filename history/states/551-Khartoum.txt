@@ -1,0 +1,17 @@
+
+state={
+	id=551
+	name="STATE_551"
+
+	history={
+		owner = SUD
+
+	}
+
+	provinces={
+		2046 2088 4961 7925 10743 10784 12796 12806 12826 12836 12862 12881 13283 
+	}
+	manpower=1993507
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

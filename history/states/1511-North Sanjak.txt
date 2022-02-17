@@ -1,0 +1,23 @@
+state={
+	id=1511
+	name="STATE_1511"
+
+	history={
+		owner = BOS
+		add_core_of = BOS
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			3922 2 
+		}
+
+	}
+
+	provinces={
+		937 982 3922 
+	}
+	manpower=163298
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

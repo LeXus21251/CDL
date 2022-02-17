@@ -1,0 +1,16 @@
+characters={
+	TOK_tokugawa_yoshinobu={
+		name="Tokugawa Yoshinobu"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOK/Tokugawa_Yoshinobu.dds"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			traits={shogun}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

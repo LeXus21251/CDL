@@ -1,0 +1,24 @@
+state={
+	id=1623
+	name="STATE_1623"
+	provinces={
+		914 11767 
+	}
+	manpower=102354
+	buildings_max_level_factor=1.000
+	state_category = rural
+				history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+		11767 2
+		}
+		victory_points = {
+		914 1
+		}
+
+	}
+}

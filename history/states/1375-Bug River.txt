@@ -1,0 +1,18 @@
+state={
+	id=1375
+	name="STATE_1375"
+
+	history={
+		owner = COU
+		add_core_of = COU
+
+	}
+
+	provinces={
+		265 6342 
+	}
+	manpower=265394
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

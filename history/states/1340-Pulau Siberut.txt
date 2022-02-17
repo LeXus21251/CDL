@@ -1,0 +1,26 @@
+state={
+	id=1340
+	name="STATE_1340"
+	resources={
+		fabrics=20.000
+		steel=15.000
+	}
+
+	history = {
+		owner = VOC
+		add_core_of = VOC
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+			7381 = {naval_base = 3}
+		}
+	}
+
+	provinces={
+		4406 7381 10279 12249 
+	}
+	manpower= 7837092
+	buildings_max_level_factor=1.000
+	state_category = city
+}

@@ -1,0 +1,15 @@
+state={
+	id=897
+	name="STATE_897"
+	provinces={
+		672 11599 11617 
+	}
+	manpower=320000
+	buildings_max_level_factor=1.000
+	state_category=rural
+		history = {
+	owner = RUS
+	add_core_of = RUS
+	add_core_of = GEO
+	}
+}

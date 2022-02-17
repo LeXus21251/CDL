@@ -1,0 +1,17 @@
+state={
+	id=944
+	name="STATE_944"
+
+	history={
+		owner = DER
+		add_core_of = ETH
+
+	}
+
+	provinces={
+		4995 12757 12812 13305 
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

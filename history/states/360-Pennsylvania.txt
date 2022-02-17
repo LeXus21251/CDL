@@ -1,0 +1,31 @@
+
+state={
+	id=360
+	name="STATE_360"
+	resources={
+		steel=44.000
+	}
+
+	history={
+		owner = NEN
+		buildings = {
+			infrastructure = 3
+
+		}
+
+		victory_points = {
+			6845 20 
+		}
+		victory_points = {
+			11800 15 
+		}
+
+	}
+
+	provinces={
+		891 894 3897 6845 6869 9820 11785 11799 
+	}
+	manpower=9631346
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

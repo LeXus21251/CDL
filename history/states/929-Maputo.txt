@@ -1,0 +1,16 @@
+state={
+	id=929
+	name="STATE_929"
+	provinces={
+		8245 
+	}
+	manpower=1300000
+	buildings_max_level_factor=1.000
+	state_category=rural
+			history={
+		owner = MZB
+		victory_points = {
+			8245 3 
+		}
+	}
+}

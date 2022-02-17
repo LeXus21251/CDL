@@ -1,0 +1,17 @@
+state={
+	id=1364
+	name="STATE_1364"
+
+	history={
+		owner = PAP
+		add_core_of = FRA
+
+	}
+
+	provinces={
+		13277 13291 
+	}
+	manpower=89221
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

@@ -1,0 +1,25 @@
+state={
+	id=832
+	name="STATE_832"
+	resources={
+		coal = 3.000
+		steel = 2.500
+		aluminium = 1.500
+	}
+
+	history={
+		add_core_of = CAM
+		owner = CAM
+		buildings = {
+			infrastructure = 2
+			arms_industry = 1
+		}
+	}
+
+	provinces={
+		1620 4330 7645 10204 12150 12260 12288 
+	}
+	manpower=367238
+	buildings_max_level_factor=1.000
+	state_category=town
+}

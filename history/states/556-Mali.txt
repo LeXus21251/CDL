@@ -1,0 +1,22 @@
+
+state={
+	id=556
+	name="STATE_556"
+
+	history={
+		owner = SEN
+		add_core_of = MLI
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		10771 10812 12751 
+	}
+	manpower=3324782
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

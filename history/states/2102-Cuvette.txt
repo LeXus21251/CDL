@@ -1,0 +1,13 @@
+state={
+	id=2102
+	name="STATE_2102"
+	provinces={
+		13363 13364 
+	}
+	history={
+		owner = GAB
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

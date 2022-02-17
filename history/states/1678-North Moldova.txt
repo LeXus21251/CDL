@@ -1,0 +1,17 @@
+state={
+	id=1678
+	name="STATE_1678"
+	provinces={
+		744 3728 3741 6584 9716 11534 11672 
+	}
+	manpower=685227
+	buildings_max_level_factor=1.000
+	state_category = large_town
+			history={
+		owner = ROM
+		add_core_of = ROM
+		add_claim_by = MOL
+		victory_points { 9716 5 }
+		victory_points { 11672 3 }
+	}
+}

@@ -1,0 +1,17 @@
+state={
+	id=1686
+	name="STATE_1686"
+	provinces={
+		6643 
+	}
+	manpower=72336
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history={
+		owner = BNT
+		add_core_of = BNT
+		add_core_of = NSX
+		add_core_of = HUN
+		victory_points = { 6643 3 }
+	}
+}

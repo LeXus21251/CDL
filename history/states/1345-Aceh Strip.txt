@@ -1,0 +1,25 @@
+state={
+	id=1345
+	name="STATE_1345"
+	resources={
+		fabrics = 4.500
+		wood = 2.500
+		rubber = 3.200
+	}
+
+	history = {
+		owner = ACE
+		add_core_of = ACE
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+	}
+
+	provinces={
+		1648 13457 
+	}
+	manpower=376192
+	buildings_max_level_factor=1.000
+	state_category = village
+}

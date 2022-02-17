@@ -1,0 +1,25 @@
+state={
+	id=1559
+	name="STATE_1559"
+	
+	resources={
+		lead = 4.000
+	}
+	provinces={
+		1642 4576 12352 
+	}
+	manpower= 82192
+	buildings_max_level_factor=1.000
+	state_category =  pastoral
+						history={
+						
+		owner = TOK
+		add_core_of = TOK
+		buildings = {
+			infrastructure = 1
+	}
+	victory_points = {
+		4576 3
+		}
+			}
+}

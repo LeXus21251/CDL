@@ -1,0 +1,19 @@
+
+state={
+	id=764
+	name="STATE_764"
+
+	history={
+		owner = BNT
+		add_core_of = BNT
+		add_core_of = NSX
+		victory_points = { 3614 2 }
+	}
+
+	provinces={
+		614 3614 11787 
+	}
+	manpower=253718
+	buildings_max_level_factor=1.000
+	state_category=town
+}

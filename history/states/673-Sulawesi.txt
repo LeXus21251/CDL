@@ -1,0 +1,27 @@
+
+state={
+	id=673
+	name="STATE_673"
+	resources={
+		rubber=7.000
+		coal = 12.000
+		wood = 8.000
+	}
+
+	history = {
+		owner = VOC
+		add_core_of = VOC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			13447 = {naval_base = 1}
+		}
+	}
+
+	provinces={
+		1561 1589 4308 4349 7598 10263 10464 12330 12358 13446 13447 
+	}
+	manpower=872910
+	buildings_max_level_factor=1.000
+	state_category=village
+}

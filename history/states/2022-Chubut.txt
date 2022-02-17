@@ -1,0 +1,13 @@
+state={
+	id=2022
+	name="STATE_2022"
+	provinces={
+		8176 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = PAT
+
+	}
+}

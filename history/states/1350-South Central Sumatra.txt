@@ -1,0 +1,15 @@
+state={
+	id=1350
+	name="STATE_1350"
+
+	history={
+		owner = BRA
+
+	}
+
+	provinces={
+		12939 13960 13961 13962 13963 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=979
+	name="STATE_979"
+
+	history={
+		owner = RUS
+
+	}
+
+	provinces={
+		6222 9340 
+	}
+	manpower=2300000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

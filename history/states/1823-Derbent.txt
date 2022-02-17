@@ -1,0 +1,15 @@
+state={
+	id=1823
+	name="STATE_1823"
+	provinces={
+		1450 3711 4463 7554 7624 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history = {
+	owner = RUS
+	add_core_of = RUS
+	add_core_of = KMK
+	add_claim_by = AZR
+	}
+}

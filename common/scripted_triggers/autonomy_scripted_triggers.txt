@@ -1,0 +1,33 @@
+unique_autonomy = {
+	OR = {
+		AND = {
+
+				tag = VOC
+				
+		}
+		AND = {
+			overlord = { tag = TUR }
+			OR = {
+				tag = RML
+				tag = BOS
+				tag = ANZ
+				tag = KUW
+				tag = BHR
+				tag = QAT
+				tag = EGY
+				tag = SUD
+				tag = SNS
+				tag = TRP
+				tag = WAD
+				tag = BAG
+				tag = ACE
+			}
+		}
+
+
+	}
+}
+
+is_egypt = {
+ tag = EGY
+}

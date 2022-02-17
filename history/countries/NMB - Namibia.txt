@@ -1,0 +1,29 @@
+﻿capital = 2115
+set_cosmetic_tag = NMB_ENG
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+
+ENG = {
+		set_autonomy = {
+			target = NMB
+			autonomy_state = autonomy_colony
+			freedom_level = 0.5
+		}
+	}
+
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+
+}
+recruit_character = NMB_viscount_gladstone

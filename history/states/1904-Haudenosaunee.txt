@@ -1,0 +1,14 @@
+state={
+	id=1904
+	name="STATE_1904"
+	provinces={
+		3687 3802 6705 6707 6850 9662 11648 11800 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = IRO
+
+	}
+
+}

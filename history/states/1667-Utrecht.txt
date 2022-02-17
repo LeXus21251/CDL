@@ -1,0 +1,21 @@
+state={
+	id=1667
+	name="STATE_1667"
+	provinces={
+		6241 9363 
+	}
+	manpower=1482698
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+	owner = HOL
+	add_core_of = HOL
+	victory_points = { 6241 10 }
+	victory_points = { 9363 3 }
+	buildings = {
+			6241 = {
+				naval_base = 5
+			}
+		}
+	}
+}

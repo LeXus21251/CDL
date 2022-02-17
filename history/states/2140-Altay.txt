@@ -1,0 +1,13 @@
+state={
+	id=2140
+	name="STATE_2140"
+	provinces={
+		4714 4823 4849 7693 7737 12590 12737 
+	}
+	history={
+		owner = DZU
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=2138
+	name="STATE_2138"
+	provinces={
+		5018 5080 8041 8059 10741 
+	}
+	history={
+		owner = TIB
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

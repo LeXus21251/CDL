@@ -1,0 +1,13 @@
+state={
+	id=1914
+	name="STATE_1914"
+	provinces={
+		14041 14042 14043 14044 14045 14046 14047 14048 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = PRU
+
+	}
+}

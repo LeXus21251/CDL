@@ -1,0 +1,14 @@
+state={
+	id=982
+	name="STATE_982"
+	provinces={
+		6201 
+	}
+	manpower=12397
+	buildings_max_level_factor=1.000
+	state_category=small_island
+			history={
+		owner = RUS
+		add_claim_by = RUS
+	}
+}

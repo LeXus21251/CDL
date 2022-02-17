@@ -1,0 +1,15 @@
+state={
+	id=1692
+	name="STATE_1692"
+	provinces={
+		541 3484 9539 9692 
+	}
+	manpower=682102
+	buildings_max_level_factor=1.000
+	state_category = town
+	history={
+		owner = HUN
+		add_core_of = HUN
+		add_core_of = SLO
+	}
+}

@@ -1,0 +1,18 @@
+state={
+	id=902
+	name="STATE_902"
+
+	history={
+		owner = TUR
+		add_core_of = EGY
+		add_core_of = TUR
+
+	}
+
+	provinces={
+		886 6956 10056 11746 11810 
+	}
+	manpower=790000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,13 @@
+state={
+	id=1380
+	name="STATE_1380"
+	provinces={
+		8181 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+				history={
+		owner = WED
+		victory_points = {8181 10 }
+		}
+}

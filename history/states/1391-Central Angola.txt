@@ -1,0 +1,18 @@
+state={
+	id=1391
+	name="STATE_1391"
+
+	history={
+		owner = ANG
+		victory_points = {
+			8248 3
+		}
+
+	}
+
+	provinces={
+		5158 8248 13479 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

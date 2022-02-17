@@ -1,0 +1,13 @@
+state={
+	id=1859
+	name="STATE_1859"
+	provinces={
+		13807 13808 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = WES
+
+	}
+}

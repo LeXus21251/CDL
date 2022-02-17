@@ -1,0 +1,19 @@
+state={
+	id=1549
+	name="STATE_1549"
+
+	history={
+		owner = SLL
+		victory_points = {
+			12744 5 
+		}
+
+	}
+
+	provinces={
+		12744 12800 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

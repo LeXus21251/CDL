@@ -1,0 +1,510 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+# JCW
+news_event = {
+	id = news.0
+	title = news.0.t
+	desc = news.0.d
+	picture = GFX_JCW_news
+	
+	major = yes
+	fire_only_once = yes
+
+	trigger = {
+		NOT = {
+			OR = {
+				tag = JAP
+				tag = TOK
+				tag = JAC
+				}
+			}
+		}
+	
+	option = {
+		name = "It is interesting"
+	}
+}
+## ASSYRIA REVOLT ##
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_assyria_revolt_news
+	
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+	name = "Will the ancient people gain freedom?"
+	trigger = {
+		NOT = {
+		 OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			}
+		}
+	}
+	option = {
+	name = "It ist a betrayal against the caliph!"
+	trigger = {
+				AND = {
+				OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			 NOT = { tag = EGY }
+				}
+		}
+	}
+	
+	option = {
+	name = "Good luck to the caliph..."
+		trigger = {TAG = EGY}
+		}
+}
+## ARMENIA REVOLT ##
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_armenia_revolt_news
+	
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+	name = "Middle Eastern Christians remember their existence."
+	trigger = {
+		NOT = {
+		 OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			}
+		}
+	}
+	option = {
+	name = "We have to destroy it!"
+	trigger = {
+				AND = {
+				OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			 NOT = { tag = EGY }
+				}
+		}
+	}
+	
+	option = {
+	name = "Interesting..."
+		trigger = {TAG = EGY}
+		}
+}
+## PONT REVOLT ##
+news_event = {
+	id = news.3
+	title = news.3.t
+	desc = news.3.d
+	picture = GFX_pont_revolt_news
+	
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+	name = "How will this affect a great empire?"
+	trigger = {
+		NOT = {
+		 OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			}
+		}
+	}
+	option = {
+	name = "Let the blood spill!"
+	trigger = {
+				AND = {
+				OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			 NOT = { tag = EGY }
+				}
+		}
+	}
+	
+	option = {
+	name = "Nations are waking up..."
+		trigger = {TAG = EGY}
+		}
+}
+## MESOPOTAMIA REVOLT ##
+news_event = {
+	id = news.4
+	title = news.4.t
+	desc = news.4.d
+	picture = GFX_mesopotamia_revolt_news
+	
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+	name = "An interesting war between the caliphs and the Christian republics"
+	trigger = {
+		NOT = {
+		 OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			}
+		}
+	}
+	option = {
+	name = "There is only one caliph!"
+	trigger = {
+				AND = {
+				OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			 NOT = { tag = EGY }
+				}
+		}
+	}
+	
+	option = {
+	name = "We will never count the caliphs"
+		trigger = {TAG = EGY}
+		}
+}
+## KURDISTAN REVOLT ##
+news_event = {
+	id = news.5
+	title = news.5.t
+	desc = news.5.d
+	picture = GFX_kurdistan_revolt_news
+	
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+	name = "Another jug ​​of oil on fire"
+	trigger = {
+		NOT = {
+		 OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			}
+		}
+	}
+	option = {
+	name = "This is a shameful move by the Kurds!"
+	trigger = {
+				AND = {
+				OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			 NOT = { tag = EGY }
+				}
+		}
+	}
+	
+	option = {
+	name = "When?"
+		trigger = {TAG = EGY}
+		}
+}
+## BAGHDAD REVOLT ##
+news_event = {
+	id = news.6
+	title = news.6.t
+	desc = news.6.d
+	picture = GFX_baghdad_revolt_news
+	
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+	name = "It's time to prepare for border changes"
+	trigger = {
+		NOT = {
+		 OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			}
+		}
+	}
+	option = {
+	name = "It will fall under our shoe!"
+	trigger = {
+				AND = {
+				OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			 NOT = { tag = EGY }
+				}
+		}
+	}
+	
+	option = {
+	name = "What fate of Egypt in this turmoil?"
+		trigger = {TAG = EGY}
+		}
+}
+## ASIR REVOLT ##
+news_event = {
+	id = news.7
+	title = news.7.t
+	desc = news.7.d
+	picture = GFX_asir_revolt_news
+	
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+	name = "It will be a historic moment"
+	trigger = {
+		NOT = {
+		 OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			}
+		}
+	}
+	option = {
+	name = "Asir will soon be back under our rule!"
+	trigger = {
+				AND = {
+				OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			 NOT = { tag = EGY }
+				}
+		}
+	}
+	
+	option = {
+	name = "We too will get rid of the enemy's hand from our land..."
+		trigger = {TAG = EGY}
+		}
+}
+## YEMEN REVOLT ##
+news_event = {
+	id = news.8
+	title = news.8.t
+	desc = news.8.d
+	picture = GFX_yemen_revolt_news
+	
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+	name = "Interesting"
+	trigger = {
+		NOT = {
+		 OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			}
+		}
+	}
+	option = {
+	name = "This is disgraceful!"
+	trigger = {
+				AND = {
+				OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			 NOT = { tag = EGY }
+				}
+		}
+	}
+	
+	option = {
+	name = "The Ottoman Empire will collapse"
+		trigger = {TAG = EGY}
+		}
+}
+## HEJAZ REVOLT ##
+news_event = {
+	id = news.9
+	title = news.9.t
+	desc = news.9.d
+	picture = GFX_hejaz_revolt_news
+	
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+	name = "This moment is clearly getting closer"
+	trigger = {
+		NOT = {
+		 OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			}
+		}
+	}
+	option = {
+	name = "Never!"
+	trigger = {
+				AND = {
+				OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			 NOT = { tag = EGY }
+				}
+		}
+	}
+	
+	option = {
+	name = "Soon..."
+		trigger = {TAG = EGY}
+		}
+}
+## SYRIA REVOLT ##
+news_event = {
+	id = news.10
+	title = news.10.t
+	desc = news.10.d
+	picture = GFX_syria_revolt_news
+	
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+	name = "Freedom for the local nations is approaching ..."
+	trigger = {
+		NOT = {
+		 OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			}
+		}
+	}
+	option = {
+	name = "Let's protect our empire!"
+	trigger = {
+				AND = {
+				OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			 NOT = { tag = EGY }
+				}
+		}
+	}
+	
+	option = {
+	name = "Good luck Syrians!"
+		trigger = {TAG = EGY}
+		}
+}
+## ALAWIT REVOLT ##
+news_event = {
+	id = news.11
+	title = news.11.t
+	desc = news.11.d
+	picture = GFX_alawit_revolt_news
+	
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+	name = "Interesting"
+	trigger = {
+		NOT = {
+		 OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			}
+		}
+	}
+	option = {
+	name = "We will fight it..."
+	trigger = {
+				AND = {
+				OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			 NOT = { tag = EGY }
+				}
+		}
+	}
+	
+	option = {
+	name = "Hah!"
+		trigger = {TAG = EGY}
+		}
+}
+## DRUZE REVOLT ##
+news_event = {
+	id = news.12
+	title = news.12.t
+	desc = news.12.d
+	picture = GFX_druze_revolt_news
+	
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+	name = "Interesting"
+	trigger = {
+		NOT = {
+		 OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			}
+		}
+	}
+	option = {
+	name = "It'll be easy, won't it?"
+	trigger = {
+				AND = {
+				OR = {
+				tag = TUR
+				overlord = {tag = TUR}
+				}
+			 NOT = { tag = EGY }
+				}
+		}
+	}
+	
+	option = {
+	name = "Congratulations to the Druze!"
+		trigger = {TAG = EGY}
+		}
+}

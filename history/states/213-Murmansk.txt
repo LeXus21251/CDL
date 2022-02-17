@@ -1,0 +1,34 @@
+
+state={
+	id=213
+	name="STATE_213"
+	resources={
+		steel=14.000
+	}
+
+	history={
+		owner = RUS
+		victory_points = {
+			3134 5 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			3134 = {
+				naval_base = 4
+				coastal_bunker = 1
+
+			}
+
+		}
+		add_core_of = SWE
+
+	}
+
+	provinces={
+		15 74 142 178 6117 6181 9039 9203 11128 11183 
+	}
+	manpower=275751
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

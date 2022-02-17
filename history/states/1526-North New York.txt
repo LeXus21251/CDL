@@ -1,0 +1,16 @@
+state={
+	id=1526
+	name="STATE_1526"
+
+	history={
+		owner = IRO
+		victory_points = {11654 5}
+
+	}
+
+	provinces={
+		734 3702 3733 3747 9664 11654 11680 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

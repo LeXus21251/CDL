@@ -1,0 +1,16 @@
+state={
+	id=1485
+	name="STATE_1485"
+
+	history={
+		owner = GHA
+		add_core_of = GHA
+
+	}
+
+	provinces={
+		8039 8096 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

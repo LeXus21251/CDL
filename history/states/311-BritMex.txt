@@ -1,0 +1,29 @@
+
+state={
+	id=311
+	name="STATE_311"
+
+	history={
+		add_core_of = MEX
+		owner = MEX
+		victory_points = {
+			2077 1 
+		}
+		buildings = {
+			infrastructure = 4
+			2077 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		2077 4991 14106 14107 14269 14270 14271 14272 14273 14274 14275 
+	}
+	manpower=51000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

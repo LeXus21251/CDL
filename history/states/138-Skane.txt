@@ -1,0 +1,41 @@
+
+state={
+	id=138
+	name="STATE_138"
+
+	history={
+		owner = DEN
+		add_core_of = SWE
+		add_core_of = DEN
+		victory_points = {
+			9279 10 
+		}
+		victory_points = {
+			6345 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+			11215 = {
+				naval_base = 5
+				coastal_bunker = 3
+
+			}
+			9279 = {
+				naval_base = 5
+				coastal_bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		6345 6412 9279 9362 11376 3307
+	}
+	manpower=674218
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

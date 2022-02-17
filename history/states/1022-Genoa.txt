@@ -1,0 +1,28 @@
+state={
+	id=1022
+	name="STATE_1022"
+
+	history={
+		owner = GEN
+		add_core_of = GEN
+		victory_points = {
+			6788 15 
+		}
+		victory_points = {
+			6973 2 
+		}
+		buildings = {
+			6788 = {
+				naval_base = 6
+			}
+		}
+
+	}
+
+	provinces={
+		6788 
+	}
+	manpower=622364
+	buildings_max_level_factor=1.000
+	state_category=city
+}

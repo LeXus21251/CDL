@@ -1,0 +1,16 @@
+state={
+	id=1223
+	name="STATE_1223"
+
+	history={
+		owner = WES
+
+	}
+
+	provinces={
+		13782 13787 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	impassable = yes
+}

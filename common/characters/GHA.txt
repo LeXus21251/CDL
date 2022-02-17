@@ -1,0 +1,16 @@
+characters={
+	GHA_cornelis_lely={
+		name="Cornelis Lely"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Cornelis_Lely.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarianism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

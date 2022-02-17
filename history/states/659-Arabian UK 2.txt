@@ -1,0 +1,21 @@
+
+state={
+	id=659
+	name="STATE_659"
+
+				history={
+		owner = ADE
+		add_core_of = ADE
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		5074 
+	}
+	manpower=3721
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

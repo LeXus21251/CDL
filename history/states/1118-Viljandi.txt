@@ -1,0 +1,16 @@
+state={
+	id=1118
+	name="STATE_1118"
+
+	history={
+		owner = RUS
+
+	}
+
+	provinces={
+		308 6381 11291 
+	}
+	manpower=130000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

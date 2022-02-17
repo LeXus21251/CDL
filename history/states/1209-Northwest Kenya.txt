@@ -1,0 +1,15 @@
+state={
+	id=1209
+	name="STATE_1209"
+
+	history={
+		owner = KEN
+
+	}
+
+	provinces={
+		11145 13309 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

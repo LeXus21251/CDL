@@ -1,0 +1,18 @@
+state={
+	id=905
+	name="STATE_905"
+	provinces={
+		1544 4440 
+	}
+	manpower=68337
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+		history={
+		owner = ANZ
+		add_core_of = ANZ
+		buildings = {
+			infrastructure = 1
+
+		}
+	}
+}

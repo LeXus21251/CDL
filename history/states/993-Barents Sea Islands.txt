@@ -1,0 +1,16 @@
+state={
+	id=993
+	name="STATE_993"
+	provinces={
+		11047 12530 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	history={
+		owner = RUS
+
+		add_core_of = RUS
+		}
+}

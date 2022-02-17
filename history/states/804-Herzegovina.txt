@@ -1,0 +1,27 @@
+
+state={
+	id=804
+	name="STATE_804"
+	resources={
+		aluminium=7.000
+	}
+
+	history={
+		owner = MNT
+		add_core_of = MNT
+		victory_points = {
+			9894 4 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces={
+		953 9894 11845 
+	}
+	manpower=304729
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

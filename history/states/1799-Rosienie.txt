@@ -1,0 +1,15 @@
+state={
+	id=1799
+	name="STATE_1799"
+	provinces={
+		3337 6229 6360 
+	}
+	manpower=273192
+	buildings_max_level_factor=1.000
+	state_category = town
+	history={
+		owner = LIT
+		add_core_of = LIT
+		add_core_of = SMG
+	}
+}

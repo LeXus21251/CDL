@@ -1,0 +1,13 @@
+state={
+	id=1986
+	name="STATE_1986"
+	provinces={
+		14211 14212 14213 14214 14215 14216 14217 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = TRP
+
+	}
+}

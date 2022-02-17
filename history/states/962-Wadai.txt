@@ -1,0 +1,17 @@
+state={
+	id=962
+	name="STATE_962"
+
+	history={
+		owner = WAD
+		victory_points = {13371 3}
+
+	}
+
+	provinces={
+		1473 13360 13371 
+	}
+	manpower=890000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

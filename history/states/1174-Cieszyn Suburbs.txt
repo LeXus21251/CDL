@@ -1,0 +1,15 @@
+state={
+	id=1174
+	name="STATE_1174"
+	provinces={
+		11467 
+	}
+	manpower=162783
+	buildings_max_level_factor=1.000
+	state_category = large_town
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = BRB
+	}
+}

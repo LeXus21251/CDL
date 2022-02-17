@@ -1,0 +1,18 @@
+state={
+	id=973
+	name="STATE_973"
+
+	history={
+		owner = CZE
+		add_core_of = CZE
+		add_claim_by = AUS
+
+	}
+
+	provinces={
+		543 5283 7857 
+	}
+	manpower=321446
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

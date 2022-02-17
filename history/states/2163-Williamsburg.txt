@@ -1,0 +1,16 @@
+state={
+	id=2163
+	name="STATE_2163"
+	provinces={
+		865 6846 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history={
+		owner = VIR
+		victory_points = {
+			865 10 
+		}
+	}
+}

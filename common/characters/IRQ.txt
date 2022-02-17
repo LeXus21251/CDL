@@ -1,0 +1,16 @@
+characters={
+	IRQ_abdul_saadoun={
+		name="Abdul-Muhsin Al-Saadoun"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRQ/Abdul_Saadoun.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

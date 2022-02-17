@@ -1,0 +1,14 @@
+state={
+	id=1995
+	name="STATE_1995"
+	provinces={
+		14219 14220 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SEN
+		add_core_of = SON
+
+	}
+}

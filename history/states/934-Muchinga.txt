@@ -1,0 +1,16 @@
+state={
+	id=934
+	name="STATE_934"
+
+	history={
+		owner = ZAM
+
+	}
+
+	provinces={
+		1846 5221 10930 
+	}
+	manpower=700000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,15 @@
+state={
+	id=2187
+	name="STATE_2187"
+	provinces={
+		700 712 728 6730 6748 
+	}
+	history={
+		owner = RUS
+		add_core_of = NOG
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

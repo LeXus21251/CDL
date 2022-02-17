@@ -1,0 +1,13 @@
+state={
+	id=1906
+	name="STATE_1906"
+	provinces={
+		1436 6717 9708 9721 11650 11665 11722 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = NEN
+
+	}
+}

@@ -1,0 +1,18 @@
+state={
+	id=1519
+	name="STATE_1519"
+	provinces={
+		13058 
+	}
+	manpower=786
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+			history={
+		owner = ZZZ
+		add_core_of = KAA
+		add_claim_by = DEN
+		add_claim_by = NOR
+
+	}
+	impassable = yes
+}

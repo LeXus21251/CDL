@@ -1,0 +1,16 @@
+characters={
+	MNC_albert_i={
+		name="Albert I Grimaldi"
+		portraits={
+			civilian={
+				large="gfx/leaders/MNC/.dds"
+			}
+		}
+		country_leader={
+			ideology=social_cooperatism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

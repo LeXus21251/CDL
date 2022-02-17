@@ -1,0 +1,15 @@
+state={
+	id=1830
+	name="STATE_1830"
+	provinces={
+		3564 10472 12441 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history = {
+	owner = RUS
+	add_core_of = RUS
+	add_core_of = ARM
+	add_claim_by = AZR
+	}
+}

@@ -1,0 +1,20 @@
+state={
+	id=1438
+	name="STATE_1438"
+	provinces={
+		1497 10349 10389 12338 
+	}
+	manpower= 3721772
+	buildings_max_level_factor=1.000
+	state_category = village
+		history={
+		owner = BAN
+		add_core_of = BAN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+}

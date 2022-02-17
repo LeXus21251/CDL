@@ -1,0 +1,16 @@
+characters={
+	BRM_thibaw_min={
+		name="Thibaw Min"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRM/.dds"
+			}
+		}
+		country_leader={
+			ideology=absolutism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

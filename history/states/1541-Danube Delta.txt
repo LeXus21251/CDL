@@ -1,0 +1,23 @@
+state={
+	id=1541
+	name="STATE_1541"
+
+	history={
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+		687 2
+		}
+
+	}
+
+	provinces={
+		687 3076 13617 
+	}
+	manpower=118365
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

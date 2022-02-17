@@ -1,0 +1,23 @@
+state=
+{
+	id=645
+	name="STATE_645"
+	manpower= 20
+	state_category = small_island
+	history=
+	{
+		owner = PHI
+		add_core_of = PHI
+		buildings = {
+			infrastructure = 1
+			13025 = {naval_base = 1}
+		}
+		victory_points = {
+			13025 1
+		 }
+
+	}
+	provinces={
+		13025
+	}
+}

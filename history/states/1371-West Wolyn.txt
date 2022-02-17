@@ -1,0 +1,18 @@
+state={
+	id=1371
+	name="STATE_1371"
+
+	history={
+		owner = RUT
+		add_core_of = RUT
+
+	}
+
+	provinces={
+		422 474 513 572 3412 6435 9454 
+	}
+	manpower=612612
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

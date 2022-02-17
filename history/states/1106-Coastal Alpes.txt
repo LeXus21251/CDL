@@ -1,0 +1,26 @@
+state={
+	id=1106
+	name="STATE_1106"
+
+	history={
+		owner = SAR
+		add_core_of = SAR
+		add_core_of = PIE
+		victory_points = {
+		9909 10
+		}
+		buildings = {
+			9909 = {
+				naval_base = 5
+			}
+		}
+
+	}
+
+	provinces={
+		3959 6975 9909 
+	}
+	manpower=655927
+	buildings_max_level_factor=1.000
+	state_category=city
+}

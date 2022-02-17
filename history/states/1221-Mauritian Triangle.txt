@@ -1,0 +1,26 @@
+state={
+	id=1221
+	name="STATE_1221"
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+		3844 2
+		}
+		victory_points = {
+		966 1
+		}
+
+	}
+
+	provinces={
+		966 3844 
+	}
+	manpower=152384
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

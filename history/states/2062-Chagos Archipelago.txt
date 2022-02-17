@@ -1,0 +1,18 @@
+state={
+	id=2062
+	name="STATE_2062"
+	provinces={
+		14349 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category = tiny_island
+	history= {
+		owner = FEI
+		add_core_of = FEI
+		buildings = {
+			infrastructure = 1
+			14349 = {naval_base = 1}
+		}
+	}
+}

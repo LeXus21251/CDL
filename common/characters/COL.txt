@@ -1,0 +1,16 @@
+characters={
+	COL_miguel_cabanellas={
+		name="Miguel Cabanellas"
+		portraits={
+			civilian={
+				large="gfx/leaders/COL/Miguel_Cabanellas.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

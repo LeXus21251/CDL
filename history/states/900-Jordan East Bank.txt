@@ -1,0 +1,17 @@
+state={
+	id=900
+	name="STATE_900"
+
+	history={
+		owner = TUR
+		add_core_of = SYR
+
+	}
+
+	provinces={
+		1086 7107 
+	}
+	manpower=1650000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,16 @@
+state={
+	id=874
+	name="STATE_874"
+
+	history={
+		owner = DZU
+
+	}
+
+	provinces={
+		4674 7784 10610 10680 12662 
+	}
+	manpower=69000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

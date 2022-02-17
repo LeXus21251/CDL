@@ -1,0 +1,13 @@
+state={
+	id=1954
+	name="STATE_1954"
+	provinces={
+		5004 13368 13369 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = TRP
+
+	}
+}

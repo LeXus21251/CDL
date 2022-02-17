@@ -1,0 +1,16 @@
+characters={
+	SIA_rama_v={
+		name="Rama V"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIA/Rama_V.dds"
+			}
+		}
+		country_leader={
+			ideology=absolutism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

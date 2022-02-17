@@ -1,0 +1,18 @@
+state={
+	id=2059
+	name="STATE_2059"
+	provinces={
+		14366 
+	}
+	manpower=95
+	buildings_max_level_factor=1.000
+	state_category = tiny_island
+	history={
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+			infrastructure = 1
+			14366 = {naval_base = 1}
+		}
+	}
+}

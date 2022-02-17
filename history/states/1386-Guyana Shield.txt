@@ -1,0 +1,16 @@
+state={
+	id=1386
+	name="STATE_1386"
+
+	history={
+		owner = BRA
+
+	}
+
+	provinces={
+		13470 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	impassable = yes
+}

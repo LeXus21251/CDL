@@ -1,0 +1,15 @@
+state={
+	id=1287
+	name="STATE_1287"
+
+	history={
+		owner = TZN
+
+	}
+
+	provinces={
+		8182 12944 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

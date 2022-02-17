@@ -1,0 +1,28 @@
+state={
+	id=797
+	name="STATE_797"
+	provinces={
+		9833 
+	}
+	manpower = 1121374
+	resources={
+		#chromium=45 # was: 84
+		#steel = 10 # was: 20
+	}
+	
+	state_category = large_city
+
+	history= {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 5
+			9833 = {
+				naval_base = 8
+			}
+		}
+		victory_points = {
+			9833 30
+		}
+		}
+	}

@@ -1,0 +1,16 @@
+state={
+	id=1051
+	name="STATE_1051"
+
+	history={
+		owner = MAP
+
+	}
+
+	provinces={
+		2149 10935 12998 14226 
+	}
+	manpower=80000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

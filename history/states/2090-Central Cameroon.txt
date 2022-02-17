@@ -1,0 +1,14 @@
+state={
+	id=2090
+	name="STATE_2090"
+	provinces={
+		9137 
+	}
+	history={
+		owner = CMR
+		add_core_of = AKA
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

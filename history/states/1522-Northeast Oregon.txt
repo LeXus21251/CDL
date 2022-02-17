@@ -1,0 +1,15 @@
+state={
+	id=1522
+	name="STATE_1522"
+
+	history={
+		owner = CAS
+
+	}
+
+	provinces={
+		7255 7442 10155 10271 10690 12155 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

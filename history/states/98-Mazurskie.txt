@@ -1,0 +1,26 @@
+
+state={
+	id=98
+	name="STATE_98"
+
+	history={
+		victory_points = {
+			3230 5 
+		}
+		owner = POL
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = POL
+
+	}
+
+	provinces={
+		6259 6321 6567 9290 
+	}
+	manpower=971203
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

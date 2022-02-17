@@ -1,0 +1,16 @@
+state={
+	id=947
+	name="STATE_947"
+
+	history={
+		owner = SLL
+
+	}
+
+	provinces={
+		1953 2096 7996 10877 10908 
+	}
+	manpower=1300000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

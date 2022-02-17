@@ -1,0 +1,200 @@
+add_namespace = ott_war
+
+country_event = {
+	id = ott_war.0
+	
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+		TUR = {
+	declare_war_on = { target = ASY type = annex_everything }
+			}
+		}
+	}
+			
+}
+country_event = {
+	id = ott_war.1
+	
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+		TUR = {
+	declare_war_on = { target = ARM type = annex_everything }
+			}
+		}
+	}
+			
+}
+country_event = {
+	id = ott_war.2
+	
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+		TUR = {
+	declare_war_on = { target = PON type = annex_everything }
+			}
+		}
+	}
+			
+}
+country_event = {
+	id = ott_war.3
+	
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+		TUR = {
+	declare_war_on = { target = MES type = annex_everything }
+			}
+		}
+	}
+			
+}
+country_event = {
+	id = ott_war.4
+	
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+		TUR = {
+	declare_war_on = { target = KUR type = annex_everything }
+			}
+		}
+	}
+			
+}
+country_event = {
+	id = ott_war.5
+	
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+		TUR = {
+	declare_war_on = { target = IRQ type = annex_everything }
+			}
+		}
+	}
+			
+}
+country_event = {
+	id = ott_war.6
+	
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+		TUR = {
+	declare_war_on = { target = ASI type = annex_everything }
+			}
+		}
+	}
+			
+}
+country_event = {
+	id = ott_war.7
+	
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+		TUR = {
+	declare_war_on = { target = YEM type = annex_everything }
+			}
+		}
+	}
+			
+}
+country_event = {
+	id = ott_war.8
+	
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+		TUR = {
+	declare_war_on = { target = HEJ type = annex_everything }
+			}
+		}
+	}
+			
+}
+country_event = {
+	id = ott_war.9
+	
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+		TUR = {
+	declare_war_on = { target = SYR type = annex_everything }
+			}
+		}
+	}
+			
+}
+country_event = {
+	id = ott_war.10
+	
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+		TUR = {
+	declare_war_on = { target = ALW type = annex_everything }
+			}
+		}
+	}
+			
+}
+country_event = {
+	id = ott_war.11
+	
+	
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+		AND = {
+		TUR = {
+	declare_war_on = { target = DRU type = annex_everything }
+			}
+		ANZ = {
+	declare_war_on = { target = DRU type = annex_everything }
+			}
+			}
+		}
+	}
+			
+}

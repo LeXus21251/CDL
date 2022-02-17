@@ -1,0 +1,21 @@
+
+state={
+	id=84
+	name="STATE_84"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = TRA
+		add_core_of = TRA
+		victory_points = { 3694 2 }
+	}
+
+	provinces={
+		693 3694 11622 
+	}
+	manpower=354689
+	buildings_max_level_factor=1.000
+	state_category=town
+}

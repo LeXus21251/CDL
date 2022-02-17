@@ -1,0 +1,12 @@
+state={
+	id=1546
+	name="STATE_1546"
+	provinces={
+		8052 10857 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+			history={
+		owner = MHD
+	}
+}

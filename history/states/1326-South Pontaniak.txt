@@ -1,0 +1,24 @@
+state={
+	id=1326
+	name="STATE_1326"
+	resources={
+		aluminium = 6.700
+		wood = 4.500
+	}
+
+	history = {
+		owner = LAN
+		add_core_of = LAN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		4409 7227 10282 12955 13432 
+	}
+	manpower=287192
+	buildings_max_level_factor=1.000
+	state_category = village
+}

@@ -1,0 +1,22 @@
+state={
+	id=1577
+	name="STATE_1577"
+	
+	resources={
+		fabrics = 60.000
+	}
+	provinces={
+		1113 4000 11908 
+	}
+	manpower=1727192
+	buildings_max_level_factor=1.000
+	state_category = town
+						history={
+		owner = TOK
+		add_core_of = TOK
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+	}
+			}
+}

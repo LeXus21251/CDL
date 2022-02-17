@@ -1,0 +1,16 @@
+state={
+	id=1087
+	name="STATE_1087"
+
+	history={
+		owner = MEX
+
+	}
+
+	provinces={
+		7688 7888 12561 12633 12651 
+	}
+	manpower=30000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

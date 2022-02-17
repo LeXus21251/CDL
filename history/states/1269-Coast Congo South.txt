@@ -1,0 +1,18 @@
+state={
+	id=1269
+	name="STATE_1269"
+
+	history={
+		owner = COG
+		victory_points = {
+			13367 3
+		}
+
+	}
+
+	provinces={
+		13366 13367 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

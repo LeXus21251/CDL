@@ -1,0 +1,24 @@
+state={
+	id=1389
+	name="STATE_1389"
+	resources={
+		tungsten=2.000
+	}
+
+	history={
+		owner = OSS
+		add_core_of = OSS
+	buildings = {
+	infrastructure = 1
+	industrial_complex = 2
+	}
+
+	}
+
+	provinces={
+		2133 5175 5206 7623 8155 10958 12904 12962 13622 13624 
+	}
+	manpower= 274216
+	buildings_max_level_factor=1.000
+	state_category = village
+}

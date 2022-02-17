@@ -1,0 +1,25 @@
+state={
+	id=1581
+	name="STATE_1581"
+	
+	resources={
+		wood = 10.000
+		steel = 11.000
+	}
+	provinces={
+		6873 6994 9859 
+	}
+	manpower=665723
+	buildings_max_level_factor=1.000
+	state_category = village
+						history={
+		owner = TOK
+		add_core_of = TOK
+		victory_points = {
+		6994 5
+		}
+		buildings = {
+			infrastructure = 3
+	}
+			}
+}

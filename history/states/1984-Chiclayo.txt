@@ -1,0 +1,15 @@
+state={
+	id=1984
+	name="STATE_1984"
+
+	history={
+		owner = PRU
+
+	}
+
+	provinces={
+		2156 8199 14187 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

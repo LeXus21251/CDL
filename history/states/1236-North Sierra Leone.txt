@@ -1,0 +1,16 @@
+state={
+	id=1236
+	name="STATE_1236"
+
+	history={
+		owner = SEN
+		add_core_of = MRT
+
+	}
+
+	provinces={
+		7943 8035 10814 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=1104
+	name="STATE_1104"
+
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = BRB
+	}
+
+	provinces={
+		444 11478 
+	}
+	manpower=212372
+	buildings_max_level_factor=1.000
+	state_category=town

@@ -1,0 +1,31 @@
+
+state={
+	id=44
+	name="STATE_44"
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			9914 5 
+		}
+		victory_points = {
+			9875 3
+		}
+
+
+		}
+
+	provinces={
+		3884 9875 9914 
+	}
+	manpower=404127
+	buildings_max_level_factor=1.000
+	state_category=village
+}

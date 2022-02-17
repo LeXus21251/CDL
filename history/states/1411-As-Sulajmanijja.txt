@@ -1,0 +1,17 @@
+state={
+	id=1411
+	name="STATE_1411"
+
+	history={
+		owner = TUR
+		add_core_of = KUR
+		add_claim_by = IRQ
+
+	}
+
+	provinces={
+		6826 8123 10793 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=870
+	name="STATE_870"
+	provinces={
+		4023 4160 7135 
+	}
+	manpower=1237000
+	buildings_max_level_factor=1.000
+	state_category=town
+				history={
+		owner = QIN
+	}
+}

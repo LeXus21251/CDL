@@ -1,0 +1,16 @@
+state={
+	id=1688
+	name="STATE_1688"
+	provinces={
+		13699 
+	}
+	manpower=134567
+	buildings_max_level_factor=1.000
+	state_category = large_town
+	history={
+		owner = TRA
+		add_core_of = TRA
+		add_core_of = NSX
+		victory_points = { 13699 5 }
+	}
+}

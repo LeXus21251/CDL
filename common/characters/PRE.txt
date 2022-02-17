@@ -1,0 +1,16 @@
+characters={
+	PRE_otto_braun={
+		name="Otto Braun"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRE/Otto_Braun.dds"
+			}
+		}
+		country_leader={
+			ideology=reformist_socialism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

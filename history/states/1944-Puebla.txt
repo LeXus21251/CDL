@@ -1,0 +1,13 @@
+state={
+	id=1944
+	name="STATE_1944"
+	provinces={
+		8089 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = MEX
+
+	}
+}

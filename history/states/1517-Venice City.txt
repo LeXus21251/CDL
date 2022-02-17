@@ -1,0 +1,23 @@
+state={
+	id=1517
+	name="STATE_1517"
+	provinces={
+		13602 
+	}
+	manpower= 229376
+	buildings_max_level_factor=1.000
+	state_category = city
+				history={
+		owner = VNC
+		add_core_of = VNC
+		victory_points = {
+		13602 30
+		}
+		buildings = {
+			13602 = {
+				naval_base = 8
+			}
+		}
+
+	}
+}

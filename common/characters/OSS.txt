@@ -1,0 +1,16 @@
+characters={
+	OSS_alfred_deakin={
+		name="Alfred Deakin"
+		portraits={
+			civilian={
+				large="gfx/leaders/OSS/Alfred_Deakin.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism_subtype
+			traits={affable_alfred}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

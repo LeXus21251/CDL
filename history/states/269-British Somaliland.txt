@@ -1,0 +1,27 @@
+
+state={
+	id=269
+	name="STATE_269"
+
+	history={
+		victory_points = {
+			10833 1 
+		}
+		victory_points = {
+			5068 1 
+		}
+		victory_points = {
+			8094 3 
+		}
+		owner = DER
+		add_core_of = SOM
+
+	}
+
+	provinces={
+		1905 5068 8094 12814 
+	}
+	manpower=344700
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

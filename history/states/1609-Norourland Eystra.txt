@@ -1,0 +1,20 @@
+state={
+	id=1609
+	name="STATE_1609"
+	provinces={
+		13676 13677 13678 
+	}
+	manpower=5385
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+		history={
+		owner = DEN
+		add_core_of = ICE
+		add_claim_by = DEN
+		add_claim_by = NOR
+		
+		victory_points = {
+		13677 4
+		}
+	}
+}

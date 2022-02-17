@@ -1,0 +1,22 @@
+state={
+	id=1642
+	name="STATE_1642"
+	provinces={
+		925 967 11861 
+	}
+	manpower=638495
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+	owner = PAP
+	add_core_of = PAP
+		victory_points = {
+		925 1
+		}
+		buildings = {
+			925 = {
+				naval_base = 3
+			}
+		}
+	}
+}

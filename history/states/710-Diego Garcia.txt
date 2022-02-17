@@ -1,0 +1,19 @@
+state={
+	id=710
+	name="STATE_710"
+	manpower=1123	
+	state_category = tiny_island
+	
+	history= {
+		owner = FEI
+		add_core_of = FEI
+		buildings = {
+			infrastructure = 1
+			13019 = {naval_base = 1}
+		}
+	}
+	
+	provinces={
+		13019 
+	}
+}

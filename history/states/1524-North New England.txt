@@ -1,0 +1,15 @@
+state={
+	id=1524
+	name="STATE_1524"
+
+	history={
+		owner = ACA
+
+	}
+
+	provinces={
+		4287 10247 12221 13613 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

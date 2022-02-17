@@ -1,0 +1,18 @@
+state={
+	id=1637
+	name="STATE_1637"
+	provinces={
+		883 6939 6980 
+	}
+	manpower=437229
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+	owner = SIC
+		add_core_of = SIC
+		add_core_of = NAP
+		victory_points = {
+			883 3
+		}
+		}
+}

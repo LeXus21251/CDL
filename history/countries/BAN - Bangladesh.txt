@@ -1,0 +1,30 @@
+﻿capital = 431
+
+#oob = ""
+set_cosmetic_tag = BAN_FRA
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+FRA = {
+		set_autonomy = {
+			target = BAN
+			autonomy_state = autonomy_vassal
+			freedom_level = 0.5
+		}
+	}
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+}
+
+
+recruit_character = BAN_jean_lanessan

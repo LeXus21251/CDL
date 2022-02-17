@@ -1,0 +1,16 @@
+state={
+	id=1256
+	name="STATE_1256"
+
+	history={
+		owner = NGR
+		add_core_of = SON
+
+	}
+
+	provinces={
+		2068 13354 13355 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=1265
+	name="STATE_1265"
+
+	history={
+		owner = GAB
+		add_core_of = AKA
+
+	}
+
+	provinces={
+		13243 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

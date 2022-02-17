@@ -1,0 +1,24 @@
+state={
+	id=1347
+	name="STATE_1347"
+	resources={
+		rubber=5.000
+		wood=12.000
+	}
+
+	history = {
+		owner = VOC
+		add_core_of = VOC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		4652 7673 12302 
+	}
+	manpower=903773
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

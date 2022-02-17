@@ -1,0 +1,21 @@
+state={
+	id=1562
+	name="STATE_1562"
+
+	history={
+		owner = TOK
+		add_core_of = TOK
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		4027 10020 10092 14451 
+	}
+	manpower=847512
+	buildings_max_level_factor=1.000
+	state_category=town
+}

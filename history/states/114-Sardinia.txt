@@ -1,0 +1,25 @@
+
+state={
+	id=114
+	name="STATE_114"
+
+	history={
+		owner = SAR
+		add_core_of = SAR
+		victory_points = {
+		11773 10
+		}
+		buildings = {
+			11773 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces={
+		902 11755 11773 11824 11874 
+	}
+	manpower=721365
+	buildings_max_level_factor=1.000
+	state_category=city
+}

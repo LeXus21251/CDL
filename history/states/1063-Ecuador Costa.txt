@@ -1,0 +1,16 @@
+state={
+	id=1063
+	name="STATE_1063"
+
+	history={
+		owner = COL
+
+	}
+
+	provinces={
+		8075 10888 12798 14118 
+	}
+	manpower=456000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

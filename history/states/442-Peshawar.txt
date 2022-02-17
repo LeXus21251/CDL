@@ -1,0 +1,27 @@
+
+state={
+	id=442
+	name="STATE_442"
+
+	history={
+		victory_points = {
+			12763 3 
+		}
+		owner = MUG
+		add_core_of = MUG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		
+
+	}
+
+	provinces={
+		1978 4558 4998 7975 12717 12763 13539 
+	}
+	manpower=29718273
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

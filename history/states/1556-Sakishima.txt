@@ -1,0 +1,23 @@
+state={
+	id=1556
+	name="STATE_1556"
+	provinces={
+		13630 
+	}
+	resources = {
+		coal = 6.000
+		}
+	manpower= 39761
+	buildings_max_level_factor=1.000
+	state_category = small_island
+				history={
+		owner = RYU
+		add_core_of = RYU
+		buildings = {
+			infrastructure = 1
+		13630 = {
+		naval_base = 1
+		}
+	}
+	}
+}

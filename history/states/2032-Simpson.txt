@@ -1,0 +1,18 @@
+state={
+	id=2032
+	name="STATE_2032"
+	provinces={
+		10927 
+	}
+	manpower=2831
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history={
+		owner = OSS
+		add_core_of = OSS
+	buildings = {
+	infrastructure = 1
+	}
+
+	}
+}

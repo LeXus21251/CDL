@@ -1,0 +1,13 @@
+state={
+	id=959
+	name="STATE_959"
+	provinces={
+		4116 7132 11923 
+	}
+	manpower=1200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+			history={
+		owner = FRA
+	}
+}

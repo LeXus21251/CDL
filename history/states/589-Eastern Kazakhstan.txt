@@ -1,0 +1,25 @@
+
+state={
+	id=589
+	name="STATE_589"
+
+	history={
+			owner = RUS	
+			add_core_of = ORT
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			1668 1 
+		}
+
+	}
+
+	provinces={
+		1239 1668 4764 7332 7405 10290 
+	}
+	manpower=535191
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

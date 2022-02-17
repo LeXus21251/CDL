@@ -1,0 +1,18 @@
+state={
+	id=1370
+	name="STATE_1370"
+
+	history={
+		owner = POL
+		add_core_of = POL
+
+	}
+
+	provinces={
+		442 3410 6499 11413 
+	}
+	manpower=881203
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=1498
+	name="STATE_1498"
+
+	history={
+		owner = MAD
+		add_core_of = MAD
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		8180 12956 13582 13583 13584 14607 14608 
+	}
+	manpower=176229
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

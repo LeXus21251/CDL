@@ -1,0 +1,13 @@
+state={
+	id=1395
+	name="STATE_1395"
+	provinces={
+		4985 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+			history={
+		owner = ERI
+		victory_points = {4985 3}
+	}
+}

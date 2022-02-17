@@ -1,0 +1,14 @@
+state={
+	id=995
+	name="STATE_995"
+	provinces={
+		125 130 205 6063 6067 9035 9088 9151 11040 11185 11209 11123 3108
+	}
+	manpower=103182
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = SWE
+		add_core_of = SWE
+		}
+}

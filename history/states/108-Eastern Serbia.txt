@@ -1,0 +1,27 @@
+
+state={
+	id=108
+	name="STATE_108"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = SER
+		add_core_of = SER
+		victory_points = {
+			6634 4 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces={
+		630 6634 9602 
+	}
+	manpower=137295
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

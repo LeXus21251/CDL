@@ -1,0 +1,16 @@
+state={
+	id=1132
+	name="STATE_1132"
+
+	history={
+		owner = SEN
+
+	}
+
+	provinces={
+		7972 12710 
+	}
+	manpower=350000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

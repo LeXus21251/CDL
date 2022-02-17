@@ -1,0 +1,22 @@
+
+state={
+	id=189
+	name="STATE_189"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = LIT
+		add_core_of = LIT
+		add_core_of = SMG
+
+	}
+
+	provinces={
+		530 6376 9374 
+	}
+	manpower=178201
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

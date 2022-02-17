@@ -1,0 +1,17 @@
+state={
+	id=1584
+	name="STATE_1584"
+	provinces={
+		13633 
+	}
+	manpower=12712
+	buildings_max_level_factor=1.000
+		state_category = tiny_island
+							history={
+		owner = TOK
+		add_core_of = TOK
+		buildings = {
+			infrastructure = 2
+	}
+			}
+}

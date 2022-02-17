@@ -1,0 +1,28 @@
+state={
+	id=2142
+	name="STATE_2142"
+	resources={
+		tungsten=3.000
+		steel=12.000
+	}
+
+	history={
+		owner = VIN
+		add_core_of = VIN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+
+	}
+
+	provinces={
+		1073 1157 4119 7015 7093 7518 9948 10004 12008 12048 12065 
+	}
+	manpower=2172392
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

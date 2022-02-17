@@ -1,0 +1,24 @@
+state={
+	id=1555
+	name="STATE_1555"
+	provinces={
+		10124 13629 
+	}
+	
+	resources = {
+		wood = 7.000
+		}
+	manpower= 147612
+	buildings_max_level_factor=1.000
+	state_category = rural
+			history={
+		owner = RYU
+		add_core_of = RYU
+		buildings = {
+			infrastructure = 3
+	}
+	victory_points = {
+		13629 10
+		}
+	}
+}

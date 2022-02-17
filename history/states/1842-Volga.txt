@@ -1,0 +1,16 @@
+state={
+	id=1842
+	name="STATE_1842"
+
+	history={
+		owner = RUS
+
+	}
+
+	provinces={
+		498 3475 3487 6503 6527 9459 9474 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

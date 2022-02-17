@@ -1,0 +1,25 @@
+
+state={
+	id=738
+	name="STATE_738"
+	resources={
+		wood = 2.000
+	}
+
+	history={
+		owner = AST
+		add_core_of = AST
+	buildings = {
+	infrastructure = 1
+			13448 = {naval_base = 1}
+	}
+
+	}
+
+	provinces={
+		13448 
+	}
+	manpower=36146
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

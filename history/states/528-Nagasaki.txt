@@ -1,0 +1,25 @@
+
+state={
+	id=528
+	name="STATE_528"
+	resources={
+		wood=8.000
+	}
+
+	history={
+		owner = TOK
+		add_core_of = TOK
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		1020 7178 11949 12032 14378 14447 
+	}
+	manpower=1022109
+	buildings_max_level_factor=1.000
+	state_category=town
+}

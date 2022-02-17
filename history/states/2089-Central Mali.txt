@@ -1,0 +1,16 @@
+state={
+	id=2089
+	name="STATE_2089"
+
+	history={
+		owner = SEN
+		add_core_of = MSS
+
+	}
+
+	provinces={
+		2044 12838 14403 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

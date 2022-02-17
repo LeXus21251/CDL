@@ -1,0 +1,23 @@
+state={
+	id=1437
+	name="STATE_1437"
+	resources={
+		oil = 3.000
+	}
+	provinces={
+		1656 4459 7475 10361 10878 
+	}
+	manpower=6927661
+	buildings_max_level_factor=1.000
+	state_category = village
+		history={
+		owner = BAN
+		add_core_of = BAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+}

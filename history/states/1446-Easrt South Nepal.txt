@@ -1,0 +1,19 @@
+state={
+	id=1446
+	name="STATE_1446"
+	provinces={
+		4987 5310 
+	}
+	manpower=339182
+	buildings_max_level_factor=1.000
+	state_category = rural
+		history={
+		owner = BAN
+		add_core_of = BAN
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

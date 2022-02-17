@@ -1,0 +1,24 @@
+state={
+	id=1486
+	name="STATE_1486"
+	resources={
+		oil = 5.000
+		lead = 3.000
+	}
+	provinces={
+		1075 7634 13557 13558 13559 
+	}
+	manpower=522716
+	buildings_max_level_factor=1.000
+	state_category = rural
+		history={
+		owner = BAN
+		add_core_of = BAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+
+	}
+}

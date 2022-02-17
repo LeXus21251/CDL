@@ -1,0 +1,21 @@
+﻿l_english:
+
+ ##NAMES
+  NZL:0 "New Zealand"
+  NZL_ADJ:0 "New Zealand"
+  NZL_DEF:0 "New Zealand"
+  
+ ##CTAGS
+  #DLC
+   NZL_FRA_autonomy_dominion: "Dauphinate of Nouvelle Normandie"
+  #NO DLC
+   NZL_FRA_subject: "Dauphinate of Nouvelle Normandie"
+ 
+ ##PARTIES
+  NZL_conservatism_party:0 "Parti Loyaliste"
+  
+ ##IDEAS
+  NZL_dispersed_island:0 "Dispersed island country"
+  NZL_dispersed_island_desc:0 "Because the §BDauphinate of Nouvelle Normandie§! is located on a number of islands scattered throughout the §1Southern Pacific Ocean§!, the fleet is an important element on both a civilian and military level.\n\nThe navy has many excellent §5admirals§! who are trained to operate on the high seas as well as off shore."
+  NZL_de_jure_fed:0 "De jure federation"
+  NZL_de_jure_fed_desc:0 "From the very beginning of the state's existence as a colony, agreements were signed between the §BFrench§! and the §0local kingdoms§! on the various islands.\n\nAfter the transformation of the colony into Dauphinate the agreements are still in force and the country is de jure a federation, but de facto it is a unitary state."

@@ -1,0 +1,14 @@
+state={
+	id=1827
+	name="STATE_1827"
+	provinces={
+		1599 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history = {
+	owner = RUS
+	add_core_of = RUS
+	add_core_of = GEO
+	}
+}

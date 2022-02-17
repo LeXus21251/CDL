@@ -1,0 +1,26 @@
+state={
+	id=1644
+	name="STATE_1644"
+
+	history={
+		owner = PRM
+		add_core_of = PRM
+		add_core_of = LCC
+		victory_points = {
+			6946 10 
+		}
+		buildings = {
+			6973 = {
+				naval_base = 4
+			}
+		}
+
+	}
+
+	provinces={
+		6973 
+	}
+	manpower=375284
+	buildings_max_level_factor=1.000
+	state_category=city
+}

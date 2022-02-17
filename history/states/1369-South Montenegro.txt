@@ -1,0 +1,23 @@
+state={
+	id=1369
+	name="STATE_1369"
+
+	history={
+		owner = MNT
+		add_core_of = MNT
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			9809 5 
+		}
+
+	}
+
+	provinces={
+		9809 14458 
+	}
+	manpower=184298
+	buildings_max_level_factor=1.000
+	state_category=village
+}

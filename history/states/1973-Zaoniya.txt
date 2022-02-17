@@ -1,0 +1,13 @@
+state={
+	id=1973
+	name="STATE_1973"
+	provinces={
+		5136 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SNS
+
+	}
+}

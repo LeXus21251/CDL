@@ -1,0 +1,15 @@
+state={
+	id=1451
+	name="STATE_1451"
+
+	history={
+		owner = TIB
+
+	}
+
+	provinces={
+		2041 2084 10821 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=703
+	name="STATE_703"
+	resources={
+		fabrics = 1.000
+	}
+	manpower=521
+	state_category = small_island
+	history= {
+		owner = WED
+		add_core_of = WED
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			13013 = {naval_base = 1}
+		}
+	}
+	
+	provinces={
+		13013 
+	}
+}

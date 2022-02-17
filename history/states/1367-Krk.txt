@@ -1,0 +1,14 @@
+state={
+	id=1367
+	name="STATE_1367"
+	provinces={
+		13465 
+	}
+	manpower=9871
+	buildings_max_level_factor=1.000
+	state_category = small_island
+		history={
+		owner = VNC
+		add_core_of = VNC
+	}
+}

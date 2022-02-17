@@ -1,0 +1,20 @@
+state={
+	id=1112
+	name="STATE_1112"
+
+	history={
+		owner = MLO
+		add_core_of = MLO
+		victory_points = {
+			3780 25 
+		}
+
+	}
+
+	provinces={
+		607 773 3780 9584 
+	}
+	manpower=3745912
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

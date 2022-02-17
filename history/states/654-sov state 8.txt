@@ -1,0 +1,24 @@
+
+state={
+	id=654
+	name="STATE_654"
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = RUS
+		add_core_of = ALT
+
+	}
+
+	provinces={
+		4781 10531 10713 12509 
+	}
+	manpower=153510
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

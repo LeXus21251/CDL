@@ -1,0 +1,14 @@
+state={
+	id=1963
+	name="STATE_1963"
+	provinces={
+		13280 14123 14124 14125 14126 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SNS
+		add_core_of = BOR
+
+	}
+}

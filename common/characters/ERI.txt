@@ -1,0 +1,16 @@
+characters={
+	ERI_nikolay_achinov={
+		name="Nikolay Ivanovitch Achinov"
+		portraits={
+			civilian={
+				large="gfx/leaders/ERI/.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarianism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,16 @@
+state={
+	id=2046
+	name="STATE_2046"
+
+	history={
+		owner = TUR
+		add_core_of = MES
+
+	}
+
+	provinces={
+		78 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

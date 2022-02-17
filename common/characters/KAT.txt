@@ -1,0 +1,16 @@
+characters={
+	KAT_masnur_ghalib={
+		name="Mansur bin Ghalib"
+		portraits={
+			civilian={
+				large="gfx/leaders/KAT/Mansur_Ghalib.dds"
+			}
+		}
+		country_leader={
+			ideology=absolutism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

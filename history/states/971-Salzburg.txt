@@ -1,0 +1,19 @@
+state={
+	id=971
+	name="STATE_971"
+
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = SAL
+		add_core_of = AUS
+
+	}
+
+	provinces={
+		668 671 688 3674 3675 
+	}
+	manpower=371883
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

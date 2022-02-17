@@ -1,0 +1,20 @@
+state={
+	id=810
+	name="STATE_810"
+
+	history={
+		owner = OSS
+		add_core_of = OSS
+	buildings = {
+	infrastructure = 1
+	}
+
+	}
+
+	provinces={
+		2186 4645 5170 7608 10473 10971 13623 
+	}
+	manpower=167271
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

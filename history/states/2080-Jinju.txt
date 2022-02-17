@@ -1,0 +1,13 @@
+state={
+	id=2080
+	name="STATE_2080"
+	provinces={
+		1054 4056 4086 10085 12060 
+	}
+	history={
+		owner = KOR
+		add_core_of = KOR
+		}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

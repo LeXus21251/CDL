@@ -1,0 +1,15 @@
+state={
+	id=1385
+	name="STATE_1385"
+
+	history={
+		owner = SUR
+
+	}
+
+	provinces={
+		12716 13472 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,19 @@
+state={
+	id=1901
+	name="STATE_1901"
+
+	history={
+		owner = DEN
+		add_core_of = KAA
+		add_claim_by = DEN
+		victory_points = {13981 1}
+
+	}
+
+	provinces={
+		13981 13982 13984 13995 14024 14025 14026 14027 14228 14229 14230 
+	}
+	manpower=241
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

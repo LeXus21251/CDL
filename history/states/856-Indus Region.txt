@@ -1,0 +1,21 @@
+state={
+	id=856
+	name="STATE_856"
+
+	history={
+		owner = AWA
+		add_core_of = AWA
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1541 1983 7064 7334 8082 
+	}
+	manpower=2098771
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

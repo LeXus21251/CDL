@@ -1,0 +1,16 @@
+state={
+	id=1143
+	name="STATE_1143"
+
+	history={
+		owner = COG
+
+	}
+
+	provinces={
+		2154 6027 14434 14435 
+	}
+	manpower=1200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

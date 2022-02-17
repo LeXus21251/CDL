@@ -1,0 +1,23 @@
+state={
+	id=1309
+	name="STATE_1309"
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = HEJ
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		5099 7934 12758 13406 14604 14605 
+	}
+	manpower=48227
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.000
+}

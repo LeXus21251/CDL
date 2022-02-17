@@ -1,0 +1,22 @@
+state={
+	id=1503
+	name="STATE_1503"
+
+	history={
+		owner = MAD
+		add_core_of = MAD
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		11015 13576 13577 14609 14610 14614 
+	}
+	manpower=142716
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

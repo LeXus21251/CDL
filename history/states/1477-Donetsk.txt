@@ -1,0 +1,15 @@
+state={
+	id=1477
+	name="STATE_1477"
+
+	history={
+		owner = RUS
+
+	}
+
+	provinces={
+		472 486 3399 11405 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

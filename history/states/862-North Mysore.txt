@@ -1,0 +1,27 @@
+state={
+	id=862
+	name="STATE_862"
+	resources={
+		rubber= 6.000
+		steel = 7.000
+		wood = 14.000
+	}
+
+	history={
+		owner = PEI
+		add_core_of = PEI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+	}
+
+	provinces={
+		4278 4291 5032 7250 10208 12105 12208 
+	}
+	manpower=2418213
+	buildings_max_level_factor=1.000
+	state_category=town
+}

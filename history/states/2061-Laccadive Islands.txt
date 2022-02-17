@@ -1,0 +1,19 @@
+state={
+	id=2061
+	name="STATE_2061"
+	provinces={
+		14350 
+	}
+	manpower=15621
+	buildings_max_level_factor=1.000
+	state_category = small_island
+	history={
+		add_core_of = VOC
+		owner = VOC
+		buildings = {
+			infrastructure = 1
+			14350 = {naval_base = 1}
+		}
+
+	}
+}

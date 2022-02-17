@@ -1,0 +1,16 @@
+state={
+	id=648
+	name="STATE_648"
+	state_category = tiny_island
+	manpower=10
+	history={
+		owner = PHI
+		add_core_of = PHI
+		buildings = {
+			infrastructure = 1
+			13026 = {naval_base = 1}
+		}
+
+	}
+	provinces={13026 	}
+}

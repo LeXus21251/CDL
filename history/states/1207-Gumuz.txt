@@ -1,0 +1,15 @@
+state={
+	id=1207
+	name="STATE_1207"
+
+	history={
+		owner = ETH
+
+	}
+
+	provinces={
+		2040 4954 5097 13304 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

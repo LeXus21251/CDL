@@ -1,0 +1,24 @@
+state={
+	id=1333
+	name="STATE_1333"
+	resources={
+		fabrics = 6.500
+	}
+	provinces={
+		4579 
+	}
+	manpower=24172
+	buildings_max_level_factor=1.000
+	state_category = small_island
+		history={
+		owner = PEI
+		add_core_of = PEI
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			4579 = {naval_base = 1}
+
+		}
+
+	}
+}

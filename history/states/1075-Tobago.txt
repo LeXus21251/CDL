@@ -1,0 +1,13 @@
+state={
+	id=1075
+	name="STATE_1075"
+	provinces={
+		13012 
+	}
+	manpower=6969
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+						history={
+		owner = POL
+		}
+}

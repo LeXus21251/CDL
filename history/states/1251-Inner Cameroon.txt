@@ -1,0 +1,16 @@
+state={
+	id=1251
+	name="STATE_1251"
+
+	history={
+		owner = CAR
+		add_core_of = AKA
+
+	}
+
+	provinces={
+		5054 11012 13352 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

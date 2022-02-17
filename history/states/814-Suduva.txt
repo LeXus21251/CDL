@@ -1,0 +1,24 @@
+state={
+	id=814
+	name="STATE_814"
+	resources={
+		oil = 2.200
+	}
+	provinces={
+		1574 7369 7557 10409 
+	}
+	manpower=215372
+	buildings_max_level_factor=1.000
+	state_category=rural
+		history={
+		owner = PEI
+		add_core_of = PEI
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			7557 = {naval_base = 1}
+
+		}
+
+	}
+}
