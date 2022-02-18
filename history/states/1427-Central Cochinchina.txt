@@ -2,26 +2,31 @@ state={
 	id=1427
 	name="STATE_1427"
 	resources={
-		fabrics = 13.000
-		wood = 5.000
-		oil = 8.000
+		fabrics=13.000
+		wood=5.000
+		oil=8.000
 	}
 
-	history = {
+	history={
 		owner = VIN
 		add_core_of = VIN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
-			4401 = {naval_base = 1}
+			4401 = {
+				naval_base = 1
+
+			}
 
 		}
+
 	}
 
 	provinces={
-		4401 7238 7347 10261 12232 
+		4401 7347 10261 12232 
 	}
 	manpower=2273092
 	buildings_max_level_factor=1.000
-	state_category = large_town
+	state_category=large_town
+	local_supplies=0.000
 }

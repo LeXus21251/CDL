@@ -96,10 +96,10 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = JAC_kyushu_strike_prep
-		icon = GFX_JAC_kyushu_strike_prep
+		id = JAC_strike_nagasaki
+		icon = GFX_JAC_strike_nagasaki
 		cost = 10.00
-		x = 8
+		x = 7
 		y = 5
 		
 		ai_will_do = {
@@ -107,45 +107,6 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = JAC_capture_chugoku
-		}
-		prerequisite = {
-			focus = JAC_capture_shikoku
-		}
-		completion_reward = {
-		
-
-	}
-	}
-	focus = {
-		id = JAC_strike_nagasaki
-		icon = GFX_JAC_strike_nagasaki
-		cost = 10.00
-		x = 6
-		y = 6
-		
-		ai_will_do = {
-		factor = 1
-		}
-		prerequisite = {
-			focus = JAC_kyushu_strike_prep
-		}
-		completion_reward = {
-		
-
-	}
-	}
-	focus = {
-		id = JAC_nagasaki_conquer
-		icon = GFX_JAC_nagasaki_conquer
-		cost = 10.00
-		x = 6
-		y = 7
-		
-		ai_will_do = {
-		factor = 1
-		}
-		prerequisite = {
-			focus = JAC_strike_nagasaki
 		}
 		completion_reward = {
 		
@@ -157,31 +118,13 @@ focus_tree = {
 		icon = GFX_JAC_strike_satsuma
 		cost = 10.00
 		x = 9
-		y = 6
+		y = 5
 		
 		ai_will_do = {
 		factor = 1
 		}
 		prerequisite = {
-			focus = JAC_kyushu_strike_prep
-		}
-		completion_reward = {
-		
-
-	}
-	}
-	focus = {
-		id = JAC_satsuma_conquer
-		icon = GFX_JAC_satsuma_conquer
-		cost = 10.00
-		x = 9
-		y = 7
-		
-		ai_will_do = {
-		factor = 1
-		}
-		prerequisite = {
-			focus = JAC_strike_satsuma
+			focus = JAC_capture_shikoku
 		}
 		completion_reward = {
 		
@@ -192,17 +135,17 @@ focus_tree = {
 		id = JAC_emp_army_massacre
 		icon = GFX_JAC_emp_army_massacre
 		cost = 10.00
-		x = 7
-		y = 8
+		x = 8
+		y = 6
 		
 		ai_will_do = {
 		factor = 1
 		}
 		prerequisite = {
-			focus = JAC_nagasaki_conquer
+			focus = JAC_strike_nagasaki
 		}
 		prerequisite = {
-			focus = JAC_satsuma_conquer
+			focus = JAC_strike_satsuma
 		}
 		completion_reward = {
 		
@@ -266,10 +209,10 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = JAC_encircle_heian
-		icon = GFX_JAC_encircle_heian
+		id = JAC_conquer_heian_palace
+		icon = GFX_JAC_conquer_heian_palace
 		cost = 10.00
-		x = 14
+		x = 13
 		y = 5
 		
 		ai_will_do = {
@@ -277,24 +220,6 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = JAC_center_control
-		}
-		completion_reward = {
-		
-
-	}
-	}
-	focus = {
-		id = JAC_palace_conquered
-		icon = GFX_JAC_palace_conquered
-		cost = 10.00
-		x = 14
-		y = 6
-		
-		ai_will_do = {
-		factor = 1
-		}
-		prerequisite = {
-			focus = JAC_encircle_heian
 		}
 		completion_reward = {
 		
@@ -315,7 +240,7 @@ focus_tree = {
 			focus = JAC_edo_assault
 		}
 		prerequisite = {
-			focus = JAC_palace_conquered
+			focus = JAC_conquer_heian_palace
 		}
 		completion_reward = {
 		
@@ -483,9 +408,9 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = JAC_regroup_army
-		icon = GFX_JAC_regroup_army
-		x = 17
+		id = JAC_attack_nagasaki
+		icon = GFX_JAC_attack_nagasaki
+		x = 16
 		y = 7
 		
 		ai_will_do = {
@@ -493,26 +418,6 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = JAC_secure_chugoku
-		}
-		prerequisite = {
-			focus = JAC_secure_shikoku
-		}
-		completion_reward = {
-		
-
-	}
-	}
-	focus = {
-		id = JAC_attack_nagasaki
-		icon = GFX_JAC_attack_nagasaki
-		x = 16
-		y = 8
-		
-		ai_will_do = {
-		factor = 1
-		}
-		prerequisite = {
-			focus = JAC_regroup_army
 		}
 		completion_reward = {
 		
@@ -523,13 +428,13 @@ focus_tree = {
 		id = JAC_attack_satsuma
 		icon = GFX_JAC_attack_satsuma
 		x = 18
-		y = 8
+		y = 7
 		
 		ai_will_do = {
 		factor = 1
 		}
 		prerequisite = {
-			focus = JAC_regroup_army
+			focus = JAC_secure_shikoku
 		}
 		completion_reward = {
 		
@@ -540,7 +445,7 @@ focus_tree = {
 		id = JAC_emp_army_defeat
 		icon = GFX_JAC_emp_army_defeat
 		x = 17
-		y = 9
+		y = 8
 		
 		ai_will_do = {
 		factor = 1
@@ -560,7 +465,7 @@ focus_tree = {
 	focus = {
 		id = JAC_shogun_focus
 		icon = GFX_JAC_shogun_focus
-		x = 22
+		x = 21
 		y = 4
 		
 		ai_will_do = {
@@ -575,43 +480,9 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = JAC_along_shore
-		icon = GFX_JAC_along_shore
-		x = 20
-		y = 5
-		
-		ai_will_do = {
-		factor = 1
-		}
-		prerequisite = {
-			focus = JAC_shogun_focus
-		}
-		completion_reward = {
-		
-
-	}
-	}
-	focus = {
 		id = JAC_cut_ezo
 		icon = GFX_JAC_cut_ezo
 		x = 20
-		y = 6
-		
-		ai_will_do = {
-		factor = 1
-		}
-		prerequisite = {
-			focus = JAC_along_shore
-		}
-		completion_reward = {
-		
-
-	}
-	}
-	focus = {
-		id = JAC_center_encircle
-		icon = GFX_JAC_center_encircle
-		x = 23
 		y = 5
 		
 		ai_will_do = {
@@ -628,14 +499,14 @@ focus_tree = {
 	focus = {
 		id = JAC_center_break
 		icon = GFX_JAC_center_ebreak
-		x = 23
-		y = 6
+		x = 22
+		y = 5
 		
 		ai_will_do = {
 		factor = 1
 		}
 		prerequisite = {
-			focus = JAC_center_encircle
+			focus = JAC_shogun_focus
 		}
 		completion_reward = {
 		
@@ -643,9 +514,9 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = JAC_heian_siege
-		icon = GFX_JAC_heian_siege
-		x = 25
+		id = JAC_heian_strike
+		icon = GFX_JAC_heian_strike
+		x = 22
 		y = 6
 		
 		ai_will_do = {
@@ -660,39 +531,16 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = JAC_heian_fall
-		icon = GFX_JAC_heian_fall
-		x = 25
-		y = 7
-		
-		ai_will_do = {
-		factor = 1
-		}
-		prerequisite = {
-			focus = JAC_heian_siege
-		}
-		completion_reward = {
-		
-
-	}
-	}
-	focus = {
-		id = JAC_edo_siege
-		icon = GFX_JAC_edo_siege
-		x = 22
-		y = 7
+		id = JAC_edo_strike
+		icon = GFX_JAC_edo_strike
+		x = 20
+		y = 6
 		
 		ai_will_do = {
 		factor = 1
 		}
 		prerequisite = {
 			focus = JAC_cut_ezo
-		}
-		prerequisite = {
-			focus = JAC_center_break
-		}
-		prerequisite = {
-			focus = JAC_heian_fall
 		}
 		completion_reward = {
 		
@@ -703,30 +551,16 @@ focus_tree = {
 		id = JAC_ezo_conquer
 		icon = GFX_JAC_ezo_conquer
 		x = 21
-		y = 8
+		y = 7
 		
 		ai_will_do = {
 		factor = 1
 		}
 		prerequisite = {
-			focus = JAC_edo_siege
-		}
-		completion_reward = {
-		
-
-	}
-	}
-	focus = {
-		id = JAC_edo_conquer
-		icon = GFX_JAC_edo_conquer
-		x = 23
-		y = 8
-		
-		ai_will_do = {
-		factor = 1
+			focus = JAC_edo_strike
 		}
 		prerequisite = {
-			focus = JAC_edo_siege
+			focus = JAC_heian_strike
 		}
 		completion_reward = {
 		
@@ -736,17 +570,14 @@ focus_tree = {
 	focus = {
 		id = JAC_shog_army_defeat
 		icon = GFX_JAC_shog_army_defeat
-		x = 22
-		y = 9
+		x = 21
+		y = 8
 		
 		ai_will_do = {
 		factor = 1
 		}
 		prerequisite = {
 			focus = JAC_ezo_conquer
-		}
-		prerequisite = {
-			focus = JAC_edo_conquer
 		}
 		completion_reward = {
 		
@@ -759,7 +590,7 @@ focus_tree = {
 		id = JAC_shogun_fate
 		icon = GFX_JAC_shogun_fate
 		x = 14
-		y = 10
+		y = 9
 		
 		ai_will_do = {
 		factor = 1
@@ -782,7 +613,7 @@ focus_tree = {
 		id = JAC_emperor_fate
 		icon = GFX_JAC_emperor_fate
 		x = 14
-		y = 11
+		y = 10
 		
 		ai_will_do = {
 		factor = 1
@@ -800,7 +631,7 @@ focus_tree = {
 		id = JAC_war_end
 		icon = GFX_JAC_war_end
 		x = 14
-		y = 12
+		y = 11
 		
 		ai_will_do = {
 		factor = 1

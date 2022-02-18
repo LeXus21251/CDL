@@ -2378,6 +2378,26 @@ spriteTypes = {
 		name = "GFX_focus_TOK_move_emperor_to_edo"
 		texturefile = "gfx/interface/goals/focus_TOK_move_emperor_to_edo.dds"
 	}
+	SpriteType = { 
+		name = "GFX_focus_TOK_cleanse_of_kansai"
+		texturefile = "gfx/interface/goals/focus_TOK_cleanse_of_kansai.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TOK_second_invasion_of_shikoku"
+		texturefile = "gfx/interface/goals/focus_TOK_second_invasion_of_shikoku.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TOK_push_them_out_of_honshu"
+		texturefile = "gfx/interface/goals/focus_TOK_push_them_out_of_honshu.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TOK_fall_of_satsuma"
+		texturefile = "gfx/interface/goals/focus_TOK_fall_of_satsuma.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TOK_war_is_over"
+		texturefile = "gfx/interface/goals/focus_TOK_war_is_over.dds"
+	}
 	## TENRI KYO WAR ##
 	SpriteType = { 
 		name = "GFX_focus_JAC_revolution_start"
