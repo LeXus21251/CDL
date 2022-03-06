@@ -2398,6 +2398,23 @@ spriteTypes = {
 		name = "GFX_focus_TOK_war_is_over"
 		texturefile = "gfx/interface/goals/focus_TOK_war_is_over.dds"
 	}
+	 #DUTCH HELP#
+	SpriteType = { 
+		name = "GFX_focus_TOK_dutch_missions"
+		texturefile = "gfx/interface/goals/focus_TOK_dutch_missions.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TOK_dutch_military_mission"
+		texturefile = "gfx/interface/goals/focus_TOK_dutch_military_mission.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TOK_new_old_guns"
+		texturefile = "gfx/interface/goals/focus_TOK_new_old_guns.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TOK_arm_contracts"
+		texturefile = "gfx/interface/goals/focus_TOK_arm_contracts.dds"
+	}
 	## TENRI KYO WAR ##
 	SpriteType = { 
 		name = "GFX_focus_JAC_revolution_start"
