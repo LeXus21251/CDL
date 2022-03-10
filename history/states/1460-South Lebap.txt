@@ -4,7 +4,7 @@ state={
 
 	history={
 		owner = AFG
-		add_core_of = UZB
+		add_core_of = BUK
 
 	}
 

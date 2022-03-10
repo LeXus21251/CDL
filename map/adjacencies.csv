@@ -37,7 +37,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13157;13154;sea;749;-1;-1;-1;-1;WELLAND_CANAL;Welland
 13154;13199;sea;13156;-1;-1;-1;-1;ST_CLAIR_CANAL;St-Clair
 13564;13159;sea;12582;-1;-1;-1;-1;ST_MARYS_CANAL;St-Marys
-6007;4016;sea;12201;-1;-1;-1;-1;THAI_CANAL;Thai
 299;211;sea;2282;-1;-1;-1;-1;;Småland-Öland
 6345;6287;sea;2382;-1;-1;-1;-1;;Skåne-Sjaelland
 3260;3325;;2408;-1;-1;-1;-1;;Sjaelland-Fyn
@@ -384,21 +383,65 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5206;10969;land;11013;-1;-1;-1;-1;;Larrakia-Mackay
 
 ##GREENLAND IMPASSABLE##
-14029;14030;impassable;-1;-1;-1;-1;-1;;
-12512;14029;impassable;-1;-1;-1;-1;-1;;
-12512;13605;impassable;-1;-1;-1;-1;-1;;
-12512;10245;impassable;-1;-1;-1;-1;-1;;
-13981;14229;impassable;-1;-1;-1;-1;-1;;
-14027;14229;impassable;-1;-1;-1;-1;-1;;
-14027;14026;impassable;-1;-1;-1;-1;-1;;
-13995;13984;impassable;-1;-1;-1;-1;-1;;
-14230;13984;impassable;-1;-1;-1;-1;-1;;
-14230;14228;impassable;-1;-1;-1;-1;-1;;
-14025;14228;impassable;-1;-1;-1;-1;-1;;
+14029;14030;impassable;-1;-1;-1;-1;-1;;greenland
+12512;14029;impassable;-1;-1;-1;-1;-1;;greenland
+12512;13605;impassable;-1;-1;-1;-1;-1;;greenland
+12512;10245;impassable;-1;-1;-1;-1;-1;;greenland
+13981;14229;impassable;-1;-1;-1;-1;-1;;greenland
+14027;14229;impassable;-1;-1;-1;-1;-1;;greenland
+14027;14026;impassable;-1;-1;-1;-1;-1;;greenland
+13995;13984;impassable;-1;-1;-1;-1;-1;;greenland
+14230;13984;impassable;-1;-1;-1;-1;-1;;greenland
+14230;14228;impassable;-1;-1;-1;-1;-1;;greenland
+14025;14228;impassable;-1;-1;-1;-1;-1;;greenland
 
 ##DARIEN GAP##
 4969;7630;land;10482;-1;-1;-1;-1;;DarienGap
 ##BAIKAL##
 1727;7835;sea;13152;-1;-1;-1;-1;;Baikal
+
+##USTYURT IMPASSABLE##
+7641;4620;impassable;-1;-1;-1;-1;-1;;ustyurt
+7641;14635;impassable;-1;-1;-1;-1;-1;;ustyurt
+13207;4620;impassable;-1;-1;-1;-1;-1;;ustyurt
+13207;14635;impassable;-1;-1;-1;-1;-1;;ustyurt
+13207;4563;impassable;-1;-1;-1;-1;-1;;ustyurt
+13207;14634;impassable;-1;-1;-1;-1;-1;;ustyurt
+13207;12454;impassable;-1;-1;-1;-1;-1;;ustyurt
+10348;4563;impassable;-1;-1;-1;-1;-1;;ustyurt
+10348;12454;impassable;-1;-1;-1;-1;-1;;ustyurt
+10348;10406;impassable;-1;-1;-1;-1;-1;;ustyurt
+10348;14638;impassable;-1;-1;-1;-1;-1;;ustyurt
+10348;7635;impassable;-1;-1;-1;-1;-1;;ustyurt
+10348;14637;impassable;-1;-1;-1;-1;-1;;ustyurt
+10348;12491;impassable;-1;-1;-1;-1;-1;;ustyurt
+10348;14632;impassable;-1;-1;-1;-1;-1;;ustyurt
+10348;14633;impassable;-1;-1;-1;-1;-1;;ustyurt
+10348;10485;impassable;-1;-1;-1;-1;-1;;ustyurt
+
+##BIG KARAKURUM##
+4599;7635;impassable;-1;-1;-1;-1;-1;;BigKarakurum
+4599;14638;impassable;-1;-1;-1;-1;-1;;BigKarakurum
+4599;10359;impassable;-1;-1;-1;-1;-1;;BigKarakurum
+4599;14639;impassable;-1;-1;-1;-1;-1;;BigKarakurum
+4599;14617;impassable;-1;-1;-1;-1;-1;;BigKarakurum
+4599;10510;impassable;-1;-1;-1;-1;-1;;BigKarakurum
+12383;7635;impassable;-1;-1;-1;-1;-1;;BigKarakurum
+12383;14637;impassable;-1;-1;-1;-1;-1;;BigKarakurum
+12383;12491;impassable;-1;-1;-1;-1;-1;;BigKarakurum
+12383;14632;impassable;-1;-1;-1;-1;-1;;BigKarakurum
+8099;14632;impassable;-1;-1;-1;-1;-1;;BigKarakurum
+8099;1493;impassable;-1;-1;-1;-1;-1;;BigKarakurum
+8099;14631;impassable;-1;-1;-1;-1;-1;;BigKarakurum
+8099;7618;impassable;-1;-1;-1;-1;-1;;BigKarakurum
+8099;14628;impassable;-1;-1;-1;-1;-1;;BigKarakurum
+8099;14626;impassable;-1;-1;-1;-1;-1;;BigKarakurum
+##SMALL KARAKURUM##
+10414;7924;impassable;-1;-1;-1;-1;-1;;SmallKarakurum
+10414;1649;impassable;-1;-1;-1;-1;-1;;SmallKarakurum
+10414;14629;impassable;-1;-1;-1;-1;-1;;SmallKarakurum
+10414;14627;impassable;-1;-1;-1;-1;-1;;SmallKarakurum
+10414;10357;impassable;-1;-1;-1;-1;-1;;SmallKarakurum
+10414;14625;impassable;-1;-1;-1;-1;-1;;SmallKarakurum
 
 -1;-1;;-1;-1;-1;-1;-1;-1

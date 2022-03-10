@@ -6,7 +6,7 @@ state={
 	}
 	history={
 		owner = PER
-		add_core_of = UZB
+		add_core_of = BUK
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

@@ -499,6 +499,12 @@ uli_juz = {
 	color_ui = rgb { 180 65 65 }
 }
 
+##TURKMEN##
+turkmeni_conf = {
+	color = rgb { 40 100 50 }
+	color_ui = rgb { 40 100 50 }
+}
+
 ##HORDES##
 blue_horde = {
 	color = rgb { 115 174 214 }

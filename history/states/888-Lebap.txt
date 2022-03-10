@@ -4,12 +4,12 @@ state={
 
 	history={
 		owner = RUS
-		add_core_of = TMS
+		add_core_of = ERR
 
 	}
 
 	provinces={
-		1649 5003 7924 10742 13553 
+		1649 7924 10742 13553 14622 
 	}
 	manpower=1437000
 	buildings_max_level_factor=1.000

@@ -281,6 +281,9 @@
  uli_juz: "Uli Jüz"
  chagatai: "Chagatai Khanate"
  
+ ##TURKMEN##
+ turkmeni_conf: "Turkmeni Confederation"
+ 
  
  ##HORDES##
  white_horde: "White Horde"
@@ -289,7 +292,7 @@
  red_horde: "Red Horde"
  
  ##MONGOLS##
- oirat: "Oirat Confederation"
+ oirat_conf: "Oirat Confederation"
  mongol_empire: "Mongol Empire"
  
  ## ARABIA ##

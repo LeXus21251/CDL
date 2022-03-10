@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = RUS
-		add_core_of = TMS
+		add_core_of = YMT
 		buildings = {
 			infrastructure = 1
 

@@ -1367,3 +1367,23 @@ ZZZ = {
 color = rgb { 255 255 255 }
 color_ui = rgb { 255 255 255 }
 }
+TMS = {
+color = rgb { 0 76 153 }
+color_ui = rgb { 0 76 153 }
+}
+YMT = {
+color = rgb { 0 76 158 }
+color_ui = rgb { 0 76 158 }
+}
+SRK = {
+color = rgb { 0 76 163 }
+color_ui = rgb { 0 76 163 }
+}
+CWR = {
+color = rgb { 0 76 148 }
+color_ui = rgb { 0 76 148 }
+}
+ERR = {
+color = rgb { 0 76 143 }
+color_ui = rgb { 0 76 143 }
+}

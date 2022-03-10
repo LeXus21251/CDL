@@ -1,12 +1,15 @@
 state={
 	id=2207
 	name="STATE_2207"
-	provinces={
-		4599 7641 8099 10348 10414 12383 13207 
-	}
+
 	history={
 		owner = RUS
-		add_core_of = TMS
+		add_core_of = RUS
+
+	}
+
+	provinces={
+		4599 8099 10414 12383 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
