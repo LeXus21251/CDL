@@ -1,13 +1,18 @@
 state={
 	id=2146
 	name="STATE_2146"
-	provinces={
-		2065 12756 
-	}
+
 	history={
 		owner = PER
+		add_core_of = PER
+		add_core_of = LOR
 
+	}
+
+	provinces={
+		2065 5050 14660 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }

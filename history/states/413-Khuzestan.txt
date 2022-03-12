@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = PER
+		owner = ARB
 		buildings = {
 			infrastructure = 5
 			5005 = {
@@ -20,11 +20,13 @@ state={
 			7953 1 
 		}
 		add_core_of = PER
+		add_core_of = ARB
+		add_core_of = LOR
 
 	}
 
 	provinces={
-		5089 
+		1922 14589 14590 
 	}
 	manpower=797356
 	buildings_max_level_factor=1.000

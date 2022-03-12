@@ -4,11 +4,13 @@ state={
 
 	history={
 		owner = ARB
+		add_core_of = PER
+		add_core_of = ARB
 
 	}
 
 	provinces={
-		1922 5005 7953 14589 14590 
+		5005 7953 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

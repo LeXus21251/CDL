@@ -1,0 +1,16 @@
+state={
+	id=2245
+	name="STATE_2245"
+	provinces={
+		14679 14680 
+	}
+	history={
+		owner = PER
+		add_core_of = PER
+		add_core_of = KUR
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

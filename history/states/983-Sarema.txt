@@ -9,7 +9,8 @@ state={
 	state_category=small_island
 			history={
 		owner = RUS
-		add_claim_by = RUS
+		add_core_of = RUS
+		add_core_of = EST
 		victory_points = {
 		185 2
 		}

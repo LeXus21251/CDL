@@ -1,0 +1,16 @@
+state={
+	id=2234
+	name="STATE_2234"
+	provinces={
+		4553 9816 10523 14656 14657 14658 14659 
+	}
+	history={
+		owner = PER
+		add_core_of = PER
+		add_core_of = AZR
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

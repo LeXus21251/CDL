@@ -6,6 +6,7 @@ state={
 		owner = DBB
 		add_core_of = DBB
 		add_core_of = PER
+		add_core_of = ARB
 		buildings = {
 			infrastructure = 1
 			14567 = {naval_base = 2}

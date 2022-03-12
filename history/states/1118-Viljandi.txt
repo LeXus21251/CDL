@@ -4,6 +4,8 @@ state={
 
 	history={
 		owner = RUS
+		add_core_of = RUS
+		add_core_of = LIV
 
 	}
 

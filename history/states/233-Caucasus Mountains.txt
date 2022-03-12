@@ -2,8 +2,6 @@
 state={
 	id=233
 	name="STATE_233"
-	resources={
-	}
 
 	history={
 		owner = RUS
@@ -12,6 +10,7 @@ state={
 
 		}
 		add_core_of = BAL
+		add_core_of = RUS
 		victory_points = {
 			9628 3 
 		}
@@ -22,9 +21,10 @@ state={
 	}
 
 	provinces={
-		685 6718 6733 9647 9649 11633 
+		6674 9649 
 	}
 	manpower=1463970
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

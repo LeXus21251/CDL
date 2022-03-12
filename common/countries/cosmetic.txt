@@ -470,6 +470,12 @@ BNT_AUS = {
 	color_ui = rgb { 213 216 230 }
 }
 
+##PERSIAN##
+ARB_PER_subject = {
+	color = rgb { 73 145 28 }
+	color_ui = rgb { 73 145 28 }
+}
+
 ### TENRIKYO ###
 JAC_rebellion = {
 	color = rgb { 255 252 179 }

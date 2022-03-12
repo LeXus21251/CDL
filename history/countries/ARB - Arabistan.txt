@@ -1,7 +1,7 @@
 ﻿capital = 2047
 
 oob = "ARB_1936"
-
+set_cosmetic_tag = ARB_PER_subject
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -58,6 +58,13 @@ set_technology = {
 		dispersed_industry2 = 1
 	}
 }
+PER = {
+		set_autonomy = {
+			target = ARB
+			autonomy_state = autonomy_vassal
+			freedom_level = 0.5
+		}
+	}
 
 set_convoys = 10
 

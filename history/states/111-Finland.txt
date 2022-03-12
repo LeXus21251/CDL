@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = RUS
-		add_claim_by = RUS
+		add_core_of = RUS
 		add_core_of = FIN
 		victory_points = {
 			3137 5 

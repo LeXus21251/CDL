@@ -2,8 +2,6 @@
 state={
 	id=235
 	name="STATE_235"
-	resources={
-	}
 
 	history={
 		owner = RUS
@@ -20,9 +18,10 @@ state={
 	}
 
 	provinces={
-		714 731 748 3748 6750 6753 9688 9707 9722 9726 9742 11678 11694 11696 11727 
+		731 748 3748 6750 6753 9688 9707 9722 9726 9742 11678 11694 11696 11727 
 	}
 	manpower=1316516
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

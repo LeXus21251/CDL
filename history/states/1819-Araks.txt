@@ -1,14 +1,18 @@
 state={
 	id=1819
 	name="STATE_1819"
+
+	history={
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = AZR
+
+	}
+
 	provinces={
-		11704 13773 
+		13773 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
-	history = {
-	owner = RUS
-	add_core_of = RUS
-	add_core_of = AZR
-	}
+	local_supplies=0.000
 }

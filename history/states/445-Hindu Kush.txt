@@ -13,14 +13,16 @@ state={
 			air_base = 4
 
 		}
-		add_core_of = PAK
+		add_core_of = AFG
+		add_core_of = BLU
 
 	}
 
 	provinces={
-		5105 7847 8044 
+		5020 5105 7847 
 	}
 	manpower=405100
 	buildings_max_level_factor=1.000
 	state_category=wasteland
+	local_supplies=0.000
 }

@@ -1,0 +1,16 @@
+state={
+	id=2252
+	name="STATE_2252"
+	provinces={
+		8053 13550 
+	}
+	history={
+		owner = PER
+		add_core_of = PER
+		add_core_of = AMQ
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

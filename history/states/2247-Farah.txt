@@ -1,0 +1,16 @@
+state={
+	id=2247
+	name="STATE_2247"
+	provinces={
+		2017 2062 12871 
+	}
+	history={
+		owner = PER
+		add_core_of = PER
+		add_core_of = AFG
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

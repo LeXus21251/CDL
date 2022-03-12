@@ -1,0 +1,15 @@
+state={
+	id=2230
+	name="STATE_2230"
+	provinces={
+		14648 
+	}
+	history={
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = TBS
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

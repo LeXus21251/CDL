@@ -4,11 +4,13 @@ state={
 
 	history={
 		owner = RUS
+		add_core_of = RUS
+		add_core_of = OSE
 
 	}
 
 	provinces={
-		6674 9628 9632 11614 
+		9632 11614 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

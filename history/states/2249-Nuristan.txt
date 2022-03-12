@@ -1,0 +1,15 @@
+state={
+	id=2249
+	name="STATE_2249"
+	provinces={
+		10826 
+	}
+	history={
+		owner = AFG
+		add_core_of = AFG
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

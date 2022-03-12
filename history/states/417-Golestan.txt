@@ -20,9 +20,10 @@ state={
 	}
 
 	provinces={
-		1982 8040 8125 10922 
+		1982 7969 8040 8125 10922 
 	}
 	manpower=796396
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

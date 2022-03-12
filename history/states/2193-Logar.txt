@@ -1,11 +1,15 @@
 state={
 	id=2193
 	name="STATE_2193"
-	provinces={
-		5082 12831 
-	}
+
 	history={
 		owner = AFG
+		add_core_of = AFG
+
+	}
+
+	provinces={
+		5082 12831 14681 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

@@ -1,13 +1,18 @@
 state={
 	id=1886
 	name="STATE_1886"
+
+	history={
+		owner = PER
+		add_core_of = PER
+		add_core_of = LOR
+
+	}
+
 	provinces={
-		4609 4901 
+		5089 14668 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
-	history={
-		owner = RUS
-
-	}
+	local_supplies=0.000
 }
