@@ -51,6 +51,11 @@
  COU_POL_autonomy_real_union: "Duchy of Courland"
  WED_POL_autonomy_dominion: "Free Republic of Wedelia"
  #MADAGASCAR##
+  MAD_POL_autonomy_protectorate: "Protectorate of Malagasia"
+  MAD_POL_autonomy_dominion: "Dominion of Malagasia"
+  MAD_POL_autonomy_vassal: "Duchy of Malagasia"
+  MAD_POL_autonomy_puppet: "Crown Colony of Malagasia"
+  MAD_POL_autonomy_colony: "Colony of Malagasia"
 
  
  GAB_POL_autonomy_colony: "Colony of Rogosia"

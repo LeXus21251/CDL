@@ -395,8 +395,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 14230;14228;impassable;-1;-1;-1;-1;-1;;greenland
 14025;14228;impassable;-1;-1;-1;-1;-1;;greenland
 
-##DARIEN GAP##
-4969;7630;land;10482;-1;-1;-1;-1;;DarienGap
 ##BAIKAL##
 1727;7835;sea;13152;-1;-1;-1;-1;;Baikal
 

@@ -9,6 +9,7 @@ state={
 	history = {
 		owner = SIA
 		add_core_of = SIA
+		add_core_of = MOO
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2

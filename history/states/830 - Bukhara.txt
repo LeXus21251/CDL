@@ -6,6 +6,7 @@ state={
 	history={
 		owner = VIN
 		add_core_of = VIN
+		add_core_of = CHM
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

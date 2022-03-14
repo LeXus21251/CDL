@@ -10,6 +10,7 @@ state={
 	history={
 		owner = VIN
 		add_core_of = VIN
+		add_core_of = CHM
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2

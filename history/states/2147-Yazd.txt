@@ -8,7 +8,7 @@ state={
 	}
 
 	provinces={
-		8031 10828 11249 12780 
+		8031 10828 11249 12780 14698 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

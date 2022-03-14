@@ -1507,3 +1507,19 @@ MZD = {
 color = rgb { 163 171 73 }
 color_ui = rgb { 163 171 73 }
 }
+CHM = {
+color = rgb { 94 129 255 }
+color_ui = rgb { 94 129 255 }
+}
+LNN = {
+color = rgb { 54 72 138 }
+color_ui = rgb { 54 72 138 }
+}
+MOO = {
+color = rgb { 108 161 56 }
+color_ui = rgb { 108 161 56 }
+}
+SHA = {
+color = rgb { 105 51 18 }
+color_ui = rgb { 105 51 18 }
+}

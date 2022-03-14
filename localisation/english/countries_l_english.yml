@@ -861,12 +861,24 @@ CAM:0 "Cambodia"
 CAM_ADJ:0 "Cambodian"
 CAM_DEF:0 "Cambodia"
 CAM_absolutism:0 "Kingdom of Cambodia"
+CHM:0 "Champa"
+CHM_ADJ:0 "Champa"
+CHM_DEF:0 "Champa"
 LAO:0 "Laos"
 LAO_ADJ:0 "Laotian"
 LAO_DEF:0 "Laos"
+LNN:0 "Lan Na"
+LNN_ADJ:0 "Lan Na"
+LNN_DEF:0 "Lan Na"
 MAL:0 "Malaysia"
 MAL_ADJ:0 "Malaysian"
 MAL_DEF:0 "Malaysia"
+MOO:0 "Mon"
+MOO_ADJ:0 "Mon"
+MOO_DEF:0 "Mon"
+SHA:0 "Shan"
+SHA_ADJ:0 "Shan"
+SHA_DEF:0 "Shan"
 SIA:0 "Siam"
 SIA_ADJ:0 "Siamese"
 SIA_DEF:0 "Siam"
@@ -1359,6 +1371,10 @@ TAH_DEF:0 "Tahiti"
 ## UTILITY ##
 XXX:0 "Desert"
 ZZZ:0 "Ice Shelf"
+
+
+
+
 
 
 

@@ -2415,6 +2415,18 @@ spriteTypes = {
 		name = "GFX_focus_TOK_arm_contracts"
 		texturefile = "gfx/interface/goals/focus_TOK_arm_contracts.dds"
 	}
+	SpriteType = { 
+		name = "GFX_focus_TOK_dutch_industrial_mission"
+		texturefile = "gfx/interface/goals/focus_TOK_dutch_industrial_mission.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TOK_dutch_investors"
+		texturefile = "gfx/interface/goals/focus_TOK_dutch_investors.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TOK_edo_industrial_complex"
+		texturefile = "gfx/interface/goals/focus_TOK_edo_industrial_complex.dds"
+	}
 	## TENRI KYO WAR ##
 	SpriteType = { 
 		name = "GFX_focus_JAC_revolution_start"
