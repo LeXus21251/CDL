@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-		sakoku_edict = {
+		TOK_sakoku_edict = {
 
 			allowed = {
 				always = no
@@ -11,14 +11,14 @@ ideas = {
 				always = no
 			}
 
-			picture = sakoku_edict
+			picture = TOK_sakoku_edict
 			
 			modifier = {
 			research_sharing_per_country_bonus = -0.95
 			research_speed_factor = -0.25
 			}
 		}
-		bushido = {
+		TOK_bushido = {
 
 			allowed = {
 				always = no
@@ -29,7 +29,7 @@ ideas = {
 			}
 
 
-			picture = bushido
+			picture = TOK_bushido
 			
 			modifier = {
 			surrender_limit = 0.75
@@ -39,7 +39,7 @@ ideas = {
 			experience_gain_army_factor = 0.05
 			}
 		}
-		daimyo_nation = {
+		TOK_daimyo_nation = {
 
 			allowed = {
 				always = no
@@ -50,7 +50,7 @@ ideas = {
 			}
 
 
-			picture = daimyo_nation
+			picture = TOK_daimyo_nation
 			
 			modifier = {
 			offensive_war_stability_factor

@@ -1,0 +1,29 @@
+﻿l_english:
+
+ ##NAMES
+  DEN:0 "Denmark"
+  DEN_ADJ:0 "Danish"
+  DEN_DEF:0 "Denmark"
+  DEN_conservatism:0 "Kingdom of Denmark"
+  
+ ##CTAGS
+  DEN_NOR_unified_conservatism: "Kingdom of Denmark-Norway"
+ 
+ ##PARTIES
+ ##IDEAS
+ ##FOCUSES
+  #DENMARK NORWAY TREE
+   focus_DEN-NOR_state_reform:0 "State reform"
+   focus_DEN-NOR_state_reform_desc:0 "The Kingdom of Denmark and Norway has been struggling with many problems for years. If we are to save our country and its traditions, we must introduce reforms."
+   focus_DEN-NOR_electoral_rights:0 "Increased electoral rights"
+   focus_DEN-NOR_electoral_rights_desc:0 "One of the first reforms we need to introduce is the extension of electoral rights. The king is for the people, why can't the government be?"
+   focus_DEN-NOR_banking_reforms:0 "Banking reforms"
+   focus_DEN-NOR_banking_reforms_desc:0 "The country is struggling with the economic crisis. It's no secret that German investors have a strong influence on the country. It's time to change that. Fight corruption and ensure prosperity in the kingdom."
+   focus_DEN-NOR_respect_minorities:0 "Respect for ethnic minorities"
+   focus_DEN-NOR_respect_minorities_desc:0 "Denmark is inhabited by various nations. Recently, various frictions have occurred between them. The time has come to change that before we are faced with a revolution."
+   focus_DEN-NOR_trade_unions:0 "Acceptance of trade unions"
+   focus_DEN-NOR_trade_unions_desc:0 "Socialists demand the founding of unions and the defense of workers' rights by the government. Although many government representatives are skeptical about it, the king is very supportive of this decision. And the will of the king is the will of the people."
+   focus_DEN-NOR_corruption_scandal:0 "Corruption scandal"
+   focus_DEN-NOR_corruption_scandal_desc:0 "There was a strange situation this morning. May nothing bad come out of it."
+   focus_DEN-NOR_extraordinary_sitting:0 "Extraordinary sitting of the Folketing"
+   focus_DEN-NOR_extraordinary_sitting_desc:0 "This crisis has led to many problems. Anything to do while there is still time. The king intends to form an interim government and set an election date. Let it help."

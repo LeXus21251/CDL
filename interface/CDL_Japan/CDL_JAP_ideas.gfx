@@ -1,0 +1,23 @@
+spriteTypes = {
+
+#SAKOKU
+	spriteType = {
+		name = "GFX_idea_JAP_sakoku_edict"
+		texturefile = "gfx/interface/ideas/JAP/JAP_sakoku_edict.dds"
+	}
+#BUSHIDO
+	spriteType = {
+		name = "GFX_idea_JAP_bushido"
+		texturefile = "gfx/interface/ideas/JAP/JAP_bushido.dds"
+	}
+#DAIMYO
+	spriteType = {
+		name = "GFX_idea_JAP_daimyo_nation"
+		texturefile = "gfx/interface/ideas/JAP/JAP_daimyo_nation.dds"
+	}
+#EMPEROR
+	spriteType = {
+		name = "GFX_idea_JAP_emperor"
+		texturefile = "gfx/interface/ideas/JAP/JAP_emperor.dds"
+	}
+}

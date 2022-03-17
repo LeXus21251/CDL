@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-	sakoku_edict = {
+	JAC_sakoku_edict = {
 
 			allowed = {
 				always = no

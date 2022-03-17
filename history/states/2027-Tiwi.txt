@@ -8,8 +8,8 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = small_island
 	history={
-		owner = OSS
-		add_core_of = OSS
+		owner = OZZ
+		add_core_of = OZZ
 	buildings = {
 	infrastructure = 1
 	}

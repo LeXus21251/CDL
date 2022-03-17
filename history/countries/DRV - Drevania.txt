@@ -1,7 +1,7 @@
-﻿capital = 522
+﻿capital = 
 
-oob = "OSS_1936"
-set_cosmetic_tag = OSS_ENG
+oob = "DRV_1936"
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -24,7 +24,7 @@ set_technology = {
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "OSS_1939"
+	oob = "DRV_1939"
 	set_technology = {
 		interwar_artillery = 1
 		infantry_weapons1 = 1
@@ -58,41 +58,18 @@ set_technology = {
 		dispersed_industry2 = 1
 	}
 }
-add_ideas = {
-			OZ_native_treaty
-			OZ_celtic_immigration
-			OZ_new_president
-			
-			limited_conscription
-			closed_economy
-			low_economy_mobilization
-			
-			}
 
 set_convoys = 10
 
-ENG = {
-		set_autonomy = {
-			target = OSS
-			autonomy_state = autonomy_dominion
-			freedom_level = 0.5
-		}
-	}
-
-
 set_popularities = {
-liberalism = 63
-social_cooperatism = 19
-social_democracy = 18
 
 }
 
 set_politics = {
 	
-	ruling_party = liberalism
-	last_election = "1905.1.1"
-	election_frequency = 60
-	elections_allowed = yes
+	ruling_party = 
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
-recruit_character = OSS_alfred_deakin
 

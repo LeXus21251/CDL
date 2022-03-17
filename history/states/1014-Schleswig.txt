@@ -13,6 +13,7 @@ state={
 		add_core_of = DEN
 		add_core_of = GER
 		add_core_of = SHL
+		add_core_of = OBT
 
 	}
 

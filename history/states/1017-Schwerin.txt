@@ -6,6 +6,7 @@ state={
 		owner = GER
 		add_core_of = GER
 		add_core_of = MEK
+		add_core_of = PLB
 	}
 
 

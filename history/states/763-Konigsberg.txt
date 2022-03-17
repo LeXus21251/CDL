@@ -6,9 +6,7 @@ state={
 	history={
 		owner = PRE
 		add_core_of = PRE
-		victory_points = {
-			6332 10 
-		}
+		victory_points = {6332 10}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2

@@ -12,6 +12,7 @@ state={
 		add_core_of = SWE
 		add_core_of = GER
 		add_core_of = MEK
+		add_core_of = OBT
 		victory_points = {
 		13496 2
 		}

@@ -17,12 +17,12 @@
   TOK_military_government_party_long:0 "Tokugawa Bakufu"
   
  ##IDEAS
-  daimyo_nation:0 "Daimyo Nation"
-  daimyo_nation_desc:0 "Japanese islands contains many smaller feudal lords - daimyos who may not agree with the overlord"
-  sakoku_edict:0 "Sakoku Edict"
-  sakoku_edict_desc:0 "Islands are closed since 1635. International trade can only be done on the special §1Dejima island§! and it's still very limited. \n\nAnyone who try to enter or leave island without permission will be executed or imprisoned in a milder case."
-  bushido:0 "Bushidō"
-  bushido_desc:0 "§OBushidō§! is an unwritten set of rules that every honorary samurai follows. It is about following perfection and moral rules. Samurai fight whether or not they may die."
+  TOK_daimyo_nation:0 "Daimyo Nation"
+  TOK_daimyo_nation_desc:0 "Japanese islands contains many smaller feudal lords - daimyos who may not agree with the overlord"
+  TOK_sakoku_edict:0 "Sakoku Edict"
+  TOK_sakoku_edict_desc:0 "Islands are closed since 1635. International trade can only be done on the special §1Dejima island§! and it's still very limited. \n\nAnyone who try to enter or leave island without permission will be executed or imprisoned in a milder case."
+  TOK_bushido:0 "Bushidō"
+  TOK_bushido_desc:0 "§OBushidō§! is an unwritten set of rules that every honorary samurai follows. It is about following perfection and moral rules. Samurai fight whether or not they may die."
   TOK_tokugawa_clan:0 "Tokugawa Clan"
   TOK_tokugawa_clan_desc:0 "§gTokugawa Clan§! is ruling over Japan since 1603. Although disadvantages of isolationism introduced in the Edo period its bring us stabilisation and peace within the Japanese Domains."
  ##FOCUSES

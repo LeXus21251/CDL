@@ -1,0 +1,13 @@
+spriteTypes = {
+
+#QING INFLUENCE
+	spriteType = {
+		name = "GFX_idea_RYU_qing_influence"
+		texturefile = "gfx/interface/ideas/RYU/RYU_qing_influence.dds"
+	}
+#PIRATE HUB
+	spriteType = {
+		name = "GFX_idea_RYU_pirate_hub"
+		texturefile = "gfx/interface/ideas/RYU/RYU_pirate_hub.dds"
+	}
+}

@@ -199,7 +199,7 @@ NMB_ENG = {
 	color = rgb { 255 23 23 }
 	color_ui = rgb { 255 23 23 }
 }
-OSS_ENG = {
+OZZ_ENG = {
 	color = rgb { 255 23 23 }
 	color_ui = rgb { 255 23 23 }
 }

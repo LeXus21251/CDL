@@ -26,10 +26,10 @@ country_event = {
 	set_cosmetic_tag = JAC_rebellion
 	recruit_character = JAC_nakayama_sakura
 
-			}
-	country_event = { id = tokugawa.1 days = 0 }
-				}
 		}
+	country_event = { id = tokugawa.1 days = 0 }
+				    }
+				}
 
 
 	

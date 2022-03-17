@@ -1,6 +1,6 @@
 ﻿capital = 608
 
-oob = "QIN_1936"
+oob = "CHI_1936"
 
 # Starting tech
 set_technology = {

@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-	OZ_native_treaty = {
+	OZZ_native_treaty = {
 
 			allowed = {
 				always = no
@@ -11,7 +11,7 @@ ideas = {
 				always = no
 			}
 
-			picture = OZ_native_treaty
+			picture = OZZ_native_treaty
 			
 			modifier = {
 			stability_factor = 0.10
@@ -19,7 +19,7 @@ ideas = {
 			monthly_population = 0.03
 			}
 		}
-		OZ_celtic_immigration = {
+		OZZ_celtic_immigration = {
 
 			allowed = {
 				always = no
@@ -30,7 +30,7 @@ ideas = {
 			}
 
 
-			picture = OZ_celtic_immigration
+			picture = OZZ_celtic_immigration
 			
 			modifier = {
 			monthly_population = 0.10
@@ -38,7 +38,7 @@ ideas = {
 			production_factory_efficiency_gain_factor = 0.20
 			}
 		}
-		OZ_new_president = {
+		OZZ_new_president = {
 
 			allowed = {
 				always = no
@@ -49,7 +49,7 @@ ideas = {
 			}
 
 
-			picture = OZ_new_president
+			picture = OZZ_new_president
 			
 			modifier = {
 			political_power_factor = 0.30

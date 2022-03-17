@@ -59,9 +59,9 @@ set_technology = {
 	}
 }
 	add_ideas = {
-			sakoku_edict
-			bushido
-			daimyo_nation
+			TOK_sakoku_edict
+			TOK_bushido
+			TOK_daimyo_nation
 			TOK_tokugawa_clan
 			
 			limited_conscription

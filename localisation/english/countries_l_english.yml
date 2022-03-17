@@ -187,6 +187,40 @@ WUR:0 "Wurtemberg"
 WUR_ADJ:0 "Wurtembergian"
 WUR_DEF:0 "Wurtemberg"
 
+##SLAVS IN GERMANY##
+DRV:0 "Drevania"
+DRV_ADJ:0 "Drevania"
+DRV_DEF:0 "Drevania"
+GLJ:0 "Glinjania"
+GLJ_ADJ:0 "Glinjania"
+GLJ_DEF:0 "Glinjania"
+KSH:0 "Kashubia"
+KSH_ADJ:0 "Kashubia"
+KSH_DEF:0 "Kashubia"
+LUS:0 "Lusatia"
+LUS_ADJ:0 "Lusatia"
+LUS_DEF:0 "Lusatia"
+OBT:0 "Obotritia"
+OBT_ADJ:0 "Obotritia"
+OBT_DEF:0 "Obotritia"
+PLB:0 "Polabia"
+PLB_ADJ:0 "Polabia"
+PLB_DEF:0 "Polabia"
+RNA:0 "Rana"
+RNA_ADJ:0 "Rana"
+RNA_DEF:0 "Rana"
+SIL:0 "Silesia"
+SIL_ADJ:0 "Silesia"
+SIL_DEF:0 "Silesia"
+STO:0 "Stodoria"
+STO_ADJ:0 "Stodoria"
+STO_DEF:0 "Stodoria"
+TCR:0 "Tuchorenia"
+TCR_ADJ:0 "Tuchorenia"
+TCR_DEF:0 "Tuchorenia"
+
+
+
 ##ITALY##
 FRR:0 "Ferrara"
 FRR_ADJ:0 "Ferrara"
@@ -364,9 +398,6 @@ CRI_ADJ:0 "Crimea"
 CRI_DEF:0 "Crimea"
 CRI_absolutism:0 "Crimean Khanate"
 CRI_social_cooperatism:0 "Crimea"
-KAS:0 "Kashubia"
-KAS_ADJ:0 "Kashubia"
-KAS_DEF:0 "Kashubia"
 LAT:0 "Latvia"
 LAT_ADJ:0 "Latvian"
 LAT_DEF:0 "Latvia"
@@ -1371,6 +1402,14 @@ TAH_DEF:0 "Tahiti"
 ## UTILITY ##
 XXX:0 "Desert"
 ZZZ:0 "Ice Shelf"
+
+
+
+
+
+
+
+
 
 
 

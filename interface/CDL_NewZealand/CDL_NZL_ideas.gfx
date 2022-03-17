@@ -1,0 +1,13 @@
+spriteTypes = {
+
+#DISPERSED ISLANDS
+	spriteType = {
+		name = "GFX_idea_NZL_dispersed_island"
+		texturefile = "gfx/interface/ideas/NZL/NZL_dispersed_island.dds"
+	}
+#DE JURE FEDERATION
+	spriteType = {
+		name = "GFX_idea_NZL_de_jure_fed"
+		texturefile = "gfx/interface/ideas/NZL/NZL_de_jure_fed.dds"
+	}
+}

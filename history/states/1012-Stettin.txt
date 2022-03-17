@@ -11,6 +11,7 @@ state={
 		owner = GER
 		add_core_of = GER
 		add_core_of = BRB
+		add_core_of = KSH
 		buildings = {
 			6282 = {
 				naval_base = 5

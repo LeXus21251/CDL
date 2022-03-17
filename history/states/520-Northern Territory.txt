@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = OSS
+		owner = OZZ
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
@@ -19,7 +19,7 @@ state={
 		victory_points = {
 			1410 1 
 		}
-		add_core_of = OSS
+		add_core_of = OZZ
 
 	}
 

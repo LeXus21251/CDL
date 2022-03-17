@@ -999,7 +999,7 @@ SLL = {
 color = rgb { 151 255 47 }
 color_ui = rgb { 151 255 47 }
 }
-OSS = {
+OZZ = {
 color = rgb { 255 188 155 }
 color_ui = rgb { 255 188 155 }
 }
@@ -1174,10 +1174,6 @@ color_ui = rgb { 0 174 87 }
 RUT = {
 color = rgb { 81 168 255 }
 color_ui = rgb { 81 168 255 }
-}
-KAS = {
-color = rgb { 251 228 70 }
-color_ui = rgb { 251 228 70 }
 }
 SMG = {
 color = rgb { 0 64 64 }
@@ -1522,4 +1518,36 @@ color_ui = rgb { 108 161 56 }
 SHA = {
 color = rgb { 105 51 18 }
 color_ui = rgb { 105 51 18 }
+}
+LUS = {
+color = rgb { 0 137 158 }
+color_ui = rgb { 0 137 158 }
+}
+STO = {
+color = rgb { 46 77 120 }
+color_ui = rgb { 46 77 120 }
+}
+PLB = {
+color = rgb { 194 113 70 }
+color_ui = rgb { 194 113 70 }
+}
+RNA = {
+color = rgb { 186 111 26 }
+color_ui = rgb { 186 111 26 }
+}
+OBT = {
+color = rgb { 35 35 145 }
+color_ui = rgb { 35 35 145 }
+}
+GLJ = {
+color = rgb { 168 144 109 }
+color_ui = rgb { 168 144 109 }
+}
+DRV = {
+color = rgb { 53 89 51 }
+color_ui = rgb { 53 89 51 }
+}
+TCR = {
+color = rgb { 110 33 8 }
+color_ui = rgb { 110 33 8 }
 }

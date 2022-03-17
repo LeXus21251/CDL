@@ -1,0 +1,18 @@
+spriteTypes = {
+
+#NEW KINGDOM
+	spriteType = {
+		name = "GFX_idea_AST_new_kingdom"
+		texturefile = "gfx/interface/ideas/AST/AST_new_kingdom.dds"
+	}
+#QUEEN REGNANT
+	spriteType = {
+		name = "GFX_idea_AST_queen_regnant"
+		texturefile = "gfx/interface/ideas/AST/AST_queen_regnant.dds"
+	}
+#WAR WITH NATIVE
+	spriteType = {
+		name = "GFX_idea_AST_native_wars"
+		texturefile = "gfx/interface/ideas/AST/AST_native_wars.dds"
+	}
+}

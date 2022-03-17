@@ -15,8 +15,8 @@
  ##PARTIES
   
  ##IDEAS
-  sakoku_edict:0 "Sakoku Edict"
-  sakoku_edict_desc:0 "Islands are closed since 1635. International trade can only be done on the special §1Dejima island§! and it's still very limited. \n\nAnyone who try to enter or leave island without permission will be executed or imprisoned in a milder case."
+  JAC_sakoku_edict:0 "Sakoku Edict"
+  JAC_sakoku_edict_desc:0 "Islands are closed since 1635. International trade can only be done on the special §1Dejima island§! and it's still very limited. \n\nAnyone who try to enter or leave island without permission will be executed or imprisoned in a milder case."
   JAC_tenrikyo:0 "Religion of the Heavens"
   JAC_tenrikyo_desc:0 "The cult of §YTenri-Kyo§! is a movement that has gathered many followers over the years. Religion arose on the basis of Shinto and Buddhism. Followers believe in the god §OOyagami§!."
   JAC_war:0 "War of the people"

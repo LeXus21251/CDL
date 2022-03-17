@@ -1,6 +1,6 @@
 ﻿capital = 1083
 
-oob = "LOU_1936"
+oob = "USA_1936"
 set_cosmetic_tag = LOU_FRA
 # Starting tech
 set_technology = {
