@@ -1551,3 +1551,7 @@ TCR = {
 color = rgb { 110 33 8 }
 color_ui = rgb { 110 33 8 }
 }
+KKH = {
+color = rgb { 0 125 125 }
+color_ui = rgb { 0 125 125 }
+}

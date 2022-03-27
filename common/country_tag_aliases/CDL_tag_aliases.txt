@@ -1,0 +1,4 @@
+EZO = {
+	original_tag = TOK
+	has_cosmetic_tag = TOK_ezo
+}

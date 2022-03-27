@@ -485,6 +485,9 @@ KAL_absolutism:0 "Kalmyk Khanate"
 KBD:0 "Kabardia"
 KBD_ADJ:0 "Kabardian"
 KBD_DEF:0 "Kabardia"
+KKH:0 "Kakheti"
+KKH_ADJ:0 "Kakheti"
+KKH_DEF:0 "Kakheti"
 KMK:0 "Kumykia"
 KMK_ADJ:0 "Kumykia"
 KMK_DEF:0 "Kumykia"
@@ -1402,6 +1405,7 @@ TAH_DEF:0 "Tahiti"
 ## UTILITY ##
 XXX:0 "Desert"
 ZZZ:0 "Ice Shelf"
+
 
 
 

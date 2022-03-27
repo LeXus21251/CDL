@@ -136,7 +136,7 @@ focus_tree = {
 		}
 		focus = {
 		id = ezo_cleanse_of_kansai
-		icon = GFX_TOK_cleanse_of_kansai
+		icon = GFX_focus_TOK_cleanse_of_kansai
 		cost = 10.00
 		x = 15
 		y = 5
@@ -154,7 +154,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ezo_second_invasion_of_shikoku
-		icon = GFX_TOK_second_invasion_of_shikoku
+		icon = GFX_focus_TOK_second_invasion_of_shikoku
 		cost = 10.00
 		x = 13
 		y = 6
@@ -172,7 +172,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ezo_push_them_out_of_honshu
-		icon = GFX_TOK_push_them_out_of_honshu
+		icon = GFX_focus_TOK_push_them_out_of_honshu
 		cost = 10.00
 		x = 17
 		y = 6
@@ -190,7 +190,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ezo_fall_of_satsuma
-		icon = GFX_TOK_fall_of_satsuma
+		icon = GFX_focus_TOK_fall_of_satsuma
 		cost = 10.00
 		x = 15
 		y = 7
@@ -211,7 +211,7 @@ focus_tree = {
 		}
 		focus = {
 		id = ezo_war_is_over
-		icon = GFX_TOK_war_is_over
+		icon = GFX_ezo_war_is_over
 		cost = 10.00
 		x = 15
 		y = 8
