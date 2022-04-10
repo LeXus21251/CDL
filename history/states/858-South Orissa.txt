@@ -3,8 +3,9 @@ state={
 	name="STATE_858"
 
 	history={
-		owner = FEI
-		add_core_of = FEI
+		owner = MYS
+		add_core_of = MYS
+		add_core_of = KNN
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -15,9 +16,10 @@ state={
 	}
 
 	provinces={
-		11978 12462 
+		13515 14708 14709 
 	}
 	manpower=471228
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

@@ -10,6 +10,7 @@ state={
 		history={
 		owner = MUG
 		add_core_of = MUG
+		add_core_of = PJB
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

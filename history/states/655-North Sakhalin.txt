@@ -5,13 +5,16 @@ state={
 
 	history={
 		owner = RUS
+		add_core_of = RUS
+		add_core_of = ORO
 
 	}
 
 	provinces={
-		855 1742 
+		1742 1755 1820 14734 14735 
 	}
 	manpower=94759
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+	local_supplies=0.000
 }

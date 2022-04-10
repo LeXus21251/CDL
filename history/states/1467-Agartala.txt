@@ -5,6 +5,7 @@ state={
 	history={
 		owner = BRM
 		add_core_of = BRM
+		add_core_of = CHN
 		buildings = {
 			infrastructure = 3
 
@@ -13,9 +14,10 @@ state={
 	}
 
 	provinces={
-		997 1581 3999 4454 7179 10090 10514 
+		997 1581 3999 4454 7179 10033 10090 10514 11966 
 	}
 	manpower=322793
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
+	local_supplies=0.000
 }

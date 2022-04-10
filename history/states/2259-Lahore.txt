@@ -1,0 +1,15 @@
+state={
+	id=2259
+	name="STATE_2259"
+	provinces={
+		10772 12005 12822 13529 13530 14720 
+	}
+	history={
+		owner = MUG
+		add_core_of = MUG
+		add_core_of = DLH
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

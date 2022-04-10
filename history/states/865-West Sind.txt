@@ -5,6 +5,7 @@ state={
 	history={
 		owner = KLT
 		add_core_of = KLT
+		add_core_of = SIN
 		buildings = {
 			infrastructure = 2
 

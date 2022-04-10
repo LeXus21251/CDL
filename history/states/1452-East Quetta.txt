@@ -10,6 +10,7 @@ state={
 		history={
 		owner = MUG
 		add_core_of = MUG
+		add_core_of = BLU
 		buildings = {
 			infrastructure = 2
 

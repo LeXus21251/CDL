@@ -13,6 +13,7 @@ state={
 		history={
 		owner = FEI
 		add_core_of = FEI
+		add_core_of = TML
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 4

@@ -9,6 +9,7 @@ state={
 	history={
 		owner = MTH
 		add_core_of = MTH
+		add_core_of = ORI
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

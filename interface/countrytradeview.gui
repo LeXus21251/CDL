@@ -288,6 +288,8 @@ guiTypes = {
 			position = { x = 15 y = 427 }	
 			size = { width = 775 height = 100%% }
 			verticalScrollbar = "right_vertical_slider"
+			scroll_wheel_factor = 45
+			smooth_scrolling = yes			   
 			margin = {top = 1 bottom = 13 }			
 				
 			background = {
@@ -615,6 +617,14 @@ guiTypes = {
 			format = right
 		}
 		
+		instantTextboxType = {
+			name = "neededType"
+			position = { x=10 y=94 }
+			font = "hoi_16mbs"
+			maxWidth = 50
+			maxHeight = 28
+			format = left
+		}				
 		buttonType = {
 			name = "cancel_imports"
 			position = { x= 46 y= 125 }

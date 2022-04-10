@@ -1,0 +1,14 @@
+state={
+	id=2262
+	name="STATE_2262"
+	provinces={
+		4883 4950 7430 10030 10872 12781 12799 
+	}
+	history={
+		owner = MTH
+		add_core_of = MTH
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -6,6 +6,7 @@ state={
 	history={
 		owner = GUJ
 		add_core_of = GUJ
+		add_core_of = MTH
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 4

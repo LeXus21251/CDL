@@ -1,0 +1,15 @@
+state={
+	id=2270
+	name="STATE_2270"
+	provinces={
+		800 861 927 944 946 973 3929 3944 3947 6806 6964 9841 9883 9897 11781 11823 11850 11862 11879 
+	}
+	history={
+		owner = QIN
+		add_core_of = QIN
+		add_core_of = KOR
+		}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -8,6 +8,7 @@ state={
 	history={
 		owner = KLT
 		add_core_of = KLT
+		add_core_of = BLU
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

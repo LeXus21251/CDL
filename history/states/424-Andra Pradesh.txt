@@ -3,12 +3,13 @@ state={
 	id=424
 	name="STATE_424"
 	resources={
-		wood = 17.000
+		wood=17.000
 	}
 
 	history={
 		owner = MYS
 		add_core_of = MYS
+		add_core_of = TLG
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -18,9 +19,10 @@ state={
 	}
 
 	provinces={
-		4414 10296 10756 10897 12779 13515 
+		4414 10296 10756 10897 12779 
 	}
 	manpower=6218992
 	buildings_max_level_factor=1.000
 	state_category=village
+	local_supplies=0.000
 }

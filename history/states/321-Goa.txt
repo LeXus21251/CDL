@@ -13,6 +13,7 @@ state={
 	history={
 		owner = PEI
 		add_core_of = PEI
+		add_core_of = KNK
 		victory_points = {1273 1 }
 		buildings = {
 			infrastructure = 5

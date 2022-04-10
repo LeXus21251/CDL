@@ -2,12 +2,13 @@ state={
 	id=837
 	name="STATE_837"
 	resources={
-		wood = 20.000
+		wood=20.000
 	}
 
 	history={
 		owner = BRM
 		add_core_of = BRM
+		add_core_of = KCH
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -17,9 +18,10 @@ state={
 	}
 
 	provinces={
-		1082 1197 1934 4087 4588 7469 8063 10386 10486 10920 12335 12464 12492 
+		1082 1197 1934 4087 4588 8063 10920 
 	}
 	manpower=2389120
 	buildings_max_level_factor=1.000
 	state_category=village
+	local_supplies=0.000
 }

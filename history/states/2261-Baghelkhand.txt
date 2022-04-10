@@ -1,0 +1,15 @@
+state={
+	id=2261
+	name="STATE_2261"
+	provinces={
+		1510 8120 10332 12480 14726 
+	}
+	history={
+		owner = MTH
+		add_core_of = MTH
+		add_core_of = BGN
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,15 @@
+state={
+	id=2266
+	name="STATE_2266"
+	provinces={
+		10358 12307 14730 
+	}
+	history={
+		owner = BAN
+		add_core_of = BAN
+		add_core_of = SDI
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

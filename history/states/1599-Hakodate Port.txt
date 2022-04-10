@@ -10,6 +10,7 @@ state={
 			history={
 		owner = TOK
 		add_core_of = TOK
+		add_core_of = AIN
 		buildings = {
 			infrastructure = 2
 			13656 = {

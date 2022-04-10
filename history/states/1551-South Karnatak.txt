@@ -13,6 +13,7 @@ state={
 	state_category = large_town
 		history={
 		add_core_of = VOC
+		add_core_of = TML
 		owner = VOC
 		buildings = {
 			infrastructure = 4

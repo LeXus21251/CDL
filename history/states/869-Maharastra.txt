@@ -8,6 +8,7 @@ state={
 	history={
 		owner = HYD
 		add_core_of = HYD
+		add_core_of = MTH
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -17,9 +18,10 @@ state={
 	}
 
 	provinces={
-		5019 10311 13522 
+		5019 10311 10511 13522 14711 14712 14713 
 	}
 	manpower=2671662
 	buildings_max_level_factor=1.000
 	state_category=village
+	local_supplies=0.000
 }

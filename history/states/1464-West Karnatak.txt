@@ -8,6 +8,7 @@ state={
 	history={
 		owner = MYS
 		add_core_of = MYS
+		add_core_of = TML
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2

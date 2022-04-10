@@ -1,0 +1,15 @@
+state={
+	id=2257
+	name="STATE_2257"
+	provinces={
+		10259 10799 
+	}
+	history={
+		owner = HYD
+		add_core_of = HYD
+		add_core_of = KNN
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

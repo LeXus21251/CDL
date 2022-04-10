@@ -6,6 +6,7 @@ state={
 	history={
 		owner = MUG
 		add_core_of = MUG
+		add_core_of = BND
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

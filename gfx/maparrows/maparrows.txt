@@ -700,10 +700,10 @@ arrowType = {
 	name = "root"
 	technique = "MapArrowNoHead"
 	texture_masks = {
-		"gfx/maparrows/x.dds"
+		"gfx/maparrows/x.dds" #SVA
 	}
 	texture_patterns = {
-		"gfx/maparrows/x.dds"
+		"gfx/maparrows/x.dds" #SVA
 	}
 	body_uv_scale = 1
 	mask_inner = { 0.0 1.0 0.0 }

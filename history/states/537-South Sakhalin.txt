@@ -8,6 +8,8 @@ state={
 
 	history={
 		owner = RUS
+		add_core_of = RUS
+		add_core_of = AIN
 		buildings = {
 			infrastructure = 3
 			12446 = {
@@ -23,9 +25,10 @@ state={
 	}
 
 	provinces={
-		1322 1755 1820 12446 
+		1322 12446 14733 
 	}
 	manpower=295196
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

@@ -4,7 +4,8 @@ state={
 
 	history={
 		owner = QIN
-		add_core_of = 
+		add_core_of = QIN
+		add_core_of = MON
 	}
 
 	provinces={

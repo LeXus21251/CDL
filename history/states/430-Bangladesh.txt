@@ -3,10 +3,10 @@ state={
 	id=430
 	name="STATE_430"
 	resources={
-		oil = 10.000
-		lead = 5.000
-		rubber = 13.000
-		wood = 8.000
+		oil=10.000
+		lead=5.000
+		rubber=13.000
+		wood=8.000
 	}
 
 	history={
@@ -19,16 +19,20 @@ state={
 			infrastructure = 5
 			industrial_complex = 3
 			arms_factory = 1
-			11968 = {naval_base = 3}
+			11968 = {
+				naval_base = 3
+
+			}
 
 		}
 
 	}
 
 	provinces={
-		2843 4162 4616 7078 7124 9935 9993 10035 10416 10443 11911 11929 11968 12010 12423 13208 
+		1075 2843 4162 4616 7078 7124 7634 9935 9993 10035 10416 10443 11911 11929 11968 12010 12423 13208 13557 13558 13559 
 	}
 	manpower=31891217
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }

@@ -2,8 +2,8 @@ state={
 	id=838
 	name="STATE_838"
 	resources={
-		lead = 3.000
-		fabrics = 12.000
+		lead=3.000
+		fabrics=12.000
 	}
 
 	history={
@@ -14,14 +14,17 @@ state={
 			industrial_complex = 1
 
 		}
-		victory_points = {4435 3 }
+		victory_points = {
+			4435 3 
+		}
 
 	}
 
 	provinces={
-		4435 
+		4435 14739 
 	}
 	manpower=112392
 	buildings_max_level_factor=1.000
 	state_category=village
+	local_supplies=0.000
 }

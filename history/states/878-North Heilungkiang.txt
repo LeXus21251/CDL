@@ -1,14 +1,18 @@
 state={
 	id=878
 	name="STATE_878"
+
+	history={
+		owner = QIN
+		add_core_of = QIN
+		add_core_of = MAN
+	}
+
 	provinces={
-		4809 7832 7848 7873 10675 
+		7832 7848 10675 
 	}
 	manpower=325000
 	buildings_max_level_factor=1.000
 	state_category=rural
-		history={
-		owner = QIN
-		add_core_of = 
-		}
+	local_supplies=0.000
 }

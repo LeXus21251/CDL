@@ -9,6 +9,7 @@ state={
 	history={
 		owner = FEI
 		add_core_of = FEI
+		add_core_of = TLG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3

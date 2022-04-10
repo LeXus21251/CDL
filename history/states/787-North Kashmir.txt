@@ -7,6 +7,7 @@ state={
 		victory_points = {1910 1 }
 		owner = MUG
 		add_core_of = MUG
+		add_core_of = SHN
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

@@ -5,13 +5,16 @@ state={
 
 	history={
 		owner = QIN
+		add_core_of = QIN
+		add_core_of = MON
 
 	}
 
 	provinces={
-		1776 4852 7697 10541 10567 12537 
+		1776 4809 4852 7697 7873 10541 10567 12537 
 	}
 	manpower=2000000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+	local_supplies=0.000
 }

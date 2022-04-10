@@ -10,6 +10,7 @@ state={
 	history={
 		add_core_of = VOC
 		owner = VOC
+		add_core_of = MLY
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
