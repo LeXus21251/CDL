@@ -1356,12 +1356,8 @@ color = rgb { 255 128 0 }
 color_ui = rgb { 204 102 0 }
 }
 XXX = {
-color = rgb { 249 253 176 }
-color_ui = rgb { 249 253 176 }
-}
-ZZZ = {
-color = rgb { 255 255 255 }
-color_ui = rgb { 255 255 255 }
+color = rgb { 54 57 62 }
+color_ui = rgb { 54 57 62 }
 }
 TMS = {
 color = rgb { 0 76 153 }
@@ -1682,4 +1678,8 @@ color_ui = rgb { 118 123 156 }
 KCH = {
 color = rgb { 24 29 66 }
 color_ui = rgb { 24 29 66 }
+}
+VVV = {
+color = rgb { 255 255 255 }
+color_ui = rgb { 255 255 255 }
 }

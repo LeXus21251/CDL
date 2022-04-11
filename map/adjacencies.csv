@@ -153,7 +153,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13635;9950;sea;2708;-1;-1;-1;-1;;Shimoshima-Nagasaki
 13637;1167;sea;2684;-1;-1;-1;-1;;Oki-Mainland
 4160;1070;sea;5244;-1;-1;-1;-1;;Hainan-Strait
-1712;12147;sea;8978;-1;-1;-1;-1;;Quebec-Strait
 3691;7813;sea;6261;-1;-1;-1;-1;;Cold Ass-Strait
 7259;1393;sea;5257;-1;-1;-1;-1;;Vancouver-Strait
 11047;198;sea;8370;-1;-1;-1;-1;;Barents-Strait
@@ -396,5 +395,26 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10414;14627;impassable;-1;-1;-1;-1;-1;;SmallKarakurum
 10414;10357;impassable;-1;-1;-1;-1;-1;;SmallKarakurum
 10414;14625;impassable;-1;-1;-1;-1;-1;;SmallKarakurum
+##CANADA ARCTIC##
+14759;14833;impassable;-1;-1;-1;-1;-1;;Ellesmere
+14753;14751;sea;14772;-1;-1;-1;-1;;canada
+14752;14751;sea;14772;-1;-1;-1;-1;;canada
+14754;14751;sea;14772;-1;-1;-1;-1;;canada
+14755;14754;sea;14771;-1;-1;-1;-1;;canada
+14757;14754;sea;14771;-1;-1;-1;-1;;canada
+14750;14751;sea;14772;-1;-1;-1;-1;;canada
+14749;14751;sea;14772;-1;-1;-1;-1;;canada
+14759;14749;sea;14772;-1;-1;-1;-1;;canada
+14758;14749;sea;14772;-1;-1;-1;-1;;canada
+1712;10721;sea;14806;-1;-1;-1;-1;;canada
+1712;3691;sea;14806;-1;-1;-1;-1;;canada
+##RUSSIA ARCTIC##
+11122;14835;sea;14766;-1;-1;-1;-1;;russia
+14834;14835;sea;14766;-1;-1;-1;-1;;russia
+4006;14840;sea;14768;-1;-1;-1;-1;;russia
+14841;14840;sea;14768;-1;-1;-1;-1;;russia
+14842;14839;sea;14768;-1;-1;-1;-1;;russia
+13063;14843;sea;14769;-1;-1;-1;-1;;russia
+
 
 -1;-1;;-1;-1;-1;-1;-1;-1

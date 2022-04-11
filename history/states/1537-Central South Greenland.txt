@@ -3,10 +3,10 @@ state={
 	name="STATE_1537"
 
 	history={
-		owner = KAA
+		owner = DEN
 		add_core_of = KAA
-		add_claim_by = DEN
-		add_claim_by = NOR
+		add_core_of = DEN
+		add_core_of = NOR
 		victory_points = {14031 2}
 		victory_points = {13608 1}
 
@@ -15,7 +15,7 @@ state={
 	provinces={
 		13607 13608 13609 13610 14031 14032 14033 14034 14039 
 	}
-	manpower=2363
+	manpower=1372
 	buildings_max_level_factor=1.000
-	state_category=village
+	state_category=pastoral
 }

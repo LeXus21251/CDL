@@ -1,0 +1,14 @@
+state={
+	id=2287
+	name="STATE_2287"
+	provinces={
+		14847 
+	}
+	history = {
+		owner = XXX
+	}
+	impassable = yes
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=2278
+	name="STATE_2278"
+	provinces={
+		14790 14791 14792 14793 14794 14795 14796 14797 14798 14805
+	}
+	history={
+		owner = XXX
+		add_core_of = KAA
+		add_claim_by = DEN
+		add_claim_by = NOR
+
+	}
+	manpower=0
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
