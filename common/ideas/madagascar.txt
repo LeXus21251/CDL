@@ -11,7 +11,7 @@ ideas = {
 				always = no
 			}
 
-			picture = MAD_liga_morska
+			picture = liga_morska
 			
 			modifier = {
 			research_speed_factor = 0.02

@@ -25,6 +25,11 @@ POL = {
 			freedom_level = 0.99
 		}
 	}
+recruit_character = MAD_antoni_beniowski
+recruit_character = MAD_radama_iii
+recruit_character = MAD_rivo_mazerek
+recruit_character = MAD_sedra_rakotobe
+recruit_character = MAD_fanomezantsoa
 
 set_politics = {
 	ruling_party = conservatism
@@ -33,6 +38,9 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
+conservatism = 81
+absolutism = 13
+liberalism = 6
 }
 
-recruit_character = MAD_antoni_beniowski
+

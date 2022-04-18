@@ -5,9 +5,9 @@ oob = "JAP_1936"
 set_research_slots = 4
 
 add_ideas = {
-	JAP_sakoku_edict
-	JAP_bushido
-	JAP_daimyo_nation
+	sakoku_edict
+	bushido
+	daimyo_nation
 	JAP_emperor
 }
 

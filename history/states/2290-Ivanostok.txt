@@ -1,0 +1,25 @@
+state={
+	id=2290
+	name="STATE_2290"
+	provinces={
+		14852 
+	}
+	history={
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+			infrastructure = 2
+			14852 = {
+				naval_base = 4
+
+			}
+
+		}
+		victory_points = {14852 20 }
+
+	}
+	manpower=63882
+	state_category=village
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

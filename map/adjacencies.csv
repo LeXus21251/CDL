@@ -271,7 +271,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 14143;14153;land;13477;-1;-1;-1;-1;;Koufara-Buzema
 14143;14151;land;13477;-1;-1;-1;-1;;Koufara-Kufra
 14144;1057;land;13477;-1;-1;-1;-1;;Koufara-MatanasSarra
-14161;13275;land;10907;-1;-1;-1;-1;;Medjahra-Siwa
 12733;13275;land;10907;-1;-1;-1;-1;;Farafra-Siwa
 13276;14129;land;10907;-1;-1;-1;-1;;Farafra-Nukhela
 14147;14129;land;13287;-1;-1;-1;-1;;Koufara-Nukhela

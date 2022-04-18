@@ -13,14 +13,15 @@ state={
 			}
 
 		}
-		add_core_of = CAN
+		add_core_of = ALA
 
 	}
 
 	provinces={
-		917 1323 1411 1737 1799 1872 3606 4678 4870 7869 7891 10548 10644 12508 12571 
+		1799 1872 7869 10548 
 	}
 	manpower=27681
 	buildings_max_level_factor=1.000
 	state_category=wasteland
+	local_supplies=0.000
 }

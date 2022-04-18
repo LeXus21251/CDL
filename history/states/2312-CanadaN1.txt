@@ -1,0 +1,15 @@
+state={
+	id=2312
+	name="STATE_2312"
+	provinces={
+		14881 
+	}
+	history={
+		owner = ALA
+		add_core_of = ALA
+		add_core_of = I04
+		}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

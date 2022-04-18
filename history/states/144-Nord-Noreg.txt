@@ -11,6 +11,7 @@ state={
 		owner = DEN
 		add_core_of = NOR
 		add_core_of = DEN
+		add_core_of = SAA
 		victory_points = {
 			192 2
 		}

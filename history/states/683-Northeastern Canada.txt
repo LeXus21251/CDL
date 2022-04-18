@@ -13,13 +13,15 @@ state={
 
 		}
 		add_core_of = CAN
+		add_core_of = I08
 
 	}
 
 	provinces={
-		2947 5239 7185 10585 10721 
+		1712 5239 7185 10721 
 	}
 	manpower=46135
 	buildings_max_level_factor=1.000
 	state_category=wasteland
+	local_supplies=0.000
 }

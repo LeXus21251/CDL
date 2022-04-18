@@ -10,9 +10,7 @@ state={
 	history={
 		owner = MAD
 		add_core_of = MAD
-			victory_points = {
-		13591 20
-		}
+			victory_points = {13591 25}
 		buildings = {
 		infrastructure = 3
 			13591 = {

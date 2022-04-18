@@ -4,8 +4,9 @@ state={
 
 	history={
 		owner = ALA
-
-	}
+		add_core_of = ALA
+		add_core_of = YUP
+		}
 
 	provinces={
 		1830 7855 14341 

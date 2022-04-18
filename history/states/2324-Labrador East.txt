@@ -1,0 +1,15 @@
+state={
+	id=2324
+	name="STATE_2324"
+	provinces={
+		1426 4720 7810 12503 13873 
+	}
+	history={
+		owner = QUE
+		add_core_of = QUE
+		add_core_of = I11
+		}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

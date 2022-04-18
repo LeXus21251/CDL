@@ -60,7 +60,7 @@ set_technology = {
 }
 
 	add_ideas = {
-			JAC_sakoku_edict
+			sakoku_edict
 			JAC_tenrikyo
 			JAC_war
 			JAC_iburi_izo

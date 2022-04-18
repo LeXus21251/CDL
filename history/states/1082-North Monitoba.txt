@@ -8,9 +8,10 @@ state={
 	}
 
 	provinces={
-		1848 3721 4218 4790 4872 5119 7782 12145 12636 12688 
+		1848 3721 4218 4790 4872 5119 7782 10585 12145 12636 12688 
 	}
 	manpower=55000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+	local_supplies=0.000
 }

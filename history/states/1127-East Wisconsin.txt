@@ -4,6 +4,7 @@ state={
 
 	history={
 		owner = ALA
+		add_core_of = ALA
 		victory_points = {
 			13203 3 
 		}

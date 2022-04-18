@@ -1,20 +1,4 @@
 spriteTypes = {
-
-#SAKOKU
-	spriteType = {
-		name = "GFX_idea_TOK_sakoku_edict"
-		texturefile = "gfx/interface/ideas/TOK/TOK_sakoku_edict.dds"
-	}
-#BUSHIDO
-	spriteType = {
-		name = "GFX_idea_TOK_bushido"
-		texturefile = "gfx/interface/ideas/TOK/TOK_bushido.dds"
-	}
-#DAIMYO
-	spriteType = {
-		name = "GFX_idea_TOK_daimyo_nation"
-		texturefile = "gfx/interface/ideas/TOK/TOK_daimyo_nation.dds"
-	}
 #CLAN
 	spriteType = {
 		name = "GFX_idea_TOK_tokugawa_clan"

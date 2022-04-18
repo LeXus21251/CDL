@@ -1,0 +1,22 @@
+spriteTypes = {
+#SAKOKU
+	spriteType = {
+		name = "GFX_idea_sakoku_edict"
+		texturefile = "gfx/interface/ideas/shared_ideas/sakoku_edict.dds"
+	}
+#BUSHIDO
+	spriteType = {
+		name = "GFX_idea_bushido"
+		texturefile = "gfx/interface/ideas/shared_ideas/bushido.dds"
+	}
+#DAIMYO
+	spriteType = {
+		name = "GFX_idea_daimyo_nation"
+		texturefile = "gfx/interface/ideas/shared_ideas/daimyo_nation.dds"
+	}
+#LIGA MORSKA
+	spriteType = {
+		name = "GFX_idea_liga_morska"
+		texturefile = "gfx/interface/ideas/shared_ideas/liga_morska.dds"
+	}
+}

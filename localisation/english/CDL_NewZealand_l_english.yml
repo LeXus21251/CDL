@@ -13,6 +13,15 @@
  
  ##PARTIES
   NZL_conservatism_party:0 "Parti Loyaliste"
+  NZL_liberalism_party:0 "Parti libéral de Nouvelle Normandie"
+  NZL_social_cooperatism_party:0 "Parti travailliste de Nouvelle Normandie"
+  NZL_absolutism_party:0 "Kīngitanga"
+  NZL_nationalism_party:0 "Nekehanga Aotearoa"
+  
+  ##CHARACTERS
+  #LEADERS
+   NZL_isabelle_orlean: "Isabelle d'Orléans"
+   NZL_ISABELLE_ORLEAN_DESC: "§OIsabelle§!, a young woman born in the late 70s of the 19th century. She is descended from the §OHouse of Orléans§! and led a comfortable life in §BFrance§!. She became one of the candidates for the throne of the newly formed state.\n\nIn 1902 she was crowned Dauphinesse of §BNouvelle Normandie§!, thus the colony became Dauphinate. She is currently residing at the palace in §GCharlesville§! and commands a number of people responsible for different parts of her kingdom."
   
  ##IDEAS
   NZL_dispersed_island:0 "Dispersed island country"

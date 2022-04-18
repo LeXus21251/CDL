@@ -1,15 +1,19 @@
 state={
 	id=855
 	name="STATE_855"
+
+	history={
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = CKK
+
+	}
+
 	provinces={
-		4744 5264 13063 13204 
+		5264 13063 13204 14871 
 	}
 	manpower=20000
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-	history={
-		owner = RUS
-
-		add_core_of = RUS
-		}
+	local_supplies=0.000
 }

@@ -1,0 +1,15 @@
+state={
+	id=2320
+	name="STATE_2320"
+	provinces={
+		14889 
+	}
+	history={
+		owner = CAN
+		add_core_of = CAN
+		add_core_of = I05
+		}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

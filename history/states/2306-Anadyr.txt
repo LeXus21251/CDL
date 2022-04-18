@@ -1,0 +1,15 @@
+state={
+	id=2306
+	name="STATE_2306"
+	provinces={
+		4744 14873 
+	}
+	history={
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = KRK
+		}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1683,3 +1683,119 @@ VVV = {
 color = rgb { 255 255 255 }
 color_ui = rgb { 255 255 255 }
 }
+NNT = {
+	color = rgb { 204 255 204 }
+	color_ui = rgb { 102 255 102 }
+}
+KOM = {
+	color = rgb { 0 230 184 }
+	color_ui = rgb { 0 128 102 }
+}
+MNS = {
+	color = rgb { 110 186 114 }
+	color_ui = rgb { 110 186 114 }
+}
+KHY = {
+	color = rgb { 166 93 93 }
+	color_ui = rgb { 166 93 93 }
+}
+MEL = {
+	color = rgb { 255 230 230 }
+	color_ui = rgb { 255 153 153 }
+}
+SAA = {
+color = rgb { 18 8 87 }
+color_ui = rgb { 18 8 87 }
+}
+YAK = {
+	color = rgb { 0 255 255 }
+	color_ui = rgb { 0 179 179 }
+}
+ENE = {
+color = rgb { 64 118 189 }
+color_ui = rgb { 64 118 189 }
+}
+SKP = {
+color = rgb { 166 179 102 }
+color_ui = rgb { 166 179 102 }
+}
+NGN = {
+color = rgb { 224 136 63 }
+color_ui = rgb { 224 136 63 }
+}
+DLG = {
+color = rgb { 142 102 227 }
+color_ui = rgb { 142 102 227 }
+}
+YKG = {
+color = rgb { 230 138 165 }
+color_ui = rgb { 230 138 165 }
+}
+CKK = {
+	color = rgb { 179 179 0 }
+	color_ui = rgb { 128 128 0 }
+}
+ILN = {
+color = rgb { 158 123 58 }
+color_ui = rgb { 158 123 58 }
+}
+AYR = {
+color = rgb { 175 219 116 }
+color_ui = rgb { 175 219 116 }
+}
+KRY = {
+color = rgb { 219 142 116 }
+color_ui = rgb { 219 142 116 }
+}
+KRK = {
+color = rgb { 158 222 199 }
+color_ui = rgb { 158 222 199 }
+}
+YUP = {
+color = rgb { 224 222 99 }
+color_ui = rgb { 224 222 99 }
+}
+I01 = {
+color = rgb { 124 230 191 }
+color_ui = rgb { 124 230 191 }
+}
+I02 = {
+color = rgb { 126 130 168 }
+color_ui = rgb { 126 130 168 }
+}
+I03 = {
+color = rgb { 227 111 111 }
+color_ui = rgb { 227 111 111 }
+}
+I04 = {
+color = rgb { 22 186 85 }
+color_ui = rgb { 22 186 85 }
+}
+I05 = {
+color = rgb { 133 113 4 }
+color_ui = rgb { 133 113 4 }
+}
+I06 = {
+color = rgb { 69 102 222 }
+color_ui = rgb { 69 102 222 }
+}
+I07 = {
+color = rgb { 217 102 237 }
+color_ui = rgb { 217 102 237 }
+}
+I08 = {
+color = rgb { 140 93 81 }
+color_ui = rgb { 140 93 81 }
+}
+I09 = {
+color = rgb { 189 181 136 }
+color_ui = rgb { 189 181 136 }
+}
+I10 = {
+color = rgb { 189 45 86 }
+color_ui = rgb { 189 45 86 }
+}
+I11 = {
+color = rgb { 135 74 12 }
+color_ui = rgb { 135 74 12 }
+}

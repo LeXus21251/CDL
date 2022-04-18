@@ -463,8 +463,7 @@ ideas = {
 			
 			if = {
 	
-					NOT = { AND = { has_idea = TOK_sakoku_edict 
-					has_idea = TOK_sakoku_edict }}
+					NOT = {has_idea = sakoku_edict }
 				}
 				if = {
 					limit = {
@@ -525,8 +524,7 @@ ideas = {
 			
 			if = {
 			
-					NOT = { OR = { has_idea = TOK_sakoku_edict 
-					has_idea = TOK_sakoku_edict }}
+					NOT = {has_idea = sakoku_edict }
 				}
 
 				if = {
@@ -590,8 +588,7 @@ ideas = {
 			
 			if = {
 					
-					NOT = { OR = { has_idea = TOK_sakoku_edict 
-					has_idea = TOK_sakoku_edict }}
+					NOT = {has_idea = sakoku_edict }
 				}
 				OR = {
 					AND = {

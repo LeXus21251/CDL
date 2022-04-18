@@ -1,0 +1,15 @@
+state={
+	id=2308
+	name="STATE_2308"
+	provinces={
+		1823 1839 14876 
+	}
+	history={
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = AYR
+		}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

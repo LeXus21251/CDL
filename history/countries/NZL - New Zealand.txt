@@ -29,16 +29,22 @@ FRA = {
 			freedom_level = 0.5
 		}
 	}
+recruit_character = NZL_isabelle_orlean
 
 set_politics = {
 	ruling_party = conservatism
-	last_election = "1902.01.01"
+	last_election = "1902.04.02"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
+conservatism = 63
+social_cooperatism = 8
+liberalism = 6
+absolutism = 15
+nationalism = 8
 }
 
-recruit_character = NZL_isabelle_orlean
+
 
 set_convoys = 70

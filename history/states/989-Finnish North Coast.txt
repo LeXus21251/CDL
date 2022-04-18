@@ -1,18 +1,22 @@
 state={
 	id=989
 	name="STATE_989"
-	provinces={
-		66 158 195 3172 9156 11081 11121 11125 11164 
-	}
-	manpower=240190
-	buildings_max_level_factor=1.000
-	state_category=pastoral
+
 	history={
 		owner = RUS
 		add_core_of = RUS
 		add_core_of = FIN
 		victory_points = {
-		11121 2
+			11121 2 
 		}
-		}
+
+	}
+
+	provinces={
+		66 158 195 3172 9156 11081 11121 11164 
+	}
+	manpower=240190
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

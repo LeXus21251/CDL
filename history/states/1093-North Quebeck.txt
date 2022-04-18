@@ -8,9 +8,10 @@ state={
 	}
 
 	provinces={
-		490 3208 3911 4666 6740 7364 10176 11682 11902 12147 12600 13196 13875 
+		490 3911 4666 6740 10176 11682 11902 12600 13196 13875 
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000
 	state_category=wasteland
+	local_supplies=0.000
 }

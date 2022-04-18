@@ -6,6 +6,14 @@
   MAD_DEF:0 "Madagascar"
   MAD_conservatism:0 "Kingdom of Malagasia"
   MAD_conservatism_DEF:0 "Kingdom of Malagasia"
+  MAD_absolutism:0 "Kingdom of Madagasikara"
+  MAD_absolutism_DEF:0 "Kingdom of Madagasikara"
+  MAD_liberalism:0 "Malagasy Republic"
+  MAD_liberalism_DEF:0 "Malagasy Republic"
+  MAD_revolutionary_socialism:0 "People's Republic of Madagascar"
+  MAD_revolutionary_socialism_DEF:0 "People's Republic of Madagascar"
+  MAD_traditionalism:0 "Malagasian Federation"
+  MAD_traditionalism_DEF:0 "Malagasian Federation"
 
  ##CTAGS
   MAD_POL_autonomy_protectorate: "Protectorate of Malagasia"
@@ -13,6 +21,21 @@
   MAD_POL_autonomy_vassal: "Duchy of Malagasia"
   MAD_POL_autonomy_puppet: "Crown Colony of Malagasia"
   MAD_POL_autonomy_colony: "Colony of Malagasia"
+  
+  ##PARTIES
+  MAD_conservatism_party:0 "Partya Królewska "Vorohamery""
+  MAD_liberalism_party:0 "Antoko Liberaly "Dobrobyt""
+  MAD_revolutionary_socialism_party:0 "Antoko Vahoaka Fitoviana"
+  MAD_absolutism_party:0 "Fianakaviana Mpanjaka Merina"
+  MAD_traditionalism_party:0 "Filankevitry ny foko"
+  
+  ##CHARACTERS
+  #LEADERS
+   MAD_antoni_beniowski: "Antoni Beniowski"
+   MAD_radama_iii: "Radama III"
+   MAD_rivo_mazerek: "Rivo Mazerek"
+   MAD_sedra_rakotobe: "Sedra Rakotobe"
+   MAD_fanomezantsoa: "Fanomezantsoa"
  
  ##IDEAS
   MAD_liga_morska:0 "Polska Liga Morska i Kolonyalna"

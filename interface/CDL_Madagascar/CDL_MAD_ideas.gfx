@@ -1,10 +1,4 @@
 spriteTypes = {
-
-#LIGA MORSKA
-	spriteType = {
-		name = "GFX_idea_MAD_liga_morska"
-		texturefile = "gfx/interface/ideas/MAD/MAD_liga_morska.dds"
-	}
 #PORT UNITY
 	spriteType = {
 		name = "GFX_idea_MAD_port_unity"

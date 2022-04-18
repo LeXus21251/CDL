@@ -1,15 +1,20 @@
 state={
 	id=1614
 	name="STATE_1614"
-	provinces={
-		103 167 203 2992 3069 6061 6142 11130 
-	}
-	manpower=21370
-	buildings_max_level_factor=1.000
-	state_category = wasteland
-		history = {
+
+	history={
 		owner = RUS
 		add_core_of = RUS
 		add_core_of = FIN
-		}
+		add_core_of = SAA
+
+	}
+
+	provinces={
+		103 128 167 203 2992 3069 3107 6061 6076 6142 9112 9128 9189 11167 11169 11204 
+	}
+	manpower=21370
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }

@@ -1,12 +1,14 @@
 state={
 	id=2275
 	name="STATE_2275"
-	provinces={
-		14748 14749 14750 14751 14752 14753 14754 14755 14756 14757 
-	}
+
 	history={
 		owner = CAN
 
+	}
+
+	provinces={
+		14748 14749 14750 14751 14752 14753 14754 14755 14757 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

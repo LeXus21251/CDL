@@ -1,6 +1,6 @@
 characters={
 	MAD_antoni_beniowski={
-		name="Antoni Beniowski"
+		name=MAD_antoni_beniowski
 		portraits={
 			civilian={
 				large="gfx/leaders/MAD/Antoni_Beniowski.dds"
@@ -8,7 +8,69 @@ characters={
 		}
 		country_leader={
 			ideology=conservatism_subtype
+			desc=MAD_ANTONI_BENIOWSKI_DESC
 			traits={madagascar_unifier}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	MAD_radama_iii={
+		name=MAD_radama_iii
+		portraits={
+			civilian={
+				large="gfx/leaders/MAD/Radama_III.dds"
+			}
+		}
+		country_leader={
+			ideology=absolutism_subtype
+			desc=MAD_RADAMA_III_DESC
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MAD_rivo_mazerek={
+		name=MAD_rivo_mazerek
+		portraits={
+			civilian={
+				large="gfx/leaders/MAD/Rivo_Mazerek.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism_subtype
+			desc=MAD_RIVO_MAZEREK_DESC
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MAD_sedra_rakotobe={
+		name=MAD_sedra_rakotobe
+		portraits={
+			civilian={
+				large="gfx/leaders/MAD/Sedra_Rakotobe.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialism_subtype
+			desc=MAD_SEDRA_RAKOTOBE_DESC
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MAD_fanomezantsoa={
+		name=MAD_fanomezantsoa
+		portraits={
+			civilian={
+				large="gfx/leaders/MAD/Fanomezantsoa.dds"
+			}
+		}
+		country_leader={
+			ideology=traditionalism_subtype
+			desc=MAD_FANOMEZANTSOA_DESC
+			traits={}
 			expire="1965.1.1.1"
 			id=-1
 		}

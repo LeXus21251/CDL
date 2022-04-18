@@ -71,8 +71,11 @@ FRA = {
 
 
 set_convoys = 10
-
+recruit_character = TON_siaosi_tupou_ii
 set_popularities = {
+absolutism = 78
+traditionalism = 4
+conservatism = 18
 
 }
 
@@ -83,5 +86,5 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-recruit_character = TON_siaosi_tupou_ii
+
 

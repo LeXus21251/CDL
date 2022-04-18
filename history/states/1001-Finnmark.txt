@@ -1,18 +1,23 @@
 state={
 	id=1001
 	name="STATE_1001"
-	provinces={
-		22 64 76 128 2995 3016 3040 6015 6079 6092 6107 9042 9064 9089 9116 9128 9191 11034 11063 11077 11104 11169 
-	}
-	manpower=32189
-	buildings_max_level_factor=1.000
-	state_category=wasteland
+
 	history={
 		owner = DEN
 		add_core_of = NOR
 		add_core_of = DEN
+		add_core_of = SAA
 		victory_points = {
-			11034 1
+			11034 1 
 		}
+
 	}
+
+	provinces={
+		22 64 76 2995 3016 3040 6015 6079 6092 9042 9064 9089 9116 11034 11063 11077 11104 
+	}
+	manpower=32189
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }
