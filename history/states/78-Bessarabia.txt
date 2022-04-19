@@ -4,7 +4,7 @@ state={
 	name="STATE_78"
 
 	history={
-		add_core_of = MOL
+		add_core_of = ROM
 		owner = RUS
 		victory_points = {
 			3707 1 
@@ -15,7 +15,6 @@ state={
 
 		}
 		add_core_of = RUS
-		add_claim_by = MOL
 
 	}
 

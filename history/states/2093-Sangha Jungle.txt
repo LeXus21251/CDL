@@ -6,7 +6,7 @@ state={
 	}
 	history={
 		owner = CAR
-		add_core_of = AKA
+		add_core_of = CAR
 
 	}
 	manpower=0

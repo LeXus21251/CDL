@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = MLI
-		add_core_of = SON
+		add_core_of = MLI
 		victory_points = {
 			2056 1 
 		}

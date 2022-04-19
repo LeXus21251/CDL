@@ -5,6 +5,7 @@ state={
 
 	history={
 		owner = COG
+		add_core_of = COG
 
 	}
 

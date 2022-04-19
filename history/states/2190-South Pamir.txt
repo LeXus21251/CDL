@@ -6,6 +6,7 @@ state={
 	}
 	history={
 		owner = KOK
+		add_core_of = KOK
 		add_core_of = KYR
 	}
 	manpower=0

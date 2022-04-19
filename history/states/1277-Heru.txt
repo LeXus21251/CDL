@@ -4,6 +4,7 @@ state={
 
 	history={
 		owner = UGA
+		add_core_of = UGA
 
 	}
 

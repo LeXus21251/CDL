@@ -5,6 +5,7 @@ state={
 
 	history={
 		owner = TUR
+		add_core_of = TUR
 		buildings = {
 			4206 = {
 				naval_base = 3

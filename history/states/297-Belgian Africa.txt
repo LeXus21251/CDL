@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = CMR
-		add_core_of = FAN
+		add_core_of = CMR
 
 	}
 

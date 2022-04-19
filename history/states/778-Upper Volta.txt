@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = MLI
-		add_core_of = MSS
+		add_core_of = MLI
 		victory_points = {10836 1 }
 		victory_points = {14400 5 }
 		buildings = {

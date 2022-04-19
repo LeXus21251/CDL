@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = SNS
-		add_core_of = CHA
+		add_core_of = SNS
 		buildings = {
 			infrastructure = 0
 

@@ -4,6 +4,7 @@ state={
 
 	history={
 		owner = TOU
+		add_core_of = TOU
 
 	}
 	impassable = yes

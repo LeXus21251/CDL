@@ -9,5 +9,6 @@ state={
 	state_category=megalopolis
 			history={
 		owner = NEN
+		add_core_of = NEN
 	}
 }

@@ -8,6 +8,6 @@ state={
 	buildings_max_level_factor=1.000
 				history={
 		owner = NGR
-		add_core_of = SON
+		add_core_of = NGR
 	}
 }

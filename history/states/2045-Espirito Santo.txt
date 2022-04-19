@@ -6,6 +6,7 @@ state={
 	}
 	history={
 		owner = BRA
+		add_core_of = BRA
 
 	}
 	manpower=0

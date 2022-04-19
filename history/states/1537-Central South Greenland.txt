@@ -6,7 +6,7 @@ state={
 		owner = DEN
 		add_core_of = KAA
 		add_core_of = DEN
-		add_core_of = NOR
+		add_claim_by = NOR
 		victory_points = {14031 2}
 		victory_points = {13608 1}
 

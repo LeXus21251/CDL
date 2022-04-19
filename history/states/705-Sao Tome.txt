@@ -6,6 +6,7 @@ state={
 
 	history={
 		owner = CMR
+		add_core_of = CMR
 		buildings = {
 			infrastructure = 2
 			13015 ={

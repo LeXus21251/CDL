@@ -22,7 +22,7 @@ state={
 			}
 
 		}
-		add_core_of = GUA
+		add_core_of = MEX
 		victory_points = {
 			10886 3 
 		}

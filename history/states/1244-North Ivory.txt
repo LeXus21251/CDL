@@ -4,7 +4,7 @@ state={
 
 	history={
 		owner = GHA
-		add_core_of = MSS
+		add_core_of = GHA
 
 	}
 

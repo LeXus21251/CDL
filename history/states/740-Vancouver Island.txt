@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = CAS
+		add_core_of = CAS
 		buildings = {
 			infrastructure = 2
 		}

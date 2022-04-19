@@ -4,6 +4,7 @@ state={
 
 	history={
 		owner = VIR
+		add_core_of = VIR
 
 	}
 

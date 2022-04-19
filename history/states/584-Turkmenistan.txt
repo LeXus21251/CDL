@@ -5,6 +5,7 @@ state={
 
 	history={
 		add_core_of = RUS
+		add_core_of = TMS
 		owner = RUS
 		victory_points = {
 			12333 1 

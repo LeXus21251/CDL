@@ -5,7 +5,8 @@ state={
 	history={
 		owner = PER
 		add_core_of = PER
-		add_core_of = SRK
+		add_core_of = TMS
+		add_core_of = TM2
 
 	}
 

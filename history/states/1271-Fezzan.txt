@@ -4,6 +4,7 @@ state={
 
 	history={
 		owner = TRP
+		add_core_of = TRP
 
 	}
 

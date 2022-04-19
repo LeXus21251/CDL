@@ -5,6 +5,7 @@ state={
 
 	history={
 		owner = KOR
+		add_core_of = KOR
 
 	}
 

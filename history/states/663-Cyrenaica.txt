@@ -5,6 +5,7 @@ state={
 
 	history={
 		owner = TRP
+		add_core_of = TRP
 		buildings = {
 			infrastructure = 1
 

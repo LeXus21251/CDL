@@ -15,7 +15,7 @@ state={
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = CRL
 		victory_points = {
 			7138 3 
 		}

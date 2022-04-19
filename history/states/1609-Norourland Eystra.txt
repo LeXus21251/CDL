@@ -10,7 +10,7 @@ state={
 		history={
 		owner = DEN
 		add_core_of = ICE
-		add_claim_by = DEN
+		add_core_of = DEN
 		add_claim_by = NOR
 		
 		victory_points = {

@@ -1363,19 +1363,19 @@ TMS = {
 color = rgb { 0 76 153 }
 color_ui = rgb { 0 76 153 }
 }
-YMT = {
+TM1 = {
 color = rgb { 0 76 158 }
 color_ui = rgb { 0 76 158 }
 }
-SRK = {
+TM2 = {
 color = rgb { 0 76 163 }
 color_ui = rgb { 0 76 163 }
 }
-CWR = {
+TM3 = {
 color = rgb { 0 76 148 }
 color_ui = rgb { 0 76 148 }
 }
-ERR = {
+TM4 = {
 color = rgb { 0 76 143 }
 color_ui = rgb { 0 76 143 }
 }

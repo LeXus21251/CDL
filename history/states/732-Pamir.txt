@@ -5,6 +5,7 @@ state={
 
 	history={
 		add_core_of = KYR
+		add_core_of = KOK
 		owner = KOK
 		victory_points = {
 			12583 1 
@@ -13,8 +14,6 @@ state={
 			infrastructure = 1
 
 		}
-		add_core_of = SOV
-
 	}
 
 	provinces={

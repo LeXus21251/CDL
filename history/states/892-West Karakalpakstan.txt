@@ -5,7 +5,8 @@ state={
 	history={
 		owner = RUS
 		add_core_of = RUS
-		add_core_of = CWR
+		add_core_of = TM3
+		add_core_of = TMS
 
 	}
 

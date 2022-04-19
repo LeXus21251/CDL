@@ -8,8 +8,7 @@ state={
 			2096 1 
 		}
 		owner = MHD
-		add_core_of = SUD
-		add_core_of = EGY
+		add_core_of = MHD
 		buildings = {
 			infrastructure = 3
 

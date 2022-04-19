@@ -4,6 +4,7 @@ state={
 
 	history={
 		owner = MAR
+		add_core_of = MAR
 
 	}
 

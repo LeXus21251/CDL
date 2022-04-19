@@ -18,7 +18,7 @@ guiTypes = {
 		}
 
 		iconType ={
-			name ="production_header_bg"
+			name ="politics_header_bg"
 			spriteType = "GFX_header_bg"
 			position = { x= 5 y = 07 }
 			Orientation = "UPPER_LEFT"
@@ -26,9 +26,9 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "political_title"
-			position = { x = 45 y = 8 }
+			position = { x = 45 y = 10 }
 			textureFile = ""
-			font = "hoi_36header"
+			font = "hoi_30header"
 			borderSize = {x = 0 y = 0}
 			text = "POLITICAL_POLITICAL"
 			maxWidth = 400
@@ -50,11 +50,10 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			frame = 1
 		}
-
 		containerWindowType = {
 			name = "chart_explanation"
-			position = { x = 334 y = 297 }
-			size = { width = 216 height = 80 }
+			position = { x = 304 y = 297 }
+			size = { width = 242 height = 80 }
 			clipping = yes
 			verticalScrollbar = "right_vertical_slider" margin = { top = 6 left = 0 bottom = 5 right = 0}
 			background = {
@@ -69,7 +68,17 @@ guiTypes = {
 				slotsize = { width = 230 height = 16 }
 				format = "UPPER_LEFT"
 			}
+			buttonType = {
+				name = "parties_button"
+				position = { x = 170 y = 15 }
+				spriteType = "GFX_parties_button"
+				clicksound = click_default
+				
+			}
+	
+			
 		}
+
 
 		
 		containerWindowType = {
@@ -81,13 +90,13 @@ guiTypes = {
 			iconType = {
 				name = "chart"
 				spriteType = "GFX_political_chart"
-				position = { x = 28 y = 5 }
+				position = { x = -2 y = 5 }
 			}
 			
 			iconType ={
 				name ="pol_view_bg"
 				spriteType = "GFX_pol_piechart_overlay_63x63"
-				position = { x= -2 y = 1s }
+				position = { x= -32 y = 1 }
 			}
 		}
 
@@ -153,19 +162,19 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "ideology"
-				position = { x = 9 y = 8 }
+				position = { x = 9 y = 1 }
 				font = "hoi_18mbs"
 				text = "ideology"
-				maxWidth = 155
+				maxWidth = 120
 				maxHeight = 20
 			}
 			
 			instantTextboxType = {
 				name = "elections"
-				position = { x = 4 y = 50 }
+				position = { x = 9 y = 35 }
 				font = "hoi_16mbs"
 				text = "elections"
-				maxWidth = 190
+				maxWidth = 120
 				maxHeight = 20
 			}
 			
@@ -392,7 +401,7 @@ guiTypes = {
 						
 			instantTextboxType = {
 				name = "title"
-				position = { x = 110 y = -2 }
+				position = { x = 110 y = -3 }
 				font = "hoi_18mbs"
 				text = "POLITICS_NATIONAL_SPIRIT"
 				maxWidth = 200
@@ -432,9 +441,10 @@ guiTypes = {
 		}
 		iconType = {
 			name = "leader"
-			position = { x = 18 y = 58 }
-			spriteType = "GFX_leader_unknown"
+			position = { x = 30 y = 67 }
+			scale = 0.85
 		}
+	
 		
 		iconType = {
 			name = "leader_frame2"
@@ -445,7 +455,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "leader_name"
-			position = { x = 18 y = 271 }
+			position = { x = 18 y = 269 }
 			font = "hoi_18mbs"
 			text = "leader_name"
 			maxWidth = 155
@@ -599,7 +609,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "country_politics_idea_category_entry"
 		position = { x = 0 y = 0 }
-		size = { width=550 height= 100 }
+		size = { width=550 height= 200 }
 		clipping = no
 		
 		iconType ={
@@ -967,48 +977,7 @@ guiTypes = {
 		}
 	}
 	
-	containerWindowType = {
-		name = "political_party_info_entry"
-		size = { width = 330 height = 18 }
-		clipping = no
 
-		iconType = {
-			name = "leading_pol_party_bg"
-			position = { x = 60 y = 5 }
-			spriteType = "GFX_leading_pol_party_bg"
-		}		
-		
-		iconType = {
-			name = "color_block_bg"
-			position = { x = 60 y = 2 }
-			spriteType = "GFX_pol_party_colour_bg"
-		}
-		
-		iconType = {
-			name = "color_block"
-			position = { x = 64 y = 6 }
-			spriteType = "GFX_pol_party_colour"
-		}
-		
-		#instantTextboxType = {
-		#	name = "score"
-		#	position = { x = 160 y = 4 }
-		#	font = "hoi_16mbs"
-		#	text = "score"
-		#	maxWidth = 60
-		#	maxHeight = 18
-		#}
-			
-		instantTextboxType = {
-			name = "name"
-			position = { x = 82 y = 4 }
-			font = "hoi_16mbs"
-			text = "party name"
-			fixedsize = yes
-			maxWidth = 170
-			maxHeight = 18
-		}
-	}
 	
 	containerWindowType = {
 		name = "manage_subjects_window"

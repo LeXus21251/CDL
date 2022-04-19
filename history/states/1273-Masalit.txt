@@ -4,7 +4,7 @@ state={
 
 	history={
 		owner = SOK
-		add_core_of = HAU
+		add_core_of = SOK
 	}
 
 	provinces={

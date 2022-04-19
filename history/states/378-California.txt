@@ -31,7 +31,7 @@ state={
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = MEX
 		victory_points = {
 			9814 30 
 		}
@@ -43,13 +43,6 @@ state={
 		}
 		victory_points = {
 			9713 1 
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 7
-
-			}
-
 		}
 
 	}

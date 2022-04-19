@@ -14,7 +14,7 @@ state={
 			8094 3 
 		}
 		owner = DER
-		add_core_of = SOM
+		add_core_of = DER
 
 	}
 

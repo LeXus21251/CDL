@@ -10,6 +10,7 @@ state={
 
 	history= {
 		owner = TUR
+		add_core_of = TUR
 		add_core_of = ALW
 		victory_points = {
 			12029 1
@@ -18,9 +19,5 @@ state={
 			infrastructure = 2
 		}
 
-		1938.9.30 = {
-			owner = TUR
-			controller = TUR
-		}
 	}
 }

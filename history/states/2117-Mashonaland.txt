@@ -6,6 +6,7 @@ state={
 	}
 	history={
 		owner = BOT
+		add_core_of = BOT
 
 	}
 	manpower=0

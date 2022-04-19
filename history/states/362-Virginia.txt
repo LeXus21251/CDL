@@ -15,7 +15,7 @@ state={
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = VIR
 		victory_points = {
 			788 5 
 		}

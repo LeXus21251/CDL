@@ -15,19 +15,12 @@ state={
 			industrial_complex = 6
 
 		}
-		add_core_of = USA
+		add_core_of = QUE
 		victory_points = {
 			6855 5 
 		}
 		victory_points = {
 			6890 10 
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 7
-
-			}
-
 		}
 
 	}

@@ -9,5 +9,6 @@ state={
 	local_supplies=0.000
 	history={
 		owner = GEG
+		add_core_of = GEG
 	}
 }

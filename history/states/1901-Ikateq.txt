@@ -5,7 +5,7 @@ state={
 	history={
 		owner = DEN
 		add_core_of = KAA
-		add_claim_by = DEN
+		add_core_of = DEN
 		victory_points = {
 			13981 1 
 		}

@@ -5,6 +5,7 @@ state={
 
 	history={
 		add_core_of = KYR
+		add_core_of = KOK
 		owner = KOK
 		victory_points = {
 			1384 1 

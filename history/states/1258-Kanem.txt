@@ -4,7 +4,7 @@ state={
 
 	history={
 		owner = BAG
-		add_core_of = BOR
+		add_core_of = BAG
 		victory_points = {3123 3}
 
 	}

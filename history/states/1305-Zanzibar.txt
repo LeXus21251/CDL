@@ -8,6 +8,7 @@ state={
 	buildings_max_level_factor=1.000
 		history={
 		owner = ZAZ
+		add_core_of = ZAZ
 		victory_points = {
 			13400 1 
 		}

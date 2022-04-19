@@ -5,6 +5,7 @@ state={
 
 	history={
 		owner = QIN
+		add_core_of = QIN
 		add_core_of = XSM
 		buildings = {
 			infrastructure = 1

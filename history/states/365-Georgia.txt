@@ -15,7 +15,7 @@ state={
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = GEG
 		victory_points = {
 			12384 5 
 		}

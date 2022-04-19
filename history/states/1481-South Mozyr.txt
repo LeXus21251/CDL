@@ -4,6 +4,7 @@ state={
 
 	history={
 		owner = RUT
+		add_core_of = RUT
 
 	}
 

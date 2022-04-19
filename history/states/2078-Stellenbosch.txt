@@ -6,6 +6,7 @@ state={
 	}
 	history={
 		owner = SAF
+		add_core_of = SAF
 
 	}
 	manpower=0

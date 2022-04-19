@@ -14,19 +14,12 @@ state={
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = CHE
 		victory_points = {
 			7480 1 
 		}
 		victory_points = {
 			12803 5 
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-
-			}
-
 		}
 
 	}

@@ -4,7 +4,7 @@ state={
 
 	history={
 		owner = SEN
-		add_core_of = MRT
+		add_core_of = SEN
 
 	}
 

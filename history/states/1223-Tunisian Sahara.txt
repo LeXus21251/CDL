@@ -4,6 +4,7 @@ state={
 
 	history={
 		owner = WES
+		add_core_of = WES
 
 	}
 

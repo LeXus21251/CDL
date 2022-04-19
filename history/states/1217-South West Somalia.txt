@@ -8,5 +8,6 @@ state={
 	buildings_max_level_factor=1.000
 		history={
 		owner = SOM
+		add_core_of = SOM
 	}
 }

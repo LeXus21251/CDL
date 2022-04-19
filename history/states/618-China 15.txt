@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = DZU
-		add_core_of = SIK
+		add_core_of = DZU
 		buildings = {
 			infrastructure = 3
 

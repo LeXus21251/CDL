@@ -9,5 +9,6 @@ state={
 	state_category = city
 					history={
 		owner = ARG
+		add_core_of = ARG
 	}
 }

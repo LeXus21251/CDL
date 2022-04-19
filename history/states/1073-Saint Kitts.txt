@@ -9,6 +9,6 @@ state={
 	state_category=tiny_island
 		history={
 		owner = CAY
-                add_core_of = HAI
+        add_core_of = CAY
 	}
 }

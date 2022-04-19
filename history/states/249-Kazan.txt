@@ -18,13 +18,6 @@ state={
 		}
 		add_core_of = RUS
 		add_core_of = CHU
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-
-			}
-
-		}
 
 	}
 

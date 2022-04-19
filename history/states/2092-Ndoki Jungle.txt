@@ -4,7 +4,7 @@ state={
 
 	history={
 		owner = GAB
-		add_core_of = AKA
+		add_core_of = GAB
 
 	}
 

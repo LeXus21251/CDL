@@ -9,5 +9,6 @@ state={
 	state_category=pastoral
 								history={
 		owner = MAP
+		add_core_of = MAP
 		}
 }

@@ -12,16 +12,11 @@ state={
 			infrastructure = 6
 			industrial_complex = 4
 		}
-		add_core_of = USA
+		add_core_of = LOU
 		victory_points = {
 			1770 3 
 		}
 
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 5
-			}
-		}
 
 	}
 

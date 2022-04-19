@@ -4,6 +4,7 @@ state={
 
 	history={
 		owner = ZAM
+		add_core_of = ZAM
 
 	}
 

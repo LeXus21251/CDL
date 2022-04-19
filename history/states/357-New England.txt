@@ -23,7 +23,7 @@ state={
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = NEN
 		victory_points = {
 			6732 20 
 		}

@@ -4,7 +4,7 @@ state={
 
 	history={
 		owner = CAR
-		add_core_of = RAF
+		add_core_of = CAR
 
 	}
 

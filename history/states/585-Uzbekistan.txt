@@ -4,7 +4,7 @@ state={
 	name="STATE_585"
 
 	history={
-		add_core_of = UZB
+		add_core_of = KHI
 		victory_points = {
 			1614 1 
 		}
@@ -13,7 +13,6 @@ state={
 			infrastructure = 3
 
 		}
-		add_core_of = SOV
 
 	}
 

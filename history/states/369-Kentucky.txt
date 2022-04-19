@@ -5,6 +5,7 @@ state={
 
 	history={
 		owner = CKS
+		add_core_of = CKS
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3

@@ -19,7 +19,7 @@ state={
 			}
 
 		}
-		add_core_of = ECU
+		add_core_of = COL
 		victory_points = {
 			12798 5 
 		}

@@ -9,6 +9,7 @@ state={
 	state_category = wasteland
 		history={
 		owner = TOU
+		add_core_of = TOU
 	}
 	impassable = yes
 

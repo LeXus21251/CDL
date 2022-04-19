@@ -4,6 +4,7 @@ state={
 
 	history={
 		owner = SNS
+		add_core_of = SNS
 
 	}
 

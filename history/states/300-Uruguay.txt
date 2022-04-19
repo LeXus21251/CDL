@@ -23,7 +23,7 @@ state={
 			}
 
 		}
-		add_core_of = URG
+		add_core_of = ARG
 		victory_points = {
 			10362 5 
 		}

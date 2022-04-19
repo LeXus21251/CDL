@@ -6,6 +6,7 @@ state={
 	}
 			history={
 		owner = MAR
+		add_core_of = MAR
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

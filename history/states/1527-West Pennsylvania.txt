@@ -4,6 +4,7 @@ state={
 
 	history={
 		owner = IRO
+		add_core_of = IRO
 
 	}
 

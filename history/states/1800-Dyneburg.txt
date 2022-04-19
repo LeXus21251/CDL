@@ -5,7 +5,6 @@ state={
 	history={
 		owner = POL
 		add_core_of = POL
-		add_core_of = LAT
 		add_claim_by = COU
 
 	}

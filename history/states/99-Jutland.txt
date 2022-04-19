@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = DEN
+		add_core_of = DEN
 		add_claim_by = GER
 		victory_points = {
 			332 3 

@@ -8,6 +8,7 @@ state={
 	buildings_max_level_factor=1.000
 			history={
 		owner = TUR
+		add_core_of = TUR
 		add_core_of = MES
 	}
 }

@@ -9,5 +9,6 @@ state={
 	state_category=pastoral
 			history={
 		owner = SAF
+		add_core_of = SAF
 	}
 }

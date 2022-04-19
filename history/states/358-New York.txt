@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = NEN
+		add_core_of = NEN
 
 	}
 

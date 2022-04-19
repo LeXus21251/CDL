@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = TOU
-		add_core_of = ALG
+		add_core_of = TOU
 		buildings = {
 			infrastructure = 0
 

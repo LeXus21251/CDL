@@ -9,6 +9,7 @@ state={
 	state_category=pastoral
 		history={
 		owner = MHD
+		add_core_of = MHD
 		victory_points = {5060 5}
 	}
 }
