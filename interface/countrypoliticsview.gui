@@ -53,27 +53,20 @@ guiTypes = {
 		containerWindowType = {
 			name = "chart_explanation"
 			position = { x = 304 y = 297 }
-			size = { width = 242 height = 80 }
+			size = { width = 242 height = 82 }
 			clipping = yes
 			verticalScrollbar = "right_vertical_slider" margin = { top = 6 left = 0 bottom = 5 right = 0}
 			background = {
-				name = "Background"		
+				name = "scrollbar"		
 				quadTextureSprite ="GFX_tiled_bg_1_scrollbar"
 			}
 			
 			gridBoxType = {
 				name = "parties_grid"
-				position = { x = -55 y = 0 }
-				size = { width = 100%% height = 100%% }
+				position = { x = -45 y = 5 }
+				size = { width = 20 height = 20 }
 				slotsize = { width = 230 height = 16 }
 				format = "UPPER_LEFT"
-			}
-			buttonType = {
-				name = "parties_button"
-				position = { x = 170 y = 15 }
-				spriteType = "GFX_parties_button"
-				clicksound = click_default
-				
 			}
 	
 			
@@ -171,10 +164,10 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "elections"
-				position = { x = 9 y = 35 }
+				position = { x = 9 y = 30 }
 				font = "hoi_16mbs"
 				text = "elections"
-				maxWidth = 120
+				maxWidth = 100
 				maxHeight = 20
 			}
 			
@@ -412,8 +405,8 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "national_spirit_container"
-				position = { x = 90 y = 19 }
-				size = { width = 365 height = 68 }
+				position = { x = 125 y = 19 }
+				size = { width = 330 height = 68 }
 				
 				verticalScrollbar = "right_vertical_slider"
 				
@@ -434,7 +427,7 @@ guiTypes = {
 					name = "spirit_grid_over_defined"
 					size = { width = 350 height = 100%% }
 					slotsize = { width = 33 height = 32 }
-					max_slots_horizontal = 10
+					max_slots_horizontal = 9
 					format = "UPPER_LEFT"
 				}
 			}
@@ -466,7 +459,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ideas"
-			position = { x = 0 y = 470 }
+			position = { x = 0 y = 430 }
 			size = { width=100%% height=100%% }
 			verticalScrollbar = "right_vertical_slider"
 			margin = { top = 14 bottom = 13}
@@ -475,7 +468,7 @@ guiTypes = {
 				name = "Background"
 				#quadTextureSprite ="GFX_tiled_window_2b_border"
 				#quadTextureSprite ="GFX_tiled_window_1b_border"
-				quadTextureSprite ="GFX_tiled_window_1b_border"
+				quadTextureSprite ="GFX_tiled_bg_1_scrollbar"
 			}
 			
 			gridBoxType = {
@@ -974,6 +967,48 @@ guiTypes = {
 			maxHeight = 10
 			format = center
 			alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "political_party_info_entry"
+		size = { width = 330 height = 18 }
+		clipping = no
+
+		iconType = {
+			name = "leading_pol_party_bg"
+			position = { x = 60 y = 5 }
+			spriteType = "GFX_leading_pol_party_bg"
+		}		
+		
+		iconType = {
+			name = "color_block_bg"
+			position = { x = 60 y = 2 }
+			spriteType = "GFX_pol_party_colour_bg"
+		}
+		
+		iconType = {
+			name = "color_block"
+			position = { x = 64 y = 6 }
+			spriteType = "GFX_pol_party_colour"
+		}
+		
+		#instantTextboxType = {
+		#	name = "score"
+		#	position = { x = 160 y = 4 }
+		#	font = "hoi_16mbs"
+		#	text = "score"
+		#	maxWidth = 60
+		#	maxHeight = 18
+		#}
+			
+		instantTextboxType = {
+			name = "name"
+			position = { x = 82 y = 4 }
+			font = "hoi_16mbs"
+			text = "party name"
+			fixedsize = yes
+			maxWidth = 180
+			maxHeight = 15
 		}
 	}
 	

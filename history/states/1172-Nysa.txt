@@ -1,16 +1,18 @@
 state={
 	id=1172
 	name="STATE_1172"
+
+	history={
+		owner = SIL
+		add_core_of = SIL
+
+	}
+
 	provinces={
-		6512 
+		14904 
 	}
 	manpower=69126
 	buildings_max_level_factor=1.000
-	state_category = rural
-		history={
-		owner = GER
-		add_core_of = GER
-		add_core_of = BRB
-		add_claim_by = POL
-	}
+	state_category=rural
+	local_supplies=0.000
 }

@@ -1,14 +1,18 @@
 state={
 	id=1160
 	name="STATE_1160"
+
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = BRB
+	}
+
 	provinces={
-		13252 
+		6464 
 	}
 	manpower=376123
 	buildings_max_level_factor=1.000
-	state_category = large_town
-		history={
-		owner = POL
-		add_core_of = POL
-	}
+	state_category=large_town
+	local_supplies=0.000
 }

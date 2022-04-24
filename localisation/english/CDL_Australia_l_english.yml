@@ -13,9 +13,13 @@
  
  ##PARTIES
   AST_conservatism_party:0 "Parti Loyaliste"
+  AST_conservatism_party_long:0 "Parti Loyaliste"
   AST_nationalism_party:0 "Action Pacifica"
-  AST_liberalism_party:0 "Parti libéral de Nouvelle Hollande"
-  AST_social_cooperatism_party:0 "Parti travailliste de Nouvelle Hollande"
+  AST_nationalism_party_long:0 "Action Pacifica"
+  AST_liberalism_party:0 "Parti Libéral"
+  AST_liberalism_party_long:0 "Parti Libéral de Nouvelle Hollande"
+  AST_social_cooperatism_party:0 "Parti Travalliste"
+  AST_social_cooperatism_party_long:0 "Parti Travailliste de Nouvelle Hollande"
   
  ##IDEAS
   AST_new_kingdom:0 "Colony became kingdom"

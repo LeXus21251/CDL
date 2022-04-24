@@ -1735,19 +1735,19 @@ CKK = {
 	color = rgb { 179 179 0 }
 	color_ui = rgb { 128 128 0 }
 }
-ILN = {
+KM1 = {
 color = rgb { 158 123 58 }
 color_ui = rgb { 158 123 58 }
 }
-AYR = {
+KM2 = {
 color = rgb { 175 219 116 }
 color_ui = rgb { 175 219 116 }
 }
-KRY = {
+KM3 = {
 color = rgb { 219 142 116 }
 color_ui = rgb { 219 142 116 }
 }
-KRK = {
+EVI = {
 color = rgb { 158 222 199 }
 color_ui = rgb { 158 222 199 }
 }
@@ -1798,4 +1798,8 @@ color_ui = rgb { 189 45 86 }
 I11 = {
 color = rgb { 135 74 12 }
 color_ui = rgb { 135 74 12 }
+}
+TAI = {
+color = rgb { 110 64 22 }
+color_ui = rgb { 110 64 22 }
 }

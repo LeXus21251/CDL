@@ -16,7 +16,7 @@ guiTypes = {
 		
 		background = {
 			name = "Background"		
-			spriteType ="GFX_tiled_bg"
+			spriteType ="GFX_tiled_plain_bg"
 		}
 		
 		containerWindowType = {
@@ -33,13 +33,13 @@ guiTypes = {
 			iconType = {
 				name = "diplo_country_flag"
 				quadTextureSprite ="GFX_shield_medium"
-				position = { x= 40 y = 1 }
+				position = { x= 40 y = 6 }
 				Orientation = "UPPER_LEFT"
 			}			
 			
 			iconType = {
 				name = "diplo_flag_frame"
-				position = { x = 14 y = -10 }
+				position = { x = 14 y = -5 }
 				spriteType = "GFX_diplo_flag_frame"
 				alwaystransparent = yes
 			}			
@@ -54,40 +54,40 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "country_name"
-				position = { x = 245 y = 3 }
-				font = "hoi_18mbs"
+				position = { x = 238 y = -3 }
+				font = "hoi_16mbs"
 				text = "Germanian"
-				maxWidth = 173
+				maxWidth = 135
 				fixedsize = yes
-				maxHeight = 20
+				maxHeight = 40
 				format = left
 			}
 
 			containerWindowType = {
 				name = "faction"
-				position = { x = 245 y = 23}	
+				position = { x = 238 y = 23}	
 				size = { width = 175 height = 20 }
 				clipping = no
 			
-				instantTextboxType = {
-					name = "faction_name"
-					position = { x = 0 y = 0 }
-					font = "hoi_18mbs"
-					text = "faction"
-					maxWidth = 173
-					maxHeight = 20
-					fixedsize = yes		
-					format = left
-				}
+#				instantTextboxType = {
+#					name = "faction_name"
+#					position = { x = 0 y = 0 }
+#					font = "hoi_16mbs"
+#					text = "faction"
+#					maxWidth = 173
+#					maxHeight = 20
+#					fixedsize = yes		
+#					format = left
+#				}
 			}
 			
 			instantTextboxType = {
 				name = "leader_name"
-				position = { x = 245 y = 43 }
+				position = { x = 238 y = 33 }
 				font = "hoi_16mbs"
 				text = "Rudolf Kittler"
-				maxWidth = 173
-				maxHeight = 20
+				maxWidth = 135
+				maxHeight = 40
 				format = left
 				fixedsize = yes						
 			}
@@ -224,9 +224,9 @@ guiTypes = {
 					
 				iconType = {
 					name = "leader_portrait"
-					position = { x = 20 y = 10 }
+					position = { x = 30 y = 23 }
 					spriteType = "GFX_leader_unknown"
-					scale = 0.74
+					scale = 0.63
 				}
 				
 				iconType = {
@@ -384,16 +384,10 @@ guiTypes = {
 					name = "Background"
 					spriteType ="GFX_tiled_window_1b_thin_border"
 				}
-
-				iconType = {
-					name = "win_header_short"
-					position = { x = 8 y= 6 }
-					spriteType = "GFX_win_header_short"
-				}
 				
 				gridboxtype = {
 					name = "actions_grid"
-					position = { x = 10 y = 32 }
+					position = { x = 10 y = 10 }
 					size = { width = 255 height = 100%% }
 					slotsize = { width = 255 height = 29 }
 					max_slots_horizontal = 1
@@ -424,8 +418,8 @@ guiTypes = {
 				
 				containerWindowType = {
 					name = "national_spirit_container"
-					position = { x = -380 y = -5 }
-					size = { width = 375 height = 74 }
+					position = { x = -330 y = -5 }
+					size = { width = 320 height = 74 }
 					verticalScrollbar = "right_vertical_slider"
 					orientation = upper_right
 					
@@ -437,17 +431,17 @@ guiTypes = {
 					gridboxtype = {
 						name = "national_spirit_ideas_grid"
 						position = { x = -5 y = 2 }
-						size = { width = 360 height = 68 }
+						size = { width = 320 height = 68 }
 						slotsize = { width = 60 height = 68 }
-						max_slots = { x = 6 y = 1 }
+						max_slots = { x = 5 y = 1 }
 						format = "UPPER_LEFT"
 					}
 					gridboxtype = {
 						name = "nat_spirit_ideas_grid_over_defined"
 						position = { x = 10 y = 2 }
-						size = { width = 330 height = 68 }
+						size = { width = 320 height = 68 }
 						slotsize = { width = 33 height = 34 }
-						max_slots_horizontal = 10
+						max_slots_horizontal = 9
 						format = "UPPER_LEFT"
 					}
 				}

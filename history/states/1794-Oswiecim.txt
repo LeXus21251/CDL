@@ -1,14 +1,18 @@
 state={
 	id=1794
 	name="STATE_1794"
-	provinces={
-		13205 
-	}
-	manpower=37291
-	buildings_max_level_factor=1.000
-	state_category = town
+
 	history={
 		owner = POL
 		add_core_of = POL
+
 	}
+
+	provinces={
+		14905 
+	}
+	manpower=37291
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

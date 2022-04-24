@@ -1,0 +1,14 @@
+state={
+	id=2330
+	name="STATE_2330"
+	provinces={
+		6534 
+	}
+	history={
+		owner = CZE
+		add_core_of = CZE
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

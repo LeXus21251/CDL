@@ -1,10 +1,11 @@
+
 strategic_region={
 	id=211
 	name="STRATEGICREGION_211"
 	provinces={
 		13152 
 	}
-		naval_terrain=water_shallow_sea
+	naval_terrain=water_inland
 	weather={
 		period={
 			between={ 0.0 30.0 }

@@ -23,11 +23,16 @@
   MAD_POL_autonomy_colony: "Colony of Malagasia"
   
   ##PARTIES
-  MAD_conservatism_party:0 "Partya Królewska "Vorohamery""
-  MAD_liberalism_party:0 "Antoko Liberaly "Dobrobyt""
-  MAD_revolutionary_socialism_party:0 "Antoko Vahoaka Fitoviana"
-  MAD_absolutism_party:0 "Fianakaviana Mpanjaka Merina"
-  MAD_traditionalism_party:0 "Filankevitry ny foko"
+  MAD_conservatism_party:0 "PK "Vorohamery""
+  MAD_conservatism_party_long:0 "Partya Królewska "Vorohamery""
+  MAD_liberalism_party:0 "AL "Dobrobyt""
+  MAD_liberalism_party_long:0 "Antoko Liberaly "Dobrobyt""
+  MAD_revolutionary_socialism_party:0 "AVF"
+  MAD_revolutionary_socialism_party_long:0 "Antoko Vahoaka Fitoviana"
+  MAD_absolutism_party:0 "FMM"
+  MAD_absolutism_party_long:0 "Fianakaviana Mpanjaka Merina"
+  MAD_traditionalism_party:0 "Fnf"
+  MAD_traditionalism_party_long:0 "Filankevitry ny foko"
   
   ##CHARACTERS
   #LEADERS

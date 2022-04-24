@@ -11,6 +11,5 @@ state={
 		owner = GER
 		add_core_of = GER
 		add_core_of = BRB
-		add_core_of = SIL
 	}
 }

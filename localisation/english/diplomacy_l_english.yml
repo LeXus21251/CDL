@@ -379,7 +379,7 @@
  DIPLOMACY_INCOMING_LEND_LEASE_DEAL_DESC:0 "We request:\n$TYPE$"
  DIPLOMACY_NO_POLITICAL_POWER:0 "We don't have any Political Power"
  DIPLOMACY_LOW_STABILITY:0 "To stage a coup stability of a receiving nation should be below $MIN|0H%$ (currently $CURRENT|0H%$)"
- DIPLOMACY_RELATIONS_TAB:0 "Diplomacy"
+ DIPLOMACY_RELATIONS_TAB:0 "Diplomatic Actions"
  DIPLOMACY_INFO_TAB:0 "Details"
  DIPLOMACY_IDEA_EMPTY:0 "Empty slot"
  CAN_DEACTIVATE_AFTER:0 "Cannot be canceled until: $DATE|H$"

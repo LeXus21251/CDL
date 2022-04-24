@@ -1,14 +1,18 @@
 state={
 	id=840
 	name="STATE_840"
+
+	history={
+		owner = QIN
+		add_core_of = QIN
+
+	}
+
 	provinces={
-		4096 7186 7214 9955 11959 
+		7186 7214 11959 
 	}
 	manpower=2546000
 	buildings_max_level_factor=1.000
 	state_category=town
-		history={
-		owner = QIN
-		add_core_of = QIN
-	}
+	local_supplies=0.000
 }

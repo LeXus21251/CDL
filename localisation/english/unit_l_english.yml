@@ -330,8 +330,6 @@
  mechanized_desc:0 "Lightly armored infantry transportation."
  modern_armor:0 "Modern Tank"
  modern_armor_desc:0 "Modern Tanks have evolved to deal with most battlefield situations. Powerful guns and sloped armor have eliminated the need for specialized tanks."
- infantry:0 "Infantry"
- infantry_desc:0 "Meat for the meat grinder."
  bicycle_battalion:0 "Bicycle Battalion"
  bicycle_battalion_desc:0 "Meat for the meat grinder, but with extra bits of metal."
  paratrooper:0 "Paratroopers"
@@ -565,11 +563,18 @@
  CONFIRM_DISBAND_FLEET_DESC:0 "Are you sure you want to §YDISBAND§! the fleet $NAME|H$?\n\nAll the task forces will be moved to reserve."
  
  ## CDL NEW ##
+ #GROUPS
+ group_cavalry_title:0 "Cavalry Battalions"
+ group_spec_force_title:0 "Special Forces"
+ group_art_title:0 "Heavy Armament"
+ group_mot_drawn_title:0 "Motorized Drawn"
+ group_animal_drawn_title:0 "Animal Drawn"
  # INFANTRY #
+ infantry:0 "Line Infantry"
+ infantry_desc:0 "Meat for the meat grinder."
  tribal_infantry:0 "Tribal Infantry"
- line_infantry:0 "Line infantry"
- skirmishers:0 "Skirmishers"
- grenadiers:0 "Grenadiers"
+ shock_infantry:0 "Shock Infantry"
+ machinegunners:0 "Machinegunners"
  # CAVALRY #
  tribal_cavalry:0 "Tribal Cavalry"
  heavy_cavalry:0 "Heavy Cavalry"
@@ -578,21 +583,28 @@
  cavalry_desc:0 "Horse mounted infantry. More expensive than infantry, but with better mobility."
  light_cavalry:0 "Light Cavalry"
  light_cavalry_desc:0 "Lighter horse infantry . Cheaper and a bit weaker."
+ elephant:0 "War Elephant"
  # ARTY #
- machinegun_brigade:0 "Machinegunners"
+ machinegun_brigade:0 "Machinegun"
  howitzer_brigade:0 "Howitzer"
  field_gun_brigade:0 "Field Gun"
- # MOBILE #
+ # ANIMAL DRAWN #
  howitzer_horse_brigade:0 "Horse-drawn Howitzer"
  field_gun_horse_brigade:0 "Horse-drawn Field Gun"
+ artillery_horse_brigade:0 "Horse-drawn Artillery"
+ rocket_artillery_horse_brigade: "Horse-drawn Rocket Artillery"
+ anti_tank_horse_brigade:0 "Horse-drawn Anti-Tank"
+ anti_air_horse_brigade:0 "Horse-drawn Anti-Air"
+ elephant_rocket:0 "Elephant Rocketery"
  # SUPPORT #
  machinegun:0 "Support Machinegun"
  howitzer:0 "Support Howitzer"
  field_gun:0 "Support Field Gun"
- siege_artillery:0 "Siege Artillery Support"
  # SPEC OPS #
  jungle_forces:0 "Jungle Forces"
  desert_forces:0 "Desert Forces"
+ # RAILWAY #
+ siege_artillery:0 "Siege Artillery"
  
  
  

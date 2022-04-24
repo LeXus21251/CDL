@@ -7,11 +7,14 @@ state={
 		add_core_of = GER
 		add_core_of = BRB
 		add_claim_by = POL
+
 	}
 
 	provinces={
-		444 11478 
+		11478 
 	}
 	manpower=212372
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
+}

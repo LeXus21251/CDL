@@ -1,0 +1,14 @@
+state={
+	id=2339
+	name="STATE_2339"
+	provinces={
+		14907 
+	}
+	history = {
+	owner = SIL
+	add_core_of = SIL
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

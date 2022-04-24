@@ -34,6 +34,7 @@ autonomy_state = {
 			tag = TRA
 			tag = BNT
 			tag = CRO
+			tag = SIL
 		}
 	}
 	allowed = {

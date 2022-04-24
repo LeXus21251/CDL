@@ -469,6 +469,10 @@ BNT_AUS = {
 	color = rgb { 213 216 230 }
 	color_ui = rgb { 213 216 230 }
 }
+SIL_AUS = {
+	color = rgb { 213 216 230 }
+	color_ui = rgb { 213 216 230 }
+}
 
 ##PERSIAN##
 ARB_PER_subject = {
