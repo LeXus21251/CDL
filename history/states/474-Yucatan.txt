@@ -19,6 +19,7 @@ state={
 
 		}
 		add_core_of = MEX
+		add_core_of = MAY
 		victory_points = {
 			4904 1 
 		}

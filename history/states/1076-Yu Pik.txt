@@ -6,6 +6,7 @@ state={
 		owner = ALA
 		add_core_of = ALA
 		add_core_of = YUP
+		add_core_of = N24
 		}
 
 	provinces={

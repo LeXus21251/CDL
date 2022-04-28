@@ -5,13 +5,15 @@ state={
 	history={
 		owner = CAN
 		add_core_of = CAN
+		add_core_of = N24
 
 	}
 
 	provinces={
-		515 1763 1804 3010 6726 6754 6779 7348 7766 7787 10684 12166 12534 
+		7830 7858 10703 
 	}
 	manpower=40000
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

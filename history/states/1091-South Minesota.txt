@@ -1,14 +1,19 @@
 state={
 	id=1091
 	name="STATE_1091"
+
+	history={
+		owner = LOU
+		add_core_of = LOU
+		add_core_of = N06
+
+	}
+
 	provinces={
-		1867 4664 4807 7536 12577 
+		1831 4664 4691 4807 7536 11788 11971 12577 12646 
 	}
 	manpower=18000
 	buildings_max_level_factor=1.000
 	state_category=rural
-				history={
-		owner = LOU
-		add_core_of = LOU
-		}
+	local_supplies=0.000
 }

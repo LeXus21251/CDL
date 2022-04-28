@@ -17,6 +17,7 @@ state={
 
 		}
 		add_core_of = QUE
+		add_core_of = N19
 		victory_points = {
 			6710 20 
 		}
@@ -24,9 +25,10 @@ state={
 	}
 
 	provinces={
-		689 691 3766 6710 6769 6782 7420 9724 9746 9747 10233 10303 11656 11669 11714 11731 
+		6710 9724 9746 11669 
 	}
 	manpower=4842323
 	buildings_max_level_factor=1.000
 	state_category=metropolis
+	local_supplies=0.000
 }

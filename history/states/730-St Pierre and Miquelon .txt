@@ -7,6 +7,7 @@ state={
 	history={
 		owner = ACA
 		add_core_of = ACA
+		add_core_of = NVB
 		buildings = {
 			infrastructure = 3
 			373 = {

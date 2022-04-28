@@ -11,13 +11,15 @@ state={
 
 		}
 		add_core_of = CAN
+		add_core_of = N11
 
 	}
 
 	provinces={
-		736 1788 3481 3498 4739 9669 10611 10656 11440 12593 12603 12663 
+		515 1763 1804 3010 6726 6754 7787 10684 12166 14916 
 	}
 	manpower=865605
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

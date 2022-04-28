@@ -5,6 +5,7 @@ state={
 		13643 
 	}
 	manpower=0
+	state_category = trade_port
 	buildings_max_level_factor=1.000
 		history={
 		owner = QIN

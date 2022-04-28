@@ -14,6 +14,7 @@ state={
 
 		}
 		add_core_of = CAN
+		add_core_of = N07
 		victory_points = {
 			1866 5 
 		}
@@ -21,9 +22,10 @@ state={
 	}
 
 	provinces={
-		1769 1873 4426 4875 7896 11571 11667 12588 12597 12693 
+		1769 1873 4875 
 	}
 	manpower=1263952
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }

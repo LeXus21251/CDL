@@ -1,0 +1,15 @@
+state={
+	id=2343
+	name="STATE_2343"
+	provinces={
+		4740 7762 10340 10798 11802 
+	}
+	history={
+		owner = LOU
+		add_core_of = LOU
+		add_core_of = N03
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

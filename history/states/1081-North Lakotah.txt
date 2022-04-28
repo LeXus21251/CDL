@@ -1,14 +1,19 @@
 state={
 	id=1081
 	name="STATE_1081"
+
+	history={
+		owner = LOU
+		add_core_of = LOU
+		add_core_of = N10
+
+	}
+
 	provinces={
-		1262 3769 7718 10552 
+		3769 4863 7883 10552 10593 10624 
 	}
 	manpower=15000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
-			history={
-		owner = LOU
-		add_core_of = LOU
-		}
+	local_supplies=0.000
 }

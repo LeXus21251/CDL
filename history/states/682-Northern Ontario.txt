@@ -15,6 +15,7 @@ state={
 
 		}
 		add_core_of = QUE
+		add_core_of = N07
 
 	}
 

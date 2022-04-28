@@ -21,6 +21,7 @@ state={
 
 		}
 		add_core_of = LOU
+		add_core_of = N14
 		victory_points = {
 			1408 15 
 		}
@@ -28,9 +29,10 @@ state={
 	}
 
 	provinces={
-		4343 4877 7677 7761 7820 12578 
+		4343 4877 7761 12578 
 	}
 	manpower=638165
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

@@ -369,7 +369,7 @@ categories =  {
 		truck_attrition_factor = 1.0
 	}
 	taiga = {
-		color = { 255 255 255 }
+		color = { 24 77 67 }
 		movement_cost = 1.05
 		attrition = 0.15
 		combat_width = 90

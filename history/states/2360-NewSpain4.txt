@@ -1,0 +1,16 @@
+state={
+	id=2360
+	name="STATE_2360"
+	provinces={
+		823 1562 7517 7986 10387 10483 11757 11795 12374 
+	}
+	history={
+		owner = MEX
+		add_core_of = MEX
+
+	}
+	manpower=0
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

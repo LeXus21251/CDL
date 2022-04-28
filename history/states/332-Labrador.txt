@@ -14,11 +14,12 @@ state={
 
 		}
 		add_core_of = QUE
+		add_core_of = N15
 
 	}
 
 	provinces={
-		1785 4787 7683 10534 13874 
+		1785 4787 7683 10534 10715 13874 
 	}
 	manpower=22179
 	buildings_max_level_factor=1.000

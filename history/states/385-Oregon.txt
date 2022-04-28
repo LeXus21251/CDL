@@ -16,6 +16,7 @@ state={
 
 		}
 		add_core_of = MEX
+		add_core_of = N32
 		victory_points = {
 			3513 1 
 		}
@@ -23,9 +24,10 @@ state={
 	}
 
 	provinces={
-		1414 3513 4274 4328 4380 4826 7398 7721 7865 10183 10625 10687 12183 12211 12553 
+		1414 4274 4347 4826 7721 10305 10625 10687 12553 
 	}
 	manpower=953785
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

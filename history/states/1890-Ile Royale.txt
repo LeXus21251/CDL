@@ -9,6 +9,7 @@ state={
 	history={
 		owner = ACA
 		add_core_of = ACA
+		add_core_of = NVB
 
 	}
 }

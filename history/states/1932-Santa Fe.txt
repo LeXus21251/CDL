@@ -1,14 +1,18 @@
 state={
 	id=1932
 	name="STATE_1932"
-	provinces={
-		2102 4975 9908 10642 10645 10867 12552 12684 12893 14083 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = MEX
 		add_core_of = MEX
+		add_core_of = APC
 
 	}
+
+	provinces={
+		2102 4975 10642 10645 12552 12684 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }

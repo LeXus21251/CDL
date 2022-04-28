@@ -1,0 +1,14 @@
+state={
+	id=2342
+	name="STATE_2342"
+	provinces={
+		4988 8083 12709 
+	}
+	history={
+		owner = CKS
+		add_core_of = CKS
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -5,13 +5,15 @@ state={
 	history={
 		owner = LOU
 		add_core_of = LOU
+		add_core_of = N02
 
 	}
 
 	provinces={
-		2055 3972 12624 
+		1618 5103 6803 7904 7945 8025 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

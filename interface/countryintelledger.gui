@@ -1329,7 +1329,7 @@ guiTypes = {
 
 				background = {
 					name = "background"
-					spriteType ="GFX_tiled_window2_1b_border"
+					spriteType ="GFX_tiled_bg_1_scrollbar"
 				}
 
 				containerWindowType = {
@@ -1673,7 +1673,7 @@ guiTypes = {
 
 				background = {
 					name = "background"
-					spriteType ="GFX_tiled_window2_1b_border"
+					spriteType ="GFX_tiled_bg_1_scrollbar"
 				}
 
 				containerWindowType = {
@@ -1971,7 +1971,7 @@ guiTypes = {
 
 				background = {
 					name = "background"
-					spriteType ="GFX_tiled_window2_1b_border"
+					spriteType ="GFX_tiled_bg_1_scrollbar"
 				}
 
 				containerWindowType = {
