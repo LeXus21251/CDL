@@ -3921,3 +3921,25 @@
  LAT_scout_plane_equipment_2_short:0 "KOD-2"
  ##### Train Equipment #####
  LAT_train_equipment_1:0 "Type 1-1-1"
+ 
+ ###CDL HORSE##
+ horse_equipment_1:0 "Horse"
+ 
+ cavalry_equipment_1:0 "Cavalry Equipment I"
+ cavalry_equipment_2:0 "Cavalry Equipment II"
+ cavalry_equipment_3:0 "Cavalry Equipment II"
+ cavalry_equipment_4:0 "Cavalry Equipment IV"
+ 
+ cavalry_light_armor_equipment_1:0 "Cavalry Light Armor I"
+ cavalry_light_armor_equipment_2:0 "Cavalry Light Armor II"
+ cavalry_light_armor_equipment_3:0 "Cavalry Light Armor III"
+ cavalry_light_armor_equipment_4:0 "Cavalry Light Armor IV"
+ 
+ cavalry_medium_armor_equipment_1:0 "Cavalry Medium Armor I"
+ cavalry_medium_armor_equipment_2:0 "Cavalry Medium Armor II"
+ cavalry_medium_armor_equipment_3:0 "Cavalry Medium Armor III"
+ cavalry_medium_armor_equipment_4:0 "Cavalry Medium Armor IV"
+ 
+ cavalry_heavy_armor_equipment_1:0 "Cavalry Heavy Armor I"
+ cavalry_heavy_armor_equipment_2:0 "Cavalry Heavy Armor II"
+ cavalry_heavy_armor_equipment_3:0 "Cavalry Heavy Armor III"

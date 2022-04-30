@@ -72,6 +72,8 @@ technology_categories = {
 	base_strike_main
 	mot_rockets
 	support_tech
+	cavalry_tech
+	cavalry
 	para_tech
 	engineers_tech
 	recon_tech

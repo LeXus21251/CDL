@@ -8,7 +8,6 @@ focus_tree = {
 			tag = JAC
 		}
 	}
-	default = yes
 	
 		focus = {
 		id = focus_JAC_revolution_start

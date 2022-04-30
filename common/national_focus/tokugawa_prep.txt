@@ -9,7 +9,6 @@ focus_tree = {
 		}
 	}
 	
-	default = yes
 	focus = {
 		id = focus_TOK_civil_war
 		icon = GFX_focus_TOK_civil_war

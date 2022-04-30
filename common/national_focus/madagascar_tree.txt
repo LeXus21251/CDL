@@ -9,7 +9,6 @@ focus_tree = {
 		}
 	}
 	
-	default = yes
 	focus = {
 		id = focus_MAD_road_to_independence
 		icon = GFX_focus_MAD_road_to_independence

@@ -7,7 +7,6 @@ focus_tree = {
 			tag = JAP
 		}
 	}
-	default = yes
 	## WAR ##
 ## MIDDLE PATH ##
 	focus = {

@@ -7,7 +7,6 @@ focus_tree = {
 			tag = DEN
 		}
 	}
-	default = yes
 	focus = {
 		id = focus_DEN-NOR_state_reform
 		icon = GFX_focus_DEN-NOR_state_reform

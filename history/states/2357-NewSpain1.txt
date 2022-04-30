@@ -8,6 +8,7 @@ state={
 		owner = MEX
 		add_core_of = MEX
 		add_core_of = N03
+		add_core_of = APC
 
 	}
 	manpower=0

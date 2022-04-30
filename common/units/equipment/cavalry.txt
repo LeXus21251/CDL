@@ -1,0 +1,244 @@
+equipments = {
+
+	horse_equipment = {
+		year = 1850
+
+		is_archetype = yes
+		picture = archetype_horse_equipment
+		is_buildable = no
+		type = {
+			cavalry
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 4
+		resources = {
+			aluminium = 1
+			steel = 2
+		}
+	}
+	
+	horse_equipment_1 = {
+		year = 1850
+
+		archetype = horse_equipment
+		priority = 20	
+	}
+	
+	
+	cavalry_equipment = {
+		year = 1850
+
+		is_archetype = yes
+		picture = archetype_cavalry_equipment
+		is_buildable = no
+		type = {
+			cavalry
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 4
+		resources = {
+			aluminium = 1
+			steel = 2
+		}
+	}
+	cavalry_equipment_1 = {
+		year = 1850
+
+		archetype = cavalry_equipment
+		priority = 20	
+	}
+	cavalry_equipment_2 = {
+		year = 1905
+
+		archetype = cavalry_equipment
+		parent = cavalry_equipment_1
+		priority = 20	
+	}
+	cavalry_equipment_3 = {
+		year = 1910
+
+		archetype = cavalry_equipment
+		parent = cavalry_equipment_2
+		priority = 20	
+	}
+	cavalry_equipment_4 = {
+		year = 1917
+
+		archetype = cavalry_equipment
+		parent = cavalry_equipment_3
+		priority = 20	
+	}
+	
+	cavalry_light_armor_equipment = {
+		year = 1850
+
+		is_archetype = yes
+		picture = archetype_cavalry_light_armor_equipment
+		is_buildable = no
+		type = {
+			cavalry
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 4
+		resources = {
+			aluminium = 1
+			steel = 2
+		}
+	}
+	
+	cavalry_light_armor_equipment_1 = {
+		year = 1850
+
+		archetype = cavalry_light_armor_equipment
+		priority = 20	
+	}
+	cavalry_light_armor_equipment_2 = {
+		year = 1910
+
+		archetype = cavalry_light_armor_equipment
+		parent = cavalry_light_armor_equipment_1
+		priority = 20	
+	}
+	cavalry_light_armor_equipment_3 = {
+		year = 1913
+
+		archetype = cavalry_light_armor_equipment
+		parent = cavalry_light_armor_equipment_2
+		priority = 20	
+	}
+	cavalry_light_armor_equipment_4 = {
+		year = 1917
+
+		archetype = cavalry_light_armor_equipment
+		parent = cavalry_light_armor_equipment_3
+		priority = 20	
+	}
+	
+	cavalry_medium_armor_equipment = {
+		year = 1850
+
+		is_archetype = yes
+		picture = archetype_cavalry_medium_armor_equipment
+		is_buildable = no
+		type = {
+			cavalry
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 4
+		resources = {
+			aluminium = 1
+			steel = 2
+		}
+	}
+	
+	cavalry_medium_armor_equipment_1 = {
+		year = 1850
+
+		archetype = cavalry_medium_armor_equipment
+		priority = 20	
+	}
+	cavalry_medium_armor_equipment_2 = {
+		year = 1905
+
+		archetype = cavalry_medium_armor_equipment
+		parent = cavalry_medium_armor_equipment_1
+		priority = 20	
+	}
+	cavalry_medium_armor_equipment_3 = {
+		year = 1907
+
+		archetype = cavalry_medium_armor_equipment
+		parent = cavalry_medium_armor_equipment_2
+		priority = 20	
+	}
+	cavalry_medium_armor_equipment_4 = {
+		year = 1912
+
+		archetype = cavalry_medium_armor_equipment
+		parent = cavalry_medium_armor_equipment_3
+		priority = 20	
+	}
+	
+	cavalry_heavy_armor_equipment = {
+		year = 1850
+
+		is_archetype = yes
+		picture = archetype_cavalry_heavy_armor_equipment
+		is_buildable = no
+		type = {
+			cavalry
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 4
+		resources = {
+			aluminium = 1
+			steel = 2
+		}
+	}
+	
+	cavalry_heavy_armor_equipment_1 = {
+		year = 1850
+
+		archetype = cavalry_heavy_armor_equipment
+		priority = 20	
+	}
+	cavalry_heavy_armor_equipment_2 = {
+		year = 1905
+
+		archetype = cavalry_heavy_armor_equipment
+		parent = cavalry_heavy_armor_equipment_1
+		priority = 20	
+	}
+	cavalry_heavy_armor_equipment_3 = {
+		year = 1907
+
+		archetype = cavalry_heavy_armor_equipment
+		parent = cavalry_heavy_armor_equipment_2
+		priority = 20	
+	}
+}
