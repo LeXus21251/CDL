@@ -25,6 +25,7 @@
   ##PARTIES
   MAD_conservatism_party:0 "PK "Vorohamery""
   MAD_conservatism_party_long:0 "Partya Królewska "Vorohamery""
+  MAD_conservatism_subtype_desc:0 "Royal Party "Vorohamery" (Eagle), was formally established immediately after the official unification of the island in 1900. The name comes from the title "Vorohamery" given to the first king of Polish descent, which meant his strength and origin."
   MAD_liberalism_party:0 "AL "Dobrobyt""
   MAD_liberalism_party_long:0 "Antoko Liberaly "Dobrobyt""
   MAD_revolutionary_socialism_party:0 "AVF"
@@ -37,6 +38,7 @@
   ##CHARACTERS
   #LEADERS
    MAD_antoni_beniowski: "Antoni Beniowski"
+   MAD_ANTONI_BENIOWSKI_DESC: "§OAntoni Beniowski§! is the king of §8Malagasia§! crowned in 1900. He studied in the capital at the §6University of Maurucy Beniowski§!, his ancestor. Antoni is a Malagasy-Polish born into the royal family in 1875. \n\nHe carried out rapid reforms on many levels, during his reign the largest and most modern port on the island was built, social inequalities were effectively neutralized and a new administrative division was created, for which he is known as the §Y"Unifier of Malagasy"§!. The King senses a situation that allows independence from the §tPolish Crown§!."
    MAD_radama_iii: "Radama III"
    MAD_rivo_mazerek: "Rivo Mazerek"
    MAD_sedra_rakotobe: "Sedra Rakotobe"
