@@ -1,6 +1,6 @@
-﻿capital = 368
+﻿capital = 
 
-oob = "CKS_1936"
+oob = "SHW_1936"
 
 # Starting tech
 set_technology = {
@@ -24,7 +24,7 @@ set_technology = {
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "CKS_1939"
+	oob = "SHW_1939"
 	set_technology = {
 		interwar_artillery = 1
 		infantry_weapons1 = 1
@@ -67,19 +67,9 @@ set_popularities = {
 
 set_politics = {
 	
-	ruling_party = nationalism
+	ruling_party = absolutism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
-}
-create_country_leader = {
-	name = ""
-	desc = ""
-	picture = "gfx/leaders/CKS/.dds"
-	expire = "1965.1.1"
-	ideology = nationalism
-	traits = {
-		#
-	}
 }
 

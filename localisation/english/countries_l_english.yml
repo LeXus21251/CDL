@@ -746,6 +746,9 @@ NVJ_DEF:0 "Navajo"
 APC:0 "Apache"
 APC_ADJ:0 "Apache"
 APC_DEF:0 "Apache"
+SHW:0 "Shawnee"
+SHW_ADJ:0 "Shawnee"
+SHW_DEF:0 "Shawnee"
 
 N01:0 "Natchez"
 N01_ADJ:0 "Natchez"
@@ -851,6 +854,10 @@ N33_DEF:0 "Sahaptin"
 N34:0 "Nez Percé"
 N34_ADJ:0 "Nez Percé"
 N34_DEF:0 "Nez Percé"
+N35:0 "Seminole"
+N35_ADJ:0 "Seminole"
+N35_DEF:0 "Seminole"
+
 
 ##NORTH AMERICA INDEPENDENT##
 CRL:0 "Carolina"

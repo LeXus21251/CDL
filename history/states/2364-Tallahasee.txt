@@ -1,16 +1,14 @@
 state={
-	id=1530
-	name="STATE_1530"
-
+	id=2364
+	name="STATE_2364"
+	provinces={
+		7583 10407 10492 12325 12470 12498 
+	}
 	history={
 		owner = MEX
 		add_core_of = MEX
-		add_core_of = N35
+		add_core_of = CRE
 
-	}
-
-	provinces={
-		1433 1480 1556 1572 12353 12381 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

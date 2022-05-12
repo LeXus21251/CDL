@@ -28,6 +28,7 @@ state={
 
 		}
 		add_core_of = MEX
+		add_core_of = N35
 		victory_points = {
 			1843 5 
 		}

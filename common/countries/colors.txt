@@ -1971,3 +1971,11 @@ MAY = {
 color = rgb { 28 158 25 }
 color_ui = rgb { 28 158 25 }
 }
+SHW = {
+color = rgb { 138 28 28 }
+color_ui = rgb { 138 28 28 }
+}
+N35 = {
+color = rgb { 115 164 217 }
+color_ui = rgb { 115 164 217 }
+}
