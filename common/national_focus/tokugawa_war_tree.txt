@@ -73,8 +73,25 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = focus_TOK_move_emperor_to_edo
 		}
+		available = {
+			ROOT = { controls_state = 1571}
+		}
 		completion_reward = {
-		
+			1571 = {
+				add_building_construction = {
+					province = 11960
+					type = bunker 
+					level = 3
+					instant_build = yes
+				}
+					add_building_construction = {
+						province = 14455 
+						type = bunker 
+						level = 3
+						instant_build = yes
+					}
+			}
+
 
 	}
 	}
@@ -95,8 +112,11 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = focus_TOK_yamashiro_defensives
 		}
+		available = {
+			JAP = {NOT = {has_country_flag = emperor_rescued}}
+		}
 		completion_reward = {
-		
+		TOK = {set_country_flag = emperor_moved_to_edo}
 
 	}
 	}
@@ -195,6 +215,12 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = focus_TOK_fall_of_satsuma
+		}
+		available = {
+			NOT = {
+				country_exists = JAC
+				country_exists = JAP
+			}
 		}
 		completion_reward = {
 			set_global_flag = itsushi_war_ended

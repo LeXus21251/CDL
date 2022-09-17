@@ -165,6 +165,12 @@ focus = {
 		prerequisite = {
 			focus = focus_JAP_ezo_push
 		}
+		available = {
+			NOT = {
+				country_exists = JAC
+				country_exists = TOK
+			}
+		}
 		completion_reward = {
 			set_global_flag = itsushi_war_ended
 			set_global_flag = emperor_won_itsushi

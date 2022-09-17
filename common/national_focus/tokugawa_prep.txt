@@ -37,7 +37,7 @@ focus_tree = {
 				load_oob = JAC_war
 			}
 		}
-	custom_effect_tooltip = "The time of the Inevitable War has come, to battle!"
+	custom_effect_tooltip = TOK_itsushi_start_tt
 	set_global_flag = itsushi_war_started
 
 			

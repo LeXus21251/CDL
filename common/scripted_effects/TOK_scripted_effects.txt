@@ -1,0 +1,65 @@
+TOK_north_recruitment = {
+	random_list = {
+		1 = {
+			TOK = {
+				random_owned_controlled_state = {
+					limit = { OR = {
+						state = 1577
+						state = 1578
+					}
+					}
+					create_unit = { 
+						division = "name = \"Echigo Warriors\" division_template = \"Daimyo Rikugun\" start_experience_factor = 0.3" 
+							owner = ROOT
+						}
+				}
+			}
+		}
+		1 = {
+			TOK = {
+				random_owned_controlled_state = {
+					limit = { OR = {
+						state = 1579
+						state = 1580
+						state = 1581
+					}
+					}
+					create_unit = { 
+						division = "name = \"Mutsu Warriors\" division_template = \"Daimyo Rikugun\" start_experience_factor = 0.3" 
+							owner = ROOT
+						}
+				}
+			}
+		}
+		1 = {
+			TOK = {
+				random_owned_controlled_state = {
+					limit = { OR = {
+						state = 533
+						state = 848
+						state = 1581
+					}
+					}
+					create_unit = { 
+						division = "name = \"Dewa Warriors\" division_template = \"Daimyo Rikugun\" start_experience_factor = 0.3" 
+							owner = ROOT
+						}
+				}
+			}
+		}
+		1 = {
+			TOK = {
+				random_owned_controlled_state = {
+					limit = { OR = {
+						state = 1558
+					}
+					}
+					create_unit = { 
+						division = "name = \"Ezo Warriors\" division_template = \"Daimyo Rikugun\" start_experience_factor = 0.3" 
+							owner = ROOT
+						}
+				}
+			}
+		}
+	}
+}

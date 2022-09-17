@@ -32,8 +32,8 @@
    tokugawa_war_tree:0 "Tokugawa Itsushi War Tree"
    ezo_war_tree:0 "Ezo Itsushi War Tree"
   #PREPARATION
-   focus_TOK_civil_war:0 "Civil War just about to start..."
-   focus_TOK_civil_war_desc:0 "The Shogunate has long been unstable, the Southern Daimyos want to restore the §tEmperor§![JAP.GetFlag] to the Japanese throne, and a secularist §8Tenri-Kyo§![JAC.GetFlag] cult is developing in some regions. The outbreak of §Rcivil war§! is a matter of days..."
+   focus_TOK_civil_war:0 "Civil War is about to start..."
+   focus_TOK_civil_war_desc:0 "The Shogunate has long been unstable, the Southern Daimyos want to restore the §tEmperor§! to the Japanese throne, and a secularist §8Tenri-Kyo§! cult is developing in some regions. The outbreak of §Rcivil war§! is a matter of days..."
   #WAR TREE
    focus_TOK_itsushi_war:0 "Itsushi War!"
    focus_TOK_itsushi_war_desc:0 "By early 1905, internal conflicts in Japan had escalated into open warfare. We must prepare an army to fight the traitors and this ridiculous cult. \n\nNow we must decide if we need the help of the white devils."
@@ -102,8 +102,12 @@
 
  ##DECISIONS
   TOK_northern_alliance:0 "Recruitment in the north"
-  TOK_northern_alliance_desc:0 "North"
-  TOK_recruit_from_north:0 "Recruit more Daimyos"
-
-itsushi_war_started:0 "Itsushi war has started"
- TOK_north_remember_tt:0 "§YNorthern Alliance§! will help us in the war \nUnlocks §Y'Recruitment in the north'§! decisions"
+  TOK_northern_alliance_desc:0 "Thanks to the loyalty of our northern Daimyos, we can count on their help in the war against the rebels in the south. The united alliance of the domains of Mutsu, Dewa, Echigo and southern Ezo will support us militarily by sending people to fight in the name of the Shogun. At the same time, Sakai Tadazumi, who is Daimyo of the Shōnai Domain, may become one of the most influential military commanders"
+  TOK_recruit_sakai:0 "Recruit Sakai Tadazumi"
+  TOK_recruit_from_north:0 "Recruit more warriors from allied Daimyos"
+  TOK_recruit_from_north_desc:0 "our allies in the northern part of the country can help us with their warriors to restore order and the glory of the Shogun"
+ ##FLAGS
+  itsushi_war_started:0 "§OItsushi War§! has started" #global
+ ##TOOLTIPS
+  TOK_itsushi_start_tt:0 "The time of the §RInevitable War§! has come, to battle!" #focus
+  TOK_north_remember_tt:0 "§YNorthern Alliance§! will help us in the war \nUnlocks §Y'Recruitment in the north'§! decisions" #focus

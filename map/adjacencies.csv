@@ -405,8 +405,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 14749;14751;sea;14772;-1;-1;-1;-1;;canada
 14759;14749;sea;14772;-1;-1;-1;-1;;canada
 14758;14749;sea;14772;-1;-1;-1;-1;;canada
-1712;10721;sea;14806;-1;-1;-1;-1;;canada
-1712;3691;sea;14806;-1;-1;-1;-1;;canada
+1712;10721;sea;14908;-1;-1;-1;-1;;canada
+1712;3691;sea;14908;-1;-1;-1;-1;;canada
 ##RUSSIA ARCTIC##
 11122;14835;sea;14766;-1;-1;-1;-1;;russia
 14834;14835;sea;14766;-1;-1;-1;-1;;russia

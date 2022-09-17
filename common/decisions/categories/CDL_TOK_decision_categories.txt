@@ -1,6 +1,7 @@
 TOK_northern_alliance = {
 	
-	#icon = 
+	#icon = GFX_decision_cat_TOK_northern_alliance
+	picture = GFX_decision_cat_TOK_northern_alliance
 	priority = 10
 
 	allowed = {

@@ -535,9 +535,9 @@ focus_tree = {
 		prerequisite = {
 			focus = focus_JAC_emperor_fate
 		}
-		available = {
-			TOK = {has_capitulated = yes}
-			JAP = {has_capitulated = yes}
+		NOT = {
+			country_exists = TOK
+			country_exists = JAP
 		}
 
 		completion_reward = {
