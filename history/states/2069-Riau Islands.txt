@@ -5,20 +5,31 @@ state={
 		rubber=5.000
 		oil=5.000
 	}
-	provinces={
-		14342 14343 
-	}
-	manpower=382102
-	buildings_max_level_factor=1.000
-	state_category = small_island
-	history = {
+
+	history={
 		owner = VOC
 		add_core_of = VOC
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			14342 = {naval_base = 1}
-			14343 = {naval_base = 1}
+			14342 = {
+				naval_base = 1
+
+			}
+			14343 = {
+				naval_base = 1
+
+			}
+
 		}
+
 	}
+
+	provinces={
+		14342 
+	}
+	manpower=382102
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
 }

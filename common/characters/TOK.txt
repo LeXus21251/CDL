@@ -12,5 +12,85 @@ characters={
 			expire="1965.1.1.1"
 			id=-1
 		}
+		field_marshal={
+
+		}
+	}
+	TOK_enomoto_takeaki={
+		name="Enomoto Takeaki"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOK"
+			}
+		}
+		navy_leader={
+
+		}
+	}
+	TOK_sakai_tadazumi={
+		name="Sakai Tadazumi"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOK"
+			}
+		}
+		corps_commander={
+
+		}
+	}
+	TOK_kasuya_toshizo={
+		name="Kasuya Toshizo"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOK"
+			}
+		}
+		corps_commander={
+
+		}
+	}
+	TOK_makino_tadakatsu={
+		name="Makino Tadakatsu"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOK"
+			}
+		}
+		corps_commander={
+
+		}
+	}
+	TOK_matsudaira_yoritoshi={
+		name="Matsudaira Yoritoshi"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOK"
+			}
+		}
+		corps_commander={
+
+		}
+	}
+	TOK_hayashi_tadataka={
+		name="Hayashi Tadataka"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOK"
+			}
+		}
+		navy_leader={
+
+		}
+	}
+	TOK_arai_ikunosuke={
+		name="Arai Ikunosuke"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOK"
+			}
+		}
+		navy_leader={
+
+		}
 	}
 }

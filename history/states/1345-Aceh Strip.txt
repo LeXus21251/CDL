@@ -2,24 +2,27 @@ state={
 	id=1345
 	name="STATE_1345"
 	resources={
-		fabrics = 4.500
-		wood = 2.500
-		rubber = 3.200
+		fabrics=4.000
+		wood=2.000
+		rubber=3.000
 	}
 
-	history = {
+	history={
 		owner = ACE
 		add_core_of = ACE
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
+
 		}
+
 	}
 
 	provinces={
-		1648 13457 
+		13457 
 	}
 	manpower=376192
 	buildings_max_level_factor=1.000
-	state_category = village
+	state_category=village
+	local_supplies=0.000
 }

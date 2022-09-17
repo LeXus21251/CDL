@@ -1,0 +1,14 @@
+state={
+	id=2373
+	name="STATE_2373"
+	provinces={
+		1376 10297 
+	}
+	history={
+		owner = VOC
+		add_core_of = VOC
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

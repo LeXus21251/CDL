@@ -4,8 +4,8 @@ state={
 	name="STATE_724"
 	resources={
 		rubber=20.000
-		oil = 15.000
-		steel = 8.000
+		oil=15.000
+		steel=8.000
 	}
 
 	history={
@@ -17,15 +17,18 @@ state={
 			dockyard = 1
 
 		}
-		victory_points = {7236 1 }
+		victory_points = {
+			7236 1 
+		}
 		add_core_of = SIA
 
 	}
 
 	provinces={
-		1279 1281 1291 1308 1337 1366 1394 4297 4312 4371 4388 4392 7236 10156 10158 12122 12131 12144 12201 12220 12230 12286 
+		1279 1281 1308 1337 1366 1394 4297 4312 4371 4388 4392 7236 10156 10158 12122 12131 12201 12220 12230 12286 
 	}
 	manpower=829362
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

@@ -1,0 +1,17 @@
+TOK_northern_alliance = {
+	
+	#icon = 
+	priority = 10
+
+	allowed = {
+		always = yes
+		has_war = yes
+		has_completed_focus = focus_TOK_north_remember
+	}
+
+	visible = {
+		has_global_flag = itsushi_war_started
+		has_war = yes
+		original_tag = TOK
+	}
+}

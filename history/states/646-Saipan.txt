@@ -8,7 +8,7 @@ state={
 
 	history={
 		owner = PHI
-		add_core_of = JPHI
+		add_core_of = PHI
 		buildings = {
 			infrastructure = 1
 			3995 = {naval_base = 1}

@@ -2,25 +2,30 @@ state={
 	id=1357
 	name="STATE_1357"
 	resources={
-		tungsten = 4.000
-		steel = 5.000
+		tungsten=4.000
+		steel=5.000
 	}
 
-	history = {
+	history={
 		owner = FEI
 		add_core_of = FEI
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			13460 = {naval_base = 2}
+			13460 = {
+				naval_base = 2
+
+			}
 
 		}
+
 	}
 
 	provinces={
-		1348 1392 4355 7399 10227 13460 
+		4355 12199 13460 
 	}
 	manpower=862512
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
+	local_supplies=0.000
 }

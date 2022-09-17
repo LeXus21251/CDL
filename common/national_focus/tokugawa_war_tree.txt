@@ -5,7 +5,7 @@
 ### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
 ### search_filters = {FOCUS_FILTER_MANPOWER}
 ### search_filters = {FOCUS_FILTER_ANNEXATION}
-
+#!gfx:interface\CDL_TOkugawa\CDL_TOK_goals.gfx
 focus_tree = {
 	id = tokugawa_war_tree
 	country = {
@@ -29,8 +29,9 @@ focus_tree = {
 		}
 		completion_reward = {
 		
-
 	}
+	bypass = { has_global_flag = itsushi_war_started}
+	
 	}
 	focus = {
 		id = focus_TOK_north_remember
@@ -47,7 +48,11 @@ focus_tree = {
 			focus = focus_TOK_itsushi_war
 		}
 		completion_reward = {
-		
+			hidden_effect = {
+				load_oob = TOK_ord
+			}
+			
+		custom_effect_tooltip = TOK_north_remember_tt
 
 	}
 	}
@@ -192,7 +197,8 @@ focus_tree = {
 			focus = focus_TOK_fall_of_satsuma
 		}
 		completion_reward = {
-		
+			set_global_flag = itsushi_war_ended
+			set_global_flag = shogun_won_itsushi
 
 	}
 	
@@ -588,6 +594,7 @@ focus_tree = {
 			focus = focus_TOK_nobles_army
 		}
 		completion_reward = {
+			
 		
 
 	}

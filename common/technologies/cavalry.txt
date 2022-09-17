@@ -1,17 +1,4 @@
 technologies = {
-	
-	@1850 = 0
-	@1875 = 3
-	@1900 = 6
-	@1905 = 9
-	@1907 = 12
-	@1910 = 15
-	@1912 = 18
-	@1913 = 21
-	@1915 = 24
-	@1917 = 27
-
-
 	horse = {
 		
 		enable_equipments = {
@@ -19,14 +6,18 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = tech_horse_education1
+			leads_to_tech = tech_horse_headgear1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_horse_grooming1
 			research_cost_coeff = 1
 		}
 		research_cost = 1.0
-		start_year = 1850
+		start_year = 1854
 		folder = {
 			name = cavalry_folder
-			position = { x = 0 y = @1850 }
+			position = { x = 0 y = 2 }
 		}
 		
 		categories = {
@@ -38,17 +29,18 @@ technologies = {
 			factor = 2
 		}
 	}
-	tech_horse_education1 = {
+	tech_horse_headgear1 = {
 		
 		path = {
-			leads_to_tech = tech_horse_gear1
+			leads_to_tech = horse1
 			research_cost_coeff = 1
 		}
+		
 		research_cost = 1.0
-		start_year = 1875
+		start_year = 1862
 		folder = {
 			name = cavalry_folder
-			position = { x = 0 y = @1875 }
+			position = { x = 2 y = 1 }
 		}
 		
 		categories = {
@@ -59,17 +51,17 @@ technologies = {
 			factor = 2
 		}
 	}
-	tech_horse_gear1 = {
+	tech_horse_grooming1 = {
 		
 		path = {
-			leads_to_tech = tech_horse_domestic1
+			leads_to_tech = horse1
 			research_cost_coeff = 1
 		}
 		research_cost = 1.0
-		start_year = 1900
+		start_year = 1862
 		folder = {
 			name = cavalry_folder
-			position = { x = 0 y = @1900 }
+			position = { x = 2 y = 3 }
 		}
 		
 		categories = {
@@ -80,17 +72,47 @@ technologies = {
 			factor = 2
 		}
 	}
-	tech_horse_domestic1 = {
+	horse1 = {
+		
+		enable_equipments = {
+			horse_equipment_2
+		}
+		path = {
+			leads_to_tech = tech_horse_conditions1
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			tech_horse_headgear1  = 1
+			tech_horse_grooming1 = 1
+		}
+		
+		research_cost = 1.0
+		start_year = 1872
+		folder = {
+			name = cavalry_folder
+			position = { x = 4 y = 2 }
+		}
+		
+		categories = {
+			cavalry_tech
+			cavalry
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	tech_horse_conditions1 = {
 		
 		path = {
-			leads_to_tech = tech_horse_env1
+			leads_to_tech = horse2
 			research_cost_coeff = 1
 		}
 		research_cost = 1.0
-		start_year = 1905
+		start_year = 1880
 		folder = {
 			name = cavalry_folder
-			position = { x = 0 y = @1905 }
+			position = { x = 6 y = 2 }
 		}
 		
 		categories = {
@@ -101,17 +123,47 @@ technologies = {
 			factor = 2
 		}
 	}
-	tech_horse_env1 = {
+	horse2 = {
 		
+		enable_equipments = {
+			horse_equipment_3
+		}
 		path = {
-			leads_to_tech = tech_horse_education2
+			leads_to_tech = tech_horse_saddle1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_horse_horseshoe1
 			research_cost_coeff = 1
 		}
 		research_cost = 1.0
-		start_year = 1910
+		start_year = 1890
 		folder = {
 			name = cavalry_folder
-			position = { x = 0 y = @1910 }
+			position = { x = 8 y = 2 }
+		}
+		
+		categories = {
+			cavalry_tech
+			cavalry
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	tech_horse_saddle1 = {
+
+		path = {
+			leads_to_tech = horse3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.0
+		start_year = 1898
+		folder = {
+			name = cavalry_folder
+			position = { x = 10 y = 1 }
 		}
 		
 		categories = {
@@ -122,17 +174,18 @@ technologies = {
 			factor = 2
 		}
 	}
-	tech_horse_education2 = {
-		
+	tech_horse_horseshoe1 = {
+
 		path = {
-			leads_to_tech = tech_horse_drugs1
+			leads_to_tech = horse3
 			research_cost_coeff = 1
 		}
+		
 		research_cost = 1.0
-		start_year = 1913
+		start_year = 1898
 		folder = {
 			name = cavalry_folder
-			position = { x = 0 y = @1913 }
+			position = { x = 10 y = 3 }
 		}
 		
 		categories = {
@@ -143,40 +196,26 @@ technologies = {
 			factor = 2
 		}
 	}
-	tech_horse_drugs1 = {
+	horse3 = {
 		
-		path = {
-			leads_to_tech = tech_horse_drugs2
-			research_cost_coeff = 1
+		enable_equipments = {
+			horse_equipment_4
 		}
-		research_cost = 1.0
-		start_year = 1915
-		folder = {
-			name = cavalry_folder
-			position = { x = 0 y = @1915 }
+		dependencies = {
+			tech_horse_saddle1  = 1
+			tech_horse_horseshoe1 = 1
 		}
-#		dependencies = {
-#			tech_drugs1 = 1
-#		}
-		categories = {
-			cavalry_tech
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	tech_horse_drugs2 = {
 		
 		research_cost = 1.0
-		start_year = 1917
+		start_year = 1908
 		folder = {
 			name = cavalry_folder
-			position = { x = 0 y = @1917 }
+			position = { x = 12 y = 2 }
 		}
 		
 		categories = {
 			cavalry_tech
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -184,26 +223,26 @@ technologies = {
 		}
 	}
 	
-	cavalry_eq = {
+	cavalry_weapons = {
 		
 		enable_equipments = {
-			cavalry_equipment_1
+			cavalry_weapons_equipment_1
 		}
 
 		
 		path = {
-			leads_to_tech = tech_saddle
+			leads_to_tech = tech_horse_lance_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = tech_bridle
+			leads_to_tech = tech_horse_sword_1
 			research_cost_coeff = 1
 		}
 		research_cost = 1.0
 		start_year = 1850
 		folder = {
 			name = cavalry_folder
-			position = { x = 0 y = @1850 }
+			position = { x = 0 y = 6 }
 		}
 		
 		categories = {
@@ -215,17 +254,17 @@ technologies = {
 			factor = 2
 		}
 	}
-	tech_saddle = {
+	tech_horse_lance_1 = {
 		
 		path = {
-			leads_to_tech = tech_rationbag
+			leads_to_tech = tech_horse_rifle_1
 			research_cost_coeff = 1
 		}
 		research_cost = 1.0
-		start_year = 1875
+		start_year = 1860
 		folder = {
 			name = cavalry_folder
-			position = { x = 1 y = @1875 }
+			position = { x = 2 y = 5 }
 		}
 		
 		categories = {
@@ -236,17 +275,17 @@ technologies = {
 			factor = 2
 		}
 	}
-	tech_bridle = {
+	tech_horse_rifle_1 = {
 		
 		path = {
-			leads_to_tech = tech_sheltertent
+			leads_to_tech = cavalry_weapons1
 			research_cost_coeff = 1
 		}
 		research_cost = 1.0
-		start_year = 1875
+		start_year = 1870
 		folder = {
 			name = cavalry_folder
-			position = { x = -1 y = @1875 }
+			position = { x = 4 y = 5 }
 		}
 		
 		categories = {
@@ -257,17 +296,17 @@ technologies = {
 			factor = 2
 		}
 	}
-	tech_rationbag = {
+	tech_horse_sword_1 = {
 		
 		path = {
-			leads_to_tech = cavalry_eq1
+			leads_to_tech = tech_horse_pistol_1
 			research_cost_coeff = 1
 		}
 		research_cost = 1.0
-		start_year = 1900
+		start_year = 1860
 		folder = {
 			name = cavalry_folder
-			position = { x = 1 y = @1900 }
+			position = { x = 2 y = 7 }
 		}
 		
 		categories = {
@@ -278,17 +317,17 @@ technologies = {
 			factor = 2
 		}
 	}
-	tech_sheltertent = {
+	tech_horse_pistol_1 = {
 		
 		path = {
-			leads_to_tech = cavalry_eq1
+			leads_to_tech = cavalry_weapons1
 			research_cost_coeff = 1
 		}
 		research_cost = 1.0
-		start_year = 1900
+		start_year = 1870
 		folder = {
 			name = cavalry_folder
-			position = { x = -1 y = @1900 }
+			position = { x = 4 y = 7 }
 		}
 		
 		categories = {
@@ -299,26 +338,126 @@ technologies = {
 			factor = 2
 		}
 	}
-	cavalry_eq1 = {
+	cavalry_weapons1 = {
 		
 		enable_equipments = {
-			cavalry_equipment_2
+			cavalry_weapons_equipment_2
 		}
 		
 		path = {
-			leads_to_tech = tech_brush
+			leads_to_tech = tech_horse_rifle_2
 			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1880
+		folder = {
+			name = cavalry_folder
+			position = { x = 6 y = 6 }
+		}
+		dependencies = {
+			tech_horse_rifle_1 = 1
+			tech_horse_pistol_1 = 1
+		}
+		
+		categories = {
+			cavalry_tech
+			cavalry
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	tech_horse_rifle_2 = {
+		
+		path = {
+			leads_to_tech = tech_horse_lance_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_horse_pistol_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1890
+		folder = {
+			name = cavalry_folder
+			position = { x = 8 y = 6 }
+		}
+		
+		categories = {
+			cavalry_tech
+			cavalry
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	tech_horse_lance_2 = {
+		
+		path = {
+			leads_to_tech = cavalry_weapons2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1900
+		folder = {
+			name = cavalry_folder
+			position = { x = 10 y = 5 }
+		}
+		
+		categories = {
+			cavalry_tech
+			cavalry
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	tech_horse_pistol_2 = {
+		
+		path = {
+			leads_to_tech = cavalry_weapons2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1900
+		folder = {
+			name = cavalry_folder
+			position = { x = 10 y = 7 }
+		}
+		
+		categories = {
+			cavalry_tech
+			cavalry
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	cavalry_weapons2 = {
+		
+		enable_equipments = {
+			cavalry_weapons_equipment_3
+		}
+		
+		dependencies = {
+			tech_horse_lance_2 = 1
+			tech_horse_pistol_2 = 1
 		}
 
 		research_cost = 1.0
 		start_year = 1905
 		folder = {
 			name = cavalry_folder
-			position = { x = 0 y = @1905 }
-		}
-		dependencies = {
-			tech_sheltertent = 1
-			tech_rationbag = 1
+			position = { x = 12 y = 6}
 		}
 		
 		categories = {
@@ -330,45 +469,22 @@ technologies = {
 			factor = 2
 		}
 	}
-	tech_brush = {
-		
-		path = {
-			leads_to_tech = cavalry_eq2
-			research_cost_coeff = 1
-		}
 
-		research_cost = 1.0
-		start_year = 1907
-		folder = {
-			name = cavalry_folder
-			position = { x = 0 y = @1907 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	cavalry_eq2 = {
+	cavalry_heavy_armor = {
 		
 		enable_equipments = {
-			cavalry_equipment_3
-		}
-		
-		path = {
-			leads_to_tech = tech_cavalry_uniform
-			research_cost_coeff = 1
+			cavalry_heavy_armor_equipment_1
 		}
 
+		path = {
+			leads_to_tech = tech_cha_costs
+			research_cost_coeff = 1
+		}
 		research_cost = 1.0
-		start_year = 1910
+		start_year = 1850
 		folder = {
 			name = cavalry_folder
-			position = { x = 0 y = @1910 }
+			position = { x = 0 y = 12 }
 		}
 		
 		categories = {
@@ -380,30 +496,26 @@ technologies = {
 			factor = 2
 		}
 	}
-	tech_cavalry_uniform = {
-		
+	tech_cha_costs = {
+
 		path = {
-			leads_to_tech = tech_cavalry_boots
+			leads_to_tech = tech_cha_change_armor
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = tech_cavalry_pants
+			leads_to_tech = tech_cha_thin
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = tech_cavalry_jacket
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = tech_cavalry_helmet
+			leads_to_tech = tech_cha_change_helmet
 			research_cost_coeff = 1
 		}
 
 		research_cost = 1.0
-		start_year = 1912
+		start_year = 1860
 		folder = {
 			name = cavalry_folder
-			position = { x = 0 y = @1912 }
+			position = { x = 2 y = 12 }
 		}
 		
 		categories = {
@@ -415,167 +527,84 @@ technologies = {
 			factor = 2
 		}
 	}
-	tech_cavalry_boots = {
-		
-		path = {
-			leads_to_tech = tech_cavalry_saber_scabbard
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.0
-		start_year = 1913
-		folder = {
-			name = cavalry_folder
-			position = { x = -2 y = @1913 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	tech_cavalry_pants = {
-		
-		path = {
-			leads_to_tech = tech_cavalry_saber_scabbard
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.0
-		start_year = 1913
-		folder = {
-			name = cavalry_folder
-			position = { x = -1 y = @1913 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	tech_cavalry_jacket = {
-		
-		path = {
-			leads_to_tech = tech_cavalry_rifle_scabbard
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.0
-		start_year = 1913
-		folder = {
-			name = cavalry_folder
-			position = { x = 1 y = @1913 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	tech_cavalry_helmet = {
-		
-		path = {
-			leads_to_tech = tech_cavalry_rifle_scabbard
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.0
-		start_year = 1913
-		folder = {
-			name = cavalry_folder
-			position = { x = 2 y = @1913 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	tech_cavalry_saber_scabbard = {
-		
-		path = {
-			leads_to_tech = cavalry_eq3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.0
-		start_year = 1915
-		folder = {
-			name = cavalry_folder
-			position = { x = -1 y = @1915 }
-		}
-		dependencies = {
-			tech_cavalry_boots = 1
-			tech_cavalry_pants = 1
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	tech_cavalry_rifle_scabbard = {
-		
-		path = {
-			leads_to_tech = cavalry_eq3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.0
-		start_year = 1915
-		folder = {
-			name = cavalry_folder
-			position = { x = 1 y = @1915 }
-		}
-		dependencies = {
-			tech_cavalry_jacket = 1
-			tech_cavalry_helmet = 1
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	cavalry_eq3 = {
+	
+	cavalry_heavy_armor1 = {
 		
 		enable_equipments = {
-			cavalry_equipment_4
+			cavalry_heavy_armor_equipment_2
 		}
 
 		research_cost = 1.0
-		start_year = 1917
+		start_year = 1880
 		folder = {
 			name = cavalry_folder
-			position = { x = 0 y = @1917 }
+			position = { x = 6 y = 12 }
 		}
-		dependencies = {
-			tech_cavalry_saber_scabbard = 1
-			tech_cavalry_rifle_scabbard = 1
+		
+		categories = {
+			cavalry_tech
+			cavalry
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	tech_cha_change_armor = {
+
+		path = {
+			leads_to_tech = cavalry_heavy_armor1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 1870
+		folder = {
+			name = cavalry_folder
+			position = { x = 4 y = 11 }
+		}
+		
+		categories = {
+			cavalry_tech
+			cavalry
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	tech_cha_thin {
+
+		path = {
+			leads_to_tech = cavalry_heavy_armor1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 1870
+		folder = {
+			name = cavalry_folder
+			position = { x = 4 y = 12 }
+		}
+		
+		categories = {
+			cavalry_tech
+			cavalry
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	tech_cha_change_helmet = {
+
+		path = {
+			leads_to_tech = cavalry_heavy_armor1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 1870
+		folder = {
+			name = cavalry_folder
+			position = { x = 4 y = 13 }
 		}
 		
 		categories = {
@@ -596,14 +625,14 @@ technologies = {
 
 		
 		path = {
-			leads_to_tech = tech_cla_stronger_cloth
+			leads_to_tech = tech_cla_costs
 			research_cost_coeff = 1
 		}
 		research_cost = 1.0
 		start_year = 1850
 		folder = {
 			name = cavalry_folder
-			position = { x = 0 y = @1850 }
+			position = { x = 0 y = 20 }
 		}
 		
 		categories = {
@@ -615,117 +644,18 @@ technologies = {
 			factor = 2
 		}
 	}
-	tech_cla_stronger_cloth = {
+	tech_cla_costs = {
 
-		
-		path = {
-			leads_to_tech = tech_cla_cloth_jacket
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = tech_cla_cloth_pants
-			research_cost_coeff = 1
-		}
-		research_cost = 1.0
-		start_year = 1875
-		folder = {
-			name = cavalry_folder
-			position = { x = 0 y = @1875 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	tech_cla_cloth_jacket = {
-
-		
-		path = {
-			leads_to_tech = tech_cla_stronger_leather
-			research_cost_coeff = 1
-		}
-		research_cost = 1.0
-		start_year = 1900
-		folder = {
-			name = cavalry_folder
-			position = { x = 1 y = @1900 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	tech_cla_cloth_pants = {
-	
-		path = {
-			leads_to_tech = tech_cla_stronger_leather
-			research_cost_coeff = 1
-		}
-		research_cost = 1.0
-		start_year = 1900
-		folder = {
-			name = cavalry_folder
-			position = { x = -1 y = @1900 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	tech_cla_stronger_leather = {
-	
-		path = {
-			leads_to_tech = tech_cla_stronger_boots
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.0
-		start_year = 1905
-		folder = {
-			name = cavalry_folder
-			position = { x = 0 y = @1905 }
-		}
-		dependencies = {
-			tech_cla_cloth_jacket = 1
-			tech_cla_cloth_pants = 1
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	tech_cla_stronger_boots = {
 		
 		path = {
 			leads_to_tech = cavalry_light_armor1
 			research_cost_coeff = 1
 		}
-		
 		research_cost = 1.0
-		start_year = 1907
+		start_year = 1860
 		folder = {
 			name = cavalry_folder
-			position = { x = 0 y = @1907 }
+			position = { x = 2 y = 20 }
 		}
 		
 		categories = {
@@ -745,14 +675,14 @@ technologies = {
 
 		
 		path = {
-			leads_to_tech = tech_cla_new_uniform
+			leads_to_tech = tech_cla_normal_uniform
 			research_cost_coeff = 1
 		}
 		research_cost = 1.0
-		start_year = 1910
+		start_year = 1870
 		folder = {
 			name = cavalry_folder
-			position = { x = 0 y = @1910 }
+			position = { x = 4 y = 20 }
 		}
 		
 		categories = {
@@ -764,17 +694,94 @@ technologies = {
 			factor = 2
 		}
 	}
-	tech_cla_new_uniform = {
+	tech_cla_normal_uniform = {
+
+		path = {
+			leads_to_tech = cavalry_light_armor2
+			research_cost_coeff = 1
+		}
+	#	dependencies = {
+	#		uniform= 1
+	#	}
+		research_cost = 1.0
+		start_year = 1880
+		folder = {
+			name = cavalry_folder
+			position = { x = 6 y = 20 }
+		}
+		
+		categories = {
+			cavalry_tech
+			cavalry
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	cavalry_medium_armor = {
+		
+		enable_equipments = {
+			cavalry_medium_armor_equipment_1
+		}
+
+		path = {
+			leads_to_tech = tech_cma_costs
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 1850
+		folder = {
+			name = cavalry_folder
+			position = { x = 0 y = 17 }
+		}
+		
+		categories = {
+			cavalry_tech
+			cavalry
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	tech_cma_costs = {
+
+		path = {
+			leads_to_tech = cavalry_medium_armor1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 1860
+		folder = {
+			name = cavalry_folder
+			position = { x = 2 y = 17 }
+		}
+		
+		categories = {
+			cavalry_tech
+			cavalry
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	cavalry_medium_armor1 = {
+		
+		enable_equipments = {
+			cavalry_medium_armor_equipment_2
+		}
 
 		path = {
 			leads_to_tech = cavalry_light_armor2
 			research_cost_coeff = 1
 		}
 		research_cost = 1.0
-		start_year = 1912
+		start_year = 1870
 		folder = {
 			name = cavalry_folder
-			position = { x = 0 y = @1912 }
+			position = { x = 4 y = 17 }
 		}
 		
 		categories = {
@@ -794,14 +801,22 @@ technologies = {
 
 		
 		path = {
-			leads_to_tech = tech_cla_helmet
+			leads_to_tech = tech_cla_cheap_leather
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = tech_cla_change_structure
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			cavalry_medium_armor1 = 1
+			tech_cla_normal_uniform = 1
+		}
 		research_cost = 1.0
-		start_year = 1913
+		start_year = 1880
 		folder = {
 			name = cavalry_folder
-			position = { x = 0 y = @1913 }
+			position = { x = 6 y = 17 }
 		}
 		
 		categories = {
@@ -813,17 +828,65 @@ technologies = {
 			factor = 2
 		}
 	}
-	tech_cla_helmet = {
+	tech_cla_cheap_leather = {
+
+		path = {
+			leads_to_tech = tech_cla_thin
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 1890
+		folder = {
+			name = cavalry_folder
+			position = { x = 8 y = 16 }
+		}
+		
+		categories = {
+			cavalry_tech
+			cavalry
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	tech_cla_change_structure = {
+
+		path = {
+			leads_to_tech = tech_cla_thin
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 1890
+		folder = {
+			name = cavalry_folder
+			position = { x = 8 y = 18 }
+		}
+		
+		categories = {
+			cavalry_tech
+			cavalry
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	tech_cla_thin = {
 
 		path = {
 			leads_to_tech = cavalry_light_armor3
 			research_cost_coeff = 1
 		}
+		dependencies = {
+			tech_cla_cheap_leather = 1
+			tech_cla_change_structure = 1
+		}
 		research_cost = 1.0
-		start_year = 1915
+		start_year = 1900
 		folder = {
 			name = cavalry_folder
-			position = { x = 0 y = @1915 }
+			position = { x = 10 y = 17 }
 		}
 		
 		categories = {
@@ -841,10 +904,10 @@ technologies = {
 			cavalry_light_armor_equipment_4
 		}
 		research_cost = 1.0
-		start_year = 1917
+		start_year = 1905
 		folder = {
 			name = cavalry_folder
-			position = { x = 0 y = @1917 }
+			position = { x = 12 y = 17 }
 		}
 		
 		categories = {
@@ -857,377 +920,4 @@ technologies = {
 		}
 	}
 	
-	cavalry_medium_armor = {
-		
-		enable_equipments = {
-			cavalry_medium_armor_equipment_1
-		}
-
-		path = {
-			leads_to_tech = tech_cma_lighten
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = tech_cma_flexible
-			research_cost_coeff = 1
-		}
-		research_cost = 1.0
-		start_year = 1850
-		folder = {
-			name = cavalry_folder
-			position = { x = 0 y = @1850 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	tech_cma_lighten = {
-
-		path = {
-			leads_to_tech = tech_cma_rid_backplate
-			research_cost_coeff = 1
-		}
-		research_cost = 1.0
-		start_year = 1875
-		folder = {
-			name = cavalry_folder
-			position = { x = -1 y = @1875 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	tech_cma_flexible = {
-
-		path = {
-			leads_to_tech = tech_cma_rid_backplate
-			research_cost_coeff = 1
-		}
-		research_cost = 1.0
-		start_year = 1875
-		folder = {
-			name = cavalry_folder
-			position = { x = 1 y = @1875 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	tech_cma_rid_backplate = {
-
-		path = {
-			leads_to_tech = cavalry_medium_armor1
-			research_cost_coeff = 1
-		}
-		research_cost = 1.0
-		start_year = 1900
-		folder = {
-			name = cavalry_folder
-			position = { x = 0 y = @1900 }
-		}
-		dependencies = {
-			tech_cma_lighten = 1
-			tech_cma_flexible = 1
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	cavalry_medium_armor1 = {
-		
-		enable_equipments = {
-			cavalry_medium_armor_equipment_2
-		}
-
-		path = {
-			leads_to_tech = cavalry_medium_armor2
-			research_cost_coeff = 1
-		}
-		research_cost = 1.0
-		start_year = 1905
-		folder = {
-			name = cavalry_folder
-			position = { x = 0 y = @1905 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	cavalry_medium_armor2 = {
-		
-		enable_equipments = {
-			cavalry_medium_armor_equipment_3
-		}
-
-		path = {
-			leads_to_tech = tech_cma_front_prot
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = tech_cma_carbon_increase
-			research_cost_coeff = 1
-		}
-		research_cost = 1.0
-		start_year = 1907
-		folder = {
-			name = cavalry_folder
-			position = { x = 0 y = @1907 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	tech_cma_front_prot = {
-
-		path = {
-			leads_to_tech = cavalry_medium_armor3
-			research_cost_coeff = 1
-		}
-		research_cost = 1.0
-		start_year = 1910
-		folder = {
-			name = cavalry_folder
-			position = { x = -1 y = @1910 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	tech_cma_carbon_increase = {
-
-		path = {
-			leads_to_tech = cavalry_medium_armor3
-			research_cost_coeff = 1
-		}
-		research_cost = 1.0
-		start_year = 1910
-		folder = {
-			name = cavalry_folder
-			position = { x = 1 y = @1910 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	cavalry_medium_armor3 = {
-		
-		enable_equipments = {
-			cavalry_medium_armor_equipment_4
-		}
-		research_cost = 1.0
-		start_year = 1912
-		folder = {
-			name = cavalry_folder
-			position = { x = 0 y = @1912 }
-		}
-		dependencies = {
-			tech_cma_front_prot = 1
-			tech_cma_carbon_increase = 1
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-	cavalry_heavy_armor = {
-		
-		enable_equipments = {
-			cavalry_heavy_armor_equipment_1
-		}
-
-		path = {
-			leads_to_tech = tech_cha_lighten
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = tech_cha_flexible
-			research_cost_coeff = 1
-		}
-		research_cost = 1.0
-		start_year = 1850
-		folder = {
-			name = cavalry_folder
-			position = { x = 0 y = @1850 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	tech_cha_lighten = {
-
-		path = {
-			leads_to_tech = tech_cha_rid_backplate
-			research_cost_coeff = 1
-		}
-		research_cost = 1.0
-		start_year = 1875
-		folder = {
-			name = cavalry_folder
-			position = { x = -1 y = @1875 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	tech_cha_flexible = {
-
-		path = {
-			leads_to_tech = tech_cha_rid_backplate
-			research_cost_coeff = 1
-		}
-		research_cost = 1.0
-		start_year = 1875
-		folder = {
-			name = cavalry_folder
-			position = { x = 1 y = @1875 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	tech_cha_rid_backplate = {
-
-		path = {
-			leads_to_tech = cavalry_heavy_armor1
-			research_cost_coeff = 1
-		}
-		research_cost = 1.0
-		start_year = 1900
-		folder = {
-			name = cavalry_folder
-			position = { x = 0 y = @1900 }
-		}
-		dependencies = {
-			tech_cha_lighten = 1
-			tech_cha_flexible = 1
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	cavalry_heavy_armor1 = {
-		
-		enable_equipments = {
-			cavalry_heavy_armor_equipment_2
-		}
-
-		path = {
-			leads_to_tech = cavalry_heavy_armor2
-			research_cost_coeff = 1
-		}
-		research_cost = 1.0
-		start_year = 1905
-		folder = {
-			name = cavalry_folder
-			position = { x = 0 y = @1905 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	cavalry_heavy_armor2 = {
-		
-		enable_equipments = {
-			cavalry_heavy_armor_equipment_3
-		}
-		research_cost = 1.0
-		start_year = 1907
-		folder = {
-			name = cavalry_folder
-			position = { x = 0 y = @1907 }
-		}
-		
-		categories = {
-			cavalry_tech
-			cavalry
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
 }

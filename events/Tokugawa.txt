@@ -17,19 +17,69 @@ country_event = {
 	picture = GFX_japan_cw
 	immediate = {
 	hidden_effect = {
+		TOK = {
+			load_oob = TOK_war
+		}
 		JAP = {
 			load_focus_tree = japan_war_tree
 			set_capital = 1109
+			recruit_character = JAP_saigo_takamori
+			recruit_character = JAP_saigo_torataro
+			recruit_character = JAP_yamada_akiyoshi
+			recruit_character = JAP_yamagata_aritomo
+			recruit_character = JAP_itagaki_taisuke
+			recruit_character = JAP_saigo_judo
+			recruit_character = JAP_kabayama_sukenori
+			recruit_character = JAP_asano_nagakoto
+			  }
+			  JAP = {
+				load_oob = JAP_war
 			  }
 		
 	JAC = {
 	set_capital = 845
 	set_cosmetic_tag = JAC_rebellion
 	recruit_character = JAC_nakayama_sakura
+	recruit_character = JAC_iburi_izo
+	recruit_character = JAC_nakayama_shinnosuke
+	recruit_character = JAC_yoshimitsu_akira
+	recruit_character = JAC_inoue_yorikuni
+	recruit_character = JAC_shinsuke_tobu
 
 		}
-	country_event = { id = tokugawa.1 days = 0 }
-				    }
+		JAC = {
+			load_oob = JAC_war
+		}
+
+
+	every_owned_state = {
+		limit = { OR = { state = 528 state = 529 state = 530  state = 845 state = 846 state = 847 state = 1108 state = 1109 state = 1110
+		state = 1111 state = 1557 state = 1561 state = 1562 state = 1563 state = 1564  state = 1569 state = 1573
+		state = 1584 state = 1585 state = 1586 state = 1588 state = 1603 } }
+		JAP = {
+		  transfer_state = PREV
+		}
+		  }
+		  every_owned_state = {
+		limit = { OR = { state = 531 state = 534 state = 1565 state = 1566 state = 1567 state = 1568
+		  state = 1570 state = 1574 state = 1575 state = 1576 state = 1587 state = 1589 state = 1598 state = 1600} }
+		JAC = {
+		  transfer_state = PREV
+		}
+		  }
+
+		  JAP = {
+			declare_war_on = { target = TOK type = annex_everything }
+			}
+			JAC = {
+			declare_war_on = { target = JAP type = annex_everything }
+			declare_war_on = { target = TOK type = annex_everything }
+			}
+
+
+}
+
+
 				}
 
 
@@ -43,22 +93,6 @@ country_event = {
   add_core_of = JAP
 	}
 }
-
-		every_owned_state = {
-  limit = { OR = { state = 528 state = 529 state = 530  state = 845 state = 846 state = 847 state = 1108 state = 1109 state = 1110
-  state = 1111 state = 1557 state = 1561 state = 1562 state = 1563 state = 1564  state = 1569 state = 1573
-  state = 1584 state = 1585 state = 1586 state = 1588 state = 1603 } }
-  JAP = {
-    transfer_state = PREV
-  }
-	}
-	every_owned_state = {
-  limit = { OR = { state = 531 state = 534 state = 1565 state = 1566 state = 1567 state = 1568
-	state = 1570 state = 1574 state = 1575 state = 1576 state = 1587 state = 1589 state = 1598 state = 1600} }
-  JAC = {
-    transfer_state = PREV
-  }
-	}
 	}
 	
 	option = {  #EMPEROR
@@ -73,23 +107,6 @@ country_event = {
 	}
 
 }
-
-
-		every_owned_state = {
-  limit = { OR = { state = 528 state = 529 state = 530 state = 845 state = 846 state = 847 state = 1108 state = 1109 state = 1110
-  state = 1111 state = 1557 state = 1561 state = 1562 state = 1563 state = 1564 state = 1569 state = 1573
-   state = 1584 state = 1585 state = 1586 state = 1588 state = 1603 } }
-  JAP = {
-    transfer_state = PREV
-  }
-	}
-	every_owned_state = {
-  limit = { OR = { state = 531 state = 534 state = 1565 state = 1566 state = 1567 state = 1568
-	state = 1570 state = 1574 state = 1575 state = 1576 state = 1587 state = 1589 state = 1598 state = 1600} }
-  JAC = {
-    transfer_state = PREV
-  }
-	}
 	}
 	
 	option = {  #REBELS
@@ -108,54 +125,14 @@ country_event = {
 	}
 
 }
+	}
+	}
 
-
-		every_owned_state = {
-  limit = { OR = { state = 528 state = 529 state = 530 state = 845 state = 846 state = 847 state = 1108 state = 1109 state = 1110
-  state = 1111 state = 1557 state = 1561 state = 1562 state = 1563 state = 1564 state = 1569 state = 1573
-   state = 1584 state = 1585 state = 1586 state = 1588 state = 1603 } }
-  JAP = {
-    transfer_state = PREV
-  }
-	}
-	every_owned_state = {
-  limit = { OR = { state = 531 state = 534 state = 1565 state = 1566 state = 1567 state = 1568
-	state = 1570 state = 1574 state = 1575 state = 1576 state = 1587 state = 1589 state = 1598 state = 1600} }
-  JAC = {
-    transfer_state = PREV
-  }
-	}
-	}
-	}
-## JCW
-	country_event = {
+			
+country_event = {
 	id = tokugawa.1
 	title = tokugawa.1.t
 	desc = tokugawa.1.d
-	
-	hidden = yes
-	fire_only_once = yes
-	
-	immediate = {
-		hidden_effect = {
-		JAP = {
-	declare_war_on = { target = TOK type = annex_everything }
-	}
-	JAC = {
-	declare_war_on = { target = JAP type = annex_everything }
-	declare_war_on = { target = TOK type = annex_everything }
-	}
-	
-	country_event = {id = news.0 days = 1 }
-		}
-			}
-			
-			}
-			
-country_event = {
-	id = tokugawa.2
-	title = tokugawa.2.t
-	desc = tokugawa.2.d
 	picture = GFX_report_event_worker_protests
 	immediate = {log = "[GetDateText]: [Root.GetName]: event tokugawa.2"}
 	is_triggered_only = yes

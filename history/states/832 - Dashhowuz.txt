@@ -13,7 +13,6 @@ state={
 		owner = CAM
 		buildings = {
 			infrastructure = 2
-			arms_industry = 1
 
 		}
 

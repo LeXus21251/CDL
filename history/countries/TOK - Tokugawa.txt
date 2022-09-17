@@ -1,6 +1,7 @@
 ﻿capital = 844
 
 oob = "TOK_1905"
+set_cosmetic_tag = TOK_prewar
 
 # Starting tech
 set_technology = {
@@ -85,4 +86,10 @@ set_politics = {
 	elections_allowed = no
 }
 recruit_character = TOK_tokugawa_yoshinobu
-
+recruit_character = TOK_enomoto_takeaki
+recruit_character = TOK_kasuya_toshizo
+recruit_character = TOK_sakai_tadazumi
+recruit_character = TOK_makino_tadakatsu
+recruit_character = TOK_matsudaira_yoritoshi
+recruit_character = TOK_hayashi_tadataka
+recruit_character = TOK_arai_ikunosuke

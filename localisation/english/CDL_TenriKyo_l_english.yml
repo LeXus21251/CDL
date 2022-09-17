@@ -9,8 +9,11 @@
   
  ##CTAGS
   JAC_rebellion: "Tenri-Kyo Rebellion"
-  JAC_DEF_rebellion: "Tenri-Kyo Rebellion"
-  JAC_ADJ_rebellion: "Tenri-Kyonese"
+  JAC_rebellion_DEF: "Tenri-Kyo Rebellion"
+  JAC_rebellion_ADJ: "Tenri-Kyo"
+
+ ##TOOLTIPS
+  tenri_kyo_state:0 "True faith provinces"
  
  ##PARTIES
   
@@ -30,3 +33,37 @@
    focus_JAC_revolution_start:0 "Our revolution is starting!"
     #MASS ATTACK
      focus_JAC_cant_stop_us:0 "They can't stop us!"
+     focus_JAC_enemy_army_massacre:0 "Maintain purity, kill all nonbelievers"
+      #EMPEROR BRANCH
+       focus_JAC_hit_empire:0 "Hit the Emperor"
+       focus_JAC_capture_south:0 "Capture southern lands"
+       focus_JAC_strike_nagasaki:0 "Strike city of Nagasaki"
+       focus_JAC_strike_satsuma:0 "Crush Satsuma defenses"
+      #SHOGUN BRANCH    
+       focus_JAC_hit_shogun:0 "Hit the Shogun with a mass"
+       focus_JAC_edo_assault:0 "Assault Edo - the capital city"
+       focus_JAC_conquer_heian_palace:0 "Conquer Heian-kyō palace"
+       focus_JAC_honshu_push:0 "Push them out of Honshu"
+       focus_JAC_ezo_seize:0 "Take control of Ezo"
+    #TACTICAL WAY
+     focus_JAC_cant_allow_massacre:0 "We cannot allow the massacre of the faithful"
+     focus_JAC_devise_tactic:0 "Devise tactic"
+     focus_JAC_enemy_army_defeat:0 "Armies of the nonbelievers ore our POW's!"
+      #EMPEROR BRANCH
+       focus_JAC_emperor_focus:0 "Focus on attacking the Emperor"
+       focus_JAC_takeover_osaka:0 "Takeover ports in Osaka"
+       focus_JAC_secure_south:0 "Secure southern Nippon"
+       focus_JAC_attack_nagasaki:0 "March to the Nagasaki"
+       focus_JAC_attack_satsuma:0 "Attack the devil's Satsuma"
+      #SHOGUN BRANCH
+       focus_JAC_shogun_focus:0 "We're going for Yoshinobu"
+       focus_JAC_center_break:0 "Break central Shogunate defenses"
+       focus_JAC_heian_strike:0 "Strike the Heian-kyō"
+       focus_JAC_edo_strike:0 "Step with our guns into Edo"
+       focus_JAC_ezo_conquer:0 "Control the last bastion - Ezo"
+    #FINALIZE WAR
+     focus_JAC_shogun_fate:0 "Fate of the Shogun"
+     focus_JAC_emperor_fate:0 "Fate of the Emperor"
+     focus_JAC_war_end:0 "The war is over, we are the Celestial Empire of Oyagami!"
+
+     

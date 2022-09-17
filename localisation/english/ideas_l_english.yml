@@ -592,8 +592,6 @@
  sisu:0 "Sisu"
  sisu_desc:0 "Sisu is the uniquely Finnish expression for the resilience of the nation's people. Finland has faced harsh odds and will do so again."
  winter_war_ns:0 "The Winter War"
- winter_war_ns_desc:0 "$finland.10.d$"
- great_depression:0 "The Great Depression"
  great_depression_desc:0 "Although a worldwide phenomenon, the Great Depression started with a stock market crash in the United States and has caused unemployment rates to soar and tax revenue to plummet. The American people and its government have enough to worry about without getting involved in another war."
  new_deal:0 "New Deal"
  new_deal_desc:0 "A set of policies and programs initiated by Franklin D. Roosevelt, a reaction to the hardships suffered during the Great Depression."

@@ -569,7 +569,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "cavalry_year1"
-					position = { x = 90 y = 50 }
+					position = { x = 650 y = 180 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -582,11 +582,11 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "cavalry_year2"
-					position = { x = 320 y = 50 }
+					position = { x = 650 y = 330 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1875"
+					text = "1860"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -595,10 +595,10 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "cavalry_year3"
-					position = { x = 520 y = 50 }
+					position = { x = 650 y = 480 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1900"
+					text = "1870"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -607,10 +607,10 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "cavalry_year4"
-					position = { x = 730 y = 50 }
+					position = { x = 650 y = 620 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1905"
+					text = "1880"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -619,10 +619,10 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "cavalry_year5"
-					position = { x = 940 y = 50 }
+					position = { x = 650 y = 760 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1907"
+					text = "1890"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -630,10 +630,10 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "cavalry_year6"
-					position = { x = 1150 y = 50 }
+					position = { x = 650 y = 900 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1910"
+					text = "1900"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -641,43 +641,87 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "cavalry_year7"
-					position = { x = 1370 y = 50 }
+					position = { x = 650 y = 1030 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1912"
+					text = "1905"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = {
-					name = "cavalry_year8"
-					position = { x = 1570 y = 50 }
+					name = "horse_year1"
+					position = { x = 40 y = 180 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1913"
+					text = "1854"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = {
-					name = "cavalry_year9"
-					position = { x = 1780 y = 50 }
+					name = "horse_year2"
+					position = { x = 40 y = 330 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1915"
+					text = "1862"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = {
-					name = "cavalry_year10"
-					position = { x = 1990 y = 50 }
+					name = "horse_year3"
+					position = { x = 40 y = 480 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1917"
+					text = "1872"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "horse_year4"
+					position = { x = 40 y = 620 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1880"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "horse_year5"
+					position = { x = 40 y = 760 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1890"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "horse_year6"
+					position = { x = 40 y = 900 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1898"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "horse_year7"
+					position = { x = 40 y = 1030 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1908"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -686,7 +730,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "cavalry_subtitle_horse"
-				position = { x = 50 y = 100 }
+				position = { x = 120 y = 70 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -695,55 +739,42 @@ guiTypes = {
 				maxHeight = 62
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "horse_equipment_desc"
+				pdx_tooltip = "horse_weapons_desc"
 			}
 			instantTextBoxType = {
-				name = "cavalry_subtitle_equipment"
-				position = { x = 50 y = 350 }
+				name = "cavalry_subtitle_weapons"
+				position = { x = 730 y = 70 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
-				text = "CAVALRY_TITLE_EQUIPMENT"
-				maxWidth = 300
+				text = "CAVALRY_TITLE_WEAPONS"
+				maxWidth = 250
 				maxHeight = 62
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "horse_eq_equipment_desc"
+				pdx_tooltip = "horse_weapons_equipment_desc"
 			}		
 			instantTextBoxType = {
-				name = "cavalry_subtitle_light_armor"
-				position = { x = 50 y = 680 }
+				name = "cavalry_subtitle_light_medium_armor"
+				position = { x = 1430 y = 70 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
-				text = "CAVALRY_TITLE_LIGHT_ARMOR"
-				maxWidth = 300
+				text = "CAVALRY_TITLE_LIGHT_MEDIUM_ARMOR"
+				maxWidth = 700
 				maxHeight = 62
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "horse_light_armor_equipment_desc"
-			}
-			instantTextBoxType = {
-				name = "cavalry_subtitle_medium_armor"
-				position = { x = 50 y = 1000 }
-				textureFile = ""
-				font = "hoi_33"
-				borderSize = {x = 0 y = 4}
-				text = "CAVALRY_TITLE_MEDIUM_ARMOR"
-				maxWidth = 300
-				maxHeight = 62
-				format = center
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "horse_medium_armor_equipment_desc"
+				pdx_tooltip = "horse_light_medium_armor_equipment_desc"
 			}
 			instantTextBoxType = {
 				name = "cavalry_subtitle_heavy_armor"
-				position = { x = 50 y = 1330 }
+				position = { x = 1150 y = 70 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
 				text = "CAVALRY_TITLE_HEAVY_ARMOR"
-				maxWidth = 300
+				maxWidth = 230
 				maxHeight = 62
 				format = center
 				Orientation = "UPPER_LEFT"
@@ -753,8 +784,8 @@ guiTypes = {
 			}	
 			containerWindowType = {
 				name = "tiled_research_bg"
-				position = { x=1700 y=100 }
-				size = { width = 420 height = 200 }
+				position = { x=1800 y=570 }
+				size = { width = 300 height = 120 }
 				clipping = no
 			
 				background = {
@@ -771,29 +802,29 @@ guiTypes = {
 				format = "LEFT"
 			}
 			gridboxtype = {
-				name = "cavalry_eq_tree"
-				position = { x = 100 y = 520 }
+				name = "cavalry_weapons_tree"
+				position = { x = 400 y = 210 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
 				name = "cavalry_light_armor_tree"
-				position = { x = 100 y = 870 }
+				position = { x = 450 y = 210 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
 				name = "cavalry_medium_armor_tree"
-				position = { x = 100 y = 1200 }
+				position = { x = 450 y = 210 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
 				name = "cavalry_heavy_armor_tree"
-				position = { x = 100 y = 1500 }
+				position = { x = 400 y = 210 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"

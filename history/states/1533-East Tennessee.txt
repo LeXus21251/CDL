@@ -5,8 +5,12 @@ state={
 	history={
 		owner = CHE
 		add_core_of = CHE
-
+		
+		victory_points = {
+			913 1 
+		}
 	}
+	
 
 	provinces={
 		913 968 1582 1758 7791 8014 9779 10281 10657 10909 12637

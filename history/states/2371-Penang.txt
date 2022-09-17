@@ -1,0 +1,14 @@
+state={
+	id=2371
+	name="STATE_2371"
+	provinces={
+		7342 
+	}
+	history={
+		owner = FEI
+		add_core_of = FEI
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -8,6 +8,7 @@ focus_tree = {
 			tag = TOK
 		}
 	}
+	#!gfx:interface\CDL_TOkugawa\CDL_TOK_goals.gfx
 	
 	focus = {
 		id = focus_TOK_civil_war
@@ -20,12 +21,24 @@ focus_tree = {
 		 country_event = { id = tokugawa.0}
 		 }
 		completion_reward = {
+			
+		hidden_effect = {
 			country_event = {
-			id = tokugawa.0
-			}
+				id = tokugawa.0
+				}
 			TOK = {
-	load_focus_tree = tokugawa_war_tree
+				load_focus_tree = tokugawa_war_tree
+				drop_cosmetic_tag = yes
+			} 
+			JAP = {
+				load_oob = JAP_war
+			  }
+			JAC = {
+				load_oob = JAC_war
+			}
 		}
+	custom_effect_tooltip = "The time of the Inevitable War has come, to battle!"
+	set_global_flag = itsushi_war_started
 
 			
 		}

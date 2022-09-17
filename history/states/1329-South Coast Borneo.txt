@@ -6,19 +6,22 @@ state={
 		wood=16.000
 	}
 
-	history = {
+	history={
 		owner = VOC
 		add_core_of = VOC
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
+
 	}
 
 	provinces={
-		1342 4320 4361 12165 
+		1313 1342 4276 4320 4361 12165 
 	}
 	manpower=2373663
 	buildings_max_level_factor=1.000
-	state_category = village
+	state_category=village
+	local_supplies=0.000
 }

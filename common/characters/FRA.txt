@@ -13,4 +13,19 @@ characters={
 			id=-1
 		}
 	}
+	
+	FRA_alexandre_alveydre={
+		name=FRA_alexandre_alveydre
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Alexandre_Alveydre.dds"
+			}
+		}
+		country_leader={
+			ideology=masonism_subtype
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 }

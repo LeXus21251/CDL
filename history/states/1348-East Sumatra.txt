@@ -4,25 +4,31 @@ state={
 	resources={
 		rubber=7.000
 		oil=4.000
-		aluminium = 13.000
-		tungsten = 14.000
+		aluminium=13.000
+		tungsten=14.000
 	}
 
-	history = {
+	history={
 		owner = VOC
 		add_core_of = VOC
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 2
-			7463 = {naval_base = 1}
+			7463 = {
+				naval_base = 1
+
+			}
+
 		}
+
 	}
 
 	provinces={
-		1277 7463 12168 12184 14359 
+		1277 7327 7463 10209 12168 12181 12302 
 	}
 	manpower=1272993
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
+	local_supplies=0.000
 }

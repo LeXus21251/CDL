@@ -11,7 +11,7 @@ state={
 		owner = ROM
 		add_core_of = ROM
 		add_claim_by = MOL
-		victory_points { 13620 2 }
+		victory_points = { 13620 2 }
 
 	}
 }

@@ -1,0 +1,50 @@
+division_template = {
+	name = "Daimyo Rikugun" 		
+	is_locked = yes
+
+	regiments = {
+		heavy_cavalry = { x = 0 y = 0 }
+		heavy_cavalry = { x = 0 y = 1 }
+		heavy_cavalry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+
+	##### INFANTRY GARRISON #####
+	division= {	
+		name = "Echigo Daimyos"
+		location = 11908 # Echigo
+		division_template = "Daimyo Rikugun"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Dewa Daimyos"
+		location = 4067 # Dewa
+		division_template = "Daimyo Rikugun"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Mutsu Daimyos"
+		location = 6994 # Mutsu
+		division_template = "Daimyo Rikugun"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Ezo Daimyos"
+		location = 3962 # Ezo
+		division_template = "Daimyo Rikugun"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+}

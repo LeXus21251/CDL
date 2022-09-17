@@ -17,7 +17,6 @@ state={
 
 		}
 		add_core_of = QUE
-		add_core_of = N19
 		victory_points = {
 			6710 20 
 		}

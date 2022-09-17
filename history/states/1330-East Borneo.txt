@@ -4,24 +4,27 @@ state={
 	resources={
 		rubber=8.000
 		oil=10.000
-		steel = 7.000
-		coal = 18.000
-		lead = 15.000
+		steel=7.000
+		coal=18.000
+		lead=15.000
 	}
 
-	history = {
+	history={
 		owner = VOC
 		add_core_of = VOC
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2
+
 		}
+
 	}
 
 	provinces={
-		1252 4236 4323 5226 7231 7299 10181 10325 12196 13439 13440 13441 
+		1252 4236 4323 5226 7299 7355 10181 10237 12196 12225 12252 13434 13439 13440 13441 
 	}
 	manpower=927118
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
+	local_supplies=0.000
 }

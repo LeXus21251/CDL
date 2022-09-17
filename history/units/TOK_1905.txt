@@ -1,31 +1,111 @@
 division_template = {
-	name = "Dai-Nippon Teikoku Rikugun" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
-	division_names_group = TOK_INF_01
-									# 1 engineering regiment, 1 recon regiment
+	name = "Tokugawa Bakufu Chuton-shi Shidan" 		
+	division_names_group = TOK_GAR_01
+	is_locked = yes
+
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		samurai = { x = 1 y = 2 }
 	}
-	support = {
-		recon = { x = 0 y = 0 }
+}
+
+division_template = {
+	name = "Tokugawa Bakufu Chuton-Kihei Shidan"
+	division_names_group = TOK_CAV_01
+	is_locked = yes
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
 	}
 }
 
 ##### OOB #####
 units = {
 
-	# ARMY NAME
-	division = { # "'Kagoshima' Teikoku Rikugun"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 4102 #Kagoshima
-		division_template = "Dai-Nippon Teikoku Rikugun"
+	##### INFANTRY GARRISON #####
+	division= {	
+		name = "'Edo' Chuton-shi Shidan"
+		location = 1182 # Edo
+		division_template = "Tokugawa Bakufu Chuton-shi Shidan"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "'Heian-kyō' Chuton-shi Shidan"
+		location = 14455 # Heian-kyō
+		division_template = "Tokugawa Bakufu Chuton-shi Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "'Nagasaki' Chuton-shi Shidan"
+		location = 9950 # Nagasaki
+		division_template = "Tokugawa Bakufu Chuton-shi Shidan"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "'Hakodate' Chuton-shi Shidan"
+		location = 13656 # Hakodate
+		division_template = "Tokugawa Bakufu Chuton-shi Shidan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "'Hiroshima' Chuton-shi Shidan"
+		location = 1092 # Hiroshima
+		division_template = "Tokugawa Bakufu Chuton-shi Shidan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "'Sendai' Chuton-shi Shidan"
+		location = 7169 # Sendai
+		division_template = "Tokugawa Bakufu Chuton-shi Shidan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+
+	#### CAVALRY GARRISON ####
+	division= {	
+		name = "'Edo' Chuton-Kihei Shidan"
+		location = 1182 # Edo
+		division_template = "Tokugawa Bakufu Chuton-Kihei Shidan"
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "'Heian-kyō' Chuton-Kihei Shidan"
+		location = 14455 # Heian-kyō
+		division_template = "Tokugawa Bakufu Chuton-Kihei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.77
+
+	}
+	division= {	
+		name = "'Sapporo' Chuton-Kihei Shidan"
+		location = 10444 # Sapporo
+		division_template = "Tokugawa Bakufu Chuton-Kihei Shidan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+
+	}
+	division= {	
+		name = "'Asahigawa' Chuton-Kihei Shidan"
+		location = 12421 # Asahigawa
+		division_template = "Tokugawa Bakufu Chuton-Kihei Shidan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+
 	}
 }

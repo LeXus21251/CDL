@@ -20,9 +20,8 @@ focus_tree = {
 		factor = 1
 		}
 		completion_reward = {
-		
-
 	}
+	bypass = { has_global_flag = itsushi_war_started}
 	}
 focus = {
 		id = focus_JAP_invite_south
@@ -167,6 +166,8 @@ focus = {
 			focus = focus_JAP_ezo_push
 		}
 		completion_reward = {
+			set_global_flag = itsushi_war_ended
+			set_global_flag = emperor_won_itsushi
 		
 
 	}
@@ -204,6 +205,11 @@ focus = {
 			focus = focus_JAP_french_generals
 		}
 		completion_reward = {
+			add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 7000
+							producer = FRA
+						}
 		
 
 	}
@@ -441,8 +447,20 @@ focus = {
 			focus = focus_JAP_war_more_mil
 		}
 		completion_reward = {
-		
-
+			random_owned_state = {
+				add_building_construction = {
+					type = dockyard 
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = naval_base 
+					level = 2
+					instant_build = yes
+				}
+			}
 	}
 	}
 	focus = {
@@ -497,9 +515,20 @@ focus = {
 		prerequisite = {
 			focus = focus_JAP_better_lines
 		}
-		completion_reward = {
-		
 
+		available = {
+		}
+
+		completion_reward = {
+			build_railway = {
+				path = { 14445 9950 14446 4164 11925 12006 1183 14377 4102 }
+			}
+			build_railway = {
+				path = { 1092 11946 7212 12031 7072 13659}
+			}
+			build_railway = {
+				path = { 7072 14455 }
+			}
 	}
 	}
 	

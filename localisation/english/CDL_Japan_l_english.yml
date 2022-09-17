@@ -8,6 +8,7 @@
   JAP_DEF_absolutism:0 "Empire of Japan"
   
  ##CTAGS
+  JAP_saigo_shogunate:0 "Saigō Shogunate"
  
  ##PARTIES
   
@@ -20,3 +21,64 @@
   bushido_desc:0 "§OBushidō§! is an unwritten set of rules that every honorary samurai follows. It is about following perfection and moral rules. Samurai fight whether or not they may die."
   JAP_emperor:0 "Nihon belongs to Emperor"
   JAP_emperor_desc:0 "Many believe that the §OEmperor§!, not the Shogun, is the only true ruler of §WJapan§!. They will ruthlessly fight for the victory of their true leader."
+  
+  ##FOCUSES
+   #TREE NAMES
+    japan_war_tree:0 "Japanese Itsushi War Tree"
+   #WAR TREE
+    #CENTRAL PATH
+     focus_JAP_for_emperor:0 "For Emperor (placeholder)"
+     focus_JAP_for_emperor_desc:0 ""
+     focus_JAP_invite_south:0 "Invite more Southern Daimyos"
+     focus_JAP_invite_south_desc:0 ""
+     focus_JAP_france_support:0 "Ask French for the support"
+     focus_JAP_france_support_desc:0 ""
+     focus_JAP_secure_heian:0 "Secure Heian-kyō"
+     focus_JAP_secure_heian_desc:0 ""
+     focus_JAP_regroup_army:0 "Regroup our loyal army"
+     focus_JAP_regroup_army_desc:0 ""
+     focus_JAP_defend_emperor:0 "Defend emperor (placeholder)"
+     focus_JAP_defend_emperor_desc:0 ""
+     focus_JAP_edo_battle:0 "Battle of Edo"
+     focus_JAP_edo_battle_desc:0 ""
+     focus_JAP_ezo_push:0 "Push them to the Ezo"
+     focus_JAP_ezo_push_desc:0 ""
+     focus_JAP_restore_emperor:0 "Restore emperor (placeholder)"
+     focus_JAP_restore_emperor_desc:0 ""
+    #MILITARY PATH
+     focus_JAP_french_generals:0 "Invite French military staff"
+     focus_JAP_french_generals_desc:0 ""
+     focus_JAP_modernize_eq:0 "Modernize equipment of our army"
+     focus_JAP_modernize_eq_desc:0 ""
+     focus_JAP_european_aow:0 "Learn European Art of War"
+     focus_JAP_european_aow_desc:0 ""
+    focus_JAP_old_type:0 "Old but new good doctrine"
+    focus_JAP_old_type_desc:0 ""
+    focus_JAP_new_artillery_doctrine:0 "Let's bet on the artillery"
+    focus_JAP_new_artillery_doctrine_desc:0 ""
+    focus_JAP_rely_light_fleet:0 "We can rely on the light fleet"
+    focus_JAP_rely_light_fleet_desc:0 ""
+    focus_JAP_powerful_navy:0 "We must introduce powerful navy"
+    focus_JAP_powerful_navy_desc:0 ""
+    focus_JAP_modern_army:0 "A fresh army ready to strike"
+    focus_JAP_modern_army_desc:0 ""
+    focus_JAP_modern_navy:0 "A new shiny ships"
+    focus_JAP_modern_navy_desc:0 ""
+    focus_JAP_develop_new_tactic:0 "New army means new tactics"
+    focus_JAP_develop_new_tactic_desc:0 ""
+   #INDUSTRIAL BRANCH
+    focus_JAP_french_investors:0 "French investors will help us"
+    focus_JAP_french_investors_desc:0 ""
+    focus_JAP_war_more_civ:0 "Make more civilian workplaces"
+    focus_JAP_war_more_civ_desc:0 ""
+    focus_JAP_war_more_mil:0 "Strenghten military production"
+    focus_JAP_war_more_mil_desc:0 ""
+    focus_JAP_war_port_dock:0 "Invest in docks and shipyards"
+    focus_JAP_war_port_dock_desc:0 ""
+    focus_JAP_building_help:0 "Learn more efficient way of building"
+    focus_JAP_building_help_desc:0 ""
+    focus_JAP_better_lines:0 "Introduce better production lines"
+    focus_JAP_better_lines_desc:0 ""
+    focus_JAP_open_railway:0 "Open railways on the south"
+    focus_JAP_open_railway_desc:0 ""
+   

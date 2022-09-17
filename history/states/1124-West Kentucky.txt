@@ -5,11 +5,14 @@ state={
 	history={
 		owner = SHW
 		add_core_of = SHW
+		victory_points = {
+			4402 1 
+		}
 
 	}
 
 	provinces={
-		4402 6696 6974 10727 12670 
+		4402 6974 10727 12670 
 	}
 	manpower=125500
 	buildings_max_level_factor=1.000

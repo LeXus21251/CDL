@@ -1,0 +1,33 @@
+TOK_northern_alliance = {
+	
+
+	TOK_recruit_from_north = {
+
+		#icon = 
+			days_re_enable = 30
+		allowed = {
+			original_tag = TOK
+		}
+
+		available = {
+			has_army_experience = 15
+			
+		}
+		
+		visible = {
+			
+		}
+
+		complete_effect = {
+		1577 ={ 
+			create_unit = {
+				division = {division_template = "Daimyo Rikugun" 
+				start_experience_factor = 0.7 }
+				owner = TOK
+			}
+		
+			}
+			
+		}
+	}
+}

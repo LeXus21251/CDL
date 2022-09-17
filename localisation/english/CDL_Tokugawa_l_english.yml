@@ -13,7 +13,7 @@
   TOK_ezo_DEF: "Ezo Republic"
  
  ##PARTIES
-  TOK_military_government_party:0 " Tokugawa Bakufu"
+  TOK_military_government_party:0 "Tokugawa Bakufu"
   TOK_military_government_party_long:0 "Tokugawa Bakufu"
   
  ##IDEAS
@@ -25,6 +25,7 @@
   bushido_desc:0 "§OBushidō§! is an unwritten set of rules that every honorary samurai follows. It is about following perfection and moral rules. Samurai fight whether or not they may die."
   TOK_tokugawa_clan:0 "Tokugawa Clan"
   TOK_tokugawa_clan_desc:0 "§gTokugawa Clan§! is ruling over Japan since 1603. Although disadvantages of isolationism introduced in the Edo period its bring us stabilisation and peace within the Japanese Domains."
+  
  ##FOCUSES
   #TREE NAMES
    tokugawa_prep:0 "Tokugawa preparation tree"
@@ -98,3 +99,11 @@
  ##EVENTS
   tokugawa.0.t:0 "Start of the Itsushi War"
   tokugawa.0.d:0 "Due to high tension between Emperor and Shogun, the country has split in two. The southern Daimyos seceded from the Shogunate and declared their support for the Emperor. \n\nOn the other hand Tenri-Kyo cult has rebelled, forming a third side in the war and occupying many important cities."
+
+ ##DECISIONS
+  TOK_northern_alliance:0 "Recruitment in the north"
+  TOK_northern_alliance_desc:0 "North"
+  TOK_recruit_from_north:0 "Recruit more Daimyos"
+
+itsushi_war_started:0 "Itsushi war has started"
+ TOK_north_remember_tt:0 "§YNorthern Alliance§! will help us in the war \nUnlocks §Y'Recruitment in the north'§! decisions"

@@ -6,6 +6,9 @@ state={
 		owner = MEX
 		add_core_of = MEX
 		add_core_of = CRE
+		
+		victory_points = {10380 1}
+		victory_points = {11509 1}
 
 	}
 

@@ -2,25 +2,31 @@ state={
 	id=1328
 	name="STATE_1328"
 	resources={
-		oil = 3.200
-		wood = 4.000
-		coal = 3.500
+		oil=3.000
+		wood=4.000
+		coal=3.000
 	}
 
-	history = {
+	history={
 		owner = PHI
 		add_core_of = PHI
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
-			10199 = {naval_base = 1}
+			10199 = {
+				naval_base = 1
+
+			}
+
 		}
+
 	}
 
 	provinces={
-		1306 4282 7358 10143 10199 10240 13437 13438 
+		1306 1335 4282 4338 7358 10143 10199 10212 10240 12171 12186 13437 13438 
 	}
 	manpower=221638
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
+	local_supplies=0.000
 }

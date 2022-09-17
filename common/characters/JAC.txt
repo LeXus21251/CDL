@@ -12,5 +12,63 @@ characters={
 			expire="1965.1.1.1"
 			id=-1
 		}
+		field_marshal={
+
+		}
+	}
+	JAC_iburi_izo={
+		name="Iburi Izō"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAC"
+			}
+		}
+		field_marshal={
+
+		}
+	}
+	JAC_nakayama_shinnosuke={
+		name="Nakayama Shinnosuke"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAC"
+			}
+		}
+		corps_commander={
+
+		}
+	}
+	JAC_yoshimitsu_akira={
+		name="Yoshimitsu Akira"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAC"
+			}
+		}
+		corps_commander={
+
+		}
+	}
+	JAC_inoue_yorikuni={
+		name="Inoue Yorikuni"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAC"
+			}
+		}
+		corps_commander={
+
+		}
+	}
+	JAC_shinsuke_tobu={
+		name="Shinsuke Tobu"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAC"
+			}
+		}
+		corps_commander={
+
+		}
 	}
 }

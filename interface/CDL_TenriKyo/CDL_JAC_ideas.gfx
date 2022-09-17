@@ -3,7 +3,7 @@ spriteTypes = {
 #SAKOKU
 	spriteType = {
 		name = "GFX_idea_JAC_sakoku_edict"
-		texturefile = "gfx/interface/ideas/JAC/JAC_sakoku_edict.dds"
+		texturefile = "gfx/interface/ideas/shared_ideas/sakoku_edict.dds"
 	}
 #TENRI KYO
 	spriteType = {

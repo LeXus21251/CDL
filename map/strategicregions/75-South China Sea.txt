@@ -168,4 +168,3 @@ strategic_region={
 		}
 	}
 }
-
