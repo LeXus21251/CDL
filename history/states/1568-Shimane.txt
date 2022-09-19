@@ -16,9 +16,9 @@ state={
 	}
 
 	provinces={
-		1191 7050 7145 14454 
+		1191 7050 7145
 	}
-	manpower=734612
+	manpower=670612
 	buildings_max_level_factor=1.000
 	state_category=town
 }

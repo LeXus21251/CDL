@@ -1,6 +1,7 @@
 ﻿capital = 845
 
 oob = "JAC_1936"
+set_cosmetic_tag = JAC_rebellion
 
 # Starting tech
 set_technology = {

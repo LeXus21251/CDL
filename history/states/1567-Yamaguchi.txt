@@ -6,9 +6,9 @@ state={
 		wood = 16.000
 	}
 	provinces={
-		10052 11985 
+		10052 11985 14454
 	}
-	manpower=1056227
+	manpower=1116227
 	buildings_max_level_factor=1.000
 	state_category = town
 						history={

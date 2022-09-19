@@ -38,7 +38,6 @@ country_event = {
 		
 	JAC = {
 	set_capital = 845
-	set_cosmetic_tag = JAC_rebellion
 	recruit_character = JAC_nakayama_sakura
 	recruit_character = JAC_iburi_izo
 	recruit_character = JAC_nakayama_shinnosuke
@@ -53,15 +52,15 @@ country_event = {
 
 
 	every_owned_state = {
-		limit = { OR = { state = 528 state = 529 state = 530  state = 845 state = 846 state = 847 state = 1108 state = 1109 state = 1110
-		state = 1111 state = 1557 state = 1561 state = 1562 state = 1563 state = 1564  state = 1569 state = 1573
+		limit = { OR = { state = 528  state = 530  state = 845 state = 846 state = 847 state = 1108 state = 1109 state = 1110
+		state = 1111 state = 1557 state = 1561 state = 1562 state = 1563 state = 1564  state = 1567 state = 1569 state = 1573
 		state = 1584 state = 1585 state = 1586 state = 1588 state = 1603 } }
 		JAP = {
 		  transfer_state = PREV
 		}
 		  }
 		  every_owned_state = {
-		limit = { OR = { state = 531 state = 534 state = 1565 state = 1566 state = 1567 state = 1568
+		limit = { OR = { state = 529 state = 531 state = 534 state = 1565 state = 1566  state = 1568
 		  state = 1570 state = 1574 state = 1575 state = 1576 state = 1587 state = 1589 state = 1598 state = 1600} }
 		JAC = {
 		  transfer_state = PREV
@@ -118,10 +117,6 @@ country_event = {
 		every_state = {
   limit = { is_core_of = TOK }
   add_core_of = JAP
-	}
-	
-	JAC = {
-	set_cosmetic_tag = JAC_rebellion
 	}
 
 }

@@ -8,9 +8,9 @@
   JAC_DEF_traditionalism:0 "Celestial Empire"
   
  ##CTAGS
-  JAC_rebellion: "Tenri-Kyo Rebellion"
-  JAC_rebellion_DEF: "Tenri-Kyo Rebellion"
-  JAC_rebellion_ADJ: "Tenri-Kyo"
+  JAC_rebellion: "Tenri-Kyō Rebellion"
+  JAC_rebellion_DEF: "Tenri-Kyō Rebellion"
+  JAC_rebellion_ADJ: "Tenri-Kyō"
 
  ##TOOLTIPS
   tenri_kyo_state:0 "True faith provinces"
@@ -21,14 +21,14 @@
   sakoku_edict:0 "Sakoku Edict"
   sakoku_edict_desc:0 "Islands are closed since 1635. International trade can only be done on the special §1Dejima island§! and it's still very limited. \n\nAnyone who try to enter or leave island without permission will be executed or imprisoned in a milder case."
   JAC_tenrikyo:0 "Religion of the Heavens"
-  JAC_tenrikyo_desc:0 "The cult of §YTenri-Kyo§! is a movement that has gathered many followers over the years. Religion arose on the basis of Shinto and Buddhism. Followers believe in the god §OOyagami§!."
+  JAC_tenrikyo_desc:0 "The cult of §YTenri-Kyō§! is a movement that has gathered many followers over the years. Religion arose on the basis of Shinto and Buddhism. Followers believe in the god §OOyagami§!."
   JAC_war:0 "War of the people"
   JAC_war_desc:0 "The slogans proclaimed by the revolutions that it is "war of the people". They exhort every capable person to fight for a new order and the creation of a §YCelestial Empire§!."
-  JAC_iburi_izo:0 "Iburi Izo"
-  JAC_iburi_izo_desc:0 "§OIburi Izo§! is an important person in the structures of §YTenri-Kyo§!, one of the leaders of the revolution. As the second spiritual leader of the cult, he became a general in the armed movement."
+  JAC_iburi_izo:0 "Iburi Izō"
+  JAC_iburi_izo_desc:0 "§OIburi Izō§! is an important person in the structures of §YTenri-Kyō§!, one of the leaders of the revolution. As the second spiritual leader of the cult, he became a general in the armed movement."
  ##FOCUSES
   #TREE NAMES
-   tenrikyo_war_tree:0 "Tenri-Kyo Itsushi War Tree"
+   tenrikyo_war_tree:0 "Tenri-Kyō Itsushi War Tree"
   #WAR TREE
    focus_JAC_revolution_start:0 "Our revolution is starting!"
     #MASS ATTACK

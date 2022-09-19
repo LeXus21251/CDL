@@ -50,6 +50,12 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			frame = 1
 		}
+
+		#buttonType = {
+		#	name = "parties_button"
+		#	position = { x = 330 y = 330 }
+		#	quadTextureSprite = "GFX_parties_button"
+		#}
 		containerWindowType = {
 			name = "chart_explanation"
 			position = { x = 304 y = 297 }

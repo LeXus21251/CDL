@@ -223,7 +223,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2431;2408;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
 5412;7678;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
 2919;2666;;-1;-1;-1;-1;-1;HORMUZ_STRAIT;Hormuz
-2776;288;;-1;-1;-1;-1;-1;ADEN_STRAIT;Aden
 5539;5960;;-1;-1;-1;-1;-1;MALACCA_STRAIT;Malacca
 2714;2737;;-1;-1;-1;-1;-1;SUNDA_STRAIT;Sunda
 13564;13155;;-1;-1;-1;-1;-1;MACKINAC_STRAIT;Mackinac

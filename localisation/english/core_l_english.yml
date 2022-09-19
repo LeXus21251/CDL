@@ -346,6 +346,10 @@
  MENU_FORUM:0 "Hearts of Iron IV Forum"
  MENU_FACEBOOK:0 "Hearts of Iron IV Facebook"
  MENU_TWITTER:0 "Hearts of Iron IV Twitter"
+
+ MENU_DISCORD:0 "Join official Champs De Lys discord community server!"
+ MENU_REDDIT:0 "Check out offical Champs De Lys subreddit!"
+
  MENU_PRIVACY_POLICY:0 "Privacy Policy"
  MAIN_MENU:0 "Main menu"
  MAIN_MENU_BACK:0 "Back to Menu"

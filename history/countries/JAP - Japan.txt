@@ -1,6 +1,7 @@
 ﻿capital = 282
 
 oob = "JAP_1936"
+set_cosmetic_tag = JAP_satcho
 
 set_research_slots = 4
 
