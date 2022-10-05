@@ -248,7 +248,17 @@ focus_tree = {
 			focus = focus_TOK_expel_the_barbarians
 		}
 		completion_reward = {
-		
+			every_country = {
+				limit = {
+					OR = {
+				tag = VOC
+				tag = HOL
+				}
+			}
+				add_opinion_modifier = { target = TOK modifier = huge_increase }	
+			}
+			TOK = {add_opinion_modifier = { target = HOL modifier = huge_increase }}
+			TOK = {add_opinion_modifier = { target = VOC modifier = huge_increase }}
 
 	}
 	}
@@ -286,6 +296,29 @@ focus_tree = {
 			focus = focus_TOK_dutch_military_mission
 		}
 		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 15000
+				producer = HOL
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment_1
+				amount = 2000
+				producer = HOL
+			}
+			TOK = {
+				create_ship = {
+					type = ship_hull_submarine_1
+					equipment_variant = "Yamamoto Class"
+					creator = HOL
+					name = "Nihon"
+				}
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = weapons_tech
+			}
 		
 
 	}

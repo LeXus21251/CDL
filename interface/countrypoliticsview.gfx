@@ -187,6 +187,18 @@ spriteTypes = {
 		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}	
+
+		frameAnimatedSpriteType = {
+		name = "GFX_spirit_glow"
+		texturefile = "gfx/interface/officer_corp/spirit_glow.dds"
+		noOfFrames = 3
+		animation_rate_fps = 1
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
 	
 	frameAnimatedSpriteType = {
 		name = "GFX_ongoing_focus_goal_polview"
@@ -226,6 +238,7 @@ spriteTypes = {
 		name = "GFX_rules_sum_icon"
 		textureFile = "gfx/interface/rules_sum_icon.dds"
 	}
+	
 
 	spriteType = {
 		name = "GFX_idea_slot_high_command"

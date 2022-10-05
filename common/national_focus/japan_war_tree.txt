@@ -91,6 +91,7 @@ focus = {
 			focus = focus_JAP_secure_heian
 		}
 		completion_reward = {
+			JAP = { set_country_flag = emperor_rescued }
 		
 
 	}

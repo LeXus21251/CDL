@@ -17,6 +17,11 @@ country_event = {
 	picture = GFX_japan_cw
 	immediate = {
 	hidden_effect = {
+
+		every_country = {
+			set_temp_variable = { superevent_id = 1 }
+			CDL_show_super_event = yes
+		}
 		TOK = {
 			load_oob = TOK_war
 		}

@@ -46,6 +46,20 @@ technology_categories = {
 	shbb_tech
 	ss_tech
 	tp_tech
+
+	fr_tech
+	cds_tech
+	mn_tech
+	gb_tech
+	mly_tech
+	tb_tech
+	ic_tech
+	ddn_tech
+	upc_tech
+	pc_tech
+	ac_tech 
+
+
 	synth_resources
 	fleet_in_being_tree
 	encryption_tech
@@ -94,6 +108,17 @@ technology_categories = {
 	cat_production
 	cat_synth_rubber
 	cat_synth_oil
+	cat_armored_cars
+	cat_special_forces_generic
+	cat_torpedoes
+	cat_ship_light_battery
+	cat_ship_medium_battery
+	cat_ship_heavy_battery
+	air_equipment
+	plane_modules_tech
+	cat_air_guns
+	cat_air_engine
+	cat_air_bombs   
 }
 
 technology_folders = {
@@ -126,6 +151,12 @@ technology_folders = {
 	air_techs_folder = {
 		ledger = air
 	}
+	bba_air_techs_folder = {
+		available = {
+			has_dlc = "By Blood Alone"
+		}
+		ledger = air
+	}
 	naval_folder = {
 		available = {
 			not = { has_dlc = "Man the Guns" }
@@ -133,6 +164,12 @@ technology_folders = {
 		ledger = navy
 	}
 	mtgnavalfolder = {
+		available = {
+			has_dlc = "Man the Guns"
+		}
+		ledger = navy
+	}
+	mtgnavalsupportfolder = {
 		available = {
 			has_dlc = "Man the Guns"
 		}

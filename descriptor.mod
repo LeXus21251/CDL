@@ -3,5 +3,5 @@ tags={
 	"Alternative History"
 }
 name="Champs De Lys"
-supported_version="1.10.8"
-picture = "CDL_icon.bmp"
+supported_version="1.12.*"
+picture = "HOI4_icon.bmp"

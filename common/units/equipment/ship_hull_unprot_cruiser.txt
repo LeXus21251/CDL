@@ -1,0 +1,94 @@
+equipments = {
+
+	ship_hull_unprot_cruiser = {
+		year = 1870
+
+		is_archetype = yes
+		is_buildable = no
+		type = unprot_cruiser
+		group_by = archetype
+		priority = 2500
+		
+		
+		interface_category = interface_category_other_ships
+
+		module_slots = {
+		}
+		
+		module_count_limit = {
+		}
+		
+		default_modules = {
+		}
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 20
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 25
+		naval_speed = 13
+		reliability = 0.60
+		
+		naval_range = 2500
+		
+		max_strength = 10
+		
+
+		fuel_consumption = 1
+		
+		build_cost_ic = 220
+		resources = {
+			#oil = 1
+			steel = 1
+		}
+		
+		manpower = 200
+
+		naval_supremacy_factor = 0.8
+	}
+
+	ship_hull_unprot_cruiser_1 = {
+		abbreviation = "upb"
+		year = 1870
+
+		archetype = ship_hull_unprot_cruiser
+		priority = 2500
+		
+		module_slots = inherit
+	}
+	ship_hull_unprot_cruiser_2 = {
+		abbreviation = "upc"
+		year = 1880
+
+		archetype = ship_hull_unprot_cruiser
+		parent = ship_hull_unprot_cruiser_1
+		priority = 2500
+		
+		module_slots = inherit
+	}
+	ship_hull_unprot_cruiser_3 = {
+		abbreviation = "upd"
+		year = 1890
+
+		archetype = ship_hull_unprot_cruiser
+		parent = ship_hull_unprot_cruiser_2
+		priority = 2500
+		
+		module_slots = inherit
+	}
+
+	
+}

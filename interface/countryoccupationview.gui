@@ -18,7 +18,7 @@ guiTypes = {
 			size = { width = 100% height = 100% }
 			background = {
 				name = "Background"
-				spriteType = "GFX_tiled_plain_bg"
+				spriteType = "GFX_tiled_bg"
 			 }
 		}
 		
@@ -1004,7 +1004,7 @@ guiTypes = {
 			text = "Occupation law with long name"
 			maxWidth = 230
 			maxHeight = 20
-			alwaystransparent = no
+			alwaystransparent = yes
 			fixedsize = yes
 			truncate = yes
 		}

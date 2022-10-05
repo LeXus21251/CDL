@@ -1,7 +1,0 @@
-spriteTypes = {	
-    spriteType = {
-        name = "GFX_santa_hat"
-        texturefile = "gfx/hat.dds"
-        noOfFrames = 3
-    }
-}
