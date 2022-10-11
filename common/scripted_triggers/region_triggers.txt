@@ -43,3 +43,38 @@ japan_south_starting_state = {
 		state = 1603 #kobe
 		}
 }
+
+edo_complex_states = {
+	TOK = {
+		AND = {
+			controls_state = 532
+			controls_state = 844
+			controls_state = 1601
+			controls_state = 282
+			controls_state = 1578
+			controls_state = 1577
+			controls_state = 534
+			controls_state = 1600
+			controls_state = 1579
+			controls_state = 1574
+			controls_state = 1574
+			controls_state = 1573
+			controls_state = 1571
+			controls_state = 845
+			
+			
+		}
+	}
+}
+
+kansai_states = {
+	controls_state = {
+		AND = {
+	state = 1571
+	state = 531
+	state = 1587
+	state = 1603
+	state = 845
+		}
+	}
+}

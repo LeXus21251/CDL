@@ -12,7 +12,6 @@ country_event = {
 	
 	fire_only_once = yes
 	is_triggered_only = yes
-	timeout_days = 5
 
 	picture = GFX_japan_cw
 	immediate = {
@@ -100,7 +99,7 @@ country_event = {
 	}
 	
 	option = {  #EMPEROR
-		name = "Stand with Emperor"
+		name = "Tokugawa rule must end"
 		JAP = {change_tag_from = TOK}
 		
 		
@@ -114,7 +113,7 @@ country_event = {
 	}
 	
 	option = {  #REBELS
-		name = "Stand with Rebellion"
+		name = "For the Oyagami!"
 		JAC = {change_tag_from = TOK}
 		
 		

@@ -1,0 +1,22 @@
+scripted_gui = {
+    CDL_satcho_leaders = {
+        window_name = satcho_leaders_window
+        context_type = player_context
+		parent_window_token = politics_tab
+         
+        visible = {
+            AND = {
+				has_country_flag = leaders_button_clicked
+				original_tag = JAP
+			}
+        }
+        
+        effects = {
+			close_click = {
+				clr_country_flag = leaders_button_clicked
+			}
+
+            }
+        }
+
+	}

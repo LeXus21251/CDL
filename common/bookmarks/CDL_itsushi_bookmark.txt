@@ -8,17 +8,21 @@ bookmarks = {
 		default = yes
 		
 		"TOK"={
-			history = "TOK_GATHERING_STORM_DESC"
+			history = "TOK_ITSUSHI_DESC"
 			ideology = authoritarianism
 			ideas = {
 				sakoku_edict
 				bushido
 				TOK_tokugawa_clan
+				daimyo_nation
 			}
 			focuses = {
 				focus_TOK_itsushi_war
 				focus_TOK_dutch_missions
 				focus_TOK_expel_the_barbarians
+				focus_TOK_edo_industrial_complex
+				focus_TOK_move_emperor_to_edo
+
 			}
 		}
 		"JAP"={

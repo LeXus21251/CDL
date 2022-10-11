@@ -72,7 +72,7 @@ characters={
 		name="Saigō Jūdō"
 		portraits={
 			civilian={
-				large="gfx/leaders/JAP"
+				large="gfx/leaders/JAP/Saigo_Judo.dds"
 			}
 		}
 		navy_leader={

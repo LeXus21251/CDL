@@ -1071,10 +1071,6 @@ technologies = {
 			leads_to_tech = 3_ship_hull_ironclad
 			research_cost_coeff = 1
 		}
-		dependencies = {
-			early_ship_hull_ironclad  = 1
-			2_ship_hull_frigate = 1
-		}
 
 		allow_branch = {
 			has_dlc = "Man the Guns"
@@ -1206,10 +1202,6 @@ technologies = {
 		path = {
 			leads_to_tech = 3_ship_hull_dreadnought
 			research_cost_coeff = 1
-		}
-		dependencies = {
-			early_ship_hull_dreadnought  = 1
-			4_ship_hull_ironclad = 1
 		}
 
 		allow_branch = {
@@ -1442,10 +1434,7 @@ technologies = {
 			leads_to_tech = early_ship_hull_armored_cruiser
 			research_cost_coeff = 1
 		}
-		dependencies = {
-			early_ship_hull_prot_cruiser  = 1
-			3_ship_hull_unprot_cruiser = 1
-		}
+
 
 		allow_branch = {
 			has_dlc = "Man the Guns"
@@ -1540,10 +1529,6 @@ technologies = {
 		path = {
 			leads_to_tech = 3_ship_hull_armored_cruiser
 			research_cost_coeff = 1
-		}
-		dependencies = {
-			early_ship_hull_armored_cruiser  = 1
-			3_ship_hull_prot_cruiser = 1
 		}
 
 		allow_branch = {

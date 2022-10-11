@@ -59,7 +59,7 @@ buildings = {
 		base_cost = 20000
 		provincial = yes
 		disabled_in_dmz = yes
-		icon_frame = 15
+		icon_frame = 14
 		max_level = 1
 		centered = yes
 		supply_node = yes
@@ -74,7 +74,7 @@ buildings = {
 		per_level_extra_cost = 130
 		provincial = yes
 		disabled_in_dmz = yes
-		icon_frame = 16
+		icon_frame = 15
 		max_level = 1
 		infrastructure_construction_effect = yes
 	}
@@ -170,7 +170,7 @@ buildings = {
 	fuel_silo = {
 		show_on_map = 1
 		base_cost = 5000
-		icon_frame = 14
+		icon_frame = 13
 		#max_level = 1
 		shares_slots = yes
 		value = 5
@@ -204,18 +204,6 @@ buildings = {
 		max_level = 5
 		shares_slots = yes
 		value = 1
-		infrastructure_construction_effect = yes
-	}
-
-	nuclear_reactor = {
-		show_on_map = 1
-		base_cost = 30000
-		icon_frame = 13
-		nuclear_reactor = yes
-		nuclear_production_factor = 1
-		max_level = 1 # This is the max unlock level
-		shares_slots = yes
-		value = 10
 		infrastructure_construction_effect = yes
 	}
 }

@@ -7,7 +7,6 @@ scripted_gui = {
 
 		effects = {
             parties_button_click = {
-                <effects>
             }
 			triggers = {
 					parties_button_click_enabled = {

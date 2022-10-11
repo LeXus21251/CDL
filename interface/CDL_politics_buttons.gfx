@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_leaders_button"
+		texturefile = "gfx/interface/buttons/leaders_button.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	spriteType = {
+		name = "GFX_cultures_button"
+		texturefile = "gfx/interface/buttons/cultures_button.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}

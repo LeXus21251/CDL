@@ -135,8 +135,16 @@ focus_tree = {
 			focus = focus_TOK_yamashiro_defensives
 			focus = focus_TOK_move_emperor_to_edo
 		}
+		bypass = {
+			TOK = {
+				kansai_states = yes
+			}
+		}
 		completion_reward = {
-		
+			add_timed_idea = {
+				idea = TOK_kansai_attack
+				days = 60	
+			}
 
 	}
 	}
@@ -154,11 +162,18 @@ focus_tree = {
 		prerequisite = {
 			focus = focus_TOK_cleanse_of_kansai
 		}
+		available = {
+			NOT = {
+				has_idea = TOK_kansai_attack
+			}
+		}
 		completion_reward = {
-		
-
+			add_timed_idea = {
+				idea = TOK_shikoku_attack
+				days = 60	
+			}
 	}
-	}
+}
 	focus = {
 		id = focus_TOK_push_them_out_of_honshu
 		icon = GFX_focus_TOK_push_them_out_of_honshu
@@ -173,11 +188,18 @@ focus_tree = {
 		prerequisite = {
 			focus = focus_TOK_cleanse_of_kansai
 		}
+		available = {
+			NOT = {
+				has_idea = TOK_kansai_attack
+			}
+		}
 		completion_reward = {
-		
-
+			add_timed_idea = {
+				idea = TOK_honshu_attack
+				days = 60	
+			}
 	}
-	}
+}
 	focus = {
 		id = focus_TOK_fall_of_satsuma
 		icon = GFX_focus_TOK_fall_of_satsuma
@@ -195,9 +217,19 @@ focus_tree = {
 		prerequisite = {
 			focus = focus_TOK_push_them_out_of_honshu
 		}
+		available = {
+			NOT = {
+				AND = {
+				has_idea = TOK_honshu_attack
+				has_idea = TOK_shikoku_attack
+				}
+			}
+		}
 		completion_reward = {
-		
-
+			add_timed_idea = {
+				idea = TOK_kyushu_attack
+				days = 60	
+			}
 	}
 	
 	}
@@ -248,6 +280,10 @@ focus_tree = {
 			focus = focus_TOK_expel_the_barbarians
 		}
 		completion_reward = {
+			set_country_flag = tokugawa_dutch_help
+			add_political_power = 100
+			drop_cosmetic_tag = yes
+			hidden_effect = {
 			every_country = {
 				limit = {
 					OR = {
@@ -259,7 +295,8 @@ focus_tree = {
 			}
 			TOK = {add_opinion_modifier = { target = HOL modifier = huge_increase }}
 			TOK = {add_opinion_modifier = { target = VOC modifier = huge_increase }}
-
+		}
+		custom_effect_tooltip = TOK_dutch_missions_tt
 	}
 	}
 	focus = {
@@ -277,7 +314,8 @@ focus_tree = {
 			focus = focus_TOK_dutch_missions
 		}
 		completion_reward = {
-		
+			### DUTCH TROOPS NEW TEMPLATE TBA
+			army_experience = 20
 
 	}
 	}
@@ -306,19 +344,7 @@ focus_tree = {
 				amount = 2000
 				producer = HOL
 			}
-			TOK = {
-				create_ship = {
-					type = ship_hull_submarine_1
-					equipment_variant = "Yamamoto Class"
-					creator = HOL
-					name = "Nihon"
-				}
-			}
-			add_tech_bonus = {
-				bonus = 0.5
-				uses = 1
-				category = weapons_tech
-			}
+			###TBA
 		
 
 	}
@@ -338,6 +364,16 @@ focus_tree = {
 			focus = focus_TOK_new_old_guns
 		}
 		completion_reward = {
+			HOL = {
+			create_production_license = {
+				target = TOK
+				equipment = {
+					type = infantry_equipment_1
+					version = 0
+				}
+				cost_factor = 0
+			}
+		}
 		
 
 	}
@@ -376,6 +412,9 @@ focus_tree = {
 			focus = focus_TOK_dutch_industrial_mission
 		}
 		completion_reward = {
+			TOK = {
+				production_speed_industrial_complex_factor = 0.05
+			}
 		
 
 	}
@@ -394,7 +433,58 @@ focus_tree = {
 		prerequisite = {
 			focus = focus_TOK_dutch_investors
 		}
+		available = {
+			edo_complex_states = yes
+		}
+			
 		completion_reward = {
+			hidden_effect = {
+		build_railway = {
+			path = { 13658 1182 4100 7016 4118 1024 7169 }
+		}
+		build_railway = {
+			path = { 13658 14381 1097 11908 11989 1117 13657 }
+		}
+		build_railway = {
+			path = { 14381 14382 9998 7157 7087 12097 10125 4142 11960 14455 }
+		}
+		build_railway = {
+			path = { 7072 11960 }
+		}
+		1571 = {
+		add_building_construction = {
+			type = supply_node
+			instant_build = yes
+			level = 1
+			province = 14455
+		}
+	}
+		844 = {
+			add_building_construction = {
+				type = supply_node
+				instant_build = yes
+				level = 1
+				province = 1182
+			}
+		}
+		1600 = {
+			add_building_construction = {
+				type = naval_base
+				instant_build = yes
+				level = 2
+				province = 13657
+			}
+		}
+		1579 = {
+			add_building_construction = {
+				type = naval_base
+				instant_build = yes
+				level = 2
+				province = 7169
+			}
+		}
+	}
+	custom_effect_tooltip = TOK_edo_industrial_complex_tt
 		
 
 	}

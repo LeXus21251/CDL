@@ -12,17 +12,17 @@ news_event = {
 	picture = GFX_JCW_news
 	
 	major = yes
-	fire_only_once = yes
-
+	fire_only_once = no
+	is_triggered_only = yes
 	trigger = {
 		NOT = {
 			OR = {
-				tag = JAP
-				tag = TOK
-				tag = JAC
-				}
+			original_tag = JAP
+			original_tag = JAC
+			original_tag = TOK
 			}
 		}
+	}
 	
 	option = {
 		name = "It is interesting"
@@ -37,7 +37,7 @@ news_event = {
 	
 	major = yes
 	is_triggered_only = yes
-	fire_only_once = yes
+	fire_only_once = no
 	
 	option = {
 	name = "Will the ancient people gain freedom?"
@@ -77,7 +77,7 @@ news_event = {
 	
 	major = yes
 	is_triggered_only = yes
-	fire_only_once = yes
+	fire_only_once = no
 	
 	option = {
 	name = "Middle Eastern Christians remember their existence."
@@ -117,7 +117,7 @@ news_event = {
 	
 	major = yes
 	is_triggered_only = yes
-	fire_only_once = yes
+	fire_only_once = no
 	
 	option = {
 	name = "How will this affect a great empire?"
@@ -157,7 +157,7 @@ news_event = {
 	
 	major = yes
 	is_triggered_only = yes
-	fire_only_once = yes
+	fire_only_once = no
 	
 	option = {
 	name = "An interesting war between the caliphs and the Christian republics"
@@ -197,7 +197,7 @@ news_event = {
 	
 	major = yes
 	is_triggered_only = yes
-	fire_only_once = yes
+	fire_only_once = no
 	
 	option = {
 	name = "Another jug ​​of oil on fire"
@@ -237,7 +237,7 @@ news_event = {
 	
 	major = yes
 	is_triggered_only = yes
-	fire_only_once = yes
+	fire_only_once = no
 	
 	option = {
 	name = "It's time to prepare for border changes"
@@ -277,7 +277,7 @@ news_event = {
 	
 	major = yes
 	is_triggered_only = yes
-	fire_only_once = yes
+	fire_only_once = no
 	
 	option = {
 	name = "It will be a historic moment"
@@ -317,7 +317,7 @@ news_event = {
 	
 	major = yes
 	is_triggered_only = yes
-	fire_only_once = yes
+	fire_only_once = no
 	
 	option = {
 	name = "Interesting"
@@ -357,7 +357,7 @@ news_event = {
 	
 	major = yes
 	is_triggered_only = yes
-	fire_only_once = yes
+	fire_only_once = no
 	
 	option = {
 	name = "This moment is clearly getting closer"
@@ -397,7 +397,7 @@ news_event = {
 	
 	major = yes
 	is_triggered_only = yes
-	fire_only_once = yes
+	fire_only_once = no
 	
 	option = {
 	name = "Freedom for the local nations is approaching ..."
@@ -437,7 +437,7 @@ news_event = {
 	
 	major = yes
 	is_triggered_only = yes
-	fire_only_once = yes
+	fire_only_once = no
 	
 	option = {
 	name = "Interesting"
@@ -477,7 +477,7 @@ news_event = {
 	
 	major = yes
 	is_triggered_only = yes
-	fire_only_once = yes
+	fire_only_once = no
 	
 	option = {
 	name = "Interesting"
@@ -507,4 +507,21 @@ news_event = {
 	name = "Congratulations to the Druze!"
 		trigger = {TAG = EGY}
 		}
+}
+## AUREUM CATHEDRAL ##
+news_event = {
+	id = news.13
+	title = news.13.t
+	desc = news.13.d
+	picture = GFX_aureum_cathedral_news
+	
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = {
+	name = "A new architectural gem in the world"
+	trigger = {
+		
+	}
 }

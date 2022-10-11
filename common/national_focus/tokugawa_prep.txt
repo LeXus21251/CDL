@@ -26,9 +26,11 @@ focus_tree = {
 			country_event = {
 				id = tokugawa.0
 				}
+				news_event = {
+					id = news.0
+				}
 			TOK = {
 				load_focus_tree = tokugawa_war_tree
-				drop_cosmetic_tag = yes
 			} 
 			JAP = {
 				load_oob = JAP_war

@@ -13,6 +13,13 @@ if = {
 
 set_research_slots = 3
 
+set_variable = { CDL_main_culture = 17 }
+add_to_array = { CDL_accepted_cultures = 17 }
+add_to_array = { CDL_accepted_cultures = 18 }
+add_to_array = { CDL_accepted_cultures = 19 }
+add_to_array = { CDL_accepted_cultures = 20 }
+add_to_array = { CDL_accepted_cultures = 21 }
+
 
 # Starting tech
 set_technology = {

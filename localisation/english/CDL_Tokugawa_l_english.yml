@@ -3,18 +3,27 @@
  ##NAMES
   TOK:0 "Tokugawa"
   TOK_ADJ:0 "Tokugawan"
-  TOK_DEF:0 "Tokugawa"
+  TOK_DEF:0 "the Tokugawa"
   TOK_military_government:0 "Tokugawa Shogunate"
-  TOK_DEF_military_government:0 "Tokugawa Shogunate"
+  TOK_military_government_ADJ:0 "Tokugawan"
+  TOK_military_government_DEF:0 "the Tokugawa Shogunate"
   
  ##CTAGS
   TOK_ezo: "Ezo Republic"
   TOK_ezo_ADJ: "Ezo"
-  TOK_ezo_DEF: "Ezo Republic"
+  TOK_ezo_DEF: "the Ezo Republic"
+
+ ##HISTORY
+  TOK_ITSUSHI_DESC:0 "Shogunate was established in 1603 after the Battle of Sekigahara. Country opened to foreign trade, but the development of Christianity in Japan became problematic and he banned it in 1610. As a result of previous events, the Shogun decided to close the islands in 1635 under the Sakoku Edict which introduced a number of restrictions and allowing only very limited trade with the Dutch.\nIn 1868, Tokugawa Yoshinobu being a proponent of modernizing the country eased the Sakoku Edict by opening up to trade,diplomacy etc. However, as a result of the opening, the Russian Empire forcibly occupied the Chishima Islands in 1874 leading to Japan's re-enclosure. Living in fear of further colonization and society began to modernize. In recent years there has been growing unrest over a newly developing religion and supporters of the Emperor"
  
  ##PARTIES
   TOK_military_government_party:0 "Tokugawa Bakufu"
   TOK_military_government_party_long:0 "Tokugawa Bakufu"
+
+ ##CHARACTERS
+  #LEADERS
+   TOK_tokugawa_yoshinobu: "Tokugawa Yoshinobu"
+   TOK_TOKUGAWA_YOSHINOBU_DESC: "Born 28/10/1937 in Edo \n\nBorn as Matsudaira Shichirōmaro. Son of Daimyo of the Mito Domain and a Princess from one of the branches of the Imperial Family. He had a very good education. At the age of 10, he was named Yoshinobu and became a pretendend for Shogun, but the opposing faction won. He and his supporters were put under house arrest, and he was forced to relinquish being head of the Hitotsubashi family. In 1866 he became the 15th Shogun after the death of the previous one. Two years later he opened the country to international diplomacy, which resulted in modernization but also the loss of the Chishima Islands to Russia and the fear of colonization, which led to renewed closure, with the only exception being the Dutch. Throughout his reign he promotes technological development and maintains good relations with the Dutch"
   
  ##IDEAS
   daimyo_nation:0 "Daimyo Nation"
@@ -25,6 +34,10 @@
   bushido_desc:0 "§OBushidō§! is an unwritten set of rules that every honorary samurai follows. It is about following perfection and moral rules. Samurai fight whether or not they may die."
   TOK_tokugawa_clan:0 "Tokugawa Clan"
   TOK_tokugawa_clan_desc:0 "§gTokugawa Clan§! is ruling over Japan since 1603. Although disadvantages of isolationism introduced in the Edo period its bring us stabilisation and peace within the Japanese Domains."
+  TOK_kansai_attack:0 "Attack Kansai"
+  TOK_honshu_attack:0 "Attack Honshu"
+  TOK_shikoku_attack:0 "Attack Shikoku"
+  TOK_kyushu_attack:0 "Attack Kyushu"
   
  ##FOCUSES
   #TREE NAMES
@@ -97,8 +110,8 @@
     focus_TOK_the_way_samurai:0 "Way of the Samurai"
     focus_TOK_the_way_samurai_desc:0 "Samurai adhere to the unwritten rules of Bushidō. This makes them dedicated, honorable and brave warriors. This is exactly what our army needs."
  ##EVENTS
-  tokugawa.0.t:0 "Start of the Itsushi War"
-  tokugawa.0.d:0 "Due to high tension between Emperor and Shogun, the country has split in two. The southern Daimyos seceded from the Shogunate and declared their support for the Emperor. \n\nOn the other hand Tenri-Kyo cult has rebelled, forming a third side in the war and occupying many important cities."
+  tokugawa.0.t:0 "Start of the inevitable civil war"
+  tokugawa.0.d:0 "[GetDate] Itsushi War has started. At the end of the Yang Wood Dragon Year, the southern Daimyos decided to oppose the Shogun and overthrow his government. Under the leadership of [JAP.JAP_saigo_takamori.GetName], the alliance is about to move in our direction and take back the Emperor. \n\nOn the other hand, the Tenri-Kyō cult, which has been growing strongly in recent years, has taken advantage of the situation and seized several provinces with the help of their loyalists."
 
  ##DECISIONS
   TOK_northern_alliance:0 "Recruitment in the north"
@@ -109,5 +122,7 @@
  ##FLAGS
   itsushi_war_started:0 "§OItsushi War§! has started" #global
  ##TOOLTIPS
-  TOK_itsushi_start_tt:0 "The time of the §RInevitable War§! has come, to battle!" #focus
   TOK_north_remember_tt:0 "§YNorthern Alliance§! will help us in the war \nUnlocks §Y'Recruitment in the north'§! decisions" #focus
+  TOK_itsushi_start_tt:0 "The time of the §RInevitable War§! has come, to battle!" #focus
+  TOK_dutch_missions_tt:0 "Tightening ties with §Y[HOL.GetNameWithFlag]§! and §YVOC§! (§G+50§! opinion)" #focus
+  TOK_edo_industrial_complex_tt:0 "Railway system" #focus

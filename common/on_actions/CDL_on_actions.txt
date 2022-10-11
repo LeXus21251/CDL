@@ -1,0 +1,23 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			## PREVENTING PLAYER FROM NOT STARTING ITSUSHI WAR
+			TOK = {
+			country_event = {
+				id = special.0
+				days = 7
+			}
+		}
+		if = {
+			limit = { NOT = { has_global_flag = itsushi_war_started } }
+			news_event = { id = news.0 }
+		}
+		}
+	}
+
+	on_startup = {
+		effect = {
+			set_global_flag = politics_buttons_visible
+		}
+	}
+}

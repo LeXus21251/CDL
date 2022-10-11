@@ -1,0 +1,15 @@
+state={
+	id=2378
+	name="STATE_2378"
+	provinces={
+		14485 
+	}
+	history={
+		owner = TUS
+		add_core_of = TUS
+	}
+	manpower=53671
+	buildings_max_level_factor=1.000
+	state_category = rural
+	local_supplies=0.000
+}

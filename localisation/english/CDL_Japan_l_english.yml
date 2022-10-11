@@ -5,11 +5,14 @@
   JAP_ADJ:0 "Japanese"
   JAP_DEF:0 "Japan"
   JAP_absolutism:0 "Empire of Japan"
-  JAP_DEF_absolutism:0 "Empire of Japan"
+  JAP_absolutism_ADJ:0 "Japanese"
+  JAP_absolutism_DEF:0 "the Empire of Japan"
   
  ##CTAGS
   JAP_saigo_shogunate:0 "Saigō Shogunate"
   JAP_satcho:0 "Satchō Alliance"
+  JAP_satcho_ADJ:0 "Japanese"
+  JAP_satcho_DEF:0 "the Satchō Alliance"
  
  ##PARTIES
   
@@ -82,4 +85,14 @@
     focus_JAP_better_lines_desc:0 ""
     focus_JAP_open_railway:0 "Open railways on the south"
     focus_JAP_open_railway_desc:0 ""
+  ##SATCHO ALLIANCE GUI
+
+    satcho_alliance_tt:0 "§OSatchō Alliance§!"
+    saigo_takamori_tt:0 "§YSaigō Takamori§!"
+    makino_nobuaki_tt:0 "§YMakino Nobuaki§!"
+    makino_nobuaki_desc_tt:0 "Makino Nobuaki"
+    yamagata_aritomo_tt:0 "§YYamagata Aritomo§!"
+
+    satsuma_domain_tt:0 "§YSatsuma Domain§!"
+    choshu_domain_tt:0 "§YChōshū Domain§!"
    

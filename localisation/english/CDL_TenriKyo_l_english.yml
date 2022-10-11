@@ -2,15 +2,15 @@
 
  ##NAMES
   JAC:0 "Celestial"
-  JAC_ADJ:0 "Celestianese"
+  JAC_ADJ:0 "Celestial"
   JAC_DEF:0 "Celestial"
   JAC_traditionalism:0 "Celestial Empire"
   JAC_DEF_traditionalism:0 "Celestial Empire"
   
  ##CTAGS
   JAC_rebellion: "Tenri-Kyō Rebellion"
-  JAC_rebellion_DEF: "Tenri-Kyō Rebellion"
-  JAC_rebellion_ADJ: "Tenri-Kyō"
+  JAC_rebellion_DEF: "Rebelious"
+  JAC_rebellion_ADJ: "the Tenri-Kyō Rebellion"
 
  ##TOOLTIPS
   tenri_kyo_state:0 "True faith provinces"

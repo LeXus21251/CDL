@@ -521,26 +521,9 @@ ideas = {
 		export_focus = {
 			
 			available = {
-			
-			if = {
+	
 			
 					NOT = {has_idea = sakoku_edict }
-				}
-
-				if = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
-				}
-				if = {
-					limit = {
-						original_tag = SPR
-						has_dlc = "La Resistance"
-					}
-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
-				}
 			}
 			
 			
@@ -741,6 +724,46 @@ ideas = {
 					# since they will require our trades
 					has_large_ally_not_pick_closed_economy = yes
 				}
+   			}
+		}
+
+		sakoku_edict_trade = {
+		
+			
+			
+			available = {
+				AND = {
+					tag = TOK
+					has_idea = sakoku_edict
+				}
+			}
+
+			allowed_to_remove = {
+				NO = {
+					has_idea = sakoku_edict
+				}
+			}
+			
+			cost = 150
+			removal_cost = -1
+			
+			
+			modifier = {
+				if = {
+					limit = { tag = HOL}
+				min_export = 0.5
+				#civilian_intel_to_others = 0.0
+				}
+			}
+			
+			on_add = {
+				custom_effect_tooltip = sakoku_edict_trade_TT
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
    			}
 		}
 	}

@@ -231,7 +231,7 @@ VICTORY_POINT_WORTH_FACTOR_WARSCORE = 0.2,				-- multiplier for each victory poi
 },
 
 NCountry = {
-	EVENT_PROCESS_OFFSET = 20,						-- Events are checked every X day per country or state (1 is ideal, but CPU heavy)
+	EVENT_PROCESS_OFFSET = 1,						-- Events are checked every X day per country or state (1 is ideal, but CPU heavy)
 	BASE_RESEARCH_SLOTS = 2,						-- Base number of research slots per country.
 	POPULATION_YEARLY_GROWTH_BASE = 0.015,			-- basic population growth per year, used for monthly manpower gain
 	RESISTANCE_STRENGTH_FROM_VP = 0.001,			-- How much strength ticking speed gives each VP score.

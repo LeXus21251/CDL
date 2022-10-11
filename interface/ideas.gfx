@@ -699,6 +699,11 @@ spriteTypes = {
 		name = "GFX_idea_export_focus"
 		texturefile = "gfx/interface/ideas/idea_generic_export_focus.dds"
 	}	
+
+	spriteType = {
+		name = "GFX_idea_sakoku_edict_trade"
+		texturefile = "gfx/interface/ideas/idea_sakoku_edict_trade.dds"
+	}
 	
 
 	### GENERIC PORTRAITS EUROPE

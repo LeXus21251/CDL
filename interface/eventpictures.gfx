@@ -101,6 +101,10 @@ spriteTypes = {
 		name = "GFX_alawit_revolt"
 		texturefile = "gfx/event_pictures/alawit_revolt.dds"
 	}
+	spriteType = {
+		name = "GFX_aureum_cathedral_news"
+		texturefile = "gfx/event_pictures/aureum_cathedral_news.dds"
+	}
 	
 	
 	

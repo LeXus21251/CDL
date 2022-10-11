@@ -66,7 +66,7 @@ set_technology = {
 			TOK_tokugawa_clan
 			
 			limited_conscription
-			closed_economy
+			sakoku_edict_trade
 			low_economy_mobilization
 			
 			}

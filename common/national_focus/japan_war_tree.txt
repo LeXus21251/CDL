@@ -524,6 +524,7 @@ focus = {
 		}
 
 		available = {
+			edo_complex_states = yes
 		}
 
 		completion_reward = {

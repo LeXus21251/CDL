@@ -1,6 +1,6 @@
 characters={
 	TOK_tokugawa_yoshinobu={
-		name="Tokugawa Yoshinobu"
+		name=TOK_tokugawa_yoshinobu
 		portraits={
 			civilian={
 				large="gfx/leaders/TOK/Tokugawa_Yoshinobu.dds"
@@ -8,7 +8,8 @@ characters={
 		}
 		country_leader={
 			ideology=military_government_subtype
-			traits={shogun}
+			traits={shogun modernizer}
+			desc=TOK_TOKUGAWA_YOSHINOBU_DESC
 			expire="1965.1.1.1"
 			id=-1
 		}

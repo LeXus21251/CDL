@@ -1,0 +1,25 @@
+scripted_gui = {
+    CDL_politics_buttons = {
+        window_name = "politics_buttons_window"
+        context_type = player_context
+		parent_window_token = politics_tab
+         
+        visible = {
+            has_global_flag = politics_buttons_visible
+        }
+        
+        effects = {
+			leaders_button_click = {
+				set_country_flag = leaders_button_clicked
+			}
+			cultures_button_click = {
+				set_country_flag = cultures_button_clicked
+			}
+        }
+
+		triggers = {
+			leaders_button_click_enabled = {
+				original_tag = JAP
+			}
+		}
+}

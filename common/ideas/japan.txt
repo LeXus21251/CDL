@@ -55,7 +55,7 @@ ideas = {
 			modifier = {
 			offensive_war_stability_factor
 			= -0.15
-			heavy_cavalry_attack_factor = 0.10
+			cavalry_attack_factor = 0.10
 			}
 		}
 		JAP_emperor = {

@@ -1,5 +1,78 @@
 ideas = {
 
+	hidden_ideas = {
+		TOK_kansai_attack = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			targeted_modifier = {
+				tag = JAP
+				attack_bonus_against = 0.1
+			}
+		}
+		TOK_honshu_attack = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			targeted_modifier = {
+				tag = JAP
+				attack_bonus_against = 0.1
+			}
+		}
+		TOK_shikoku_attack = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			targeted_modifier = {
+				tag = JAP
+				attack_bonus_against = 0.1
+			}
+		}
+		TOK_kyushu_attack = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			targeted_modifier = {
+				tag = JAP
+				attack_bonus_against = 0.1
+			}
+		}
+
+
+	}
+
 	country = {
 		sakoku_edict = {
 
@@ -55,7 +128,7 @@ ideas = {
 			modifier = {
 			offensive_war_stability_factor
 			= -0.15
-			heavy_cavalry_attack_factor = 0.10
+			cavalry_attack_factor = 0.10
 			}
 		}
 		TOK_tokugawa_clan = {
