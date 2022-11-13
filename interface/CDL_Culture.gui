@@ -116,7 +116,7 @@ guiTypes = {
 		background = {
 			name ="state_culture_window"
 			quadTextureSprite = "GFX_tiled_window"
-			position = { x= 66 y = -200 }
+			position = { x= 119 y = -200 }
 		}
 
 		## Culture loc
@@ -124,7 +124,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "culture_text"
 			font = "hoi_24header"
-			position = { x= 95 y = -190 }
+			position = { x= 151 y = -190 }
 			text = "State Culture"
 			maxWidth = 130
 			maxHeight = 16
@@ -135,7 +135,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "culture_name"
 			font = "cg_16b"
-			position = { x= 90 y = -70 }
+			position = { x= 146 y = -70 }
 			text = "[get_CDL_Culture_Loc]"
 			maxWidth = 150
 			maxHeight = 16
@@ -147,7 +147,7 @@ guiTypes = {
 
         iconType = {
 			name = "CDL_culture_flag"
-			position = { x= 120 y = -140 }
+			position = { x= 176 y = -140 }
 			scale = 0.85
     	    pdx_tooltip = CDL_Culture_Expanded_Lore_tt
 			pdx_tooltip_delayed = CDL_Culture_Expanded_Lore_tt_delayed
@@ -155,7 +155,7 @@ guiTypes = {
 	}
 	
 	containerWindowType = {
-		name = "PB_Culture_debug_marker"
+		name = "CDL_Culture_debug_marker"
 		buttonType = {
 			name = "marker_button"
 			spritetype = "GFX_checkbox_button"

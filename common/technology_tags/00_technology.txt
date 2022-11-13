@@ -10,7 +10,7 @@ technology_categories = {
 	cat_medium_armor
 	cat_heavy_armor
 	artillery
-	cat_anti_landship
+	cat_anti_tank
 	cat_anti_air
 	naval_air
 	infantry_weapons
@@ -46,7 +46,6 @@ technology_categories = {
 	shbb_tech
 	ss_tech
 	tp_tech
-
 	fr_tech
 	cds_tech
 	mn_tech
@@ -58,8 +57,6 @@ technology_categories = {
 	upc_tech
 	pc_tech
 	ac_tech 
-
-
 	synth_resources
 	fleet_in_being_tree
 	encryption_tech

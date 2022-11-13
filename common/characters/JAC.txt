@@ -1,6 +1,7 @@
 characters={
 	JAC_nakayama_sakura={
-		name="Nakayama Sakura"
+		name=JAC_nakayama_sakura
+		gender = female
 		portraits={
 			civilian={
 				large="gfx/leaders/JAC/Nakayama_Sakura.dds"
@@ -9,6 +10,7 @@ characters={
 		country_leader={
 			ideology=traditionalism_subtype
 			traits={}
+			desc=JAC_NAKAYAMA_SAKURA_DESC
 			expire="1965.1.1.1"
 			id=-1
 		}

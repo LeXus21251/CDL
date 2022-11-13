@@ -1,0 +1,16 @@
+state={
+	id=2384
+	name="STATE_2384"
+	provinces={
+		3282 6253 6312 6357 9244 9259 9307 9373 
+	}
+	history={
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = CHU
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

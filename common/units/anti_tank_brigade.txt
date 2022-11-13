@@ -1,8 +1,8 @@
 sub_units = {
 
-	anti_landship_brigade = {
-		abbreviation = "ANL"
-		sprite = anti_landship
+	anti_tank_brigade = {
+		abbreviation = "ANT"
+		sprite = anti_tank
 		map_icon_category = infantry
 		priority = 1197
 		ai_priority = 100
@@ -10,7 +10,7 @@ sub_units = {
 		
 		type = {
 			infantry
-			anti_landship
+			anti_tank
 		}
 		
 		group = art
@@ -24,7 +24,7 @@ sub_units = {
 		combat_width = 1
 
 		need = {
-			anti_landship_equipment = 36
+			anti_tank_equipment = 36
 		}
 		manpower = 500
 		max_organisation = 0
@@ -71,9 +71,9 @@ sub_units = {
 			attack = -0.4
 		}
 	}
-	mot_anti_landship_brigade = {
-		abbreviation = "MAL"
-		sprite = anti_landship
+	mot_anti_tank_brigade = {
+		abbreviation = "MAT"
+		sprite = anti_tank
 		map_icon_category = infantry
 		priority = 1197
 		ai_priority = 100
@@ -81,7 +81,7 @@ sub_units = {
 		
 		type = {
 			motorized
-			anti_landship
+			anti_tank
 		}
 		
 		group = mot_drawn
@@ -95,7 +95,7 @@ sub_units = {
 		combat_width = 1
 		transport = motorized_equipment
 		need = {
-			anti_landship_equipment = 36
+			anti_tank_equipment = 36
 			motorized_equipment = 50
 		}
 		manpower = 500
@@ -144,9 +144,9 @@ sub_units = {
 		}
 	}
 	
-	anti_landship_horse_brigade = {
-		abbreviation = "HAL"
-		sprite = anti_landship
+	anti_tank_horse_brigade = {
+		abbreviation = "HAT"
+		sprite = anti_tank
 		map_icon_category = infantry
 		priority = 1197
 		ai_priority = 100
@@ -154,7 +154,7 @@ sub_units = {
 		
 		type = {
 			motorized
-			anti_landship
+			anti_tank
 		}
 		
 		group = animal_drawn
@@ -168,7 +168,7 @@ sub_units = {
 		combat_width = 1
 		transport = motorized_equipment
 		need = {
-			anti_landship_equipment = 36
+			anti_tank_equipment = 36
 			motorized_equipment = 50
 		}
 		manpower = 500

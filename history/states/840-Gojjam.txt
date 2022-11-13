@@ -6,12 +6,16 @@ state={
 		owner = QIN
 		add_core_of = QIN
 
+		victory_points = {
+			7186 5 
+		}
+
 	}
 
 	provinces={
 		7186 7214 11959 
 	}
-	manpower=2546000
+	manpower=1223672
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

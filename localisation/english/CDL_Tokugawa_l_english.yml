@@ -19,10 +19,12 @@
  ##PARTIES
   TOK_military_government_party:0 "Tokugawa Bakufu"
   TOK_military_government_party_long:0 "Tokugawa Bakufu"
-
+  TOK_military_government_subtype_desc:0 "The §YTokugawa Bakufu§! is a military-feudal regime that has ruled for more than 300 years. Although the country is divided into §Odomains§! the central government holds power over them. \nThe government is very progressive and many aspects have improved during its reign."
  ##CHARACTERS
   #LEADERS
    TOK_tokugawa_yoshinobu: "Tokugawa Yoshinobu"
+  
+
    TOK_TOKUGAWA_YOSHINOBU_DESC: "Born 28/10/1937 in Edo \n\nBorn as Matsudaira Shichirōmaro. Son of Daimyo of the Mito Domain and a Princess from one of the branches of the Imperial Family. He had a very good education. At the age of 10, he was named Yoshinobu and became a pretendend for Shogun, but the opposing faction won. He and his supporters were put under house arrest, and he was forced to relinquish being head of the Hitotsubashi family. In 1866 he became the 15th Shogun after the death of the previous one. Two years later he opened the country to international diplomacy, which resulted in modernization but also the loss of the Chishima Islands to Russia and the fear of colonization, which led to renewed closure, with the only exception being the Dutch. Throughout his reign he promotes technological development and maintains good relations with the Dutch"
   
  ##IDEAS
@@ -38,6 +40,8 @@
   TOK_honshu_attack:0 "Attack Honshu"
   TOK_shikoku_attack:0 "Attack Shikoku"
   TOK_kyushu_attack:0 "Attack Kyushu"
+
+  TOK_dutch_investors:0 "Dutch investors"
   
  ##FOCUSES
   #TREE NAMES
@@ -92,9 +96,9 @@
     focus_TOK_expel_the_barbarians:0 "Expel the barbarians"
     focus_TOK_expel_the_barbarians_desc:0 "We must expel the western barbarians from the islands! It is because of them that the southern domains rebelled, we will not allow them to continue in our homeland!"
     focus_TOK_strenghten_the_shugo_system:0 "Strenghten the Shugo System"
-    focus_TOK_strenghten_the_shugo_system_desc:0 "The Shugo system will allow us to please the leaders of some Daimyo. It will give us more obedience and willingness to fight."
+    focus_TOK_strenghten_the_shugo_system_desc:0 "The Shugo system will allow us to please the Daimyos. It will give us more obedience and willingness to fight."
     focus_TOK_warrior_and_the_landlord:0 "Warrior and the landlord"
-    focus_TOK_warrior_and_the_landlord_desc:0 "Samurai are both warriors and landlords and have a great influence on government, society and many other aspects. We cannot oppose them and they do not want to modernize for fear of western influence."
+    focus_TOK_warrior_and_the_landlord_desc:0 "Samurai are both warriors and landlords and have a great influence on government, society and many other aspects. We cannot oppose them and they do not want to modernize under european influence."
     focus_TOK_our_soil:0 "Our soil"
     focus_TOK_our_soil_desc:0 "To have a chance to win we need to increase the production of equipment that comes from OUR SOIL. Only Japanese weapons have their place on the islands."
     focus_TOK_bow_over_the_muskeet:0 "Bow over the muskeet"
@@ -112,17 +116,34 @@
  ##EVENTS
   tokugawa.0.t:0 "Start of the inevitable civil war"
   tokugawa.0.d:0 "[GetDate] Itsushi War has started. At the end of the Yang Wood Dragon Year, the southern Daimyos decided to oppose the Shogun and overthrow his government. Under the leadership of [JAP.JAP_saigo_takamori.GetName], the alliance is about to move in our direction and take back the Emperor. \n\nOn the other hand, the Tenri-Kyō cult, which has been growing strongly in recent years, has taken advantage of the situation and seized several provinces with the help of their loyalists."
+  tokugawa.1.t:0 "New Dutch port"
+  tokugawa.1.d:0 "As Dejima has been occupied by [JAP.GetName] forces and we have decided to help the Dutch we must provide them a new trading port from which to conduct operations and trade. Our choice will depend on the further fate of the cooperation."
 
  ##DECISIONS
   TOK_northern_alliance:0 "Recruitment in the north"
   TOK_northern_alliance_desc:0 "Thanks to the loyalty of our northern Daimyos, we can count on their help in the war against the rebels in the south. The united alliance of the domains of Mutsu, Dewa, Echigo and southern Ezo will support us militarily by sending people to fight in the name of the Shogun. At the same time, Sakai Tadazumi, who is Daimyo of the Shōnai Domain, may become one of the most influential military commanders"
   TOK_recruit_sakai:0 "Recruit Sakai Tadazumi"
-  TOK_recruit_from_north:0 "Recruit more warriors from allied Daimyos"
+  TOK_recruit_from_north:0 "Conscript more warriors from allied Domains"
   TOK_recruit_from_north_desc:0 "our allies in the northern part of the country can help us with their warriors to restore order and the glory of the Shogun"
+  TOK_take_back_echigo:0 "Take back Echigo"
+
+  TOK_moving_emperor_operation:0 "Operation Chrysantemum"
+  TOK_move_emperor:0 "Moving Emperor to Edo"
  ##FLAGS
   itsushi_war_started:0 "§OItsushi War§! has started" #global
  ##TOOLTIPS
   TOK_north_remember_tt:0 "§YNorthern Alliance§! will help us in the war \nUnlocks §Y'Recruitment in the north'§! decisions" #focus
   TOK_itsushi_start_tt:0 "The time of the §RInevitable War§! has come, to battle!" #focus
-  TOK_dutch_missions_tt:0 "Tightening ties with §Y[HOL.GetNameWithFlag]§! and §YVOC§! (§G+50§! opinion)" #focus
-  TOK_edo_industrial_complex_tt:0 "Railway system" #focus
+  TOK_dutch_missions_tt:0 "Tightening ties with §Y[HOL.GetName]§! and §YVOC§! (§G+50§! opinion)\nUnlocks §Y'Dutch missions'§! decisions" #focus
+  TOK_expel_dutch_tt:0 "This will §Renrage§! §Y[HOL.GetName]§! and §YVOC§! (§R-50§! opinion)" #focus
+  TOK_edo_industrial_complex_tt:0 "Railway system running from §YEdo§! to §YNiigata§!, §YOsaka§! and §YRikuzen§!\nNaval ports in §YNiigata§! and §YSandai§!" #focus
+  emperor_not_rescued_tt:0 "§OEmperor§! not rescued by §Y[JAP.GetName]§!"
+  kansai_states_tt:0 "Control all states in §YKansai Region§!"
+  shikoku_states_tt:0 "Control all states in §YShikoku Region§!"
+  southern_honshu_states_tt:0 "Control all states in §YSouthern Honshu Region§!"
+  edo_complex_states_tt:0 "Control all states running from §YEdo§! to §YNiigata§!, §YOsaka§! and §YRikuzen§!"
+
+  ##BOP
+   TOK_power_balance:0 "Tokugawa modernization balance of power"
+   TOK_liberal_modernization_side:0 "Liberal modernization"
+   TOK_conservative_modernization_side:0 "Conservative modernization"

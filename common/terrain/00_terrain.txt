@@ -199,22 +199,6 @@ categories =  {
 			}
 			navy_fuel_consumption_factor = 0.2
 		}
-		battleship = {
-			units = {
-				attack = -0.2
-				movement = -0.2
-				defence = -0.2
-			}
-			navy_fuel_consumption_factor = 0.2
-		}
-		heavy_cruiser = {
-			units = {
-				attack = -0.2
-				movement = -0.2
-				defence = -0.2
-			}
-			navy_fuel_consumption_factor = 0.2
-		}
 		carrier = {
 			units = {
 				attack = -0.2
@@ -252,13 +236,6 @@ categories =  {
 				attack = -0.2
 				movement = -0.2
 				defence = -0.2
-			}
-		}
-		light_cruiser = {
-			units = {
-				attack = -0.1
-				movement = -0.1
-				defence = -0.1
 			}
 		}
 		submarine = {

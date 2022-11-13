@@ -2,7 +2,7 @@
 
 ## -------- Map Mode -------- ##
 
-culture_map_mode_tooltip:0 "Culture of this state is §Y[From.get_CDL_Culture_Loc]§!"
+culture_map_mode_tooltip:0 "Major culture of this state is §Y[From.get_CDL_Culture_Loc]§!"
 culture_map_mode_tooltip_delayed:0 "[From.get_CDL_Culture_Loc_Delayed]"
 
 ## -------- Culture Map Mode -------- ##
@@ -137,62 +137,135 @@ CDL_Culture_Estonian_tt:0 "Estonian"
 CDL_Culture_South_Estonian_tt:0 "South Estonian"
 CDL_Culture_Russo_Estonian_tt:0 "Russo-Estonian"
 
-
-
-
- 
- 
-
-
+# UKRAINE #
+CDL_Culture_Slobodian_tt:0 "Slobodian"
+CDL_Culture_Steppe_Ukrainian_tt:0 "Steppe Ukrainian"
+CDL_Culture_Crimean_tt:0 "Crimean"
+CDL_Culture_Novorussian_tt:0 "Novorussian"
 
 # SCANDINAVIA #
 
-PB_Culture_Danish_tt:0 "Danish"
-PB_Culture_Swedish_tt:0 "Swedish"
-PB_Culture_Norwegian_tt:0 "Norwegian"
-PB_Culture_Finnish_tt:0 "Finnish"
-PB_Culture_Karelian_tt:0 "Karelian" 
+CDL_Culture_Jutlandic_tt:0 "Jutlandic"
+CDL_Culture_Insular_Danish_tt:0 "Insular Danish"
+CDL_Culture_Scanian_tt:0 "Scanian"
+CDL_Culture_Dano_Norwegian_tt:0 "Dano-Norwegian"
+CDL_Culture_East_Norwegian_tt:0 "East Norwegian"
+CDL_Culture_West_Norwegian_tt:0 "West Norwegian"
+CDL_Culture_Trondersk_tt:0 "Trøndersk"
+CDL_Culture_North_Norwegian_tt:0 "North Norwegian"
+CDL_Culture_South_Swedish_tt:0 "South Swedish"
+CDL_Culture_Svealand_Swedish_tt:0 "Svealand Swedish"
+CDL_Culture_Norrland_Swedish_tt:0 "Norrland Swedish"
+CDL_Culture_Gutnish_tt:0 "Gutnish"
+CDL_Culture_Finnish_tt:0 "Finnish"
+CDL_Culture_Fenno_Swedish_tt:0 "Fenno-Swedish"
+CDL_Culture_Karelian_tt:0 "Karelian"
+CDL_Culture_Ingrian_tt:0 "Ingrian"
+CDL_Culture_West_Sami_tt:0 "West Sami"
+CDL_Culture_East_Sami_tt:0 "East Sami"
+CDL_Culture_Faroe_tt:0 "Faroe"
+CDL_Culture_Icelandic_tt:0 "Icelandic"
 
-# ASIA-MINOR #
+# EUROPEAN RUSSIA #
 
-PB_Culture_Turkish_tt:0 "Turkish" 
-PB_Culture_Stamboul_tt:0 "Stamboul" 
+CDL_Culture_Middle_Russian_tt:0 "Middle Russian"
+CDL_Culture_North_Russian_tt:0 "North Russian"
+CDL_Culture_South_Russian_tt:0 "South Russian"
+CDL_Culture_Komi_tt:0 "Komi"
+CDL_Culture_Mari_tt:0 "Mari"
+CDL_Culture_Chuvash_tt:0 "Chuvash"
+CDL_Culture_Bashkir_tt:0 "Bashkir"
+CDL_Culture_Kalmyk_tt:0 "Kalmyk"
+CDL_Culture_Volga_Polish_tt:0 "Volga Polish"
 
-# Russia #
+# CAUCASUS #
 
-PB_Culture_Ukrainian_tt:0 "Ukrainian" 
-PB_Culture_Moldovan_tt:0 "Moldovan"
-PB_Culture_Malorussian_tt:0 "Malorussian"
-PB_Culture_Polish_tt:0 "Polish"
-PB_Culture_Russopolish_tt:0 "Russopolish"
-PB_Culture_Lithuanian_tt:0 "Lithuanian"
-PB_Culture_Russian_tt:0 "Russian"
-PB_Culture_Siberian_tt:0 "Siberian"
-PB_Culture_Finno_Ugrian_tt:0 "Finno-Ugrian"
-PB_Culture_Yakutian_tt:0 "Yakutian"
-PB_Culture_Volga_German_tt:0 "Volga-German"
-PB_Culture_Avarian_tt:0 "Avarian"
-PB_Culture_Kalmykian_tt:0 "Kalmykian"
-PB_Culture_Kubanian_tt:0 "Kubanian"
-PB_Culture_Circassian_tt:0 "Circassian"
-PB_Culture_Latvian_tt:0 "Latvian"
-PB_Culture_Estonian_tt:0 "Estonian"
-PB_Culture_Russobaltic_tt:0 "Russobaltic"
-PB_Culture_Kazakh_tt:0 "Kazakh"
-PB_Culture_Tatar_tt:0 "Tatar"
-PB_Culture_Bashkirian_tt:0 "Bashkirian"
-PB_Culture_Udmurtian_tt:0 "Udmurtian"
-PB_Culture_Nenet_tt:0 "Nenet"
-PB_Culture_Altaian_tt:0 "Altaian"
-PB_Culture_Buryatian_tt:0 "Buryatian"
-PB_Culture_Uzbek_tt:0 "Uzbek"
-PB_Culture_Turkmen_tt:0 "Turkmen"
-PB_Culture_Tajik_tt:0 "Tajik"
-PB_Culture_Kyrgyz_tt:0 "Kyrgyz"
-PB_Culture_Pontic_tt:0 "Pontic"
-PB_Culture_Azeri_tt:0 "Azeri"
-PB_Culture_Armenian_tt:0 "Armenian"
-PB_Culture_Georgian_tt:0 "Georgian"
+CDL_Culture_Lezgian_tt:0 "Lezgian"
+CDL_Culture_Lak_tt:0 "Lak"
+CDL_Culture_Dargwa_tt:0 "Dargwa"
+CDL_Culture_Avar_tt:0 "Avar"
+CDL_Culture_Kumyk_tt:0 "Kumyk"
+CDL_Culture_Nogai_tt:0 "Nogai"
+CDL_Culture_Trukhmen_tt:0 "Trukhmen"
+CDL_Culture_Chechen_tt:0 "Chechen"
+CDL_Culture_Ingush_tt:0 "Ingush"
+CDL_Culture_Ossetian_tt:0 "Ossetian"
+CDL_Culture_Karachay_tt:0 "Karachay"
+CDL_Culture_Balkar_tt:0 "Balkar"
+CDL_Culture_Kabardian_tt:0 "Kabardian"
+CDL_Culture_Cherkess_tt:0 "Cherkess"
+CDL_Culture_Adyghe_tt:0 "Adyghe"
+CDL_Culture_Abkhaz_tt:0 "Abkhaz"
+CDL_Culture_Mingrelian_tt:0 "Mingrelian"
+CDL_Culture_Svan_tt:0 "Svan"
+CDL_Culture_Georgian_tt:0 "Georgian"
+CDL_Culture_Kakhetian_tt:0 "Kakhetian"
+CDL_Culture_Azeri_tt:0 "Azeri"
+CDL_Culture_Armenian_tt:0 "Armenian"
+CDL_Culture_Tat_tt:0 "Tat"
+
+# SIBERIA #
+CDL_Culture_Siberian_tt:0 "Siberian"
+CDL_Culture_Khanty_tt:0 "Khanty"
+CDL_Culture_Mansi_tt:0 "Mansi"
+CDL_Culture_Nenets_tt:0 "Nenets"
+CDL_Culture_Selkup_tt:0 "Selkup"
+CDL_Culture_Enets_tt:0 "Enets"
+CDL_Culture_Altai_tt:0 "Altai"
+CDL_Culture_Shor_tt:0 "Shor"
+CDL_Culture_Khakas_tt:0 "Khakas"
+CDL_Culture_Tuvan_tt:0 "Tuvan"
+CDL_Culture_Yakut_tt:0 "Yakut"
+CDL_Culture_Buryat_tt:0 "Buryat"
+CDL_Culture_Evenki_tt:0 "Evenki"
+CDL_Culture_Even_tt:0 "Even"
+CDL_Culture_Nganasan_tt:0 "Nganasan"
+CDL_Culture_Dolgan_tt:0 "Dolgan"
+CDL_Culture_Yukagir_tt:0 "Yukagir"
+CDL_Culture_Chukchi_tt:0 "Chukchi"
+CDL_Culture_Koryak_tt:0 "Koryak"
+CDL_Culture_Alyutor_tt:0 "Alyutor"
+CDL_Culture_Itelmen_tt:0 "Itelmen"
+CDL_Culture_Nivkh_tt:0 "Nivkh"
+CDL_Culture_Orok_tt:0 "Orok"
+
+
+# ASIA MINOR #
+
+CDL_Culture_Ottoman_tt:0 "Ottoman" 
+CDL_Culture_Anatolian_Greek_tt:0 "Anatolian Greek"
+CDL_Culture_Cappadocian_Greek_tt:0 "Cappadocian Greek"
+CDL_Culture_Pontic_Greek_tt:0 "Pontic Greek"
+CDL_Culture_Zaza_tt:0 "Zaza"
+CDL_Culture_Laz_tt:0 "Laz"
+
+# MIDDLE EAST #
+
+CDL_Culture_Assyrian_tt:0 "Assyrian"
+CDL_Culture_Kurdish_tt:0 "Kurdish"
+CDL_Culture_Alawite_tt:0 "Alawite"
+CDL_Culture_Druze_tt:0 "Druze"
+CDL_Culture_Levantine_tt:0 "Levantine"
+CDL_Culture_North_Mesopotamian_tt:0 "North Mesopotamian"
+CDL_Culture_South_Mesopotamian_tt:0 "South Mesopotamian"
+CDL_Culture_Najdi_tt:0 "Najdi"
+CDL_Culture_Hejazi_tt:0 "Hejazi"
+CDL_Culture_Yemeni_tt:0 "Yemeni"
+CDL_Culture_Dhofari_tt:0 "Dhofari"
+CDL_Culture_Omani_tt:0 "Omani"
+CDL_Culture_Shihhi_tt:0 "Shihhi"
+CDL_Culture_Bahrani_tt:0 "Bahrani"
+CDL_Culture_Gulf_Arabic_tt:0 "Gulf Arabic"
+
+# PERSIA #
+
+CDL_Culture_Persian_tt:0 "Persian"
+CDL_Culture_Talysh_tt:0 "Talysh"
+CDL_Culture_Gilaki_tt:0 "Gilaki"
+CDL_Culture_Mazandarani_tt:0 "Mazandarani"
+CDL_Culture_Luri_tt:0 "Luri"
+CDL_Culture_Qashqai_tt:0 "Qashqai"
+
 
 # SOUTH AMERICA #
 
@@ -261,18 +334,6 @@ PB_Culture_Puerto_Rican_tt:0 "Puerto Rican"
 PB_Culture_Haitian_tt:0 "Haitian"
 PB_Culture_Cuban_tt:0 "Cuban"
 PB_Culture_Caribbean_tt:0 "Caribbean"
-
-# MIDDLE EAST #
-
-PB_Culture_Kurdish_tt:0 "Kurdish"
-PB_Culture_Levantine_tt:0 "Levantine"
-PB_Culture_Persian_tt:0 "Persian"
-PB_Culture_Arabian_Gulf_tt:0 "Arabian Gulf"
-PB_Culture_Shia_Arab_tt:0 "Shia Arab"
-PB_Culture_Sunni_Arab_tt:0 "Sunni Arab"
-PB_Culture_Yemen_tt:0 "Yemen"
-PB_Culture_Omani_tt:0 "Omani"
-PB_Culture_Lebanese_tt:0 "Lebanese"
 
 # NORTH AFRICAN #
 

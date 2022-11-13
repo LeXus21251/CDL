@@ -45,11 +45,11 @@ guiTypes = {
 						
 			instantTextboxType = {
 				name = "state_name"
-				position = { x = 80 y = 5 }
+				position = { x = 60 y = 5 }
 				textureFile = ""
 				font = "hoi_36header"
 				text = "STATE_NAME_TEST"
-				maxWidth = 330
+				maxWidth = 386
 				maxHeight = 30
 				format = center
 			}
@@ -76,7 +76,7 @@ guiTypes = {
 			
 			gridBoxType = {
 				name = "state_shared_slot_building_entries"
-				position = { x = 153 y = 170 }
+				position = { x = 209 y = 170 }
 				size = { width = 480 height = 90%% }
 				format = "UPPER_LEFT"
 				slotsize = { width = 58 height = 46 }
@@ -175,7 +175,7 @@ guiTypes = {
 					size = { width = 132 height = 60 }
 					format = "UPPER_LEFT"
 					slotsize = { width = 50 height = 31 }
-					max_slots_horizontal = 2
+					max_slots_horizontal = 3
 					max_slots_vertical = 3
 					
 				}
@@ -365,7 +365,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "close_button"
-			position = { x = -4 y = 12 }
+			position = { x = 52 y = 12 }
 			quadTextureSprite ="GFX_closebutton_small"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
@@ -405,7 +405,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "state_building_entry"
-		position = { x=0 y=0 }
+		position = { x=56 y=0 }
 		size = { width=140 height= 70 }
 		clipping = no
 		

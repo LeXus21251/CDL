@@ -1,0 +1,9 @@
+
+music = {
+	song = "Super_Event_Sound_1"
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}
+}

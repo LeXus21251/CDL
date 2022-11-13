@@ -2671,3 +2671,7 @@
  ALREADY_HAS_ADVISOR_WITH_TRAIT:0 "There is already an appointed advisor with this trait."
  POL_investments_monarchist:0 "Monarchist Investments"
  CHANGE_ADVISOR:1 "\nYou can replace this advisor by clicking here and selecting a replacement."
+
+### CDL
+technologic_concern:0 "Technologic Concern"
+political_staff:0 "Political Staff"

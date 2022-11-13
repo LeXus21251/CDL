@@ -629,7 +629,6 @@ CDL_cultures = {
 
 	964 = { set_variable = { culture_id = 71 } }
 	797 = { set_variable = { culture_id = 71 } }
-	1421 = { set_variable = { culture_id = 71 } }
 
 	###  Aromanian Culture  ###
 
@@ -741,6 +740,7 @@ CDL_cultures = {
 	1045 = { set_variable = { culture_id = 80 } }
 	1786 = { set_variable = { culture_id = 80 } }
 	1043 = { set_variable = { culture_id = 80 } }
+	2383 = { set_variable = { culture_id = 80 } }
 
 	###  Lesser Polish Culture  ###
 
@@ -883,423 +883,791 @@ CDL_cultures = {
 
 	1117 = { set_variable = { culture_id = 97 } }
 
+	###  Slobodian Culture  ###
 
+	193 = { set_variable = { culture_id = 98 } }
+	1478 = { set_variable = { culture_id = 98 } }
+	1851 = { set_variable = { culture_id = 98 } }
+	259 = { set_variable = { culture_id = 98 } }
+	1861 = { set_variable = { culture_id = 98 } }
+	221 = { set_variable = { culture_id = 98 } }
+	228 = { set_variable = { culture_id = 98 } }
+	1850 = { set_variable = { culture_id = 98 } }
+	225 = { set_variable = { culture_id = 98 } }
+	1860 = { set_variable = { culture_id = 98 } }
+	220 = { set_variable = { culture_id = 98 } }
+	240 = { set_variable = { culture_id = 98 } }
+	1849 = { set_variable = { culture_id = 98 } }
+	1848 = { set_variable = { culture_id = 98 } }
+	1846 = { set_variable = { culture_id = 98 } }
+	260 = { set_variable = { culture_id = 98 } }
 
+	###  Steppe Ukrainian Culture  ###
 
-	### ---- Georgian Culture ---- ###
+	766 = { set_variable = { culture_id = 99 } }
+	192 = { set_variable = { culture_id = 99 } }
+	1863 = { set_variable = { culture_id = 99 } }
+	197 = { set_variable = { culture_id = 99 } }
+	196 = { set_variable = { culture_id = 99 } }
+	1862 = { set_variable = { culture_id = 99 } }
+	226 = { set_variable = { culture_id = 99 } }
+	1477 = { set_variable = { culture_id = 99 } }
+	227 = { set_variable = { culture_id = 99 } }
+	200 = { set_variable = { culture_id = 99 } }
+	2184 = { set_variable = { culture_id = 99 } }
+	1847 = { set_variable = { culture_id = 99 } }
 
-	231 = { set_variable = { culture_id = 92 } }
+	###  Crimean Culture  ###
 
-	### ---- Mapuche Culture ---- ###
+	1834 = { set_variable = { culture_id = 100 } }
+	137 = { set_variable = { culture_id = 100 } }
 
-	507 = { set_variable = { culture_id = 116 } }
-	512 = { set_variable = { culture_id = 116 } }
+	###  Novorussian Culture  ###
 
-	### ---- Amazonian Culture ---- ###
+	202 = { set_variable = { culture_id = 101 } }
+	1833 = { set_variable = { culture_id = 101 } }
 
-	280 = { set_variable = { culture_id = 100 } }
-	827 = { set_variable = { culture_id = 100 } }
-	828 = { set_variable = { culture_id = 100 } }
-	495 = { set_variable = { culture_id = 100 } }
-	304 = { set_variable = { culture_id = 100 } }
+	###  Jutlandic Culture  ###
 
-	### ---- Argentine Culture ---- ###
+	99 = { set_variable = { culture_id = 102 } }
+	1610 = { set_variable = { culture_id = 102 } }
+	1008 = { set_variable = { culture_id = 102 } }
 
-	508 = { set_variable = { culture_id = 101 } }
-	509 = { set_variable = { culture_id = 101 } }
-	510 = { set_variable = { culture_id = 101 } }
-	511 = { set_variable = { culture_id = 101 } }
-	278 = { set_variable = { culture_id = 101 } }
+	###  Insular Danish Culture  ###
 
-	### ---- Bolivian Culture ---- ###
+	1007 = { set_variable = { culture_id = 103 } }
+	1006 = { set_variable = { culture_id = 103 } }
+	37 = { set_variable = { culture_id = 103 } }
 
-	487 = { set_variable = { culture_id = 102 } }
+	###  Scanian Culture  ###
 
-	### ---- Quecha Culture ---- ###
+	138 = { set_variable = { culture_id = 104 } }
+	1611 = { set_variable = { culture_id = 104 } }
+	1005 = { set_variable = { culture_id = 104 } }
 
-	302 = { set_variable = { culture_id = 113 } }
-	939 = { set_variable = { culture_id = 113 } }
+	###  Dano-Norwegian Culture  ###
 
-	### ---- Brazilian Culture ---- ###
+	1003 = { set_variable = { culture_id = 105 } }
+	1582 = { set_variable = { culture_id = 105 } }
 
-	830 = { set_variable = { culture_id = 103 } }
-	496 = { set_variable = { culture_id = 103 } }
-	500 = { set_variable = { culture_id = 103 } }
-	501 = { set_variable = { culture_id = 103 } }
-	504 = { set_variable = { culture_id = 103 } }
-	505 = { set_variable = { culture_id = 103 } }
-	499 = { set_variable = { culture_id = 103 } }
+	###  East Norwegian Culture  ###
 
-	### ---- Chilean Culture ---- ###
+	38 = { set_variable = { culture_id = 106 } }
+	143 = { set_variable = { culture_id = 106 } }
 
-	506 = { set_variable = { culture_id = 104 } }
-	279 = { set_variable = { culture_id = 104 } }
+	###  West Norwegian Culture  ###
 
-	### ---- Cisplatine Culture ---- ###
+	142 = { set_variable = { culture_id = 107 } }
+	1004 = { set_variable = { culture_id = 107 } }
 
-	300 = { set_variable = { culture_id = 105 } }
-	502 = { set_variable = { culture_id = 105 } }
-	503 = { set_variable = { culture_id = 105 } }
+	###  Trondersk Culture  ###
 
-	### ---- Colombian Culture ---- ###
+	1002 = { set_variable = { culture_id = 108 } }
+	110 = { set_variable = { culture_id = 108 } }
+	1612 = { set_variable = { culture_id = 108 } }
 
-	306 = { set_variable = { culture_id = 106 } }
-	493 = { set_variable = { culture_id = 106 } }
-	486 = { set_variable = { culture_id = 106 } }
-	316 = { set_variable = { culture_id = 106 } }
+	###  North Norwegian Culture  ###
 
-	### ---- Colombo-Ambazonian Culture ---- ###
+	144 = { set_variable = { culture_id = 109 } }
+	1000 = { set_variable = { culture_id = 109 } }
+	1001 = { set_variable = { culture_id = 109 } }
 
-	829 = { set_variable = { culture_id = 107 } }
+	###  South Swedish Culture  ###
 
-	### ---- Ecuadorian Culture ---- ###
+	999 = { set_variable = { culture_id = 110 } }
+	140 = { set_variable = { culture_id = 110 } }
+	139 = { set_variable = { culture_id = 110 } }
+	998 = { set_variable = { culture_id = 110 } }
 
-	305 = { set_variable = { culture_id = 108 } }
-	490 = { set_variable = { culture_id = 108 } }
-	649 = { set_variable = { culture_id = 108 } }
+	###  Svealand Swedish Culture  ###
 
-	### ---- Equatorial Culture ---- ###
+	141 = { set_variable = { culture_id = 111 } }
+	997 = { set_variable = { culture_id = 111 } }
+	996 = { set_variable = { culture_id = 111 } }
+	145 = { set_variable = { culture_id = 111 } }
+
+	###  Norrland Swedish Culture  ###
+
+	995 = { set_variable = { culture_id = 112 } }
+	2291 = { set_variable = { culture_id = 112 } }
+	994 = { set_variable = { culture_id = 112 } }
+	2325 = { set_variable = { culture_id = 112 } }
+
+	###  Gutnish Culture  ###
+
+	124 = { set_variable = { culture_id = 113 } }
+
+	###  Finnish Culture  ###
+
+	987 = { set_variable = { culture_id = 114 } }
+	988 = { set_variable = { culture_id = 114 } }
+	989 = { set_variable = { culture_id = 114 } }
+	111 = { set_variable = { culture_id = 114 } }
+	149 = { set_variable = { culture_id = 114 } }
+	150 = { set_variable = { culture_id = 114 } }
+	148 = { set_variable = { culture_id = 114 } }
+	1363 = { set_variable = { culture_id = 114 } }
+	1614 = { set_variable = { culture_id = 114 } }
+	147 = { set_variable = { culture_id = 114 } }
+	1362 = { set_variable = { culture_id = 114 } }
+
+	###  Fenno-Swedish Culture  ###
+
+	986 = { set_variable = { culture_id = 115 } }
+
+	###  West Sami Culture  ###
+
+	666 = { set_variable = { culture_id = 116 } }
+	1613 = { set_variable = { culture_id = 116 } }
+
+	###  East Sami Culture  ###
+
+	992 = { set_variable = { culture_id = 117 } }
+	2292 = { set_variable = { culture_id = 117 } }
+	991 = { set_variable = { culture_id = 117 } }
+	722 = { set_variable = { culture_id = 117 } }
+
+	###  Karelian Culture  ###
+
+	990 = { set_variable = { culture_id = 118 } }
+	146 = { set_variable = { culture_id = 118 } }
+	216 = { set_variable = { culture_id = 118 } }
+	1852 = { set_variable = { culture_id = 118 } }
+
+	###  Ingrian Culture  ###
+
+	195 = { set_variable = { culture_id = 119 } }
+	985 = { set_variable = { culture_id = 119 } }
+
+	###  Faroe Culture  ###
+
+	337 = { set_variable = { culture_id = 120 } }
+
+	###  Icelandic Culture  ###
+
+	1605 = { set_variable = { culture_id = 121 } }
+	1606 = { set_variable = { culture_id = 121 } }
+	1607 = { set_variable = { culture_id = 121 } }
+	1608 = { set_variable = { culture_id = 121 } }
+	1604 = { set_variable = { culture_id = 121 } }
+	1609 = { set_variable = { culture_id = 121 } }
+	1040 = { set_variable = { culture_id = 121 } }
+	100 = { set_variable = { culture_id = 121 } }
+
+	###  Middle Russian Culture  ###
+
+	219 = { set_variable = { culture_id = 122 } }
+	1010 = { set_variable = { culture_id = 122 } }
+	246 = { set_variable = { culture_id = 122 } }
+	254 = { set_variable = { culture_id = 122 } }
+	255 = { set_variable = { culture_id = 122 } }
+	239 = { set_variable = { culture_id = 122 } }
+	236 = { set_variable = { culture_id = 122 } }
+
+	###  North Russian Culture  ###
+
+	213 = { set_variable = { culture_id = 123 } }
+	1887 = { set_variable = { culture_id = 123 } }
+	984 = { set_variable = { culture_id = 123 } }
+	1854 = { set_variable = { culture_id = 123 } }
+	1156 = { set_variable = { culture_id = 123 } }
+	210 = { set_variable = { culture_id = 123 } }
+	209 = { set_variable = { culture_id = 123 } }
+	208 = { set_variable = { culture_id = 123 } }
+	1853 = { set_variable = { culture_id = 123 } }
+	263 = { set_variable = { culture_id = 123 } }
+	244 = { set_variable = { culture_id = 123 } }
+	1855 = { set_variable = { culture_id = 123 } }
+	1856 = { set_variable = { culture_id = 123 } }
+	215 = { set_variable = { culture_id = 123 } }
+	214 = { set_variable = { culture_id = 123 } }
+	351 = { set_variable = { culture_id = 123 } }
+	400 = { set_variable = { culture_id = 123 } }
+	2293 = { set_variable = { culture_id = 123 } }
+	399 = { set_variable = { culture_id = 123 } }
+	398 = { set_variable = { culture_id = 123 } }
+	249 = { set_variable = { culture_id = 123 } }
+	251 = { set_variable = { culture_id = 123 } }
+	247 = { set_variable = { culture_id = 123 } }
+	248 = { set_variable = { culture_id = 123 } }
+	253 = { set_variable = { culture_id = 123 } }
+	252 = { set_variable = { culture_id = 123 } }
+	264 = { set_variable = { culture_id = 123 } }
+	1155 = { set_variable = { culture_id = 123 } }
+	1857 = { set_variable = { culture_id = 123 } }
 
-	497 = { set_variable = { culture_id = 109 } }
-	498 = { set_variable = { culture_id = 109 } }
+	###  South Russian Culture  ###
 
-	### ---- Guyanese Culture ---- ###
+	205 = { set_variable = { culture_id = 124 } }
+	223 = { set_variable = { culture_id = 124 } }
+	222 = { set_variable = { culture_id = 124 } }
+	258 = { set_variable = { culture_id = 124 } }
+	257 = { set_variable = { culture_id = 124 } }
+	265 = { set_variable = { culture_id = 124 } }
+	217 = { set_variable = { culture_id = 124 } }
+	1844 = { set_variable = { culture_id = 124 } }
+	1842 = { set_variable = { culture_id = 124 } }
+	1845 = { set_variable = { culture_id = 124 } }
+	245 = { set_variable = { culture_id = 124 } }
+	1843 = { set_variable = { culture_id = 124 } }
+	218 = { set_variable = { culture_id = 124 } }
+	1835 = { set_variable = { culture_id = 124 } }
+	234 = { set_variable = { culture_id = 124 } }
+	238 = { set_variable = { culture_id = 124 } }
+	235 = { set_variable = { culture_id = 124 } }
+	2215 = { set_variable = { culture_id = 124 } }
+	1836 = { set_variable = { culture_id = 124 } }
+	898 = { set_variable = { culture_id = 124 } }
+	1837 = { set_variable = { culture_id = 124 } }
+	2218 = { set_variable = { culture_id = 124 } }
+	2224 = { set_variable = { culture_id = 124 } }
 
-	687 = { set_variable = { culture_id = 110 } }
+	###  Komi Culture  ###
 
-	### ---- Suriname Culture ---- ###
+	397 = { set_variable = { culture_id = 125 } }
+	581 = { set_variable = { culture_id = 125 } }
 
-	309 = { set_variable = { culture_id = 117 } }
-	310 = { set_variable = { culture_id = 117 } }
+	###  Mari Culture  ###
 
-	### ---- Paraguayan Culture ---- ###
+	256 = { set_variable = { culture_id = 126 } }
 
-	688 = { set_variable = { culture_id = 111 } }
-	301 = { set_variable = { culture_id = 111 } }
+	###  Chuvash Culture  ###
 
-	### ---- Peruvian Culture ---- ###
+	2384 = { set_variable = { culture_id = 127 } }
 
-	492 = { set_variable = { culture_id = 112 } }
-	303 = { set_variable = { culture_id = 112 } }
-	494 = { set_variable = { culture_id = 112 } }
-	491 = { set_variable = { culture_id = 112 } }
+	###  Bashkir Culture  ###
 
-	### ---- Venezuelan Culture ---- ###
+	401 = { set_variable = { culture_id = 128 } }
+	652 = { set_variable = { culture_id = 128 } }
+	651 = { set_variable = { culture_id = 128 } }
 
-	489 = { set_variable = { culture_id = 115 } }
-	307 = { set_variable = { culture_id = 115 } }
-	488 = { set_variable = { culture_id = 115 } }
-	695 = { set_variable = { culture_id = 115 } }
-	691 = { set_variable = { culture_id = 115 } }
+	###  Kalmyk Culture  ###
 
-	### ---- Belizean Culture ---- ###
+	237 = { set_variable = { culture_id = 129 } }
+	2188 = { set_variable = { culture_id = 129 } }
 
-	311 = { set_variable = { culture_id = 118 } }
+	###  Volga Polish Culture  ###
 
-	### ---- Costa Colombian Culture ---- ###
+	250 = { set_variable = { culture_id = 130 } }
 
-	316 = { set_variable = { culture_id = 119 } }
+	###  Lezgian Culture  ###
 
-	### ---- Guatemalan Culture ---- ###
+	2227 = { set_variable = { culture_id = 131 } }
+	2230 = { set_variable = { culture_id = 131 } }
+	2232 = { set_variable = { culture_id = 131 } }
+	2233 = { set_variable = { culture_id = 131 } }
+	2231 = { set_variable = { culture_id = 131 } }
 
-	313 = { set_variable = { culture_id = 120 } }
-	778 = { set_variable = { culture_id = 120 } }
+	###  Lak Culture  ###
 
-	### ---- Honduran Culture ---- ###
+	2229 = { set_variable = { culture_id = 132 } }
 
-	312 = { set_variable = { culture_id = 121 } }
-	147 = { set_variable = { culture_id = 121 } }
-	779 = { set_variable = { culture_id = 121 } }
+	###  Dargwa Culture  ###
 
-	### ---- Nicaraguan Culture ---- ###
+	2228 = { set_variable = { culture_id = 133 } }
 
-	317 = { set_variable = { culture_id = 122 } }
-	780 = { set_variable = { culture_id = 122 } }
-	274 = { set_variable = { culture_id = 122 } }
+	###  Avar Culture  ###
 
-	### ---- Salvadorian Culture ---- ###
+	2223 = { set_variable = { culture_id = 134 } }
+	2213 = { set_variable = { culture_id = 134 } }
 
-	314 = { set_variable = { culture_id = 123 } }
+	###  Kumyk Culture  ###
 
-	### ---- Acadiana French Culture ---- ###
+	2222 = { set_variable = { culture_id = 135 } }
+	232 = { set_variable = { culture_id = 135 } }
 
-	371  = { set_variable = { culture_id = 124 } }
-	372  = { set_variable = { culture_id = 124 } }
+	###  Nogai Culture  ###
 
-	### ---- Anglois American Culture ---- ###
+	2221 = { set_variable = { culture_id = 136 } }
+	2187 = { set_variable = { culture_id = 136 } }
+	2220 = { set_variable = { culture_id = 136 } }
+	1840 = { set_variable = { culture_id = 136 } }
 
-	393 = { set_variable = { culture_id = 125 } }
-	394 = { set_variable = { culture_id = 125 } }
-	950 = { set_variable = { culture_id = 125 } }
-	276 = { set_variable = { culture_id = 125 } }
+	###  Trukhmen Culture  ###
 
-	### ---- Appalachian Culture ---- ###
+	1841 = { set_variable = { culture_id = 137 } }
 
-	810 = { set_variable = { culture_id = 126 } }
-	369 = { set_variable = { culture_id = 126 } }
+	###  Chechen Culture  ###
 
-	### ---- Mexican Culture ---- ###
+	896 = { set_variable = { culture_id = 138 } }
+	2182 = { set_variable = { culture_id = 138 } }
+	2185 = { set_variable = { culture_id = 138 } }
+	2186 = { set_variable = { culture_id = 138 } }
 
-	475 = { set_variable = { culture_id = 127 } }
-	476 = { set_variable = { culture_id = 127 } }
-	477 = { set_variable = { culture_id = 127 } }
-	485 = { set_variable = { culture_id = 127 } }
-	277 = { set_variable = { culture_id = 127 } }
-	479 = { set_variable = { culture_id = 127 } }
-	480 = { set_variable = { culture_id = 127 } }
-	478 = { set_variable = { culture_id = 127 } }
-	481 = { set_variable = { culture_id = 127 } }
-	482 = { set_variable = { culture_id = 127 } }
-	907 = { set_variable = { culture_id = 127 } }
-	483 = { set_variable = { culture_id = 127 } }
-	484 = { set_variable = { culture_id = 127 } }
-	946 = { set_variable = { culture_id = 127 } }
-	947 = { set_variable = { culture_id = 127 } }
+	###  Ingush Culture  ###
 
-	### ---- Midwestern Culture ---- ###
+	2219 = { set_variable = { culture_id = 139 } }
 
-	261 = { set_variable = { culture_id = 128 } }
-	396 = { set_variable = { culture_id = 128 } }
-	395 = { set_variable = { culture_id = 128 } }
+	###  Ossetian Culture  ###
 
-	### ---- New Englander Culture ---- ###
+	1826 = { set_variable = { culture_id = 140 } }
+	1839 = { set_variable = { culture_id = 140 } }
 
-	361 = { set_variable = { culture_id = 129 } }
-	360 = { set_variable = { culture_id = 129 } }
-	359 = { set_variable = { culture_id = 129 } }
-	811 = { set_variable = { culture_id = 129 } }
-	358 = { set_variable = { culture_id = 129 } }
-	814 = { set_variable = { culture_id = 129 } }
-	813 = { set_variable = { culture_id = 129 } }
-	812 = { set_variable = { culture_id = 129 } }
-	815 = { set_variable = { culture_id = 129 } }
-	357 = { set_variable = { culture_id = 129 } }
-	465 = { set_variable = { culture_id = 129 } }
-	464 = { set_variable = { culture_id = 129 } }
+	###  Karachay Culture  ###
 
-	### ---- NorteMexicano Culture ---- ###
+	2216 = { set_variable = { culture_id = 141 } }
 
-	908 = { set_variable = { culture_id = 130 } }
-	378 = { set_variable = { culture_id = 130 } }
-	379 = { set_variable = { culture_id = 130 } }
-	798 = { set_variable = { culture_id = 130 } }
-	375 = { set_variable = { culture_id = 130 } }
-	898 = { set_variable = { culture_id = 130 } }
-	902 = { set_variable = { culture_id = 130 } }
-	901 = { set_variable = { culture_id = 130 } }
-	799 = { set_variable = { culture_id = 130 } }
-	900 = { set_variable = { culture_id = 130 } }
+	###  Balkar Culture  ###
 
-	### ---- Old Dixie Culture ---- ###
+	233 = { set_variable = { culture_id = 142 } }
 
-	367 = { set_variable = { culture_id = 131 } }
-	362 = { set_variable = { culture_id = 131 } }
-	363 = { set_variable = { culture_id = 131 } }
-	364 = { set_variable = { culture_id = 131 } }
-	365 = { set_variable = { culture_id = 131 } }
-	368 = { set_variable = { culture_id = 131 } }
-	370 = { set_variable = { culture_id = 131 } }
+	###  Kabardian Culture  ###
 
-	### ---- Quebecois Culture ---- ###
+	2214 = { set_variable = { culture_id = 143 } }
 
-	320 = { set_variable = { culture_id = 132 } }
-	466 = { set_variable = { culture_id = 132 } }
-	816 = { set_variable = { culture_id = 132 } }
-	468 = { set_variable = { culture_id = 132 } }
-	817 = { set_variable = { culture_id = 132 } }
-	682 = { set_variable = { culture_id = 132 } }
+	###  Cherkess Culture  ###
 
-	### ---- Seminole Culture ---- ###
+	2217 = { set_variable = { culture_id = 144 } }
 
-	366 = { set_variable = { culture_id = 133 } }
+	###  Adyghe Culture  ###
 
-	### ---- Tejano American Culture ---- ###
+	1838 = { set_variable = { culture_id = 145 } }
 
-	383 = { set_variable = { culture_id = 134 } }
+	###  Abkhaz Culture  ###
 
-	### ---- Yucatec Culture ---- ###
+	897 = { set_variable = { culture_id = 146 } }
 
-	474 = { set_variable = { culture_id = 135 } }
+	###  Mingrelian Culture  ###
 
-	### ---- Puerto Rican Culture ---- ###
+	2211 = { set_variable = { culture_id = 147 } }
 
-	686 = { set_variable = { culture_id = 136 } }
+	###  Svan Culture  ###
 
-	### ---- Haitian Culture ---- ###
+	2212 = { set_variable = { culture_id = 148 } }
 
-	318 = { set_variable = { culture_id = 137 } }
-	319 = { set_variable = { culture_id = 137 } }
+	###  Georgian Culture  ###
 
-	### ---- Cuban Culture ---- ###
+	1406 = { set_variable = { culture_id = 149 } }
+	1102 = { set_variable = { culture_id = 149 } }
+	1832 = { set_variable = { culture_id = 149 } }
+	231 = { set_variable = { culture_id = 149 } }
+	1831 = { set_variable = { culture_id = 149 } }
+	1827 = { set_variable = { culture_id = 149 } }
 
-	315 = { set_variable = { culture_id = 138 } }
+	###  Kakhetian Culture  ###
 
-	### ---- Caribbean Culture ---- ###
+	1824 = { set_variable = { culture_id = 150 } }
 
-	689 = { set_variable = { culture_id = 139 } }
-	692 = { set_variable = { culture_id = 139 } }
-	694 = { set_variable = { culture_id = 139 } }
-	308 = { set_variable = { culture_id = 139 } }
-	824 = { set_variable = { culture_id = 139 } }
-	693 = { set_variable = { culture_id = 139 } }
-	690 = { set_variable = { culture_id = 139 } }
-	696 = { set_variable = { culture_id = 139 } }
-	691 = { set_variable = { culture_id = 139 } }
-	695 = { set_variable = { culture_id = 139 } }
+	###  Azeri Culture  ###
 
-	### ---- Marooner Culture ---- ###
+	894 = { set_variable = { culture_id = 151 } }
+	1825 = { set_variable = { culture_id = 151 } }
+	1820 = { set_variable = { culture_id = 151 } }
+	1819 = { set_variable = { culture_id = 151 } }
+	229 = { set_variable = { culture_id = 151 } }
+	1823 = { set_variable = { culture_id = 151 } }
+	1822 = { set_variable = { culture_id = 151 } }
+	2237 = { set_variable = { culture_id = 151 } }
+	419 = { set_variable = { culture_id = 151 } }
+	2234 = { set_variable = { culture_id = 151 } }
 
-	942 = { set_variable = { culture_id = 140 } }
+	###  Armenian Culture  ###
 
-	### ---- Comanche Culture ---- ###
+	1830 = { set_variable = { culture_id = 152 } }
+	230 = { set_variable = { culture_id = 152 } }
+	1817 = { set_variable = { culture_id = 152 } }
+	895 = { set_variable = { culture_id = 152 } }
+	1818 = { set_variable = { culture_id = 152 } }
+	1829 = { set_variable = { culture_id = 152 } }
+	1828 = { set_variable = { culture_id = 152 } }
+	1884 = { set_variable = { culture_id = 152 } }
+	1402 = { set_variable = { culture_id = 152 } }
+	800 = { set_variable = { culture_id = 152 } }
+	2225 = { set_variable = { culture_id = 152 } }
 
-	376 = { set_variable = { culture_id = 141 } }
-	374 = { set_variable = { culture_id = 141 } }
+	###  Tat Culture  ###
 
-	### ---- Apache Culture ---- ###
+	2226 = { set_variable = { culture_id = 153 } }
 
-	377 = { set_variable = { culture_id = 142 } }
-	905 = { set_variable = { culture_id = 142 } }
-	796 = { set_variable = { culture_id = 142 } }
-	903 = { set_variable = { culture_id = 142 } }
+	###  Siberian Culture  ###
 
-	### ---- Osage Culture ---- ###
+	573 = { set_variable = { culture_id = 154 } }
+	582 = { set_variable = { culture_id = 154 } }
+	653 = { set_variable = { culture_id = 154 } }
+	572 = { set_variable = { culture_id = 154 } }
+	403 = { set_variable = { culture_id = 154 } }
+	571 = { set_variable = { culture_id = 154 } }
+	570 = { set_variable = { culture_id = 154 } }
+	578 = { set_variable = { culture_id = 154 } }
+	569 = { set_variable = { culture_id = 154 } }
+	2304 = { set_variable = { culture_id = 154 } }
+	576 = { set_variable = { culture_id = 154 } }
+	568 = { set_variable = { culture_id = 154 } }
+	567 = { set_variable = { culture_id = 154 } }
+	2179 = { set_variable = { culture_id = 154 } }
+	2181 = { set_variable = { culture_id = 154 } }
+	566 = { set_variable = { culture_id = 154 } }
+	575 = { set_variable = { culture_id = 154 } }
+	2180 = { set_variable = { culture_id = 154 } }
+	563 = { set_variable = { culture_id = 154 } }
+	561 = { set_variable = { culture_id = 154 } }
+	560 = { set_variable = { culture_id = 154 } }
+	2290 = { set_variable = { culture_id = 154 } }
+	2296 = { set_variable = { culture_id = 154 } }
+	577 = { set_variable = { culture_id = 154 } }
 
-	392 = { set_variable = { culture_id = 143 } }
+	###  Khanty Culture  ###
 
-	### ---- Trekker Culture ---- ###
+	580 = { set_variable = { culture_id = 155 } }
 
-	944 = { set_variable = { culture_id = 144 } }
-	384 = { set_variable = { culture_id = 144 } }
-	382 = { set_variable = { culture_id = 144 } }
-	881 = { set_variable = { culture_id = 144 } }
-	836 = { set_variable = { culture_id = 144 } }
-	897 = { set_variable = { culture_id = 144 } }
-	895 = { set_variable = { culture_id = 144 } }
-	892 = { set_variable = { culture_id = 144 } }
-	904 = { set_variable = { culture_id = 144 } }
+	###  Mansi Culture  ###
 
-	### ---- Shoshone Culture ---- ###
+	2294 = { set_variable = { culture_id = 156 } }
 
-	380 = { set_variable = { culture_id = 145 } }
-	906 = { set_variable = { culture_id = 145 } }
-	381 = { set_variable = { culture_id = 145 } }
-	894 = { set_variable = { culture_id = 145 } }
+	###  Nenets Culture  ###
 
-	### ---- Mormon Culture ---- ###
+	2295 = { set_variable = { culture_id = 157 } }
+	579 = { set_variable = { culture_id = 157 } }
+	262 = { set_variable = { culture_id = 157 } }
 
-	899 = { set_variable = { culture_id = 146 } }
-	945 = { set_variable = { culture_id = 146 } }
-	385 = { set_variable = { culture_id = 146 } }
+	###  Selkup Culture  ###
 
-	### ---- New Dixie Culture ---- ###
+	2302 = { set_variable = { culture_id = 158 } }
 
-	373 = { set_variable = { culture_id = 147 } }
-	941 = { set_variable = { culture_id = 147 } }
-	948 = { set_variable = { culture_id = 147 } }
+	###  Enets Culture  ###
 
-	### ---- Sioux Culture ---- ###
+	2301 = { set_variable = { culture_id = 159 } }
 
-	391 = { set_variable = { culture_id = 148 } }
-	390 = { set_variable = { culture_id = 148 } }
+	###  Altai Culture  ###
 
-	### ---- Blackfoot Culture ---- ###
+	654 = { set_variable = { culture_id = 160 } }
+	40 = { set_variable = { culture_id = 160 } }
 
-	388 = { set_variable = { culture_id = 149 } }
+	###  Shor Culture  ###
 
-	### ---- Sahaptin Culture ---- ###
+	2177 = { set_variable = { culture_id = 161 } }
 
-	387 = { set_variable = { culture_id = 150 } }
-	893 = { set_variable = { culture_id = 150 } }
+	###  Khakas Culture  ###
 
-	### ---- Crow Nation Culture ---- ###
+	2178 = { set_variable = { culture_id = 162 } }
 
-	800 = { set_variable = { culture_id = 151 } }
+	###  Tuvan Culture  ###
 
-	### ---- Assiniboine Culture ---- ###
+	329 = { set_variable = { culture_id = 163 } }
 
-	389 = { set_variable = { culture_id = 152 } }
-	467 = { set_variable = { culture_id = 152 } }
+	###  Yakut Culture  ###
 
-	### ---- Cree Culture ---- ###
+	2298 = { set_variable = { culture_id = 164 } }
 
-	469 = { set_variable = { culture_id = 153 } }
-	470 = { set_variable = { culture_id = 153 } }
+	###  Buryat Culture  ###
 
-	### ---- Borealian Culture ---- ###
+	564 = { set_variable = { culture_id = 165 } }
 
-	943 = { set_variable = { culture_id = 154 } }
-	683 = { set_variable = { culture_id = 154 } }
-	472 = { set_variable = { culture_id = 154 } }
-	471 = { set_variable = { culture_id = 154 } }
-	473 = { set_variable = { culture_id = 154 } }
-	386 = { set_variable = { culture_id = 154 } }
-	891 = { set_variable = { culture_id = 154 } }
-	740 = { set_variable = { culture_id = 154 } }
-	332 = { set_variable = { culture_id = 154 } }
-	331 = { set_variable = { culture_id = 154 } }
+	###  Evenki Culture  ###
 
-	### ---- Alaskan Culture ---- ###
+	516 = { set_variable = { culture_id = 166 } }
+	2303 = { set_variable = { culture_id = 166 } }
+	565 = { set_variable = { culture_id = 166 } }
+	574 = { set_variable = { culture_id = 166 } }
 
-	463 = { set_variable = { culture_id = 155 } }
-	739 = { set_variable = { culture_id = 155 } }
+	###  Even Culture  ###
 
-	### ---- Kurdish Culture ---- ###
+	644 = { set_variable = { culture_id = 167 } }
+	562 = { set_variable = { culture_id = 167 } }
+	2274 = { set_variable = { culture_id = 167 } }
 
-	352 = { set_variable = { culture_id = 200 } }
-	676 = { set_variable = { culture_id = 200 } }
-	675 = { set_variable = { culture_id = 200 } }
-	350 = { set_variable = { culture_id = 200 } }
-	421 = { set_variable = { culture_id = 200 } }
+	###  Nganasan Culture  ###
 
-	### ---- Levantine Culture ---- ###
+	2297 = { set_variable = { culture_id = 168 } }
 
-	454 = { set_variable = { culture_id = 201 } }
+	###  Dolgan Culture  ###
 
-	### ---- Persian Culture ---- ###
+	2300 = { set_variable = { culture_id = 169 } }
 
-	417 = { set_variable = { culture_id = 202 } }
+	###  Yukagir Culture  ###
+
+	2299 = { set_variable = { culture_id = 170 } }
+
+	###  Chukchi Culture  ###
+
+	855 = { set_variable = { culture_id = 171 } }
+	2305 = { set_variable = { culture_id = 171 } }
+	2306 = { set_variable = { culture_id = 171 } }
+
+	###  Koryak Culture  ###
+
+	2307 = { set_variable = { culture_id = 172 } }
+
+	###  Alyutor Culture  ###
+
+	2308 = { set_variable = { culture_id = 173 } }
+
+	###  Itelmen Culture  ###
+
+	637 = { set_variable = { culture_id = 174 } }
+
+	###  Nivkh Culture  ###
+
+	2273 = { set_variable = { culture_id = 175 } }
+
+	###  Orok Culture  ###
+
+	655 = { set_variable = { culture_id = 176 } }
+
+	###  Ottoman Culture  ###
+
+	1421 = { set_variable = { culture_id = 177 } }
+	1876 = { set_variable = { culture_id = 177 } }
+	340 = { set_variable = { culture_id = 177 } }
+	966 = { set_variable = { culture_id = 177 } }
+	339 = { set_variable = { culture_id = 177 } }
+	342 = { set_variable = { culture_id = 177 } }
+	343 = { set_variable = { culture_id = 177 } }
+	347 = { set_variable = { culture_id = 177 } }
+	345 = { set_variable = { culture_id = 177 } }
+	902 = { set_variable = { culture_id = 177 } }
+	344 = { set_variable = { culture_id = 177 } }
+	346 = { set_variable = { culture_id = 177 } }
+	798 = { set_variable = { culture_id = 177 } }
+	2149 = { set_variable = { culture_id = 177 } }
+	49 = { set_variable = { culture_id = 177 } }
+	348 = { set_variable = { culture_id = 177 } }
+	349 = { set_variable = { culture_id = 177 } }
+	1879 = { set_variable = { culture_id = 177 } }
+	356 = { set_variable = { culture_id = 177 } }
+	350 = { set_variable = { culture_id = 177 } }
+	1885 = { set_variable = { culture_id = 177 } }
+	
+
+	###  Anatolian Greek Culture  ###
+
+	965 = { set_variable = { culture_id = 178 } }
+	1877 = { set_variable = { culture_id = 178 } }
+
+	###  Cappadocian Greek Culture  ###
+
+	# NOT ON START #
+
+	###  Pontic Greek Culture  ###
+
+	355 = { set_variable = { culture_id = 180 } }
+	1878 = { set_variable = { culture_id = 180 } }
+	354 = { set_variable = { culture_id = 180 } }
+
+	###  Zaza Culture  ###
+
+	353 = { set_variable = { culture_id = 181 } }
+
+	###  Laz Culture  ###
+
+	1103 = { set_variable = { culture_id = 182 } }
+
+	###  Assyrian Culture  ###
+
+	352 = { set_variable = { culture_id = 183 } }
+	1404 = { set_variable = { culture_id = 183 } }
+
+	###  Kurdish Culture  ###
+
+	1883 = { set_variable = { culture_id = 184 } }
+	1403 = { set_variable = { culture_id = 184 } }
+	1411 = { set_variable = { culture_id = 184 } }
+	421 = { set_variable = { culture_id = 184 } }
+	1401 = { set_variable = { culture_id = 184 } }
+	1882 = { set_variable = { culture_id = 184 } }
+	1376 = { set_variable = { culture_id = 184 } }
+	1405 = { set_variable = { culture_id = 184 } }
+	2244 = { set_variable = { culture_id = 184 } }
+	2245 = { set_variable = { culture_id = 184 } }
+
+	###  Alawite Culture  ###
+
+	1419 = { set_variable = { culture_id = 185 } }
+
+	###  Druze Culture  ###
+
+	1315 = { set_variable = { culture_id = 186 } }
+
+	###  Levantine Culture  ###
+
+	1539 = { set_variable = { culture_id = 187 } }
+	1306 = { set_variable = { culture_id = 187 } }
+	455 = { set_variable = { culture_id = 187 } }
+	454 = { set_variable = { culture_id = 187 } }
+	900 = { set_variable = { culture_id = 187 } }
+	554 = { set_variable = { culture_id = 187 } }
+	553 = { set_variable = { culture_id = 187 } }
+	1880 = { set_variable = { culture_id = 187 } }
+	799 = { set_variable = { culture_id = 187 } }
+
+	###  North Mesopotamian Culture  ###
+
+	677 = { set_variable = { culture_id = 188 } }
+	903 = { set_variable = { culture_id = 188 } }
+	680 = { set_variable = { culture_id = 188 } }
+	901 = { set_variable = { culture_id = 188 } }
+
+	###  South Mesopotamian Culture  ###
+
+	904 = { set_variable = { culture_id = 189 } }
+	675 = { set_variable = { culture_id = 189 } }
+	676 = { set_variable = { culture_id = 189 } }
+	1881 = { set_variable = { culture_id = 189 } }
+	291 = { set_variable = { culture_id = 189 } }
+	883 = { set_variable = { culture_id = 189 } }
+	884 = { set_variable = { culture_id = 189 } }
+	2048 = { set_variable = { culture_id = 189 } }
+	2047 = { set_variable = { culture_id = 189 } }
+	2046 = { set_variable = { culture_id = 189 } }
+
+	###  Najdi Culture  ###
+
+	905 = { set_variable = { culture_id = 190 } }
+	906 = { set_variable = { culture_id = 190 } }
+	913 = { set_variable = { culture_id = 190 } }
+	2176 = { set_variable = { culture_id = 190 } }
+	912 = { set_variable = { culture_id = 190 } }
+	2173 = { set_variable = { culture_id = 190 } }
+	2196 = { set_variable = { culture_id = 190 } }
+	2170 = { set_variable = { culture_id = 190 } }
+	2175 = { set_variable = { culture_id = 190 } }
+	2195 = { set_variable = { culture_id = 190 } }
+	2197 = { set_variable = { culture_id = 190 } }
+	2200 = { set_variable = { culture_id = 190 } }
+	1434 = { set_variable = { culture_id = 190 } }
+	1435 = { set_variable = { culture_id = 190 } }
+	1433 = { set_variable = { culture_id = 190 } }
+	2198 = { set_variable = { culture_id = 190 } }
+	1308 = { set_variable = { culture_id = 190 } }
+	2171 = { set_variable = { culture_id = 190 } }
+	2174 = { set_variable = { culture_id = 190 } }
+	2199 = { set_variable = { culture_id = 190 } }
+	1431 = { set_variable = { culture_id = 190 } }
+	292 = { set_variable = { culture_id = 190 } }
+	1318 = { set_variable = { culture_id = 190 } }
+	1319 = { set_variable = { culture_id = 190 } }
+	914 = { set_variable = { culture_id = 190 } }
+	678 = { set_variable = { culture_id = 190 } }
+
+	###  Hejazi Culture  ###
+
+	1310 = { set_variable = { culture_id = 191 } }
+	679 = { set_variable = { culture_id = 191 } }
+	1309 = { set_variable = { culture_id = 191 } }
+	911 = { set_variable = { culture_id = 191 } }
+	910 = { set_variable = { culture_id = 191 } }
+	2049 = { set_variable = { culture_id = 191 } }
+	909 = { set_variable = { culture_id = 191 } }
+	908 = { set_variable = { culture_id = 191 } }
+	1430 = { set_variable = { culture_id = 191 } }
+	1317 = { set_variable = { culture_id = 191 } }
+
+	###  Yemeni Culture  ###
+
+	917 = { set_variable = { culture_id = 192 } }
+	293 = { set_variable = { culture_id = 192 } }
+	1316 = { set_variable = { culture_id = 192 } }
+	1186 = { set_variable = { culture_id = 192 } }
+	1185 = { set_variable = { culture_id = 192 } }
+	2058 = { set_variable = { culture_id = 192 } }
+	2057 = { set_variable = { culture_id = 192 } }
+	2056 = { set_variable = { culture_id = 192 } }
+	2050 = { set_variable = { culture_id = 192 } }
+	659 = { set_variable = { culture_id = 192 } }
+	2055 = { set_variable = { culture_id = 192 } }
+	2054 = { set_variable = { culture_id = 192 } }
+	2051 = { set_variable = { culture_id = 192 } }
+	2052 = { set_variable = { culture_id = 192 } }
+	2053 = { set_variable = { culture_id = 192 } }
+	1323 = { set_variable = { culture_id = 192 } }
+	1322 = { set_variable = { culture_id = 192 } }
+	1324 = { set_variable = { culture_id = 192 } }
+	916 = { set_variable = { culture_id = 192 } }
+	915 = { set_variable = { culture_id = 192 } }
+
+	###  Dhofari Culture  ###
+
+	1321 = { set_variable = { culture_id = 193 } }
+	1184 = { set_variable = { culture_id = 193 } }
+	1320 = { set_variable = { culture_id = 193 } }
+	1432 = { set_variable = { culture_id = 193 } }
+
+	###  Omani Culture  ###
+
+	294 = { set_variable = { culture_id = 194 } }
+	1307 = { set_variable = { culture_id = 194 } }
+	920 = { set_variable = { culture_id = 194 } }
+
+	###  Shihhi Culture  ###
+
+	1183 = { set_variable = { culture_id = 195 } }
+	1182 = { set_variable = { culture_id = 195 } }
+	1181 = { set_variable = { culture_id = 195 } }
+
+	###  Bahrani Culture  ###
+
+	1178 = { set_variable = { culture_id = 196 } }
+
+	###  Gulf Arabic Culture  ###
+
+	1180 = { set_variable = { culture_id = 197 } }
+	1179 = { set_variable = { culture_id = 197 } }
+	1177 = { set_variable = { culture_id = 197 } }
+	919 = { set_variable = { culture_id = 197 } }
+	918 = { set_variable = { culture_id = 197 } }
+	658 = { set_variable = { culture_id = 197 } }
+	1313 = { set_variable = { culture_id = 197 } }
+	765 = { set_variable = { culture_id = 197 } }
+	1314 = { set_variable = { culture_id = 197 } }
+	1334 = { set_variable = { culture_id = 197 } }
+	2172 = { set_variable = { culture_id = 197 } }
+	1312 = { set_variable = { culture_id = 197 } }
+	907 = { set_variable = { culture_id = 197 } }
+	1311 = { set_variable = { culture_id = 197 } }
+	1493 = { set_variable = { culture_id = 197 } }
+	656 = { set_variable = { culture_id = 197 } }
+	1325 = { set_variable = { culture_id = 197 } }
+	1454 = { set_variable = { culture_id = 197 } }
+	2238 = { set_variable = { culture_id = 197 } }
+
+	###  Persian Culture  ###
+
+	417 = { set_variable = { culture_id = 198 } }
+	411 = { set_variable = { culture_id = 198 } }
+	418 = { set_variable = { culture_id = 198 } }
+	266 = { set_variable = { culture_id = 198 } }
+	2239 = { set_variable = { culture_id = 198 } }
+	2242 = { set_variable = { culture_id = 198 } }
+	412 = { set_variable = { culture_id = 198 } }
+	2243 = { set_variable = { culture_id = 198 } }
+	414 = { set_variable = { culture_id = 198 } }
+	2147 = { set_variable = { culture_id = 198 } }
+	416 = { set_variable = { culture_id = 198 } }
+	1459 = { set_variable = { culture_id = 198 } }
+	2247 = { set_variable = { culture_id = 198 } }
+
+	###  Talysh Culture  ###
+
+	1821 = { set_variable = { culture_id = 199 } }
+	2210 = { set_variable = { culture_id = 199 } }
+
+	###  Gilaki Culture  ###
+
+	420 = { set_variable = { culture_id = 200 } }
+
+	###  Mazandarani Culture  ###
+
+	1377 = { set_variable = { culture_id = 201 } }
+
+	###  Luri Culture  ###
+
+	2235 = { set_variable = { culture_id = 202 } }
+	2146 = { set_variable = { culture_id = 202 } }
 	413 = { set_variable = { culture_id = 202 } }
-	411 = { set_variable = { culture_id = 202 } }
-	266 = { set_variable = { culture_id = 202 } }
-	418 = { set_variable = { culture_id = 202 } }
-	412 = { set_variable = { culture_id = 202 } }
-	410 = { set_variable = { culture_id = 202 } }
-	414 = { set_variable = { culture_id = 202 } }
-	416 = { set_variable = { culture_id = 202 } }
+	2236 = { set_variable = { culture_id = 202 } }
+	1886 = { set_variable = { culture_id = 202 } }
 
-	### ---- Arabian Gulf Culture ---- ###
+	###  Qashqai Culture  ###
 
-	656 = { set_variable = { culture_id = 203 } }
-	765 = { set_variable = { culture_id = 203 } }
-	658 = { set_variable = { culture_id = 203 } }
+	2240 = { set_variable = { culture_id = 203 } }
+	2241 = { set_variable = { culture_id = 203 } }
 
-	### ---- Shia Arab Culture ---- ###
 
-	291 = { set_variable = { culture_id = 204 } }
-	820 = { set_variable = { culture_id = 204 } }
-	413 = { set_variable = { culture_id = 204 } }
+	
 
-	### ---- Sunni Arab Culture ---- ###
 
-	678 = { set_variable = { culture_id = 205 } }
-	679 = { set_variable = { culture_id = 205 } }
-	292 = { set_variable = { culture_id = 205 } }
-	455 = { set_variable = { culture_id = 205 } }
-	680 = { set_variable = { culture_id = 205 } }
-	818 = { set_variable = { culture_id = 205 } }
-	554 = { set_variable = { culture_id = 205 } }
-	677 = { set_variable = { culture_id = 205 } }
-	819 = { set_variable = { culture_id = 205 } }
 
-	### ---- Yemen Culture ---- ###
 
-	293 = { set_variable = { culture_id = 206 } }
-	659 = { set_variable = { culture_id = 206 } }
-
-	### ---- Omani Culture ---- ###
-
-	294 = { set_variable = { culture_id = 207 } }
 
 	### ---- Riffian Culture ---- ###
 
@@ -1308,10 +1676,6 @@ CDL_cultures = {
 	### ---- Moroccan Culture ---- ###
 
 	461 = { set_variable = { culture_id = 209 } }
-
-	### ---- Lebanese Culture ---- ###
-
-	553 = { set_variable = { culture_id = 267 } }
 
 	### ---- Algerian Culture ---- ###
 
@@ -1367,13 +1731,6 @@ CDL_cultures = {
 	457 = { set_variable = { culture_id = 216 } }
 	456 = { set_variable = { culture_id = 216 } }
 	880 = { set_variable = { culture_id = 216 } }
-
-	### ---- Afro-European Culture ---- ###
-
-	920 = { set_variable = { culture_id = 217 } }
-	922 = { set_variable = { culture_id = 217 } }
-	926 = { set_variable = { culture_id = 217 } }
-	918 = { set_variable = { culture_id = 217 } }
 
 	### ---- Wolof Culture ---- ###
 
@@ -1438,10 +1795,6 @@ CDL_cultures = {
 	### ---- Zarma Culture ---- ###
 
 	933 = { set_variable = { culture_id = 248 } }
-
-	### ---- Kanembu Culture ---- ###
-
-	919 = { set_variable = { culture_id = 231 } }
 
 	### ---- Sara Culture ---- ###
 
@@ -1600,7 +1953,6 @@ CDL_cultures = {
 	### ---- Australian Culture ---- ###
 
 	521 = { set_variable = { culture_id = 300 } }
-	883 = { set_variable = { culture_id = 300 } }
 	711 = { set_variable = { culture_id = 300 } }
 
 	### ---- Australien Culture ---- ###
@@ -1614,7 +1966,6 @@ CDL_cultures = {
 	882 = { set_variable = { culture_id = 302 } }
 	886 = { set_variable = { culture_id = 302 } }
 	890 = { set_variable = { culture_id = 302 } }
-	884 = { set_variable = { culture_id = 302 } }
 	887 = { set_variable = { culture_id = 302 } }
 	674 = { set_variable = { culture_id = 302 } }
 	889 = { set_variable = { culture_id = 302 } }
@@ -1697,9 +2048,7 @@ CDL_cultures = {
 	### ---- Malay Culture ---- ###
 
 	336 = { set_variable = { culture_id = 409 } }
-	916 = { set_variable = { culture_id = 409 } }
 	333 = { set_variable = { culture_id = 409 } }
-	912 = { set_variable = { culture_id = 409 } }
 	712 = { set_variable = { culture_id = 409 } }
 
 	### ---- Indonesian Culture ---- ###
@@ -1767,7 +2116,6 @@ CDL_cultures = {
 
 	### ---- Mongolian Culture ---- ###
 
-	329 = { set_variable = { culture_id = 416 } }
 	330 = { set_variable = { culture_id = 416 } }
 	321 = { set_variable = { culture_id = 416 } }
 	297 = { set_variable = { culture_id = 416 } }
@@ -1783,7 +2131,6 @@ CDL_cultures = {
 
 	592 = { set_variable = { culture_id = 418 } }
 	594 = { set_variable = { culture_id = 418 } }
-	896 = { set_variable = { culture_id = 418 } }
 
 	### ---- Uyghur Culture ---- ###
 
@@ -1950,26 +2297,26 @@ CDL_cultures = {
 
 ## Changes the culture of the state scope into the culture specified in `temp_culture`
 # SCOPE: State
-PB_Cultures_change_culture_of_state = {
+CDL_Cultures_change_culture_of_state = {
 	set_variable = { culture_id = temp_culture }
-	custom_effect_tooltip = PB_Cultures_change_culture_of_state_tt
+	custom_effect_tooltip = CDL_Cultures_change_culture_of_state_tt
 }
 
 ## Adds the culture specified in `temp_culture` into the scoped country's list of accepted cultures
 # SCOPE: Country
-PB_Cultures_add_accepted_culture = {
-	add_to_array = { PB_accepted_cultures = temp_culture }
-	custom_effect_tooltip = PB_Cultures_add_accepted_culture_tt
+CDL_Cultures_add_accepted_culture = {
+	add_to_array = { CDL_accepted_cultures = temp_culture }
+	custom_effect_tooltip = CDL_Cultures_add_accepted_culture_tt
 }
 
 ## Removes the culture specified in `temp_culture` from the scoped country's list of accepted cultures
 # SCOPE: Country
-PB_Cultures_remove_accepted_culture = {
-	remove_from_array = { array = PB_accepted_cultures value = temp_culture }
-	custom_effect_tooltip = PB_Cultures_remove_accepted_culture_tt
+CDL_Cultures_remove_accepted_culture = {
+	remove_from_array = { array = CDL_accepted_cultures value = temp_culture }
+	custom_effect_tooltip = CDL_Cultures_remove_accepted_culture_tt
 }
 
-PB_Cultures_debug_print_marked_states = {
+CDL_Cultures_debug_print_marked_states = {
 	hidden_effect = {
 		every_state = {
 			limit = {

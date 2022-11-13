@@ -1,0 +1,13 @@
+TOK_bop_very_high_increase_effect = {
+	add_power_balance_value = {
+		id = TOK_power_balance
+		value = 0.25
+	}
+}
+
+TOK_bop_very_high_decrease_effect = {
+	add_power_balance_value = {
+		id = TOK_power_balance
+		value = -0.25
+	}
+}

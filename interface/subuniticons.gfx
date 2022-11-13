@@ -276,6 +276,8 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_submarine_icon_medium_white"						texturefile = "gfx/interface/counters/ships_small/onmap_submarine.dds" }
 	spriteType = { name = "GFX_unit_transport_icon_medium_white"						texturefile = "gfx/interface/counters/ships_small/onmap_transport.dds" }
 
+	spriteType = { name = "GFX_unit_frigate_icon_medium_white"						texturefile = "gfx/interface/counters/ships_small/onmap_frigate.dds" }
+
 	############################################
 	### On-map-counters for SHIPS - Inverted ###
 
@@ -290,6 +292,8 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_submarine_icon_medium_black"						texturefile = "gfx/interface/counters/ships_small/onmap_submarine_inverted.dds" }
 	spriteType = { name = "GFX_unit_convoy_icon_medium_black"						texturefile = "gfx/interface/counters/ships_small/onmap_transport_inverted.dds" }
 
+
+	spriteType = { name = "GFX_unit_frigate_icon_medium_black"						texturefile = "gfx/interface/counters/ships_small/onmap_frigate_inverted.dds" }
 
 	#############################################################################
 	### Large ships images used in NAVAL-COMBAT-VIEW and SELECTED-FLEETS-VIEW ###
@@ -337,6 +341,9 @@ spriteTypes = {
 	#spriteType = { name = "GFX_unit_transport_icon_medium"				texturefile = "gfx/interface/navalcombat/ships/transport.dds"			noOfFrames = 2 } # Removed from Database
 	spriteType = { name = "GFX_unit_convoy_1_icon_medium"				texturefile = "gfx/interface/navalcombat/ships/convoy.dds"				noOfFrames = 2 }
 	
+
+	spriteType = { name = "GFX_unit_frigate_icon_medium"				texturefile = "gfx/interface/navalcombat/ships/frigate.dds"				noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_frigate_1_icon_medium"				texturefile = "gfx/interface/navalcombat/ships/frigate_I.dds"				noOfFrames = 2 }
 	
 	## CDL NEW ##
 	

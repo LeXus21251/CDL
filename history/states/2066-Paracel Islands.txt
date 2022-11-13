@@ -4,7 +4,8 @@ state={
 	provinces={
 		14344 14345 
 	}
-	manpower=0
+	manpower=376
+	state_category =small_island
 	buildings_max_level_factor=1.000
 	history={
 		owner = QIN

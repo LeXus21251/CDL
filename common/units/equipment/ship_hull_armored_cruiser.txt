@@ -5,12 +5,12 @@ equipments = {
 	
 		is_archetype = yes
 		is_buildable = no
-		type = armored_cruiser
+		type = capital_ship
 		group_by = archetype
 		priority = 2500
 		
 		
-		interface_category = interface_category_other_ships
+		interface_category = interface_category_capital_ships
 	
 		module_slots = {
 		}

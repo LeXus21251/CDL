@@ -21,12 +21,30 @@ characters={
 		name="Enomoto Takeaki"
 		portraits={
 			civilian={
-				large="gfx/leaders/TOK"
+				large="gfx/leaders/TOK/Enomoto_Takeaki.dds"
+				small = "gfx/interface/ideas/TOK/TOK_enomoto_takeaki.dds"
 			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			traits={}
+			#desc=TOK_TOKUGAWA_YOSHINOBU_DESC
+			expire="1965.1.1.1"
+			id=-1
 		}
 		navy_leader={
 
 		}
+		advisor = {
+            slot = navy_chief
+            idea_token = TOK_enomoto_takeaki
+            ledger = navy
+            allowed = { original_tag = TOK }
+            available = {
+                always = yes
+            }
+            traits = {  }
+        }
 	}
 	TOK_sakai_tadazumi={
 		name="Sakai Tadazumi"

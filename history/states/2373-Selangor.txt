@@ -8,7 +8,8 @@ state={
 		owner = VOC
 		add_core_of = VOC
 	}
-	manpower=0
+	manpower=1087626
 	buildings_max_level_factor=1.000
+	state_category = large_town
 	local_supplies=0.000
 }

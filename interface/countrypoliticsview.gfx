@@ -269,6 +269,10 @@ spriteTypes = {
 		name = "GFX_idea_slot_industrial_concern"
 		textureFile = "gfx/interface/idea_slot_industrial_concern.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_slot_technologic_concern"
+		textureFile = "gfx/interface/idea_slot_technologic_concern.dds"
+	}
 
 	spriteType = {
 		name = "GFX_idea_slot_materiel_manufacturer"
@@ -394,7 +398,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_categories"
 		texturefile = "gfx/interface/idea_categories.dds"
-		noOfFrames = 6
+		noOfFrames = 7
 	}
 
 	spriteType = {

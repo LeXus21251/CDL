@@ -17,16 +17,21 @@ country_event = {
 	immediate = {
 	hidden_effect = {
 
+		complete_national_focus = focus_TOK_itsushi_war
+
+		country_event = {
+			id = special.1
+			hours = 1
+		}
+
+
 		every_country = {
-			set_temp_variable = { superevent_id = 1 }
-			CDL_show_super_event = yes
+			set_temp_variable = { super_id = 1 }
+			PB_Fire_Super_Event = yes
 		}
-		TOK = {
-			load_oob = TOK_war
-		}
+
 		JAP = {
 			load_focus_tree = japan_war_tree
-			set_capital = 1109
 			recruit_character = JAP_saigo_takamori
 			recruit_character = JAP_saigo_torataro
 			recruit_character = JAP_yamada_akiyoshi
@@ -36,12 +41,8 @@ country_event = {
 			recruit_character = JAP_kabayama_sukenori
 			recruit_character = JAP_asano_nagakoto
 			  }
-			  JAP = {
-				load_oob = JAP_war
-			  }
 		
 	JAC = {
-	set_capital = 845
 	recruit_character = JAC_nakayama_sakura
 	recruit_character = JAC_iburi_izo
 	recruit_character = JAC_nakayama_shinnosuke
@@ -49,9 +50,6 @@ country_event = {
 	recruit_character = JAC_inoue_yorikuni
 	recruit_character = JAC_shinsuke_tobu
 
-		}
-		JAC = {
-			load_oob = JAC_war
 		}
 
 
@@ -127,35 +125,95 @@ country_event = {
 	}
 	}
 
-			
-country_event = {
-	id = tokugawa.1
-	title = tokugawa.1.t
-	desc = tokugawa.1.d
-	picture = GFX_report_event_worker_protests
-	immediate = {log = "[GetDateText]: [Root.GetName]: event tokugawa.2"}
-	is_triggered_only = yes
-
-	fire_only_once = yes
+	country_event = {
+		id = tokugawa.1
+		title = tokugawa.1.t
+		desc = tokugawa.1.d
+		picture = GFX_report_event_worker_protests
+		is_triggered_only = yes
 	
-	option = {
-		name = "We have been defeated"
-		JAP = {
-			annex_country = {
-				target = TOK
-				transfer_troops = yes
+		fire_only_once = yes
+		
+		option = {
+			name = "Port in Edo"
+			1601 = {
+				add_manpower = 1500
 			}
-		}
-	}
-	
-	option = {
-		name = "It's not over yet!"
-		TOK = {
-		set_cosmetic_tag = TOK_ezo
-		}
-		TOK = {
-		load_focus_tree = ezo_war_tree
+			set_global_flag = dutch_port_in_edo
 		}
 		
+		option = {
+			name = "Port in Yokosuka"
+			1164 = {
+				add_manpower = 1500
+			}
+			set_global_flag = dutch_port_in_yokosuka	
+		}
+
+		option = {
+			name = "Port in Hakodate"
+
+			trigger = {
+				NOT = { has_global_flag = dutch_port_in_edo }
+			}
+			1599 = {
+				add_manpower = 1500
+			}	
+			set_global_flag = dutch_port_in_hakodate
+		}
 	}
-}
+
+			
+#country_event = {
+#	id = tokugawa.1
+#	title = tokugawa.1.t
+#	desc = tokugawa.1.d
+#	picture = GFX_report_event_worker_protests
+#	immediate = {log = "[GetDateText]: [Root.GetName]: event tokugawa.2"}
+#	is_triggered_only = yes
+#
+#	fire_only_once = yes
+#	immediate = {
+#		hidden_effect = {
+#			TOK = {
+#			remove_country_leader_role = {
+#				character = TOK_tokugawa_yoshinobu
+##				ideology = military_government
+#			  }
+#			}
+#		}
+#	}
+#	
+##	option = {
+#		name = "We have been defeated"
+#		JAP = {
+#			annex_country = {
+#				target = TOK
+#				transfer_troops = yes
+##			}
+#		}
+#	}
+#	
+#	option = {
+#		name = "It's not over yet!"
+#		TOK = {
+#		set_cosmetic_tag = TOK_ezo
+#		}
+#		TOK = {
+#		load_focus_tree = ezo_war_tree
+#		}
+#		TOK = {
+#			retire_country_leader = yes
+#		}
+#		add_country_leader_role = {
+#			character = TOK_enomoto_takeaki
+#			promote_leader = yes
+#			country_leader = {
+#			  ideology = military_government_subtype
+#			  expire = "1965.1.1.1"
+#			  traits = { }
+#			}
+#		  }
+		
+#	}
+#}

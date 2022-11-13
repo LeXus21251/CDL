@@ -1,3 +1,5 @@
+
+#!gfx:interface\CDL_Japan\CDL_JAP_goals.gfx
 focus_tree = {
 	id = japan_war_tree
 	country = {
@@ -90,11 +92,6 @@ focus = {
 		prerequisite = {
 			focus = focus_JAP_secure_heian
 		}
-		completion_reward = {
-			JAP = { set_country_flag = emperor_rescued }
-		
-
-	}
 	}
 	focus = {
 		id = focus_JAP_defend_emperor
@@ -109,9 +106,16 @@ focus = {
 		prerequisite = {
 			focus = focus_JAP_secure_heian
 		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = emperor_not_moved_to_edo_tt		
+				NOT = {
+			TOK = {has_country_flag = emperor_moving_to_edo}
+				}
+			}	
+		}
 		completion_reward = {
-		
-
+			JAP = { set_country_flag = emperor_rescued }
 	}
 	}
 	focus = {

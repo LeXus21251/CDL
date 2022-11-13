@@ -2,17 +2,28 @@ TOK_northern_alliance = {
 	
 
 	TOK_recruit_sakai = {
+
+		fire_only_once = yes
 		allowed = {
 			original_tag = TOK
 		}
 
 		available = {
-			has_army_experience > 15
-			
+			has_completed_focus = focus_TOK_north_remember
+			has_war = yes
 		}
+		custom_cost_trigger = {
+			command_power > 30
+			has_political_power > 50
+		}
+		custom_cost_text = decision_cost_CP_30_pp_50
+
 		complete_effect = {
 			recruit_character = TOK_sakai_tadazumi
-			land_experience = -15
+			hidden_effect = {
+				add_command_power = -30
+				add_political_power = -50
+			}
 		}
 		#fire_only_once = yes
 
@@ -21,38 +32,87 @@ TOK_northern_alliance = {
 
 	TOK_recruit_from_north = {
 
-		#days_remove = 30
+		days_remove = 15
+		fixed_random_seed = no
 
 		allowed = {
 			original_tag = TOK
 		}
 
 		available = {
-			has_army_experience > 15
+			has_army_manpower = {
+				size < 100000
+			}
+			has_completed_focus = focus_TOK_north_remember
+			has_war = yes
 			
 		}
+		custom_cost_trigger = {
+			has_army_experience > 15
+			has_political_power > 50
+		}
+		custom_cost_text = decision_cost_army_xp_15_pp_50
 		
 		visible = {
 			
 		}
+		complete_effect = {
+			TOK_bop_very_high_increase_effect = yes
+
+		}
 
 		complete_effect = {
+			hidden_effect = {
+				army_experience = -15
+				add_political_power = -50
+				add_manpower = -6000
+
+			}
 			random_list = {
-				1 = {
-					TOK = {
-						random_owned_controlled_state = {
-							limit = { OR = {
-								state = 1577
-								state = 1578
+				1 = { 
+					if ={
+						limit = {
+						TOK = {
+							NOT = {
+								controls_state = 534
 							}
-							}
-							create_unit = { 
-								division = "name = \"Echigo Warriors\" division_template = \"Daimyo Rikugun\" start_experience_factor = 0.3" 
-									owner = ROOT
+						}
+					}
+						TOK = {
+							random_owned_controlled_state = {
+								limit = { OR = {
+									state = 1577
+									state = 1578
 								}
+								}
+								create_unit = { 
+									division = "name = \"Echigo Warriors\" division_template = \"Daimyo Rikugun\" start_experience_factor = 0.3" 
+										owner = ROOT
+									}
+								}
+			
+							}
+					}
+					else = {
+						TOK = {
+							random_state = {
+								limit = { 
+									OR = {
+									state = 534
+									state = 1577
+									state = 1578
+								}
+								}
+								create_unit = { 
+									division = "name = \"Echigo Warriors\" division_template = \"Daimyo Rikugun\" start_experience_factor = 0.3" 
+										owner = ROOT
+								}
+							}
+			
 						}
 					}
 				}
+
 				1 = {
 					TOK = {
 						random_owned_controlled_state = {
@@ -100,5 +160,172 @@ TOK_northern_alliance = {
 					}
 				}
 			}
+	}
+	}
+	
+	TOK_take_back_echigo = {
+
+		fire_only_once = yes
+		allowed = {
+			original_tag = TOK
+		}
+
+		available = {
+			TOK = {
+				AND = {
+					controls_state = 534
+					controls_state = 1589
+					controls_state = 1600
+				}
+			}
+			has_completed_focus = focus_TOK_north_remember
+			has_war = yes
+			
+		}
+
+		complete_effect = {
+			
+		}
+		#fire_only_once = yes
+
+	}
+}
+
+TOK_moving_emperor_operation = {
+	
+
+	TOK_move_emperor = {
+
+		
+		fire_only_once = yes
+		allowed = {
+			original_tag = TOK
+			has_completed_focus = focus_TOK_move_emperor_to_edo
+		}
+		days_remove = 60
+		available = {
+			JAP = { NOT = {has_country_flag = emperor_rescued}}
+		}
+
+		remove_effect = {
+			TOK = {set_country_flag = emperor_in_edo}
+			}
+		
+
+	}
+}
+
+TOK_dutch_missions = {
+
+	TOK_dutch_port = {
+
+
+		allowed = {
+			original_tag = TOK
+			limit = {
+				OR = {
+					has_global_flag = dutch_port_in_edo
+					has_global_flag = dutch_port_in_yokosuka
+					has_global_flag = dutch_port_in_hakodate
+				}
+			}
+		}
+
+		complete_effect = {
+			if = {
+				limit = { has_global_flag = dutch_port_in_edo }
+				1601 = {
+					add_manpower = 1
+				}
+			}
+			else_if = {
+				limit = { has_global_flag = dutch_port_in_yokosuka }
+				1164 = {
+					add_manpower = 1
+				}
+			}
+			else_if = {
+				limit = { has_global_flag = dutch_port_in_hakodate }
+				1599 = {
+					add_manpower = 1
+				}
+			}
+
+			}
+		}
+
+
+	TOK_dutch_industrial_help = {
+
+		fixed_random_seed = no
+
+
+		allowed = {
+			has_war = yes
+		}
+		visible = {
+			has_global_flag = itsushi_war_started
+			original_tag = TOK
+			has_completed_focus = focus_TOK_dutch_industrial_mission
+		}
+
+		complete_effect = {
+			random_list = {
+				3 = {
+					TOK = {
+						random_owned_state = {
+							add_building_construction = {
+								type = arms_factory 
+								level = 1
+								instant_build = yes
+							}
+						}
+					}
+
+				}
+				2 = {
+
+					TOK = {
+						random_owned_state = {
+							add_building_construction = {
+								type = industrial_complex 
+								level = 1
+								instant_build = yes
+							}
+						}
+					}
+
+				}
+				1 = {
+					TOK = {
+						random_owned_state = {
+							add_building_construction = {
+								type = dockyard 
+								level = 1
+								instant_build = yes
+							}
+						}
+					}
+
+				}
+			}
+		}
+
+	}
+
+	TOK_dutch_military_help = {
+
+		fixed_random_seed = no
+
+		allowed = {
+			has_war = yes
+		}
+		visible = {
+			has_global_flag = itsushi_war_started
+			original_tag = TOK
+			has_completed_focus = focus_TOK_dutch_military_mission
+		}
+
+
 	}
 }

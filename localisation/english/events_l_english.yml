@@ -2,7 +2,8 @@
  MINIMIZE_EVENT:0 "§GClick§! to Minimize. Event will be placed in the Event Queue under §HEvents and Decisions§!."
  ## NEWS ##
  news.0.t:0 "Worrying situation in Japan"
- news.0.d:0 "Traders on the Dejima were expelled from the Japanese islands without explanation. The situation has been tense recently. Was it the coup? Civil War? or maybe other event?"
+ news.0.d:0 "Information about the situation in the Japanese Islands has reached Europe. Dejima traders heard shots coming from Nagasaki, and armed troops entered the trading port. \n\nThe invaders began to shoot at the Tokugawa guards, some were taken prisoner. Some Europeans managed to escape by ship from the island but the rest of the Dutch were ordered to gather in one place and not leave it. It is reported that not a single one was killed. \n\nRumor has it that the Shogun-Emperor situation has recently escalated in Japan. It seems that a rebellion has broken out there. There are also claims that a dangerous religious cult has grown strong enough to take advantage of the turmoil and seize power."
+
  news.1.t:0 "Independence of the Assyrian Republic"
  news.1.d:0 "The situation in the eastern fringes of the Ottoman Empire had long been unstable due to tensions between the government and local peoples. A few days ago, local garrisons were disarmed and Ottoman officials imprisoned in the streets of Hakkari, Tur Abdin and Al-Hasakah. There was also a short shooting between the rebels and the military in the city of Hakkari. The streets of the rebellious regions no longer see Ottoman parades with brass bands playing in honor of the Caliph - life has returned to its natural state, holy icons return to the images of houses, and the Assyrians celebrate their liberation. The rebellious regions announced the creation of the Assyrian Republic, and Naum Faiq, an activist known in those areas, became its head. What does this mean for the Ottomans?"
  news.2.t:0 "Armenians declare independence!"

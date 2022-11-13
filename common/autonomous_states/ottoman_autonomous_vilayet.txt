@@ -55,12 +55,6 @@ autonomy_state = {
 		always = no
 	}
 
-	allowed = {
-		if = {
-			limit = { has_dlc = "Death or Dishonor" }
-			NOT = { has_government = fascism }
-		}
-	}
 
 	#ROOT is puppet - FROM is potential OVERLORD
 	use_for_peace_conference_weight = {

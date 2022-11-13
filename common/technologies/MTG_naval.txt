@@ -15,7 +15,7 @@ technologies = {
 			ship_hull_frigate_1
 		}
 		path = {
-			leads_to_tech = 2_ship_hull_frigate
+			leads_to_tech = tech_ship_hull_frigate_2
 			research_cost_coeff = 1
 		}
 
@@ -57,13 +57,13 @@ technologies = {
 
 	}
 
-	2_ship_hull_frigate = {
+	tech_ship_hull_frigate_2 = {
 
 		enable_equipments = {
 			ship_hull_frigate_2
 		}
 		path = {
-			leads_to_tech = 3_ship_hull_frigate
+			leads_to_tech = tech_ship_hull_frigate_3
 			research_cost_coeff = 1
 		}
 		path = {
@@ -94,13 +94,13 @@ technologies = {
 
 	}
 
-	3_ship_hull_frigate = {
+	tech_ship_hull_frigate_3 = {
 
 		enable_equipments = {
 			ship_hull_frigate_3
 		}
 		path = {
-			leads_to_tech = 2_ship_hull_ironclad
+			leads_to_tech = tech_ship_hull_ironclad_2
 			research_cost_coeff = 1
 		}
 		path = {
@@ -137,7 +137,7 @@ technologies = {
 			ship_hull_cd_ship_1
 		}
 		path = {
-			leads_to_tech = 2_ship_hull_cd_ship
+			leads_to_tech = tech_ship_hull_cd_ship_2
 			research_cost_coeff = 1
 		}
 
@@ -163,13 +163,13 @@ technologies = {
 
 	}
 
-	2_ship_hull_cd_ship = {
+	tech_ship_hull_cd_ship_2 = {
 
 		enable_equipments = {
 			ship_hull_cd_ship_2
 		}
 		path = {
-			leads_to_tech = 3_ship_hull_cd_ship
+			leads_to_tech = tech_ship_hull_cd_ship_3
 			research_cost_coeff = 1
 		}
 
@@ -195,13 +195,13 @@ technologies = {
 
 	}
 
-	3_ship_hull_cd_ship = {
+	tech_ship_hull_cd_ship_3 = {
 
 		enable_equipments = {
 			ship_hull_cd_ship_3
 		}
 		path = {
-			leads_to_tech = 4_ship_hull_cd_ship
+			leads_to_tech = tech_ship_hull_cd_ship_4
 			research_cost_coeff = 1
 		}
 
@@ -227,13 +227,13 @@ technologies = {
 
 	}
 
-	4_ship_hull_cd_ship = {
+	tech_ship_hull_cd_ship_4 = {
 
 		enable_equipments = {
 			ship_hull_cd_ship_4
 		}
 		path = {
-			leads_to_tech = 5_ship_hull_cd_ship
+			leads_to_tech = tech_ship_hull_cd_ship_5
 			research_cost_coeff = 1
 		}
 
@@ -259,13 +259,13 @@ technologies = {
 
 	}
 
-	5_ship_hull_cd_ship = {
+	tech_ship_hull_cd_ship_5 = {
 
 		enable_equipments = {
 			ship_hull_cd_ship_5
 		}
 		path = {
-			leads_to_tech = 6_ship_hull_cd_ship
+			leads_to_tech = tech_ship_hull_cd_ship_6
 			research_cost_coeff = 1
 		}
 
@@ -291,7 +291,7 @@ technologies = {
 
 	}
 
-	6_ship_hull_cd_ship = {
+	tech_ship_hull_cd_ship_6 = {
 
 		enable_equipments = {
 			ship_hull_cd_ship_6
@@ -327,7 +327,7 @@ technologies = {
 			ship_hull_monitor_1
 		}
 		path = {
-			leads_to_tech = 2_ship_hull_monitor
+			leads_to_tech = tech_ship_hull_monitor_2
 			research_cost_coeff = 1
 		}
 
@@ -353,13 +353,13 @@ technologies = {
 
 	}
 
-	2_ship_hull_monitor = {
+	tech_ship_hull_monitor_2 = {
 
 		enable_equipments = {
 			ship_hull_monitor_2
 		}
 		path = {
-			leads_to_tech = 3_ship_hull_monitor
+			leads_to_tech = tech_ship_hull_monitor_3
 			research_cost_coeff = 1
 		}
 
@@ -385,13 +385,13 @@ technologies = {
 
 	}
 
-	3_ship_hull_monitor = {
+	tech_ship_hull_monitor_3 = {
 
 		enable_equipments = {
 			ship_hull_monitor_3
 		}
 		path = {
-			leads_to_tech = 4_ship_hull_monitor
+			leads_to_tech = tech_ship_hull_monitor_4
 			research_cost_coeff = 1
 		}
 
@@ -417,13 +417,13 @@ technologies = {
 
 	}
 
-	4_ship_hull_monitor = {
+	tech_ship_hull_monitor_4 = {
 
 		enable_equipments = {
 			ship_hull_monitor_4
 		}
 		path = {
-			leads_to_tech = 5_ship_hull_monitor
+			leads_to_tech = tech_ship_hull_monitor_5
 			research_cost_coeff = 1
 		}
 
@@ -449,13 +449,13 @@ technologies = {
 
 	}
 
-	5_ship_hull_monitor = {
+	tech_ship_hull_monitor_5 = {
 
 		enable_equipments = {
 			ship_hull_monitor_5
 		}
 		path = {
-			leads_to_tech = 6_ship_hull_monitor
+			leads_to_tech = tech_ship_hull_monitor_6
 			research_cost_coeff = 1
 		}
 
@@ -481,7 +481,7 @@ technologies = {
 
 	}
 
-	6_ship_hull_monitor = {
+	tech_ship_hull_monitor_6 = {
 
 		enable_equipments = {
 			ship_hull_monitor_6
@@ -518,7 +518,7 @@ technologies = {
 			ship_hull_gunboat_1
 		}
 		path = {
-			leads_to_tech = 2_ship_hull_gunboat
+			leads_to_tech = tech_ship_hull_gunboat_2
 			research_cost_coeff = 1
 		}
 
@@ -544,13 +544,13 @@ technologies = {
 
 	}
 
-	2_ship_hull_gunboat = {
+	tech_ship_hull_gunboat_2 = {
 
 		enable_equipments = {
 			ship_hull_gunboat_2
 		}
 		path = {
-			leads_to_tech = 3_ship_hull_gunboat
+			leads_to_tech = tech_ship_hull_gunboat_3
 			research_cost_coeff = 1
 		}
 
@@ -576,13 +576,13 @@ technologies = {
 
 	}
 
-	3_ship_hull_gunboat = {
+	tech_ship_hull_gunboat_3 = {
 
 		enable_equipments = {
 			ship_hull_gunboat_3
 		}
 		path = {
-			leads_to_tech = 4_ship_hull_gunboat
+			leads_to_tech = tech_ship_hull_gunboat_4
 			research_cost_coeff = 1
 		}
 		path = {
@@ -612,13 +612,13 @@ technologies = {
 
 	}
 
-	4_ship_hull_gunboat = {
+	tech_ship_hull_gunboat_4 = {
 
 		enable_equipments = {
 			ship_hull_gunboat_4
 		}
 		path = {
-			leads_to_tech = 5_ship_hull_gunboat
+			leads_to_tech = tech_ship_hull_gunboat_5
 			research_cost_coeff = 1
 		}
 
@@ -649,13 +649,13 @@ technologies = {
 
 	}
 
-	5_ship_hull_gunboat = {
+	tech_ship_hull_gunboat_5 = {
 
 		enable_equipments = {
 			ship_hull_gunboat_5
 		}
 		path = {
-			leads_to_tech = 6_ship_hull_gunboat
+			leads_to_tech = tech_ship_hull_gunboat_6
 			research_cost_coeff = 1
 		}
 
@@ -681,7 +681,7 @@ technologies = {
 
 	}
 
-	6_ship_hull_gunboat = {
+	tech_ship_hull_gunboat_6 = {
 
 		enable_equipments = {
 			ship_hull_gunboat_6
@@ -717,7 +717,7 @@ technologies = {
 			ship_hull_minelayer_1
 		}
 		path = {
-			leads_to_tech = 2_ship_hull_minelayer
+			leads_to_tech = tech_ship_hull_minelayer_2
 			research_cost_coeff = 1
 		}
 
@@ -743,13 +743,13 @@ technologies = {
 
 	}
 
-	2_ship_hull_minelayer = {
+	tech_ship_hull_minelayer_2 = {
 
 		enable_equipments = {
 			ship_hull_minelayer_2
 		}
 		path = {
-			leads_to_tech = 3_ship_hull_minelayer
+			leads_to_tech = tech_ship_hull_minelayer_3
 			research_cost_coeff = 1
 		}
 
@@ -775,7 +775,7 @@ technologies = {
 
 	}
 
-	3_ship_hull_minelayer = {
+	tech_ship_hull_minelayer_3 = {
 
 		enable_equipments = {
 			ship_hull_minelayer_3
@@ -811,7 +811,7 @@ technologies = {
 			ship_hull_torpedo_boat_1
 		}
 		path = {
-			leads_to_tech = 2_ship_hull_torpedo_boat
+			leads_to_tech = tech_ship_hull_torpedo_boat_2
 			research_cost_coeff = 1
 		}
 
@@ -837,13 +837,13 @@ technologies = {
 
 	}
 
-	2_ship_hull_torpedo_boat = {
+	tech_ship_hull_torpedo_boat_2 = {
 
 		enable_equipments = {
 			ship_hull_torpedo_boat_2
 		}
 		path = {
-			leads_to_tech = 3_ship_hull_torpedo_boat
+			leads_to_tech = tech_ship_hull_torpedo_boat_3
 			research_cost_coeff = 1
 		}
 
@@ -874,13 +874,13 @@ technologies = {
 
 	}
 
-	3_ship_hull_torpedo_boat = {
+	tech_ship_hull_torpedo_boat_3 = {
 
 		enable_equipments = {
 			ship_hull_torpedo_boat_3
 		}
 		path = {
-			leads_to_tech = 4_ship_hull_torpedo_boat
+			leads_to_tech = tech_ship_hull_torpedo_boat_4
 			research_cost_coeff = 1
 		}
 
@@ -906,7 +906,7 @@ technologies = {
 
 	}
 
-	4_ship_hull_torpedo_boat = {
+	tech_ship_hull_torpedo_boat_4 = {
 
 		enable_equipments = {
 			ship_hull_torpedo_boat_4
@@ -942,7 +942,7 @@ technologies = {
 			ship_hull_destroyer_1
 		}
 		path = {
-			leads_to_tech = 2_ship_hull_destroyer
+			leads_to_tech = tech_ship_hull_destroyer_2
 			research_cost_coeff = 1
 		}
 
@@ -968,13 +968,13 @@ technologies = {
 
 	}
 
-	2_ship_hull_destroyer = {
+	tech_ship_hull_destroyer_2 = {
 
 		enable_equipments = {
 			ship_hull_destroyer_2
 		}
 		path = {
-			leads_to_tech = 3_ship_hull_destroyer
+			leads_to_tech = tech_ship_hull_destroyer_3
 			research_cost_coeff = 1
 		}
 
@@ -1000,7 +1000,7 @@ technologies = {
 
 	}
 
-	3_ship_hull_destroyer = {
+	tech_ship_hull_destroyer_3 = {
 
 		enable_equipments = {
 			ship_hull_destroyer_3
@@ -1036,7 +1036,7 @@ technologies = {
 			ship_hull_ironclad_1
 		}
 		path = {
-			leads_to_tech = 2_ship_hull_ironclad
+			leads_to_tech = tech_ship_hull_ironclad_2
 			research_cost_coeff = 1
 		}
 
@@ -1062,13 +1062,13 @@ technologies = {
 
 	}
 
-	2_ship_hull_ironclad = {
+	tech_ship_hull_ironclad_2 = {
 
 		enable_equipments = {
 			ship_hull_ironclad_2
 		}
 		path = {
-			leads_to_tech = 3_ship_hull_ironclad
+			leads_to_tech = tech_ship_hull_ironclad_3
 			research_cost_coeff = 1
 		}
 
@@ -1094,13 +1094,13 @@ technologies = {
 
 	}
 
-	3_ship_hull_ironclad = {
+	tech_ship_hull_ironclad_3 = {
 
 		enable_equipments = {
 			ship_hull_ironclad_3
 		}
 		path = {
-			leads_to_tech = 4_ship_hull_ironclad
+			leads_to_tech = tech_ship_hull_ironclad_4
 			research_cost_coeff = 1
 		}
 		path = {
@@ -1130,13 +1130,13 @@ technologies = {
 
 	}
 
-	4_ship_hull_ironclad = {
+	tech_ship_hull_ironclad_4 = {
 
 		enable_equipments = {
 			ship_hull_ironclad_4
 		}
 		path = {
-			leads_to_tech = 2_ship_hull_dreadnought
+			leads_to_tech = tech_ship_hull_dreadnought_2
 			research_cost_coeff = 1
 		}
 
@@ -1168,7 +1168,7 @@ technologies = {
 			ship_hull_dreadnought_1
 		}
 		path = {
-			leads_to_tech = 2_ship_hull_dreadnought
+			leads_to_tech = tech_ship_hull_dreadnought_2
 			research_cost_coeff = 1
 		}
 
@@ -1194,13 +1194,13 @@ technologies = {
 
 	}
 
-	2_ship_hull_dreadnought = {
+	tech_ship_hull_dreadnought_2 = {
 
 		enable_equipments = {
 			ship_hull_dreadnought_2
 		}
 		path = {
-			leads_to_tech = 3_ship_hull_dreadnought
+			leads_to_tech = tech_ship_hull_dreadnought_3
 			research_cost_coeff = 1
 		}
 
@@ -1226,13 +1226,13 @@ technologies = {
 
 	}
 
-	3_ship_hull_dreadnought = {
+	tech_ship_hull_dreadnought_3 = {
 
 		enable_equipments = {
 			ship_hull_dreadnought_3
 		}
 		path = {
-			leads_to_tech = 4_ship_hull_dreadnought
+			leads_to_tech = tech_ship_hull_dreadnought_4
 			research_cost_coeff = 1
 		}
 
@@ -1258,7 +1258,7 @@ technologies = {
 
 	}
 
-	4_ship_hull_dreadnought = {
+	tech_ship_hull_dreadnought_4 = {
 
 		enable_equipments = {
 			ship_hull_dreadnought_4
@@ -1296,7 +1296,7 @@ technologies = {
 			ship_hull_unprot_cruiser_1
 		}
 		path = {
-			leads_to_tech = 2_ship_hull_unprot_cruiser
+			leads_to_tech = tech_ship_hull_unprot_cruiser_2
 			research_cost_coeff = 1
 		}
 
@@ -1322,13 +1322,13 @@ technologies = {
 
 	}
 
-	2_ship_hull_unprot_cruiser = {
+	tech_ship_hull_unprot_cruiser_2 = {
 
 		enable_equipments = {
 			ship_hull_unprot_cruiser_2
 		}
 		path = {
-			leads_to_tech = 3_ship_hull_unprot_cruiser
+			leads_to_tech = tech_ship_hull_unprot_cruiser_3
 			research_cost_coeff = 1
 		}
 		path = {
@@ -1358,13 +1358,13 @@ technologies = {
 
 	}
 
-	3_ship_hull_unprot_cruiser = {
+	tech_ship_hull_unprot_cruiser_3 = {
 
 		enable_equipments = {
 			ship_hull_unprot_cruiser_3
 		}
 		path = {
-			leads_to_tech = 2_ship_hull_prot_cruiser
+			leads_to_tech = tech_ship_hull_prot_cruiser_2
 			research_cost_coeff = 1
 		}
 
@@ -1395,7 +1395,7 @@ technologies = {
 			ship_hull_prot_cruiser_1
 		}
 		path = {
-			leads_to_tech = 2_ship_hull_prot_cruiser
+			leads_to_tech = tech_ship_hull_prot_cruiser_2
 			research_cost_coeff = 1
 		}
 
@@ -1421,13 +1421,13 @@ technologies = {
 
 	}
 
-	2_ship_hull_prot_cruiser = {
+	tech_ship_hull_prot_cruiser_2 = {
 
 		enable_equipments = {
 			ship_hull_prot_cruiser_2
 		}
 		path = {
-			leads_to_tech = 3_ship_hull_prot_cruiser
+			leads_to_tech = tech_ship_hull_prot_cruiser_3
 			research_cost_coeff = 1
 		}
 		path = {
@@ -1458,13 +1458,13 @@ technologies = {
 
 	}
 
-	3_ship_hull_prot_cruiser = {
+	tech_ship_hull_prot_cruiser_3 = {
 
 		enable_equipments = {
 			ship_hull_prot_cruiser_3
 		}
 		path = {
-			leads_to_tech = 2_ship_hull_armored_cruiser
+			leads_to_tech = tech_ship_hull_armored_cruiser_2
 			research_cost_coeff = 1
 		}
 
@@ -1496,7 +1496,7 @@ technologies = {
 			ship_hull_armored_cruiser_1
 		}
 		path = {
-			leads_to_tech = 2_ship_hull_armored_cruiser
+			leads_to_tech = tech_ship_hull_armored_cruiser_2
 			research_cost_coeff = 1
 		}
 
@@ -1521,13 +1521,13 @@ technologies = {
 		}
 
 	}
-	2_ship_hull_armored_cruiser = {
+	tech_ship_hull_armored_cruiser_2 = {
 
 		enable_equipments = {
 			ship_hull_armored_cruiser_2
 		}
 		path = {
-			leads_to_tech = 3_ship_hull_armored_cruiser
+			leads_to_tech = tech_ship_hull_armored_cruiser_3
 			research_cost_coeff = 1
 		}
 
@@ -1552,7 +1552,7 @@ technologies = {
 		}
 
 	}
-	3_ship_hull_armored_cruiser = {
+	tech_ship_hull_armored_cruiser_3 = {
 
 		enable_equipments = {
 			ship_hull_armored_cruiser_3
@@ -1592,8 +1592,8 @@ technologies = {
 		path = {
 		}
 		dependencies = {
-			4_ship_hull_dreadnought  = 1
-			3_ship_hull_armored_cruiser = 1
+			tech_ship_hull_dreadnought_2  = 1
+			tech_ship_hull_armored_cruiser_3 = 1
 		}
 
 		allow_branch = {

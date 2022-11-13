@@ -1,6 +1,6 @@
 division_template = {
 	name = "Tokugawa Bakufu Rikugun" 		
-	division_names_group = TOK_INF_01
+	division_names_group = JAC_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -9,21 +9,6 @@ division_template = {
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-	}
-}
-
-division_template = {
-	name = "Division de Cavalerie"
-
-	division_names_group = AST_CAV_01
-
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
 	}
 }
 

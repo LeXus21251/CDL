@@ -21,3 +21,26 @@ country_event = {
 	}
 			}
 }
+
+country_event = {
+	id = special.1
+	
+	hidden = yes
+	
+	fire_only_once = no
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			JAP = {
+				load_oob = JAP_war
+			  }
+			  JAC = {
+				load_oob = JAC_war
+			}
+			TOK = {
+				load_oob = TOK_war
+			}
+	}
+			}
+}

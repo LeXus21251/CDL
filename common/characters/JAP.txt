@@ -1,6 +1,6 @@
 characters={
 	JAP_mutsuhito={
-		name="Mutsuhito"
+		name=JAP_mutsuhito
 		portraits={
 			civilian={
 				large="gfx/leaders/JAP/Mutsuhito.dds"
@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			ideology=absolutism_subtype
 			traits={}
+			desc=JAP_MUTSUHITO_DESC
 			expire="1965.1.1.1"
 			id=-1
 		}

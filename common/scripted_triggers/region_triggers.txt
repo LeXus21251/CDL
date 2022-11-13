@@ -61,8 +61,6 @@ edo_complex_states = {
 			controls_state = 1573
 			controls_state = 1571
 			controls_state = 845
-			
-			
 		}
 	}
 }
@@ -75,6 +73,31 @@ kansai_states = {
 	state = 1587
 	state = 1603
 	state = 845
+		}
+	}
+}
+
+shikoku_states = {
+	controls_state = {
+		AND = {
+	state = 1564
+	state = 1565
+	state = 1566
+	state = 530
+		}
+	}
+}
+
+southern_honshu_states = {
+	controls_state = {
+		AND = {
+	state = 1570
+	state = 529
+	state = 1569
+	state = 846
+	state = 1568
+	state = 1567
+	state = 1588
 		}
 	}
 }

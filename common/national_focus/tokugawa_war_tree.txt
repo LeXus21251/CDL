@@ -5,7 +5,7 @@
 ### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
 ### search_filters = {FOCUS_FILTER_MANPOWER}
 ### search_filters = {FOCUS_FILTER_ANNEXATION}
-#!gfx:interface\CDL_TOkugawa\CDL_TOK_goals.gfx
+#!gfx:interface\CDL_Tokugawa\CDL_TOK_goals.gfx
 focus_tree = {
 	id = tokugawa_war_tree
 	country = {
@@ -30,7 +30,6 @@ focus_tree = {
 		completion_reward = {
 		
 	}
-	bypass = { has_global_flag = itsushi_war_started}
 	
 	}
 	focus = {
@@ -60,7 +59,7 @@ focus_tree = {
 		id = focus_TOK_yamashiro_defensives
 		icon = GFX_focus_TOK_yamashiro_defensives
 		cost = 10.00
-		x = 28
+		x = 29
 		y = 3
 		search_filters = {FOCUS_FILTER_MANPOWER}
 		
@@ -74,7 +73,9 @@ focus_tree = {
 			focus = focus_TOK_move_emperor_to_edo
 		}
 		available = {
-			ROOT = { controls_state = 1571}
+			TOK = { 
+				controls_state = 1571
+			}
 		}
 		completion_reward = {
 			1571 = {
@@ -99,7 +100,7 @@ focus_tree = {
 		id = focus_TOK_move_emperor_to_edo
 		icon = GFX_focus_TOK_move_emperor_to_edo
 		cost = 10.00
-		x = 32
+		x = 31
 		y = 3
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		
@@ -113,10 +114,22 @@ focus_tree = {
 			focus = focus_TOK_yamashiro_defensives
 		}
 		available = {
-			JAP = {NOT = {has_country_flag = emperor_rescued}}
+			TOK = { 
+				controls_state = 1571
+				controls_state = 1573
+				controls_state = 1574
+				controls_state = 844
+
+			}
+			custom_trigger_tooltip = {
+				tooltip = emperor_not_rescued_tt		
+				NOT = {
+			JAP = {has_country_flag = emperor_rescued}
+				}
+			}	
 		}
 		completion_reward = {
-		TOK = {set_country_flag = emperor_moved_to_edo}
+		TOK = {set_country_flag = emperor_moving_to_edo}
 
 	}
 	}
@@ -136,8 +149,11 @@ focus_tree = {
 			focus = focus_TOK_move_emperor_to_edo
 		}
 		bypass = {
-			TOK = {
-				kansai_states = yes
+			custom_trigger_tooltip = {
+				tooltip = kansai_states_tt		
+				TOK = {
+					kansai_states = yes
+				}
 			}
 		}
 		completion_reward = {
@@ -152,7 +168,7 @@ focus_tree = {
 		id = focus_TOK_second_invasion_of_shikoku
 		icon = GFX_focus_TOK_second_invasion_of_shikoku
 		cost = 10.00
-		x = 28
+		x = 29
 		y = 5
 		search_filters = {FOCUS_FILTER_ANNEXATION FOCUS_FILTER_WAR_SUPPORT}
 		
@@ -161,6 +177,14 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = focus_TOK_cleanse_of_kansai
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = shikoku_states_tt		
+				TOK = {
+					shikoku_states = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -178,7 +202,7 @@ focus_tree = {
 		id = focus_TOK_push_them_out_of_honshu
 		icon = GFX_focus_TOK_push_them_out_of_honshu
 		cost = 10.00
-		x = 32
+		x = 31
 		y = 5
 		search_filters = {FOCUS_FILTER_ANNEXATION FOCUS_FILTER_WAR_SUPPORT}
 		
@@ -187,6 +211,14 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = focus_TOK_cleanse_of_kansai
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = southern_honshu_states_tt		
+				TOK = {
+					southern_honshu_states = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -266,7 +298,7 @@ focus_tree = {
 		id = focus_TOK_dutch_missions
 		icon = GFX_focus_TOK_dutch_missions
 		cost = 10.00
-		x = 22
+		x = 25
 		y = 1
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY}
 		
@@ -284,6 +316,8 @@ focus_tree = {
 			add_political_power = 100
 			drop_cosmetic_tag = yes
 			hidden_effect = {
+				country_event = { id = tokugawa.1}
+
 			every_country = {
 				limit = {
 					OR = {
@@ -303,7 +337,7 @@ focus_tree = {
 		id = focus_TOK_dutch_military_mission
 		icon = GFX_focus_TOK_dutch_military_mission
 		cost = 10.00
-		x = 25
+		x = 27
 		y = 2
 		search_filters = {FOCUS_FILTER_MANPOWER}
 		
@@ -323,7 +357,7 @@ focus_tree = {
 		id = focus_TOK_new_old_guns
 		icon = GFX_focus_TOK_new_old_guns
 		cost = 10.00
-		x = 25
+		x = 27
 		y = 3
 		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
 		
@@ -353,7 +387,7 @@ focus_tree = {
 		id = focus_TOK_arm_contracts
 		icon = GFX_focus_TOK_arm_contracts
 		cost = 10.00
-		x = 25
+		x = 27
 		y = 4
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		
@@ -382,7 +416,7 @@ focus_tree = {
 		id = focus_TOK_dutch_industrial_mission
 		icon = GFX_focus_TOK_dutch_industrial_mission
 		cost = 10.00
-		x = 19
+		x = 23
 		y = 2
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		
@@ -401,7 +435,7 @@ focus_tree = {
 		id = focus_TOK_dutch_investors
 		icon = GFX_focus_TOK_dutch_investors
 		cost = 10.00
-		x = 19
+		x = 23
 		y = 3
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		
@@ -413,7 +447,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			TOK = {
-				production_speed_industrial_complex_factor = 0.05
+				add_ideas = TOK_dutch_investors
 			}
 		
 
@@ -423,7 +457,7 @@ focus_tree = {
 		id = focus_TOK_edo_industrial_complex
 		icon = GFX_focus_TOK_edo_industrial_complex
 		cost = 10.00
-		x = 19
+		x = 23
 		y = 4
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		
@@ -434,7 +468,12 @@ focus_tree = {
 			focus = focus_TOK_dutch_investors
 		}
 		available = {
-			edo_complex_states = yes
+			custom_trigger_tooltip = {
+				tooltip = edo_complex_states_tt		
+				TOK = {
+					edo_complex_states = yes
+				}
+			}
 		}
 			
 		completion_reward = {
@@ -484,6 +523,11 @@ focus_tree = {
 			}
 		}
 	}
+	add_equipment_to_stockpile = {
+		type = train_equipment
+		amount = 3
+		producer = HOL
+	}
 	custom_effect_tooltip = TOK_edo_industrial_complex_tt
 		
 
@@ -493,7 +537,7 @@ focus_tree = {
 		id = focus_TOK_denshutai
 		icon = GFX_focus_TOK_denshutai
 		cost = 10.00
-		x = 22
+		x = 25
 		y = 3
 		search_filters = {FOCUS_FILTER_MANPOWER}
 		
@@ -515,7 +559,7 @@ focus_tree = {
 		id = focus_TOK_peasant_army
 		icon = GFX_focus_TOK_peasant_army
 		cost = 10.00
-		x = 22
+		x = 25
 		y = 5
 		search_filters = {FOCUS_FILTER_MANPOWER FOCUS_FILTER_WAR_SUPPORT}
 		
@@ -534,7 +578,7 @@ focus_tree = {
 		id = focus_TOK_the_way_of_the_west
 		icon = GFX_focus_TOK_the_way_of_the_west
 		cost = 10.00
-		x = 22
+		x = 25
 		y = 6
 		search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL}
 		
@@ -555,7 +599,7 @@ focus_tree = {
 		id = focus_TOK_expel_the_barbarians
 		icon = GFX_focus_TOK_expel_the_barbarians
 		cost = 10.00
-		x = 38
+		x = 35
 		y = 1
 		search_filters = {FOCUS_FILTER_STABILITY}
 		
@@ -569,15 +613,30 @@ focus_tree = {
 			focus = focus_TOK_dutch_missions
 		}
 		completion_reward = {
-		
-
+			set_country_flag = tokugawa_expel_dutch
+			add_political_power = 100
+			hidden_effect = {
+			every_country = {
+				limit = {
+					OR = {
+				tag = VOC
+				tag = HOL
+				}
+			}
+				add_opinion_modifier = { target = TOK modifier = large_decrease }	
+			}
+			TOK = {add_opinion_modifier = { target = HOL modifier = large_decrease }}
+			TOK = {add_opinion_modifier = { target = VOC modifier = large_decrease }}
+		}
+		custom_effect_tooltip = TOK_expel_dutch_tt
+		TOK_bop_very_high_increase_effect = yes
 	}
 	}
 	focus = {
 		id = focus_TOK_strenghten_the_shugo_system
 		icon = GFX_focus_TOK_strenghten_the_shugo_system
 		cost = 10.00
-		x = 41
+		x = 37
 		y = 2
 		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
 		
@@ -596,7 +655,7 @@ focus_tree = {
 		id = focus_TOK_warrior_and_the_landlord
 		icon = GFX_focus_TOK_warrior_and_the_landlord
 		cost = 10.00
-		x = 41
+		x = 37
 		y = 3
 		search_filters = {FOCUS_FILTER_MANPOWER FOCUS_FILTER_RESEARCH}
 		
@@ -615,7 +674,7 @@ focus_tree = {
 		id = focus_TOK_our_soil
 		icon = GFX_focus_TOK_our_soil
 		cost = 10.00
-		x = 41
+		x = 37
 		y = 4
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		
@@ -634,7 +693,7 @@ focus_tree = {
 		id = focus_TOK_bow_over_the_muskeet
 		icon = GFX_focus_TOK_bow_over_the_muskeet
 		cost = 10.00
-		x = 35
+		x = 33
 		y = 2
 		search_filters = {FOCUS_FILTER_MANPOWER FOCUS_FILTER_WAR_SUPPORT}
 		
@@ -653,7 +712,7 @@ focus_tree = {
 		id = focus_TOK_revive_the_spirit
 		icon = GFX_focus_TOK_revive_the_spirit
 		cost = 10.00
-		x = 35
+		x = 33
 		y = 3
 		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
 		
@@ -672,7 +731,7 @@ focus_tree = {
 		id = focus_TOK_our_traditions
 		icon = GFX_focus_TOK_our_traditions
 		cost = 10.00
-		x = 35
+		x = 33
 		y = 4
 		search_filters = {FOCUS_FILTER_MANPOWER}
 		
@@ -691,7 +750,7 @@ focus_tree = {
 		id = focus_TOK_devils_of_edo
 		icon = GFX_focus_TOK_devils_of_edo
 		cost = 10.00
-		x = 38
+		x = 35
 		y = 3
 		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
 		
@@ -713,7 +772,7 @@ focus_tree = {
 		id = focus_TOK_nobles_army
 		icon = GFX_focus_TOK_nobles_army
 		cost = 10.00
-		x = 38
+		x = 35
 		y = 5
 		search_filters = {FOCUS_FILTER_MANPOWER}
 		
@@ -732,7 +791,7 @@ focus_tree = {
 		id = focus_TOK_the_way_samurai
 		icon = GFX_focus_TOK_the_way_samurai
 		cost = 10.00
-		x = 38
+		x = 35
 		y = 6
 		search_filters = {FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_POLITICAL}
 		

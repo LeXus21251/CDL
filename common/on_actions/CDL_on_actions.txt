@@ -8,10 +8,6 @@ on_actions = {
 				days = 7
 			}
 		}
-		if = {
-			limit = { NOT = { has_global_flag = itsushi_war_started } }
-			news_event = { id = news.0 }
-		}
 		}
 	}
 
@@ -20,4 +16,5 @@ on_actions = {
 			set_global_flag = politics_buttons_visible
 		}
 	}
+
 }

@@ -1,4 +1,4 @@
-﻿capital = 282
+﻿capital = 1109
 
 oob = "JAP_1936"
 set_cosmetic_tag = JAP_satcho

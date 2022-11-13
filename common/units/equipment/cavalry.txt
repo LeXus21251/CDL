@@ -6,10 +6,7 @@ equipments = {
 		is_archetype = yes
 		picture = archetype_horse_equipment
 		is_buildable = no
-		type = {
-			cavalry
-			infantry
-		}
+		type = infantry
 		group_by = archetype
 		
 		interface_category = interface_category_land
@@ -61,10 +58,7 @@ equipments = {
 		is_archetype = yes
 		picture = archetype_cavalry_weapons_equipment
 		is_buildable = no
-		type = {
-			cavalry
-			infantry
-		}
+		type = infantry
 		group_by = archetype
 		
 		interface_category = interface_category_land
@@ -108,10 +102,7 @@ equipments = {
 		is_archetype = yes
 		picture = archetype_cavalry_light_armor_equipment
 		is_buildable = no
-		type = {
-			cavalry
-			infantry
-		}
+		type = infantry
 		group_by = archetype
 		
 		interface_category = interface_category_land
@@ -162,10 +153,7 @@ equipments = {
 		is_archetype = yes
 		picture = archetype_cavalry_medium_armor_equipment
 		is_buildable = no
-		type = {
-			cavalry
-			infantry
-		}
+		type = infantry
 		group_by = archetype
 		
 		interface_category = interface_category_land
@@ -202,10 +190,7 @@ equipments = {
 		is_archetype = yes
 		picture = archetype_cavalry_heavy_armor_equipment
 		is_buildable = no
-		type = {
-			cavalry
-			infantry
-		}
+		type = infantry
 		group_by = archetype
 		
 		interface_category = interface_category_land

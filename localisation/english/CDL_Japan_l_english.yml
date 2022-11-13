@@ -85,6 +85,11 @@
     focus_JAP_better_lines_desc:0 ""
     focus_JAP_open_railway:0 "Open railways on the south"
     focus_JAP_open_railway_desc:0 ""
+
+  ##FLAGS
+    emperor_rescued:0 "§OEmperor§! rescued from §YHeian-Kyō§!"
+  ##TOOLTIPS
+emperor_not_moved_to_edo_tt:0 "§OEmperor§! is not moved to §YEdo§!"
   ##SATCHO ALLIANCE GUI
 
     satcho_alliance_tt:0 "§OSatchō Alliance§!"
