@@ -10,18 +10,6 @@ state={
 			6332 10 
 		}
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 2
-			6332 = {
-				bunker = 1
-
-			}
-			anti_air_building = 2
-			6332 = {
-				naval_base = 5
-
-			}
-			air_base = 6
 
 		}
 
@@ -30,7 +18,7 @@ state={
 	provinces={
 		348 6332 11265 14921 
 	}
-	manpower=362192
+	manpower=438263
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

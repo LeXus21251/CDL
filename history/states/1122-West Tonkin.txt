@@ -11,6 +11,9 @@ state={
 		owner = VIN
 		add_core_of = VIN
 		add_core_of = LAO
+		victory_points = {
+			7218 1
+		}
 		buildings = {
 			infrastructure = 2
 

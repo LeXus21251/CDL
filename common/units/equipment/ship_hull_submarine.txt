@@ -55,21 +55,21 @@ equipments = {
 		armor_value = 0
 
 		
-		surface_detection = 20
+		surface_detection = 10
 		sub_detection = 0
 		surface_visibility = 1
-		sub_visibility = 25
-		naval_speed = 13
-		reliability = 0.60
+		sub_visibility = 45
+		naval_speed = 9
+		reliability = 0.3
 		
-		naval_range = 2500
+		naval_range = 850
 		
-		max_strength = 10
+		max_strength = 4.5
 		
 
-		fuel_consumption = 1
+		fuel_consumption = 1.5
 		
-		build_cost_ic = 220
+		build_cost_ic = 175
 		resources = {
 			#oil = 1
 			steel = 1
@@ -114,12 +114,12 @@ equipments = {
 			rear_1_custom_slot = empty
 			fixed_ship_engine_slot = sub_ship_engine_2
 		}
-		sub_visibility = 22
-		naval_speed = 17
-		reliability = 0.70
+		sub_visibility = 30
+		naval_speed = 10.5
+		reliability = 0.5
+		surface_detection = 20
 
-		naval_range = 4000
-		reliability = 0.70
+		naval_range = 3000
 		max_strength = 20
 		
 
@@ -164,11 +164,12 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 		
-		sub_visibility = 20
-		naval_speed = 18
-		reliability = 0.75
+		sub_visibility = 25
+		naval_speed = 12
+		reliability = 0.6
+		surface_detection = 30
 		
-		naval_range = 5000
+		naval_range = 5500
 		
 		max_strength = 30
 
@@ -204,16 +205,16 @@ equipments = {
 		armor_value = 0
 
 		
-		surface_detection = 30
+		surface_detection = 10
 		sub_detection = 0
 		surface_visibility = 1
-		sub_visibility = 30
-		naval_speed = 13
-		reliability = 0.60
+		sub_visibility = 45
+		naval_speed = 9
+		reliability = 0.3
 		
-		naval_range = 2500
+		naval_range = 850
 		
-		max_strength = 10
+		max_strength = 4.5
 		
 
 		fuel_consumption = 1
@@ -249,14 +250,14 @@ equipments = {
 		armor_value = 0
 
 		
-		surface_detection = 40
+		surface_detection = 20
 		sub_detection = 0
 		surface_visibility = 1
-		sub_visibility = 25
-		naval_speed = 17
-		reliability = 0.70
+		sub_visibility = 30
+		naval_speed = 10.5
+		reliability = 0.5
 
-		naval_range = 4000
+		naval_range = 3000
 		
 		max_strength = 20
 		
@@ -291,20 +292,20 @@ equipments = {
 		armor_value = 0
 
 		
-		surface_detection = 50
+		surface_detection = 30
 		sub_detection = 0
 		surface_visibility = 1
-		sub_visibility = 15
-		naval_speed = 18
-		reliability = 0.75
+		sub_visibility = 25
+		naval_speed = 12
+		reliability = 0.6
 		
-		naval_range = 5000
+		naval_range = 5500
 		
 		max_strength = 30
 
 
 		
-		build_cost_ic = 350
+		build_cost_ic = 175
 		resources = {
 			#oil = 2
 			steel = 2

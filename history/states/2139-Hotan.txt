@@ -10,6 +10,7 @@ state={
 		add_core_of = SIK
 
 	}
-	manpower=0
+	manpower=477281
 	buildings_max_level_factor=1.000
+	state_category = rural
 }

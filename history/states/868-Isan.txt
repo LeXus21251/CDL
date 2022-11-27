@@ -4,9 +4,9 @@ state={
 	provinces={
 		8027 10417 12805 
 	}
-	manpower=567000
+	manpower=94718
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 		history={
 		owner = BUK
 		add_core_of = BUK

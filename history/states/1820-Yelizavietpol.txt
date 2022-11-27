@@ -4,8 +4,9 @@ state={
 	provinces={
 		1610 11674 
 	}
-	manpower=0
+	manpower=203661
 	buildings_max_level_factor=1.000
+	state_category = village
 	history = {
 	owner = RUS
 	add_core_of = RUS

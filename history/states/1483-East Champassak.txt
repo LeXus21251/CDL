@@ -10,6 +10,9 @@ state={
 		add_core_of = VIN
 		add_core_of = CHM
 		add_claim_by = CAM
+		victory_points = {
+			1605 1
+		}
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

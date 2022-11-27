@@ -14,6 +14,9 @@ state={
 		history={
 		owner = AST
 		add_core_of = AST
+		victory_points = {
+			4593 1
+		}
 	buildings = {
 	infrastructure = 1
 	}

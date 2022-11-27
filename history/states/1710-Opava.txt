@@ -4,9 +4,9 @@ state={
 	provinces={
 		3583 
 	}
-	manpower=105882
+	manpower=95882
 	buildings_max_level_factor=1.000
-	state_category = large_town
+	state_category = village
 	history={
 		owner = SIL
 		add_core_of = SIL

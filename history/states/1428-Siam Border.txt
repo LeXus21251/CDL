@@ -5,6 +5,12 @@ state={
 	history={
 		owner = SIA
 		add_core_of = SIA
+		victory_points = {
+			7225 3
+		}
+		victory_points = {
+			4433 5
+		}
 		buildings = {
 			infrastructure = 2
 

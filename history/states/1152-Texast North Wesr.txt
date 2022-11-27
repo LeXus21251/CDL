@@ -11,7 +11,7 @@ state={
 	provinces={
 		13649 
 	}
-	manpower=25000
+	manpower=62881
 	buildings_max_level_factor=1.000
 	state_category = trade_port
 }

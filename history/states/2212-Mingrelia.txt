@@ -9,7 +9,8 @@ state={
 		add_core_of = RUS
 		add_core_of = SVN
 	}
-	manpower=0
+	manpower=86656
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	state_category = pastoral
 }

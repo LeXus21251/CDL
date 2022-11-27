@@ -17,21 +17,13 @@ state={
 		victory_points = {
 			7294 1 
 		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 1
-				infrastructure = 2
-
-			}
-
-		}
 
 	}
 
 	provinces={
 		2067 7294 10841 12141 12819 
 	}
-	manpower=300000
+	manpower=1836728
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }

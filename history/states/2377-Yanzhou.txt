@@ -7,6 +7,9 @@ state={
 	history={
 		owner = LAN
 		add_core_of = LAN
+		victory_points = {
+			2222 1
+		}
 	}
 	manpower=217226
 	buildings_max_level_factor=1.000

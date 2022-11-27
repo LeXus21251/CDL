@@ -11,6 +11,9 @@ state={
 		owner = VIN
 		add_core_of = VIN
 		add_core_of = CHM
+		victory_points = {
+			4401 10
+		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2

@@ -6,13 +6,17 @@ state={
 	history={
 		owner = PRE
 		add_core_of = PRE
+		victory_points = {
+			14924 3 
+		}
 
 	}
 
 	provinces={
 		395 14924 14925 
 	}
-	manpower=0
+	manpower=137281
 	buildings_max_level_factor=1.000
+	state_category = village
 	local_supplies=0.000
 }

@@ -17,24 +17,12 @@ state={
 		victory_points = {
 			7222 1 
 		}
-		1938.10.25 = {
-			controller = JAP
-			buildings = {
-				industrial_complex = 3
-				infrastructure = 6
-				air_base = 1
-				arms_factory = 1
-
-			}
-
-		}
-
 	}
 
 	provinces={
 		1083 1146 4203 7035 10017 11994 12061 
 	}
-	manpower=18265400
+	manpower=5782817
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=village
 }

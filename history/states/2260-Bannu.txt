@@ -9,7 +9,8 @@ state={
 		add_core_of = MUG
 		add_core_of = PJB
 	}
-	manpower=0
+	manpower=12829785
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	state_category = village
 }

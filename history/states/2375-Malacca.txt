@@ -7,6 +7,9 @@ state={
 	history={
 		owner = VOC
 		add_core_of = VOC
+		victory_points = {
+			7427 25
+		}
 	}
 	manpower=547881
 	buildings_max_level_factor=1.000

@@ -11,6 +11,12 @@ state={
 	history={
 		add_core_of = CAM
 		owner = CAM
+		victory_points = {
+			7645 3
+		}
+		victory_points = {
+			7238 1
+		}
 		buildings = {
 			infrastructure = 2
 

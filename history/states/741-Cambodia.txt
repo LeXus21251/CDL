@@ -13,7 +13,13 @@ state={
 		add_core_of = CAM
 		owner = CAM
 		victory_points = {
-			7376 1 
+			7376 5 
+		}
+		victory_points = {
+			4639 1
+		}
+		victory_points = {
+			7432 1
 		}
 		buildings = {
 			infrastructure = 3

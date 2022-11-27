@@ -7,6 +7,9 @@ state={
 	history={
 		owner = FEI
 		add_core_of = FEI
+		victory_points = {
+			7342 3
+		}
 	}
 	manpower=322871
 	buildings_max_level_factor=1.000

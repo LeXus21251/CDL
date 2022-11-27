@@ -8,7 +8,10 @@ state={
 		add_core_of = SIA
 		add_core_of = LAO
 		victory_points = {
-			1464 1 
+			1464 10 
+		}
+		victory_points = {
+			10496 3
 		}
 		buildings = {
 			infrastructure = 3

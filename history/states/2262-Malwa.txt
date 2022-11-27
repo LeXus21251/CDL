@@ -8,7 +8,8 @@ state={
 		owner = MTH
 		add_core_of = MTH
 	}
-	manpower=0
+	manpower=5827892
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	state_category = large_town
 }

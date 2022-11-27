@@ -20,13 +20,13 @@ state={
 
 		}
 		victory_points = {
-			7408 10 
+			7408 25 
 		}
 		victory_points = {
-			1488 1 
+			7572 1
 		}
 		victory_points = {
-			10438 1 
+			10221 5
 		}
 		add_core_of = SIA
 

@@ -1305,6 +1305,9 @@ CDL_cultures = {
 	2290 = { set_variable = { culture_id = 154 } }
 	2296 = { set_variable = { culture_id = 154 } }
 	577 = { set_variable = { culture_id = 154 } }
+	2273 = { set_variable = { culture_id = 154 } }
+	655 = { set_variable = { culture_id = 154 } }
+	537 = { set_variable = { culture_id = 154 } }
 
 	###  Khanty Culture  ###
 
@@ -1397,12 +1400,7 @@ CDL_cultures = {
 	637 = { set_variable = { culture_id = 174 } }
 
 	###  Nivkh Culture  ###
-
-	2273 = { set_variable = { culture_id = 175 } }
-
 	###  Orok Culture  ###
-
-	655 = { set_variable = { culture_id = 176 } }
 
 	###  Ottoman Culture  ###
 

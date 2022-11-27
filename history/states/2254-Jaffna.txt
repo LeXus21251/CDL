@@ -9,8 +9,8 @@ state={
 		add_core_of = VOC
 		add_core_of = TML
 		}
-	manpower=0
-	state_category = village
+	manpower=2267183
+	state_category = rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

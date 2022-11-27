@@ -10,7 +10,8 @@ state={
 		add_core_of = PRE
 
 	}
-	manpower=0
+	manpower=28718
 	buildings_max_level_factor=1.000
+	state_category = rural
 	local_supplies=0.000
 }

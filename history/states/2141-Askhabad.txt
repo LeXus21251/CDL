@@ -12,7 +12,8 @@ state={
 	provinces={
 		7491 10510 12333 14618 14619 
 	}
-	manpower=0
+	manpower=321627
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	state_category = village
 }

@@ -9,7 +9,8 @@ state={
 		add_core_of = KHI
 		add_core_of = KKP
 	}
-	manpower=0
+	manpower=198221
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	state_category=rural
 }

@@ -9,6 +9,9 @@ state={
 	history={
 		owner = FEI
 		add_core_of = FEI
+		victory_points = {
+			12133 3
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

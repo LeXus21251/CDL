@@ -9,7 +9,8 @@ state={
 		add_core_of = HYD
 		add_core_of = MTH
 	}
-	manpower=0
+	manpower=2673914
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	state_category = rural
 }

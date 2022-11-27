@@ -9,7 +9,8 @@ state={
 		add_core_of = GAG
 		add_core_of = ROM
 	}
-	manpower=0
+	manpower=103775
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
 }

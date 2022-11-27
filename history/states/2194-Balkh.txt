@@ -9,7 +9,8 @@ state={
 		add_core_of = AFG
 		add_core_of = BUK
 	}
-	manpower=0
+	manpower=255271
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	state_category = rural
 }

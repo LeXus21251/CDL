@@ -4,8 +4,9 @@ state={
 	provinces={
 		 11829
 	}
-	manpower=0
+	manpower=489337
 	buildings_max_level_factor=1.000
+	state_category = town
 			history={
 		owner = TUR
 		add_core_of = TUR

@@ -12,7 +12,7 @@ state={
 		add_core_of = VIN
 		owner = VIN
 		victory_points = {
-			4075 1 
+			4075 5 
 		}
 		buildings = {
 			infrastructure = 4

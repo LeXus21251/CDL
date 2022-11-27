@@ -20,20 +20,13 @@ state={
 
 		}
 		add_core_of = RUS
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-
-			}
-
-		}
 
 	}
 
 	provinces={
 		6445 9417 9430 11559 
 	}
-	manpower=1501076
+	manpower=688271
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_town
 }

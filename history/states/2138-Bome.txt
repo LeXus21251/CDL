@@ -9,6 +9,7 @@ state={
 		add_core_of = TIB
 
 	}
-	manpower=0
+	manpower=234182
 	buildings_max_level_factor=1.000
+	state_category = pastoral
 }

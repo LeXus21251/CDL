@@ -11,6 +11,12 @@ state={
 		owner = SIA
 		add_core_of = SIA
 		add_core_of = MOO
+		victory_points = {
+			10217 1
+		}
+		victory_points = {
+			1315 3
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

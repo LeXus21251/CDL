@@ -4,8 +4,9 @@ state={
 	provinces={
 		3656 
 	}
-	manpower=0
+	manpower=68473
 	buildings_max_level_factor=1.000
+	state_category = pastoral
 	history = {
 	owner = RUS
 	add_core_of = RUS

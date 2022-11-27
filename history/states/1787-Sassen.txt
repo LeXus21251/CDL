@@ -4,11 +4,14 @@ state={
 	provinces={
 		6375 9346 
 	}
-	manpower=77683
+	manpower=204453
 	buildings_max_level_factor=1.000
 	state_category = rural
 	history={
 		owner = PRE
 		add_core_of = PRE
+		victory_points = {
+			9346 1
+		}
 	}
 }

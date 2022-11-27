@@ -7,7 +7,14 @@ state={
 	history={
 		owner = KOR
 		add_core_of = KOR
+		victory_points = {
+			4056 20
 		}
-	manpower=0
+		victory_points = {
+			4086 10
+		}
+	}
+	manpower=1729162
 	buildings_max_level_factor=1.000
+	state_category = city
 }

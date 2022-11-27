@@ -9,6 +9,9 @@ state={
 	history={
 		owner = LAN
 		add_core_of = LAN
+		victory_points = {
+			10282 1
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

@@ -1631,6 +1631,9 @@ technologies = {
 			ship_torpedo_sub_1
 			sub_ship_engine_1
 		}
+		dependencies = {
+			basic_torpedo = 
+		}
 
 		path = {
 			leads_to_tech = basic_ship_hull_submarine

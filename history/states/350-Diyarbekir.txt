@@ -26,6 +26,6 @@ state={
 	provinces={
 		9823 11759 
 	}
-	manpower=571936
-	state_category=town
+	manpower=298447
+	state_category=rural
 }

@@ -4,8 +4,9 @@ state={
 	provinces={
 		7501 7507 
 	}
-	manpower=0
+	manpower=87912
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 			history={
 		owner = KHI
 		add_core_of = KHI

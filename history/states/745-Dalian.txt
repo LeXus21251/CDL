@@ -4,7 +4,7 @@ state={
 	provinces={
 		1150 6851 
 	}
-	state_category = trade_port
+	state_category = town
 	history= {
 		owner = QIN
 		add_core_of = QIN
@@ -24,6 +24,6 @@ state={
 
 	
 	}
-	manpower=1000000
+	manpower=1726136
 	buildings_max_level_factor=1.000
 }

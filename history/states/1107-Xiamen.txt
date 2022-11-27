@@ -4,9 +4,9 @@ state={
 	provinces={
 		7071 
 	}
-	manpower=700000
+	manpower=865281
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 				history={
 		owner = QIN
 		add_core_of = QIN

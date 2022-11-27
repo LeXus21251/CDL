@@ -9,6 +9,9 @@ state={
 	history={
 		owner = VOC
 		add_core_of = VOC
+		victory_points = {
+			4652 5
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

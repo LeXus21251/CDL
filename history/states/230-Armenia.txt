@@ -19,21 +19,14 @@ state={
 		}
 		add_core_of = RUS
 		add_core_of = ARM
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-
-			}
-
-		}
 
 	}
 
 	provinces={
 		12320 12380 12450 13772 
 	}
-	manpower=1250082
+	manpower=367827
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=village
 	local_supplies=0.000
 }

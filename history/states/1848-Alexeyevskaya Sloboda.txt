@@ -4,8 +4,9 @@ state={
 	provinces={
 		473 6432 9424 9489 11439 11500 
 	}
-	manpower=0
+	manpower=256172
 	buildings_max_level_factor=1.000
+	state_category=rural
 	history={
 		owner = RUS
 		add_core_of = RUS

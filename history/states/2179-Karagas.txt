@@ -9,7 +9,8 @@ state={
 		add_core_of = RUS
 		add_core_of = TFA
 	}
-	manpower=0
+	manpower=38982
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	state_category=rural
 }
