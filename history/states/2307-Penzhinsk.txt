@@ -7,9 +7,8 @@ state={
 	history={
 		owner = RUS
 		add_core_of = RUS
-		add_core_of = KM3
 		}
-	manpower=92812
+	manpower=9281
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 	state_category=pastoral

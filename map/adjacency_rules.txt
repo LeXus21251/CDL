@@ -133,7 +133,7 @@ adjacency_rule =
 		trade = yes
 	}
 	
-	required_provinces = { 6287 3325 3260 }
+	required_provinces = { 6287 3325 3260 6393 6345 11251 }
 	
 	icon = 2408
 	offset = { 0 0 0 }
@@ -421,7 +421,7 @@ adjacency_rule =
 		trade = yes
 	}
 	
-	required_provinces = { 12184 12299  }
+	required_provinces = { 12168 12299 12113 14919 }
 		
 	icon = 5539
 	offset = { 0 0 0 }
@@ -665,3 +665,124 @@ adjacency_rule =
 	icon = 10233
 	offset = { 0 0 0 }
 }
+
+#Strait of Otranto #TODO_Manu: TEST THIS OUT AND REMOVE IF NOT SATISFACTORY
+adjacency_rule =
+{
+	name = "OTRANTO_STRAIT" #TODO_Manu: Remove this loc key too if not necessary
+
+	contested =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 6979 11767 }
+		
+	icon = 6979
+	offset = { 9 0 6 }
+}
+
+#Torres Strait 
+adjacency_rule =
+{
+	name = "TORRES_STRAIT"
+
+	contested =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 1310 1644 }
+		
+	icon = 5563
+	offset = { 0 0 0 }
+}
+
+#Baudin Strait 
+adjacency_rule =
+{
+	name = "BAUDIN_STRAIT"
+
+	contested =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 12632 1814 }
+		
+	icon = 5637
+	offset = { 0 0 0 }
+}
+

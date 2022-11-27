@@ -7,7 +7,6 @@ state={
 	history={
 		owner = RUS
 		add_core_of = RUS
-		add_core_of = CKK
 		}
 	manpower=16723
 	buildings_max_level_factor=1.000

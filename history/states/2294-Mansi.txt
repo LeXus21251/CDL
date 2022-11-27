@@ -7,7 +7,6 @@ state={
 	history={
 		owner = RUS
 		add_core_of = RUS
-		add_core_of = MNS
 
 	}
 	manpower=267338

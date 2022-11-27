@@ -211,6 +211,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 14314;14316;sea;8932;-1;-1;-1;-1;;Tonga
 14329;14330;sea;5474;-1;-1;-1;-1;;FrenchPolynesia
 9388;14307;sea;2358;-1;-1;-1;-1;;Rugia
+14295;9334;sea;2358;-1;-1;-1;-1;;Wolin-Pomerania
 14295;14296;sea;2358;-1;-1;-1;-1;;Wolin-Usedom
 14296;3340;sea;2358;-1;-1;-1;-1;;Usedom-Vorpommern
 9335;14308;sea;2752;-1;-1;-1;-1;;Netherlands-Frisian

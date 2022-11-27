@@ -1307,18 +1307,6 @@ ORT = {
 color = rgb { 255 167 79 }
 color_ui = rgb { 255 167 79 }
 }
-SHR = {
-color = rgb { 11 150 174 }
-color_ui = rgb { 11 150 174 }
-}
-KHK = {
-color = rgb { 252 209 131 }
-color_ui = rgb { 252 209 131 }
-}
-TFA = {
-color = rgb { 109 117 11 }
-color_ui = rgb { 109 117 11 }
-}
 BYA = {
 	color = rgb { 0 64 255 }
 	color_ui = rgb { 0 64 255 }
@@ -1555,14 +1543,6 @@ AIN = {
 color = rgb { 214 211 144 }
 color_ui = rgb { 214 211 144 }
 }
-NVK = {
-color = rgb { 125 238 245 }
-color_ui = rgb { 125 238 245 }
-}
-ORO = {
-color = rgb { 112 137 219 }
-color_ui = rgb { 112 137 219 }
-}
 EVE = {
 color = rgb { 32 119 115 }
 color_ui = rgb { 32 119 115 }
@@ -1711,45 +1691,9 @@ YAK = {
 	color = rgb { 0 255 255 }
 	color_ui = rgb { 0 179 179 }
 }
-ENE = {
-color = rgb { 64 118 189 }
-color_ui = rgb { 64 118 189 }
-}
-SKP = {
-color = rgb { 166 179 102 }
-color_ui = rgb { 166 179 102 }
-}
-NGN = {
-color = rgb { 224 136 63 }
-color_ui = rgb { 224 136 63 }
-}
-DLG = {
-color = rgb { 142 102 227 }
-color_ui = rgb { 142 102 227 }
-}
-YKG = {
-color = rgb { 230 138 165 }
-color_ui = rgb { 230 138 165 }
-}
 CKK = {
 	color = rgb { 179 179 0 }
 	color_ui = rgb { 128 128 0 }
-}
-KM1 = {
-color = rgb { 158 123 58 }
-color_ui = rgb { 158 123 58 }
-}
-KM2 = {
-color = rgb { 175 219 116 }
-color_ui = rgb { 175 219 116 }
-}
-KM3 = {
-color = rgb { 219 142 116 }
-color_ui = rgb { 219 142 116 }
-}
-EVI = {
-color = rgb { 158 222 199 }
-color_ui = rgb { 158 222 199 }
 }
 YUP = {
 color = rgb { 224 222 99 }
