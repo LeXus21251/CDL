@@ -43,7 +43,9 @@ characters={
             available = {
                 always = yes
             }
-            traits = {  }
+            traits = {  
+				navy_chief_decisive_battle_2
+			}
         }
 	}
 	TOK_sakai_tadazumi={

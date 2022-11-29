@@ -893,7 +893,7 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = sonar
-			research_cost_coeff = x
+			research_cost_coeff = 1
 		}
 
 		on_research_complete = {

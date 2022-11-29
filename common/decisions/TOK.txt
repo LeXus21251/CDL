@@ -192,9 +192,60 @@ TOK_northern_alliance = {
 }
 
 TOK_moving_emperor_operation = {
-	
 
 	TOK_move_emperor = {
+		activation = {
+			has_completed_focus = focus_TOK_move_emperor_to_edo
+		}
+		cancel_trigger = {
+			JAP = {
+				OR = {
+				controls_state = 1571
+				controls_state = 1573
+				controls_state = 1574
+				controls_state = 844
+				}
+			}
+		}
+				visible = {
+					TOK = { NOT = {has_completed_focus = focus_TOK_edo_industrial_complex}}
+					JAP = { NOT = {has_country_flag = emperor_rescued}}
+				}
+
+				is_good = yes
+
+				days_mission_timeout = 60
+				timeout_effect = {
+					TOK = {set_country_flag = emperor_in_edo}
+				}
+	}
+	
+
+	#TOK_move_emperor = {
+#
+	#	
+	#	fire_only_once = yes
+	#	allowed = {
+	#		original_tag = TOK
+	#		has_completed_focus = focus_TOK_move_emperor_to_edo
+	#	}
+#
+	#	days_remove = 60
+	#	available = {
+	#		JAP = { NOT = {has_country_flag = emperor_rescued}}
+	#		TOK = { NOT = {has_completed_focus = focus_TOK_edo_industrial_complex}}
+	#	}
+	#	visible = {
+	#		TOK = { NOT = {has_completed_focus = focus_TOK_edo_industrial_complex}}
+	#	}
+#
+	#	remove_effect = {
+	#		TOK = {set_country_flag = emperor_in_edo}
+	#		}
+	#	
+#
+	#}
+	TOK_move_emperor2 = {
 
 		
 		fire_only_once = yes
@@ -202,9 +253,14 @@ TOK_moving_emperor_operation = {
 			original_tag = TOK
 			has_completed_focus = focus_TOK_move_emperor_to_edo
 		}
-		days_remove = 60
+
+		days_remove = 30
 		available = {
 			JAP = { NOT = {has_country_flag = emperor_rescued}}
+			TOK = {has_completed_focus = focus_TOK_edo_industrial_complex}
+		}
+		visible = {
+			TOK = {has_completed_focus = focus_TOK_edo_industrial_complex}
 		}
 
 		remove_effect = {
@@ -269,46 +325,10 @@ TOK_dutch_missions = {
 			has_completed_focus = focus_TOK_dutch_industrial_mission
 		}
 
-		complete_effect = {
-			random_list = {
-				3 = {
-					TOK = {
-						random_owned_state = {
-							add_building_construction = {
-								type = arms_factory 
-								level = 1
-								instant_build = yes
-							}
-						}
-					}
+		days_remove = 15
 
-				}
-				2 = {
-
-					TOK = {
-						random_owned_state = {
-							add_building_construction = {
-								type = industrial_complex 
-								level = 1
-								instant_build = yes
-							}
-						}
-					}
-
-				}
-				1 = {
-					TOK = {
-						random_owned_state = {
-							add_building_construction = {
-								type = dockyard 
-								level = 1
-								instant_build = yes
-							}
-						}
-					}
-
-				}
-			}
+		remove_effect = {
+			TOK_dutch_industrial_help_list = yes 
 		}
 
 	}
@@ -324,6 +344,12 @@ TOK_dutch_missions = {
 			has_global_flag = itsushi_war_started
 			original_tag = TOK
 			has_completed_focus = focus_TOK_dutch_military_mission
+		}
+
+		days_remove = 15
+
+		remove_effect = {
+			TOK_dutch_military_help_list = yes
 		}
 
 

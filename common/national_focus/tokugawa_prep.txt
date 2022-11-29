@@ -1,3 +1,4 @@
+#!gfx:interface\CDL_Tokugawa\CDL_TOK_goals.gfx
 focus_tree = {
 	id = tokugawa_prep
 	continuous_focus_position = { x = 0 y = 1000 } 
@@ -8,7 +9,6 @@ focus_tree = {
 			tag = TOK
 		}
 	}
-	#!gfx:interface\CDL_TOkugawa\CDL_TOK_goals.gfx
 	
 	focus = {
 		id = focus_TOK_civil_war

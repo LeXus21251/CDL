@@ -350,7 +350,7 @@ sub_units = {
 			attack = -0.4
 		}
 	}
-	samurai = {
+	samurai_cavalry = {
 		abbreviation = "SAM"
 		sprite = cavalry
 		map_icon_category = other

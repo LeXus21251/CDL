@@ -350,6 +350,7 @@ focus_tree = {
 		completion_reward = {
 			### DUTCH TROOPS NEW TEMPLATE TBA
 			army_experience = 20
+			custom_effect_tooltip = TOK_dutch_military_mission_tt
 
 	}
 	}
@@ -370,12 +371,12 @@ focus_tree = {
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = 15000
+				amount = 3000
 				producer = HOL
 			}
 			add_equipment_to_stockpile = {
 				type = artillery_equipment_1
-				amount = 2000
+				amount = 400
 				producer = HOL
 			}
 			###TBA
@@ -408,6 +409,17 @@ focus_tree = {
 				cost_factor = 0
 			}
 		}
+
+		add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = infantry_tech
+		}
+		add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = artillery
+		}
 		
 
 	}
@@ -427,6 +439,7 @@ focus_tree = {
 			focus = focus_TOK_dutch_missions
 		}
 		completion_reward = {
+			custom_effect_tooltip = TOK_dutch_industrial_mission_tt
 		
 
 	}
@@ -478,55 +491,18 @@ focus_tree = {
 			
 		completion_reward = {
 			hidden_effect = {
-		build_railway = {
-			path = { 13658 1182 4100 7016 4118 1024 7169 }
-		}
-		build_railway = {
-			path = { 13658 14381 1097 11908 11989 1117 13657 }
-		}
-		build_railway = {
-			path = { 14381 14382 9998 7157 7087 12097 10125 4142 11960 14455 }
-		}
-		build_railway = {
-			path = { 7072 11960 }
-		}
-		1571 = {
-		add_building_construction = {
-			type = supply_node
-			instant_build = yes
-			level = 1
-			province = 14455
-		}
-	}
-		844 = {
-			add_building_construction = {
-				type = supply_node
-				instant_build = yes
-				level = 1
-				province = 1182
-			}
-		}
-		1600 = {
-			add_building_construction = {
-				type = naval_base
-				instant_build = yes
-				level = 2
-				province = 13657
-			}
-		}
-		1579 = {
-			add_building_construction = {
-				type = naval_base
-				instant_build = yes
-				level = 2
-				province = 7169
-			}
-		}
+				TOK_edo_railway = yes
 	}
 	add_equipment_to_stockpile = {
 		type = train_equipment
 		amount = 3
 		producer = HOL
+	}
+	844 = {
+		add_resource = {
+			type = steel
+			amount = 17
+		}
 	}
 	custom_effect_tooltip = TOK_edo_industrial_complex_tt
 		
@@ -551,6 +527,12 @@ focus_tree = {
 			focus = focus_TOK_new_old_guns
 		}
 		completion_reward = {
+			hidden_effect = {
+				set_technology = { denshutai_tech = 1 popup = no }
+			}
+				
+				custom_effect_tooltip = TOK_denshutai_focus_tt
+
 		
 
 	}
@@ -570,6 +552,16 @@ focus_tree = {
 			focus = focus_TOK_denshutai
 		}
 		completion_reward = {
+			set_division_template_lock = {
+				division_template = "Tokugawa Bakufu Chuton-shi Shidan"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Tokugawa Bakufu Chuton-Kihei Shidan"
+				is_locked = no
+			}
+
+			### ZWIĘKSZYĆ POBÓR ALBO NOWY SPIRIT -TODO
 		
 
 	}
@@ -589,6 +581,9 @@ focus_tree = {
 			focus = focus_TOK_peasant_army
 		}
 		completion_reward = {
+			TOK = {
+			remove_ideas = sakoku_edict
+			}
 		
 
 	}
@@ -647,7 +642,7 @@ focus_tree = {
 			focus = focus_TOK_expel_the_barbarians
 		}
 		completion_reward = {
-		
+		##SHUGO DECISIONS - TODO
 
 	}
 	}
@@ -666,7 +661,7 @@ focus_tree = {
 			focus = focus_TOK_strenghten_the_shugo_system
 		}
 		completion_reward = {
-		
+			##SHUGO DECISIONS - TODO
 
 	}
 	}
@@ -764,6 +759,10 @@ focus_tree = {
 			focus = focus_TOK_warrior_and_the_landlord
 		}
 		completion_reward = {
+			add_trait = {
+				character = TOK_makino_tadakatsu
+				trait = edo_devil
+		   }
 		
 
 	}
@@ -783,8 +782,8 @@ focus_tree = {
 			focus = focus_TOK_devils_of_edo
 		}
 		completion_reward = {
+			set_technology = { samurai_tech = 1 popup = no }
 		
-
 	}
 	}
 	focus = {

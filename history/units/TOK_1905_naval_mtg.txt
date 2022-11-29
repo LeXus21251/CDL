@@ -1,0 +1,25 @@
+
+units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Placeholder"			
+		naval_base = 13648 # Edo
+		task_force = {
+			name = "Fleet1"
+			location = 13648 # Edo
+			ship = { name = "TBA" pride_of_the_fleet = yes definition = frigate equipment = { ship_hull_frigate_1 = { amount = 1 owner = TOK version_name = "TBA" } } }
+			ship = { name = "TBA" definition = frigate equipment = { ship_hull_frigate_1 = { amount = 1 owner = TOK version_name = "TBA" } } }
+			ship = { name = "TBA" definition = gunboat equipment = { ship_hull_gunboat_1 = { amount = 1 owner = TOK version_name = "TBA" } } }
+			ship = { name = "TBA" definition = gunboat equipment = { ship_hull_gunboat_1 = { amount = 1 owner = TOK version_name = "TBA" } } }
+		}				
+		task_force = {				
+			name = "Fleet2"			
+			location = 13648 # Edo
+			ship = { name = "TBA" definition = frigate equipment = { ship_hull_frigate_1 = { amount = 1 owner = TOK version_name = "TBA" } } }
+			ship = { name = "TBA" definition = frigate equipment = { ship_hull_frigate_1 = { amount = 1 owner = TOK version_name = "TBA" } } }
+			ship = { name = "TBA" definition = cd_ship equipment = { ship_hull_cd_ship_1 = { amount = 1 owner = TOK version_name = "TBA" } } }
+		}				
+	}
+} 
+

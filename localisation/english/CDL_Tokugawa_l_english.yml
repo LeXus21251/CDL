@@ -129,6 +129,12 @@
 
   TOK_moving_emperor_operation:0 "Operation Chrysantemum"
   TOK_move_emperor:0 "Moving Emperor to Edo"
+  TOK_move_emperor2:0 "Moving Emperor to Edo"
+
+  TOK_dutch_missions:0 "Dutch influence in Japan"
+  TOK_dutch_port:0 "Boost new Dutch trade port"
+  TOK_dutch_industrial_help:0 "Dutch industrial investment"
+  TOK_dutch_military_help:0 "Buy Dutch weapons"
  ##FLAGS
   itsushi_war_started:0 "§OItsushi War§! has started" #global
  ##TOOLTIPS
@@ -137,6 +143,12 @@
   TOK_dutch_missions_tt:0 "Tightening ties with §Y[HOL.GetName]§! and §YVOC§! (§G+50§! opinion)\nUnlocks §Y'Dutch missions'§! decisions" #focus
   TOK_expel_dutch_tt:0 "This will §Renrage§! §Y[HOL.GetName]§! and §YVOC§! (§R-50§! opinion)" #focus
   TOK_edo_industrial_complex_tt:0 "Railway system running from §YEdo§! to §YNiigata§!, §YOsaka§! and §YRikuzen§!\nNaval ports in §YNiigata§! and §YSandai§!" #focus
+  TOK_dutch_industrial_mission_tt:0 "Allows us to receive §YDutch industrial support§!"
+  TOK_dutch_military_mission_tt:0 "Allows us to buy §YDutch weapons§!"
+  TOK_denshutai_focus_tt:0 "Unlocks elite §YDenshūtai§! infantry units"
+
+
+
   emperor_not_rescued_tt:0 "§OEmperor§! not rescued by §Y[JAP.GetName]§!"
   kansai_states_tt:0 "Control all states in §YKansai Region§!"
   shikoku_states_tt:0 "Control all states in §YShikoku Region§!"

@@ -2126,4 +2126,32 @@ technologies = {
 		#	maximum_speed = 1.25 #TODO_TA for testing only, remove
 		#}
 	}
+		### HIDDEN ###
+	denshutai_tech = {
+		
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 1850
+
+		enable_subunits = {
+			denshutai
+		}
+	}
+
+	samurai_tech = {
+		
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 1850
+
+		enable_subunits = {
+			samurai_cavalry
+		}
+	}
 }

@@ -266,6 +266,15 @@ CDL_Culture_Mazandarani_tt:0 "Mazandarani"
 CDL_Culture_Luri_tt:0 "Luri"
 CDL_Culture_Qashqai_tt:0 "Qashqai"
 
+# CENTRAL STEPPE #
+
+CDL_Culture_Kazakh_tt:0 "Kazakh"
+CDL_Culture_Turkmen_tt:0 "Turkmen"
+CDL_Culture_Uzbek_tt:0 "Uzbek"
+CDL_Culture_Karakalpak_tt:0 "Karakalpak"
+CDL_Culture_Kyrgyz_tt:0 "Kyrgyz"
+CDL_Culture_Tajik_tt:0 "Tajik"
+
 
 # SOUTH AMERICA #
 

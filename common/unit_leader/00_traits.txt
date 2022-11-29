@@ -56,6 +56,28 @@ leader_traits = {
 ##################################
 # Common Traits
 ##################################
+edo_devil = { 
+	type = land
+	trait_type = personality_trait
+	
+	attack_skill = 1
+	planning_skill = 1
+	
+	attack_skill_factor = 1
+	planning_skill_factor = 1
+	non_shared_modifier = {
+		cavalry_attack_factor = 0.2
+	}
+	
+
+	new_commander_weight = {
+		factor = 1
+	}
+	
+}
+
+
+
 	old_guard = { 
 		type = land
 		trait_type = personality_trait
