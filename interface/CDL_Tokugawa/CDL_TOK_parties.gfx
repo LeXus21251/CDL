@@ -1,8 +1,0 @@
-spriteTypes = {
-	#CLAN
-		spriteType = {
-			name = "GFX_ideology_TOK_military_government_group"
-			texturefile = "gfx/interface/ideologies/TOK/TOK_tokugawa_bakufu_party.dds"
-		}
-
-	}

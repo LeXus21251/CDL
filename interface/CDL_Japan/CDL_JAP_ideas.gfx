@@ -1,8 +1,0 @@
-spriteTypes = {
-
-#EMPEROR
-	spriteType = {
-		name = "GFX_idea_JAP_emperor"
-		texturefile = "gfx/interface/ideas/JAP/JAP_emperor.dds"
-	}
-}

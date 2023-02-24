@@ -1,8 +1,0 @@
-spriteTypes = {
-
-#FRENCH PROTECTION
-	spriteType = {
-		name = "GFX_idea_TON_french_protection"
-		texturefile = "gfx/interface/ideas/TON/TON_french_protection.dds"
-	}
-}
