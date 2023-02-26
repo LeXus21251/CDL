@@ -1,19 +1,23 @@
+
 state={
 	id=870
 	name="STATE_870"
-	provinces={
-		2201 5207 8152 8209 8247 10937 10958 11016 12993 13133 
-	}
-	history = {
+
+	history={
 		buildings = {
 			infrastructure = 1
+
 		}
 		owner = AST
 		add_core_of = AST
-	}
-	state_category = wasteland
-	manpower=1000
 
+	}
+
+	provinces={
+		2133 2201 5175 5206 5207 7623 8134 8152 8155 8209 8247 10937 10958 10979 11016 12311 12326 12904 12906 12912 12915 12962 12993 13133 13261 13262 
+	}
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 	local_supplies=0.000
 }
