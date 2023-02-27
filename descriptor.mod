@@ -5,3 +5,4 @@ tags={
 name="Champs De Lys"
 supported_version="1.12.*"
 picture = "HOI4_icon.bmp"
+replace_path="history/states"

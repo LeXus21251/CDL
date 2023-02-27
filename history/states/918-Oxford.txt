@@ -1,0 +1,11 @@
+
+state={
+	id=918
+	name="STATE_918"
+	provinces={
+		6221 9239 11471 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

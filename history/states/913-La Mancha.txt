@@ -1,0 +1,11 @@
+
+state={
+	id=913
+	name="STATE_913"
+	provinces={
+		832 3835 4195 9903 11807 11812 11884 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
