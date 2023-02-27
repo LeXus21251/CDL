@@ -4,20 +4,19 @@ state={
 	name="STATE_893"
 
 	history={
-		owner = SAF
+		owner = AST
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = SAF
-		add_core_of = NMB
+		add_core_of = AST
 
 	}
 
 	provinces={
 		1498 1511 1540 2177 2186 4645 5125 5170 7579 7608 10473 10936 10955 10971 12323 12926 12936 12992 13259 
 	}
-	manpower=46200
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 	local_supplies=0.000

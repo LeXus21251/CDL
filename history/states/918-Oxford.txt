@@ -5,7 +5,13 @@ state={
 	provinces={
 		6221 9239 11471 
 	}
-	manpower=0
+	history={
+		owner = ENG
+		add_core_of = ENG
+
+	}
+	manpower=1
+	state_category = wasteland
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

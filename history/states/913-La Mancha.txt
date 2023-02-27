@@ -5,7 +5,13 @@ state={
 	provinces={
 		832 3835 4195 9903 11807 11812 11884 
 	}
-	manpower=0
+	history={
+		owner = SPR
+		add_core_of = SPR
+
+	}
+	manpower=1
+	state_category = wasteland
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
