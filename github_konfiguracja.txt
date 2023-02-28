@@ -1,0 +1,7 @@
+1. pobierz github desktop i zaloguj się
+2. sklonuj repozytorium przy pomocy url (wklej link do githuba CDL, a niżej ścieżke dostępową do folderu z modami hoi4)
+  !! WAŻNE !! --- folder z modami musi być pusty, na czas tego możesz wyciąć mody do innego folderu
+3. sklonuj repozytorium na swój komputer
+4. wybierz branch CDL-new i go pobierz
+5. wklej do folderu z modami plik CDL.mod zawarty w folderze na githubie i zmień w ścieżce dostępowej "admin" na nazwe swojego użytkownika
+6. mod powinien pojawić się w launcherze i działać 

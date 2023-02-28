@@ -1,5 +1,9 @@
 ﻿TODO list:
-edycja reszty map pod aktualny kształt
-
-
-naprawa rzek
+dostosowanie prowincji do terenu na megaprojektach (dopiero po zrobieniu stejtów)
+dodać przejścia ciesniny
+dodać kanały
+zmieniać nazwy stejtów
+dostosować stejty w plikach
+dodac kraj wyspa man
+nazwy dla malty
+dodac korsyke z plikow
