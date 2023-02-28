@@ -1,0 +1,16 @@
+characters={
+	PAP_pius_x={
+		name="Pius X"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAP/Pius_X.dds"
+			}
+		}
+		country_leader={
+			ideology=abs_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

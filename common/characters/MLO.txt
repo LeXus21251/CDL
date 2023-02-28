@@ -1,0 +1,16 @@
+characters={
+	MLO_franz_ferdinand={
+		name="Franz Ferdinand"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLO/.dds"
+			}
+		}
+		country_leader={
+			ideology=conv_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

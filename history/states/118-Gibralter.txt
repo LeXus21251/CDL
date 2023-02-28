@@ -4,9 +4,9 @@ state=
 	name="STATE_118"
 	manpower=21372
 	
-	state_category = enclave
+	state_category = wasteland
 	history={
-		owner = ENG
+		owner = SPR
 		victory_points = { 4135 10 }
 		buildings = {
 			infrastructure = 3
@@ -16,7 +16,7 @@ state=
 				coastal_bunker = 2
 			}
 		}
-		add_claim_by = SPR
+		add_core_of = SPR
 	}
 	provinces={
 		4135

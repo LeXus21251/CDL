@@ -1,0 +1,627 @@
+guiTypes = {
+
+	containerWindowType = {
+		name ="frontend_background"
+		position = { x=0 y =0 }	
+		size = { 
+			width = 1920 
+			height = 1440 
+			min = { width = 100% height = 100% }
+			max = { width = 100% height = 10000 }
+			preserve_aspect_ratio = yes
+		}
+		Orientation = center
+		Origo = center
+		clipping = no 
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_frontend_bg"
+			alwaystransparent = yes
+		}
+		
+	}
+
+	### MAIN MENU PANEL (upperleft)
+	containerWindowType = {
+		name  ="mainmenu_panel_upperleft"
+		position = { x=0 y =-200 }
+		show_position = { x=0 y =-1 }
+		animation_type = decelerated
+		animation_time = 1000
+		size = { width = 256 height = 768}
+		
+		iconType =
+		{
+			name ="_frontend_cdl_logo"
+			spriteType = "GFX_frontend_cdl_logo"
+			position = { x= 0 y = -40 }
+		}
+		containerWindowType = {
+			name = "CDL_update_window"
+			position = { x=0 y =300}
+			size = { width = 320 height = 200}
+			Orientation = UPPER_LEFT
+					
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_tiled_window"
+				clicksound = click_default			
+				oversound = ui_menu_over
+			}
+	
+			instantTextboxType = {
+				name = "update_name"
+				position = { x = 25 y = 18 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "Japanese civil war demo"
+				maxWidth = 400
+				maxHeight = 20
+				fixedsize = yes
+			}
+	
+			instantTextboxType = {
+				name = "update_content_top"
+				position = { x = 25 y = 49 }
+				textureFile = ""
+				font = "hoi_22typewriter"
+				borderSize = {x = 0 y = 0}
+				text = "Update Content:"
+				maxWidth = 400
+				maxHeight = 20
+				fixedsize = yes
+			}	
+	
+			instantTextboxType = {
+				name = "update_content_1"
+				position = { x = 35 y = 73 }
+				textureFile = ""
+				font = "hoi_16typewriter"
+				borderSize = {x = 0 y = 0}
+				text = "-Tougawa Shogunate path"
+				maxWidth = 275
+				maxHeight = 70
+				fixedsize = yes
+			}
+			instantTextboxType = {
+				name = "update_content_2"
+				position = { x = 35 y = 90 }
+				textureFile = ""
+				font = "hoi_16typewriter"
+				borderSize = {x = 0 y = 0}
+				text = "-Emperor and southern Daimyos path"
+				maxWidth = 275
+				maxHeight = 70
+				fixedsize = yes
+			}
+			instantTextboxType = {
+				name = "update_content_3"
+				position = { x = 35 y = 107 }
+				textureFile = ""
+				font = "hoi_16typewriter"
+				borderSize = {x = 0 y = 0}
+				text = "-Tenri-kyo religious cult path"
+				maxWidth = 275
+				maxHeight = 70
+				fixedsize = yes
+			}
+
+			instantTextboxType = {
+				name = "update_version"
+				position = { x = 80 y = 165 }
+				textureFile = ""
+				font = "hoi_16typewriter"
+				borderSize = {x = 0 y = 0}
+				text = "Version 0.01 (Dev Build)"
+				maxWidth = 275
+				maxHeight = 70
+				fixedsize = yes
+			}
+			
+		}
+		
+	}
+
+
+	#containerWindowType = {
+	#	name  ="frontend_alpha_stamp"
+	#	position = { x=100 y =-100  }
+	#	size = { width = 131 height = 132}
+	#	orientation = lower_left
+	#	origo = lower_left
+	#	
+	#	iconType =
+	#	{
+	#		name ="frontend_alpha_stamp"
+	#		spriteType = "GFX_alpha_stamp"
+	#		position = { x= 0 y = 20 }
+	#	}		
+	#	
+	#}	
+	
+	### MAIN MENU PANEL (upperright)
+	containerWindowType = {
+		name ="mainmenu_panel_upperright"
+		position = { x=0 y =-1 }
+		show_position = { x=-400 y =-1 }
+		animation_type = decelerated
+		animation_time = 1000					
+		size = { width = 400 height = 768}
+		Orientation = upper_right
+
+		ButtonType = {
+			name = "achievements_button"
+			position = { x = -50 y = 25 }
+			quadTextureSprite ="achievements"
+			pdx_tooltip = "MENU_ACHIEVEMENTS"
+		}
+		iconType =
+		{
+			name ="frontend_PMA_logo"
+			spriteType = "GFX_frontend_PMA_logo"
+			position = { x= 10 y = 15 }
+			
+		}
+
+		iconType =
+		{
+			name ="frontend_dev_logo"
+			spriteType = "GFX_frontend_dev_logo"
+			position = { x= 130 y = 15 }
+		}
+		
+			
+		iconType =
+		{
+			name ="pdx_int_logo"
+			spriteType = "GFX_pdx_int_logo"
+			position = { x= 250 y = 15 }
+		}
+		containerWindowType = {
+			name = "CDL_authors_window"
+			position = { x=80 y =200}
+			size = { width = 300 height = 150}
+			Orientation = UPPER_LEFT
+					
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_tiled_window"
+				clicksound = click_default			
+				oversound = ui_menu_over
+			}
+	
+			instantTextboxType = {
+				name = "authors_top"
+				position = { x = 100 y = 18 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "Dev Team"
+				maxWidth = 200
+				maxHeight = 20
+				fixedsize = yes
+			}
+	
+			instantTextboxType = {
+				name = "dev_team"
+				position = { x = 25 y = 49 }
+				textureFile = ""
+				font = "hoi_16typewriter"
+				borderSize = {x = 0 y = 0}
+				text = "LeXus, bartaz61, POGKPP, Macias23 (Doge is Alive in Poland), Falang, Poloniae, Kruszka_Chlyba, Husavi"
+				maxWidth = 270
+				maxHeight = 100
+				fixedsize = yes
+			}	
+			
+		}	
+		containerWindowType = {
+			name = "CDL_honorable_mentions"
+			position = { x=80 y =350}
+			size = { width = 300 height = 150}
+			Orientation = UPPER_LEFT
+					
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_tiled_window"
+				clicksound = click_default			
+				oversound = ui_menu_over
+			}
+	
+			instantTextboxType = {
+				name = "mentions_top"
+				position = { x = 50 y = 18 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "Honorable Mentions"
+				maxWidth = 200
+				maxHeight = 20
+				fixedsize = yes
+			}
+	
+			instantTextboxType = {
+				name = "mentions"
+				position = { x = 25 y = 49 }
+				textureFile = ""
+				font = "hoi_16typewriter"
+				borderSize = {x = 0 y = 0}
+				text = "Ollie Bye, RETF, Musvak, Escodrion and everyone who contributed in mod development"
+				maxWidth = 270
+				maxHeight = 100
+				fixedsize = yes
+			}	
+			
+		}
+	}		
+
+	### SINGLE PLAYER MENU
+	containerWindowType = {
+		name = "mainmenu_single_player"
+		position = { x=0 y =0}
+		size = { width = 320 height = 395}
+		Orientation = CENTER
+		Origo = center	
+				
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_window"
+		}
+		
+		ButtonType = {
+			name = "sp_continue_button"
+			position = { x = 16 y = 18 }
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "FE_CONTINUE"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
+		iconType = {
+			name = "sp_continue_flag_left"
+			quadTextureSprite ="GFX_flag_small2_not_masked"
+			position = { x= 35 y = 22 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "sp_continue_flag_left_overlay"
+			quadTextureSprite ="GFX_flag_small2_not_masked"
+			position = { x= 35 y = 22 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "sp_continue_flag_right"
+			quadTextureSprite ="GFX_flag_small2_not_masked"
+			position = { x= 245 y = 22 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "sp_continue_flag_right_overlay"
+			quadTextureSprite ="GFX_flag_small2_not_masked"
+			position = { x= 245 y = 22 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		
+		ButtonType = {
+			name = "sp_new_button"
+			position = { x = 16 y = 58 }
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "FE_NEW"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
+		ButtonType = {
+			name = "sp_load_button"
+			position = {  x = 16 y = 98 }
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "MENU_BAR_LOAD"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
+		ButtonType = {
+			name = "sp_tutorial_button"
+			position = { x = 16 y = 138}
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "FE_TUTORIAL"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
+		ButtonType = {
+			name = "sp_back_button"
+			position = { x = 16 y = 218 }
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "BACK"
+			buttonFont = "hoi_24header"
+			clicksound = click_close
+			oversound = ui_menu_over
+			shortcut = "ESCAPE"
+		}
+	}
+
+	### MAIN MENU PANEL (bottom)
+	containerWindowType = {
+		name ="mainmenu_panel_bottom"
+		position = { x=0 y =0}
+		size = { width = 320 height = 435 }
+		Orientation = CENTER
+		Origo = center		
+
+		positionType = {
+			name = "subscription_size"
+			position = { x = 320 y = 563 }
+		}
+				
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_window"
+		}
+			
+		ButtonType = {
+			name = "single_player_button"
+			position = { x = 16 y = 18 }
+			quadTextureSprite ="GFX_main_lobby_button"
+			font = "hoi_24header"			
+			text = "FE_SINGLE_PLAYER"				
+			clicksound = click_default			
+			oversound = ui_menu_over
+		}
+
+		ButtonType = {
+			name = "multi_player_button"
+			position = { x = 16 y = 58}
+			quadTextureSprite ="GFX_main_lobby_button"
+			font = "hoi_24header"			
+			text = "FE_MULTI_PLAYER"			
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+
+		@warn_icon_x = 280
+		iconType = {
+			name = "single_player_button_warn"
+			position = { x = @warn_icon_x y = 22 }
+			spriteType = "GFX_missing_dlc_warning_sign"
+		}
+
+		instantTextBoxType = {
+
+			name ="version_label"
+			position = { x = 35 y = 396 }
+			textureFile = ""
+			font = "hoi_18b"
+			borderSize = {x = 0 y = 0}
+			text = "ALPHA"	
+			format = centre
+			maxWidth = 250
+			maxHeight = 20	
+		}
+
+		positionType = {
+			name = "version_label_subscription_position"
+			position = { x = 35 y = 524 }
+		}
+		
+		
+		ButtonType = {
+			name = "settings_button"
+			position = { x = 16 y = 98 }
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "OPTIONS"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
+		buttonType = {
+			name = "career_profile_button"
+			position = { x = 16 y = 138 }
+			quadTextureSprite ="GFX_main_lobby_button"
+			buttonText = "MENU_BAR_CAREER_PROFILE"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
+		iconType = {
+			name = "career_profile_button_star"
+			position = { x = -37 y = 155 }
+			spriteType = "GFX_icon_best_in_career"
+			centerposition = yes
+			orientation = upper_right
+			alwaysTransparent = yes
+		}
+		
+		buttonType = {
+			name = "friends_button"
+			position = { x = 16 y = 178 }
+			quadTextureSprite ="GFX_main_lobby_button"
+			buttonText = "MENU_BAR_FRIENDS"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+
+		ButtonType = {
+			name = "credits_button"
+			position = {  x = 16 y = 218 }
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "FE_CREDITS"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
+		ButtonType = {
+			name = "nudge_button"
+			position = { x = 16 y = 258 }
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "Nudge!"
+			buttonFont = "hoi_24header"
+		}
+
+		ButtonType = {
+			name = "exit_button"
+			position = { x = 16 y = 300 }
+			quadTextureSprite ="GFX_main_lobby_button"
+			font = "hoi_24header"			
+			text = "FE_EXIT"			
+			clicksound = click_default
+			oversound = ui_menu_over
+			
+		}
+
+		iconType = {
+			name = "subscription_divider"
+			position = { x = 4 y = 336 }
+			spriteType = "GFX_main_lobby_divider"
+		}
+
+		containerWindowType = {
+			name = "subscription_widget"
+			position = { x = 16 y = 352 }
+			size = { width = 288 height = 108 }
+
+			ButtonType = {
+				name = "show_subscription"
+				position = { x = 0 y = 0 }
+				quadTextureSprite ="GFX_subscription_widget"
+				buttonText = "SUBSCRIPTION_WIDGET"
+				buttonFont = "hoi_24header"
+				multiline = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "subscription_widget_subscribed"
+			position = { x = 16 y = 352 }
+			size = { width = 288 height = 108 }
+
+			ButtonType = {
+				name = "show_subscription"
+				position = { x = 0 y = 0 }
+				quadTextureSprite ="GFX_subscription_widget_active"
+				frame = 1
+				buttonText = "SUBSCRIPTION_WIDGET_SUBSCRIBED"
+				buttonFont = "hoi_24header"
+				multiline = yes
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "mainmenu_social_buttons"
+		position = { x=-50 y=25 }	
+		size = { width = 240 height = 90 }
+		Orientation = center	
+		origo = center
+		
+		positionType = {
+			name = "position_without_social_gui"
+			position = { x = 0 y = 175 }
+		}
+
+		positionType = {
+			name = "subscription_position"
+			position = { x = -50 y = 109 }
+		}
+
+		positionType = {
+			name = "subscription_position_without_social_gui"
+			position = { x = 0 y = 239 }
+		}
+		
+		containerWindowType = {
+			name = "social_view_interface_window"
+			position = { x = 250 y = 0  }
+			size = { width = 60 height = 40 }
+			
+			buttonType = {
+				name = "toggle_button"
+				quadTextureSprite = "GFX_sort_button_83x29" ## Orig: 60x29
+				position = { x=0 y=0  }
+				buttonFont = "hoi_16mbs"
+			}
+				
+			iconType = {
+				name = "button_toggle_socialview_icon"
+				spriteType = "GFX_socialview_icon"
+				position = { x=0 y=0 }
+				alwaystransparent = yes
+			}
+				
+			instantTextBoxType={
+				name = "friends_online"
+				font = "cg_16b"
+				position = { x=20 y=15 }
+				text = "0"
+				maxWidth = 30
+				maxHeight = 16
+				alwaysTransparent = yes
+				format = center
+			}
+				
+			iconType = {
+				name = "new_message"
+				position = { x=42 y =5 }
+				spriteType = "GFX_new_message_icon"
+				pdx_tooltip = "SOCIAL_NEW_MESSAGE"
+			}
+				
+			iconType = {
+				name = "new_friend"
+				position = { x=42 y=17 }
+				spriteType = "GFX_new_friend_icon"
+				pdx_tooltip = "SOCIAL_NEW_FRIEND"
+			}
+		}
+		
+		ButtonType = {
+			name = "discord_button"
+			position = { x=70 y=0 }
+			quadTextureSprite ="discord"
+			clicksound = click_default
+			pdx_tooltip = "MENU_DISCORD"
+			web_link = "https://discord.gg/U88rcBc25j"
+		}
+		ButtonType = {
+			name = "reddit_button"
+			position = { x=130 y=0 }
+			quadTextureSprite ="reddit"
+			clicksound = click_default
+			pdx_tooltip = "MENU_REDDIT"
+			web_link = "https://www.reddit.com/r/ChampsDeLys/"
+		}
+	}
+
+	## This position needs updated
+	containerWindowType = {
+		name = "mainmenu_achievement_button"
+		position = { x = -500 y = 20 }	
+		size = { width = 100 height = 100 }
+		Orientation = upper_right
+		clipping = no
+		
+		ButtonType = {
+			name = "achievements_button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite ="achievements"
+			pdx_tooltip = "MENU_ACHIEVEMENTS"
+		}		
+	}
+}

@@ -1,0 +1,80 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "super_event_window"
+		size = { width = 705 height = 530 }
+		position = { x= 0 y= -6000 }
+		show_position = { x = 0 y = 0 }
+		hide_position = { x= 0 y= -6000 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 1
+		Orientation = center
+		Origo = center
+		clipping = no	
+		moveable = yes
+
+		background = {
+			name = "bg"
+			quadTextureSprite = "GFX_tiled_window_transparent"
+		}
+
+		iconType = {
+			name ="Super_Event_Image"
+			position = { x = 90 y = 108 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name ="Super_Event_Image_Frame"
+			spriteType = "GFX_CDL_super_event_frame"
+			Origo = center
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "Pax_Super_Event_Title_textbox"
+			position = { x = 55 y = 120}
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "[get_super_event_title]"
+			maxWidth = 581
+			maxHeight = 20
+			fixedsize = yes	
+			format = center
+			alwaystransparent = yes
+		}
+		buttonType = {
+            name = "super_event_close_button"
+            position = { x = 170 y = 460 }
+            quadTextureSprite ="GFX_CDL_super_event_button"
+            clicksound = click_scroll
+			shortcut = "ESCAPE"
+        }
+
+		instantTextBoxType = {
+			name = "Pax_Super_Event_Quote_textbox"
+			position = { x = 100 y = 310 }
+			font = "newsfeed_body"
+			borderSize = {x = 0 y = 0}
+			text = "[get_superevent_quote]"
+			maxWidth = 500
+			maxHeight = 175
+			fixedsize = yes	
+			format = left
+		}
+
+		instantTextBoxType = {
+			name = "Pax_Super_Event_Close_Text_textbox"
+			position = { x = 60 y = 467 }
+			font = "newsfeed_body"
+			borderSize = {x = 0 y = 0}
+			text = "[get_superevent_close_text]"
+			maxWidth = 581
+			maxHeight = 175
+			fixedsize = yes	
+			format = center
+			alwaystransparent = yes
+		}
+	}
+}

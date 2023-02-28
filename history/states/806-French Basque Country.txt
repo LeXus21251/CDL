@@ -10,7 +10,7 @@ state={
 		}
 		add_core_of = NAV
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 3
 
 		}
 		add_core_of = FRA
@@ -18,11 +18,10 @@ state={
 	}
 
 	provinces={
-		743 9710 11697 
+		743 
 	}
 	manpower=280723
 	buildings_max_level_factor=1.000
 	state_category=town
-
-	local_supplies=0.0 
+	local_supplies=0.000
 }

@@ -1,0 +1,17 @@
+
+state={
+	id=929
+	name="STATE_929"
+	provinces={
+		3773 6790 13272 
+	}
+	history={
+		owner = PRM
+		add_core_of = PRM
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

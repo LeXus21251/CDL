@@ -1,0 +1,17 @@
+
+state={
+	id=934
+	name="STATE_934"
+	provinces={
+		661 663 11601 11604 11623 
+	}
+	history={
+		owner = SWI
+		add_core_of = SWI
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

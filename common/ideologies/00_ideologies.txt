@@ -1,0 +1,514 @@
+ideologies = {
+
+		lib = {
+	
+		types = {
+			
+			lib_sub = {
+			}
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 255 255 0 }
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government= yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+		}
+		
+		faction_modifiers = {
+		}
+		ai_fascist = yes
+	}
+	
+	
+		sc = {
+	
+		types = {
+			
+			sc_sub = {
+			}
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 0 125 200 }
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government= yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+
+		
+		modifiers = {
+		}
+		
+		faction_modifiers = {
+
+		}
+		ai_fascist = yes
+	}
+	
+	
+		conv = {
+	
+		types = {
+			
+			conv_sub = {
+			}
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 0 0 255 }
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government= yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		
+		modifiers = {
+		}
+		
+		faction_modifiers = {
+		}
+		ai_fascist = yes # uses the democratic AI behaviour
+	}
+	
+	
+		trad = {
+	
+		types = {
+		
+			trad_sub = {
+			}
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 0 0 165 }
+
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government= yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.80
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+			hidden_modifier = { join_faction_tension = -0.1 }
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+	}
+	
+	
+		abs = {
+	
+		types = {
+
+			abs_sub = {
+			}
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 120 0 120 }
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government= yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+		}
+		
+		
+		liber = {
+		
+		types = {
+		
+			liber_sub = {
+			}
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 255 63 63 }
+		
+		ai_fascist = yes # uses the commie AI behaviour
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government= yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+	
+	
+		socdem = {
+	
+		types = {
+
+			socdem_sub = {
+			}
+		}
+		
+		dynamic_faction_names = {
+
+		}
+		
+		color = { 255 50 50 }
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government= yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		
+		modifiers = {
+		}
+		
+		faction_modifiers = {
+		}
+		ai_fascist = yes # uses the democratic AI behaviour
+	}
+	refsoc = {
+		
+		types = {
+
+			refsoc_sub = {
+			}
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 255 38 38 }
+		
+		
+		ai_fascist = yes # uses the commie AI behaviour
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government= yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+
+	revsoc = {
+		
+		types = {
+		
+			revsoc_sub = {
+			}
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 255 0 0 }
+		
+		ai_fascist = yes # uses the commie AI behaviour
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government= yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+		}
+		
+		faction_modifiers = {
+			
+	}
+	}
+		
+voleft = {
+		
+		types = {
+
+			voleft_sub = {
+			}
+		
+		}
+		
+		dynamic_faction_names = {
+
+		}
+		
+		color = { 140 0 0 }
+		
+		
+		ai_fascist = yes # uses the commie AI behaviour
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government= yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+
+		}
+		
+		faction_modifiers = {
+			
+			}
+		}
+	
+	auth = {
+	
+		types = {
+			
+			auth_sub = {
+			}
+		}
+		
+		dynamic_faction_names = {
+
+		}
+		
+		color = { 128 128 128 }
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government= yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+
+		
+		modifiers = {
+
+		}
+		
+		faction_modifiers = {
+		}
+		ai_fascist = yes # uses the democratic AI behaviour
+		
+	}
+
+
+		milgov = {
+	
+		types = {
+
+			milgov_sub = {
+			}
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 89 89 89 }
+
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government= yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+	}
+	
+	nat = {
+	
+		types = {
+			
+			nat_sub = {
+			}
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 63 63 63 }
+		
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government= yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+	}
+	
+			vo = {
+	
+		types = {
+
+			vo_sub = {
+			}
+
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 30 30 30 }
+		
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government= yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+	}
+	
+				mas = {
+	
+		types = {
+
+			mas_sub = {
+			}
+
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 72 183 119 }
+
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government= yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+	}
+}

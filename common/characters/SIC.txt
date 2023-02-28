@@ -1,0 +1,16 @@
+characters={
+	SIC_alfonso_i={
+		name="Alfonso I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIC/Alfonso_I.dds"
+			}
+		}
+		country_leader={
+			ideology=conv_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

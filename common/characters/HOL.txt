@@ -1,0 +1,16 @@
+characters={
+	HOL_hendrik_borgesius={
+		name="Hendrik Goeman Borgesius"
+		portraits={
+			civilian={
+				large="gfx/leaders/HOL/Hendrik_Borgesius.dds"
+			}
+		}
+		country_leader={
+			ideology=lib_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

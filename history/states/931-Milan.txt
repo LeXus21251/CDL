@@ -1,0 +1,17 @@
+
+state={
+	id=931
+	name="STATE_931"
+	provinces={
+		607 773 3780 9584 
+	}
+	history={
+		owner = MLO
+		add_core_of = MLO
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,17 @@
+
+state={
+	id=921
+	name="STATE_921"
+	provinces={
+		549 3629 11502 
+	}
+	history={
+		owner = FRA
+		add_core_of = FRA
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

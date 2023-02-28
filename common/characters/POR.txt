@@ -1,0 +1,16 @@
+characters={
+	POR_miguel_braganza={
+		name="Miguel II de Bragança"
+		portraits={
+			civilian={
+				large="gfx/leaders/POR/Miguel_Braganza.dds"
+			}
+		}
+		country_leader={
+			ideology=sc_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

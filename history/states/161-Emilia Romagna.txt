@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ITA
+		owner = PAP
 		victory_points = {
 			6606 5 
 		}
@@ -27,13 +27,12 @@ state={
 			}
 
 		}
-		add_core_of = ITA
 		add_core_of = PAP
 
 	}
 
 	provinces={
-		782 3773 3976 6606 6790 6793 6985 9752 9924 13272 
+		782 6606 6793 6985 9924 11734 
 	}
 	manpower=3202401
 	buildings_max_level_factor=1.000

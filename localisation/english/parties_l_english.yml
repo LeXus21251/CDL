@@ -1,0 +1,76 @@
+﻿l_english:
+ auth:0 "Authoritharianism"
+ auth_noun:0 "Authoritarist"
+ auth_desc:0 "placeholder"
+ 
+ sc:0 "Social cooperatism"
+ sc_noun:0 "Social cooperatist"
+ sc_desc:0 "placeholder"
+
+ conv:0 "Conservatism"
+ conv_noun:0 "Conservatist"
+ conv_desc:0 "Conservatist"
+
+ lib:0 "Liberalism"
+ lib_noun:0 "Liberalist"
+ lib_desc:0 "Liberal"
+
+ socdem:0 "Social democracy"
+ socdem_noun:0 "Social democratic"
+ socdem_desc:0 "placeholder"
+
+ liber:0 "Libertarianism"
+ liber_noun:0 "Libertarianist"
+ liber_desc:0 "placeholder"
+
+ refsoc:0 "Reformist socialism"
+ refsoc_noun:0 "Reformist socialist"
+ refsoc_desc:0 "placeholder"
+
+ revsoc:0 "Revolutionary socialism"
+ revsoc_noun:0 "Revolutionary socialist"
+ revsoc_desc:0 "placeholder"
+
+ voleft:0 "Left volkism"
+ voleft_noun:0 "Left volkist"
+ voleft_desc:0 "placeholder"
+
+ trag:0 "Traditionalism"
+ trag_noun:0 "Traditionalist"
+ trag_desc:0 "placeholder"
+
+ abs:0 "Absolutism"
+ abs_noun:0 "Absolutist"
+ abs_desc:0 "placeholder"
+
+ milgov:0 "Military government"
+ milgov_noun:0 "Militarist"
+ milgov_desc:0 "placeholder"
+
+ nat:0 "Nationalism"
+ nat_noun:0 "Nationalist"
+ nat_desc:0 "placeholder"
+
+ vo:0 "Volkism"
+ vo_noun:0 "Volkist"
+ vo_desc:0 "Volkism"
+
+ mas:0 "Masonism"
+ mas_noun:0 "Mason"
+ mas_desc:0 "placeholder"
+ 
+ 
+
+ 
+ ##NORWAY##
+ NOR_abs_party:0 "Oldenburg Loyalist"
+ NOR_auth_party:0 "Independence Council"
+ NOR_conv_party:0 "Høyre"
+ NOR_conv_party:0 "Senterpartiet"
+ NOR_nat_party:0 "Nasjonal Samling"
+ NOR_voleft_party:0 "Senterpartiet"
+ NOR_volkism_party:0 "Nasjonal Samling"
+ NOR_revsoc_party:0 "Sosialistisk Parti"
+ NOR_refsoc_party:0 "Venstre"
+ NOR_socdem_party:0 "Norwegian Labor Party"
+ NOR_trag_party:0 "Oldenburg Loyalist"

@@ -1,0 +1,17 @@
+
+state={
+	id=932
+	name="STATE_932"
+	provinces={
+		628 3657 9613 
+	}
+	history={
+		owner = VNC
+		add_core_of = VNC
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

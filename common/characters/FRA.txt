@@ -1,0 +1,31 @@
+characters={
+	FRA_louis_xix_burbon={
+		name="Louis XIX de Burbon"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Louis_XIX.dds"
+			}
+		}
+		country_leader={
+			ideology=conv_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	FRA_alexandre_alveydre={
+		name=FRA_alexandre_alveydre
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Alexandre_Alveydre.dds"
+			}
+		}
+		country_leader={
+			ideology=mas_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

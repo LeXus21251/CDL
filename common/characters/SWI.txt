@@ -1,0 +1,16 @@
+characters={
+	SWI_swiss_council={
+		name="Swiss Federal Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWI/Swiss_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=lib_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

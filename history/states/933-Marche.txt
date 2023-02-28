@@ -1,0 +1,17 @@
+
+state={
+	id=933
+	name="STATE_933"
+	provinces={
+		925 967 6926 11790 11861 
+	}
+	history={
+		owner = PAP
+		add_core_of = PAP
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

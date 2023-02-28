@@ -1,0 +1,174 @@
+guiTypes = {
+
+containerWindowType = {
+	name = "satcho_leaders_window"
+	position = { x = 0 y = 260 }	
+	show_animation_type = decelerated
+	hide_animation_type = accelerated
+	animation_time = 300
+	size = { width=500 height=360 }
+	show_sound = open_sub_window
+	
+	containerWindowType = {
+		name = "leaders_all_info"
+		position = { x = 0 y = 50 }
+		size = { width=450 height=100%% }	
+		
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window"
+			}
+			containerWindowType = { 
+				name = "top_text"
+				instantTextboxType = {
+					name = "alliance_title"
+					position = { x = 120 y = 30 }
+					font = "hoi_24header"
+					text = "Leaders of the Satcho Alliance"
+					maxWidth = 200
+					maxHeight = 20
+					format = center
+					vertical_alignment = center
+					pdx_tooltip = satcho_alliance_tt
+					
+				}
+				iconType = {
+					name = "logo1"
+					quadTextureSprite ="GFX_chrysanthemum"
+					position = {  x= 70 y = 10 }
+					Orientation = "UPPER_LEFT"
+					scale = 0.8
+				}
+				iconType = {
+					name = "logo2"
+					quadTextureSprite ="GFX_chrysanthemum"
+					position = {  x= 310 y = 10 }
+					Orientation = "UPPER_LEFT"
+					scale = 0.8
+				}
+			}
+			
+		containerWindowType = { 
+			name = "leaders_photos"
+				iconType = {
+				name = "leaderphoto1"
+				position = {x=30 y=80}
+				quadTextureSprite = "GFX_Saigo_Takamori"
+				scale = 0.55
+				}
+				iconType = {
+				name = "leaderphoto2"
+				position = {x=180 y=80}
+				quadTextureSprite = "GFX_Makino_Nobuaki"
+				scale = 0.55
+				}
+				iconType = {
+				name = "leaderphoto3"
+				position = {x=330 y=80}
+				quadTextureSprite = "GFX_Yamagata_Aritomo"
+				scale = 0.55
+				}
+				
+		}
+		containerWindowType = { 
+			name = "leaders_frames"
+				iconType = {
+				name = "leaderframe1"
+				position = {x=25 y=75 }
+				quadTextureSprite = "GFX_leader_frame"
+				pdx_tooltip = saigo_takamori_tt
+				pdx_tooltip_delayed = saigo_takamori_desc_tt
+				}
+				name = "leaders_frames"
+				iconType = {
+				name = "leaderframe2"
+				position = {x=175 y=75 }
+				quadTextureSprite = "GFX_leader_frame"
+				pdx_tooltip = makino_nobuaki_tt
+				pdx_tooltip_delayed = makino_nobuaki_desc_tt
+				}
+				name = "leaders_frames"
+				iconType = {
+				name = "leaderframe3"
+				position = {x=325 y=75 }
+				quadTextureSprite = "GFX_leader_frame"
+				pdx_tooltip = yamagata_aritomo_tt
+				pdx_tooltip_delayed = yamagata_aritomo_desc_tt
+				}
+		}
+		containerWindowType = { 
+			name = "leaders_names"
+			instantTextboxType = {
+				name = "leader_name1"
+				position = { x = 35 y = 220 }
+				font = "hoi_18mbs"
+				text = "Saigō Takamori"
+				maxWidth = 70
+				maxHeight = 20
+				format = center
+				vertical_alignment = center
+			}
+
+			name = "leaders_names"
+			instantTextboxType = {
+				name = "leader_name2"
+				position = { x = 185 y = 220 }
+				font = "hoi_18mbs"
+				text = "Makino Nobuaki"
+				maxWidth = 70
+				maxHeight = 20
+				format = center
+				vertical_alignment = center
+			}
+
+			name = "leaders_names"
+			instantTextboxType = {
+				name = "leader_name3"
+				position = { x = 335 y = 220 }
+				font = "hoi_18mbs"
+				text = "Yamagata Aritomo"
+				maxWidth = 70
+				maxHeight = 20
+				format = center
+				vertical_alignment = center
+			}
+		}
+	containerWindowType = {
+		name = "domains_flags"
+		iconType = {
+			name = "flag1"
+			quadTextureSprite ="GFX_satsuma_flag"
+			position = {  x= 48 y = 250 }
+			pdx_tooltip = satsuma_domain_tt
+		}
+		iconType = {
+			name = "flag2"
+			quadTextureSprite ="GFX_satsuma_flag"
+			position = {  x= 198 y = 250 }
+			pdx_tooltip = satsuma_domain_tt
+		}
+		iconType ={
+			name ="flag3"
+			quadTextureSprite = "GFX_choshu_flag"
+			position = { x= 348 y = 250 }
+			pdx_tooltip = choshu_domain_tt
+		}
+	}
+
+		buttonType = {
+		name = "close"
+		position = { x = -40 y = 5 }
+		quadTextureSprite ="GFX_closebutton"
+		buttonFont = "Main_14_black"
+		shortcut = "ESCAPE"
+		Orientation = "UPPER_RIGHT"
+		clicksound = click_close
+		pdx_tooltip = "CLOSE"
+	}
+		}
+	}
+	
+	
+	
+}

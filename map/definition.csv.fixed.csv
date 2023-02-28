@@ -13269,12 +13269,8 @@
 13268;165;66;152;land;true;plains;1
 13269;199;212;244;land;true;plains;1
 13270;170;94;75;land;true;mountain;1
-13271;74;155;129;land;false;unknown;0
-13272;83;149;183;land;false;unknown;0
-13273;21;93;193;land;false;unknown;0
-13274;190;150;115;land;false;unknown;0
-13275;109;194;61;land;false;unknown;0
-13276;140;197;157;land;false;unknown;0
-13277;97;141;223;land;false;unknown;0
-13278;82;137;100;land;false;unknown;0
-13279;218;208;217;land;false;unknown;0
+13271;21;93;193;land;false;urban;1
+13272;97;141;223;land;false;hills;1
+13273;82;137;100;land;false;mountain;1
+13274;218;208;217;land;false;mountain;1
+13275;108;142;130;land;false;unknown;0
