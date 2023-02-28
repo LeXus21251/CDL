@@ -6,3 +6,4 @@ zmieniać nazwy stejtów
 dostosować stejty w plikach
 dodac kraj wyspa man
 nazwy dla malty
+dodac kornwalie
