@@ -35,9 +35,9 @@
  voleft_noun:0 "Left volkist"
  voleft_desc:0 "placeholder"
 
- trag:0 "Traditionalism"
- trag_noun:0 "Traditionalist"
- trag_desc:0 "placeholder"
+ trad:0 "Traditionalism"
+ trad_noun:0 "Traditionalist"
+ trad_desc:0 "placeholder"
 
  abs:0 "Absolutism"
  abs_noun:0 "Absolutist"
