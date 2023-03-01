@@ -27,6 +27,13 @@
   SAR_PIE_unified_sc: "Kingdom of Sardinia-Piedmont"
   SAR_PIE_unified_sc_DEF: "the Kingdom of Sardinia-Piedmont"
 
+  LIT_POL_conv: "Grand Duchy of Lithuania"
+  LIT_POL_conv_DEF: "the Grand Duchy of Lithuania"
+  RUT_POL_conv: "Crown Duchy of Ruthenia"
+  RUT_POL_conv_DEF: "the Crown Duchy of Ruthenia"
+  COU_POL_conv: "Duchy of Courland"
+  COU_POL_conv_DEF: "the Duchy of Courland"
+
 
 
 
@@ -73,11 +80,7 @@
  SIL_AUS: "Duchy of Silesia"
  
  ##POLISH##
- 
- LIT_POL_autonomy_real_union: "Grand Duchy of Lithuania"
- RUT_POL_autonomy_real_union: "Crown Duchy of Ruthenia"
- COU_POL_autonomy_real_union: "Duchy of Courland"
- WED_POL_autonomy_dominion: "Free Republic of Wedelia"
+
  #MADAGASCAR##
   MAD_POL_autonomy_protectorate: "Protectorate of Malagasia"
   MAD_POL_autonomy_dominion: "Dominion of Malagasia"
@@ -89,9 +92,6 @@
  GAB_POL_autonomy_colony: "Colony of Rogosia"
  GAM_POL_autonomy_colony: "Colony of Mierzeja"
  
- LIT_POL: "Grand Duchy of Lithuania"
- RUT_POL: "Crown Duchy of Ruthenia"
- COU_POL: "Duchy of Courland"
  WED_POL: "Free Republic of Wedelia"
  GAB_POL: "Colony of Rogosia"
  GAM_POL: "Colony of Mierzeja"

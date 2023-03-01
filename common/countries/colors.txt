@@ -908,3 +908,11 @@ VNC = {
 	color = rgb { 187 0 0 }
 	color_ui = rgb { 187 0 0 }
 }
+RUT = {
+	color = rgb { 81 168 255 }
+	color_ui = rgb { 81 168 255 }
+}
+COU = {
+	color = rgb { 239 192 3 }
+	color_ui = rgb { 239 192 3 }
+}

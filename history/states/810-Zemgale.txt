@@ -4,12 +4,12 @@ state={
 	name="STATE_810"
 
 	history={
-		owner = LAT
+		owner = POL
 		victory_points = {
-			6222 3 #Jelgava
+			6222 3 
 		}
 		victory_points = {
-			3255 1 #Jekabpils
+			3255 1 
 		}
 		buildings = {
 			infrastructure = 2
@@ -22,14 +22,15 @@ state={
 			}
 
 		}
-		add_core_of = LAT
+		add_core_of = POL
 
 	}
 
 	provinces={
-		222 310 319 341 3298 6459 7482 9275 11222 
+		310 341 6459 7482 11222 
 	}
 	manpower=600250
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

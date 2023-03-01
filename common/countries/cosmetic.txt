@@ -2,3 +2,25 @@ POR_blue = {
 color = rgb { 0  80  152 }
 color_ui = rgb { 0  80  152 }
 }
+
+MLT_RUS = {
+    color = rgb { 88 171 84 }
+    color_ui = rgb { 88 171 84 }
+}
+PRE_RUS = {
+    color = rgb { 88 171 84 }
+    color_ui = rgb { 88 171 84 }
+}
+
+LIT_POL = {
+	color = rgb { 224 110 125 }
+	color_ui = rgb { 224 110 125 }
+}
+COU_POL = {
+	color = rgb { 224 110 125 }
+	color_ui = rgb { 224 110 125 }
+}
+RUT_POL = {
+	color = rgb { 224 110 125 }
+	color_ui = rgb { 224 110 125 }
+}
