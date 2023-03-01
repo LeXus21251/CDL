@@ -1,0 +1,17 @@
+
+state={
+	id=935
+	name="STATE_935"
+	provinces={
+		668 671 688 3674 3675 
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

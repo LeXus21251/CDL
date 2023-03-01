@@ -1,0 +1,17 @@
+
+state={
+	id=949
+	name="STATE_949"
+	provinces={
+		3380 6402 11245 
+	}
+	history={
+		owner = POL
+		add_core_of = POL
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

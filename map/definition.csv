@@ -9900,7 +9900,7 @@
 9899;130;171;199;land;false;mountain;6
 9900;130;174;59;land;false;mountain;7
 9901;130;174;164;land;false;plains;7
-9902;130;177;24;land;true;forest;1
+9902;130;177;24;land;false;forest;1
 9903;130;177;79;land;false;hills;1
 9904;130;177;129;land;true;urban;1
 9905;130;180;44;land;false;plains;6
@@ -13281,3 +13281,4 @@
 13280;68;103;106;land;true;plains;1
 13281;134;163;93;land;false;mountain;1
 13282;86;160;238;land;true;hills;1
+13283;200;59;191;land;true;forest;1

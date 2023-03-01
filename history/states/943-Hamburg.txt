@@ -1,0 +1,16 @@
+state={
+	id=943
+	name="STATE_943"
+	provinces={
+		9347 
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

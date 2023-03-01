@@ -1,0 +1,17 @@
+
+state={
+	id=937
+	name="STATE_937"
+	provinces={
+		732 3718 6552 6723 6739 9527 
+	}
+	history={
+		owner = AUS
+		add_core_of = AUS
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
