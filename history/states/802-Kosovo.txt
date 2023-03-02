@@ -7,23 +7,21 @@ state={
 		victory_points = {
 			6940 3 
 		}
-		owner = YUG
+		owner = TUR
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = YUG
-		add_core_of = KOS
-		add_core_of = SER
+		add_core_of = TUR
+
 
 	}
 
 	provinces={
-		6940 9849 9874 9890 
+		867 6940 9849 9890 
 	}
 	manpower=616000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
-
-	local_supplies=0.0 
+	local_supplies=0.000
 }

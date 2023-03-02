@@ -49,8 +49,28 @@
   DEN_NOR_unified_conv: "Kingdom of Denmark-Norway"
   DEN_NOR_unified_conv_DEF: "the Kingdom of Denmark-Norway"
 
- CRO_unified: "Croatia-Slavonia-Dalmatia"
- TUR_OTT: "Ottoman Empire"
+
+  TUR_OTT_ADJ: "Ottoman"
+  TUR_OTT_abs: "Ottoman Empire"
+  TUR_OTT_abs_DEF: "the Ottoman Empire"
+ 
+
+  HUN_AUS_sc: "Kingdom of Hungary"
+  HUN_AUS_sc_DEF: "the Kingdom of Hungary"
+  CZE_AUS_sc: "Kingdom of Bohemia"
+  CZE_AUS_sc_DEF: "the Kingdom of Bohemia"
+  TRA_AUS_sc: "Kingdom of Transylvania"
+  TRA_AUS_sc_DEF: "the Kingdom of Transylvania"
+  BNT_AUS_sc: "Duchy of Banat"
+  BNT_AUS_sc_DEF: "the Duchy of Banat"
+  CRO_AUS_unified_cro_sla_sc: "Kingdom of Croatia-Slavonia"
+  CRO_AUS_unified_cro_sla_sc_DEF: "the Kingdom of Croatia-Slavonia"
+  SIL_AUS_sc: "Duchy of Silesia"
+  SIL_AUS_sc_DEF: "the Duchy of Silesia"
+ 
+ 
+ akihabara: "Akihabara"
+
  RTN_UNIFIED: "Crown of Three Nations"
  AUS_UNIFIED_neutrality: "Danubian Monarchy"
  BRC_neutrality: "British Commonwealth"
@@ -61,11 +81,6 @@
  AND_FRA: "Principality of Andorra"
  BAY_GER_conservatism: "Kingdom of Germany"
  LAT_SWE: "Duchy of Livonia"
- 
- 
- akihabara: "Akihabara"
-
- 
  
  ##AUSTRIAN##
  

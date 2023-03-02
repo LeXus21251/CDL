@@ -8,22 +8,19 @@ state={
 	}
 
 	history={
-		victory_points = {
-			6464 5 
-		}
-		owner = GER
+
+		owner = HUN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 
 		}
-		add_core_of = GER
-		add_core_of = SIL
+		add_core_of = HUN
 
 	}
 
 	provinces={
-		6464 
+		713 746 3696 3709 9687 9704 11676 
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000

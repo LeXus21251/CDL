@@ -29,3 +29,37 @@ GER_frankfurt = {
 	color = rgb { 255 0 15 }
 	color_ui = rgb { 255 0 15 }
 }
+
+CZE_AUS = {
+	color = rgb { 213 216 230 }
+	color_ui = rgb { 213 216 230 }
+}
+HUN_AUS = {
+	color = rgb { 213 216 230 }
+	color_ui = rgb { 213 216 230 }
+}
+CRO_AUS_unified_cro_sla = {
+	color = rgb { 213 216 230 }
+	color_ui = rgb { 213 216 230 }
+}
+TRA_AUS = {
+	color = rgb { 213 216 230 }
+	color_ui = rgb { 213 216 230 }
+}
+BNT_AUS = {
+	color = rgb { 213 216 230 }
+	color_ui = rgb { 213 216 230 }
+}
+SIL_AUS = {
+	color = rgb { 213 216 230 }
+	color_ui = rgb { 213 216 230 }
+}
+
+RML_TUR = {
+	color = rgb { 148 0 0 }
+	color_ui = rgb { 148 0 0 }
+}
+BOS_TUR = {
+	color = rgb { 148 0 0 }
+	color_ui = rgb { 148 0 0 }
+}

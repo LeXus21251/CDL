@@ -21,11 +21,12 @@ state={
 		}
 		add_core_of = GER
 		add_core_of = SIL
+		add_core_of = BRB
 
 	}
 
 	provinces={
-		6512 9457 9511 11467 
+		6464 9457 9511 11467 
 	}
 	manpower=1402591
 	buildings_max_level_factor=1.000

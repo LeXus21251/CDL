@@ -1,0 +1,17 @@
+
+state={
+	id=970
+	name="STATE_970"
+	provinces={
+		606 6614 6619 6799 9586 9588 9591 11574 11741 
+	}
+	history={
+		owner = BOS
+		add_core_of = BOS
+
+	}
+	manpower=1
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

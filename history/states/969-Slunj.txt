@@ -1,0 +1,16 @@
+state={
+	id=969
+	name="STATE_969"
+	provinces={
+		3596 6611 13284
+	}
+	history={
+		owner = CRO
+		add_core_of = CRO
+
+	}
+	manpower=1
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

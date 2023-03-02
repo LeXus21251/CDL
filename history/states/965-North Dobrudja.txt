@@ -1,0 +1,17 @@
+
+state={
+	id=965
+	name="STATE_965"
+	provinces={
+		657 687 3076 3701 9635 13278 
+	}
+	history={
+		owner = BUL
+		add_core_of = BUL
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
