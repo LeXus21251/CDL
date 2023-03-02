@@ -1,11 +1,12 @@
 autonomy_state = {
 	id = autonomy_puppet
 	
+	default = yes
 	is_puppet = yes
 	
 	min_freedom_level = 0.4
 	
-	manpower_influence = 0.15
+	manpower_influence = 0.9
 	
 	rule = {
 		can_not_declare_war = yes
@@ -16,14 +17,12 @@ autonomy_state = {
 	}
 	
 	modifier = {
-		autonomy_manpower_share = 0.2
+		autonomy_manpower_share = 0.9
 		can_master_build_for_us = 1
-		extra_trade_to_overlord_factor = 0.7
-		overlord_trade_cost_factor = -0.75
-		cic_to_overlord_factor = 0.2
-		mic_to_overlord_factor = 0.3
+		extra_trade_to_overlord_factor = 1.0
+		overlord_trade_cost_factor = -0.9
 		
-		research_sharing_per_country_bonus_factor = 0.0
+		research_sharing_per_country_bonus_factor = -0.5
 	}
 	allowed = {
 		unique_autonomy = no
@@ -39,6 +38,11 @@ autonomy_state = {
 
 	ai_overlord_wants_garrison = {
 		always = no
+	}
+
+	allowed = {
+		NOT = {has_dlc = "Together for Victory"}
+
 	}
 
 	#ROOT is puppet - FROM is potential OVERLORD

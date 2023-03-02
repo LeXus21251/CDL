@@ -1,27 +1,27 @@
-state=
-{
+
+state={
 	id=147
 	name="STATE_147"
-	manpower = 4630
-	
-	state_category = wasteland
-	
-	history = {	
-		owner = FIN
+
+	history={
+		owner = RUS
 		buildings = {
 			infrastructure = 2
+
 		}
 		add_core_of = FIN
-		add_core_of = KAR
-		
+		add_core_of = RUS
 		victory_points = {
-			197 1
+			197 1 
 		}
+
 	}
 
 	provinces={
-		197 9158 11085 	
+		7 197 3073 3097 3156 3158 6045 6128 6134 9158 11030 11085 
 	}
-
-	local_supplies=0.0 
+	manpower=4630
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }

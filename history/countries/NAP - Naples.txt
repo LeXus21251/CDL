@@ -1,4 +1,4 @@
-﻿capital = 
+﻿capital = 117
 
 oob = "NAP_1936"
 
@@ -67,7 +67,7 @@ set_popularities = {
 
 set_politics = {
 	
-	ruling_party = 
+	ruling_party = lib #placeholder
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

@@ -2,7 +2,7 @@
 
   #TYPES#
    autonomy_puppet:0 "Puppet"
-   autonomy_puppet_no_dlc:0 "Puppet"
+   autonomy_puppet_dlc:0 "Puppet"
    autonomy_real_union:0 "Real Union Partner"
    autonomy_colony:0 "Colony"
    autonomy_dominion:0 "Dominion"

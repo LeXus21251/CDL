@@ -1,0 +1,16 @@
+characters={
+	GER_ernst_augustus={
+		name="Ernst Augustus von Hannover"
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Ernst_Augustus.dds"
+			}
+		}
+		country_leader={
+			ideology=nat_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

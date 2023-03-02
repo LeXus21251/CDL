@@ -34,17 +34,21 @@
   COU_POL_conv: "Duchy of Courland"
   COU_POL_conv_DEF: "the Duchy of Courland"
 
+  MLT_RUS_abs: "Knights of Malta"
+  MLT_RUS_abs_ADJ: "Order"
+  MLT_RUS_abs_DEF: "the Knights of Malta"
+
+  GER_unified_hanover: "United Kingdom of Germany"
+  GER_unified_hanover_DEF: "the United Kingdom of Germany"
+
+  GER_frankfurt: "Imperial City of Frankfurt"
+  GER_frankfurt_ADJ: "Frankfurter"
+  GER_frankfurt_DEF: "the Imperial City of Frankfurt"
 
 
+  DEN_NOR_unified_conv: "Kingdom of Denmark-Norway"
+  DEN_NOR_unified_conv_DEF: "the Kingdom of Denmark-Norway"
 
-
-
-
-
-
-
-
- DEN_NOR_unified_conservatism: "Kingdom of Denmark-Norway"
  CRO_unified: "Croatia-Slavonia-Dalmatia"
  TUR_OTT: "Ottoman Empire"
  RTN_UNIFIED: "Crown of Three Nations"
@@ -56,7 +60,6 @@
  ETH_ABI: "Empire of Abyssinia"
  AND_FRA: "Principality of Andorra"
  BAY_GER_conservatism: "Kingdom of Germany"
- GER_frankfurt: "Imperial City of Frankfurt"
  LAT_SWE: "Duchy of Livonia"
  
  
@@ -176,7 +179,6 @@
  KOK_RUS_autonomy_vassal: "Kokand Khanate"
  KHI_RUS_autonomy_vassal: "Khanate of Khiva"
  BUK_RUS_autonomy_vassal: "Khanate of Bukhara"
- MLT_RUS_autonomy_personal_union: "Knights of Malta"
  PRE_RUS_autonomy_protectorate: "Duchy of Prussia"
  ALA_RUS_autonomy_dominion: "Novorossiya"
  AFG_RUS_autonomy_associated_state: "Emirate of Afghanistan"
@@ -188,7 +190,6 @@
  KOK_RUS: "Kokand Khanate"
  KHI_RUS: "Khanate of Khiva"
  BUK_RUS: "Khanate of Bukhara"
- MLT_RUS: "Knights of Malta"
  PRE_RUS: "Duchy of Prussia"
  ALA_RUS: "Novorossiya"
  AFG_RUS: "Emirate of Afghanistan"

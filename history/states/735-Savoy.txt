@@ -9,6 +9,7 @@ state={
 		add_core_of = FRA
 		add_core_of = PIE
 		add_core_of = SAR
+		add_core_of = SAV
 		victory_points = {
 			778 1 
 		}

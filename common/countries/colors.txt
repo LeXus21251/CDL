@@ -904,6 +904,11 @@ NAP = {
 	color_ui = rgb { 64 0 64 }
 }
 
+SAV = {
+	color = rgb { 255 214 240 }
+	color_ui = rgb { 255 214 240 }
+}
+
 VNC = {
 	color = rgb { 187 0 0 }
 	color_ui = rgb { 187 0 0 }
@@ -915,4 +920,70 @@ RUT = {
 COU = {
 	color = rgb { 239 192 3 }
 	color_ui = rgb { 239 192 3 }
+}
+MNN = {
+	color = rgb { 207 20 43 }
+	color_ui = rgb { 207 20 43 }
+}
+CRN = {
+	color = rgb { 108 54 0 }
+	color_ui = rgb { 108 54 0 }
+}
+
+SAL = {
+	color = rgb { 215 0 0 }
+	color_ui = rgb { 215 0 0 }
+}
+HES = {
+	color = rgb { 94 0 0 }
+	color_ui = rgb { 94 0 0 }
+}
+NAS = {
+	color = rgb { 191 165 149 }
+	color_ui = rgb { 191 165 149 }
+}
+RHE = {
+	color = rgb { 0 102 0 }
+	color_ui = rgb { 0 102 0 }
+}
+OLD = {
+	color = rgb { 176 255 176 }
+	color_ui = rgb { 176 255 176 }
+}
+HAM = {
+	color = rgb { 213 43 0 }
+	color_ui = rgb { 213 43 0 }
+}
+ANH = {
+	color = rgb { 255 213 191 }
+	color_ui = rgb { 255 213 191 }
+}
+THU = {
+	color = rgb { 0 64 0 }
+	color_ui = rgb { 0 64 0 }
+}
+BRB = {
+	color = rgb { 151 136 85 }
+	color_ui = rgb { 151 136 85 }
+}
+BAD = {
+	color = rgb { 251 236 11 }
+	color_ui = rgb { 251 236 11 }
+}
+FRI = {
+	color = rgb { 0 80 159 }
+	color_ui = rgb { 0 80 159 }
+}
+FLA = {
+	color = rgb { 247 206 12 }
+	color_ui = rgb { 247 206 12 }
+}
+WAL = {
+	color = rgb { 194 73 62 }
+	color_ui = rgb { 194 73 62 }
+}
+
+RUS = {
+    color = rgb { 72 143 68 }
+    color_ui = rgb { 72 143 68 }
 }

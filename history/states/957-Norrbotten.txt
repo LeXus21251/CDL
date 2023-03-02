@@ -1,0 +1,17 @@
+
+state={
+	id=957
+	name="STATE_957"
+	provinces={
+		201 6125 9147 11073 
+	}
+	history={
+		owner = SWE
+		add_core_of = SWE
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+characters={
+	DEN_frederick_viii={
+		name="Frederick VIII"
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Frederick_VIII.dds"
+			}
+		}
+		country_leader={
+			ideology=conv_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

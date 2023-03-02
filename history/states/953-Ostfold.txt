@@ -1,0 +1,18 @@
+
+state={
+	id=953
+	name="STATE_953"
+	provinces={
+		10 133 171 179 3007 3105 3136 6160 6310 11151 
+	}
+	history={
+		owner = DEN
+		add_core_of = DEN
+		add_core_of = NOR
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

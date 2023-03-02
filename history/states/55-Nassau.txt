@@ -18,6 +18,7 @@ state={
 			564 3 
 		}
 		add_core_of = GER
+		add_core_of = HES
 		1939.1.1 = {
 			buildings = {
 				air_base = 3

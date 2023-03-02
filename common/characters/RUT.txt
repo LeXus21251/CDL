@@ -1,0 +1,16 @@
+characters={
+	RUT_władysław_czartoryski={
+		name="Władysław V Czartoryski"
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/Władysław_Czartoryski.dds"
+			}
+		}
+		country_leader={
+			ideology=conv_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -24,3 +24,8 @@ RUT_POL = {
 	color = rgb { 224 110 125 }
 	color_ui = rgb { 224 110 125 }
 }
+
+GER_frankfurt = {
+	color = rgb { 255 0 15 }
+	color_ui = rgb { 255 0 15 }
+}
