@@ -1,0 +1,16 @@
+characters={
+	MNT_nicolas_i={
+		name="Nicolas I"
+		portraits={
+			civilian={
+				large="gfx/leaders/MNT/Nicolas_I.dds"
+			}
+		}
+		country_leader={
+			ideology=abs_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

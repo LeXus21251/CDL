@@ -17,10 +17,6 @@ state={
 				coastal_bunker = 1
 
 			}
-			7566 = {
-				naval_base = 1
-
-			}
 
 		}
 		victory_points = {

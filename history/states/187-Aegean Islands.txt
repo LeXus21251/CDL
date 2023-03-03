@@ -11,14 +11,6 @@ state={
 		buildings = {
 			infrastructure = 1
 			dockyard = 1
-			8435 = {
-				naval_base = 1
-
-			}
-			6550 = {
-				naval_base = 1
-
-			}
 
 		}
 		victory_points = {

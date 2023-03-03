@@ -1,0 +1,16 @@
+characters={
+	TUR_shahzade_abdulhamid={
+		name="Shahzade Abdulhamid"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUR/Shahzade_Abdulhamid.dds"
+			}
+		}
+		country_leader={
+			ideology=abs_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

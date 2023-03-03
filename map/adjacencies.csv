@@ -4,7 +4,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10141;1419;sea;5267;-1;-1;-1;-1;;Moluccas
 480;9431;sea;8621;-1;-1;-1;-1;;Netherlands outlier
 8857;2284;sea;7617;1560;1009;1556;1016;PANAMA_CANAL;Panama
-2729;2408;sea;6257;2949;1598;2962;1612;KIEL_CANAL;Kiel
 5388;803;sea;1155;-1;-1;-1;-1;SUEZ_CANAL;Suez
 299;211;sea;2282;-1;-1;-1;-1;;Småland-Öland
 6345;6287;sea;2382;-1;-1;-1;-1;;Skåne-Sjaelland
@@ -105,7 +104,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10203;9805;sea;5864;-1;-1;-1;-1;;Corfu-Epirus
 1106;12001;sea;5913;-1;-1;-1;-1;;Lefkada-Epirus
 3401;7127;sea;6801;-1;-1;-1;-1;;Cyclades-Greece
-8435;6864;sea;7452;-1;-1;-1;-1;;Lesbos-Turkey
+8435;9887;sea;7452;-1;-1;-1;-1;;Lesbos-Turkey
 6550;4112;sea;7226;-1;-1;-1;-1;;Chios-Turkey
 7003;9941;sea;7226;-1;-1;-1;-1;;Kos-Bodrum
 10007;10122;sea;7226;-1;-1;-1;-1;;Rhodes-Turkey
@@ -130,71 +129,18 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
 5412;7678;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
 2919;2943;;-1;-1;-1;-1;-1;HORMUZ_STRAIT;hormuz
-10825;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
-10825;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
-10910;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
-10910;12807;impassable;-1;-1;-1;-1;-1;;Himalayas
-12730;2098;impassable;-1;-1;-1;-1;-1;;Himalayas
-12730;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
-10810;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
-1996;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
-1996;8041;impassable;-1;-1;-1;-1;-1;;Himalayas
-1996;5102;impassable;-1;-1;-1;-1;-1;;Himalayas
-4318;5102;impassable;-1;-1;-1;-1;-1;;Himalayas
-1898;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
-1898;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
-3989;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
-1129;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
-4558;10826;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-4558;12653;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-4558;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-12763;10826;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-2084;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-10821;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-4998;12831;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-4998;5082;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-1978;5082;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-1978;8090;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-7975;8090;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-8044;8090;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-8044;5064;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-12805;7519;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-12805;5087;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-12805;1766;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-10417;7519;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-10417;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-8027;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-7224;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-7224;12314;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-12218;12314;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-12370;1766;impassable;-1;-1;-1;-1;-1;;pamir mountains
-12370;12119;impassable;-1;-1;-1;-1;-1;;pamir mountains
-5062;12119;impassable;-1;-1;-1;-1;-1;;pamir mountains
-5062;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
-4768;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
-4391;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
-4391;1703;impassable;-1;-1;-1;-1;-1;;pamir mountains
-4391;12526;impassable;-1;-1;-1;-1;-1;;pamir mountains
-611;3612;impassable;-1;-1;-1;-1;-1;;western alps
-11570;3612;impassable;-1;-1;-1;-1;-1;;western alps
-11570;9587;impassable;-1;-1;-1;-1;-1;;western alps
-6635;9587;impassable;-1;-1;-1;-1;-1;;western alps
-3641;11601;impassable;-1;-1;-1;-1;-1;;central alps
-3641;658;impassable;-1;-1;-1;-1;-1;;central alps
-6661;3662;impassable;-1;-1;-1;-1;-1;;eastern alps
-3662;11587;impassable;-1;-1;-1;-1;-1;;eastern alps
-11587;3660;impassable;-1;-1;-1;-1;-1;;eastern alps
-3660;6675;impassable;-1;-1;-1;-1;-1;;eastern alps
-6675;9633;impassable;-1;-1;-1;-1;-1;;eastern alps
-9633;9630;impassable;-1;-1;-1;-1;-1;;eastern alps
-9630;11618;impassable;-1;-1;-1;-1;-1;;eastern alps
-671;11634;impassable;-1;-1;-1;-1;-1;;austrian alps
-671;3675;impassable;-1;-1;-1;-1;-1;;austrian alps
-3675;668;impassable;-1;-1;-1;-1;-1;;austrian alps
-3674;3675;impassable;-1;-1;-1;-1;-1;;austrian alps
-3674;6691;impassable;-1;-1;-1;-1;-1;;austrian alps
-6691;6687;impassable;-1;-1;-1;-1;-1;;austrian alps
-6691;9650;impassable;-1;-1;-1;-1;-1;;austrian alps
-9650;3684;impassable;-1;-1;-1;-1;-1;;austrian alps
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
+
+###CDL NEW
+3340;6334;sea;2358;-1;-1;-1;-1;;Usedom-Wolin
+362;11265;sea;2309;-1;-1;-1;-1;;Gdansk-Konigsberg
+11064;13268;sea;3195;-1;-1;-1;-1;;Scotland-Orkney
+6062;13269;sea;3590;-1;-1;-1;-1;;Hebrides Pass
+11266;13269;sea;3590;-1;-1;-1;-1;;Scotland-Hebrides Lower
+4178;13270;sea;225;-1;-1;-1;-1;;Greece-Kefalonia
+6550;13266;sea;7226;-1;-1;-1;-1;;Chios-Samos
+7130;13266;sea;7226;-1;-1;-1;-1;;Turkey-Samos
+849;6864;sea;7678;-1;-1;-1;-1;;Galipoli
+6449;13267;sea;2871;-1;-1;-1;-1;;Normandy-Chanel Isles
+2729;2408;sea;6257;2949;1598;2962;1612;HANSEATIC_CANAL;Hamburg
 -1;-1;;-1;-1;-1;-1;-1;-1

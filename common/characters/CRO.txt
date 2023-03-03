@@ -1,0 +1,16 @@
+characters={
+	CRO_franz_joseph_i={
+		name="Franz Joseph I"
+		portraits={
+			civilian={
+				large="gfx/leaders/AUS/Franz_Joseph.dds"
+			}
+		}
+		country_leader={
+			ideology=sc_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -27,18 +27,11 @@ autonomy_state = {
 		research_sharing_per_country_bonus_factor = 0.0
 	}
 	allowed = {
-		overlord = { tag = AUS }
-		OR = {
-			tag = HUN
-			tag = CZE
-			tag = TRA
-			tag = BNT
-			tag = CRO
-			tag = SIL
-		}
+		habsburg_autonomy = yes
 	}
 	allowed = {
-		unique_autonomy = no
+		voc_autonomy = no
+		ottoman_autonomy = no
 	}
 	
 	ai_subject_wants_higher = {

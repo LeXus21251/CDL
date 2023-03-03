@@ -24,7 +24,7 @@ autonomy_state = {
 		research_sharing_per_country_bonus_factor = 0.0
 	}
 	allowed = {
-			tag = VOC
+			voc_autonomy = yes
 			
 	}
 	

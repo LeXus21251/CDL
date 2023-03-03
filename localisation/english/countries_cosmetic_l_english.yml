@@ -67,6 +67,12 @@
   CRO_AUS_unified_cro_sla_sc_DEF: "the Kingdom of Croatia-Slavonia"
   SIL_AUS_sc: "Duchy of Silesia"
   SIL_AUS_sc_DEF: "the Duchy of Silesia"
+
+  BOS_TUR: "Vilayet of Bosnia"
+  BOS_TUR_DEF: "the Vilayet of Bosnia"
+
+  RML_TUR: "Vilayet of Rumelia"
+  RML_TUR_DEF: "the Vilayet of Rumelia"
  
  
  akihabara: "Akihabara"
@@ -310,7 +316,6 @@
  QAT_TUR: "Emirate of Qatar"
  BHR_TUR: "Hakim State of Bahrain"
  ACE_TUR: "Sultanate of Aceh"
- BOS_TUR: "Vilayet of Bosnia"
  EGY_TUR: "Vilayet of Egypt"
  SUD_TUR: "Vilayet of Funj"
  

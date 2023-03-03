@@ -1,33 +1,29 @@
-unique_autonomy = {
-	OR = {
-		AND = {
-
-				tag = VOC
-				
-		}
-		AND = {
-			overlord = { tag = TUR }
-			OR = {
-				tag = RML
-				tag = BOS
-				tag = ANZ
-				tag = KUW
-				tag = BHR
-				tag = QAT
-				tag = EGY
-				tag = SUD
-				tag = SNS
-				tag = TRP
-				tag = WAD
-				tag = BAG
-				tag = ACE
-			}
-		}
-
-
-	}
+voc_autonomy = {
+	tag = VOC
 }
 
-is_egypt = {
+ottoman_autonomy = {
+	AND = {
+		overlord = { tag = TUR}
+		TUR = {
+			has_cosmetic_tag = TUR_OTT
+		}
+	}
+
+}
+
+habsburg_autonomy = {
+	overlord = { tag = AUS }
+		OR = {
+			tag = HUN
+			tag = CZE
+			tag = TRA
+			tag = BNT
+			tag = CRO
+			tag = SIL
+		}
+}
+
+egypt_unique_autonomy = {
  tag = EGY
 }

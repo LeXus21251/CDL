@@ -1,0 +1,16 @@
+characters={
+	BUL_vasil_levski={
+		name="Vasil Levski"
+		portraits={
+			civilian={
+				large="gfx/leaders/BUL/Vasil_Levski.dds"
+			}
+		}
+		country_leader={
+			ideology=lib_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

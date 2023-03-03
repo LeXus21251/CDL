@@ -24,9 +24,6 @@ autonomy_state = {
 		
 		research_sharing_per_country_bonus_factor = -0.5
 	}
-	allowed = {
-		unique_autonomy = no
-	}
 	
 	ai_subject_wants_higher = {
 		factor = 1.0

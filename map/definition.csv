@@ -982,7 +982,7 @@
 981;4;204;140;land;false;hills;7
 982;4;204;185;land;false;mountain;1
 983;4;207;0;land;false;forest;2
-984;4;207;150;land;false;hills;1
+984;4;207;150;land;true;hills;1
 985;4;207;205;land;false;hills;1
 986;4;210;65;land;true;hills;2
 987;4;210;170;land;false;plains;6

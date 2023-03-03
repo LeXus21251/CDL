@@ -1,0 +1,16 @@
+characters={
+	SER_alexander_obrenovic={
+		name="Alexander I Obrenovic"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Alexander_Obrenovic.dds"
+			}
+		}
+		country_leader={
+			ideology=abs_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

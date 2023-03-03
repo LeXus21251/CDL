@@ -32,7 +32,8 @@ autonomy_state = {
 		}
 	}
 	allowed = {
-		unique_autonomy = no
+		voc_autonomy = no
+		ottoman_autonomy = no
 	}
 	
 	ai_subject_wants_higher = {

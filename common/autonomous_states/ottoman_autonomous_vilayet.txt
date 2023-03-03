@@ -25,22 +25,7 @@ autonomy_state = {
 		research_sharing_per_country_bonus_factor = -0.5
 	}
 	allowed = {
-			overlord = { tag = TUR }
-			OR = {
-				tag = RML
-				tag = BOS
-				tag = ANZ
-				tag = KUW
-				tag = BHR
-				tag = QAT
-				tag = EGY
-				tag = SUD
-				tag = SNS
-				tag = TRP
-				tag = WAD
-				tag = BAG
-				tag = ACE
-			}
+			ottoman_autonomy = yes
 		}
 	
 	ai_subject_wants_higher = {
