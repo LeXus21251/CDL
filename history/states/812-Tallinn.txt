@@ -4,12 +4,12 @@ state={
 	name="STATE_812"
 
 	history={
-		owner = EST
+		owner = RUS
 		victory_points = {
 			3152 5 
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 3
 			3152 = {
@@ -19,14 +19,16 @@ state={
 			}
 
 		}
+		add_core_of = RUS
 		add_core_of = EST
 
 	}
 
 	provinces={
-		496 567 3152 11426 
+		496 567 3152 9079 11127 11426 
 	}
 	manpower=275220
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }

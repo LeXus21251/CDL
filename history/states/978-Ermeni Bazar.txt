@@ -1,0 +1,18 @@
+
+state={
+	id=978
+	name="STATE_978"
+	provinces={
+		3722 11649 
+	}
+	history={
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = CRI
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

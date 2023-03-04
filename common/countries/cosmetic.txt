@@ -12,6 +12,19 @@ PRE_RUS = {
     color_ui = rgb { 88 171 84 }
 }
 
+KOK_RUS = {
+    color = rgb { 88 171 84 }
+    color_ui = rgb { 88 171 84 }
+}
+KHI_RUS = {
+    color = rgb { 88 171 84 }
+    color_ui = rgb { 88 171 84 }
+}
+BUK_RUS = {
+    color = rgb { 88 171 84 }
+    color_ui = rgb { 88 171 84 }
+}
+
 LIT_POL = {
 	color = rgb { 224 110 125 }
 	color_ui = rgb { 224 110 125 }

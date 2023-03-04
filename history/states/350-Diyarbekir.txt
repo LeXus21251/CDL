@@ -19,26 +19,14 @@ state={
 			air_base = 2
 
 		}
-		if = {
-			limit = {
-				has_dlc = "Battle for the Bosporus"
-			}
-			add_core_of = KUR
-		}
-		if = {
-			limit = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-			}
-			add_core_of = TUR
-			add_core_of = KUR
-		}
+
 	}
 
 	provinces={
-		4512 9823 11759 11871 12387 12416 
+		9823 11759 11871 
 	}
 	manpower=571935
+	buildings_max_level_factor=1.000
 	state_category=town
-
-	local_supplies=0.0 
+	local_supplies=0.000
 }

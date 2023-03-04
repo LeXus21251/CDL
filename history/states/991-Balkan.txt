@@ -1,0 +1,18 @@
+
+state={
+	id=991
+	name="STATE_991"
+	provinces={
+		1593 4563 7477 7563 10359 10406 12359 
+	}
+	history={
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = TMS
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

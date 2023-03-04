@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = RUS
 		victory_points = {
 			11437 10 
 		}
@@ -20,13 +20,13 @@ state={
 			air_base = 2
 
 		}
-		add_core_of = SOV
+		add_core_of = RUS
 		add_core_of = UKR
 
 	}
 
 	provinces={
-		453 472 486 6423 6451 6478 9419 9433 9463 9479 11422 11437 11452 11561 
+		409 3403 6423 6451 6478 6597 9419 9433 9573 11422 11437 11546 11561 
 	}
 	manpower=2391047
 	buildings_max_level_factor=1.000

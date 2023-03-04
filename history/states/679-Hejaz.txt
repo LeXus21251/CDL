@@ -1,3 +1,4 @@
+
 state={
 	id=679
 	name="STATE_679"
@@ -7,10 +8,8 @@ state={
 		victory_points = {
 			12758 1 
 		}
-		
 		buildings = {
 			infrastructure = 2
-			
 
 		}
 		add_core_of = SAU
@@ -18,7 +17,7 @@ state={
 	}
 
 	provinces={
-		2033 4981 5099 7934 10748 10835 12758 
+		2033 5037 12883 
 	}
 	manpower=511000
 	buildings_max_level_factor=1.000

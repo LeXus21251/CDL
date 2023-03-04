@@ -1,31 +1,30 @@
-state = {
-	id = 882
-	name = "STATE_882" # Pavlodar
-	
-	state_category = rural
-	
-	resources = {
-		lead = 6 
+
+state={
+	id=882
+	name="STATE_882"
+	resources={
+		lead=6.000
 	}
 
-	history = {
-		owner = SOV
+	history={
+		owner = RUS
 		add_core_of = KAZ
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = SOV
+		add_core_of = RUS
 		victory_points = {
-			7708 1
+			7708 1 
 		}
+
 	}
 
-	provinces = {
-		1879 4670 4685 7317 7708 10202 10235 10630 12616
+	provinces={
+		1879 4670 4685 7317 7708 10202 10235 10630 
 	}
-	manpower = 230210
-	buildings_max_level_factor = 1.000
-
-	local_supplies = 0.0 
+	manpower=230210
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

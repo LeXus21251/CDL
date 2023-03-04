@@ -37,6 +37,12 @@
   MLT_RUS_abs: "Knights of Malta"
   MLT_RUS_abs_ADJ: "Order"
   MLT_RUS_abs_DEF: "the Knights of Malta"
+  KOK_RUS_abs: "Kokand Khanate"
+  KOK_RUS_abs_DEF: "the Kokand Khanate"
+  KHI_RUS_abs: "Khanate of Khiva"
+  KHI_RUS_abs_DEF: "the Khanate of Khiva"
+  BUK_RUS_abs: "Khanate of Bukhara"
+  BUK_RUS_abs_DEF: "Khanate of Bukhara"
 
   GER_unified_hanover: "United Kingdom of Germany"
   GER_unified_hanover_DEF: "the United Kingdom of Germany"

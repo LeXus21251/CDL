@@ -1,0 +1,18 @@
+
+state={
+	id=975
+	name="STATE_975"
+	provinces={
+		3060 9100 9150 9206 
+	}
+	history={
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = FIN
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
