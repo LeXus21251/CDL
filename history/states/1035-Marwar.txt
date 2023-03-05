@@ -1,0 +1,17 @@
+
+state={
+	id=1035
+	name="STATE_1035"
+	provinces={
+		1103 4064 4984 10847 12718 12792 12844 12876 12886 
+	}
+	history={
+		owner = MUG
+		add_core_of = MUG
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

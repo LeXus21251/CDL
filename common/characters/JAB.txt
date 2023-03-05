@@ -1,0 +1,16 @@
+characters={
+	JAB_abdulaziz_rashid={
+		name="Abdulaziz bin Mutaib Al Rashid"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAB/Abdulaziz_Rashid.dds"
+			}
+		}
+		country_leader={
+			ideology=conv_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

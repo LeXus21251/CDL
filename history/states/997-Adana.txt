@@ -5,7 +5,13 @@ state={
 	provinces={
 		806 3889 9893 11746 
 	}
-	manpower=0
+	history={
+		owner = TUR
+		add_core_of = TUR
+
+	}
+	manpower=1
+	state_category = wasteland
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

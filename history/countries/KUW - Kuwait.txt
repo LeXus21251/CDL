@@ -1,0 +1,29 @@
+﻿capital = 656
+
+#oob = ""
+set_cosmetic_tag = KUW_TUR
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+TUR = {
+		set_autonomy = {
+			target = KUW
+			autonomy_state = autonomy_ottoman_protected_state
+			freedom_level = 0.5
+		}
+	}
+
+set_politics = {
+	ruling_party = abs
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+}
+
+recruit_character = KUW_mubarak_sabah

@@ -1,0 +1,29 @@
+﻿capital = 267
+
+oob = "AFG_1936"
+set_cosmetic_tag = AFG_RUS
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+}
+RUS = {
+		set_autonomy = {
+			target = AFG
+			autonomy_state = autonomy_associated_state
+			freedom_level = 0.5
+		}
+	}
+
+set_politics = {
+	ruling_party = abs
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+absolutism = 100
+}
+
+recruit_character = AFG_habibullah

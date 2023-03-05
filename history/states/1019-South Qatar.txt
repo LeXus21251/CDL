@@ -1,0 +1,17 @@
+
+state={
+	id=1019
+	name="STATE_1019"
+	provinces={
+		13294
+	}
+	history={
+		owner = ABD
+		add_core_of = ABD
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

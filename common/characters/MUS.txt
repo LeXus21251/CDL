@@ -1,0 +1,16 @@
+characters={
+	MUS_faisal_turki={
+		name="Faisal bin Turki"
+		portraits={
+			civilian={
+				large="gfx/leaders/MUS/Faisal_Turki.dds"
+			}
+		}
+		country_leader={
+			ideology=abs_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

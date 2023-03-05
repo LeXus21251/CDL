@@ -1,0 +1,17 @@
+
+state={
+	id=1038
+	name="STATE_1038"
+	provinces={
+		1569 2005 4045 5040 7938 
+	}
+	history={
+		owner = AWA
+		add_core_of = AWA
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -15,11 +15,7 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 			air_base = 3
-			3653 = {
-				naval_base = 2
-				coastal_bunker = 1
 
-			}
 
 		}
 		add_core_of = RUS

@@ -1,0 +1,16 @@
+state={
+	id=1037
+	name="STATE_1037"
+	provinces={
+		4435 
+	}
+	history={
+		owner = SKK
+		add_core_of = SKK
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

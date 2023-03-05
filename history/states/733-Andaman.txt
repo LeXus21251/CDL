@@ -5,7 +5,8 @@ state={
 	state_category = small_island
 	
 	history={
-		owner = ENG
+		owner = VOC
+		add_core_of = VOC
 		buildings = {
 			infrastructure = 2
 			12251 = {

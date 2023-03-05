@@ -20,12 +20,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			719 = {
-				naval_base = 3
-				coastal_bunker = 1
-
-			}
+			industrial_complex = 1d
 
 		}
 		add_core_of = RUS

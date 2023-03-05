@@ -1,0 +1,16 @@
+characters={
+	VOC_willem_rooseboom={
+		name="Willem Rooseboom"
+		portraits={
+			civilian={
+				large="gfx/leaders/VOC/Willem_Rooseboom.dds"
+			}
+		}
+		country_leader={
+			ideology=auth_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

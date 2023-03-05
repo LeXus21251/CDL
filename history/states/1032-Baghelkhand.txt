@@ -1,0 +1,17 @@
+
+state={
+	id=1032
+	name="STATE_1032"
+	provinces={
+		1510 4410 4513 4953 5096 7497 8120 10332 10401 10801 12375 12480 12854 
+	}
+	history={
+		owner = MTH
+		add_core_of = MTH
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

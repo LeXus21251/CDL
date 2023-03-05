@@ -1,0 +1,16 @@
+characters={
+	SIN_mir_talpur={
+		name="Mir Faiz Muhammad Khan Talpur I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIN/.dds"
+			}
+		}
+		country_leader={
+			ideology=abs_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

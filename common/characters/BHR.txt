@@ -1,0 +1,16 @@
+characters={
+	BHR_isa_ali={
+		name="Isa ibn Ali Al Khalifa"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHR/Isa_ibn_Ali.dds"
+			}
+		}
+		country_leader={
+			ideology=abs_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

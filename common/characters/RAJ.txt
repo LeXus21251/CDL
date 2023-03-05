@@ -1,0 +1,16 @@
+characters={
+	RAJ_victor_bruce={
+		name="Victor Bruce"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/.dds"
+			}
+		}
+		country_leader={
+			ideology=auth_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

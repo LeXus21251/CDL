@@ -24,6 +24,14 @@ BUK_RUS = {
     color = rgb { 88 171 84 }
     color_ui = rgb { 88 171 84 }
 }
+KLT_RUS = {
+    color = rgb { 88 171 84 }
+    color_ui = rgb { 88 171 84 }
+}
+SIN_RUS = {
+    color = rgb { 88 171 84 }
+    color_ui = rgb { 88 171 84 }
+}
 
 LIT_POL = {
 	color = rgb { 224 110 125 }
@@ -75,4 +83,67 @@ RML_TUR = {
 BOS_TUR = {
 	color = rgb { 148 0 0 }
 	color_ui = rgb { 148 0 0 }
+}
+ANZ_TUR = {
+	color = rgb { 148 0 0 }
+	color_ui = rgb { 148 0 0 }
+}
+KUW_TUR = {
+	color = rgb { 148 0 0 }
+	color_ui = rgb { 148 0 0 }
+}
+BHR_TUR = {
+	color = rgb { 148 0 0 }
+	color_ui = rgb { 148 0 0 }
+}
+
+ADE_POR_blue = {
+	color = rgb { 10 96 171 }
+	color_ui = rgb { 45 138 83 }
+}
+MUS_POR_blue = {
+	color = rgb { 10 96 171 }
+	color_ui = rgb { 45 138 83 }
+}
+DBB_POR_blue = {
+	color = rgb { 10 96 171 }
+	color_ui = rgb { 45 138 83 }
+}
+ABD_POR_blue = {
+	color = rgb { 10 96 171 }
+	color_ui = rgb { 45 138 83 }
+}
+PEI_POR_blue = {
+	color = rgb { 10 96 171 }
+	color_ui = rgb { 45 138 83 }
+}
+
+ARB_PER = {
+	color = rgb { 73 145 28 }
+	color_ui = rgb { 73 145 28 }
+}
+
+
+
+BAN_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
+AWA_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
+FEI_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
+
+RAJ_ENG = {
+	color = rgb { 240 0 0 }
+	color_ui = rgb { 84 0 0 }
+}
+
+VOC_HOL = {	
+	color = rgb { 255 106 0 }
+	color_ui = rgb { 124 49 0 }
 }

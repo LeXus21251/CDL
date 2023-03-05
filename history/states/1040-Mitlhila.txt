@@ -1,0 +1,17 @@
+
+state={
+	id=1040
+	name="STATE_1040"
+	provinces={
+		1656 4459 4987 5310 7475 7565 10361 10389 10878 12338 
+	}
+	history={
+		owner = BAN
+		add_core_of = BAN
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

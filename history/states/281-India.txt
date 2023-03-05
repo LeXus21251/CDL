@@ -7,8 +7,8 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = ENG
-		add_core_of = MLD
+		owner = VOC
+		add_core_of = VOC
 		buildings = {
 			infrastructure = 2
 			4967 = {

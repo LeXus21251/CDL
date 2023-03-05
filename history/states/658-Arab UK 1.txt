@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		add_core_of = UAE
-		owner = ENG
+		add_core_of = ABD
+		owner = ABD
 		victory_points = {
 			7960 1 
 		}
@@ -24,7 +24,7 @@ state={
 	}
 
 	provinces={
-		2048 7960 8108 
+		2048 7960 8108 4932
 	}
 	manpower=170200
 	buildings_max_level_factor=1.000

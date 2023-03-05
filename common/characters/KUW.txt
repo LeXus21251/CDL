@@ -1,0 +1,16 @@
+characters={
+	KUW_mubarak_sabah={
+		name="Mubarak Al-Sabah"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUW/Mubarak_Sabah.dds"
+			}
+		}
+		country_leader={
+			ideology=abs_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

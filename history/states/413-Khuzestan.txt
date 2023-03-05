@@ -10,10 +10,6 @@ state={
 		owner = PER
 		buildings = {
 			infrastructure = 3
-			5005 = {
-				naval_base = 1
-
-			}
 
 		}
 		victory_points = {

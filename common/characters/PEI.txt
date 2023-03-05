@@ -1,0 +1,16 @@
+characters={
+	PEI_jose_celestino={
+		name="José Celestino da Silva"
+		portraits={
+			civilian={
+				large="gfx/leaders/PEI/.dds"
+			}
+		}
+		country_leader={
+			ideology=auth_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

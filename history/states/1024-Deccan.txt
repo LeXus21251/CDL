@@ -1,0 +1,17 @@
+
+state={
+	id=1024
+	name="STATE_1024"
+	provinces={
+		1405 4353 7232 10210 10270 12142 12182 12269 
+	}
+	history={
+		owner = PEI
+		add_core_of = PEI
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
