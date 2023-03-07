@@ -1,0 +1,16 @@
+characters={
+	RYU_sho_ten={
+		name="Shō Ten"
+		portraits={
+			civilian={
+				large="gfx/leaders/RYU/Sho_Ten.dds"
+			}
+		}
+		country_leader={
+			ideology=abs_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

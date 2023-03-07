@@ -1,0 +1,17 @@
+
+state={
+	id=1060
+	name="STATE_1060"
+	provinces={
+		1167 4197 7145 7212 9968 9985 10055 11946 12031 
+	}
+	history={
+		owner = TOK
+		add_core_of = TOK
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

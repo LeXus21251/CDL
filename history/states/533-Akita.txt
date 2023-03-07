@@ -1,18 +1,15 @@
 
 state={
 	id=533
-	name="STATE_533" # Tohoku
-	manpower = 6575000
-	state_category = large_city
+	name="STATE_533"
 	resources={
-		steel=27 # was: 35
+		steel=27.000
 	}
 
 	history={
-		owner = JAP
-		add_core_of = JAP
+		owner = TOK
+		add_core_of = TOK
 		buildings = {
-		
 			arms_factory = 1
 			industrial_complex = 2
 			fuel_silo = 1
@@ -22,21 +19,22 @@ state={
 				naval_base = 6
 
 			}
+
 		}
-		
 		victory_points = {
-			6994 5
+			6994 5 
 		}
-		
 		victory_points = {
-			7169 15
+			7169 15 
 		}
 
 	}
 
 	provinces={
-		1024 1063 1165 3848 4067 4118 4122 4153 6870 6873 6994 7169 9807 9859 9865 11847 12056 
+		1024 1165 3848 4118 4122 4153 6870 6873 6994 7169 9807 9859 11847 12056 
 	}
-
-	local_supplies=9.0 
+	manpower=6575000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=9.000
 }

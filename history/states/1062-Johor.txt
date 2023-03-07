@@ -1,0 +1,17 @@
+
+state={
+	id=1062
+	name="STATE_1062"
+	provinces={
+		1348 1364 1376 1392 4367 4384 4412 4424 7399 7427 10227 10297 10313 12215 12255 12271 
+	}
+	history={
+		owner = VOC
+		add_core_of = VOC
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

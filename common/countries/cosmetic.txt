@@ -96,6 +96,12 @@ BHR_TUR = {
 	color = rgb { 148 0 0 }
 	color_ui = rgb { 148 0 0 }
 }
+ACE_TUR = {
+	color = rgb { 148 0 0 }
+	color_ui = rgb { 148 0 0 }
+}
+
+
 
 ADE_POR_blue = {
 	color = rgb { 10 96 171 }
@@ -137,13 +143,48 @@ FEI_FRA = {
 	color = rgb { 5 54 153 }
 	color_ui = rgb { 5 54 153 }
 }
+BRM_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
+AST_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
+NZL_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
+TON_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
 
 RAJ_ENG = {
 	color = rgb { 240 0 0 }
 	color_ui = rgb { 84 0 0 }
+}
+OZZ_ENG = {
+	color = rgb { 255 23 23 }
+	color_ui = rgb { 255 23 23 }
 }
 
 VOC_HOL = {	
 	color = rgb { 255 106 0 }
 	color_ui = rgb { 124 49 0 }
 }
+
+KOR_QIN = {
+	color = rgb { 255 255 107 }
+	color_ui = rgb { 255 255 107 }
+}
+NAN_QIN = {
+	color = rgb { 255 255 107 }
+	color_ui = rgb { 255 255 107 }
+}
+
+PHI_SPR = {
+	color = rgb { 250 212 100 }
+	color_ui = rgb { 250 212 100 }
+}
+

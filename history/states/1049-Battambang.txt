@@ -1,0 +1,17 @@
+
+state={
+	id=1049
+	name="STATE_1049"
+	provinces={
+		1353 4251 4302 4359 7292 10134 10177 10467 
+	}
+	history={
+		owner = SIA
+		add_core_of = SIA
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -6,7 +6,8 @@ state={
 	
 	history=
 	{
-		owner = ENG
+		owner = FEI
+		add_core_of = FEI
 		buildings = {
 			infrastructure = 2
 			13019 = {

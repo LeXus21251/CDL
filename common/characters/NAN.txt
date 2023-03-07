@@ -1,0 +1,16 @@
+characters={
+	NAN_lu_kang={
+		name="Lu Kang" 
+		portraits={
+			civilian={
+				large="gfx/leaders/NAN/Lu_Kang.dds"
+			}
+		}
+		country_leader={
+			ideology=auth_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

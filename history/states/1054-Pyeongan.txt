@@ -1,0 +1,17 @@
+
+state={
+	id=1054
+	name="STATE_1054"
+	provinces={
+		906 912 3912 4052 6963 9790 9795 9918 11775 11828 11835 11896 
+	}
+	history={
+		owner = KOR
+		add_core_of = KOR
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

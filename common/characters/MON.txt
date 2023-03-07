@@ -1,0 +1,16 @@
+characters={
+	MON_togs_namnansuren={
+		name="Tögs-Ochiryn Namnansüren"
+		portraits={
+			civilian={
+				large="gfx/leaders/MON/.dds"
+			}
+		}
+		country_leader={
+			ideology=abs_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

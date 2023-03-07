@@ -1,0 +1,17 @@
+
+state={
+	id=1055
+	name="STATE_1055"
+	provinces={
+		852 898 959 978 3803 3852 3860 3904 3981 6822 6922 6928 6944 7171 9899 10083 11770 11878 
+	}
+	history={
+		owner = KOR
+		add_core_of = KOR
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

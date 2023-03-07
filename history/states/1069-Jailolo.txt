@@ -1,0 +1,17 @@
+
+state={
+	id=1069
+	name="STATE_1069"
+	provinces={
+		1419 1437 7413 10141 10342 
+	}
+	history={
+		owner = PHI
+		add_core_of = PHI
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

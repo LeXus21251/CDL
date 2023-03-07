@@ -1,4 +1,4 @@
-﻿capital =
+﻿capital = 320
 
 oob = "FEI_1936"
 set_cosmetic_tag = FEI_FRA

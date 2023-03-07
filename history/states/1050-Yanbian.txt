@@ -1,0 +1,17 @@
+
+state={
+	id=1050
+	name="STATE_1050"
+	provinces={
+		800 861 927 944 946 973 3929 3944 3947 6806 6964 9841 9883 9897 11781 11823 11850 11862 11879 
+	}
+	history={
+		owner = QIN
+		add_core_of = QIN
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

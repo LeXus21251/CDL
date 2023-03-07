@@ -1,0 +1,17 @@
+
+state={
+	id=1070
+	name="STATE_1070"
+	provinces={
+		1098 1289 4262 4307 7311 10153 10169 10197 1351
+	}
+	history={
+		owner = PHI
+		add_core_of = PHI
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

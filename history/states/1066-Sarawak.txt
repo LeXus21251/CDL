@@ -1,0 +1,17 @@
+
+state={
+	id=1066
+	name="STATE_1066"
+	provinces={
+		1208 1335 2117 4216 4396 7371 7387 7443 8091 10269 10285 12283 12905 
+	}
+	history={
+		owner = FEI
+		add_core_of = FEI
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -5,8 +5,8 @@ state={
 		13265 
 	}
 	history={
-		owner = NZL
-		add_core_of = NZL
+		owner = TON
+		add_core_of = TON
 
 	}
 	manpower=1

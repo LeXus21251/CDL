@@ -1,0 +1,17 @@
+
+state={
+	id=1046
+	name="STATE_1046"
+	provinces={
+		1248 1300 1302 1328 1400 1605 4255 4334 4363 4379 4397 4405 7229 7280 7380 10137 10162 10180 10309 12109 12297 
+	}
+	history={
+		owner = VIN
+		add_core_of = VIN
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,17 @@
+characters={
+	TON_siaosi_tupou_ii={
+		name=TON_siaosi_tupou_ii
+		portraits={
+			civilian={
+				large="gfx/leaders/TON/Siaosi_Tupou_II.dds"
+			}
+		}
+		country_leader={
+			ideology=abs_sub
+			traits={last_pacific_king}
+			desc=TON_SIAOSI_TUPOU_II_DESC
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

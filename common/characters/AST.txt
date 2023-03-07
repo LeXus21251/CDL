@@ -1,0 +1,16 @@
+characters={
+	AST_marie_dorothee={
+		name="Marie-Dorothée"
+		portraits={
+			civilian={
+				large="gfx/leaders/AST/Marie_Dorothee.dds"
+			}
+		}
+		country_leader={
+			ideology=conv_sub
+			traits={queen_regnant}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

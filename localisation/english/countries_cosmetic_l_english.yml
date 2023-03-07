@@ -106,12 +106,26 @@
   BAN_FRA_DEF: "the French Bengal"
   FEI_FRA: "French East India Company"
   FEI_FRA_DEF: "the French East India Company"
+  NZL_FRA_conv: "Dauphinate of Nouvelle Normandie"
+  NZL_FRA_conv_DEF: "the Dauphinate of Nouvelle Normandie"
+  AST_FRA_conv: "Kingdom of Nouvelle Hollande"
+  AST_FRA_conv_DEF: "the Kingdom of Nouvelle Hollande"
 
   VOC_HOL: "Dutch East India Company"
   VOC_HOL_DEF: "the Dutch East India Company"
 
   RAJ_ENG: "British East Indies"
   RAJ_ENG_DEF: "the British East Indies"
+
+  JAC_rebellion: "Tenri-Kyō Rebellion"
+  JAC_rebellion_DEF: "the Tenri-Kyō Rebellion"
+  JAC_rebellion_ADJ: "Rebelious"
+
+  PHI_SPR: "Spanish East Indies"
+  PHI_SPR_DEF: "the Spanish East Indies"
+
+  NAN_QIN: "Colony of Nánguó"
+  NAN_QIN_DEF: "the Colony of Nánguó"
   
  
  

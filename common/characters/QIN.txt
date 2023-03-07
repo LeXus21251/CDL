@@ -1,0 +1,30 @@
+characters={
+	QIN_cixi={
+		name="Cixi"
+		portraits={
+			civilian={
+				large="gfx/leaders/QIN/Cixi.dds"
+			}
+		}
+		country_leader={
+			ideology=abs_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	QIN_guangxu={
+		name="Guangxu"
+		portraits={
+			civilian={
+				large="gfx/leaders/QIN/Guangxu.dds"
+			}
+		}
+		country_leader={
+			ideology=abs_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

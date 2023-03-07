@@ -1,0 +1,16 @@
+characters={
+	OZZ_alfred_deakin={
+		name="Alfred Deakin"
+		portraits={
+			civilian={
+				large="gfx/leaders/OZZ/Alfred_Deakin.dds"
+			}
+		}
+		country_leader={
+			ideology=lib_sub
+			traits={affable_alfred}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

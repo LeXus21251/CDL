@@ -1,0 +1,110 @@
+characters={
+	JAP_mutsuhito={
+		name=JAP_mutsuhito
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP/Mutsuhito.dds"
+			}
+		}
+		country_leader={
+			ideology=abs_sub
+			traits={}
+			desc=JAP_MUTSUHITO_DESC
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	JAP_saigo_takamori={
+		name="Saigō Takamori"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP/Saigo_Takamori.dds"
+			}
+		}
+		field_marshal={
+
+		}
+	}
+	JAP_saigo_torataro={
+		name="Saigō Toratarō"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP/Saigo_Torotaro.dds"
+			}
+		}
+		corps_commander={
+
+		}
+	}
+	JAP_yamada_akiyoshi={
+		name="Yamada Akiyoshi"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP/Yamada_Akiyoshi.dds"
+			}
+		}
+		corps_commander={
+
+		}
+	}
+	JAP_yamagata_aritomo={
+		name="Yamagata Aritomo"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP/Yamagata_Aritomo.dds"
+			}
+		}
+		corps_commander={
+
+		}
+	}
+	JAP_itagaki_taisuke={
+		name="Itagaki Taisuke"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP"
+			}
+		}
+		corps_commander={
+
+		}
+	}
+	JAP_saigo_judo={
+		name="Saigō Jūdō"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP/Saigo_Judo.dds"
+			}
+		}
+		navy_leader={
+
+		}
+		advisor={
+			slot = navy_chief
+			ledger = navy
+		
+		}
+	}
+	JAP_kabayama_sukenori={
+		name="Kabayama Sukenori"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP"
+			}
+		}
+		navy_leader={
+
+		}
+	}
+	JAP_asano_nagakoto={
+		name="Asano Nagakoto"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP"
+			}
+		}
+		navy_leader={
+
+		}
+	}
+}
