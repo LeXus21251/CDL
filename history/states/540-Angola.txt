@@ -2,11 +2,9 @@
 state={
 	id=540
 	name="STATE_540"
-	manpower = 1600000
-	state_category=rural
 
 	history={
-		owner = POR
+		owner = ANG
 		buildings = {
 			infrastructure = 1
 			8248 = {
@@ -23,10 +21,10 @@ state={
 	}
 
 	provinces={
-		5158 7548 8219 8248 12981 
+		5158 7548 8248 12981 
 	}
-
+	manpower=1600000
 	buildings_max_level_factor=1.000
-	
+	state_category=rural
 	local_supplies=0.000
 }

@@ -1,0 +1,16 @@
+characters={
+	BAG_gaourang_ii={
+		name="Gaourang II"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAG/Gaourang_II.dds"
+			}
+		}
+		country_leader={
+			ideology=abs_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

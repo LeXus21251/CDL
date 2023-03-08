@@ -1,0 +1,28 @@
+﻿capital = 551
+set_cosmetic_tag = SUD_TUR
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+TUR = {
+		set_autonomy = {
+			target = SUD
+			autonomy_state = autonomy_ottoman_autonomous_vilayet
+			freedom_level = 0.5
+		}
+	}
+
+recruit_character = SUD_badi_ix
+
+set_politics = {
+	ruling_party = abs
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+
+}

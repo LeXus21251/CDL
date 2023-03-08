@@ -1,15 +1,11 @@
-state=
-{
+
+state={
 	id=297
-	name="STATE_297" # Equatorial Guinea
-	manpower = 185000
-	
-	state_category = wasteland
-	
-	history=
-	{
-		owner = SPR
-		add_core_of = EQG
+	name="STATE_297"
+
+	history={
+		owner = CMR
+		add_core_of = CMR
 		victory_points = {
 			1903 1 
 		}
@@ -17,15 +13,22 @@ state=
 			infrastructure = 1
 			1903 = {
 				naval_base = 1
+
 			}
 			8244 = {
 				naval_base = 1
-			}
-		}
-	}
-	provinces=
-	{
-1903 8244 	}
 
-	local_supplies=0.0 
+			}
+
+		}
+
+	}
+
+	provinces={
+		1903 2080 5036 5139 8244 10948 
+	}
+	manpower=185000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }

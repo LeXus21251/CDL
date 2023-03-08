@@ -1,10 +1,11 @@
+
 state={
 	id=770
 	name="STATE_770"
 
 	history={
-		owner = ENG
-		add_core_of = MLW
+		owner = ZAM
+		add_core_of = ZAM
 		victory_points = {
 			12986 1 
 		}
@@ -16,11 +17,10 @@ state={
 	}
 
 	provinces={
-		2255 12908 12986 13209 
+		2255 12986 13209 
 	}
 	manpower=1603975
 	buildings_max_level_factor=1.000
 	state_category=pastoral
-
-	local_supplies=0.0 
+	local_supplies=0.000
 }

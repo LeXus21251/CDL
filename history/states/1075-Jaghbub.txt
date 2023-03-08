@@ -1,0 +1,17 @@
+
+state={
+	id=1075
+	name="STATE_1075"
+	provinces={
+		1060 1140 7985 10104 10785 11951 12082 
+	}
+	history={
+		owner = SNS
+		add_core_of = SNS
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

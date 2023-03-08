@@ -1,0 +1,16 @@
+characters={
+	DJI_nikolay_achinov={
+		name="Nikolay Ivanovitch Achinov"
+		portraits={
+			civilian={
+				large="gfx/leaders/DJI/.dds"
+			}
+		}
+		country_leader={
+			ideology=auth_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

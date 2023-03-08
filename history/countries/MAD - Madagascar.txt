@@ -1,0 +1,46 @@
+﻿capital = 543
+
+#oob = ""
+set_cosmetic_tag = MAD_POL
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+add_ideas = {
+		MAD_liga_morska
+		MAD_port_unity
+		MAD_past_scar
+		MAD_equal_society
+	}
+
+set_convoys = 40
+set_stability = 0.5 
+set_war_support = 0.5
+set_research_slots = 3
+
+POL = {
+		set_autonomy = {
+			target = MAD
+			autonomy_state = autonomy_associated_state
+			freedom_level = 0.99
+		}
+	}
+recruit_character = MAD_antoni_beniowski
+recruit_character = MAD_radama_iii
+recruit_character = MAD_rivo_mazerek
+recruit_character = MAD_sedra_rakotobe
+recruit_character = MAD_fanomezantsoa
+
+set_politics = {
+	ruling_party = conv
+	last_election = "1900.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+conv = 81
+abs = 13
+lib = 6
+}
+
+

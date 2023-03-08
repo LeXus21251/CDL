@@ -1,42 +1,28 @@
-state = {
-	id = 908
-	name = "STATE_908"
 
-	history = {
-		set_variable = {
-			908.ETH_state_development_production_speed = -0.3
+state={
+	id=908
+	name="STATE_908"
 
-		}
-		set_variable = {
-			ETH_state_development_local_building_slots_factor = -0.3
-		}
-		add_dynamic_modifier = {
-			modifier = ETH_state_development_dynamic_modifier
-
-		}
+	history={
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
+
 		}
 		victory_points = {
 			13240 2 
 		}
-		owner = AFA
-		add_core_of = ETH
-		add_core_of = AFA
-		1936.6.1 = {
-			owner = ITA
-			controller = ITA
+		owner = ASS
+		add_core_of = ASS
 
-		}
 
 	}
 
-	provinces = {
-		5041 13236 13240 
+	provinces={
+		5041 13236 13238 13240 
 	}
-	manpower = 560000
-	buildings_max_level_factor = 1.000
-	state_category = rural
-	local_supplies = 0.000
+	manpower=560000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

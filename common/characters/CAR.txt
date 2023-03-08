@@ -1,0 +1,16 @@
+characters={
+	CAR_diego_magdalena={
+		name="Diego Saavedra y Magdalena"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAR/.dds"
+			}
+		}
+		country_leader={
+			ideology=auth_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

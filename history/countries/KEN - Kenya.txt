@@ -1,0 +1,31 @@
+﻿capital = 905
+
+oob = "KEN_1936"
+set_cosmetic_tag = KEN_ENG
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+ENG = {
+		set_autonomy = {
+			target = KEN
+			autonomy_state = autonomy_colony
+			freedom_level = 0.5
+		}
+	}
+
+
+set_politics = {
+	ruling_party = auth
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+}
+
+recruit_character = KEN_frederick_jackson
+

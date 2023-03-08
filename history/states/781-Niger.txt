@@ -1,25 +1,26 @@
 
 state={
 	id=781
-	name="STATE_781" # Niger
-	manpower = 543817
-	
-	state_category = pastoral
+	name="STATE_781"
 
 	history={
-		owner = FRA
+		owner = NGR
 		add_core_of = NGR
 		victory_points = {
-			2056 1
+			2056 1 
 		}
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
 
 	provinces={
-		1975 2056 12707
+		1975 2049 2068 4913 5004 5101 7939 8128 10749 10917 
 	}
-
-	local_supplies=1.0 
+	manpower=543817
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=1.000
 }

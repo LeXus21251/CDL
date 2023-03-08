@@ -1,0 +1,16 @@
+characters={
+	CAM_angel_luyando={
+		name="Ángel Barrera y Luyando"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/.dds"
+			}
+		}
+		country_leader={
+			ideology=auth_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

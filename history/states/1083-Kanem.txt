@@ -1,0 +1,17 @@
+
+state={
+	id=1083
+	name="STATE_1083"
+	provinces={
+		3123 12711 
+	}
+	history={
+		owner = BAG
+		add_core_of = BAG
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

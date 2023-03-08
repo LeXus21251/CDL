@@ -1,0 +1,16 @@
+characters={
+	COG_theophile_wahis={
+		name="Théophile Wahis"
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/.dds"
+			}
+		}
+		country_leader={
+			ideology=auth_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

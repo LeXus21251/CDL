@@ -1,0 +1,17 @@
+
+state={
+	id=1092
+	name="STATE_1092"
+	provinces={
+		1509 4528 10442 10668 10697 12419 
+	}
+	history={
+		owner = SAF
+		add_core_of = SAF
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

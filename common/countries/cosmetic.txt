@@ -32,6 +32,14 @@ SIN_RUS = {
     color = rgb { 88 171 84 }
     color_ui = rgb { 88 171 84 }
 }
+DJI_RUS = {
+    color = rgb { 88 171 84 }
+    color_ui = rgb { 88 171 84 }
+}
+ASS_RUS = {
+    color = rgb { 88 171 84 }
+    color_ui = rgb { 88 171 84 }
+}
 
 LIT_POL = {
 	color = rgb { 224 110 125 }
@@ -45,10 +53,26 @@ RUT_POL = {
 	color = rgb { 224 110 125 }
 	color_ui = rgb { 224 110 125 }
 }
+GAB_POL = {
+	color = rgb { 224 110 125 }
+	color_ui = rgb { 224 110 125 }
+}
+GAM_POL = {
+	color = rgb { 224 110 125 }
+	color_ui = rgb { 224 110 125 }
+}
+MAD_POL = {
+	color = rgb { 224 110 125 }
+	color_ui = rgb { 224 110 125 }
+}
 
 GER_frankfurt = {
 	color = rgb { 255 0 15 }
 	color_ui = rgb { 255 0 15 }
+}
+TOG_GER = {
+	color = rgb { 120 104 102 }
+	color_ui = rgb { 120 104 102 }
 }
 
 CZE_AUS = {
@@ -100,6 +124,30 @@ ACE_TUR = {
 	color = rgb { 148 0 0 }
 	color_ui = rgb { 148 0 0 }
 }
+EGY_TUR = {
+	color = rgb { 148 0 0 }
+	color_ui = rgb { 148 0 0 }
+}
+TRP_TUR = {
+	color = rgb { 148 0 0 }
+	color_ui = rgb { 148 0 0 }
+}
+SNS_TUR = {
+	color = rgb { 148 0 0 }
+	color_ui = rgb { 148 0 0 }
+}
+WAD_TUR = {
+	color = rgb { 148 0 0 }
+	color_ui = rgb { 148 0 0 }
+}
+BAG_TUR = {
+	color = rgb { 148 0 0 }
+	color_ui = rgb { 148 0 0 }
+}
+SUD_TUR = {
+	color = rgb { 148 0 0 }
+	color_ui = rgb { 148 0 0 }
+}
 
 
 
@@ -120,6 +168,14 @@ ABD_POR_blue = {
 	color_ui = rgb { 45 138 83 }
 }
 PEI_POR_blue = {
+	color = rgb { 10 96 171 }
+	color_ui = rgb { 45 138 83 }
+}
+MZB_POR_blue = {
+	color = rgb { 10 96 171 }
+	color_ui = rgb { 45 138 83 }
+}
+ANG_POR_blue = {
 	color = rgb { 10 96 171 }
 	color_ui = rgb { 45 138 83 }
 }
@@ -159,6 +215,42 @@ TON_FRA = {
 	color = rgb { 5 54 153 }
 	color_ui = rgb { 5 54 153 }
 }
+TOU_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
+NGR_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
+MLI_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
+BOT_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
+ZAM_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
+SEN_FRA = {	
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
+SOK_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
+TZN_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
+SWA_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
 
 RAJ_ENG = {
 	color = rgb { 240 0 0 }
@@ -168,8 +260,49 @@ OZZ_ENG = {
 	color = rgb { 255 23 23 }
 	color_ui = rgb { 255 23 23 }
 }
+SOM_ENG = {
+	color = rgb { 255 23 23 }
+	color_ui = rgb { 255 23 23 }
+}
+KEN_ENG = {
+	color = rgb { 255 23 23 }
+	color_ui = rgb { 255 23 23 }
+}
+NMB_ENG = {
+	color = rgb { 255 23 23 }
+	color_ui = rgb { 255 23 23 }
+}
+UGA_ENG = {
+	color = rgb { 255 23 23 }
+	color_ui = rgb { 255 23 23 }
+}
+GNA_ENG = {
+	color = rgb { 255 23 23 }
+	color_ui = rgb { 255 23 23 }
+}
 
 VOC_HOL = {	
+	color = rgb { 255 106 0 }
+	color_ui = rgb { 124 49 0 }
+}
+MRT_HOL = {
+	color = rgb { 255 122 28 }
+	color_ui = rgb { 255 122 28 }
+}
+
+GHA_HOL = {	
+	color = rgb { 255 122 28 }
+	color_ui = rgb { 255 122 28 }
+}
+COG_HOL = {	
+	color = rgb { 255 106 0 }
+	color_ui = rgb { 124 49 0 }
+}
+RWA_HOL_unified = {	
+	color = rgb { 255 106 0 }
+	color_ui = rgb { 124 49 0 }
+}
+SAF_HOL = {	
 	color = rgb { 255 106 0 }
 	color_ui = rgb { 124 49 0 }
 }
@@ -184,6 +317,22 @@ NAN_QIN = {
 }
 
 PHI_SPR = {
+	color = rgb { 250 212 100 }
+	color_ui = rgb { 250 212 100 }
+}
+MOR_SPR = {
+	color = rgb { 250 212 100 }
+	color_ui = rgb { 250 212 100 }
+}
+CMR_SPR = {
+	color = rgb { 250 212 100 }
+	color_ui = rgb { 250 212 100 }
+}
+CAR_SPR = {
+	color = rgb { 250 212 100 }
+	color_ui = rgb { 250 212 100 }
+}
+WES_SPR = {
 	color = rgb { 250 212 100 }
 	color_ui = rgb { 250 212 100 }
 }

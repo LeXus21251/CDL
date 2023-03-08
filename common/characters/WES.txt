@@ -1,0 +1,16 @@
+characters={
+	WES_francisco_argandona={
+		name="Francisco Bens Argandoña"
+		portraits={
+			civilian={
+				large="gfx/leaders/WES/Francisco_Bens_Argandona.dds"
+			}
+		}
+		country_leader={
+			ideology=auth_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

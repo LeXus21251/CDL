@@ -1,0 +1,16 @@
+state={
+	id=1079
+	name="STATE_1079"
+	provinces={
+		12022 
+	}
+	history={
+		owner = TRP
+		add_core_of = TRP
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

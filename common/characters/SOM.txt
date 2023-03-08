@@ -1,0 +1,16 @@
+characters={
+	SOM_winston_churchill={
+		name="Winston Churchill"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOM/.dds"
+			}
+		}
+		country_leader={
+			ideology=auth_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

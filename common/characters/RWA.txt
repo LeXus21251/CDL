@@ -1,0 +1,16 @@
+characters={
+	RWA_yuhi_musinga={
+		name="Yuhi V Musinga"
+		portraits={
+			civilian={
+				large="gfx/leaders/RWA/.dds"
+			}
+		}
+		country_leader={
+			ideology=abs_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

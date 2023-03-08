@@ -7,10 +7,8 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = FRA
+		owner = DJI
 		add_core_of = DJI
-		add_core_of = AFA
-		add_core_of = SOM
 		victory_points = {
 			8124 1
 		}

@@ -1,21 +1,23 @@
+
 state={
 	id=902
 	name="STATE_902"
-	manpower = 332479
-	state_category = pastoral
 
 	history={
-		owner = ENG
-		add_core_of = NGA
+		owner = SOK
+		add_core_of = SOK
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
 
 	provinces={
-		1891 1932 1969 2025 4938 4972 8021 
+		1891 1932 1969 2025 2056 4938 4972 8021 8028 10758 10820 
 	}
-	
+	manpower=332479
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 	local_supplies=0.000
 }

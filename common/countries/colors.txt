@@ -1163,3 +1163,63 @@ TON = {
 	color = rgb { 201 53 16 }
 	color_ui = rgb { 201 53 16 }
 }
+
+SNS = {
+	color = rgb { 8 8 8 }
+	color_ui = rgb { 8 8 8 }
+}
+
+TOU = {
+	color = rgb { 160 236 250 }
+	color_ui = rgb { 160 236 250 }
+}
+
+TRP = {
+	color = rgb { 54 160 107 }
+	color_ui = rgb { 54 160 107 }
+}
+
+WAD = {
+	color = rgb { 181 251 49 }
+	color_ui = rgb { 181 251 49 }
+}
+
+BAG = {
+	color = rgb { 175 172 103 }
+	color_ui = rgb { 175 172 103 }
+}
+
+MHD = {
+	color = rgb { 255 255 174 }
+	color_ui = rgb { 255 255 174 }
+}
+
+SLL = {
+	color = rgb { 151 255 47 }
+	color_ui = rgb { 151 255 47 }
+}
+
+SUE = {
+	color = rgb { 102 185 189 }
+	color_ui = rgb { 102 185 189 }
+}
+
+DER = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+	}
+
+ASS = {
+	color = rgb { 106 221 30 }
+	color_ui = rgb { 106 221 30 }
+}
+
+SOK = {
+	color = rgb { 81 143 35 }
+	color_ui = rgb { 81 143 35 }
+}
+
+SWA = {
+	color = rgb { 250 209 116 }
+	color_ui = rgb { 250 209 116 }
+}

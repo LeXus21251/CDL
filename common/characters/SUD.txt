@@ -1,0 +1,16 @@
+characters={
+	SUD_badi_ix={
+		name="Badi IX"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUD/.dds"
+			}
+		}
+		country_leader={
+			ideology=abs_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}
