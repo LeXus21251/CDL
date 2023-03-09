@@ -1,0 +1,17 @@
+
+state={
+	id=1095
+	name="STATE_1095"
+	provinces={
+		2169 5173 12946 
+	}
+	history={
+		owner = MAP
+		add_core_of = MAP
+
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

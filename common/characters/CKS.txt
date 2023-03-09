@@ -1,0 +1,16 @@
+characters={
+	CKS_leader={
+		name="placeholder"
+		portraits={
+			civilian={
+				large="gfx/leaders/CKS/.dds"
+			}
+		}
+		country_leader={
+			ideology=nat_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

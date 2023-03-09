@@ -1,0 +1,16 @@
+characters={
+	SHW_leader={
+		name="placeholder"
+		portraits={
+			civilian={
+				large="gfx/leaders/SHW/.dds"
+			}
+		}
+		country_leader={
+			ideology=conv_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

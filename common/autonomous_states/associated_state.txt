@@ -36,6 +36,7 @@ autonomy_state = {
 		tag = OMA 
 		tag = EGY
 		tag = MAD
+		tag = WED
 		}
 	} 
 	ai_subject_wants_higher = {

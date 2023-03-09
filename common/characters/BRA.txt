@@ -1,0 +1,16 @@
+characters={
+	BRA_francisco_braganca={
+		name="Francisco José de Bragança"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRA/Francisco_Braganca.dds"
+			}
+		}
+		country_leader={
+			ideology=sc_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

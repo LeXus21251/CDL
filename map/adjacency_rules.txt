@@ -140,10 +140,10 @@ adjacency_rule =
 	offset = { -26 0 -13 }
 }
 
-#Panama Canal
+#Nicaragua Canal
 adjacency_rule =
 {
-	name = "PANAMA_CANAL"
+	name = "NICARAGUA_CANAL"
 
 	contested =
 	{
@@ -174,18 +174,18 @@ adjacency_rule =
 		trade = yes
 	}
 	
-	required_provinces = { 4624 7617 }
+	required_provinces = { 13300 13299 }
 
 	is_disabled = {
 		OR = {
-			has_global_flag = PANAMA_CANAL_BLOCKED
-			has_country_flag = PANAMA_CANAL_BLOCKED_FOR_COUNTRY
+			has_global_flag = NICARAGUA_CANAL_BLOCKED
+			has_country_flag = NICARAGUA_CANAL_BLOCKED_FOR_COUNTRY
 		}
-		tooltip = disable_canal_tt
+		tooltip = disable_nicaragua_canal_tt
 	}
 		
-	icon = 7617
-	offset = { -3 0 -2 }
+	icon = 13139
+	offset = { 0 0 0 }
 }
 
 #Marmara Strait
@@ -318,6 +318,7 @@ adjacency_rule =
 		submarine = no
 		trade = yes
 	}
+
 	
 	required_provinces = { 9347 6257 11331 }
 		

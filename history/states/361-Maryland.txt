@@ -2,12 +2,9 @@
 state={
 	id=361
 	name="STATE_361"
-	manpower = 2118394
-	
-	state_category = city
 
 	history={
-		owner = USA
+		owner = MAR
 		victory_points = {
 			3957 40 
 		}
@@ -15,7 +12,7 @@ state={
 			6984 5 
 		}
 		buildings = {
-			infrastructure = 4 #was: 7
+			infrastructure = 4
 			industrial_complex = 5
 			dockyard = 1
 			air_base = 6
@@ -27,14 +24,17 @@ state={
 				naval_base = 1
 
 			}
+
 		}
-		add_core_of = USA
+		add_core_of = MAR
 
 	}
 
 	provinces={
-		3957 6823 6892 6929 6984 9758 9786 11892 
+		822 3824 3847 3957 6892 6929 6984 9758 9786 11758 11892 
 	}
-
-	local_supplies=0.0 
+	manpower=2118394
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

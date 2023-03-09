@@ -1,0 +1,17 @@
+﻿capital = 361
+
+oob = "MAR_1936"
+
+set_popularities = {
+
+}
+
+set_politics = {
+	
+	ruling_party = socdem
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+recruit_character = MAR_eugene_debs

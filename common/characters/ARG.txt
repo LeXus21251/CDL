@@ -1,0 +1,16 @@
+characters={
+	ARG_ricardo_diez={
+		name="Ricardo de Ortega y Diez"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARG/Ricardo_Diez.dds"
+			}
+		}
+		country_leader={
+			ideology=conv_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

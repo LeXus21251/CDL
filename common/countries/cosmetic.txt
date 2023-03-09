@@ -2,6 +2,11 @@ POR_blue = {
 color = rgb { 0  80  152 }
 color_ui = rgb { 0  80  152 }
 }
+BRA_POR_blue = {
+	color = rgb { 10 96 171 }
+	color_ui = rgb { 45 138 83 }
+}
+
 
 MLT_RUS = {
     color = rgb { 88 171 84 }
@@ -37,6 +42,10 @@ DJI_RUS = {
     color_ui = rgb { 88 171 84 }
 }
 ASS_RUS = {
+    color = rgb { 88 171 84 }
+    color_ui = rgb { 88 171 84 }
+}
+ALA_RUS = {
     color = rgb { 88 171 84 }
     color_ui = rgb { 88 171 84 }
 }
@@ -251,6 +260,26 @@ SWA_FRA = {
 	color = rgb { 5 54 153 }
 	color_ui = rgb { 5 54 153 }
 }
+CAY_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
+LOU_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
+CAN_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
+QUE_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
+ACA_FRA = {
+	color = rgb { 5 54 153 }
+	color_ui = rgb { 5 54 153 }
+}
 
 RAJ_ENG = {
 	color = rgb { 240 0 0 }
@@ -306,6 +335,14 @@ SAF_HOL = {
 	color = rgb { 255 106 0 }
 	color_ui = rgb { 124 49 0 }
 }
+SUR_HOL = {	
+	color = rgb { 255 106 0 }
+	color_ui = rgb { 124 49 0 }
+}
+CAS_HOL = {	
+	color = rgb { 255 106 0 }
+	color_ui = rgb { 124 49 0 }
+}
 
 KOR_QIN = {
 	color = rgb { 255 255 107 }
@@ -335,5 +372,26 @@ CAR_SPR = {
 WES_SPR = {
 	color = rgb { 250 212 100 }
 	color_ui = rgb { 250 212 100 }
+}
+PRU_SPR = {
+	color = rgb { 250 212 100 }
+	color_ui = rgb { 250 212 100 }
+}
+ARG_SPR = {
+	color = rgb { 250 212 100 }
+	color_ui = rgb { 250 212 100 }
+}
+MEX_SPR = {
+	color = rgb { 250 212 100 }
+	color_ui = rgb { 250 212 100 }
+}
+COL_SPR = {
+	color = rgb { 250 212 100 }
+	color_ui = rgb { 250 212 100 }
+}
+
+PAT_VNC = {
+	color = rgb { 201 18 18 }
+	color_ui = rgb { 201 18 18 }
 }
 

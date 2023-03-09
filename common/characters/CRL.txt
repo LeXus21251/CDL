@@ -1,0 +1,16 @@
+characters={
+	CRL_alton_brooks_parker={
+		name="Alton Brooks Parker"
+		portraits={
+			civilian={
+				large="gfx/leaders/CRL/Alton_Brooks_Parker.dds"
+			}
+		}
+		country_leader={
+			ideology=milgov_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

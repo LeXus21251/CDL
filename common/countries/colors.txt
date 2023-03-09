@@ -1223,3 +1223,88 @@ SWA = {
 	color = rgb { 250 209 116 }
 	color_ui = rgb { 250 209 116 }
 }
+
+WED = {
+	color = rgb { 112 56 56 }
+	color_ui = rgb { 112 56 56 }
+}
+
+MAP = {
+	color = rgb { 236 73 4 }
+	color_ui = rgb { 236 73 4 }
+}
+
+PAT = {
+	color = rgb { 138 242 183 }
+	color_ui = rgb { 138 242 183 }
+}
+
+ALA = {
+	color = rgb { 47 77 100 }
+	color_ui = rgb { 47 77 100 }
+}
+
+IRO = {
+	color = rgb { 139 139 139 }
+	color_ui = rgb { 139 139 139 }
+}
+
+CHE = {
+	color = rgb { 151 75 0 }
+	color_ui = rgb { 151 75 0 }
+}
+
+SHW = {
+	color = rgb { 138 28 28 }
+	color_ui = rgb { 138 28 28 }
+}
+
+CKS = {
+	color = rgb { 166 101 36 }
+	color_ui = rgb { 166 101 36 }
+}
+
+NEN = {
+	color = rgb { 255 32 32 }
+	color_ui = rgb { 255 32 32 }
+}
+
+VIR = {
+	color = rgb { 128 0 255 }
+	color_ui = rgb { 128 0 255 }
+}
+
+GEG = {
+	color = rgb { 139 32 5 }
+	color_ui = rgb { 139 32 5 }
+}
+
+MAR = {
+	color = rgb { 198 198 0 }
+	color_ui = rgb { 198 198 0 }
+}
+
+CRL = {
+	color = rgb { 181 181 181 }
+	color_ui = rgb { 181 181 181 }
+}
+
+LOU = {
+	color = rgb { 27 11 115 }
+	color_ui = rgb { 27 11 115 }
+}
+
+CAS = {
+	color = rgb { 0 174 87 }
+	color_ui = rgb { 0 174 87 }
+}
+
+QUE = {
+	color = rgb { 0 36 72 }
+	color_ui = rgb { 0 36 72 }
+
+}
+ACA = {
+	color = rgb { 187 255 187 }
+	color_ui = rgb { 187 255 187 }
+}

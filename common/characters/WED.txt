@@ -1,0 +1,16 @@
+characters={
+	WED_emil_wedel={
+		name="Emil Wedel"
+		portraits={
+			civilian={
+				large="gfx/leaders/WED/Emil_Wedel.dds"
+			}
+		}
+		country_leader={
+			ideology=auth_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

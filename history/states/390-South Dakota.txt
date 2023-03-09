@@ -2,16 +2,15 @@
 state={
 	id=390
 	name="STATE_390"
-	manpower = 692849
-	state_category = rural
 
 	history={
-		owner = USA
+		owner = LOU
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
-		add_core_of = USA
+		add_core_of = LOU
 		victory_points = {
 			1747 1 
 		}
@@ -19,8 +18,10 @@ state={
 	}
 
 	provinces={
-		1747 1875 3750 4839 4880 7745 7771 7862 10569 10595 12620 12667 
+		1747 1767 1815 1851 1875 3750 3769 4610 4741 4794 4820 4839 4857 4860 4863 6722 7745 7760 7771 7814 7877 7880 7883 10587 10624 10706 10711 12566 12572 12585 
 	}
-
-	local_supplies=0.0 
+	manpower=692849
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

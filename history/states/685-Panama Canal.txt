@@ -1,26 +1,24 @@
+
 state={
 	id=685
 	name="STATE_685"
-	manpower = 39467
-	
-	state_category = wasteland
 
 	history={
-		owner = USA
-		victory_points = {
-			7617 5 
-		}
+		owner = MEX
 		buildings = {
 			infrastructure = 2
-			air_base = 6
-			7617 = {
-				naval_base = 3
-			}
-		}
-		add_core_of = PAN
-	}
-	
-	provinces={ 7617 }
 
-	local_supplies=0.0 
+
+		}
+		add_core_of = MEX
+
+	}
+
+	provinces={
+		13299 13300 
+	}
+	manpower=39467
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }

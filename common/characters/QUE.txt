@@ -1,0 +1,16 @@
+characters={
+	QUE_jean_orlean={
+		name="Jean d'Orléans"
+		portraits={
+			civilian={
+				large="gfx/leaders/QUE/.dds"
+			}
+		}
+		country_leader={
+			ideology=conv_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}
