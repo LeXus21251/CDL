@@ -1264,7 +1264,7 @@ CKS = {
 	color_ui = rgb { 166 101 36 }
 }
 
-NEN = {
+NEG = {
 	color = rgb { 255 32 32 }
 	color_ui = rgb { 255 32 32 }
 }

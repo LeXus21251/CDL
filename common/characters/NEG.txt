@@ -1,0 +1,16 @@
+characters={
+	NEG_joseph_soros={
+		name="Joseph Soros"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEG/.dds"
+			}
+		}
+		country_leader={
+			ideology=lib_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

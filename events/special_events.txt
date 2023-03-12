@@ -1,0 +1,23 @@
+###########################
+# HIDDEN Events
+###########################
+
+add_namespace = special
+
+country_event = {
+	id = special.0
+	
+	
+	hidden = yes
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+	 TOK = {
+		complete_national_focus = TOK_civil_war
+				}
+			}
+		}
+}

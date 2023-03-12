@@ -14,18 +14,10 @@ state={
 
 		}
 		victory_points = {
-			7087 3 
+			7087 10 
 		}
 		victory_points = {
 			10125 25 
-		}
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-				industrial_complex = 3
-
-			}
-
 		}
 
 	}
@@ -33,8 +25,8 @@ state={
 	provinces={
 		4069 7087 7157 10125 12097 
 	}
-	manpower=6174000
+	manpower=3065221
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=large_town
 	local_supplies=0.000
 }

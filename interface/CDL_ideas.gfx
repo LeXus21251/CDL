@@ -1,0 +1,45 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_sakoku_edict"
+		texturefile = "gfx/interface/ideas/idea_sakoku_edict.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_technologic_concern"
+		textureFile = "gfx/interface/idea_slot_technologic_concern.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bushido"
+		texturefile = "gfx/interface/ideas/bushido.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_daimyo_nation"
+		texturefile = "gfx/interface/ideas/daimyo_nation.dds"
+	}
+
+
+##TOKUGAWA
+	spriteType = {
+		name = "GFX_idea_TOK_tokugawa_clan"
+		texturefile = "gfx/interface/ideas/TOK_tokugawa_clan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_TOK_dutch_investors"
+		texturefile = "gfx/interface/ideas/TOK_dutch_investors.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TOK_dutch_trade"
+		texturefile = "gfx/interface/ideas/TOK_dutch_trade.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TOK_russian_threat"
+		texturefile = "gfx/interface/ideas/TOK_russian_threat.dds"
+	}
+
+	spriteType = {
+	name = "GFX_idea_TOK_enomoto_takeaki"
+	texturefile = "gfx/interface/ideas/TOK_enomoto_takeaki.dds"
+}
+
+}

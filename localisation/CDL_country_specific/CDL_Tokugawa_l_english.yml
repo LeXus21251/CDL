@@ -1,0 +1,160 @@
+﻿l_english:
+
+ ##NAMES
+  TOK:0 "Tokugawa"
+  TOK_ADJ:0 "Tokugawan"
+  TOK_DEF:0 "the Tokugawa"
+  TOK_military_government:0 "Tokugawa Shogunate"
+  TOK_military_government_ADJ:0 "Tokugawan"
+  TOK_military_government_DEF:0 "the Tokugawa Shogunate"
+  
+ ##CTAGS
+  TOK_ezo: "Ezo Republic"
+  TOK_ezo_ADJ: "Ezo"
+  TOK_ezo_DEF: "the Ezo Republic"
+
+ ##HISTORY
+  TOK_ITSUSHI_DESC:0 "Shogunate was established in 1603 after the Battle of Sekigahara. Country opened to foreign trade, but the development of Christianity in Japan became problematic and he banned it in 1610. As a result of previous events, the Shogun decided to close the islands in 1635 under the Sakoku Edict which introduced a number of restrictions and allowing only very limited trade with the Dutch.\nIn 1868, Tokugawa Yoshinobu being a proponent of modernizing the country eased the Sakoku Edict by opening up to trade,diplomacy etc. However, as a result of the opening, the Russian Empire forcibly occupied the Chishima Islands in 1874 leading to Japan's re-enclosure. Living in fear of further colonization and society began to modernize. In recent years there has been growing unrest over a newly developing religion and supporters of the Emperor"
+ 
+ ##PARTIES
+  TOK_milgov_party:0 "Tokugawa Bakufu"
+  TOK_milgov_party_long:0 "Tokugawa Bakufu"
+  TOK_milgov_sub_desc:0 "The §YTokugawa Bakufu§! is a military-feudal regime that has ruled for more than 300 years. Although the country is divided into §Odomains§! the central government holds power over them. \nThe government is very progressive and many aspects have improved during its reign."
+ ##CHARACTERS
+  #LEADERS
+   TOK_tokugawa_yoshinobu: "Tokugawa Yoshinobu"
+  
+
+   TOK_TOKUGAWA_YOSHINOBU_DESC: "Born 28/10/1937 in Edo \n\nBorn as Matsudaira Shichirōmaro. Son of Daimyō of the Mito Domain and a Princess from one of the branches of the Imperial Family. He had a very good education. At the age of 10, he was named Yoshinobu and became a pretendend for Shogun, but the opposing faction won. He and his supporters were put under house arrest, and he was forced to relinquish being head of the Hitotsubashi family. In 1866 he became the 15th Shogun after the death of the previous one. Two years later he opened the country to international diplomacy, which resulted in modernization but also the loss of the Chishima Islands to Russia and the fear of being colonized, which led to renewed closure, with the only exception being the Dutch. Throughout his reign he promotes technological development and maintains good relations with the Dutch"
+  
+ ##IDEAS
+  daimyo_nation:0 "Daimyō Nation"
+  daimyo_nation_desc:0 "Japanese islands contains many smaller feudal lords - Daimyōs who may not agree with the overlord"
+  bushido:0 "Bushidō"
+  bushido_desc:0 "§OBushidō§! is an unwritten set of rules that every honorary samurai follows. It is about following perfection and moral rules. Samurai fight whether or not they may die."
+  TOK_tokugawa_clan:0 "Tokugawa Clan"
+  TOK_tokugawa_clan_desc:0 "§gTokugawa Clan§! is ruling over Japan since 1603. Although disadvantages of isolationism introduced in the Edo period its bring us stabilisation and peace within the Japanese Domains."
+  TOK_kansai_attack:0 "Attack Kansai"
+  TOK_honshu_attack:0 "Attack Honshu"
+  TOK_shikoku_attack:0 "Attack Shikoku"
+  TOK_kyushu_attack:0 "Attack Kyushu"
+
+  TOK_dutch_investors:0 "Dutch investors"
+  
+ ##FOCUSES
+  #TREE NAMES
+   TOK_war_tree:0 "Tokugawa Shogunate focus tree"
+   ezo_war_tree:0 "Ezo Itsushi War Tree"
+  #WAR TREE
+   #MIDDLE PATH
+    TOK_civil_war:0 "Inevitable war is coming"
+    TOK_civil_war_desc:0 "The Shogunate has been unstable for long time, the Southern Daimyōs want to restore the §tEmperor§! to the Japanese throne, and a secularist §8Tenri-Kyo§! cult is developing in some regions of our country. The outbreak of §Rcivil war§! is a matter of days..."
+    TOK_for_shogun:0 "Fight for the Shogun!"
+    TOK_for_shogun_desc:0 "The shogun is the greatest leader in the whole world, we will defeat his enemies and cover ourselves with glory"
+    TOK_north_remember:0 "The North remembers!"
+    TOK_north_remember_desc:0 "Daimyōs in the north remembers who their real leader is. A large number of domains have decided to support us militarily and unite through the Ōuetsu Reppan Dōmei (Northern Alliance)."
+    TOK_secure_ancestors_land:0 "Secure land of our ancestors"
+    TOK_secure_ancestors_land_desc:0 "The northern part of Honshu island has belonged to the Tokugawa Family and their allies for several centuries. Once we have forced the enemies out we will push further south."
+    TOK_send_more_warriors:0 "Send more warriors into fight"
+    TOK_send_more_warriors_desc:0 "After pushing the enemy out of our territories, we can recruit more samurais from multiple domains"
+    TOK_seize_palace:0 "Seize Imperial Palace"
+    TOK_seize_palace_desc:0 "Once the imperial capital is captured along with the Heian Palace, we can secure the area and imprison the Emperor inside until the end of the war."
+    TOK_move_emperor:0 "Move Emperor to Edo"
+    TOK_move_emperor_desc:0 "Moving the Emperor to Edo, the capital city, is much more cost effective and faster than keeping him in Heian to prevent forces from the south from retaking him."
+    TOK_second_shikoku_inv:0 "Second Invasion of Shikoku"
+    TOK_second_shikoku_inv_desc:0 "We will follow in the footsteps of our ancestor from the Sengoku Period. Just as Hideyoshi won his battle in 1585, we also won!"
+    TOK_conquer_hagi:0 "Conquer Hagi Palace"
+    TOK_conquer_hagi_desc:0 "Hagi Palace, home of the Chōshū domain. We captured the most important point of one of the two main components of the treacherous forces"
+    TOK_fall_of_satsuma:0 "Fall of Satsuma"
+    TOK_fall_of_satsuma_desc:0 "Satsuma - the place where beginning of the whole conspiracy leading up to the war fell under the Shogun's army. Now we must catch whoever was behind it"
+    TOK_itsushi_war_over:0 "Itsushi war is over!"
+    TOK_itsushi_war_over_desc:0 "Order has been restored in Japan, now we will have to solve the case of the cult, the traitors and the Europeans. We can celebrate the victory of the almighty Shogun!"
+   #DUTCH HELP
+    TOK_ask_dutch_help:0 "Ask Dutch for help"
+    TOK_ask_dutch_help_desc:0 "We decided that the help of europeans would come in handy. We can take advantage of the fact that the Dutch have us as reliable trade partners."
+    TOK_dutch_military_mission:0 "Dutch military mission"
+    TOK_dutch_military_mission_desc:0 "The Dutch decided to send us their soldiers and weapons to help us fight, the Europeans certainly don't know discipline and respect like we do, but their intervention is crucial"
+    TOK_import_western_eq:0 "Import equipment from Europe"
+    TOK_import_western_eq_desc:0 "We signed a contract to import European equipment until the end of the war. Well, we can't argue with the fact that the armaments out there are superior."
+    TOK_arms_contract:0 "Arms contract"
+    TOK_arms_contract_desc:0 "We got the opportunity to produce European weapons and access to blueprints to improve our own armaments."
+    TOK_dutch_industrial_mission:0 "Dutch industrial mission"
+    TOK_dutch_industrial_mission_desc:0 "Skilled laborers have been sent to us to help our industry flourish during this difficult time."
+    TOK_dutch_investments:0 "Dutch investments"
+    TOK_dutch_investments_desc:0 "Money from the United Provinces began to flow into our islands. Wealthy entrepreneurs see potential in Japan. The Dutch have plans for us..."
+    TOK_edo_industrial_complex:0 "Edo industrial complex"
+    TOK_edo_industrial_complex_desc:0 "Industrial development in Edo and surroundings will boost the economy and industry of the whole country. We need people to kick-start the first modern industrial complexes."
+    TOK_form_denshutai:0 "Form Denshūtai"
+    TOK_form_denshutai_desc:0 "Denshūtai are elite military units. They are trained under the guidance of the best generals from Tokugawa and the United Provinces. They use the most modern equipment."
+    TOK_peasant_army:0 "Peasants in army"
+    TOK_peasant_army_desc:0 "At the advice of the Europeans, the villagers receive basic training to be able to fight for and against the mighty Shogun. These units are poorly equipped but we can't let them get better."
+    TOK_the_way_of_west:0 "Way of the west"
+    TOK_the_way_of_west_desc:0 "with the help of the Dutch, we learned the western art of war, ways to improve the economy, and research. Maybe we judged them too harshly at the beginning."
+   #TRADITIONAL PATH
+    TOK_expel_dutch:0 "Expel the Dutch"
+    TOK_expel_dutch_desc:0 "We must expel the western traders from the islands! It is because of them that the southern domains rebelled, we will not allow them to continue in our homeland!"
+    TOK_domestic_arms:0 "Domestic arms production"
+    TOK_domestic_arms_desc:0 "We must resolutely expand the domestic arms industry to overcome enemies."
+    TOK_produce_new_eq:0 "Produce modern equipment"
+    TOK_produce_new_eq_desc:0 "After contact with the Europeans, we have brought new knowledge. We are able to modernize our military on our own"
+    TOK_our_traditions:0 "Our traditions"
+    TOK_our_traditions_desc:0 "As a nation we have a long tradition, we need to uphold it. We can't let our heritage go to waste and that's why we stick to certain rules despite necessary modernization."
+    TOK_industrial_domains:0 "Domains industrialization"
+    TOK_industrial_domains_desc:0 "Most Daimyōs agree to build new factories in areas under their jurisdiction and provide new jobs for their subordinates"
+    TOK_warrior_and_the_landlord:0 "Warrior and the landlord"
+    TOK_warrior_and_the_landlord_desc:0 "Samurai are both warriors and landlords and have a great influence on government, society and many other aspects. Shogun has to cooperate with them."
+    focus_TOK_our_soil:0 "Our soil"
+    focus_TOK_our_soil_desc:0 "To have a chance to win we need to expand the industry on OUR SOIL. Only Japanese workplaces have their place on the islands."
+    TOK_edo_devils:0 "Devils of Edo"
+    TOK_edo_devils_desc:0 "Our great military leaders known as "Devils of Edo" are very determined and motivated to win this war. They will not surrender at any cost."
+    TOK_noble_army:0 "Nobles Army"
+    TOK_noble_army_desc:0 "The Shogun's army consists of well-trained warriors, with more and more appearing in recent years, mainly due to our reforms. This will give us a definite advantage."
+    TOK_samurai_way:0 "Way of the Samurai"
+    TOK_samurai_way_desc:0 "Samurai adhere to the unwritten rules of Bushidō. This makes them dedicated, honorable and brave warriors. This is exactly what our army needs."
+ ##EVENTS
+  tokugawa.1.t:0 "Start of the inevitable civil war"
+  tokugawa.1.d:0 "[?global.date.GetDateStringNoHourLong] Itsushi War has started. At the end of the Yang Wood Dragon Year, the southern Daimyōs decided to oppose the Shogun and overthrow his government. Under the leadership of [JAP.JAP_saigo_takamori.GetName], the alliance is about to move in our direction and take back the Emperor. \n\nOn the other hand, the [JAC.GetNonIdeologyName] cult, which has been growing strongly in recent years, has taken advantage of the situation and seized several provinces with the help of their loyalists."
+ #tokugawa.1.t:0 "New Dutch port"
+ #tokugawa.1.d:0 "As Dejima has been occupied by [JAP.GetName] #forces and we have decided to help the Dutch we must provide #them a new trading port from which to conduct operations and #trade. Our choice will depend on the further fate of the #cooperation."
+
+ ##DECISIONS
+  TOK_northern_alliance:0 "Recruitment in the north"
+  TOK_northern_alliance_desc:0 "Thanks to the loyalty of our northern Daimyōs, we can count on their help in the war against the rebels in the south. The united alliance of the domains of Mutsu, Dewa, Echigo and southern Ezo will support us militarily by sending people to fight in the name of the Shogun. At the same time, Sakai Tadazumi, who is Daimyō of the Shōnai Domain, may become one of the most influential military commanders"
+  TOK_recruit_sakai:0 "Recruit Sakai Tadazumi"
+  TOK_recruit_from_north:0 "Conscript more warriors from allied Domains"
+  TOK_recruit_from_north_desc:0 "our allies in the northern part of the country can help us with their warriors to restore order and the glory of the Shogun"
+  TOK_take_back_echigo:0 "Take back Echigo"
+
+  TOK_moving_emperor_operation:0 "Operation Chrysantemum"
+  TOK_moving_emperor:0 "Moving Emperor to Edo"
+  TOK_moving_emperor2:0 "Moving Emperor to Edo"
+
+  TOK_dutch_missions:0 "Dutch influence in Japan"
+  TOK_dutch_port:0 "Boost new Dutch trade port"
+  TOK_dutch_industrial_help:0 "Dutch industrial investment"
+  TOK_dutch_military_help:0 "Buy Dutch weapons"
+ ##FLAGS
+  itsushi_war_started:0 "§OItsushi War§! has started" #global
+ ##TOOLTIPS
+  TOK_wait_for_war_tt:0 "Civil war is a matter of days, just wait."
+  TOK_north_remember_tt:0 "§YNorthern Alliance§! will help us in the war \nUnlocks §Y'Recruitment in the north'§! decisions" #focus
+  TOK_itsushi_start_tt:0 "The time of the §RInevitable War§! has come, to battle!" #focus
+  TOK_dutch_missions_tt:0 "Tightening ties with §Y[HOL.GetName]§! and §YVOC§! (§G+50§! opinion)\nUnlocks §Y'Dutch missions'§! decisions" #focus
+  TOK_expel_dutch_tt:0 "This will §Renrage§! §Y[HOL.GetName]§! and §YVOC§! (§R-50§! opinion)" #focus
+  TOK_edo_industrial_complex_tt:0 "Railway system running from §YEdo§! to §YNiigata§!, §YOsaka§! and §YRikuzen§!\nNaval ports in §YNiigata§! and §YSandai§!" #focus
+  TOK_dutch_industrial_mission_tt:0 "Allows us to receive §YDutch industrial support§!"
+  TOK_dutch_military_mission_tt:0 "Allows us to buy §YDutch weapons§!"
+  TOK_denshutai_focus_tt:0 "Unlocks elite §YDenshūtai§! infantry units"
+
+
+
+  emperor_not_rescued_tt:0 "§OEmperor§! not rescued by §Y[JAP.GetName]§!"
+  kansai_states_tt:0 "Control all states in §YKansai Region§!"
+  shikoku_states_tt:0 "Control all states in §YShikoku Region§!"
+  southern_honshu_states_tt:0 "Control all states in §YSouthern Honshu Region§!"
+  edo_complex_states_tt:0 "Control all states running from §YEdo§! to §YNiigata§!, §YOsaka§! and §YRikuzen§!"
+
+  ##BOP
+   TOK_power_balance:0 "Tokugawa modernization balance of power"
+   TOK_liberal_modernization_side:0 "Liberal modernization"
+   TOK_conservative_modernization_side:0 "Conservative modernization"

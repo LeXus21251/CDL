@@ -24,23 +24,14 @@ state={
 		victory_points = {
 			1182 50 
 		}
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-				dockyard = 4
-				industrial_complex = 5
-
-			}
-
-		}
 
 	}
 
 	provinces={
 		1182 4184 4188 9998 
 	}
-	manpower=13773000
+	manpower=5371226
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=large_city
 	local_supplies=0.000
 }

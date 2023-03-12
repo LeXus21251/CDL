@@ -1,0 +1,68 @@
+spriteTypes = {
+	spriteType = {
+        name = "GFX_ideology_vo_group"
+        texturefile = "gfx/interface/ideologies/vo_group.dds"
+    }
+	spriteType = {
+        name = "GFX_ideology_voleft_group"
+        texturefile = "gfx/interface/ideologies/voleft_group.dds"
+    }
+	spriteType = {
+        name = "GFX_ideology_socdem_group"
+        texturefile = "gfx/interface/ideologies/socdem_group.dds"
+    }
+	spriteType = {
+        name = "GFX_ideology_abs_group"
+        texturefile = "gfx/interface/ideologies/abs_group.dds"
+    }
+	spriteType = {
+        name = "GFX_ideology_auth_group"
+        texturefile = "gfx/interface/ideologies/auth_group.dds"
+    }
+	spriteType = {
+        name = "GFX_ideology_conv_group"
+        texturefile = "gfx/interface/ideologies/conv_group.dds"
+    }
+	spriteType = {
+        name = "GFX_ideology_trad_group"
+        texturefile = "gfx/interface/ideologies/trad_group.dds"
+    }
+	spriteType = {
+        name = "GFX_ideology_lib_group"
+        texturefile = "gfx/interface/ideologies/lib_group.dds"
+    }
+	spriteType = {
+        name = "GFX_ideology_milgov_group"
+        texturefile = "gfx/interface/ideologies/milgov_group.dds"
+    }
+	spriteType = {
+        name = "GFX_ideology_liber_group"
+        texturefile = "gfx/interface/ideologies/liber_group.dds"
+    }
+	spriteType = {
+        name = "GFX_ideology_mas_group"
+        texturefile = "gfx/interface/ideologies/mas_group.dds"
+    }
+	spriteType = {
+        name = "GFX_ideology_sc_group"
+        texturefile = "gfx/interface/ideologies/sc_group.dds"
+    }
+	spriteType = {
+        name = "GFX_ideology_nat_group"
+        texturefile = "gfx/interface/ideologies/nat_group.dds"
+    }
+	spriteType = {
+        name = "GFX_ideology_revsoc_group"
+        texturefile = "gfx/interface/ideologies/revsoc_group.dds"
+    }
+	spriteType = {
+        name = "GFX_ideology_refsoc_group"
+        texturefile = "gfx/interface/ideologies/refsoc_group.dds"
+    }
+
+	spriteType = {
+        name = "GFX_ideology_TOK_milgov_group"
+        texturefile = "gfx/interface/ideologies/TOK_milgov_group.dds"
+    }
+
+}

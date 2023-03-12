@@ -3195,11 +3195,11 @@
   MAR_socdem:0 "Republic of Maryland"
   MAR_socdem_DEF:0 "the Republic of Maryland"
 
-  NEN:0 "New England"
-  NEN_ADJ:0 "New English"
-  NEN_DEF:0 "New England"
-  NEN_lib:0 "New England Confederation"
-  NEN_lib_DEF:0 "the New England Confederation"
+  NEG:0 "New England"
+  NEG_ADJ:0 "New English"
+  NEG_DEF:0 "New England"
+  NEG_lib:0 "New England Confederation"
+  NEG_lib_DEF:0 "the New England Confederation"
 
   VIR:0 "Virginia"
   VIR_ADJ:0 "Virginian"

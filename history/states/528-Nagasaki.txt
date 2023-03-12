@@ -2,8 +2,8 @@
 state={
 	id=528
 	name="STATE_528" # Kyushu
-	manpower = 9069000
-	state_category = large_city
+	manpower = 6904825
+	state_category = city
 	resources={
 		lead=52 # was: 88
 	}
@@ -24,19 +24,19 @@ state={
 
 		}
 		victory_points = {
-			1025 10 
+			1025 5 
 		}
 		victory_points = {
-			4102 15 
+			4102 10 
 		}
 		victory_points = {
-			9950 30
+			9950 10
 		}
-		1939.1.1 = {
-			buildings = {
-				dockyard = 4
-				industrial_complex = 3
-			}
+		victory_points = {
+			7110 10
+		}
+		victory_points = {
+			11925 5
 		}
 
 	}

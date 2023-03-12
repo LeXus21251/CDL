@@ -1,0 +1,64 @@
+bookmarks = {
+	bookmark = {
+		name = "CDL_ITSUSHI_BOOKMARK_NAME"
+		desc = "CDL_ITSUSHI_BOOKMARK_DESC"
+		date = 1905.1.1.12
+		picture = "GFX_select_scenario_itsushi"
+		default_country = "TOK"
+		default = yes
+		
+		"TOK"={
+			history = "TOK_ITSUSHI_DESC"
+			ideology = authoritarianism
+			ideas = {
+				bushido
+				TOK_tokugawa_clan
+				daimyo_nation
+				TOK_russian_threat
+				TOK_dutch_trade
+			}
+			focuses = {
+				TOK_civil_war
+
+			}
+		}
+		"JAP"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = absolutism
+			ideas = {
+				sakoku_edict
+				bushido
+				JAP_emperor
+			}
+			focuses = {
+			}
+		}
+		"JAC"={
+			history = "JAC_GATHERING_STORM_DESC"
+			ideology = traditionalism
+			ideas = {
+				JAC_tenrikyo
+				JAC_war
+				JAC_iburi_izo
+				
+			}
+			focuses = {
+			}
+		}
+		"RYU"={
+			history = "RYU_GATHERING_STORM_DESC"
+			ideology = absolutism
+			ideas = {
+				RYU_qing_influence
+				RYU_pirate_hub
+			}
+			focuses = {
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

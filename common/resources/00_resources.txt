@@ -30,26 +30,14 @@ resources = {
 		convoys = 0.1
 	}
 	
-	lead = {
+	fabrics = {
 		icon_frame = 6
 		cic = 0.125
 		convoys = 0.1
 	}
-	
-	coal = {
+
+	food = {
 		icon_frame = 7
-		cic = 0.125
-		convoys = 0.1
-	}
-	
-	wood = {
-		icon_frame = 8
-		cic = 0.125
-		convoys = 0.1
-	}
-	
-	fabrics = {
-		icon_frame = 9
 		cic = 0.125
 		convoys = 0.1
 	}

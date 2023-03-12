@@ -1,0 +1,118 @@
+ideas = {
+
+
+	country = {
+		bushido = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+
+			picture = bushido
+			
+			modifier = {
+			surrender_limit = 0.75
+			training_time_factor = 0.10
+			army_attack_factor = 0.05
+			army_defence_factor = 0.05
+			experience_gain_army_factor = 0.05
+			}
+		}
+		daimyo_nation = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+
+			picture = daimyo_nation
+			
+			modifier = {
+			offensive_war_stability_factor
+			= -0.15
+			cavalry_attack_factor = 0.10
+			}
+		}
+		TOK_tokugawa_clan = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+
+			picture = TOK_tokugawa_clan
+			
+			modifier = {
+			stability_factor = 0.02
+			}
+		}
+
+		TOK_russian_threat = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+
+			picture = TOK_russian_threat
+			
+			modifier = {
+			}
+		}
+
+		TOK_dutch_trade = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+
+			picture = TOK_dutch_trade
+			
+			modifier = {
+			}
+		}
+
+		TOK_dutch_investors = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+
+			picture = TOK_dutch_investors
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.1
+				production_factory_start_efficiency_factor = 0.05
+			}
+		}
+
+	}
+}
