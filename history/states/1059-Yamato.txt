@@ -8,6 +8,11 @@ state={
 	history={
 		owner = TOK
 		add_core_of = TOK
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 1
+		}
 		victory_points = {
 			1051 1
 		}

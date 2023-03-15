@@ -3,7 +3,7 @@ state={
 	id=533
 	name="STATE_533"
 	resources={
-		steel=27.000
+		food = 13
 	}
 
 	history={
@@ -11,14 +11,8 @@ state={
 		add_core_of = TOK
 		buildings = {
 			arms_factory = 1
-			industrial_complex = 2
-			fuel_silo = 1
+			industrial_complex = 1
 			infrastructure = 2
-			air_base = 6
-			9859 = {
-				naval_base = 6
-
-			}
 
 		}
 		victory_points = {

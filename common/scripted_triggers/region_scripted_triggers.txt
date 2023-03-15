@@ -1,0 +1,17 @@
+is_main_japan = {
+	state = 528
+	state = 529
+	state = 530
+	state = 1060
+	state = 531
+	state = 1059
+	state = 535
+	state = 1058
+	state = 532
+	state = 282
+	state = 1057
+	state = 534
+	state = 1056
+	state = 533
+	state = 536
+}

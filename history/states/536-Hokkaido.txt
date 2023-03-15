@@ -10,7 +10,11 @@ state={
 		owner = TOK
 		add_core_of = TOK
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			dockyard = 1
+			3962 = {
+				naval_base = 2
+			}
 		}
 		victory_points = {
 			10444 3

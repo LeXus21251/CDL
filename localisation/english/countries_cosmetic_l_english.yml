@@ -5,6 +5,7 @@
   ENG_unified_lib_ADJ: "Republican"
   ENG_unified_lib_DEF: "the United Republic"
 
+  HOL_unified: "United Provinces"
   HOL_unified_lib: "United Provinces"
   HOL_unified_lib_ADJ: "Dutch"
   HOL_unified_lib_DEF: "the United Provinces"
@@ -212,6 +213,11 @@
 
   NAN_QIN: "Colony of Nánguó"
   NAN_QIN_DEF: "the Colony of Nánguó"
+
+  JAP_saigo_shogunate:0 "Saigō Shogunate"
+  JAP_satcho:0 "Satchō Alliance"
+  JAP_satcho_ADJ:0 "Japanese"
+  JAP_satcho_DEF:0 "the Satchō Alliance"
   
  
  

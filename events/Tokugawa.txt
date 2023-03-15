@@ -37,64 +37,39 @@ country_event = {
 		}
 }
 
-#	country_event = {
-#		id = tokugawa.1
-#		title = tokugawa.1.t
-#		desc = tokugawa.1.d
-#		picture = GFX_report_event_worker_protests
-#		is_triggered_only = yes
-#	
-#		fire_only_once = yes
-#		
-#		option = {
-#			name = "Port in Edo"
-#			1601 = {
-#				add_manpower = 1500
-#			}
-#			set_global_flag = dutch_port_in_edo
-#				trigger = {
-#					AND = {
-#						NOT = {
-#							has_global_flag = dutch_port_in_hakodate
-#							has_global_flag = dutch_port_in_yokosuka
-#						}
-#					}
-#				}
-#		}
-#		
-#		option = {
-#			name = "Port in Yokosuka"
-#			trigger = {
-#				AND = { 
-#					NOT = {
-#					has_global_flag = dutch_port_in_edo
-#					has_global_flag = dutch_port_in_hakodate
-#					}
-#				 }
-#			}
-#			1164 = {
-#				add_manpower = 1500
-#			}
-#			set_global_flag = dutch_port_in_yokosuka	
-#		}
-#
-#		option = {
-#			name = "Port in Hakodate"
-#
-#			trigger = {
-#				AND = { 
-#					NOT = {
-#					has_global_flag = dutch_port_in_edo
-#					has_global_flag = dutch_port_in_yokosuka
-#					}
-#				 }
-#			}
-#			1599 = {
-#				add_manpower = 1500
-#			}	
-#			set_global_flag = dutch_port_in_hakodate
-#		}
-#	}
+	country_event = {
+		id = tokugawa.2
+		title = tokugawa.2.t
+		desc = tokugawa.2.d
+		picture = GFX_report_event_worker_protests
+		is_triggered_only = yes
+	
+		fire_only_once = yes
+
+		trigger = {
+			tag = TOK
+		}
+		
+		option = {
+			name = "Grant them their own place in the capital"
+			set_global_flag = dutch_port_in_edo
+			282 = {
+				add_manpower = 1500
+			}
+			set_country_flag = dutch_weapon_collapsed
+
+		}
+		
+
+		option = {
+			name = "The northern port will be a better option"
+			set_global_flag = dutch_port_in_hakodate
+			536 = {
+				add_manpower = 1500
+			}
+			set_country_flag = dutch_weapon_collapsed
+		}
+	}
 
 			
 #country_event = {

@@ -1,3 +1,4 @@
+#!gfx:interface\CDL_goals.gfx
 focus_tree = {
 	id = TOK_war_tree
 	continuous_focus_position = { x = 0 y = 1200 } 
@@ -34,6 +35,8 @@ focus_tree = {
 				itsushi_war_script = yes
 			}
 			country_event = tokugawa.1
+
+			##load_oob
 			
 			
 		}
@@ -56,6 +59,9 @@ focus_tree = {
 			focus = TOK_civil_war
 		}
 		completion_reward = {
+			hidden_effect = {
+				load_oob = TOK_war
+			}
 	
 		}
 	}
@@ -80,6 +86,15 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+			hidden_effect = {
+				load_oob = TOK_ord
+			}
+			
+			custom_effect_tooltip = TOK_north_remember_tt
+			set_variable = {
+				var = TOK.northern_warriors_var
+				value = 7
+			}
 	
 		}
 	}
@@ -110,6 +125,31 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+			#jakies gowno
+			535 = {
+				add_building_construction = {
+					province = 7102
+					type = bunker 
+					level = 3
+					instant_build = yes
+				}
+			}
+			532 = {
+				add_building_construction = {
+					province = 10125
+					type = bunker 
+					level = 3
+					instant_build = yes
+				}
+			}
+			1058 = {
+				add_building_construction = {
+					province = 4172
+					type = bunker 
+					level = 3
+					instant_build = yes
+				}
+			}
 	
 		}
 	}
@@ -127,8 +167,12 @@ focus_tree = {
 			focus = TOK_north_remember
 		}
 		available = {
+			TOK = {
+				has_completed_focus = TOK_secure_ancestors_land
+			}
 		}
 		completion_reward = {
+			#dodaj jednostki i cos w decyzjach
 	
 		}
 	}
@@ -157,6 +201,21 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+			#cos jeszcze
+			531 = {
+				add_building_construction = {
+					province = 1136
+					type = bunker 
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					province = 7072
+					type = bunker 
+					level = 3
+					instant_build = yes
+				}
+			}
 	
 		}
 	}
@@ -183,8 +242,12 @@ focus_tree = {
 			TOK = {
 				has_full_control_of_state = 531
 			}
+			NOT = {
+				has_global_flag = jap_emperor_rescued
+			}
 		}
 		completion_reward = {
+			#decyzja o przeniesieniu
 	
 		}
 	}
@@ -208,6 +271,8 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+
+			#nie wiem
 	
 		}
 	}
@@ -231,6 +296,8 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+
+			#event i moze jakis bonus
 	
 		}
 	}
@@ -256,6 +323,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+			#event i cos jeszcze moze kapitulacja
 	
 		}
 	}
@@ -275,7 +343,10 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
-	
+			#event
+			clr_global_flag = itsushi_war_started
+			set_global_flag	= itsushi_war_ended
+			set_global_flag = tokugawa_won_itsushi
 		}
 	}
 
@@ -297,6 +368,24 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			set_country_flag = tokugawa_dutch_help
+			add_political_power = 100
+			hidden_effect = {
+				#event
+
+			every_country = {
+				limit = {
+					OR = {
+				tag = VOC
+				tag = HOL
+				}
+			}
+				add_opinion_modifier = { target = TOK modifier = huge_increase }	
+			}
+			TOK = {add_opinion_modifier = { target = HOL modifier = huge_increase }}
+			TOK = {add_opinion_modifier = { target = VOC modifier = huge_increase }}
+		}
+		custom_effect_tooltip = TOK_dutch_help_tt
 	
 		}
 	}
@@ -316,7 +405,27 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
-	
+			#moze cos jeszcze
+			custom_effect_tooltip = TOK_dutch_industrial_mission_tt
+			random_owned_controlled_state = {
+				limit = {
+					NOT = {
+						OR = {
+						state = 282
+						state = 536
+						state = 1056
+						state = 534
+						state = 535
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -335,6 +444,10 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			#moze cos
+			TOK = {
+				add_ideas = TOK_dutch_investors
+			}
 	
 		}
 	}
@@ -354,7 +467,8 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
-	
+			##decyzje
+			custom_effect_tooltip = TOK_edo_industrial_complex_tt
 		}
 	}
 
@@ -373,6 +487,22 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			### templatka i ochotnicy z holandii
+			army_experience = 20
+			custom_effect_tooltip = TOK_dutch_military_mission_tt
+			add_equipment_to_stockpile = {
+    			type = infantry_equipment
+    			amount = 1500
+    			producer = HOL
+			}
+			
+			TOK = {
+				create_ship = {
+					type = ship_hull_destroyer_1
+					creator = HOL
+					name = "Yamamoto"
+				}
+			}
 	
 		}
 	}
@@ -392,7 +522,8 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
-	
+			#instant eq i decyzje
+			
 		}
 	}
 
@@ -411,6 +542,7 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			#licencja i tech bonus
 	
 		}
 	}
@@ -433,6 +565,8 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			#jednostki denshutai
+			custom_effect_tooltip = TOK_denshutai_focus_tt
 	
 		}
 	}
@@ -452,6 +586,7 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			#zmiana poboru, spirit, nowe oblokowalne templatki
 	
 		}
 	}
@@ -471,6 +606,7 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			#usun sakoku, spirit, bonusy
 	
 		}
 	}
@@ -493,6 +629,23 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			set_country_flag = tokugawa_expel_dutch
+			add_political_power = 100
+			hidden_effect = {
+			every_country = {
+				limit = {
+					OR = {
+				tag = VOC
+				tag = HOL
+				}
+			}
+				add_opinion_modifier = { target = TOK modifier = large_decrease }	
+			}
+			TOK = {add_opinion_modifier = { target = HOL modifier = large_decrease }}
+			TOK = {add_opinion_modifier = { target = VOC modifier = large_decrease }}
+		}
+		custom_effect_tooltip = TOK_expel_dutch_tt
+		#TOK_bop_very_high_increase_effect = yes
 	
 		}
 	}
@@ -512,6 +665,7 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			#decyzje, plus bonusy instant
 	
 		}
 	}
@@ -531,6 +685,7 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			#dalsze decyzje
 	
 		}
 	}
@@ -550,6 +705,7 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			#bonusy
 	
 		}
 	}
@@ -569,6 +725,7 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			#bonusy, decyzje
 	
 		}
 	}
@@ -588,6 +745,7 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			#bonusy, decyzje
 	
 		}
 	}
@@ -607,6 +765,7 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			#bonusy, decyzje
 	
 		}
 	}
@@ -629,6 +788,7 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			##marszałkowie nowy trait, bonusy
 	
 		}
 	}
@@ -649,6 +809,7 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			#bonusy do armii
 	
 		}
 	}
@@ -669,6 +830,7 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			#bonusy
 	
 		}
 	}

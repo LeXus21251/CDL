@@ -81,15 +81,15 @@
     TOK_dutch_industrial_mission:0 "Dutch industrial mission"
     TOK_dutch_industrial_mission_desc:0 "Skilled laborers have been sent to us to help our industry flourish during this difficult time."
     TOK_dutch_investments:0 "Dutch investments"
-    TOK_dutch_investments_desc:0 "Money from the United Provinces began to flow into our islands. Wealthy entrepreneurs see potential in Japan. The Dutch have plans for us..."
+    TOK_dutch_investments_desc:0 "Money from the [HOL.GetName] began to flow into our islands. Wealthy entrepreneurs see potential in Japan. The Dutch have plans for us..."
     TOK_edo_industrial_complex:0 "Edo industrial complex"
     TOK_edo_industrial_complex_desc:0 "Industrial development in Edo and surroundings will boost the economy and industry of the whole country. We need people to kick-start the first modern industrial complexes."
     TOK_form_denshutai:0 "Form Denshūtai"
-    TOK_form_denshutai_desc:0 "Denshūtai are elite military units. They are trained under the guidance of the best generals from Tokugawa and the United Provinces. They use the most modern equipment."
+    TOK_form_denshutai_desc:0 "Denshūtai are elite military units. They are trained under the guidance of the best generals from Tokugawa and the [HOL.GetName]. They use the most modern equipment."
     TOK_peasant_army:0 "Peasants in army"
     TOK_peasant_army_desc:0 "At the advice of the Europeans, the villagers receive basic training to be able to fight for and against the mighty Shogun. These units are poorly equipped but we can't let them get better."
-    TOK_the_way_of_west:0 "Way of the west"
-    TOK_the_way_of_west_desc:0 "with the help of the Dutch, we learned the western art of war, ways to improve the economy, and research. Maybe we judged them too harshly at the beginning."
+    TOK_way_of_west:0 "Way of the west"
+    TOK_way_of_west_desc:0 "With the help of the Dutch, we learned the western art of war, ways to improve the economy, and research. Maybe we judged them too harshly at the beginning."
    #TRADITIONAL PATH
     TOK_expel_dutch:0 "Expel the Dutch"
     TOK_expel_dutch_desc:0 "We must expel the western traders from the islands! It is because of them that the southern domains rebelled, we will not allow them to continue in our homeland!"
@@ -114,37 +114,53 @@
  ##EVENTS
   tokugawa.1.t:0 "Start of the inevitable civil war"
   tokugawa.1.d:0 "[?global.date.GetDateStringNoHourLong] Itsushi War has started. At the end of the Yang Wood Dragon Year, the southern Daimyōs decided to oppose the Shogun and overthrow his government. Under the leadership of [JAP.JAP_saigo_takamori.GetName], the alliance is about to move in our direction and take back the Emperor. \n\nOn the other hand, the [JAC.GetNonIdeologyName] cult, which has been growing strongly in recent years, has taken advantage of the situation and seized several provinces with the help of their loyalists."
- #tokugawa.1.t:0 "New Dutch port"
- #tokugawa.1.d:0 "As Dejima has been occupied by [JAP.GetName] #forces and we have decided to help the Dutch we must provide #them a new trading port from which to conduct operations and #trade. Our choice will depend on the further fate of the #cooperation."
+
+  tokugawa.2.t:0 "New Dutch port"
+  tokugawa.2.d:0 "As Dejima has been occupied by [JAP.GetName] forces and we have decided to help the Dutch by providing them a new trading port from which to conduct operations and trade. In the future, there will be an opportunity to develop a network of foreign ports."
 
  ##DECISIONS
   TOK_northern_alliance:0 "Recruitment in the north"
   TOK_northern_alliance_desc:0 "Thanks to the loyalty of our northern Daimyōs, we can count on their help in the war against the rebels in the south. The united alliance of the domains of Mutsu, Dewa, Echigo and southern Ezo will support us militarily by sending people to fight in the name of the Shogun. At the same time, Sakai Tadazumi, who is Daimyō of the Shōnai Domain, may become one of the most influential military commanders"
   TOK_recruit_sakai:0 "Recruit Sakai Tadazumi"
-  TOK_recruit_from_north:0 "Conscript more warriors from allied Domains"
-  TOK_recruit_from_north_desc:0 "our allies in the northern part of the country can help us with their warriors to restore order and the glory of the Shogun"
+  TOK_recruit_from_north:0 "Conscript more warriors from northern Domains"
+  TOK_recruit_from_north_desc:0 "[north_warriors_desc]"
+  north_warriors_can_recruit: "Our allies in the northern part of the country can help us with their warriors to restore order and the glory of the Shogun \n§WYou can recruit [?TOK.northern_warriors_var|.0Y] more divisions§!"
+  north_warriors_cannot_recruit: "Our allies in the northern part of the country can help us with their warriors to restore order and the glory of the Shogun \n§WYou §Rcannot§! recruit more divisions§!"
+
+
+
+
   TOK_take_back_echigo:0 "Take back Echigo"
+
+
+
+
 
   TOK_moving_emperor_operation:0 "Operation Chrysantemum"
   TOK_moving_emperor:0 "Moving Emperor to Edo"
   TOK_moving_emperor2:0 "Moving Emperor to Edo"
 
-  TOK_dutch_missions:0 "Dutch influence in Japan"
-  TOK_dutch_port:0 "Boost new Dutch trade port"
+  TOK_dutch_missions:0 "Dutch Missions in Japan"
+  TOK_dutch_port_setup:0 "Help setup new Dutch port"
+  TOK_dutch_port_setup_desc:0 "We need to choose the initial place to establish a new port for the Dutch after the loss of the Dejima."
   TOK_dutch_industrial_help:0 "Dutch industrial investment"
-  TOK_dutch_military_help:0 "Buy Dutch weapons"
+  TOK_dutch_weapon_market_expand:0 "Expand market list"
+  TOK_dutch_weapon_market_collapse:0 "Collapse market list"
+  TOK_dutch_weapon_market_rifles:0 "Buy [HOL.GetAdjective] rifles"
+  TOK_dutch_weapon_market_artillery:0 "Buy [HOL.GetAdjective] artillery"
  ##FLAGS
   itsushi_war_started:0 "§OItsushi War§! has started" #global
  ##TOOLTIPS
   TOK_wait_for_war_tt:0 "Civil war is a matter of days, just wait."
   TOK_north_remember_tt:0 "§YNorthern Alliance§! will help us in the war \nUnlocks §Y'Recruitment in the north'§! decisions" #focus
   TOK_itsushi_start_tt:0 "The time of the §RInevitable War§! has come, to battle!" #focus
-  TOK_dutch_missions_tt:0 "Tightening ties with §Y[HOL.GetName]§! and §YVOC§! (§G+50§! opinion)\nUnlocks §Y'Dutch missions'§! decisions" #focus
+  TOK_dutch_help_tt:0 "Tightening ties with §Y[HOL.GetName]§! and §YVOC§! (§G+50§! opinion)\nUnlocks §Y'Dutch missions'§! decisions" #focus
   TOK_expel_dutch_tt:0 "This will §Renrage§! §Y[HOL.GetName]§! and §YVOC§! (§R-50§! opinion)" #focus
   TOK_edo_industrial_complex_tt:0 "Railway system running from §YEdo§! to §YNiigata§!, §YOsaka§! and §YRikuzen§!\nNaval ports in §YNiigata§! and §YSandai§!" #focus
   TOK_dutch_industrial_mission_tt:0 "Allows us to receive §YDutch industrial support§!"
   TOK_dutch_military_mission_tt:0 "Allows us to buy §YDutch weapons§!"
   TOK_denshutai_focus_tt:0 "Unlocks elite §YDenshūtai§! infantry units"
+  TOK_more_var_warriors_tt:0 "Allows recruitment of additional divisions of warriors from the north"
 
 
 

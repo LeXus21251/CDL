@@ -50,27 +50,6 @@ TOK_dutch_industrial_help_list = {
 	}
 }
 
-TOK_dutch_military_help_list ={
-	TOK = {
-		random_list = {
-			1 = {
-				add_equipment_to_stockpile = {
-					type = infantry_equipment
-					amount = 100
-					producer = HOL
-				}
-			}
-
-			1 = {
-				add_equipment_to_stockpile = {
-					type = artillery_equipment_1
-					amount = 100
-					producer = HOL
-				}
-			}
-		}
-	}
-}
 
 itsushi_war_script = {
 
@@ -90,10 +69,8 @@ itsushi_war_script = {
 				transfer_state = 529
 				transfer_state = 530
 				transfer_state = 1060
-				add_state_core = 528
-				add_state_core = 529
-				add_state_core = 530
-				add_state_core = 1060
+
+				set_province_controller = 7072
 			}
 
 			JAC = {
@@ -110,6 +87,13 @@ itsushi_war_script = {
 				transfer_state = 535
 				transfer_state = 532
 				transfer_state = 534
+				add_state_core = 1059
+				add_state_core = 535
+				add_state_core = 532
+				add_state_core = 534
+
+				set_province_controller = 4172
+				set_province_controller = 7187
 			}
 			JAP = {
 				declare_war_on = { target = TOK type = annex_everything }
@@ -119,6 +103,42 @@ itsushi_war_script = {
 				declare_war_on = { target = JAP type = annex_everything }
 				declare_war_on = { target = TOK type = annex_everything }
 				
+			}
+			TOK = {
+				set_province_controller = 7157
+				every_core_state = {
+					limit = {
+					is_core_of = TOK
+					}
+					JAP = {
+						add_state_core = PREV
+					}
+				}
+
+				delete_unit = {
+					state = 528
+				}
+				delete_unit = {
+					state = 529
+				}
+				delete_unit = {
+					state = 530
+				}
+				delete_unit = {
+					state = 1060
+				}
+				delete_unit = {
+					state = 1059
+				}
+				delete_unit = {
+					state = 535
+				}
+				delete_unit = {
+					state = 532
+				}
+				delete_unit = {
+					state = 534
+				}
 			}
 
 		}
@@ -166,6 +186,107 @@ TOK_edo_railway = {
 			instant_build = yes
 			level = 2
 			province = 7169
+		}
+	}
+}
+
+
+## NIE DZIAŁA
+
+domain_loyalty = {
+	if = {
+		limit = {
+			TOK = { has_completed_focus = TOK_civil_war }
+			tag = TOK
+		}
+		282 = {
+	add_dynamic_modifier = { modifier = loyal_domains }
+		}
+	}
+}
+
+northern_warriors_script = {
+	TOK = {
+		random_list = {
+			1 = { 
+				if ={
+					limit = {
+					TOK = {
+						NOT = {
+							controls_state = 534
+						}
+					}
+				}
+					TOK = {
+						random_owned_controlled_state = {
+							limit = {
+								state = 1057
+							}
+							create_unit = { 
+								division = "name = \"Echigo no Bushi\" division_template = \"Daimyō Gundan\" start_experience_factor = 0.3" 
+									owner = ROOT
+								}
+							}
+		
+						}
+				}
+				else = {
+					TOK = {
+						random_state = {
+							limit = { 
+								state = 534
+							}
+							create_unit = { 
+								division = "name = \"Echigo no Bushi\" division_template = \"Daimyō Gundan\" start_experience_factor = 0.3" 
+									owner = ROOT
+							}
+						}
+		
+					}
+				}
+			}
+	
+			1 = {
+				TOK = {
+					random_owned_controlled_state = {
+						limit = {
+							state = 533
+						}
+						create_unit = { 
+							division = "name = \"Mutsu no Bushi\" division_template = \"Daimyō Gundan\" start_experience_factor = 0.3" 
+								owner = ROOT
+							}
+					}
+				}
+			}
+			1 = {
+				TOK = {
+					random_owned_controlled_state = {
+						limit = {
+							state = 1056
+						}
+						create_unit = { 
+							division = "name = \"Dewa no Bushi\" division_template = \"Daimyō Gundan\" start_experience_factor = 0.3" 
+								owner = ROOT
+							}
+					}
+				}
+			}
+			1 = {
+				TOK = {
+					random_owned_controlled_state = {
+						limit = {
+							state = 536
+						}
+						create_unit = { 
+							division = "name = \"Ezo no Bushi\" division_template = \"Daimyō Gundan\" start_experience_factor = 0.3" 
+								owner = ROOT
+								prioritize_location = 3962
+								prioritize_location = 10444
+							}
+					}
+				}
+			}
 		}
 	}
 }

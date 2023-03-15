@@ -3,23 +3,21 @@ state={
 	id=531
 	name="STATE_531"
 	resources={
-		aluminium=3.000
+		steel = 6
+		fabrics = 13
+		food = 8
 	}
 
 	history={
 		owner = TOK
 		add_core_of = TOK
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			arms_factory = 2
-			industrial_complex = 4
+			industrial_complex = 3
 			dockyard = 2
-			1136 = {
-				naval_base = 6
-
-			}
 			7072 = {
-				naval_base = 3
+				naval_base = 2
 
 			}
 
@@ -35,10 +33,10 @@ state={
 	}
 
 	provinces={
-		1067 1136 4142 7072 11960 
+		1067 1136 4142 7072 11960 13301
 	}
 	manpower=4189224
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_city
 	local_supplies=9.000
 }

@@ -1,0 +1,25 @@
+
+units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Placeholder"			
+		naval_base = 9998 # Edo
+		task_force = {
+			name = "Fleet1"
+			location = 9998 # Edo
+			ship = { name = "TBA" pride_of_the_fleet = yes definition = destroyer equipment = { ship_hull_destroyer_1 = { amount = 1 owner = TOK version_name = "TBA" } } }
+			ship = { name = "TBA" definition = destroyer equipment = { ship_hull_destroyer_1 = { amount = 1 owner = TOK version_name = "TBA" } } }
+			ship = { name = "TBA" definition = destroyer equipment = { ship_hull_destroyer_1 = { amount = 1 owner = TOK version_name = "TBA" } } }
+			ship = { name = "TBA" definition = destroyer equipment = { ship_hull_destroyer_1 = { amount = 1 owner = TOK version_name = "TBA" } } }
+		}				
+		task_force = {				
+			name = "Fleet2"			
+			location = 9998 # Edo
+			ship = { name = "TBA" definition = destroyer equipment = { ship_hull_destroyer_1 = { amount = 1 owner = TOK version_name = "TBA" } } }
+			ship = { name = "TBA" definition = destroyer equipment = { ship_hull_destroyer_1 = { amount = 1 owner = TOK version_name = "TBA" } } }
+			ship = { name = "TBA" definition = destroyer equipment = { ship_hull_destroyer_1 = { amount = 1 owner = TOK version_name = "TBA" } } }
+		}				
+	}
+} 
+

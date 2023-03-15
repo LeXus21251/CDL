@@ -1,0 +1,109 @@
+division_template = {
+	name = "Dōshingumi" 		
+	is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Kibagumi"
+	is_locked = yes
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+}
+
+##### OOB #####
+units = {
+
+	##### INFANTRY GARRISON #####
+	division= {	
+		name = "'Edo' Dōshingumi"
+		location = 1182 # Edo
+		division_template = "Dōshingumi"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "'Kyoto' Dōshingumi"
+		location = 11960 # Heian-kyō
+		division_template = "Dōshingumi"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "'Nagasaki' Dōshingumi"
+		location = 9950 # Nagasaki
+		division_template = "Dōshingumi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "'Hakodate' Dōshingumi"
+		location = 3962 # Hakodate
+		division_template = "Dōshingumi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "'Hiroshima' Dōshingumi"
+		location = 1092 # Hiroshima
+		division_template = "Dōshingumi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "'Sendai' Dōshingumi"
+		location = 7169 # Sendai
+		division_template = "Dōshingumi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+
+	#### CAVALRY GARRISON ####
+	division= {	
+		name = "'Edo' Kibagumi"
+		location = 1182 # Edo
+		division_template = "Kibagumi"
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "'Kyoto' Kibagumi"
+		location = 11960 # Heian-kyō
+		division_template = "Kibagumi"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.77
+
+	}
+	division= {	
+		name = "'Sapporo' Kibagumi"
+		location = 10444 # Sapporo
+		division_template = "Kibagumi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+
+	}
+	division= {	
+		name = "'Asahigawa' Kibagumi"
+		location = 12421 # Asahigawa
+		division_template = "Kibagumi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+
+	}
+}

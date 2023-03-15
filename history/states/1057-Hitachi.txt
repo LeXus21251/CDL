@@ -2,10 +2,17 @@
 state={
 	id=1057
 	name="STATE_1057"
+	resources={
+		fabrics = 20
+	}
 	provinces={
 		993 1097 1113 4000 4100 7016 11908 
 	}
 	history={
+		buildings = {
+			arms_factory = 2
+			dockyard = 2
+		}
 		owner = TOK
 		add_core_of = TOK
 		victory_points = {

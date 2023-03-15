@@ -6,6 +6,10 @@ state={
 		4172 7187 10015 10100 12072 
 	}
 	history={
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
 		owner = TOK
 		add_core_of = TOK
 

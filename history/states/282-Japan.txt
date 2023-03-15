@@ -3,20 +3,21 @@ state={
 	id=282
 	name="STATE_282"
 	resources={
-		aluminium=1.000
+		steel = 8
+		fabrics = 12.5
+		food = 8
 	}
 
 	history={
 		owner = TOK
 		add_core_of = TOK
 		buildings = {
-			infrastructure = 4
-			air_base = 6
-			industrial_complex = 4
+			infrastructure = 3
+			industrial_complex = 2
 			arms_factory = 2
-			dockyard = 4
+			dockyard = 2
 			9998 = {
-				naval_base = 6
+				naval_base = 4
 
 			}
 

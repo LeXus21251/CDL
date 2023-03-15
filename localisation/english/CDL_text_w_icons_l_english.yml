@@ -1,0 +1,21 @@
+﻿l_english:
+  ## 15land xp 50pp
+ decision_cost_army_xp_15_pp_50:0 "£army_experience §Y15§! £pol_power §Y50§!"
+ decision_cost_army_xp_15_pp_50_blocked:0 "£army_experience §R15§! £pol_power §R50§!"
+ decision_cost_army_xp_15_pp_50_tooltip:0 "It costs £army_experience §Y15§! and £pol_power §Y50§! to take the decision"
+  ## 5land xp 50pp
+decision_cost_army_xp_5_pp_50:0 "£army_experience §Y5§! £pol_power §Y50§!"
+ decision_cost_army_xp_5_pp_50_blocked:0 "£army_experience §R5§! £pol_power §R50§!"
+ decision_cost_army_xp_5_pp_50_tooltip:0 "It costs £army_experience §Y5§! and £pol_power §Y50§! to take the decision"
+  ## 30 cp 50pp
+ decision_cost_CP_30_pp_50:0 "£command_power §Y30§! £pol_power §Y50§!"
+ decision_cost_CP_30_pp_50_blocked:0 "£command_power §R30§! £pol_power §R50§!"
+ decision_cost_CP_30_pp_50_tooltip:0 "It costs £command_power §Y30§! and £pol_power §Y50§! to take the decision"
+  ## 30 cp 100pp
+ decision_cost_CP_30_pp_100:0 "£command_power §Y30§! £pol_power §Y100§!"
+ decision_cost_CP_30_pp_100_blocked:0 "£command_power §R30§! £pol_power §R100§!"
+ decision_cost_CP_30_pp_100_tooltip:0 "It costs £command_power §Y30§! and £pol_power §Y100§! to take the decision"
+
+ decision_cost_pp_50:0 "£pol_power §Y50§!"
+ decision_cost_pp_50_blocked:0 "£pol_power §R50§!"
+ decision_cost_pp_50_tooltip:0 "It costs £pol_power §Y50§! to take the decision"

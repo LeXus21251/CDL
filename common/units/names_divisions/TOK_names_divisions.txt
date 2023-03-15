@@ -1,0 +1,91 @@
+TOK_regular_infantry = {
+	name = "Bakufu Hobei Shidan"
+
+	for_countries = { TOK }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+
+	fallback_name = "Dai-%d Bakufu Hobei Shidan"
+
+	ordered = {
+		1 = { "Dai-%d Bakufu Hobei Shidan" }
+		2 = { "Dai-%d Bakufu Hobei Shidan" }
+		3 = { "Dai-%d Bakufu Hobei Shidan" }
+		4 = { "Dai-%d Bakufu Hobei Shidan" }
+		5 = { "Dai-%d Bakufu Hobei Shidan" }
+		6 = { "Dai-%d Bakufu Hobei Shidan" }
+		7 = { "Dai-%d Bakufu Hobei Shidan" }
+		8 = { "Dai-%d Bakufu Hobei Shidan" }
+		9 = { "Dai-%d Bakufu Hobei Shidan" }
+		10 = { "Dai-%d Bakufu Hobei Shidan" }
+		11 = { "Dai-%d Bakufu Hobei Shidan" }
+		12 = { "Dai-%d Bakufu Hobei Shidan" }
+		13 = { "Dai-%d Bakufu Hobei Shidan" }
+		14 = { "Dai-%d Bakufu Hobei Shidan" }
+		15 = { "Dai-%d Bakufu Hobei Shidan" }
+		16 = { "Dai-%d Bakufu Hobei Shidan" }
+		17 = { "Dai-%d Bakufu Hobei Shidan" }
+		18 = { "Dai-%d Bakufu Hobei Shidan" }
+		19 = { "Dai-%d Bakufu Hobei Shidan" }
+		20 = { "Dai-%d Bakufu Hobei Shidan" }
+		21 = { "Dai-%d Bakufu Hobei Shidan" }
+		22 = { "Dai-%d Bakufu Hobei Shidan" }
+		23 = { "Dai-%d Bakufu Hobei Shidan" }
+		24 = { "Dai-%d Bakufu Hobei Shidan" }
+		25 = { "Dai-%d Bakufu Hobei Shidan" }
+		26 = { "Dai-%d Bakufu Hobei Shidan" }
+		27 = { "Dai-%d Bakufu Hobei Shidan" }
+		28 = { "Dai-%d Bakufu Hobei Shidan" }
+		29 = { "Dai-%d Bakufu Hobei Shidan" }
+		30 = { "Dai-%d Bakufu Hobei Shidan" }
+	}
+}
+
+TOK_regular_cavalry = {
+	name = "Bakufu Kibei Shidan"
+
+	for_countries = { TOK }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+
+	fallback_name = "Dai-%d Bakufu Kibei Shidan"
+
+	ordered = {
+		1 = { "Dai-%d Bakufu Kibei Shidan" }
+		2 = { "Dai-%d Bakufu Kibei Shidan" }
+		3 = { "Dai-%d Bakufu Kibei Shidan" }
+		4 = { "Dai-%d Bakufu Kibei Shidan" }
+		5 = { "Dai-%d Bakufu Kibei Shidan" }
+		6 = { "Dai-%d Bakufu Kibei Shidan" }
+		7 = { "Dai-%d Bakufu Kibei Shidan" }
+		8 = { "Dai-%d Bakufu Kibei Shidan" }
+		9 = { "Dai-%d Bakufu Kibei Shidan" }
+		10 = { "Dai-%d Bakufu Kibei Shidan" }
+		11 = { "Dai-%d Bakufu Kibei Shidan" }
+		12 = { "Dai-%d Bakufu Kibei Shidan" }
+		13 = { "Dai-%d Bakufu Kibei Shidan" }
+		14 = { "Dai-%d Bakufu Kibei Shidan" }
+		15 = { "Dai-%d Bakufu Kibei Shidan" }
+		16 = { "Dai-%d Bakufu Kibei Shidan" }
+		17 = { "Dai-%d Bakufu Kibei Shidan" }
+		18 = { "Dai-%d Bakufu Kibei Shidan" }
+		19 = { "Dai-%d Bakufu Kibei Shidan" }
+		20 = { "Dai-%d Bakufu Kibei Shidan" }
+		21 = { "Dai-%d Bakufu Kibei Shidan" }
+		22 = { "Dai-%d Bakufu Kibei Shidan" }
+		23 = { "Dai-%d Bakufu Kibei Shidan" }
+		24 = { "Dai-%d Bakufu Kibei Shidan" }
+		25 = { "Dai-%d Bakufu Kibei Shidan" }
+		26 = { "Dai-%d Bakufu Kibei Shidan" }
+		27 = { "Dai-%d Bakufu Kibei Shidan" }
+		28 = { "Dai-%d Bakufu Kibei Shidan" }
+		29 = { "Dai-%d Bakufu Kibei Shidan" }
+		30 = { "Dai-%d Bakufu Kibei Shidan" }
+	}
+}

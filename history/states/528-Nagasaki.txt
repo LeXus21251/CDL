@@ -5,20 +5,19 @@ state={
 	manpower = 6904825
 	state_category = city
 	resources={
-		lead=52 # was: 88
+		food = 18
 	}
 
 	history={
 		owner = TOK
 		add_core_of = TOK
 		buildings = {
-			infrastructure = 4 #was: 7
-			air_base = 3
-			dockyard = 4
+			infrastructure = 2
+			dockyard = 2
 			arms_factory = 1
 			industrial_complex = 2
 			9950 = {
-				naval_base = 6
+				naval_base = 5
 
 			}
 
