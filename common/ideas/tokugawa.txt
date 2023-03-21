@@ -112,6 +112,10 @@ ideas = {
 				industrial_capacity_factory = 0.1
 				production_factory_start_efficiency_factor = 0.05
 			}
+			targeted_modifier = {
+				tag = HOL
+				cic_to_target_factor = 0.05
+			}
 		}
 
 	}

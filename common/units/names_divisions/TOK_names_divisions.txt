@@ -89,3 +89,49 @@ TOK_regular_cavalry = {
 		30 = { "Dai-%d Bakufu Kibei Shidan" }
 	}
 }
+
+TOK_fudai = {
+	name = "Fudai Shidan"
+
+	for_countries = { TOK }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+
+	fallback_name = "Dai-%d Fudai Shidan"
+
+	ordered = {
+		1 = { "Dai-%d Fudai Shidan" }
+		2 = { "Dai-%d Fudai Shidan" }
+		3 = { "Dai-%d Fudai Shidan" }
+		4 = { "Dai-%d Fudai Shidan" }
+		5 = { "Dai-%d Fudai Shidan" }
+		6 = { "Dai-%d Fudai Shidan" }
+		7 = { "Dai-%d Fudai Shidan" }
+		8 = { "Dai-%d Fudai Shidan" }
+		9 = { "Dai-%d Fudai Shidan" }
+		10 = { "Dai-%d Fudai Shidan" }
+		11 = { "Dai-%d Fudai Shidan" }
+		12 = { "Dai-%d Fudai Shidan" }
+		13 = { "Dai-%d Fudai Shidan" }
+		14 = { "Dai-%d Fudai Shidan" }
+		15 = { "Dai-%d Fudai Shidan" }
+		16 = { "Dai-%d Fudai Shidan" }
+		17 = { "Dai-%d Fudai Shidan" }
+		18 = { "Dai-%d Fudai Shidan" }
+		19 = { "Dai-%d Fudai Shidan" }
+		20 = { "Dai-%d Fudai Shidan" }
+		21 = { "Dai-%d Fudai Shidan" }
+		22 = { "Dai-%d Fudai Shidan" }
+		23 = { "Dai-%d Fudai Shidan" }
+		24 = { "Dai-%d Fudai Shidan" }
+		25 = { "Dai-%d Fudai Shidan" }
+		26 = { "Dai-%d Fudai Shidan" }
+		27 = { "Dai-%d Fudai Shidan" }
+		28 = { "Dai-%d Fudai Shidan" }
+		29 = { "Dai-%d Fudai Shidan" }
+		30 = { "Dai-%d Fudai Shidan" }
+	}
+}

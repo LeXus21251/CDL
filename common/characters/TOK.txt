@@ -22,11 +22,11 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/TOK/Enomoto_Takeaki.dds"
-				small = "gfx/interface/ideas/TOK/TOK_enomoto_takeaki.dds"
+				small = "gfx/interface/ideas/TOK_enomoto_takeaki.dds"
 			}
 		}
 		country_leader={
-			ideology=military_government_subtype
+			ideology=milgov_sub
 			traits={}
 			#desc=TOK_TOKUGAWA_YOSHINOBU_DESC
 			expire="1965.1.1.1"

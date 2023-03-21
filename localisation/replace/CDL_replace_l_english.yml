@@ -1,0 +1,14 @@
+﻿l_english:
+
+### MAIN MENU ###
+  MENU_DISCORD:0 "Join official Champs De Lys discord community server!"
+  MENU_REDDIT:0 "Check out offical Champs De Lys subreddit!"
+
+### CONTINENT ###
+  australia:0 "Pacifica"  
+  australia_adj:0 "Pacifican"
+
+  POLITICS_NOELECTIONS:0 "§tNo Elections§!"
+  POLITICS_NATIONAL_SPIRIT:0 "National Spirits"
+  FE_COUNTRY_SPIRIT:0 "National Spirits"
+  DIPLOMACY_NO_FACTION:0 "§TNo faction§!"

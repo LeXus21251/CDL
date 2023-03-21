@@ -62,24 +62,27 @@ guiTypes = {
 				maxHeight = 40
 				format = left
 			}
-
 			containerWindowType = {
 				name = "faction"
 				position = { x = 238 y = 23}	
 				size = { width = 175 height = 20 }
 				clipping = no
 			
-#				instantTextboxType = {
-#					name = "faction_name"
-#					position = { x = 0 y = 0 }
-#					font = "hoi_16mbs"
-#					text = "faction"
-#					maxWidth = 173
-#					maxHeight = 20
-#					fixedsize = yes		
-#					format = left
-#				}
+			#	instantTextboxType = {
+			#		name = "faction_name"
+			#		position = { x = 0 y = 0 }
+			#		font = "hoi_16mbs"
+			#		text = "faction"
+			#		maxWidth = 173
+			#		maxHeight = 20
+			#		fixedsize = yes		
+			#		format = left
+			#	}
 			}
+			
+
+
+			
 			
 			instantTextboxType = {
 				name = "leader_name"
@@ -295,6 +298,7 @@ guiTypes = {
 						maxWidth = 245
 						maxHeight = 20
 					}
+	
 				}
 
 				containerWindowType = {
@@ -433,7 +437,7 @@ guiTypes = {
 						position = { x = -5 y = 2 }
 						size = { width = 320 height = 68 }
 						slotsize = { width = 60 height = 68 }
-						max_slots = { x = 5 y = 1 }
+						max_slots = { x = 5 y = 9 }
 						format = "UPPER_LEFT"
 					}
 					gridboxtype = {
@@ -750,7 +754,7 @@ guiTypes = {
 			name = "diplomacy_title"
 			position = { x = 45 y = 10 }
 			textureFile = ""
-			font = "hoi_30header"
+			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
 			text = "DIPLOMACY_DIPLOMACY"
 			maxWidth = 360

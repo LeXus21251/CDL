@@ -1,7 +1,6 @@
-TOK_northern_alliance = {
+TOK_itsushi_war_times = {
 	
 	#icon = GFX_decision_cat_TOK_northern_alliance
-	picture = GFX_decision_cat_TOK_northern_alliance
 	priority = 10
 	visible_when_empty = no
 
@@ -10,7 +9,6 @@ TOK_northern_alliance = {
 	}
 
 	visible = {
-		has_completed_focus = TOK_north_remember
 		has_global_flag = itsushi_war_started
 		has_war = yes
 		NOT = {

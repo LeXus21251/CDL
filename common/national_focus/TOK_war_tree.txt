@@ -33,6 +33,13 @@ focus_tree = {
 			set_global_flag = itsushi_war_started
 			hidden_effect = {
 				itsushi_war_script = yes
+				
+			}
+			set_power_balance = {
+				id = TOK_power_balance
+				left_side = TOK_liberal_modernization_side # will keep the last set side if not specified
+				right_side = TOK_conservative_modernization_side # will keep the last set side if not specified
+				set_default = yes # whether or not to reset the power balance to the initial value, default = no
 			}
 			country_event = tokugawa.1
 
@@ -95,7 +102,6 @@ focus_tree = {
 				var = TOK.northern_warriors_var
 				value = 7
 			}
-	
 		}
 	}
 
@@ -407,6 +413,7 @@ focus_tree = {
 		completion_reward = {
 			#moze cos jeszcze
 			custom_effect_tooltip = TOK_dutch_industrial_mission_tt
+			set_country_flag = dutch_industry_collapsed
 			random_owned_controlled_state = {
 				limit = {
 					NOT = {
@@ -469,6 +476,22 @@ focus_tree = {
 		completion_reward = {
 			##decyzje
 			custom_effect_tooltip = TOK_edo_industrial_complex_tt
+			282 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			1057 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -496,13 +519,7 @@ focus_tree = {
     			producer = HOL
 			}
 			
-			TOK = {
-				create_ship = {
-					type = ship_hull_destroyer_1
-					creator = HOL
-					name = "Yamamoto"
-				}
-			}
+			###dodaj jakiś statek
 	
 		}
 	}
@@ -523,6 +540,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			#instant eq i decyzje
+			custom_effect_tooltip = TOK_import_eq_tt
+			set_country_flag = dutch_weapon_collapsed
 			
 		}
 	}
@@ -543,6 +562,38 @@ focus_tree = {
 		}
 		completion_reward = {
 			#licencja i tech bonus
+			HOL = {
+				create_production_license = {
+					target = TOK
+					equipment = {
+						type = infantry_equipment_0
+						version = 0
+						new_prioritised = no
+					}
+					cost_factor = 0
+				}
+
+				create_production_license = {
+					target = TOK
+					equipment = {
+						type = artillery_equipment
+						version = 0
+						new_prioritised = no
+					}
+				}
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = infantry_weapons
+			}
+
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = artillery
+			}
+			
 	
 		}
 	}

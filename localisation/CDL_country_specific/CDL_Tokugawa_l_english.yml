@@ -119,8 +119,8 @@
   tokugawa.2.d:0 "As Dejima has been occupied by [JAP.GetName] forces and we have decided to help the Dutch by providing them a new trading port from which to conduct operations and trade. In the future, there will be an opportunity to develop a network of foreign ports."
 
  ##DECISIONS
-  TOK_northern_alliance:0 "Recruitment in the north"
-  TOK_northern_alliance_desc:0 "Thanks to the loyalty of our northern Daimyōs, we can count on their help in the war against the rebels in the south. The united alliance of the domains of Mutsu, Dewa, Echigo and southern Ezo will support us militarily by sending people to fight in the name of the Shogun. At the same time, Sakai Tadazumi, who is Daimyō of the Shōnai Domain, may become one of the most influential military commanders"
+  TOK_itsushi_war_times:0 "Itsushi War Era"
+  TOK_itsushi_war_times_desc:0 "in these hard times when war has come, we must count on our allies and loyal Daimyōs. we can use the §YŌuetsu Reppan Dōmei§! along with their trained warriors. With our actions, it will become clear what we can afford to do to win this war."
   TOK_recruit_sakai:0 "Recruit Sakai Tadazumi"
   TOK_recruit_from_north:0 "Conscript more warriors from northern Domains"
   TOK_recruit_from_north_desc:0 "[north_warriors_desc]"
@@ -156,11 +156,12 @@
   TOK_itsushi_start_tt:0 "The time of the §RInevitable War§! has come, to battle!" #focus
   TOK_dutch_help_tt:0 "Tightening ties with §Y[HOL.GetName]§! and §YVOC§! (§G+50§! opinion)\nUnlocks §Y'Dutch missions'§! decisions" #focus
   TOK_expel_dutch_tt:0 "This will §Renrage§! §Y[HOL.GetName]§! and §YVOC§! (§R-50§! opinion)" #focus
-  TOK_edo_industrial_complex_tt:0 "Railway system running from §YEdo§! to §YNiigata§!, §YOsaka§! and §YRikuzen§!\nNaval ports in §YNiigata§! and §YSandai§!" #focus
+  TOK_edo_industrial_complex_tt:0 "Allows the expansion of the §YRailway§! network" #focus
   TOK_dutch_industrial_mission_tt:0 "Allows us to receive §YDutch industrial support§!"
   TOK_dutch_military_mission_tt:0 "Allows us to buy §YDutch weapons§!"
   TOK_denshutai_focus_tt:0 "Unlocks elite §YDenshūtai§! infantry units"
   TOK_more_var_warriors_tt:0 "Allows recruitment of additional divisions of warriors from the north"
+  TOK_import_eq_tt:0 "Opens the option to §Gimport weapons§! from the [HOL.GetName]"
 
 
 
@@ -169,6 +170,7 @@
   shikoku_states_tt:0 "Control all states in §YShikoku Region§!"
   southern_honshu_states_tt:0 "Control all states in §YSouthern Honshu Region§!"
   edo_complex_states_tt:0 "Control all states running from §YEdo§! to §YNiigata§!, §YOsaka§! and §YRikuzen§!"
+
 
   ##BOP
    TOK_power_balance:0 "Tokugawa modernization balance of power"

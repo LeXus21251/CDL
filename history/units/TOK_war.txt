@@ -1,30 +1,13 @@
 division_template = {
-	name = "Bakufu Hobei Shidan" 
-	division_names_group = TOK_regular_infantry
+	name = "Fudai Shidan" 
+	division_names_group = TOK_fudai
 	is_locked = yes
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-	}
-}
-
-division_template = {
-	name = "Bakufu Kibei Shidan" 
-	division_names_group = TOK_regular_cavalry
-	is_locked = yes
-
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
 	}
 }
 
@@ -35,7 +18,7 @@ units = {
 			name_order = 1
 		}
 		location = 11908
-		division_template = "Bakufu Hobei Shidan"
+		division_template = "Fudai Shidan"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -46,7 +29,7 @@ units = {
 			name_order = 2
 		}
 		location = 7157
-		division_template = "Bakufu Hobei Shidan"
+		division_template = "Fudai Shidan"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -58,7 +41,7 @@ units = {
 			name_order = 1
 		}
 		location = 4067
-		division_template = "Bakufu Kibei Shidan"
+		division_template = "Fudai Shidan"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 

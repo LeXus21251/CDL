@@ -1,13 +1,9 @@
-TOK_northern_alliance = {
-	
-
+TOK_itsushi_war_times = {
 	TOK_recruit_sakai = {
-
 		fire_only_once = yes
 		allowed = {
 			original_tag = TOK
 		}
-
 		available = {
 			has_completed_focus = TOK_north_remember
 			has_war = yes
@@ -17,7 +13,6 @@ TOK_northern_alliance = {
 			has_political_power > 100
 		}
 		custom_cost_text = decision_cost_CP_30_pp_100
-
 		complete_effect = {
 			recruit_character = TOK_sakai_tadazumi
 			hidden_effect = {
@@ -26,213 +21,98 @@ TOK_northern_alliance = {
 			}
 		}
 		#fire_only_once = yes
-
 	}
-	
-
 	TOK_recruit_from_north = {
-
 		days_remove = 1
 		fixed_random_seed = no
-
 		allowed = {
 			original_tag = TOK
-			
 		}
-
-		
-
-
 		available = {
-			check_variable = { TOK.northern_warriors_var > 0 }
+			check_variable = {
+				TOK.northern_warriors_var > 0
+			}
 			has_completed_focus = TOK_north_remember
 			has_war = yes
 			has_manpower > 10000
-			
-			
 		}
 		custom_cost_trigger = {
 			has_army_experience > 5
 			has_political_power > 50
 		}
 		custom_cost_text = decision_cost_army_xp_5_pp_50
-		
 		visible = {
-			
 		}
 		complete_effect = {
 			TOK_bop_very_high_increase_effect = yes
-
 		}
-
 		complete_effect = {
 			hidden_effect = {
 				army_experience = -5
 				add_political_power = -50
 				add_manpower = -6000
-
 			}
 			subtract_from_variable = {
 				var = TOK.northern_warriors_var
 				value = 1
 			}
 			northern_warriors_script = yes
-			
-	}
-	}
-	
-	TOK_take_back_echigo = {
-
-		fire_only_once = yes
-		allowed = {
-			original_tag = TOK
 		}
-
-		available = {
-			TOK = {
-					controls_state = 534
-			}
-			has_completed_focus = TOK_north_remember
-			has_war = yes
-			
-		}
-
-		complete_effect = {
-			add_to_variable = {
-				var = TOK.northern_warriors_var
-				value = 2
-			}
-			custom_effect_tooltip = TOK_more_var_warriors_tt
-			
-		}
-
 	}
 }
 
 TOK_moving_emperor_operation = {
-
 	TOK_moving_emperor_decision = {
-		activation = {
-			has_completed_focus = TOK_move_emperor
-		}
-		cancel_trigger = {
-			TOK = {
-				NOT = {
-				OR = {
-				has_full_control_of_state = 531
-				has_full_control_of_state = 532
-				}
-			}
-			}
-		}
-
-				is_good = yes
-
-				days_mission_timeout = 60
-				timeout_effect = {
-					TOK = {set_country_flag = emperor_in_edo}
-				}
-	}
-	
-
-	#TOK_move_emperor = {
-#
-	#	
-	#	fire_only_once = yes
-	#	allowed = {
-	#		original_tag = TOK
-	#		has_completed_focus = focus_TOK_move_emperor_to_edo
-	#	}
-#
-	#	days_remove = 60
-	#	available = {
-	#		JAP = { NOT = {has_country_flag = emperor_rescued}}
-	#		TOK = { NOT = {has_completed_focus = focus_TOK_edo_industrial_complex}}
-	#	}
-	#	visible = {
-	#		TOK = { NOT = {has_completed_focus = focus_TOK_edo_industrial_complex}}
-	#	}
-#
-	#	remove_effect = {
-	#		TOK = {set_country_flag = emperor_in_edo}
-	#		}
-	#	
-#
-	#}
-	TOK_moving_emperor_decision2 = {
-
-		
-		fire_only_once = yes
-		allowed = {
-			original_tag = TOK
-			has_completed_focus = TOK_move_emperor
-		}
-
-		days_remove = 30
-		available = {
-			JAP = { NOT = {has_country_flag = emperor_rescued}}
-			TOK = {has_completed_focus = TOK_edo_industrial_complex}
-		}
-		visible = {
-			TOK = {has_completed_focus = TOK_edo_industrial_complex}
-		}
-
-		remove_effect = {
-			TOK = {set_country_flag = emperor_in_edo}
-			}
-		
-
 	}
 }
 
 TOK_dutch_missions = {
-
 	TOK_dutch_port_setup = {
-
 		fire_only_once = yes
 		visible = {
 			original_tag = TOK
 			limit = {
 				NOT = {
-				OR = {
-					has_global_flag = dutch_port_in_edo
-					has_global_flag = dutch_port_in_hakodate
+					OR = {
+						has_global_flag = dutch_port_in_edo
+						has_global_flag = dutch_port_in_hakodate
+					}
 				}
 			}
-			}
 		}
-
 		complete_effect = {
 			country_event = tokugawa.2
 		}
 	}
-
-
-	TOK_dutch_industrial_help = {
-
-		fixed_random_seed = no
-
-
+	TOK_dutch_industrial_project_expand = {
 		allowed = {
 			has_war = yes
 		}
 		visible = {
 			original_tag = TOK
 			has_completed_focus = TOK_dutch_industrial_mission
+			has_country_flag = dutch_industry_collapsed
 		}
-
-		days_remove = 15
-
-		remove_effect = {
-			TOK_dutch_industrial_help_list = yes 
+		complete_effect = {
+			set_country_flag = dutch_industry_expanded
+			clr_country_flag = dutch_industry_collapsed
 		}
-
 	}
-
+	TOK_dutch_industrial_project_collapse = {
+		allowed = {
+			has_war = yes
+		}
+		visible = {
+			original_tag = TOK
+			has_completed_focus = TOK_dutch_industrial_mission
+			has_country_flag = dutch_industry_expanded
+		}
+		complete_effect = {
+			set_country_flag = dutch_industry_collapsed
+			clr_country_flag = dutch_industry_expanded
+		}
+	}
 	TOK_dutch_weapon_market_expand = {
-
-		fixed_random_seed = no
-
 		allowed = {
 			has_war = yes
 		}
@@ -241,18 +121,12 @@ TOK_dutch_missions = {
 			has_completed_focus = TOK_import_western_eq
 			has_country_flag = dutch_weapon_collapsed
 		}
-
 		complete_effect = {
 			set_country_flag = dutch_weapon_expanded
 			clr_country_flag = dutch_weapon_collapsed
 		}
-
 	}
-
 	TOK_dutch_weapon_market_collapse = {
-
-		fixed_random_seed = no
-
 		allowed = {
 			has_war = yes
 		}
@@ -261,18 +135,13 @@ TOK_dutch_missions = {
 			has_completed_focus = TOK_import_western_eq
 			has_country_flag = dutch_weapon_expanded
 		}
-
 		complete_effect = {
 			set_country_flag = dutch_weapon_collapsed
 			clr_country_flag = dutch_weapon_expanded
-
+		}
 	}
-}
-
 	TOK_dutch_weapon_market_rifles = {
-
 		fixed_random_seed = no
-
 		allowed = {
 			has_war = yes
 		}
@@ -285,7 +154,6 @@ TOK_dutch_missions = {
 			has_completed_focus = TOK_dutch_military_mission
 			has_country_flag = dutch_weapon_expanded
 		}
-
 		complete_effect = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
@@ -295,14 +163,10 @@ TOK_dutch_missions = {
 			hidden_effect = {
 				add_political_power = -50
 			}
-
 		}
 	}
-
 	TOK_dutch_weapon_market_artillery = {
-	
 		fixed_random_seed = no
-	
 		allowed = {
 			has_war = yes
 		}
@@ -315,7 +179,6 @@ TOK_dutch_missions = {
 			has_completed_focus = TOK_dutch_military_mission
 			has_country_flag = dutch_weapon_expanded
 		}
-	
 		complete_effect = {
 			add_equipment_to_stockpile = {
 				type = artillery_equipment
@@ -325,8 +188,6 @@ TOK_dutch_missions = {
 			hidden_effect = {
 				add_political_power = -50
 			}
-		
 		}
 	}
 }
-
