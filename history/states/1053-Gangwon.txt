@@ -10,8 +10,8 @@ state={
 		add_core_of = KOR
 
 	}
-	manpower=1
-	state_category = wasteland
+	manpower=543882
+	state_category = rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

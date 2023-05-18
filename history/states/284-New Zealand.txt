@@ -2,9 +2,9 @@
 state={
 	id=284
 	name="STATE_284" # North Island
-	manpower = 899836
+	manpower = 789273
 	
-	state_category = city
+	state_category = town
 	
 	history={
 		owner = NZL

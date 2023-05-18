@@ -1,9 +1,9 @@
 state= {
 	id=623
 	name="STATE_623"
-	manpower = 2010656
+	manpower = 1673628
 	
-	state_category = city
+	state_category = rural
 	
 	resources={
 		rubber=1 # was: 2
