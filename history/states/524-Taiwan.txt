@@ -2,9 +2,9 @@ state=
 {
 	id=524
 	name="STATE_524"
-	manpower = 4592537
+	manpower = 3027618
 	
-	state_category = large_town
+	state_category = rural
 	history=
 	{
 		owner = QIN

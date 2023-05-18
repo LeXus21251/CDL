@@ -4,9 +4,9 @@ state={
 	provinces={
 		1999 2067 7294 10726 10841 12141 12819 
 	}
-	manpower=300000
+	manpower=1098372
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 	history={
 		owner = QIN
 		add_core_of = QIN

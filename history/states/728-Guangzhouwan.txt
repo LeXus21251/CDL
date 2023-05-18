@@ -1,9 +1,9 @@
 state={
 	id=728
 	name="STATE_728"
-	manpower = 200000
+	manpower = 127384
 	
-	state_category = wasteland
+	state_category = town
 	
 	history={
 		owner = QIN
