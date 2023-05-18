@@ -2,9 +2,9 @@
 state={
 	id=281
 	name="STATE_281"
-	manpower=79300
+	manpower=62771
 	
-	state_category = wasteland
+	state_category = small_island
 
 	history={
 		owner = VOC

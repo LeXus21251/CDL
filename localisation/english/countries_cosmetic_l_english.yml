@@ -1,14 +1,14 @@
 ﻿l_english:
  
 
-  ENG_unified_lib: "United Republic"
-  ENG_unified_lib_ADJ: "Republican"
-  ENG_unified_lib_DEF: "the United Republic"
+  ENG_unified_lib: "United British Republic"
+  ENG_unified_lib_ADJ: "British"
+  ENG_unified_lib_DEF: "the United British Republic"
 
-  HOL_unified: "United Provinces"
-  HOL_unified_lib: "United Provinces"
+  HOL_unified: "United Provinces of the Netherlands"
+  HOL_unified_lib: "United Provinces of the Netherlands"
   HOL_unified_lib_ADJ: "Dutch"
-  HOL_unified_lib_DEF: "the United Provinces"
+  HOL_unified_lib_DEF: "the United Provinces of the Netherlands"
 
   SIC_two_sicilies: "Two Sicilies"
   SIC_two_sicilies_ADJ: "Sicilian"
@@ -57,8 +57,8 @@
   BUK_RUS_abs_DEF: "Khanate of Bukhara"
   DJI_RUS: "Governorate of Obock"
   DJI_RUS_DEF: "the Governorate of Obock"
-  ALA_RUS: "Novorossiya"
-  ALA_RUS_DEF: "the Novorossiya"
+  ALA_RUS: "Colony of Russian America"
+  ALA_RUS_DEF: "the Colony of Russian America"
 
   GER_unified_hanover: "United Kingdom of Germany"
   GER_unified_hanover_DEF: "the United Kingdom of Germany"
@@ -193,6 +193,8 @@
   NMB_ENG_DEF: "the British Southwest Africa"
   UGA_ENG: "British Protectorates of Uganda"
   UGA_ENG_DEF: "the British Protectorates of Uganda"
+  SOM_ENG: "British Federated States of Somalia"
+  SOM_ENG_DEF: "the British Federated States of Somalia"
 
   JAC_rebellion: "Tenri-Kyō Rebellion"
   JAC_rebellion_DEF: "the Tenri-Kyō Rebellion"
@@ -210,6 +212,10 @@
   MEX_SPR_DEF: "the Viceroyalty of New Spain"
   COL_SPR: "Viceroyalty of New Granada"
   COL_SPR_DEF: "the Viceroyalty of New Granada"
+  CMR_SPR: "Spanish Guinea"
+  CMR_SPR_DEF: "the Spanish Guinea"
+  CAR_SPR: "Spanish Equatorial Africa"
+  CAR_SPR_DEF: "the Spanish Equatorial Africa"
 
   NAN_QIN: "Colony of Nánguó"
   NAN_QIN_DEF: "the Colony of Nánguó"

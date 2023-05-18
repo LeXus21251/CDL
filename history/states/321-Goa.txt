@@ -2,9 +2,9 @@
 state={
 	id=321
 	name="STATE_321"
-	manpower = 533952
+	manpower = 687263
 
-	state_category = wasteland
+	state_category = city
 
 	history={
 		owner = PEI
