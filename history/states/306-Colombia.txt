@@ -2,9 +2,9 @@
 state={
 	id=306
 	name="STATE_306" # Cundinamarca
-	manpower = 4953049
+	manpower = 2516374
 	
-	state_category = city
+	state_category = town
 	
 	history={
 		owner = COL

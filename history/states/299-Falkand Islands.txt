@@ -1,9 +1,9 @@
 state= {
 	id=299
 	name="STATE_299"
-	manpower=2463
+	manpower=1782
 	
-	state_category = wasteland
+	state_category = small_island
 	
 	history= 	{
 		owner = PAT

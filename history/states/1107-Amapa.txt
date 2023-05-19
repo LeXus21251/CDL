@@ -9,8 +9,8 @@ state={
 		add_core_of = CAY
 
 	}
-	manpower=1
-	state_category = wasteland
+	manpower=417283
+	state_category = pastoral
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

@@ -10,8 +10,8 @@ state={
 		add_core_of = ARG
 
 	}
-	manpower=1
-	state_category = wasteland
+	manpower=rural
+	state_category = 265162
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
