@@ -2,9 +2,9 @@
 state={
 	id=251
 	name="STATE_251"
-	manpower = 1391819
+	manpower = 1437283
 	
-	state_category = town
+	state_category = large_town
 
 	history={
 		owner = RUS

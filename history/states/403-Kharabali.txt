@@ -2,9 +2,9 @@
 state={
 	id=403
 	name="STATE_403" # Tyumen
-	manpower = 939067
+	manpower = 947734
 	
-	state_category = rural
+	state_category = town
 
 	history={
 		owner = RUS

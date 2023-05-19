@@ -8,14 +8,14 @@ state={
 	history={
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
+			industrial_complex = 1
 		}
 		owner = TOK
 		add_core_of = TOK
 
 	}
 	manpower=2276263
-	state_category = town
+	state_category = rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

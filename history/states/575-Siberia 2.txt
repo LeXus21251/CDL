@@ -2,9 +2,9 @@
 state={
 	id=575
 	name="STATE_575" # Kirensk
-	manpower = 146494
+	manpower = 78273
 	
-	state_category = wasteland
+	state_category = pastoral
 
 	history={
 		owner = RUS

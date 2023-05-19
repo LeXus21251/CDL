@@ -2,9 +2,9 @@
 state={
 	id=576
 	name="STATE_576" # Yeniseisk
-	manpower = 117195
+	manpower = 76283
 	
-	state_category = wasteland
+	state_category = pastoral
 
 	history={
 		owner = RUS

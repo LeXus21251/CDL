@@ -4,7 +4,7 @@ state=
 	name="STATE_524"
 	manpower = 3027618
 	
-	state_category = rural
+	state_category = town
 	history=
 	{
 		owner = QIN

@@ -20,9 +20,9 @@ state = {
 	provinces = {
 		13204 13254
 	}
-	manpower = 30000
+	manpower = 21823
 	buildings_max_level_factor = 1
-	state_category = "pastoral"
+	state_category = "wasteland"
 
 	local_supplies = 0.0 
 }

@@ -2,9 +2,9 @@
 state = {
 	id = 879
 	name = "STATE_879" # Kargopol
-	manpower = 210177
+	manpower = 27364
 	
-	state_category = rural
+	state_category = pastoral
 
 	history = {
 		owner = RUS

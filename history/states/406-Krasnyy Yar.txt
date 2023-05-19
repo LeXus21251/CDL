@@ -2,9 +2,9 @@
 state={
 	id=406
 	name="STATE_406" # Gurev
-	manpower = 146494
+	manpower = 129034
 	
-	state_category = wasteland
+	state_category = rural
 
 	history={
 		owner = RUS
