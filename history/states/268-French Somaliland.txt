@@ -1,10 +1,10 @@
 state={
 	id=268
 	name="STATE_268"
-	manpower = 85232
+	manpower = 75627
 
 
-	state_category = wasteland
+	state_category = pastoral
 
 	history={
 		owner = DJI

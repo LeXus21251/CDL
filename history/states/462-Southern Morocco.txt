@@ -2,9 +2,9 @@
 state={
 	id=462
 	name="STATE_462"
-	manpower = 1865552
+	manpower = 2182762
 	
-	state_category = wasteland
+	state_category = pastoral
 
 	history={
 		owner = MOR

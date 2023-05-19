@@ -9,7 +9,7 @@ state={
 		add_core_of = MOR
 
 	}
-	manpower=1
+	manpower=4253
 	state_category = wasteland
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

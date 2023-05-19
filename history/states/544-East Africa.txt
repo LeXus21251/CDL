@@ -2,7 +2,7 @@
 state={
 	id=544
 	name="STATE_544"
-	manpower = 1226000
+	manpower = 783748
 	history={
 		owner = MZB
 		buildings = {

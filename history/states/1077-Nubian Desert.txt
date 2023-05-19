@@ -9,7 +9,7 @@ state={
 		add_core_of = EGY
 
 	}
-	manpower=1
+	manpower=2871
 	state_category = wasteland
 	buildings_max_level_factor=1.000
 	impassable = yes

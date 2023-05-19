@@ -2,9 +2,9 @@
 state={
 	id=450
 	name="STATE_450"
-	manpower = 82535
+	manpower = 67837
 	
-	state_category = wasteland
+	state_category = pastoral
 
 	history={
 		owner = TRP

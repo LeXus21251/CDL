@@ -6,9 +6,9 @@ state={
 		lead=12.000 #added due to portugal setup
 	}
 
-	manpower = 3197719
+	manpower = 3289387
 	
-	state_category = rural
+	state_category = town
 	
 	history={
 		owner = MOR

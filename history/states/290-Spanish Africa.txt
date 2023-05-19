@@ -2,10 +2,10 @@
 state={
 	id=290
 	name="STATE_290"
-	manpower = 744000
+	manpower = 787263
 	
 	
-	state_category = rural
+	state_category = town
 	
 	resources={
 		steel=23 # was: 20 . Changed to 23 (from 15) due to Portugal Setup
