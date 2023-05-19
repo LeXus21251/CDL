@@ -2,12 +2,13 @@
 state={
 	id=352
 	name="STATE_352" # Van
-	manpower = 262095
+	manpower = 527382
 
 	state_category = rural
 
 	history={
 		owner = TUR
+		add_core_of = TUR
 		victory_points = {
 			12476 1 
 		}
