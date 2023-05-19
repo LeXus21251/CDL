@@ -2,8 +2,8 @@
 state={
 	id=395
 	name="STATE_395"
-	manpower = 7630651
-	state_category = megalopolis
+	manpower = 377283
+	state_category = rural
 
 	history={
 		owner = QUE

@@ -2,7 +2,7 @@ state={
 	id=332
 	name="STATE_332"
 	
-	state_category = wasteland
+	state_category = pastoral
 
 	history={
 		owner = QUE
@@ -20,7 +20,7 @@ state={
 	provinces={
 		1426 1785 4720 4787 12503 13165 13180 
 	}
-	manpower=22179
+	manpower=11672
 	buildings_max_level_factor=1.000
 
 	local_supplies=0.0 

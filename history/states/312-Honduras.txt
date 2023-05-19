@@ -2,12 +2,12 @@ state=
 {
 	id=312
 	name="STATE_312"
-	manpower=859761
+	manpower=593838
 	resources={
 		lead=1 # was: 1
 	}
 	
-	state_category = town
+	state_category = rural
 	history=
 	{
 		owner = MEX

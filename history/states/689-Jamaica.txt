@@ -1,9 +1,9 @@
 state={
 	id=689
 	name="STATE_689"
-	manpower = 1075000
+	manpower = 737884
 	
-	state_category = town
+	state_category = rural
 
 	history={
 		add_core_of = MEX

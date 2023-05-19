@@ -2,9 +2,9 @@
 state={
 	id=392
 	name="STATE_392"
-	manpower = 2470938
+	manpower = 126738
 	
-	state_category = city
+	state_category = pastoral
 
 	history={
 		owner = LOU
