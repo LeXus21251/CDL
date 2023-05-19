@@ -11,8 +11,8 @@ state={
 		add_core_of = SCO
 
 	}
-	manpower=1
-	state_category = wasteland
+	manpower=34823
+	state_category = pastoral
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
