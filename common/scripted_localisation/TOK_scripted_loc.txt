@@ -1,13 +1,61 @@
  defined_text = {
-	name = north_warriors_desc
+	name = ezo_warriors_desc
 
 	text = {
 		trigger = {
-			check_variable = { TOK.northern_warriors_var > 0 }
+			OR = {
+			check_variable = { TOK.northern_warriors_ezo_var > 0 }
+			}
 		}
-		localization_key = north_warriors_can_recruit
+		localization_key = ezo_warriors_can_recruit
 	}
 		text = {
 			localization_key = north_warriors_cannot_recruit
 		}
+}
+
+defined_text = {
+	name = mutsu_warriors_desc
+
+	text = {
+		trigger = {
+			OR = {
+			check_variable = { TOK.northern_warriors_mutsu_var > 0 }
+			}
+		}
+		localization_key = mutsu_warriors_can_recruit
 	}
+		text = {
+			localization_key = north_warriors_cannot_recruit
+		}
+}
+defined_text = {
+	name = dewa_warriors_desc
+
+	text = {
+		trigger = {
+			OR = {
+			check_variable = { TOK.northern_warriors_dewa_var > 0 }
+			}
+		}
+		localization_key = dewa_warriors_can_recruit
+	}
+		text = {
+			localization_key = north_warriors_cannot_recruit
+		}
+}
+defined_text = {
+	name = echigo_warriors_desc
+
+	text = {
+		trigger = {
+			OR = {
+			check_variable = { TOK.northern_warriors_echigo_var > 0 }
+			}
+		}
+		localization_key = echigo_warriors_can_recruit
+	}
+		text = {
+			localization_key = north_warriors_cannot_recruit
+		}
+}

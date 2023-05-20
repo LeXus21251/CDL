@@ -99,8 +99,20 @@ focus_tree = {
 			
 			custom_effect_tooltip = TOK_north_remember_tt
 			set_variable = {
-				var = TOK.northern_warriors_var
-				value = 7
+				var = TOK.northern_warriors_ezo_var
+				value = 1
+			}
+			set_variable = {
+				var = TOK.northern_warriors_mutsu_var
+				value = 4
+			}
+			set_variable = {
+				var = TOK.northern_warriors_dewa_var
+				value = 2
+			}
+			set_variable = {
+				var = TOK.northern_warriors_echigo_var
+				value = 3
 			}
 		}
 	}

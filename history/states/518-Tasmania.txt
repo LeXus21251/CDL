@@ -9,9 +9,7 @@ state=
 	history=
 	{
 		owner = VOC
-		victory_points = {
-			2189 1 
-		}
+		victory_points = {2189 5 }
 		buildings = {
 			infrastructure = 3 #was: 5
 			2189 = {

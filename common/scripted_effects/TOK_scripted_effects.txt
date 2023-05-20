@@ -205,88 +205,66 @@ domain_loyalty = {
 	}
 }
 
-northern_warriors_script = {
+northern_warriors_ezo_script = {
 	TOK = {
-		random_list = {
-			1 = { 
-				if ={
-					limit = {
-					TOK = {
-						NOT = {
-							controls_state = 534
-						}
-					}
-				}
-					TOK = {
-						random_owned_controlled_state = {
-							limit = {
-								state = 1057
-							}
-							create_unit = { 
-								division = "name = \"Echigo no Bushi\" division_template = \"Daimyō Gundan\" start_experience_factor = 0.3" 
-									owner = ROOT
-								}
-							}
-		
-						}
-				}
-				else = {
-					TOK = {
-						random_state = {
-							limit = { 
-								state = 534
-							}
-							create_unit = { 
-								division = "name = \"Echigo no Bushi\" division_template = \"Daimyō Gundan\" start_experience_factor = 0.3" 
-									owner = ROOT
-							}
-						}
-		
-					}
-				}
+		random_owned_controlled_state = {
+			limit = {
+				state = 536
 			}
-	
-			1 = {
-				TOK = {
-					random_owned_controlled_state = {
-						limit = {
-							state = 533
-						}
-						create_unit = { 
-							division = "name = \"Mutsu no Bushi\" division_template = \"Daimyō Gundan\" start_experience_factor = 0.3" 
-								owner = ROOT
-							}
-					}
+			create_unit = { 
+				division = "name = \"Ezo no Bushi\" division_template = \"Daimyō Gundan\" start_experience_factor = 0.3" 
+					owner = ROOT
+					prioritize_location = 3962
+					prioritize_location = 10444
 				}
-			}
-			1 = {
-				TOK = {
-					random_owned_controlled_state = {
-						limit = {
-							state = 1056
-						}
-						create_unit = { 
-							division = "name = \"Dewa no Bushi\" division_template = \"Daimyō Gundan\" start_experience_factor = 0.3" 
-								owner = ROOT
-							}
-					}
-				}
-			}
-			1 = {
-				TOK = {
-					random_owned_controlled_state = {
-						limit = {
-							state = 536
-						}
-						create_unit = { 
-							division = "name = \"Ezo no Bushi\" division_template = \"Daimyō Gundan\" start_experience_factor = 0.3" 
-								owner = ROOT
-								prioritize_location = 3962
-								prioritize_location = 10444
-							}
-					}
-				}
-			}
 		}
 	}
+
+}
+
+northern_warriors_mutsu_script = {
+	TOK = {
+		random_owned_controlled_state = {
+			limit = {
+				state = 533
+			}
+			create_unit = { 
+				division = "name = \"Mutsu no Bushi\" division_template = \"Daimyō Gundan\" start_experience_factor = 0.3" 
+					owner = ROOT
+				}
+		}
+	}
+
+}
+
+northern_warriors_dewa_script = {
+	TOK = {
+		random_owned_controlled_state = {
+			limit = {
+				state = 1056
+			}
+			create_unit = { 
+				division = "name = \"Dewa no Bushi\" division_template = \"Daimyō Gundan\" start_experience_factor = 0.3" 
+					owner = ROOT
+				}
+		}
+	}
+
+}
+
+
+northern_warriors_echigo_script = {
+	TOK = {
+		random_state = {
+			limit = { 
+				state = 534
+			}
+			create_unit = { 
+				division = "name = \"Echigo no Bushi\" division_template = \"Daimyō Gundan\" start_experience_factor = 0.3" 
+					owner = ROOT
+			}
+		}
+
+	}
+
 }

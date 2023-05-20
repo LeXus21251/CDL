@@ -20,10 +20,10 @@ state={
 
 		}
 		victory_points = {
-			7564 15 
+			7564 10
 		}
 		victory_points = {
-			7566 1 
+			10475 3
 		}
 		add_core_of = AST
 
@@ -34,6 +34,6 @@ state={
 	}
 	manpower=387221
 	buildings_max_level_factor=1.000
-	state_category=village
+	state_category=town
 	local_supplies=0.000
 }

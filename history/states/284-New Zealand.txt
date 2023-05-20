@@ -20,12 +20,8 @@ state={
 				naval_base = 2
 			}
 		}
-		victory_points = {
-			1814 10
-		}
-		victory_points = {
-			4543 5 
-		}
+		victory_points = {1814 25}
+		victory_points = {4543 15}
 		add_core_of = NZL
 	}
 

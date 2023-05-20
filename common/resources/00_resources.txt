@@ -29,15 +29,21 @@ resources = {
 		cic = 0.125
 		convoys = 0.1
 	}
+
+	rare_metals = {
+		icon_frame = 6
+		cic = 0.125
+		convoys = 0.1
+	}
 	
 	fabrics = {
-		icon_frame = 6
+		icon_frame = 7
 		cic = 0.125
 		convoys = 0.1
 	}
 
 	food = {
-		icon_frame = 7
+		icon_frame = 8
 		cic = 0.125
 		convoys = 0.1
 	}

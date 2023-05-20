@@ -18,12 +18,8 @@ state={
 				naval_base = 1
 			}
 		}
-		victory_points = {
-			2197 1 
-		}
-		victory_points = {
-			2211 1 
-		}
+		victory_points = {12632 10}
+		victory_points = {2197 5}
 		add_core_of = NZL
 	}
 	provinces={

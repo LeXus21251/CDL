@@ -8,6 +8,9 @@ state={
 			infrastructure = 1
 
 		}
+		victory_points = {8152 1}
+		victory_points = {8209 3}
+		victory_points = {12326 15}
 		owner = OZZ
 		add_core_of = OZZ
 

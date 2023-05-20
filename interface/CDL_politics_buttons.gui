@@ -10,11 +10,6 @@ guiTypes = {
 			quadTextureSprite = "GFX_leaders_button"
 		}
 
-		buttonType = {
-			name = "cultures_button"
-			position = { x = 68 y = 0 }
-			quadTextureSprite = "GFX_cultures_button"
-		}
 
 		
 	}

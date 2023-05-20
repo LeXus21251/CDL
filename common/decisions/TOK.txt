@@ -22,7 +22,18 @@ TOK_itsushi_war_times = {
 		}
 		#fire_only_once = yes
 	}
-	TOK_recruit_from_north = {
+	TOK_conscript_start_warriors = {
+		fire_only_once = yes
+		available = {
+			has_completed_focus = TOK_north_remember
+			has_war = yes
+		}
+		complete_effect = {
+			set_country_flag = north_recruitment_started
+		}
+
+	}
+	TOK_recruit_from_north_ezo = {
 		days_remove = 1
 		fixed_random_seed = no
 		allowed = {
@@ -30,11 +41,13 @@ TOK_itsushi_war_times = {
 		}
 		available = {
 			check_variable = {
-				TOK.northern_warriors_var > 0
+				TOK.northern_warriors_ezo_var > 0
 			}
+			has_country_flag = north_recruitment_started
 			has_completed_focus = TOK_north_remember
 			has_war = yes
 			has_manpower > 10000
+			controls_state = 536
 		}
 		custom_cost_trigger = {
 			has_army_experience > 5
@@ -44,7 +57,40 @@ TOK_itsushi_war_times = {
 		visible = {
 		}
 		complete_effect = {
-			TOK_bop_very_high_increase_effect = yes
+			hidden_effect = {
+				army_experience = -5
+				add_political_power = -50
+				add_manpower = -6000
+			}
+			subtract_from_variable = {
+				var = TOK.northern_warriors_ezo_var
+				value = 1
+			}
+			northern_warriors_ezo_script = yes
+		}
+	}
+	TOK_recruit_from_north_mutsu = {
+		days_remove = 1
+		fixed_random_seed = no
+		allowed = {
+			original_tag = TOK
+		}
+		available = {
+			check_variable = {
+				TOK.northern_warriors_mutsu_var > 0
+			}
+			has_country_flag = north_recruitment_started
+			has_completed_focus = TOK_north_remember
+			has_war = yes
+			has_manpower > 10000
+			controls_state = 533
+		}
+		custom_cost_trigger = {
+			has_army_experience > 5
+			has_political_power > 50
+		}
+		custom_cost_text = decision_cost_army_xp_5_pp_50
+		visible = {
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -53,10 +99,82 @@ TOK_itsushi_war_times = {
 				add_manpower = -6000
 			}
 			subtract_from_variable = {
-				var = TOK.northern_warriors_var
+				var = TOK.northern_warriors_mutsu_var
 				value = 1
 			}
-			northern_warriors_script = yes
+			northern_warriors_mutsu_script = yes
+		}
+	}
+	TOK_recruit_from_north_dewa = {
+		days_remove = 1
+		fixed_random_seed = no
+		allowed = {
+			original_tag = TOK
+		}
+		available = {
+			check_variable = {
+				TOK.northern_warriors_dewa_var > 0
+			}
+			has_country_flag = north_recruitment_started
+			has_completed_focus = TOK_north_remember
+			has_war = yes
+			has_manpower > 10000
+			controls_state = 1056
+		}
+		custom_cost_trigger = {
+			has_army_experience > 5
+			has_political_power > 50
+		}
+		custom_cost_text = decision_cost_army_xp_5_pp_50
+		visible = {
+		}
+		complete_effect = {
+			hidden_effect = {
+				army_experience = -5
+				add_political_power = -50
+				add_manpower = -6000
+			}
+			subtract_from_variable = {
+				var = TOK.northern_warriors_dewa_var
+				value = 1
+			}
+			northern_warriors_dewa_script = yes
+		}
+	}
+	TOK_recruit_from_north_echigo = {
+		days_remove = 1
+		fixed_random_seed = no
+		allowed = {
+			original_tag = TOK
+		}
+		available = {
+			check_variable = {
+				TOK.northern_warriors_echigo_var > 0
+			}
+			has_country_flag = north_recruitment_started
+			has_completed_focus = TOK_north_remember
+			has_war = yes
+			has_manpower > 10000
+			controls_state = 534
+		}
+		custom_cost_trigger = {
+			has_army_experience > 5
+			has_political_power > 50
+		}
+		custom_cost_text = decision_cost_army_xp_5_pp_50
+		visible = {
+		}
+		complete_effect = {
+			hidden_effect = {
+				army_experience = -5
+				add_political_power = -50
+				add_manpower = -6000
+			}
+			subtract_from_variable = {
+				var = TOK.northern_warriors_echigo_var
+				value = 1
+			}
+			northern_warriors_echigo_script = yes
 		}
 	}
 }

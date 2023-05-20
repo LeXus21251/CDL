@@ -9,6 +9,8 @@ state={
 			infrastructure = 2
 
 		}
+		victory_points = {12323 1}
+		victory_points = {1540 3}
 		add_core_of = OZZ
 
 	}
