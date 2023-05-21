@@ -3,9 +3,7 @@
 
 	text = {
 		trigger = {
-			OR = {
 			check_variable = { TOK.northern_warriors_ezo_var > 0 }
-			}
 		}
 		localization_key = ezo_warriors_can_recruit
 	}
@@ -19,9 +17,7 @@ defined_text = {
 
 	text = {
 		trigger = {
-			OR = {
 			check_variable = { TOK.northern_warriors_mutsu_var > 0 }
-			}
 		}
 		localization_key = mutsu_warriors_can_recruit
 	}
@@ -34,9 +30,7 @@ defined_text = {
 
 	text = {
 		trigger = {
-			OR = {
 			check_variable = { TOK.northern_warriors_dewa_var > 0 }
-			}
 		}
 		localization_key = dewa_warriors_can_recruit
 	}
@@ -49,9 +43,7 @@ defined_text = {
 
 	text = {
 		trigger = {
-			OR = {
 			check_variable = { TOK.northern_warriors_echigo_var > 0 }
-			}
 		}
 		localization_key = echigo_warriors_can_recruit
 	}

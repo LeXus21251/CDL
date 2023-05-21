@@ -579,13 +579,13 @@ containerWindowType = {
 		iconType = {
 			name = "icon_exiled_collaborations_governments"
 			spriteType = "GFX_icon_exiled_governments"
-			position = { x = 12 y = 431 }
+			position = { x = 17 y = 431 }
 		}
 
 		iconType = {
 			name = "icon_occupied_territories"
 			spriteType = "GFX_icon_occupied_territories"
-			position = { x = 12 y = 391 }
+			position = { x = 16 y = 391 }
 		}
 	}
 	

@@ -137,12 +137,7 @@
   mutsu_warriors_can_recruit: "Reach for the loyal Mutsu soldiers \n§WYou can recruit [?TOK.northern_warriors_mutsu_var|.0Y] more divisions§!"
   dewa_warriors_can_recruit: "Reach for the loyal Dewa soldiers \n§WYou can recruit [?TOK.northern_warriors_dewa_var|.0Y] more divisions§!"
   echigo_warriors_can_recruit: "Reach for the loyal Echigo soldiers \n§WYou can recruit [?TOK.northern_warriors_echigo_var|.0Y] more divisions§!"
-  north_warriors_cannot_recruit: "Our allies in the northern part of the country can help us with their warriors to restore order and the glory of the Shogun \n§WYou §Rcannot§! recruit more divisions§!"
-
-
-
-
-  TOK_take_back_echigo:0 "Take back Echigo"
+  north_warriors_cannot_recruit: "Even loyal Daimyos has their manpower limit! \n§WYou §Rcannot§! recruit more divisions§!"
 
 
 
@@ -153,13 +148,22 @@
   TOK_moving_emperor2:0 "Moving Emperor to Edo"
 
   TOK_dutch_missions:0 "Dutch Missions in Japan"
+  TOK_dutch_missions_desc:0 "Our cooperation with the Dutch is thriving, their help is crucial in the development of the country as well as opening up to the world. \nIn exchange for funds they can send us weapons or specialists to develop the economy, if they trust us enough they will also throw in something as a bonus. \n\nCurrent amount of §Ycredits§!: [?TOK.dutch_help_credits_var|.0G]"
   TOK_dutch_port_setup:0 "Help setup new Dutch port"
-  TOK_dutch_port_setup_desc:0 "We need to choose the initial place to establish a new port for the Dutch after the loss of the Dejima."
+  TOK_dutch_port_setup_desc:0 "We need to choose the initial place to establish a new port for the Dutch after the loss of the Dejima. \n§OIt will add§! §G2§! §Ycredits§!"
   TOK_dutch_industrial_help:0 "Dutch industrial investment"
   TOK_dutch_weapon_market_expand:0 "Expand market list"
   TOK_dutch_weapon_market_collapse:0 "Collapse market list"
-  TOK_dutch_weapon_market_rifles:0 "Buy [HOL.GetAdjective] rifles"
+  TOK_dutch_weapon_market_rifles:0 "Buy [HOL.GetAdjective] rifles."
+  TOK_dutch_weapon_market_rifles_desc:0 "§OIt will add§! §G1§! §Ycredit§!"
   TOK_dutch_weapon_market_artillery:0 "Buy [HOL.GetAdjective] artillery"
+  TOK_dutch_weapon_market_artillery_desc:0 "§OIt will add§! §G1§! §Ycredit§!"
+
+
+  TOK_dutch_industrial_project_expand:0 "Expand economic development list"
+  TOK_dutch_industrial_project_collapse:0 "Collapse economic development list"
+
+  TOK_dutch_build_sendai_port:0 "Project: Sendai Port"
  ##FLAGS
   itsushi_war_started:0 "§OItsushi War§! has started" #global
  ##TOOLTIPS

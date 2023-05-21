@@ -104,15 +104,15 @@ focus_tree = {
 			}
 			set_variable = {
 				var = TOK.northern_warriors_mutsu_var
-				value = 4
-			}
-			set_variable = {
-				var = TOK.northern_warriors_dewa_var
 				value = 2
 			}
 			set_variable = {
+				var = TOK.northern_warriors_dewa_var
+				value = 1
+			}
+			set_variable = {
 				var = TOK.northern_warriors_echigo_var
-				value = 3
+				value = 2
 			}
 		}
 	}

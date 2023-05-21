@@ -55,9 +55,9 @@
  vo_noun:0 "Volkist"
  vo_desc:0 "Volkism"
 
- mas:0 "Masonism"
- mas_noun:0 "Mason"
- mas_desc:0 "placeholder"
+ mason:0 "Masonism"
+ mason_noun:0 "Mason"
+ mason_desc:0 "placeholder"
  
  
 

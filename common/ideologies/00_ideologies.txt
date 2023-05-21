@@ -480,11 +480,11 @@ voleft = {
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 	
-				mas = {
+				mason = {
 	
 		types = {
 
-			mas_sub = {
+			mason_sub = {
 			}
 
 		}
