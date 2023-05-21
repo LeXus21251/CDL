@@ -1,0 +1,35 @@
+guiTypes = {
+	containerWindowType = {
+		name = "CDL_culture_window"
+		position = { x = 0 y = 0 }
+		size = { width = 50 height= 40 }
+		orientation = UPPER_LEFT
+		clipping = no
+
+
+		instantTextBoxType={
+			name = "CDL_culture_text"
+			font = "hoi_18mbs"
+			position = { x= 15 y = 156 }
+			text = "State Culture"
+			maxWidth = 130
+			maxHeight = 16
+			alwaysTransparent = no
+			format = center
+		}
+
+		iconType = {
+			name = "CDL_culture_flag"
+			position = { x= 35 y = 178 }
+			pdx_tooltip = CDL_culture_tt
+			pdx_tooltip_delayed = CDL_culture_tt_delayed
+		}
+
+		iconType ={
+			name ="CDL_culture_flag_border"
+			quadTextureSprite = "GFX_diplo_countrylist_flag_frame"
+			position = { x= 30 y = 173 }
+			alwaystransparent = yes
+		}
+	}
+}

@@ -1,0 +1,60 @@
+scripted_map_modes = {
+	culture_map_mode = {
+		top = {
+			type = state
+
+			color = {
+				FROM = {
+					set_temp_variable = { alpha = 1.0 }
+					set_temp_variable = { thickness = 10.0 }
+					if = {
+						limit = {
+							check_variable = { culture_id = 1 }
+						}
+						set_temp_variable = { red = 0.537 }
+						set_temp_variable = { green = 0.196 }
+						set_temp_variable = { blue = 0.196 }
+						if = {
+                            limit = {
+                                ROOT = {
+                                    original_tag = ENG
+                                }
+                            }
+                            set_temp_variable = { highlighted = 1.0 }
+                        }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 2 }
+						}
+						set_temp_variable = { red = 0.850 }
+						set_temp_variable = { green = 0.827 }
+						set_temp_variable = { blue = 0.203 }
+					}
+					else = {
+						set_temp_variable = { red = 0.63 }
+						set_temp_variable = { green = 0.63 }
+						set_temp_variable = { blue = 0.63 }
+					}
+				}
+			}
+			thickness = no
+		}
+
+		bottom = {
+			type = none 
+
+			color = {
+				set_temp_variable = { alpha = 0.4 }
+				set_temp_variable = { thickness = 10.0 }
+			}
+
+			thickness = yes
+		}
+
+		far_text = none
+		near_text = none
+
+		update_daily = yes
+	}
+}

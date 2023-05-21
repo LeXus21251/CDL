@@ -184,13 +184,13 @@ guiTypes = {
 			iconType ={
 				name ="population_icon"
 				spriteType = "GFX_population_icon"
-				position = { x = 20 y = 157 }
+				position = { x = 20 y = 220 }
 				Orientation = "UPPER_LEFT"
 			}
 			
 			instantTextboxType = {
 				name = "manpower"
-				position = { x = 64 y = 167 }
+				position = { x = 64 y = 220 }
 				textureFile = ""
 				font = "hoi_18mbs"
 				maxWidth = 80
@@ -200,7 +200,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "resistance_container"
-				position = { x = 20 y = 196}	
+				position = { x = 20 y = 249}	
 				size = { width = 519 height = 100 }
 				
 				iconType ={

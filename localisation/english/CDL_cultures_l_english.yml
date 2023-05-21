@@ -1,0 +1,13 @@
+﻿l_english:
+
+culture_map_mode_tooltip:0 "Dominant culture in this state is §Y[From.CDL_culture_name]§!"
+culture_map_mode_tooltip_delayed:0 "[From.CDL_culture_name_Delayed]"
+
+CDL_culture_tt:0 "State dominant culture is §Y[From.CDL_culture_name]§!"
+
+MAPMODE_CULTURE_MAP_MODE:0 "§YCulture§! map mode"
+MAPMODE_CULTURE_MAP_MODE_NAME:0 "Culture"
+MAPMODE_CULTURE_MAP_MODE_DESCRIPTION:0 "§YCulture:§!"
+
+
+CDL_culture_english_tt:0 "English"

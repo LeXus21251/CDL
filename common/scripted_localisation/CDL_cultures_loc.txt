@@ -1,0 +1,13 @@
+defined_text = { 
+    name = CDL_culture_name
+    
+    # BRITAIN #
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 1 }
+        }
+        localization_key = "CDL_culture_english_tt"
+    }
+   
+}

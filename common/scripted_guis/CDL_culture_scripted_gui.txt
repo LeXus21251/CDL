@@ -1,0 +1,20 @@
+
+scripted_gui = {
+
+
+
+	CDL_culture_state_gui = {
+		window_name = "CDL_culture_window"
+		context_type = selected_state_context
+		parent_window_name = state_info_window
+
+        properties = {
+			CDL_culture_flag = {
+				image = "GFX_CDL_culture_[?culture_id]"
+			}
+		}
+	}
+	
+
+}
+
