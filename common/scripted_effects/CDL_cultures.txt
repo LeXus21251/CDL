@@ -12,7 +12,96 @@ CDL_cultures = {
 	130 = { set_variable = { culture_id = 1 } }
 	132 = { set_variable = { culture_id = 1 } }
 	338 = { set_variable = { culture_id = 1 } }
+	917 = { set_variable = { culture_id = 1 } }
 	918 = { set_variable = { culture_id = 1 } }
+
+	###  Scottish Culture  ###
+
+	121 = { set_variable = { culture_id = 2 } }
+	133 = { set_variable = { culture_id = 2 } }
+	136 = { set_variable = { culture_id = 2 } }
+	915 = { set_variable = { culture_id = 2 } }
+
+	###  Welsh Culture  ###
+
+	122 = { set_variable = { culture_id = 3 } }
+
+	###  Norhumbrian Culture  ###
+
+	131 = { set_variable = { culture_id = 4 } }
+
+	###  Gaelic Culture  ###
+
+	120 = { set_variable = { culture_id = 5 } }
+	916 = { set_variable = { culture_id = 5 } }
+
+	###  Irish Culture  ###
+
+	134 = { set_variable = { culture_id = 6 } }
+	135 = { set_variable = { culture_id = 6 } }
+
+	###  Anglo-Irish Culture  ###
+
+	113 = { set_variable = { culture_id = 7 } }
+	119 = { set_variable = { culture_id = 7 } }
+
+	###  Portuguese Culture  ###
+
+	180 = { set_variable = { culture_id = 8 } }
+	112 = { set_variable = { culture_id = 8 } }
+	181 = { set_variable = { culture_id = 8 } }
+	795 = { set_variable = { culture_id = 8 } }
+	179 = { set_variable = { culture_id = 8 } }
+	909 = { set_variable = { culture_id = 8 } }
+	697 = { set_variable = { culture_id = 8 } }
+	698 = { set_variable = { culture_id = 8 } }
+
+	###  Galician Culture  ###
+
+	171 = { set_variable = { culture_id = 9 } }
+
+	###  Castilian Culture  ###
+
+	788 = { set_variable = { culture_id = 10 } }
+	170 = { set_variable = { culture_id = 10 } }
+	169 = { set_variable = { culture_id = 10 } }
+	118 = { set_variable = { culture_id = 10 } }
+	173 = { set_variable = { culture_id = 10 } }
+	789 = { set_variable = { culture_id = 10 } }
+	175 = { set_variable = { culture_id = 10 } }
+	41 = { set_variable = { culture_id = 10 } }
+	791 = { set_variable = { culture_id = 10 } }
+	176 = { set_variable = { culture_id = 10 } }
+	793 = { set_variable = { culture_id = 10 } }
+	913 = { set_variable = { culture_id = 10 } }
+	168 = { set_variable = { culture_id = 10 } }
+	166 = { set_variable = { culture_id = 10 } }
+	794 = { set_variable = { culture_id = 10 } }
+	910 = { set_variable = { culture_id = 10 } }
+	178 = { set_variable = { culture_id = 10 } }
+
+	###  Catalan Culture  ###
+
+	165 = { set_variable = { culture_id = 11 } }
+	912 = { set_variable = { culture_id = 11 } }
+	167 = { set_variable = { culture_id = 11 } }
+	177 = { set_variable = { culture_id = 11 } }
+	925 = { set_variable = { culture_id = 11 } }
+
+	###  Basque Culture  ###
+
+	172 = { set_variable = { culture_id = 12 } }
+	792 = { set_variable = { culture_id = 12 } }
+	806 = { set_variable = { culture_id = 12 } }
+
+	###  Asturleonese Culture  ###
+
+	790 = { set_variable = { culture_id = 13 } }
+	174 = { set_variable = { culture_id = 13 } }
+
+	###  Aragonian Culture  ###
+
+	911 = { set_variable = { culture_id = 14 } }
 
 
 }

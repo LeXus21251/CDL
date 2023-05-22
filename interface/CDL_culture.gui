@@ -10,7 +10,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "CDL_culture_text"
 			font = "hoi_18mbs"
-			position = { x= 15 y = 156 }
+			position = { x= 15 y = 153 }
 			text = "State Culture"
 			maxWidth = 130
 			maxHeight = 16
@@ -20,7 +20,7 @@ guiTypes = {
 
 		iconType = {
 			name = "CDL_culture_flag"
-			position = { x= 35 y = 178 }
+			position = { x= 35 y = 175 }
 			pdx_tooltip = CDL_culture_tt
 			pdx_tooltip_delayed = CDL_culture_tt_delayed
 		}
@@ -28,7 +28,14 @@ guiTypes = {
 		iconType ={
 			name ="CDL_culture_flag_border"
 			quadTextureSprite = "GFX_diplo_countrylist_flag_frame"
-			position = { x= 30 y = 173 }
+			position = { x= 30 y = 170 }
+			alwaystransparent = yes
+		}
+
+		iconType ={
+			name ="CDL_culture_flag_overlay"
+			quadTextureSprite = "GFX_flag_small2"
+			position = { x= 35 y = 174 }
 			alwaystransparent = yes
 		}
 	}

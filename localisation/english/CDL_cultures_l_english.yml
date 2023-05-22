@@ -1,9 +1,10 @@
 ﻿l_english:
 
 culture_map_mode_tooltip:0 "Dominant culture in this state is §Y[From.CDL_culture_name]§!"
-culture_map_mode_tooltip_delayed:0 "[From.CDL_culture_name_Delayed]"
+culture_map_mode_tooltip_delayed:0 "[From.CDL_culture_name_delayed]"
 
 CDL_culture_tt:0 "State dominant culture is §Y[From.CDL_culture_name]§!"
+CDL_culture_tt_delayed:0 "[From.CDL_culture_name_delayed]"
 
 MAPMODE_CULTURE_MAP_MODE:0 "§YCulture§! map mode"
 MAPMODE_CULTURE_MAP_MODE_NAME:0 "Culture"
@@ -11,3 +12,19 @@ MAPMODE_CULTURE_MAP_MODE_DESCRIPTION:0 "§YCulture:§!"
 
 
 CDL_culture_english_tt:0 "English"
+CDL_culture_scottish_tt:0 "Scottish"
+CDL_culture_welsh_tt:0 "Welsh"
+CDL_culture_northumbrian_tt:0 "Northumbrian"
+CDL_culture_gaelic_tt:0 "Gaelic"
+CDL_culture_irish_tt:0 "Irish"
+CDL_culture_anglo_irish_tt:0 "Anglo-Irish"
+
+CDL_culture_portuguese_tt:0 "Portuguese"
+CDL_culture_galician_tt:0 "Galician"
+CDL_culture_castilian_tt:0 "Castilian"
+CDL_culture_catalan_tt:0 "Catalan"
+CDL_culture_basque_tt:0 "Basque"
+CDL_culture_asturleonese_tt:0 "Asturleonese"
+CDL_culture_aragonian_tt:0 "Aragonian"
+
+CDL_culture_english_tt_delayed:0 "§YEnglish§!"

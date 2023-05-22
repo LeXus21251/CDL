@@ -9,5 +9,116 @@ defined_text = {
         }
         localization_key = "CDL_culture_english_tt"
     }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 2 }
+        }
+        localization_key = "CDL_culture_scottish_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 3 }
+        }
+        localization_key = "CDL_culture_welsh_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 4 }
+        }
+        localization_key = "CDL_culture_northumbrian_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 5 }
+        }
+        localization_key = "CDL_culture_gaelic_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 6 }
+        }
+        localization_key = "CDL_culture_irish_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 7 }
+        }
+        localization_key = "CDL_culture_anglo_irish_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 8 }
+        }
+        localization_key = "CDL_culture_portuguese_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 9 }
+        }
+        localization_key = "CDL_culture_galician_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 10 }
+        }
+        localization_key = "CDL_culture_castilian_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 11 }
+        }
+        localization_key = "CDL_culture_catalan_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 12 }
+        }
+        localization_key = "CDL_culture_basque_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 13 }
+        }
+        localization_key = "CDL_culture_asturleonese_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 14}
+        }
+        localization_key = "CDL_culture_aragonian_tt"
+    }
+
+
+
+
+
+
+    
+
    
+}
+        ### EXPANDED CULTURE ###
+defined_text = {
+    name = CDL_culture_name_delayed 
+    
+    
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 1 }
+        }
+        localization_key = "CDL_culture_english_tt_delayed"
+    }
 }

@@ -3,4 +3,69 @@ spriteTypes = {
 		name = "GFX_CDL_culture_1"
 		texturefile = "gfx/interface/scripted_guis/cultures/culture_english.dds"
 	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_2"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_scottish.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_3"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_welsh.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_4"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_northumbrian.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_5"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_gaelic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_6"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_irish.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_7"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_anglo_irish.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_8"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_portuguese.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_9"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_galician.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_10"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_castilian.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_11"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_catalan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_12"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_basque.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_13"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_asturleonese.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_14"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_aragonian.dds"
+	}
 }

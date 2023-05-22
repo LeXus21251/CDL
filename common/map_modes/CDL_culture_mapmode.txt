@@ -9,7 +9,7 @@ scripted_map_modes = {
 					set_temp_variable = { thickness = 10.0 }
 					if = {
 						limit = {
-							check_variable = { culture_id = 1 }
+							check_variable = { culture_id = 1 } #English
 						}
 						set_temp_variable = { red = 0.537 }
 						set_temp_variable = { green = 0.196 }
@@ -25,11 +25,223 @@ scripted_map_modes = {
 					}
 					else_if = {
 						limit = {
-							check_variable = { culture_id = 2 }
+							check_variable = { culture_id = 2 } #SCottish
 						}
 						set_temp_variable = { red = 0.850 }
 						set_temp_variable = { green = 0.827 }
 						set_temp_variable = { blue = 0.203 }
+						if = {
+                            limit = {
+                                ROOT = {
+                                    original_tag = SCO
+                                }
+                            }
+                            set_temp_variable = { highlighted = 1.0 }
+                        }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 3 } #Welsh
+						}
+						set_temp_variable = { red = 0.098 }
+						set_temp_variable = { green = 0.482 }
+						set_temp_variable = { blue = 0.188 }
+						if = {
+                            limit = {
+                                ROOT = {
+                                    original_tag = WLS
+                                }
+                            }
+                            set_temp_variable = { highlighted = 1.0 }
+                        }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 4 } #Northumbrian
+						}
+						set_temp_variable = { red = 0.627 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.125 }
+						if = {
+                            limit = {
+                                ROOT = {
+                                    original_tag = ENG
+                                }
+                            }
+                            set_temp_variable = { highlighted = 1.0 }
+                        }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 5 } #Gaelic
+						}
+						set_temp_variable = { red = 0.635 }
+						set_temp_variable = { green = 0.850 }
+						set_temp_variable = { blue = 0.168 }
+						if = {
+                            limit = {
+                                ROOT = {
+                                    original_tag = SCO
+                                }
+                            }
+                            set_temp_variable = { highlighted = 1.0 }
+                        }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 6 } #Irish
+						}
+						set_temp_variable = { red = 0.196 }
+						set_temp_variable = { green = 0.537 }
+						set_temp_variable = { blue = 0.361 }
+						if = {
+                            limit = {
+                                ROOT = {
+                                    original_tag = IRE
+                                }
+                            }
+                            set_temp_variable = { highlighted = 1.0 }
+                        }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 7 } #Anglo-Irish
+						}
+						set_temp_variable = { red = 0.529 }
+						set_temp_variable = { green = 0.274 }
+						set_temp_variable = { blue = 0.274 }
+						if = {
+                            limit = {
+                                ROOT = {
+									OR = {
+									original_tag = IRE
+                                    original_tag = ENG
+									}
+                                }
+                            }
+                            set_temp_variable = { highlighted = 1.0 }
+                        }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 8 } #Portuguese
+						}
+						set_temp_variable = { red = 0.090 }
+						set_temp_variable = { green = 0.227 }
+						set_temp_variable = { blue = 0.541 }
+						if = {
+                            limit = {
+                                ROOT = {
+									original_tag = POR
+                                }
+                            }
+                            set_temp_variable = { highlighted = 1.0 }
+                        }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 9 } #Galician
+						}
+						set_temp_variable = { red = 0.361 }
+						set_temp_variable = { green = 0.361 }
+						set_temp_variable = { blue = 0.659 }
+						if = {
+                            limit = {
+                                ROOT = {
+									OR = {
+									original_tag = GLC
+									original_tag = SPR
+									}
+                                }
+                            }
+                            set_temp_variable = { highlighted = 1.0 }
+                        }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 10 } #Castilian
+						}
+						set_temp_variable = { red = 0.909 }
+						set_temp_variable = { green = 0.745 }
+						set_temp_variable = { blue = 0.156 }
+						if = {
+                            limit = {
+                                ROOT = {
+									original_tag = SPR
+                                }
+                            }
+                            set_temp_variable = { highlighted = 1.0 }
+                        }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 11 } #Catalan
+						}
+						set_temp_variable = { red = 0.843 }
+						set_temp_variable = { green = 0.490 }
+						set_temp_variable = { blue = 0.117 }
+						if = {
+                            limit = {
+                                ROOT = {
+									OR = {
+									original_tag = SPR
+									original_tag = CAT
+									}
+                                }
+                            }
+                            set_temp_variable = { highlighted = 1.0 }
+                        }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 12 } #Basque
+						}
+						set_temp_variable = { red = 0 }
+						set_temp_variable = { green = 0.607 }
+						set_temp_variable = { blue = 0.274 }
+						if = {
+                            limit = {
+                                ROOT = {
+									OR = {
+									original_tag = SPR
+									original_tag = NAV
+									}
+                                }
+                            }
+                            set_temp_variable = { highlighted = 1.0 }
+                        }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 13 } #Asturleonese
+						}
+						set_temp_variable = { red = 0 }
+						set_temp_variable = { green = 0.4 }
+						set_temp_variable = { blue = 1 }
+						if = {
+                            limit = {
+                                ROOT = {
+									original_tag = SPR
+                                }
+                            }
+                            set_temp_variable = { highlighted = 1.0 }
+                        }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 14 } #Aragonian
+						}
+						set_temp_variable = { red = 0.450 }
+						set_temp_variable = { green = 0.313 }
+						set_temp_variable = { blue = 0.196 }
+						if = {
+                            limit = {
+                                ROOT = {
+									original_tag = SPR
+                                }
+                            }
+                            set_temp_variable = { highlighted = 1.0 }
+                        }
 					}
 					else = {
 						set_temp_variable = { red = 0.63 }
