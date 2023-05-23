@@ -1,0 +1,77 @@
+scripted_gui = {
+    CDL_second_leader = {
+        window_name = "second_leader_window"
+        context_type = player_context
+		parent_window_token = politics_tab
+         
+        visible = {
+            AND = {
+            has_variable = second_leader_pol_open
+            has_country_flag = has_second_leader
+            }
+        }
+        
+        properties = {
+			second_leader_portrait = {
+				image = "[second_leaders_portraits]"
+			}
+		}
+        }
+
+        second_leader_diplo_button = {
+            context_type = selected_country_context
+            parent_window_token = selected_country_view_diplomacy
+            window_name = "second_leader_diplo_button_window"
+        
+            available = {
+                THIS = {
+                    has_country_flag = has_second_leader
+                }
+            }
+            triggers = {
+			leaders_button_diplo_click_enabled = {
+				has_country_flag = has_second_leader
+			}
+		}
+        
+            effects = {
+                leaders_button_diplo_click = {
+                    if = {
+                        limit = {
+                            ROOT = {
+                                has_variable = second_leader_pol_open
+                            }
+                        }
+                        ROOT = {
+                            clear_variable = second_leader_pol_open
+                        }
+                    }
+                    else = {
+                        ROOT = {
+                            set_variable = { second_leader_pol_open = 1 }
+                        }
+                    }
+                }
+            }
+        }
+        
+        CDL_second_leader_diplo = {
+            context_type = selected_country_context
+            window_name = "second_leader_window_diplo"
+            parent_window_token = selected_country_view_diplomacy
+        
+            visible = {
+                has_country_flag = has_second_leader
+                ROOT = {
+                    has_variable = second_leader_pol_open
+                }
+            }
+        
+            properties = {
+                second_leader_portrait = {
+                    image = "[THIS.second_leaders_portraits]"
+                }
+            }
+        }
+
+	}

@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CDL_second_leader_frame"
+		texturefile = "gfx/interface/scripted_guis/second_leaders/second_leader_frame.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Khalid_Bey_leader"
+		texturefile = "gfx/leaders/EGY/Khalid_Bey.dds"
+	}
+}

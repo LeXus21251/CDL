@@ -1,0 +1,11 @@
+scripted_gui = {
+    CDL_second_leader = {
+        window_name = "political_parties_window"
+        context_type = player_context
+		parent_window_token = politics_tab
+
+		visible = {
+            has_variable = pol_parties_open
+        }
+	}
+}

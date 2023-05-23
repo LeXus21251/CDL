@@ -1,0 +1,29 @@
+defined_text = {
+	name = mapmode_tooltips
+	text = {
+		trigger = {is_core_of = ROOT }
+		localization_key = "mapmode_core_tt"
+	}
+	text = {
+		trigger = {
+			AND = {
+				is_claimed_by = ROOT 
+				is_owned_by = ROOT
+				}
+			}
+			localization_key = "mapmode_can_be_integrated_tt"
+		}
+
+	text = {
+		trigger = {is_claimed_by = ROOT }
+		localization_key = "mapmode_claim_tt"
+	}
+	text = {
+		trigger = { is_owned_by = ROOT }
+		localization_key = "mapmode_owned_tt"
+	}
+	text = {
+		trigger = { is_controlled_by = ROOT }
+		localization_key = "mapmode_controlled_tt"
+	}
+}

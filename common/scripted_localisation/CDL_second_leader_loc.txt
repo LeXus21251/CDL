@@ -1,0 +1,30 @@
+defined_text = {
+	name = second_leader_names
+
+	text = {
+		trigger = {
+			has_country_flag = EGY_khalid_bey
+		}
+		localization_key = "Khalid Bey Shinjikashvili"
+	}
+}
+
+defined_text = {
+	name = second_leaders_portraits
+	text = {
+		trigger = {
+			has_country_flag = EGY_khalid_bey
+		}
+		localization_key = "GFX_Khalid_Bey_leader"
+	}
+}
+
+defined_text = {
+	name = second_leader_modifiers
+	text = {
+		trigger = {
+			has_country_flag = EGY_khalid_bey
+		}
+		localization_key = "khalid_bey_second_leader"
+	}
+}

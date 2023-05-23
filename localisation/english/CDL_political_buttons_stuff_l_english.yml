@@ -1,0 +1,8 @@
+﻿l_english:
+
+second_leader_button_tt:0 "Second country leader"
+second_leader_button_tt_delayed:0 "It could be a monarch, prime minister or other form of ruler dependent on the current government"
+
+second_leader_modifiers_tt:"[second_leader_modifiers]"
+
+khalid_bey_second_leader:0 "§YKhalid Bey Shinjikashvili§! \nSecondary leader of [EGY.GetFlag]§Y[EGY.GetName]§!"

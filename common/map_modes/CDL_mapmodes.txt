@@ -1,11 +1,81 @@
 scripted_map_modes = {
+	core_map_mode = {
+		top = {
+			type = state
+			color = {
+				FROM = {
+					set_temp_variable = { alpha = 0.5 }
+					## CORE ##
+					if = {
+						limit = { is_core_of = ROOT }
+						set_temp_variable = { green = 0.5 }
+						set_temp_variable = { blue = 0.1 }
+					}
+					
+					## CLAIM OCCUPIED ##
+					else_if = {
+						limit = { 
+							AND = {
+							is_claimed_by = ROOT 
+							is_owned_by = ROOT
+							}
+						}
+						set_temp_variable = { green = 0.8 }
+						set_temp_variable = { blue = 1 }
+					}
+					## CLAIM ##
+					else_if = {
+						limit = { is_claimed_by = ROOT }
+						set_temp_variable = { green = 0.8 }
+					}
+					## OCCUPIED OWNED ##
+					else_if = {
+						limit = { is_owned_by = ROOT }
+						set_temp_variable = { red = 1 }
+						set_temp_variable = { green = 0.9 }
+					}
+					## OCCUPATION WAR ##
+					else_if = {
+						limit = { is_controlled_by = ROOT }
+						set_temp_variable = { red = 1 }
+					}
+					else = {
+						set_temp_variable = { red = 0.35 }
+						set_temp_variable = { green = 0.35 }
+						set_temp_variable = { blue = 0.35 }
+						set_temp_variable = { alpha = 0.25 }
+					}
+				}
+			}
+		}
+
+		bottom = {
+			type = country
+			color = {
+				set_temp_variable = { red = 0.6 }
+				set_temp_variable = { blue = 0.6 }
+				set_temp_variable = { green = 0.6 }
+				set_temp_variable = { alpha = 0.25 }
+			}
+
+			thickness = yes
+		}
+
+		far_text = country
+		near_text = state
+
+		update_daily = no
+	}
+
+
+	### CULTURE MAP MODE ###
 	culture_map_mode = {
 		top = {
 			type = state
 
 			color = {
 				FROM = {
-					set_temp_variable = { alpha = 1.0 }
+					set_temp_variable = { alpha = 1 }
 					set_temp_variable = { thickness = 10.0 }
 					if = {
 						limit = {

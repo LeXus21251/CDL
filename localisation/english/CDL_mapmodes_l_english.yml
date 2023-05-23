@@ -1,0 +1,13 @@
+﻿l_english:
+
+MAPMODE_CORE_MAP_MODE:0 "§YCores§! map mode"
+MAPMODE_CORE_MAP_MODE_NAME:0 "Core"
+MAPMODE_CORE_MAP_MODE_DESCRIPTION:0 "§YCore§!"
+
+core_map_mode_tooltip:0 "[FROM.mapmode_tooltips]"
+
+mapmode_core_tt: "§Y[FROM.GetName]§! is a §Gcore state§! of §Y[ROOT.GetNameWithFlag]§!."
+mapmode_can_be_integrated_tt: "§Y[FROM.GetName]§! is a §4potential core§! of §Y[ROOT.GetNameWithFlag]§!."
+mapmode_claim_tt: "§Y[FROM.GetName]§! is §7claimed§! by §Y[ROOT.GetNameWithFlag]§!."
+mapmode_owned_tt: "§Y[FROM.GetName]§! is §Yowned§! by §Y[ROOT.GetNameWithFlag]§! but is not a core state."
+mapmode_controlled_tt: "§Y[FROM.GetName]§! is state of §Y[FROM.owner.GetNameWithFlag]§! but §Roccupied§! by §Y[ROOT.GetNameWithFlag]§!."

@@ -16,6 +16,23 @@ characters={
 }
 
 characters={
+	EGY_khalid_bey={
+		name="Khalid Bey Shinjikashvili"
+		portraits={
+			civilian={
+				large="gfx/leaders/EGY/Khalid_Bey.dds"
+			}
+		}
+		country_leader={
+			ideology=auth_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}
+
+characters={
 	EGY_ali_assad={
 		name="Ali Sulayman al-Assad"
 		portraits={

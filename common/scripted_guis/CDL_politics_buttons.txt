@@ -7,16 +7,48 @@ scripted_gui = {
         visible = {
             has_global_flag = politics_buttons_visible
         }
-        
+        ## SECOND LEADER ##
         effects = {
 			leaders_button_click = {
-				set_country_flag = leaders_button_clicked
+				if = {
+					limit = {
+                        has_variable = second_leader_pol_open
+                    }
+					clear_variable = second_leader_pol_open
+				}
+				else = {
+					set_variable = { second_leader_pol_open = 1 }
+				}
 			}
         }
 
 		triggers = {
 			leaders_button_click_enabled = {
-				original_tag = JAP
+				has_country_flag = has_second_leader
+			}
+		}
+
+		## POLITICAL PARTIES ##
+
+
+
+		effects = {
+			political_parties_button_click = {
+				if = {
+					limit = {
+                        has_variable = pol_parties_open
+                    }
+					clear_variable = pol_parties_open
+				}
+				else = {
+					set_variable = { pol_parties_open = 1 }
+				}
+			}
+        }
+
+		triggers = {
+			political_parties_button_click_enabled = {
+				always = no
 			}
 		}
 }

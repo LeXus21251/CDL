@@ -22,6 +22,7 @@ state={
 			industrial_complex = 3
 		}
 		add_core_of = FRA
+		add_claim_by = GER
 
 	}
 

@@ -16,6 +16,9 @@ TUR = {
 			freedom_level = 0.5
 		}
 	}
+
+set_country_flag = has_second_leader
+set_country_flag = EGY_khalid_bey
 recruit_character = EGY_shahid_bey
 recruit_character = EGY_ali_assad
 

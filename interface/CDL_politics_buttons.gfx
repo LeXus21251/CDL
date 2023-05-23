@@ -4,4 +4,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/buttons/leaders_button.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
+
+	spriteType = {
+		name = "GFX_political_parties_button"
+		texturefile = "gfx/interface/buttons/political_parties_button.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
 }

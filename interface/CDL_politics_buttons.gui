@@ -8,6 +8,20 @@ guiTypes = {
 			name = "leaders_button"
 			position = { x = 18 y = 0 }
 			quadTextureSprite = "GFX_leaders_button"
+			shortcut = "s"
+			clicksound = click_default
+			pdx_tooltip = "second_leader_button_tt"
+			pdx_tooltip_delayed = "second_leader_button_tt_delayed"
+		}
+
+		buttonType = {
+			name = "political_parties_button"
+			position = { x = 60 y = 0 }
+			quadTextureSprite = "GFX_political_parties_button"
+			shortcut = "v"
+			clicksound = click_default
+			pdx_tooltip = "pol_parties_button_tt"
+			pdx_tooltip_delayed = "pol_parties_button_tt_delayed"
 		}
 
 
