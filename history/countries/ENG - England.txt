@@ -16,15 +16,6 @@ load_oob = "ENG_Motorized"
 
 set_research_slots = 4
 
-set_variable = { CDL_main_culture = 1 }
-add_to_array = { CDL_accepted_cultures = 1 }
-add_to_array = { CDL_accepted_cultures = 2 }
-add_to_array = { CDL_accepted_cultures = 3 }
-add_to_array = { CDL_accepted_cultures = 4 }
-add_to_array = { CDL_accepted_cultures = 5 }
-add_to_array = { CDL_accepted_cultures = 6 }
-add_to_array = { CDL_accepted_cultures = 7 }
-add_to_array = { CDL_accepted_cultures = 8 }
 
 
 # Starting tech
