@@ -5,21 +5,17 @@ state=
 	manpower = 1
 	
 	state_category = wasteland
+	impassable = yes
 	
-	history=
-	{
-		owner = 
+	history={
 		buildings = {
 			infrastructure = 1
 			12512 ={
 				naval_base = 1
 			}
 		}
-		add_core_of = 
-	}
-	provinces=
-	{
-13058 	}
+}
+	provinces={13058 }
 
 	local_supplies=0.0 
 }
