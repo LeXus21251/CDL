@@ -1,0 +1,25 @@
+state=
+{
+	id=1112
+	name="STATE_1112"
+	manpower = 1
+	
+	state_category = wasteland
+	
+	history=
+	{
+		owner = 
+		buildings = {
+			infrastructure = 1
+			12512 ={
+				naval_base = 1
+			}
+		}
+		add_core_of = 
+	}
+	provinces=
+	{
+13058 	}
+
+	local_supplies=0.0 
+}

@@ -33,7 +33,7 @@ set_technology = {
 	early_bomber = 1
 }
 set_politics = {
-	ruling_party = conv
+	ruling_party = sc
 	last_election = "1932.9.18"
 	election_frequency = 48
 	elections_allowed = yes

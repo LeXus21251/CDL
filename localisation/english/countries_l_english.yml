@@ -2676,8 +2676,8 @@
   SWE:0 "Sweden"
   SWE_DEF:0 "Sweden"
   SWE_ADJ:0 "Swedish"
-  SWE_conv:0 "Kingdom of Sweden"
-  SWE_conv_DEF:0 "the Kingdom of Sweden"
+  SWE_sc:0 "Republic of Sweden"
+  SWE_sc_DEF:0 "the Republic of Sweden"
 
   AUS:0 "Austria"
   AUS_ADJ:0 "Austrian"
