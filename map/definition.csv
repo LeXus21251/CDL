@@ -1986,7 +1986,7 @@
 1985;9;81;185;land;false;hills;6
 1986;9;84;0;land;false;desert;7
 1987;9;84;150;land;false;hills;2
-1988;9;84;205;land;true;jungle;3
+1988;9;84;205;land;false;jungle;3
 1989;9;87;65;land;false;desert;5
 1990;9;87;170;land;false;hills;6
 1991;9;90;30;land;false;desert;6
@@ -2073,7 +2073,7 @@
 2072;9;174;220;land;false;mountain;5
 2073;9;177;80;land;false;jungle;5
 2074;9;177;130;land;false;mountain;6
-2075;9;177;185;land;true;jungle;3
+2075;9;177;185;land;false;jungle;3
 2076;9;180;45;land;false;mountain;6
 2077;9;180;150;land;true;jungle;3
 2078;9;183;10;land;false;desert;6
@@ -13056,7 +13056,7 @@
 13055;255;46;40;land;true;plains;6
 13056;255;47;120;land;true;plains;6
 13057;255;48;160;land;true;plains;6
-13058;255;49;40;land;false;plains;2
+13058;255;49;40;land;true;plains;2
 13059;255;50;120;land;false;forest;6
 13060;255;51;160;land;false;forest;6
 13061;255;52;40;land;false;mountain;6
@@ -13300,3 +13300,9 @@
 13299;241;53;251;land;true;jungle;3
 13300;172;196;174;land;true;jungle;3
 13301;56;255;255;lake;false;lakes;5
+13302;255;105;89;land;true;forest;5
+13303;173;144;71;land;true;jungle;3
+13304;173;39;64;land;true;jungle;3
+13305;156;173;71;land;true;jungle;3
+13306;84;55;173;land;true;jungle;3
+13307;50;173;34;land;true;jungle;3

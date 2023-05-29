@@ -141,6 +141,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7130;13266;sea;7226;-1;-1;-1;-1;;Turkey-Samos
 849;6864;sea;7678;-1;-1;-1;-1;;Galipoli
 6449;13267;sea;2871;-1;-1;-1;-1;;Normandy-Chanel Isles
+2196;13302;sea;5394;-1;-1;-1;-1;;Zanzibar
+1513;10440;sea;7230;-1;-1;-1;-1;;Bahama-Turks
 2729;2408;sea;6257;2949;1598;2962;1612;HANSEATIC_CANAL;Hamburg
 2756;5709;sea;13300;-1;-1;-1;-1;NICARAGUA_CANAL;Nicaragua
 

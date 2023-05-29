@@ -2,7 +2,6 @@ state={
 	id=317
 	name="STATE_317"
 	resources={
-		lead=1 # was: 1
 	}
 
 	state_category = town
@@ -28,9 +27,9 @@ state={
 	}
 
 	provinces={
-		1988 2075 10728 12738 13139 13178 
+		1988 2075 10728 12738 13178 
 	}
-	manpower=517882
+	manpower=402837
 	buildings_max_level_factor=1.000
 
 	local_supplies=0.0 
