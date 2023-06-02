@@ -1986,7 +1986,7 @@
 1985;9;81;185;land;false;hills;6
 1986;9;84;0;land;false;desert;7
 1987;9;84;150;land;false;hills;2
-1988;9;84;205;land;false;jungle;3
+1988;9;84;205;land;true;jungle;3
 1989;9;87;65;land;false;desert;5
 1990;9;87;170;land;false;hills;6
 1991;9;90;30;land;false;desert;6
@@ -2073,7 +2073,7 @@
 2072;9;174;220;land;false;mountain;5
 2073;9;177;80;land;false;jungle;5
 2074;9;177;130;land;false;mountain;6
-2075;9;177;185;land;false;jungle;3
+2075;9;177;185;land;true;jungle;3
 2076;9;180;45;land;false;mountain;6
 2077;9;180;150;land;true;jungle;3
 2078;9;183;10;land;false;desert;6
@@ -13306,3 +13306,4 @@
 13305;156;173;71;land;true;jungle;3
 13306;84;55;173;land;true;jungle;3
 13307;50;173;34;land;true;jungle;3
+13308;58;255;117;land;true;jungle;3

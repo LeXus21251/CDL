@@ -10,8 +10,8 @@ state={
 		add_core_of = ARG
 
 	}
-	manpower=rural
-	state_category = 265162
+	manpower=265162
+	state_category = rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
