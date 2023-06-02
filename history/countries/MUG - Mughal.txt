@@ -72,5 +72,5 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-recruit_character = MUG_jamshed_bakht
+recruit_character = MUG_mohammad_khurram
 

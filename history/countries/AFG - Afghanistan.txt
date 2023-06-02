@@ -26,4 +26,4 @@ set_popularities = {
 absolutism = 100
 }
 
-recruit_character = AFG_habibullah
+recruit_character = AFG_ming

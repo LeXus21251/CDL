@@ -1,6 +1,6 @@
 characters={
-	MUG_jamshed_bakht={
-		name="Jamshed Bakht"
+	MUG_mohammad_khurram={
+		name="Mohammad Khurram Khan Baburid-Durrani"
 		portraits={
 			civilian={
 				large="gfx/leaders/MUG/.dds"

@@ -1,6 +1,6 @@
 characters={
-	AFG_habibullah={
-		name="Habibullah"
+	AFG_ming={
+		name="Mohammad Sharif Khan Ming"
 		portraits={
 			civilian={
 				large="gfx/leaders/AFG/.dds"
