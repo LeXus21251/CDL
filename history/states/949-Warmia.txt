@@ -6,6 +6,10 @@ state={
 		3380 6402 11245 
 	}
 	history={
+		victory_points = {
+			11245 3 
+		}
+
 		owner = POL
 		add_core_of = POL
 
