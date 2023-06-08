@@ -1,4 +1,4 @@
-﻿capital = 265
+﻿capital = 809
 
 oob = "COU_1936"
 set_cosmetic_tag = COU_POL

@@ -1,4 +1,4 @@
-﻿capital = 441
+﻿capital = 201
 
 oob = "RUT_1936"
 set_cosmetic_tag = RUT_POL
