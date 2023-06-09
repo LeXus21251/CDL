@@ -6,9 +6,6 @@ state={
 	history={
 		owner = RUS
 		victory_points = {
-			3686 20 
-		}
-		victory_points = {
 			9680 1 
 		}
 		victory_points = {
@@ -31,7 +28,7 @@ state={
 	}
 
 	provinces={
-		705 6704 6724 9677 9680 9718 
+		705 6704 6724 9677 9680 9718 13311
 	}
 	manpower=257364
 	buildings_max_level_factor=1.000

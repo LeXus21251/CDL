@@ -11,17 +11,15 @@ state={
 		victory_points = {
 			11375 10
 		}
+		victory_points = {
+			11324 1
+		}
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 2
 			air_base = 1
 		}
 		add_core_of = RUS
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-			}
-		}
 	}
 
 	provinces={
