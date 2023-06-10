@@ -10,14 +10,16 @@ state= {
 		aluminium=3 # was: 4
 	}
 
-	history=
-	{
+	history={
 		owner = ENG
 		victory_points = {
 			407 3 #Swansea
 		}
 		victory_points = {
-			311 1 #Wrexham
+			9364 1 #Wrexham
+		}
+		victory_points = {
+			6363 1
 		}
 		victory_points = { 377 5 }
 		buildings = {
