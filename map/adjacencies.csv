@@ -149,4 +149,56 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10482;7630;impassable;-1;-1;-1;-1;;Darien North
 10482;4969;impassable;-1;-1;-1;-1;;Darien South
 10482;10494;impassable;-1;-1;-1;-1;;Darien South
+
+## SAHARA CROSSINGS
+10875;13313;sea;10838;-1;-1;-1;-1;;Rio de oro-Zouerat
+13313;13312;sea;10838;-1;-1;-1;-1;;Zouerat-Bir Moghrein
+10779;13312;sea;10838;-1;-1;-1;-1;;Rio de oro-Bir Moghrein
+13312;13327;sea;10838;-1;-1;-1;-1;;Bir Moghrein - Tindouf
+1126;13318;sea;5095;-1;-1;-1;-1;;Tlemcen - Berriane
+5035;13319;sea;5095;-1;-1;-1;-1;;Tlemcen - Ouargla
+12842;13320;sea;5095;-1;-1;-1;-1;;Tlemcen - Timimoun
+13318;13320;sea;5095;-1;-1;-1;-1;;Berriane - Timimoun
+13318;13319;sea;5095;-1;-1;-1;-1;;Berriane - Ourgla
+13319;13321;sea;5095;-1;-1;-1;-1;;Ourgla - El Menia
+13320;13322;sea;5095;-1;-1;-1;-1;;Timimoun - Adrar
+13322;13327;sea;5095;-1;-1;-1;-1;;Adrar - Tindouf
+13321;13323;sea;5095;-1;-1;-1;-1;;El Menia - In Salah
+13322;13323;sea;5095;-1;-1;-1;-1;;Adrar - In Salah
+13323;13342;sea;5095;-1;-1;-1;-1;;In Salah - Tamdjert
+13342;13326;sea;5095;-1;-1;-1;-1;;Tamdjert - Tamanrasset
+13326;13343;sea;5095;-1;-1;-1;-1;;Tamanrasset - In Guezzam
+13343;4913;sea;5095;-1;-1;-1;-1;;In Guezzam - Niger
+13342;13325;sea;5095;-1;-1;-1;-1;;Tamdjert - Djanet
+13343;13325;sea;5095;-1;-1;-1;-1;;In Guezzam - Djanet
+13325;13324;sea;5095;-1;-1;-1;-1;;Djanet - Awbari
+4913;13314;sea;1956;-1;-1;-1;-1;;Niger - Iferouane
+10917;13315;sea;1956;-1;-1;-1;-1;;Niger - Dabaga
+13314;13315;sea;1956;-1;-1;-1;-1;;Iferouane - Dabaga
+13315;13316;sea;1956;-1;-1;-1;-1;;Dabaga - Fachi
+13316;13317;sea;1956;-1;-1;-1;-1;;Fachi - Segeudine
+13317;13325;sea;1956;-1;-1;-1;-1;;Segeudine - Djanet
+13317;13337;sea;1956;-1;-1;-1;-1;;Segeudine - Zouar
+12866;13328;sea;12022;-1;-1;-1;-1;;Tripolitania - Waddan
+13328;13329;sea;12022;-1;-1;-1;-1;;Waddan - Sabha
+13329;13324;sea;12022;-1;-1;-1;-1;;Sabha - Awbari
+13329;13330;sea;12022;-1;-1;-1;-1;;Sabha - Al Wigh
+13329;13332;sea;12022;-1;-1;-1;-1;;Sabha - Tazirbu
+13330;13317;sea;12022;-1;-1;-1;-1;;Al Wigh - Segeudine
+12082;13331;sea;1994;-1;-1;-1;-1;;Jaghbub - Jikharra
+13331;13332;sea;1994;-1;-1;-1;-1;;Jikharra - Tazirbu
+13332;13333;sea;1994;-1;-1;-1;-1;;Tazirbu - Buzaymah
+13333;13334;sea;1994;-1;-1;-1;-1;;Buzaymah - Al Jawf
+13333;13335;sea;1994;-1;-1;-1;-1;;Buzaymah - Ma'tan as Sarah
+13334;13335;sea;1994;-1;-1;-1;-1;;Al Jawf - Ma'tan as Sarah
+13335;13336;sea;1994;-1;-1;-1;-1;;Ma'tan as Sarah - Aouzou
+13336;13337;sea;1994;-1;-1;-1;-1;;Aouzou - Zouar
+13336;13338;sea;1994;-1;-1;-1;-1;;Aouzou - Fada
+4191;13337;sea;1994;-1;-1;-1;-1;;Chad - Zouar
+4902;13338;sea;1994;-1;-1;-1;-1;;Chad - Fada
+1028;13341;sea;12099;-1;-1;-1;-1;;Egypt - Kharga
+7216;13339;sea;12099;-1;-1;-1;-1;;Egypt - Farafra
+13339;13340;sea;12099;-1;-1;-1;-1;;Farafra - Dakhla
+13340;13341;sea;12099;-1;-1;-1;-1;;Dakhla - Kharga
+13334;13340;sea;12099;-1;-1;-1;-1;;Al Jawf - Dakhla
 -1;-1;;-1;-1;-1;-1;-1;-1

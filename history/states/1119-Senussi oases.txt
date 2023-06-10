@@ -1,0 +1,21 @@
+
+state={
+	id=1119
+	name="STATE_1119"
+	provinces={
+		13331 13332 13333 13334 13335 13336 13337 13338 
+	}
+	history={
+		owner = SNS
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = SNS
+
+	}
+	manpower=49183
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

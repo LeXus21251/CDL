@@ -1,0 +1,21 @@
+
+state={
+	id=1115
+	name="STATE_1115"
+	provinces={
+		13312 13313 13327 
+	}
+	history={
+		owner = WES
+		add_core_of = WES
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	manpower=21918
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

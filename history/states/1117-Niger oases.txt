@@ -1,0 +1,21 @@
+
+state={
+	id=1117
+	name="STATE_1117"
+	provinces={
+		13314 13315 13316 13317 
+	}
+	history={
+		owner = NGR
+		add_core_of = NGR
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	manpower=102386
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

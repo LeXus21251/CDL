@@ -7,7 +7,7 @@ state={
 		owner = NGR
 		add_core_of = NGR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 
 		}
 
@@ -16,9 +16,9 @@ state={
 	provinces={
 		1956 
 	}
-	manpower=117827
+	manpower=11728
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=wasteland
 	local_supplies=0.000
 	impassable = yes
 }
