@@ -12,8 +12,8 @@ state={
 		victory_points = {
 			13240 2 
 		}
-		owner = ASS
-		add_core_of = ASS
+		owner = DJI
+		add_core_of = DJI
 
 
 	}
