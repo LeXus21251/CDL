@@ -9,6 +9,12 @@ state={
 		owner = SPR
 		add_core_of = SPR
 		add_core_of = CAT
+		victory_points = {
+			6966 1 
+		}
+		victory_points = {
+			9896 1
+		}
 
 	}
 	manpower=772836
