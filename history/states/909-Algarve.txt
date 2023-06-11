@@ -8,6 +8,12 @@ state={
 	history={
 		owner = POR
 		add_core_of = POR
+		victory_points = {
+			3790 1 
+		}
+		victory_points = {
+			6880 1 
+		}
 
 	}
 	manpower=276384
