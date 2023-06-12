@@ -9,6 +9,9 @@ state={
 		owner = PRM
 		add_core_of = PRM
 		add_core_of = MOD
+		victory_points = {
+			9752 1
+		}
 
 	}
 	manpower=621738

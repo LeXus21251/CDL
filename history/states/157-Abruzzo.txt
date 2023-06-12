@@ -5,9 +5,7 @@ state={
 
 	history={
 		owner = SIC
-		victory_points = {
-			925 1 
-		}
+		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -19,6 +17,12 @@ state={
 		}
 		add_core_of = SIC
 		add_core_of = NAP
+		victory_points = {
+			6831 1
+		}
+		victory_points = {
+			3966 1
+		}
 
 	}
 

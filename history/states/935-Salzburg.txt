@@ -9,6 +9,13 @@ state={
 		owner = GER
 		add_core_of = GER
 		add_core_of = SAL
+		victory_points = {
+			688 10 
+		}
+		victory_points = {
+			3675 1
+		}
+		
 
 	}
 	manpower=371823

@@ -5,11 +5,12 @@ state={
 
 	history={
 		owner = VNC
+		
 		victory_points = {
-			3780 15 
+			969 3 
 		}
 		victory_points = {
-			773 3 
+			6661 1 
 		}
 		buildings = {
 			infrastructure = 4
@@ -19,14 +20,6 @@ state={
 
 		}
 		add_core_of = VNC
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 7
-				industrial_complex = 4
-
-			}
-
-		}
 
 	}
 

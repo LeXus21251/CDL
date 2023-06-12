@@ -4,8 +4,9 @@ state={
 	name="STATE_736"
 
 	history={
+		
 		victory_points = {
-			6626 3 
+			13282 1
 		}
 		owner = VNC
 		add_core_of = VNC
@@ -25,8 +26,8 @@ state={
 	provinces={
 		6626 13282 
 	}
-	manpower=327882
+	manpower=117283
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=rural
 	local_supplies=0.000
 }

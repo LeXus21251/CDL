@@ -11,7 +11,10 @@ state={
 		add_core_of = SAR
 		add_core_of = SAV
 		victory_points = {
-			778 1 
+			11573 1 
+		}
+		victory_points = {
+			6609 1
 		}
 		
 		buildings = {

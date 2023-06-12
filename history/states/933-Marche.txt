@@ -8,6 +8,15 @@ state={
 	history={
 		owner = PAP
 		add_core_of = PAP
+		victory_points = {
+			925 1 
+		}
+		victory_points = {
+			967 1
+		}
+		victory_points = {
+			11861 1
+		}
 
 	}
 	manpower=747836

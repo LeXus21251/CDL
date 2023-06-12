@@ -8,6 +8,12 @@ state={
 	history={
 		owner = GEN
 		add_core_of = GEN
+		victory_points = {
+			6788 10 
+		}
+		victory_points = {
+			3772 1
+		}
 
 	}
 	manpower=1053827

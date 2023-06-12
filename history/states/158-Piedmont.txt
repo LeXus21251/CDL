@@ -11,11 +11,21 @@ state={
 
 	history={
 		owner = SAR
-		victory_points = {
-			6788 10 
-		}
+		
 		victory_points = {
 			6780 5 
+		}
+		victory_points = {
+			611 1
+		}
+		victory_points = {
+			11730 1
+		}
+		victory_points = {
+			9741 1
+		}
+		victory_points = {
+			11721 1
 		}
 		buildings = {
 			infrastructure = 4

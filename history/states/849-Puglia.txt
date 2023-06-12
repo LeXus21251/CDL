@@ -18,6 +18,9 @@ state = {
 		victory_points = { #Foggia
 			883 3
 		}
+		victory_points = {
+			6980 1
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
