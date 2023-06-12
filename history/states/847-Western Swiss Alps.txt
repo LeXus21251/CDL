@@ -11,6 +11,9 @@ state={
 
 		}
 		add_core_of = SWI
+		victory_points = {
+			3612 1
+		}
 
 	}
 

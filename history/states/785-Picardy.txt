@@ -13,6 +13,15 @@ state={
 		victory_points = {
 			11420 5
 		}
+		victory_points = {
+			3402 1
+		}
+		victory_points = {
+			11549 1
+		}
+		victory_points = {
+			9561 1
+		}
 		owner = FRA
 		add_core_of = FRA
 		buildings = {

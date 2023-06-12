@@ -17,6 +17,15 @@ state={
 		victory_points = {
 			6583 5 
 		}
+		victory_points = {
+			11435 1 
+		}
+		victory_points = {
+			9559 1
+		}
+		victory_points = {
+			3560 1
+		}
 		add_core_of = HOL
 		add_core_of = LUX
 

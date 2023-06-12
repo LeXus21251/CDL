@@ -9,6 +9,12 @@ state={
 		owner = FRA
 		add_core_of = FRA
 		add_claim_by = GER
+		victory_points = {
+			11502 10 
+		}
+		victory_points = {
+			549 1 
+		}
 
 	}
 	manpower=682716

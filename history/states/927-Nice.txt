@@ -8,6 +8,9 @@ state={
 	history={
 		owner = SAR
 		add_core_of = SAR
+		victory_points = {
+			9909 5 
+		}
 
 	}
 	manpower=681625

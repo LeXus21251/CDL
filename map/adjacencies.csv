@@ -146,10 +146,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2729;2408;sea;6257;2949;1598;2962;1612;HANSEATIC_CANAL;Hamburg
 2756;5709;sea;13300;-1;-1;-1;-1;NICARAGUA_CANAL;Nicaragua
 
-10482;7630;impassable;-1;-1;-1;-1;;Darien North
-10482;4969;impassable;-1;-1;-1;-1;;Darien South
-10482;10494;impassable;-1;-1;-1;-1;;Darien South
-
 ## SAHARA CROSSINGS
 10875;13313;sea;10838;-1;-1;-1;-1;;Rio de oro-Zouerat
 13313;13312;sea;10838;-1;-1;-1;-1;;Zouerat-Bir Moghrein

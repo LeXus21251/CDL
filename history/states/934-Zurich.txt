@@ -8,6 +8,15 @@ state={
 	history={
 		owner = SWI
 		add_core_of = SWI
+		victory_points = {
+			663 10 
+		}
+		victory_points = {
+			11604 1
+		}
+		victory_points = {
+			11623 1
+		}
 
 	}
 	manpower=1277347

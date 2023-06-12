@@ -8,6 +8,15 @@ state={
 	history={
 		owner = FRA
 		add_core_of = FRA
+		victory_points = {
+			13011 5 
+		}
+		victory_points = {
+			9472 1 
+		}
+		victory_points = {
+			5291 1 
+		}
 
 	}
 	manpower=327817
