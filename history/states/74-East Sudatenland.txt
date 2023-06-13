@@ -7,6 +7,15 @@ state={
 		victory_points = {
 			3583 5 
 		}
+		victory_points = {
+			6485 1
+		}
+		victory_points = {
+			9567 1
+		}
+		victory_points = {
+			9551 1
+		}
 		owner = SIL
 		buildings = {
 			infrastructure = 4

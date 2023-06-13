@@ -13,6 +13,9 @@ state={
 		victory_points = {
 			9606 3
 		}
+		victory_points = {
+			3649 1
+		}
 		owner = BNT
 		buildings = {
 			infrastructure = 3

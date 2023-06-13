@@ -6,6 +6,10 @@ state={
 	history={
 		owner = CRO
 		add_core_of = CRO
+		
+		victory_points = {
+			591 1
+		}
 
 	}
 

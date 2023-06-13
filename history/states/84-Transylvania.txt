@@ -17,13 +17,22 @@ state={
 			industrial_complex = 1
 		}
 		victory_points = {
-			690 1 
+			3676 1 
+		}
+		victory_points = {
+			6711 5 
+		}
+		victory_points = {
+			6679 1
+		}
+		victory_points = {
+			11622 1
 		}
 		add_core_of = TRA
 	}
 
 	provinces={
-		676 690 693 3665 3676 3694 6679 6709 9619 11622 11639 
+		676 690 693 3665 3676 3694 6679 6709 6711 6714 9619 11622 11639 
 	}
 
 	local_supplies=0.0 

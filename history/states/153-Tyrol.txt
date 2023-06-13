@@ -5,9 +5,7 @@ state={
 
 	history={
 		owner = AUS
-		victory_points = {
-			673 5 
-		}
+		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -15,11 +13,15 @@ state={
 
 		}
 		add_core_of = AUS
-		1938.3.12 = {
-			owner = GER
-			controller = GER
-			add_core_of = GER
-
+		
+		victory_points = {
+			3673 3 
+		}
+		victory_points = {
+			11612 1
+		}
+		victory_points = {
+			6673 1
 		}
 
 	}

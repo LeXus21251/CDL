@@ -8,6 +8,10 @@ state={
 	history={
 		owner = AUS
 		add_core_of = AUS
+		victory_points = {
+			673 5 
+		}
+		
 
 	}
 	manpower=971823

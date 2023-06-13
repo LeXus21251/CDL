@@ -9,10 +9,13 @@ state={
 	history={
 		owner = AUS
 		victory_points = {
-			11666 30.0 
+			11666 30 
 		}
 		victory_points = {
 			9648 5 
+		}
+		victory_points = {
+			704 1
 		}
 		buildings = {
 			infrastructure = 4
@@ -22,20 +25,6 @@ state={
 
 		}
 		add_core_of = AUS
-		1938.3.12 = {
-			owner = GER
-			controller = GER
-			add_core_of = GER
-
-		}
-		1939.1.1 = {
-			buildings = {
-				anti_air_building = 5
-
-			}
-
-		}
-
 	}
 
 	provinces={
