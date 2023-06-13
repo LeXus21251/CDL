@@ -9,6 +9,12 @@ state={
 		owner = DEN
 		add_core_of = DEN
 		add_core_of = NOR
+		victory_points = {
+			9116 1
+		}
+		victory_points = {
+			22 1
+		}
 
 	}
 	manpower=93827

@@ -9,6 +9,24 @@ state={
 		owner = GER
 		add_core_of = GER
 		add_core_of = BAD
+		victory_points = {
+			3530 1
+		}
+		victory_points = {
+			6934 1
+		}
+		victory_points = {
+			6712 1
+		}
+		victory_points = {
+			6542 1
+		}
+		victory_points = {
+			11640 1
+		}
+		victory_points = {
+			6568 1
+		}
 
 	}
 	manpower=4027185

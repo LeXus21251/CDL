@@ -10,6 +10,9 @@ state={
 		add_core_of = DEN
 		add_core_of = NOR
 		add_core_of = SWE
+		victory_points = {
+			46 1
+		}
 
 	}
 	manpower=43728

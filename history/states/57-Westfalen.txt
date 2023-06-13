@@ -15,14 +15,14 @@ state={
 		}
 		add_core_of = GER
 		add_core_of = HAN
-		1939.1.1 = {
-			buildings = {
-				radar_station = 1
-				arms_factory = 6
-				industrial_complex = 3
-
-			}
-
+		victory_points = {
+			9509 1
+		}
+		victory_points = {
+			3355 1
+		}
+		victory_points = {
+			405 1
 		}
 
 	}
