@@ -7,6 +7,9 @@ state={
 		victory_points = {
 			6727 1 
 		}
+		victory_points = {
+			3724 1
+		}
 
 		owner = ROM
 		buildings = {

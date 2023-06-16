@@ -8,6 +8,12 @@ state={
 	history={
 		owner = TUR
 		add_core_of = TUR
+		victory_points = {
+			3879 1
+		}
+		victory_points = {
+			849 1
+		}
 
 	}
 	manpower=192837

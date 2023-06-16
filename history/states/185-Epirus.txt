@@ -8,14 +8,13 @@ state={
 	}
 
 	history={
-		victory_points = {
-			10203 1 
-		}
-		victory_points = {
-			3914 3 
-		}
+		
+		
 		victory_points = {
 			1205 1 
+		}
+		victory_points = {
+			11786 1
 		}
 		owner = GRE
 		buildings = {

@@ -8,6 +8,13 @@ state={
 	history={
 		owner = RML
 		add_core_of = RML
+		victory_points = {
+			6857 1
+		}
+		victory_points = {
+			9818 1
+		}
+		
 
 	}
 	manpower=137835

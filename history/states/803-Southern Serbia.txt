@@ -7,6 +7,12 @@ state={
 		victory_points = {
 			11857 1 
 		}
+		victory_points = {
+			11832 1
+		}
+		victory_points = {
+			11868 1
+		}
 		owner = RML
 		buildings = {
 			infrastructure = 2

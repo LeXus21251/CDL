@@ -8,6 +8,15 @@ state={
 		victory_points = {
 			6558 10 
 		}
+		victory_points = {
+			17 1
+		}
+		victory_points = {
+			388 1
+		}
+		victory_points = {
+			11558 1
+		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -27,10 +36,6 @@ state={
 
 		}
 		add_core_of = POL
-		1938.3.12 = {
-			add_claim_by = GER
-
-		}
 
 	}
 

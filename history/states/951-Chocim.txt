@@ -8,6 +8,9 @@ state={
 		owner = POL
 		add_core_of = POL
 		add_core_of = MOL
+		victory_points = {
+			3407 1
+		}
 
 	}
 	manpower=287019

@@ -11,6 +11,9 @@ state={
 		victory_points = {
 			9809 3 
 		}
+		victory_points = {
+			11858 1
+		}
 		
 		owner = MNT
 		add_core_of = MNT

@@ -18,6 +18,18 @@ state={
 		victory_points = {
 			3882 5 
 		}
+		victory_points = {
+			9874 1
+		}
+		victory_points = {
+			3865 1
+		}
+		victory_points = {
+			9837 1
+		}
+		victory_points = {
+			11856 1
+		}
 		add_core_of = RML
 
 	}

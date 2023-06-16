@@ -8,6 +8,12 @@ state={
 	history={
 		owner = VNC
 		add_core_of = VNC
+		victory_points = {
+			10203 1 
+		}
+		victory_points = {
+			1106 1
+		}
 
 	}
 	manpower=102572

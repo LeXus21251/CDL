@@ -8,6 +8,18 @@ state={
 	history={
 		owner = BOS
 		add_core_of = BOS
+		victory_points = {
+			606 1
+		}
+		victory_points = {
+			6799 1
+		}
+		victory_points = {
+			9586 1
+		}
+		victory_points = {
+			9591 1
+		}
 
 	}
 	manpower=587934
