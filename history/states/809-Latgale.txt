@@ -6,11 +6,12 @@ state={
 	history={
 		owner = COU
 		victory_points = {
-			310 3 #Daugavpils
+			6342 5 
 		}
 		victory_points = {
-			222 1 #Rezekne
+			3255 1 
 		}
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

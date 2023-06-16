@@ -11,7 +11,13 @@ state={
 
 		}
 		victory_points = {
-			6232 1 
+			3511 1 
+		}
+		victory_points = {
+			3457 1
+		}
+		victory_points = {
+			3570 1
 		}
 		add_core_of = RUT
 

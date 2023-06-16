@@ -7,6 +7,15 @@ state={
 		victory_points = {
 			488 5 
 		}
+		victory_points = {
+			11424 1
+		}
+		victory_points = {
+			11409 1
+		}
+		victory_points = {
+			3452 1
+		}
 		owner = RUT
 		buildings = {
 			infrastructure = 3

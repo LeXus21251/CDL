@@ -7,6 +7,9 @@ state={
 		owner = RUS
 		add_core_of = FIN
 		add_core_of = RUS
+		victory_points = {
+			3187 1
+		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -17,9 +20,7 @@ state={
 			}
 
 		}
-		victory_points = {
-			9206 3 
-		}
+		
 
 	}
 

@@ -5,7 +5,19 @@ state={
 
 	history={
 		victory_points = {
-			6593 3 
+			11514 3 
+		}
+		victory_points = {
+			11453 1
+		}
+		victory_points = {
+			9249 1
+		}
+		victory_points = {
+			3543 1
+		}
+		victory_points = {
+			6593 1
 		}
 		owner = RUT
 		buildings = {

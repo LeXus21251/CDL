@@ -9,7 +9,10 @@ state={
 			6296 5
 		}
 		victory_points = {
-			9357 1 #Ukmerge
+			9404 1 #Ukmerge
+		}
+		victory_points = {
+			327 1
 		}
 		buildings = {
 			infrastructure = 3

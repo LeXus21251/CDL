@@ -11,6 +11,9 @@ state={
 		victory_points = {
 			3296 1 #Ventspils
 		}
+		victory_points = {
+			3194 1
+		}
 		owner = COU
 		buildings = {
 			infrastructure = 3 #was: 5
