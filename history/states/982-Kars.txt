@@ -9,6 +9,12 @@ state={
 		owner = RUS
 		add_core_of = RUS
 		add_core_of = ARM
+		victory_points = {
+			12441 1 
+		}
+		victory_points = {
+			10472 5 
+		}
 
 	}
 	manpower=528374

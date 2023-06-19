@@ -6,9 +6,6 @@ state = {
 	state_category = pastoral
 	
 	history = {
-		victory_points = { 
-			12683 1 
-		}
 
 		owner = RUS
 		buildings = {

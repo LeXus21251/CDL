@@ -18,6 +18,12 @@ state={
 		victory_points = {
 			6338 10
 		}
+		victory_points = {
+			3328 1
+		}
+		victory_points = {
+			3365 1
+		}
 		add_core_of = RUS
 		add_core_of = TAT
 	}

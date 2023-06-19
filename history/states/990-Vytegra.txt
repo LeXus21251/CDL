@@ -8,6 +8,12 @@ state={
 	history={
 		owner = RUS
 		add_core_of = RUS
+		victory_points = {
+			11059 1
+		}
+		victory_points = {
+			166 1
+		}
 
 	}
 	manpower=98726

@@ -9,6 +9,9 @@ state={
 		owner = RUS
 		add_core_of = RUS
 		add_core_of = CRI
+		victory_points = {
+			3722 1
+		}
 
 	}
 	manpower=62844

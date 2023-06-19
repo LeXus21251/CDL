@@ -20,6 +20,21 @@ state={
 		victory_points = {
 			187 1
 		}
+		victory_points = {
+			3344 1
+		}
+		victory_points = {
+			3321 1
+		}
+		victory_points = {
+			333 1
+		}
+		victory_points = {
+			6303 1
+		}
+		victory_points = {
+			6367 1
+		}
 		buildings = {
 			infrastructure = 3 #was: 5
 		}

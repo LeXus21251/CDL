@@ -9,7 +9,12 @@ state={
 		owner = RUS
 		add_core_of = RUS
 		add_core_of = AZR
-
+		victory_points = {
+			11674 1 
+		}
+		victory_points = {
+			9715 1
+		}
 	}
 	manpower=1121728
 	state_category = town
