@@ -8,6 +8,15 @@ state={
 		victory_points = {
 			7597 1 
 		}
+		victory_points = {
+			4581 1
+		}
+		victory_points = {
+			12397 1
+		}
+		victory_points = {
+			4686 1
+		}
 		add_core_of = KAZ
 		buildings = {
 			infrastructure = 1

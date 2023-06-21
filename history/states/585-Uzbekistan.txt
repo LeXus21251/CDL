@@ -11,7 +11,7 @@ state={
 		}
 		add_core_of = KHI
 		victory_points = {
-			1554 1 
+			1479 1
 		}
 
 	}

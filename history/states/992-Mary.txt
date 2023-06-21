@@ -9,6 +9,15 @@ state={
 		owner = RUS
 		add_core_of = RUS
 		add_core_of = TMS
+		victory_points = {
+			7491 1
+		}
+		victory_points = {
+			7560 1
+		}
+		victory_points = {
+			10742 1
+		}
 
 	}
 	manpower=320938

@@ -5,7 +5,19 @@ state={
 
 	history={
 		victory_points = {
-			12465 1 
+			12465 5 
+		}
+		victory_points = {
+			1614 1 
+		}
+		victory_points = {
+			1576 1
+		}
+		victory_points = {
+			10395 1
+		}
+		victory_points = {
+			12324 1
 		}
 		owner = KHI
 		buildings = {
