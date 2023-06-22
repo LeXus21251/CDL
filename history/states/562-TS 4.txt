@@ -11,6 +11,12 @@ state = {
 			infrastructure = 1
 		}
 		add_core_of = RUS
+		victory_points = {
+			12518 1
+		}
+		victory_points = {
+			10598 1
+		}
 	}
 
 	provinces = {

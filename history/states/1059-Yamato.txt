@@ -14,7 +14,10 @@ state={
 			industrial_complex = 1
 		}
 		victory_points = {
-			1051 1
+			1051 5
+		}
+		victory_points = {
+			7113 3
 		}
 
 	}

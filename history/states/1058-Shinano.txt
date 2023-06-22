@@ -12,6 +12,12 @@ state={
 		}
 		owner = TOK
 		add_core_of = TOK
+		victory_points = {
+			4172 3
+		}
+		victory_points = {
+			12072 1
+		}
 
 	}
 	manpower=2276263
