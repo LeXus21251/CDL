@@ -14,7 +14,7 @@ state={
 
 		}
 		victory_points = {
-			2115 1 
+			2115 2 
 		}
 		add_core_of = GAB
 

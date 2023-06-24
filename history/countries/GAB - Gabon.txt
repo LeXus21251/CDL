@@ -1,4 +1,4 @@
-﻿capital = 539
+﻿capital = 796
 set_cosmetic_tag = GAB_POL
 # Starting tech
 set_technology = {

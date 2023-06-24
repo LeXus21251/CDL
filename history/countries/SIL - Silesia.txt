@@ -1,4 +1,4 @@
-﻿capital = 74
+﻿capital = 66
 
 #oob = ""
 set_cosmetic_tag = SIL_AUS

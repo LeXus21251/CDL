@@ -1,4 +1,4 @@
-﻿capital = 544
+﻿capital = 896
 
 oob = "MZB_1936"
 set_cosmetic_tag = MZB_POR_blue

@@ -10,6 +10,9 @@ state={
 
 		}
 		add_core_of = MZB
+		victory_points = {
+			2120 1 
+		}
 	}
 
 

@@ -1,4 +1,4 @@
-﻿capital = 296
+﻿capital = 700
 set_cosmetic_tag = GNA_ENG
 # Starting tech
 set_technology = {
