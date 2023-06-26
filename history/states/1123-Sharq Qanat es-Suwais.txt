@@ -1,7 +1,7 @@
 
 state={
-	id=453
-	name="STATE_453"
+	id=1123
+	name="STATE_1123"
 
 	history={
 		owner = EGY
@@ -9,19 +9,17 @@ state={
 			infrastructure = 1
 
 		}
-		victory_points = {
-			11979 1 
-		}
+
 		add_core_of = EGY
 
 	}
 
 	provinces={
-	 1112 1155 9947 10099 11922 11979 12073 
+		13350 13351
 	}
-	manpower=12738
+	manpower=12381
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=pastoral
 	local_supplies=7.000
 	
 }
