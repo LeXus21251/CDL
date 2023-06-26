@@ -18,6 +18,12 @@ state={
 		victory_points = {
 			1822 1 
 		}
+		victory_points = {
+			1636 1
+		}
+		victory_points = {
+			12861 1
+		}
 		add_core_of = PER
 		add_core_of = KUR
 		add_core_of = AZR

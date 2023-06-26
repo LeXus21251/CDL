@@ -8,6 +8,9 @@ state={
 	history={
 		owner = SHI
 		add_core_of = SHI
+		victory_points = {
+			13287 1
+		}
 
 	}
 	manpower=71694

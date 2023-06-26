@@ -20,6 +20,15 @@ state={
 		victory_points = {
 			12248 1 
 		}
+		victory_points = {
+			7584 1
+		}
+		victory_points = {
+			12769 1
+		}
+		victory_points = {
+			7448 1
+		}
 		add_core_of = AFG
 
 	}

@@ -4,15 +4,16 @@ state={
 	name="STATE_440"
 
 	history={
-		victory_points = {
-			10887 5 
-		}
+
 		owner = MUG
 		buildings = {
 			infrastructure = 3
 
 		}
 		add_core_of = MUG
+		victory_points = {
+			4979 1
+		}
 
 	}
 

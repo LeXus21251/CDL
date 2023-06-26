@@ -8,6 +8,12 @@ state={
 	history={
 		owner = MUS
 		add_core_of = MUS
+		victory_points = {
+			2029 1
+		}
+		victory_points = {
+			13079 1
+		}
 
 	}
 	manpower=76394

@@ -8,6 +8,12 @@ state={
 	history={
 		owner = JAB
 		add_core_of = JAB
+		victory_points = {
+			5058 1
+		}
+		victory_points = {
+			4968 1
+		}
 
 	}
 	manpower=183049

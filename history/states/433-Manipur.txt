@@ -7,6 +7,15 @@ state={
 		victory_points = {
 			2054 1 
 		}
+		victory_points = {
+			4915 1
+		}
+		victory_points = {
+			4971 1
+		}
+		victory_points = {
+			12829 1
+		}
 		owner = MUG
 		add_core_of = MUG
 		buildings = {

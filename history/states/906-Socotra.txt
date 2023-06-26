@@ -15,6 +15,9 @@ state={
 
 		}
 		add_core_of = MUS
+		victory_points = {
+			8000 1
+		}
 	}
 
 	provinces={

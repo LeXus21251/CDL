@@ -10,6 +10,12 @@ state={
 
 		}
 		add_core_of = MUG
+		victory_points = {
+			1910 1 
+		}
+		victory_points = {
+			10905 1
+		}
 
 	}
 

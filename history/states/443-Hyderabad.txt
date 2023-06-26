@@ -5,9 +5,7 @@ state={
 
 	history={
 		owner = SIN
-		victory_points = {
-			3456 3 
-		}
+
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -18,6 +16,12 @@ state={
 
 		}
 		add_core_of = SIN
+		victory_points = {
+			4110 1
+		}
+		victory_points = {
+			1971 1
+		}
 
 	}
 

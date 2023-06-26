@@ -4,7 +4,6 @@ state={
 	name="STATE_340"
 	manpower = 589726
 	resources={
-		lead=39 # was: 54
 	}
 
 	state_category = town
@@ -21,13 +20,19 @@ state={
 			947 10
 		}
 		victory_points = {
-			9799 5
+			11778 5
+		}
+		victory_points = {
+			6864 1
+		}
+		victory_points = {
+			9799 1
+		}
+		victory_points = {
+			3786 1
 		}
 		add_core_of = TUR
 		
-		1936.11.9 = {
-			set_demilitarized_zone = no
-		}
 	}
 
 	provinces={

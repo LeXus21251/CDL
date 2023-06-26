@@ -8,6 +8,15 @@ state={
 	history={
 		owner = MUG
 		add_core_of = MUG
+		victory_points = {
+			10807 1
+		}
+		victory_points = {
+			2036 1
+		}
+		victory_points = {
+			10816 1
+		}
 
 	}
 	manpower=2864738

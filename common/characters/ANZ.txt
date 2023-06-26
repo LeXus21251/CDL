@@ -1,4 +1,19 @@
 characters={
+
+	ANZ_fahd_hathal={
+		name="Fahd Al-Hathal"
+		portraits={
+			civilian={
+				large="gfx/leaders/ANZ/Fahd_Hathal.dds"
+			}
+		}
+		country_leader={
+			ideology=abs_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 	ANZ_mejhem_meheid={
 		name="Mejhem ibn Meheid"
 		portraits={

@@ -5,7 +5,13 @@ state={
 
 	history={
 		victory_points = {
-			12763 3 
+			12717 3 
+		}
+		victory_points = {
+			1107 1
+		}
+		victory_points = {
+			1978 1
 		}
 		owner = MUG
 		buildings = {

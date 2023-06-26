@@ -8,6 +8,15 @@ state={
 	history={
 		owner = KLT
 		add_core_of = KLT
+		victory_points = {
+			8066 1 
+		}
+		victory_points = {
+			8098 1
+		}
+		victory_points = {
+			10735 1
+		}
 
 	}
 	manpower=1153927

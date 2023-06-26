@@ -8,6 +8,9 @@ state={
 		owner = ABD
 		add_core_of = ABD
 		add_core_of = PER
+		victory_points = {
+			13296 1
+		}
 
 	}
 	manpower=3067

@@ -7,6 +7,9 @@ state={
 	history={
 		owner = ABD
 		add_core_of = ABD
+		victory_points = {
+			10904 1
+		}
 
 	}
 	manpower=53723

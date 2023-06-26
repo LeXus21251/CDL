@@ -11,13 +11,22 @@ state={
 
 		}
 		victory_points = {
-			9861 5 
+			9861 1
 		}
 		victory_points = {
-			6807 3 
+			9755 3 
 		}
 		victory_points = {
 			784 1 
+		}
+		victory_points = {
+			9811 1
+		}
+		victory_points = {
+			6807 1
+		}
+		victory_points = {
+			869 1
 		}
 		add_core_of = TUR
 

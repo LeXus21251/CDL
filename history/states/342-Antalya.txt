@@ -3,13 +3,15 @@ state={
 	id=342
 	name="STATE_342"
 	resources={
-		lead=35.000
 	}
 
 	history={
 		owner = TUR
 		victory_points = {
 			1005 5 
+		}
+		victory_points = {
+			12016 1
 		}
 		buildings = {
 			infrastructure = 2
