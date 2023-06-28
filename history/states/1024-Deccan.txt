@@ -8,6 +8,15 @@ state={
 	history={
 		owner = PEI
 		add_core_of = PEI
+		victory_points = {
+			12142 1
+		}
+		victory_points = {
+			10210 1
+		}
+		victory_points = {
+			12182 1
+		}
 
 	}
 	manpower=10037273

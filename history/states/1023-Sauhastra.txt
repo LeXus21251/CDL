@@ -8,6 +8,18 @@ state={
 	history={
 		owner = RAJ
 		add_core_of = RAJ
+		victory_points = {
+			7207 1
+		}
+		victory_points = {
+			4090 1
+		}
+		victory_points = {
+			10118 1
+		}
+		victory_points = {
+			1190 1
+		}
 
 	}
 	manpower=3027384

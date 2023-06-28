@@ -3,7 +3,7 @@ state={
 	id=427
 	name="STATE_427"
 	resources={
-		lead=6.000
+
 	}
 
 	history={
@@ -11,6 +11,21 @@ state={
 		add_core_of = HYD
 		victory_points = {
 			8087 1 
+		}
+		victory_points = {
+			1359 1
+		}
+		victory_points = {
+			11950 1
+		}
+		victory_points = {
+			10324 1
+		}
+		victory_points = {
+			5019 1
+		}
+		victory_points = {
+			10311 1
 		}
 		buildings = {
 			infrastructure = 2

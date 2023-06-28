@@ -6,6 +6,15 @@ state={
 	history={
 		owner = MYS
 		add_core_of = MYS
+		victory_points = {
+			4414 1
+		}
+		victory_points = {
+			10756 1
+		}
+		victory_points = {
+			12779 1
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

@@ -116,7 +116,7 @@ country_event = {
 		option = {
 			name = "We have been defeated"
 			trigger = {
-				is_ai = mo
+				is_ai = no
 			}
 			JAP = {
 				change_tag_from = TOK

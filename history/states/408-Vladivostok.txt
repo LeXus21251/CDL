@@ -3,7 +3,6 @@ state={
 	id=408
 	name="STATE_408"
 	resources={
-		lead=20.000
 	}
 
 	history={

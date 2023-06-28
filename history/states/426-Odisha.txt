@@ -4,13 +4,25 @@ state={
 	name="STATE_426"
 	resources={
 		steel=25.000
-		lead=20.000
+
 		aluminium=1.000
 	}
 
 	history={
 		owner = MTH
 		add_core_of = MTH
+		victory_points = {
+			10428 1
+		}
+		victory_points = {
+			10116 1
+		}
+		victory_points = {
+			12063 1
+		}
+		victory_points = {
+			4104 1
+		}
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

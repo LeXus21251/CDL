@@ -8,6 +8,15 @@ state={
 	history={
 		owner = VOC
 		add_core_of = VOC
+		victory_points = {
+			4327 1
+		}
+		victory_points = {
+			4416 1
+		}
+		victory_points = {
+			1381 1
+		}
 
 	}
 	manpower=9273662

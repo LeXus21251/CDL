@@ -9,7 +9,7 @@ bookmarks = {
 		
 		"TOK"={
 			history = "TOK_ITSUSHI_DESC"
-			ideology = authoritarianism
+			ideology = auth
 			ideas = {
 				bushido
 				TOK_tokugawa_clan
@@ -24,7 +24,7 @@ bookmarks = {
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
-			ideology = absolutism
+			ideology = abs
 			ideas = {
 				sakoku_edict
 				bushido
@@ -35,7 +35,7 @@ bookmarks = {
 		}
 		"JAC"={
 			history = "JAC_GATHERING_STORM_DESC"
-			ideology = traditionalism
+			ideology = trad
 			ideas = {
 				JAC_tenrikyo
 				JAC_war
@@ -47,7 +47,7 @@ bookmarks = {
 		}
 		"RYU"={
 			history = "RYU_GATHERING_STORM_DESC"
-			ideology = absolutism
+			ideology = abs
 			ideas = {
 				RYU_qing_influence
 				RYU_pirate_hub

@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=social_cooperatism_subtype
+			ideology=sc_sub
 			traits={}
 			expire="1965.1.1.1"
 			id=-1

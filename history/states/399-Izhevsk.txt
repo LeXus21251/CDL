@@ -5,7 +5,6 @@ state = {
 	manpower = 728323
 	state_category = town
 	resources = {
-		lead = 18 # was: 24
 	}
 
 	history = {

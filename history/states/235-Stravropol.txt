@@ -6,7 +6,6 @@ state={
 	
 	state_category = rural
 	resources={
-		lead=14 # was: 20
 	}
 
 	history={

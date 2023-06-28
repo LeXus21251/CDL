@@ -3,7 +3,9 @@ state={
 	id=348
 	name="STATE_348" # Kayseri
 	manpower = 327837
-	resources = { lead = 32 }
+	resources = { 
+
+	}
 	
 	state_category = rural
 

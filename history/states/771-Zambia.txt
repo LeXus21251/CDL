@@ -3,7 +3,6 @@ state={
 	id=771
 	name="STATE_771"
 	resources={
-		lead=35.000
 		tungsten=8.000
 	}
 

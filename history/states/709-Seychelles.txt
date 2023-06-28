@@ -9,6 +9,9 @@ state={
 	{
 		owner = FEI
 		add_core_of = FEI
+		victory_points = {
+			2188 1
+		}
 		buildings = {
 			infrastructure = 2
 			2188 = {
