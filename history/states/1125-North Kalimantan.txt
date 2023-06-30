@@ -1,0 +1,31 @@
+
+state={
+	id=1125
+	name="STATE_1125"
+	resources={
+
+	}
+
+	history={
+		owner = FEI
+		add_core_of = FEI
+		victory_points = {
+			7415 1
+		}
+		victory_points = {
+			12228 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		1404 2047 7231 7415 10325 12228 12243 13358
+	}
+	manpower=782716
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

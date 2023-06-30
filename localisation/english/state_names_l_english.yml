@@ -334,7 +334,7 @@
  STATE_331:0 "Terre Nueve"
  STATE_332:0 "Terre du Laboureur"
  STATE_333:2 "Sabwah"
- STATE_334:1 "Kalimantan"
+ STATE_334:1 "Zuid-Kalimantan"
  STATE_335:0 "Java"
  STATE_336:0 "Singapore"
  STATE_337:1 "Færøyene"
@@ -1125,3 +1125,4 @@
  STATE_1122:0 "Aqaba"
  STATE_1123:0 "Qanat es-Suwais"
  STATE_1124:0 "Suwēs-Būr Mamālik"
+ STATE_1125:0 "Kalimantan du Nord"

@@ -4,7 +4,6 @@ state={
 	name="STATE_47"
 	resources={
 		steel=3.000
-		lead=12.000
 		aluminium=30.000
 		tungsten=10.000
 	}

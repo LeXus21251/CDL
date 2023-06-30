@@ -9,12 +9,7 @@ state={
 
 	history={
 		owner = PHI
-		victory_points = {
-			7371 1 
-		}
-		victory_points = {
-			1208 1 
-		}
+
 		buildings = {
 			infrastructure = 2
 			1208 = {
@@ -28,6 +23,12 @@ state={
 
 		}
 		add_core_of = PHI
+		victory_points = {
+			10199 1
+		}
+		victory_points = {
+			10212 1
+		}
 
 	}
 

@@ -6,8 +6,14 @@ state={
 		1291 7342 12144 
 	}
 	history={
-		owner = SIA
-		add_core_of = SIA
+		owner = FEI
+		add_core_of = FEI
+		victory_points = {
+			7342 1
+		}
+		victory_points = {
+			12144 1
+		}
 
 	}
 	manpower= 427812

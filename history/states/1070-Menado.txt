@@ -8,6 +8,9 @@ state={
 	history={
 		owner = PHI
 		add_core_of = PHI
+		victory_points = {
+			10153 1
+		}
 
 	}
 	manpower=421728

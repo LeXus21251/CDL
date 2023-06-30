@@ -8,6 +8,15 @@ state={
 	history={
 		owner = AWA
 		add_core_of = AWA
+		victory_points = {
+			1983 1
+		}
+		victory_points = {
+			7334 1
+		}
+		victory_points = {
+			1541 1
+		}
 
 	}
 	manpower=2467382

@@ -9,7 +9,7 @@ state={
 		owner = FEI
 		add_core_of = FEI
 		victory_points = {
-			4327 1
+			4237 1
 		}
 		victory_points = {
 			10255 1

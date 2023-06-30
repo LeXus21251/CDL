@@ -8,6 +8,18 @@ state={
 	history={
 		owner = SIA
 		add_core_of = SIA
+		victory_points = {
+			10217 1
+		}
+		victory_points = {
+			1315 1
+		}
+		victory_points = {
+			12125 1
+		}
+		victory_points = {
+			1403 1
+		}
 
 	}
 	manpower=572839

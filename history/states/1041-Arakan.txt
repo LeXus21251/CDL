@@ -8,6 +8,15 @@ state={
 	history={
 		owner = BRM
 		add_core_of = BRM
+		victory_points = {
+			9991 1
+		}
+		victory_points = {
+			12090 1
+		}
+		victory_points = {
+			4019 1
+		}
 
 	}
 	manpower=1327883

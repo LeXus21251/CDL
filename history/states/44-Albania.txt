@@ -4,7 +4,6 @@ state={
 	name="STATE_44"
 	resources={
 		aluminium=2.000
-		lead=3.000
 		oil=4.000
 	}
 

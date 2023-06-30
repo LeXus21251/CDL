@@ -23,13 +23,10 @@ state={
 		add_core_of = POL
 		add_core_of = DNZ
 		add_core_of = KSH
-		1938.3.12 = {
-			add_claim_by = GER
-		}
 	}
 
 	provinces={
-		362
+		362 13355
 	}
 
 	local_supplies=0.0 

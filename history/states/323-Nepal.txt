@@ -14,7 +14,7 @@ state={
 
 		}
 		victory_points = {
-			4987 3 
+			10910 3 
 		}
 		add_core_of = NEP
 

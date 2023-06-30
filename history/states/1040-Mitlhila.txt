@@ -8,6 +8,18 @@ state={
 	history={
 		owner = BAN
 		add_core_of = BAN
+		victory_points = {
+			7475 1
+		}
+		victory_points = {
+			1656 1
+		}
+		victory_points = {
+			4459 1
+		}
+		victory_points = {
+			10389 1
+		}
 
 	}
 	manpower=12637328
