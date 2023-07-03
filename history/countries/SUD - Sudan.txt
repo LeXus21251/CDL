@@ -1,4 +1,4 @@
-﻿capital = 551
+﻿capital = 886
 set_cosmetic_tag = SUD_TUR
 # Starting tech
 set_technology = {

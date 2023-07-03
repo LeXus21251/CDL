@@ -10,7 +10,7 @@ state={
 
 		}
 		victory_points = {
-			4879 1 
+			2207 1 
 		}
 		add_core_of = NMB
 

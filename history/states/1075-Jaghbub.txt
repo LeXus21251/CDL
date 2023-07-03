@@ -8,7 +8,9 @@ state={
 	history={
 		owner = SNS
 		add_core_of = SNS
-
+		victory_points = {
+			1060 1 
+		}
 	}
 	manpower=67837
 	state_category = pastoral

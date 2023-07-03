@@ -1,4 +1,4 @@
-﻿capital = 778
+﻿capital = 556
 set_cosmetic_tag = MLI_FRA
 # Starting tech
 set_technology = {
