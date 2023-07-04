@@ -14,6 +14,9 @@ state={
 		victory_points = {
 			5033 5 
 		}
+		victory_points = {
+			4900 1
+		}
 		add_core_of = TIB
 
 	}

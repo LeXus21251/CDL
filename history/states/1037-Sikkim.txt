@@ -7,6 +7,9 @@ state={
 	history={
 		owner = SKK
 		add_core_of = SKK
+		victory_points = {
+			4435 1
+		}
 
 	}
 	manpower=112738

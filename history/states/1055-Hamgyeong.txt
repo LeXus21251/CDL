@@ -8,6 +8,18 @@ state={
 	history={
 		owner = KOR
 		add_core_of = KOR
+		victory_points = {
+			6928 1
+		}
+		victory_points = {
+			6922 1
+		}
+		victory_points = {
+			959 1
+		}
+		victory_points = {
+			6822 1
+		}
 
 	}
 	manpower=1078223

@@ -10,10 +10,10 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
-		victory_points = {
-			12612 1 #Sainshand
-		}
 		add_core_of = MON
+		victory_points = {
+			1787 1
+		}
 	}
 	manpower=37483
 	buildings_max_level_factor=1.000

@@ -13,17 +13,20 @@ state={
 			industrial_complex = 2
 			arms_factory = 2
 		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 2
-				infrastructure = 3 #was: 6
-				air_base = 1
-				arms_factory = 1
-			}
-
-		}
 		victory_points = {
 			7097 5 
+		}
+		victory_points = {
+			4125 1
+		}
+		victory_points = {
+			7502 1
+		}
+		victory_points = {
+			12310 1
+		}
+		victory_points = {
+			9999 1
 		}
 
 	}

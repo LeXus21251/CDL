@@ -5,8 +5,7 @@ state=
 	manpower = 3027618
 	
 	state_category = town
-	history=
-	{
+	history= {
 		owner = QIN
 		add_core_of = QIN
 		buildings = {
@@ -22,6 +21,9 @@ state=
 		}
 		victory_points = {
 			12068 1 
+		}
+		victory_points = {
+			11959 1
 		}
 
 	}

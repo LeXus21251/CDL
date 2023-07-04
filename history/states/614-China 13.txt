@@ -9,6 +9,21 @@ state={
 	history={
 		owner = QIN
 		add_core_of = QIN
+		victory_points = {
+			4093 1
+		}
+		victory_points = {
+			12062 1
+		}
+		victory_points = {
+			10003 1
+		}
+		victory_points = {
+			1169 1
+		}
+		victory_points = {
+			11980 1
+		}
 		buildings = {
 			infrastructure = 2
 		}

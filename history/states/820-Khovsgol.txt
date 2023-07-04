@@ -9,13 +9,10 @@ state={
 			infrastructure = 1
 
 		}
-		victory_points = {
-			1791 1 
-		}
-		victory_points = {
-			1834 1 
-		}
 		add_core_of = MON
+		victory_points = {
+			1834 1
+		}
 
 	}
 

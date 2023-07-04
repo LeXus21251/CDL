@@ -9,7 +9,13 @@ state={
 		owner = QIN
 		add_core_of = QIN
 		victory_points = {
-			7418 1 
+			7301 1 
+		}
+		victory_points = {
+			7418 1
+		}
+		victory_points = {
+			4295 1
 		}
 		buildings = {
 			infrastructure = 2
