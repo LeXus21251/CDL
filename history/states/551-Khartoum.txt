@@ -7,7 +7,7 @@ state={
 		owner = SUD
 		add_core_of = SUD
 		victory_points = {
-			7925 1 
+			7925 3 
 		}
 		victory_points = {
 			12836 1 
@@ -17,6 +17,9 @@ state={
 		}
 		victory_points = {
 			12881 1 
+		}
+		victory_points = {
+			12806 1 
 		}
 		buildings = {
 			infrastructure = 1

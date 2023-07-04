@@ -73,5 +73,6 @@ set_politics = {
 	elections_allowed = no
 }
 recruit_character = MHD_mahdi
+recruit_character = MHD_stanislaw_tarkowski
 
 

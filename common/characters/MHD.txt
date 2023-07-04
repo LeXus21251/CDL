@@ -1,6 +1,6 @@
 characters={
 	MHD_mahdi={
-		name="Mahdi"
+		name="Muhammad Ahmad al-Mahdi"
 		portraits={
 			civilian={
 				large="gfx/leaders/MHD/Mahdi.dds"
@@ -11,6 +11,24 @@ characters={
 			traits={}
 			expire="1965.1.1.1"
 			id=-1
+		}
+	}
+
+	MHD_stanislaw_tarkowski = {
+		name = "Muhammad al-Stanisław Tarkowski"
+
+		portraits = {
+			army = {
+				large="gfx/leaders/MHD/Military/MHD_Stanislaw_Tarkowski.dds"
+			}
+		}
+
+		corps_commander = {
+			skill = 5
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
 		}
 	}
 }

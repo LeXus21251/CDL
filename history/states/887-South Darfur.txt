@@ -7,7 +7,16 @@ state={
 		owner = MHD
 		add_core_of = MHD
 		victory_points = {
-			5060 1
+			5060 3
+		}
+		victory_points = {
+			1960 1
+		}
+		victory_points = {
+			8052 1
+		}
+		victory_points = {
+			4033 1
 		}
 		buildings = {
 			infrastructure = 1

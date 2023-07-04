@@ -6,6 +6,12 @@ state={
 	history={
 		owner = SUD
 		add_core_of = SUD
+		victory_points = {
+			10795 1 
+		}
+		victory_points = {
+			2016 1 
+		}
 		buildings = {
 			infrastructure = 2
 

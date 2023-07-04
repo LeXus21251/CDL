@@ -334,8 +334,8 @@ LBA = {
 }
 
 EGY = {
-	color = rgb { 230 230 70 }
-	color_ui = rgb { 230 230 70 }
+	color = rgb { 255 201 15 }
+	color_ui = rgb { 255 201 15 }
 }
 
 PAL = {
@@ -1190,8 +1190,8 @@ BAG = {
 }
 
 MHD = {
-	color = rgb { 255 255 174 }
-	color_ui = rgb { 255 255 174 }
+	color = rgb { 242 195 153 }
+	color_ui = rgb { 242 195 153 }
 }
 
 SLL = {
