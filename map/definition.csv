@@ -13364,3 +13364,5 @@
 13363;119;34;84;lake;false;lakes;6
 13364;239;69;69;lake;false;lakes;6
 13365;82;42;183;sea;true;ocean;0
+13366;255;68;118;land;true;plains;2
+13367;189;135;255;land;false;forest;2

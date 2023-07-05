@@ -22,11 +22,24 @@ state={
 		}
 		add_core_of = NEG
 		victory_points = {
-			3878 30.0 
+			3878 30
 		}
 		victory_points = {
-			11654 3 
+			9774 1
 		}
+		victory_points = {
+			9693 1
+		}
+		victory_points = {
+			3806 1
+		}
+		victory_points = {
+			11650 1
+		}
+		victory_points = {
+			9708 1
+		}
+
 
 	}
 

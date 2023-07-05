@@ -8,6 +8,12 @@ state={
 	history={
 		owner = IRO
 		add_core_of = IRO
+		victory_points = {
+			11800 15 
+		}
+		victory_points = {
+			11654 3 
+		}
 
 	}
 	manpower=507882

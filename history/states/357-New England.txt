@@ -34,11 +34,35 @@ state={
 		victory_points = {
 			9832 1 
 		}
+		victory_points = {
+			6909 1
+		}
+		victory_points = {
+			11830 1
+		}
+		victory_points = {
+			3710 1
+		}
+		victory_points = {
+			3715 1
+		}
+		victory_points = {
+			3712 1
+		}
+		victory_points = {
+			3732 1
+		}
+		victory_points = {
+			6719 1
+		}
+		victory_points = {
+			12459 1
+		}
 
 	}
 
 	provinces={
-		715 718 733 905 908 3710 3712 3715 3732 3906 4445 6719 6732 6909 7462 7629 9675 9832 9847 9850 10318 10481 11830 12202 12459 
+		715 718 733 905 908 3710 3712 3715 3732 3906 4445 6719 6732 6909 7462 7629 9675 9832 9847 9850 10318 10481 11830 12202 12459 13366
 	}
 	manpower=3172883
 	buildings_max_level_factor=1.000
