@@ -3,26 +3,22 @@ state={
 	id=970
 	name="STATE_970"
 	provinces={
-		606 6614 6619 6799 9586 9588 9591 11574 11741 
+	 6614 6619 6983 9586 9588 
 	}
 	history={
 		owner = BOS
 		add_core_of = BOS
-		victory_points = {
-			606 1
-		}
-		victory_points = {
-			6799 1
-		}
+
 		victory_points = {
 			9586 1
 		}
+
 		victory_points = {
-			9591 1
+			6983 3 
 		}
 
 	}
-	manpower=587934
+	manpower=337934
 	state_category=rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
