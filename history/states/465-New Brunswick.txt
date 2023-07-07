@@ -15,6 +15,24 @@ state={
 
 		}
 		add_core_of = ACA
+		victory_points = {
+			1424 1
+		}
+		victory_points = {
+			4342 1
+		}
+		victory_points = {
+			1282 1
+		}
+		victory_points = {
+			7379 1
+		}
+		victory_points = {
+			12289 1
+		}
+		victory_points = {
+			10247 1
+		}
 
 	}
 

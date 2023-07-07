@@ -16,6 +16,12 @@ state={
 			}
 		}
 		add_core_of = ACA
+		victory_points = {
+			12505 1
+		}
+		victory_points = {
+			12698 1
+		}
 	}
 
 	provinces={

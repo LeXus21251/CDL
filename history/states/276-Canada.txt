@@ -14,10 +14,25 @@ state={
 		}
 		add_core_of = QUE
 		victory_points = {
-			3778 20 
+			3605 20 
 		}
 		victory_points = {
 			3775 10 
+		}
+		victory_points = {
+			749 1
+		}
+		victory_points = {
+			11725 1
+		}
+		victory_points = {
+			9667 1
+		}
+		victory_points = {
+			6610 1
+		}
+		victory_points = {
+			11585 1
 		}
 
 	}

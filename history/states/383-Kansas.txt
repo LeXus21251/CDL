@@ -15,19 +15,8 @@ state={
 
 		}
 		add_core_of = LOU
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
 
-			}
 
-		}
-		victory_points = {
-			4740 3 
-		}
-		victory_points = {
-			7834 1 
-		}
 
 	}
 

@@ -7,6 +7,9 @@ state={
 	history={
 		owner = ACA
 		add_core_of = ACA
+		victory_points = {
+			373 1
+		}
 		buildings = {
 			infrastructure = 2
 			373 = {

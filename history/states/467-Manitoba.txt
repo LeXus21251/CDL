@@ -13,6 +13,24 @@ state={
 		victory_points = {
 			4872 5 
 		}
+		victory_points = {
+			4218 1
+		}
+		victory_points = {
+			4875 1
+		}
+		victory_points = {
+			7896 1
+		}
+		victory_points = {
+			12688 1
+		}
+		victory_points = {
+			4426 1
+		}
+		victory_points = {
+			12636 1
+		}
 		add_core_of = CAN
 
 	}

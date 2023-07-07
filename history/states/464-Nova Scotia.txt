@@ -11,6 +11,15 @@ state={
 		victory_points = {
 			7361 3
 		}
+		victory_points = {
+			1354 1
+		}
+		victory_points = {
+			4430 1
+		}
+		victory_points = {
+			4360 1
+		}
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
