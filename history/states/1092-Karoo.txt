@@ -8,6 +8,12 @@ state={
 	history={
 		owner = SAF
 		add_core_of = SAF
+		victory_points = {
+			10442 1
+		}
+		victory_points = {
+			10668 1
+		}
 
 	}
 	manpower=239486

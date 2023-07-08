@@ -2107,19 +2107,35 @@ VICTORY_POINTS_6363:0 "Bangor"
 
 ## SOUTH AF
  VICTORY_POINTS_12589:0 "Kaapstad"
- VICTORY_POINTS_1468:0 "Pretoriustad"
- VICTORY_POINTS_4696:0 "Oranjehaven"
+ VICTORY_POINTS_1468:0 "Johannesstad"
+ VICTORY_POINTS_4696:0 "Peachmonding"
+ VICTORY_POINTS_12547:0 "Jakob Baai"
+ VICTORY_POINTS_4556:0 "Bergstad"
+ VICTORY_POINTS_1833:0 "Oosten Haag"
+ VICTORY_POINTS_4584:0 "Stadtholderstad"
+ VICTORY_POINTS_10442:0 "Oranjestad"
+ VICTORY_POINTS_10668:0 "Vooruitzigt"
+ VICTORY_POINTS_10415:0 "Compagniestad"
+ VICTORY_POINTS_4822:0 "Nieuw Indische"
  
  VICTORY_POINTS_1494:0 "Ulundi"
  VICTORY_POINTS_10400:0 "Joanville"
+ VICTORY_POINTS_12648:0 "Orangeville"
+ VICTORY_POINTS_8178:0 "Port Dingane"
  
  VICTORY_POINTS_2207:0 "Anniversary Bay"
+ VICTORY_POINTS_13217:0 "Cromwelltown"
  
  VICTORY_POINTS_10525:0 "Peugotville"
  VICTORY_POINTS_10929:0 "Audincourt"
+ VICTORY_POINTS_7842:0 "Commune de Raymond"
+ VICTORY_POINTS_1874:0 "Sophiecourt"
  
  VICTORY_POINTS_2120:0 "Beira"
  VICTORY_POINTS_8245:0 "Lourenco Marques"
+ VICTORY_POINTS_5164:0 "Porto Amélia"
+ VICTORY_POINTS_12935:0 "Vila Pery"
+ VICTORY_POINTS_12950:0 "Tete"
 ## EAST AF
  VICTORY_POINTS_12941:0 "Kismaayo"
  VICTORY_POINTS_1939:0 "Nairobi"
@@ -2411,7 +2427,7 @@ VICTORY_POINTS_6363:0 "Bangor"
  VICTORY_POINTS_4872:0 "Saint-Thorlak" #Sankti Thorlak 
  VICTORY_POINTS_12688:0 "La Reine" #Drottning
  VICTORY_POINTS_4426:0 "Baie du Sigurðsson" #Sigurðssonarflóa
- VICTORY_POINTS_12636:0 "Skaganum" #Skaganum
+ VICTORY_POINTS_12636:0 "Skaganum"
  VICTORY_POINTS_4218:0 "Nouvelle-Húsavík" #Nýr Húsavík
  VICTORY_POINTS_4875:0 "Frelsiville" #Frelsiavik
  VICTORY_POINTS_7896:0 "Saint-Pierre" #Sankti Pétur 

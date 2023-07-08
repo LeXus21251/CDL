@@ -20,10 +20,19 @@ state={
 
 		}
 		victory_points = {
-			1468 3 
+			12589 10 
 		}
 		victory_points = {
-			12589 10 
+			4696 1
+		}
+		victory_points = {
+			12547 1
+		}
+		victory_points = {
+			10415 1
+		}
+		victory_points = {
+			4822 1
 		}
 		add_core_of = SAF
 
