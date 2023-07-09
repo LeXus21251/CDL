@@ -1,4 +1,4 @@
-state={
+	state={
 	id=903
 	name="STATE_903"
 	manpower = 276162
@@ -9,6 +9,12 @@ state={
 		buildings = {
 			infrastructure = 1
 
+		}
+		victory_points = {
+			10976 1 
+		}
+		victory_points = {
+			10761 1 
 		}
 		
 		add_core_of = KEN

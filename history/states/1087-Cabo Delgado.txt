@@ -8,6 +8,9 @@ state={
 	history={
 		owner = TZN
 		add_core_of = TZN
+		victory_points = {
+			2123 1 
+		}
 
 	}
 	manpower=976283
