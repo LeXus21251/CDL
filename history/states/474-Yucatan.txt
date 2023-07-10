@@ -19,15 +19,13 @@ state={
 			}
 		}
 		add_core_of = MEX
-		#victory_points = {
-		#	12715 3
-		#}
+		victory_points = {
+			12715 3
+		}
 		victory_points = {
 			4904 1
 		}
-		#victory_points = {
-		#	4965 5
-		#}
+
 	}
 
 	provinces={
