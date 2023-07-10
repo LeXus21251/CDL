@@ -12,6 +12,12 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = CAS
+		victory_points = {
+			7259 1
+		}
+		victory_points = {
+			12259 1
+		}
 	}
 
 	provinces={
