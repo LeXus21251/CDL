@@ -7,6 +7,12 @@ state={
 	history={
 		owner = PRU
 		add_core_of = PRU
+		victory_points = {
+			5228 1
+		}
+		victory_points = {
+			11000 1
+		}
 
 	}
 	manpower=316283

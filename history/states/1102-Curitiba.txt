@@ -8,6 +8,15 @@ state={
 	history={
 		owner = WED
 		add_core_of = WED
+		victory_points = {
+			5167 1
+		}
+		victory_points = {
+			7553 1
+		}
+		victory_points = {
+			8181 1
+		}
 
 	}
 	manpower=782937

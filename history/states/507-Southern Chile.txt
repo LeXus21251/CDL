@@ -5,8 +5,14 @@ state={
 
 	history={
 		owner = MAP
-                victory_points = {
+            victory_points = {
 			5169 1
+		}
+		victory_points = {
+			12954 1
+		}
+		victory_points = {
+			5159 1
 		}
 		buildings = {
 			infrastructure = 1

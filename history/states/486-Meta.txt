@@ -12,6 +12,9 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = COL
+		victory_points = {
+			2007 1
+		}
 	}
 
 	provinces={

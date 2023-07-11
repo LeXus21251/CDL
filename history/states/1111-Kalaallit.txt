@@ -6,16 +6,16 @@ state=
 	
 	state_category = pastoral
 	
-	history=
-	{
+	history= {
 		owner = KAA
 		buildings = {
 		}
 		add_core_of = KAA
+		victory_points = {
+			10245 1
+		}
 	}
-	provinces=
-	{
-10245 	}
+	provinces= {10245}
 
 	local_supplies=0.0 
 }

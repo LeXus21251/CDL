@@ -17,6 +17,12 @@ state={
 
 		}
 		add_core_of = MAP
+		victory_points = {
+			11005 1
+		}
+		victory_points = {
+			1639 1
+		}
 
 	}
 
