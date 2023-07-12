@@ -17,10 +17,10 @@ state={
 		}
 		add_core_of = CRL
 		victory_points = {
-			7138 3 
+			7138 1 
 		}
 		victory_points = {
-			1019 1
+			1019 3
 		}
 		victory_points = {
 			1163 1

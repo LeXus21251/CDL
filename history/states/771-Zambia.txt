@@ -10,7 +10,10 @@ state={
 		owner = ZAM
 		add_core_of = ZAM
 		victory_points = {
-			12677 1 
+			5199 1 
+		}
+		victory_points = {
+			7872 1 
 		}
 		buildings = {
 			infrastructure = 2

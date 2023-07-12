@@ -17,7 +17,7 @@ state={
 		}
 		add_core_of = GEG
 		victory_points = {
-			12384 10 
+			12384 1 
 		}
 		victory_points = {
 			7118 1
@@ -26,7 +26,7 @@ state={
 			7612 1
 		}
 		victory_points = {
-			11975 1
+			11975 10
 		}
 
 	}

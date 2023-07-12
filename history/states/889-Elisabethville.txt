@@ -12,6 +12,9 @@ state={
 			infrastructure = 1
 
 		}
+		victory_points = {
+			1817 1 
+		}
 		add_core_of = COG
 
 	}

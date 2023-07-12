@@ -6,7 +6,9 @@ state={
 	history={
 		owner = CMR
 		add_core_of = CMR
-
+		victory_points = {
+			9137 1 
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
