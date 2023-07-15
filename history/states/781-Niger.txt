@@ -7,7 +7,16 @@ state={
 		owner = NGR
 		add_core_of = NGR
 		victory_points = {
-			5004 1 
+			5004 2 
+		}
+		victory_points = {
+			5101 1 
+		}
+		victory_points = {
+			8128 1 
+		}
+		victory_points = {
+			4913 1 
 		}
 		buildings = {
 			infrastructure = 2

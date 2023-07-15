@@ -6,6 +6,9 @@ state={
 	history={
 		owner = SEN
 		add_core_of = SEN
+		victory_points = {
+			10788 1 
+		}
 		buildings = {
 			infrastructure = 0
 

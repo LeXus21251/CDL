@@ -7,7 +7,7 @@ state={
 		owner = CMR
 		add_core_of = CMR
 		victory_points = {
-			9137 1 
+			4889 1 
 		}
 		buildings = {
 			infrastructure = 2
