@@ -3,17 +3,17 @@ state={
 	id=1016
 	name="STATE_1016"
 	provinces={
-		4976 12894 13287 13288 13289 
+		13287
 	}
 	history={
-		owner = SHI
-		add_core_of = SHI
+		owner = KAT
+		add_core_of = KAT
 		victory_points = {
 			13287 1
 		}
 
 	}
-	manpower=71694
+	manpower=28927
 	state_category = pastoral
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

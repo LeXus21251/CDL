@@ -2831,6 +2831,18 @@
   SHI_abs:0 "Sultanate of Shihr"
   SHI_abs_DEF:0 "the Sultanate of Shihr"
 
+  KAT:0 "Kathiri"
+  KAT_ADJ:0 "Kathiri"
+  KAT_DEF:0 "Kathiri"
+  KAT_abs:0 "Sultanate of Kathiri"
+  KAT_abs_DEF:0 "the Sultanate of Kathiri"
+
+  MAH:0 "Mahra"
+  MAH_ADJ:0 "Mahran"
+  MAH_DEF:0 "the Mahra"
+  MAH_abs:0 "Sultanate of Mahra"
+  MAH_abs_DEF:0 "the Sultanate of Mahra"
+
   ARB:0 "Arabistan"
   ARB_ADJ:0 "Arabistani"
   ARB_DEF:0 "Arabistan"

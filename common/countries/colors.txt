@@ -1029,6 +1029,16 @@ SHI = {
 	color_ui = rgb { 133 14 146 }
 }
 
+MAH = {
+	color = rgb { 86 163 120 }
+	color_ui = rgb { 86 163 120 }
+}
+
+KAT = {
+	color = rgb { 193 216 65 }
+	color_ui = rgb { 193 216 65 }
+}
+
 DBB = {
 	color = rgb { 236 47 132 }
 	color_ui = rgb { 236 47 132 }

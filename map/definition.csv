@@ -13366,3 +13366,12 @@
 13365;82;42;183;sea;true;ocean;0
 13366;255;68;118;land;true;plains;2
 13367;189;135;255;land;false;forest;2
+13368;120;12;188;land;false;jungle;6
+13369;111;165;186;lake;false;lakes;6
+13370;175;82;127;land;false;plains;5
+13371;75;175;66;land;false;plains;5
+13372;255;179;66;lake;false;lakes;5
+13373;79;175;150;lake;false;lakes;5
+13374;60;175;40;lake;false;lakes;5
+13375;175;79;92;lake;false;lakes;2
+13376;175;157;35;lake;false;lakes;2

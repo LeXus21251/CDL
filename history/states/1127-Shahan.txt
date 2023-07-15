@@ -1,0 +1,20 @@
+
+state={
+	id=1127
+	name="STATE_1127"
+	provinces={
+		12894 13289 
+	}
+	history={
+		owner = MAH
+		add_core_of = MAH
+		victory_points = {
+			13289 1
+		}
+
+	}
+	manpower=16118
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
