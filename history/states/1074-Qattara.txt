@@ -8,6 +8,20 @@ state={
 	history={
 		owner = EGY
 		add_core_of = EGY
+		victory_points = {
+			10907 1 
+		}
+		victory_points = {
+			12764 1 
+		}
+
+		victory_points = {
+			12733 1 
+		}
+		victory_points = {
+			2064 1 
+		}
+
 
 	}
 	manpower=2783927

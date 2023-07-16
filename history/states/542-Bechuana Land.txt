@@ -14,7 +14,7 @@ state={
 		}
 		add_core_of = BOT
 		victory_points = {
-			10525 1 
+			13370 1 
 		}
 
 	}

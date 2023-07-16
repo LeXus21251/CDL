@@ -12,6 +12,12 @@ state={
 
 		}
 		add_core_of = EGY
+		victory_points = {
+			13341 1 
+		}
+		victory_points = {
+			13340 1 
+		}
 
 	}
 	manpower=19271
