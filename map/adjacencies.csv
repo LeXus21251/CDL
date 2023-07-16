@@ -168,6 +168,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13342;13325;sea;5095;-1;-1;-1;-1;;Tamdjert - Djanet
 13343;13325;sea;5095;-1;-1;-1;-1;;In Guezzam - Djanet
 13325;13324;sea;5095;-1;-1;-1;-1;;Djanet - Awbari
+13325;13377;sea;5095;-1;-1;-1;-1;;Djanet - Ghat
 4913;13314;sea;1956;-1;-1;-1;-1;;Niger - Iferouane
 10917;13315;sea;1956;-1;-1;-1;-1;;Niger - Dabaga
 13314;13315;sea;1956;-1;-1;-1;-1;;Iferouane - Dabaga
@@ -179,6 +180,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13328;13329;sea;12022;-1;-1;-1;-1;;Waddan - Sabha
 13329;13324;sea;12022;-1;-1;-1;-1;;Sabha - Awbari
 13329;13330;sea;12022;-1;-1;-1;-1;;Sabha - Al Wigh
+13377;13330;sea;12022;-1;-1;-1;-1;;Ghat - Al Wigh
 13329;13332;sea;12022;-1;-1;-1;-1;;Sabha - Tazirbu
 13330;13317;sea;12022;-1;-1;-1;-1;;Al Wigh - Segeudine
 12082;13331;sea;1994;-1;-1;-1;-1;;Jaghbub - Jikharra
