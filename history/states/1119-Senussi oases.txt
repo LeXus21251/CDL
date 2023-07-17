@@ -12,6 +12,24 @@ state={
 
 		}
 		add_core_of = SNS
+		victory_points = {
+			13334 1 
+		}
+		victory_points = {
+			13331 1 
+		}
+		victory_points = {
+			13332 1 
+		}
+		victory_points = {
+			13336 1 
+		}
+		victory_points = {
+			13335 1 
+		}
+		victory_points = {
+			13338 1 
+		}
 
 	}
 	manpower=49183

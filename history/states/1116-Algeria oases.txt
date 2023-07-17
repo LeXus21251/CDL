@@ -21,6 +21,27 @@ state={
 		victory_points = {
 			13325 1 
 		}
+		victory_points = {
+			13342 1 
+		}
+		victory_points = {
+			13343 1 
+		}
+		victory_points = {
+			13322 1 
+		}
+		victory_points = {
+			13318 1 
+		}
+		victory_points = {
+			13319 1 
+		}
+		victory_points = {
+			13321 1 
+		}
+                victory_points = {
+                        13326 1
+                }
 
 	}
 	manpower=82037

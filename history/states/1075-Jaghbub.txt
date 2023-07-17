@@ -11,6 +11,9 @@ state={
 		victory_points = {
 			1060 1 
 		}
+		victory_points = {
+			12082 1 
+		}
 	}
 	manpower=67837
 	state_category = pastoral
