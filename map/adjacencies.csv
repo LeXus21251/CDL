@@ -145,6 +145,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1513;10440;sea;7230;-1;-1;-1;-1;;Bahama-Turks
 2729;2408;sea;6257;2949;1598;2962;1612;HANSEATIC_CANAL;Hamburg
 2756;5709;sea;13300;-1;-1;-1;-1;NICARAGUA_CANAL;Nicaragua
+8642;13157;sea;12149;-1;-1;-1;-1;LAWRENCE_RIVER;St Lawrence
+13154;13157;sea;749;-1;-1;-1;-1;;Niagara River
+13154;13199;sea;13156;-1;-1;-1;-1;;Sainte-Claire River
+13200;13159;sea;5205;-1;-1;-1;-1;;Sainte-Marie River
 
 ## SAHARA CROSSINGS
 10875;13313;sea;10838;-1;-1;-1;-1;;Rio de oro-Zouerat

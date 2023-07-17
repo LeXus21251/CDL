@@ -12,33 +12,28 @@
 # The 'name' property is how you refer to the rule in adjacencies.csv
 
 #Suez Canal
-adjacency_rule =
-{
+adjacency_rule = {
 	name = "SUEZ_CANAL"
 
-	contested =
-	{
+	contested = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	enemy =
-	{
+	enemy = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	friend =
-	{
+	friend = {
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral = {
 		army = yes
 		navy = yes
 		submarine = yes
@@ -61,33 +56,28 @@ adjacency_rule =
 }
 
 #Gibraltar Strait
-adjacency_rule =
-{
+adjacency_rule = {
 	name = "GIBRALTAR_STRAIT"
 
-	contested =
-	{
+	contested =	{
 		army = no
 		navy = no
 		submarine = yes
 		trade = no
 	}
-	enemy =
-	{
+	enemy =	{
 		army = no
 		navy = no
 		submarine = yes
 		trade = no
 	}
-	friend =
-	{
+	friend = {
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral = {
 		army = yes
 		navy = yes
 		submarine = yes
@@ -101,34 +91,29 @@ adjacency_rule =
 }
 
 #Øresund - (Østersøen <-> Kattegat/Skagerak/Nordsøen)
-adjacency_rule =
-{
+adjacency_rule = {
 	name = "DANISH_BELTS_STRAIT"
 
-	contested =
-	{
+	contested = {
 		army = no
 		navy = no
 		submarine = yes
 		trade = no
 	}
-	enemy =
-	{
+	enemy = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	friend =
-	{
+	friend = {
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
-		army = yes
+	neutral = {
+	 	army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
@@ -141,33 +126,28 @@ adjacency_rule =
 }
 
 #Nicaragua Canal
-adjacency_rule =
-{
+adjacency_rule = {
 	name = "NICARAGUA_CANAL"
 
-	contested =
-	{
+	contested = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	enemy =
-	{
+	enemy = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	friend =
-	{
+	friend = {
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral = {
 		army = no
 		navy = no
 		submarine = no
@@ -189,36 +169,31 @@ adjacency_rule =
 }
 
 #Marmara Strait
-adjacency_rule =
-{
+adjacency_rule = {
 	name = "BOSPHORUS_STRAIT"
 
 	is_friend = {
 		TUR_is_friend_for_bosphorus = yes
 	}
-	contested =
-	{
+	contested =	{
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	enemy =
-	{
+	enemy = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	friend =
-	{
+	friend = {
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral =  {
 		army = no
 		navy = no
 		submarine = no
@@ -237,37 +212,32 @@ adjacency_rule =
 }
 
 #The Dardanelles
-adjacency_rule =
-{
+adjacency_rule = {
 	name = "DARDANELLES_STRAIT"
 
 	is_friend = {
 		TUR_is_friend_for_dardanelles = yes
 	}
 
-	contested =
-	{
+	contested = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	enemy =
-	{
+	enemy = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	friend =
-	{
+	friend = {
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral = {
 		army = no
 		navy = no
 		submarine = no
@@ -286,33 +256,28 @@ adjacency_rule =
 }
 
 #Hanseatic Canal
-adjacency_rule =
-{
+adjacency_rule = {
 	name = "HANSEATIC_CANAL"
 
-	contested =
-	{
+	contested = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	enemy =
-	{
+	enemy = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	friend =
-	{
+	friend = {
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral = {
 		army = no
 		navy = no
 		submarine = no
@@ -326,33 +291,28 @@ adjacency_rule =
 	offset = { 0 0 0 }
 }
 #Strait of Hormuz
-adjacency_rule =
-{
+adjacency_rule = {
 	name = "HORMUZ_STRAIT"
 
-	contested =
-	{
+	contested = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	enemy =
-	{
+	enemy = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	friend =
-	{
+	friend = {
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral =  {
 		army = yes
 		navy = yes
 		submarine = yes
@@ -365,34 +325,29 @@ adjacency_rule =
 	offset = { 2 0 12 }
 }
 
-#Strait of Otranto #TODO_Manu: TEST THIS OUT AND REMOVE IF NOT SATISFACTORY
-adjacency_rule =
-{
-	name = "OTRANTO_STRAIT" #TODO_Manu: Remove this loc key too if not necessary
+#Strait of Otranto
+adjacency_rule = {
+	name = "OTRANTO_STRAIT"
 
-	contested =
-	{
+	contested = {
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	enemy =
-	{
+	enemy = {
 		army = no
 		navy = no
 		submarine = yes
 		trade = no
 	}
-	friend =
-	{
+	friend = {
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral = {
 		army = yes
 		navy = yes
 		submarine = yes
@@ -403,4 +358,39 @@ adjacency_rule =
 		
 	icon = 6979
 	offset = { 9 0 6 }
+}
+
+#St Lawrence River
+adjacency_rule = {
+	name = "LAWRENCE_RIVER"
+
+	contested = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 12149 7433 7291 10320 4417 9601 4345 7345 4270 3602 6625 598 3605 6778 }
+		
+	icon = 4345
+	offset = { 0 0 0 }
 }
