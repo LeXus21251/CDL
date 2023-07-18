@@ -19,7 +19,7 @@ state={
 		}
 		add_core_of = VIR
 		victory_points = {
-			788 15 
+			788 1 
 		}
 		victory_points = {
 			10412 10 
@@ -28,7 +28,7 @@ state={
 			3823 1
 		}
 		victory_points = {
-			865 1
+			865 15
 		}
 		victory_points = {
 			1506 1
