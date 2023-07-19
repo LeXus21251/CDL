@@ -1,12 +1,22 @@
 state={
 	id=1067
 	name="STATE_1067"
+	resources = {
+		rare_metals = 1
+		food = 3
+	}
 	provinces={
 		10222 
 	}
 	history={
 		owner = PEI
 		add_core_of = PEI
+		buildings = {
+			infrastructure = 1
+			10222 = {
+				naval_base = 1
+			}
+		}
 
 	}
 	manpower=121837

@@ -2,29 +2,42 @@
 state={
 	id=1062
 	name="STATE_1062"
+	resources = {
+		steel = 9
+		tungsten = 3
+		rare_metals = 7
+		aluminium = 6
+		rubber = 18
+		oil = 4
+	}
 	provinces={
 		1348 1364 1376 1392 4367 4384 4412 4424 7399 7427 10227 10297 10313 12215 12255 12271 13360
 	}
 	history={
 		owner = VOC
 		add_core_of = VOC
-		victory_points = {
-			7427 1
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2
+			7427 = {
+				naval_base = 3
+			}
 		}
 		victory_points = {
-			1376 1
+			7427 10
 		}
 		victory_points = {
-			1376 1
+			1376 3
 		}
 		victory_points = {
 			4424 1
 		}
 		victory_points = {
-			10313 1
+			10313 5
 		}
 		victory_points = {
-			12271 1
+			12271 2
 		}
 		victory_points = {
 			12215 1

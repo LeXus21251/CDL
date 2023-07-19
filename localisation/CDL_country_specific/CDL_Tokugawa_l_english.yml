@@ -34,10 +34,6 @@
   bushido_desc:0 "§OBushidō§! is an unwritten set of rules that every honorary samurai follows. It is about following perfection and moral rules. Samurai fight whether or not they may die."
   TOK_tokugawa_clan:0 "Tokugawa Clan"
   TOK_tokugawa_clan_desc:0 "§gTokugawa Clan§! is ruling over Japan since 1603. Although disadvantages of isolationism introduced in the Edo period its bring us stabilisation and peace within the Japanese Domains."
-  TOK_kansai_attack:0 "Attack Kansai"
-  TOK_honshu_attack:0 "Attack Honshu"
-  TOK_shikoku_attack:0 "Attack Shikoku"
-  TOK_kyushu_attack:0 "Attack Kyushu"
 
   TOK_dutch_investors:0 "Dutch investors"
   
@@ -117,6 +113,9 @@
 
   tokugawa.2.t:0 "New Dutch port"
   tokugawa.2.d:0 "As Dejima has been occupied by [JAP.GetName] forces and we have decided to help the Dutch by providing them a new trading port from which to conduct operations and trade. In the future, there will be an opportunity to develop a network of foreign ports."
+
+  tokugawa.3.t:0 "Last Tokugawan bastion"
+  tokugawa.3.d:0 "We were pushed by the enemy all the way to Ezo Island, our last bastion. Part of the general staff advises that we lay down our arms and accept the sovereignty of the imperial alliance. In contrast, others say we should not surrender."
 
  ##DECISIONS
   TOK_itsushi_war_times:0 "Itsushi War Era"

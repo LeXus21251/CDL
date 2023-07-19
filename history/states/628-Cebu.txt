@@ -2,12 +2,16 @@ state=
 {
 	id=628
 	name="STATE_628"
+	resources = {
+		steel = 6
+		rare_metals = 2
+		tungsten = 1
+	}
 	manpower = 827118
 	
 	state_category = rural
 	
-	history=
-	{
+	history= {
 		owner = PHI
 		buildings = {
 			infrastructure = 2

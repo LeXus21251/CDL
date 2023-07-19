@@ -9,8 +9,7 @@ state={
 		owner = NZL
 		add_core_of = NZL
 		buildings = {
-			infrastructure = 2
-			air_base = 1
+			infrastructure = 1
 			12148 = {
 				naval_base = 1
 			}

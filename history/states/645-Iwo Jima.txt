@@ -4,12 +4,11 @@ state=
 	name="STATE_645"
 	manpower=21
 	state_category = small_island
-	history=
-	{
+	history= {
 		owner = PHI
 		add_core_of = PHI
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			air_base = 1
 			13025 = {
 				naval_base = 1

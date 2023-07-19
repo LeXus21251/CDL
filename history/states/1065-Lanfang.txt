@@ -2,20 +2,35 @@
 state={
 	id=1065
 	name="STATE_1065"
+	resources = {
+		aluminium = 9
+		rubber = 3
+		food = 18
+		fabrics = 4
+	}
 	provinces={
 		1230 1304 1316 2170 2222 4279 4335 4409 7424 10282 12129 
 	}
 	history={
 		owner = LAN
 		add_core_of = LAN
-		victory_points = {
-			4279 1
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			dockyard = 1
+			arms_factory = 1
+			4279 = {
+				naval_base = 2
+			}
 		}
 		victory_points = {
-			12129 1
+			4279 10
 		}
 		victory_points = {
-			10282 1
+			12129 5
+		}
+		victory_points = {
+			10282 2
 		}
 		victory_points = {
 			2222 1

@@ -3,34 +3,32 @@ state={
 	id=334
 	name="STATE_334"
 	resources={
-		rubber=75.000
-		oil=5.000
+		rubber=15
+		oil=2
+		steel = 2
+		tungsten = 4
 	}
 
 	history={
 		owner = VOC
 		add_core_of = VOC
 		victory_points = {
-			10237 1 
+			10237 2 
 		}
 		victory_points = {
 			12225 1
 		}
 		victory_points = {
-			7296 1
+			7296 3
 		}
 		buildings = {
 			infrastructure = 1
 			10237 = {
-				naval_base = 3
-
-			}
-			1316 = {
 				naval_base = 1
 
 			}
-			10325 = {
-				naval_base = 1
+			7296 = {
+				naval_base = 2
 
 			}
 

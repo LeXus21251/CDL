@@ -7,48 +7,50 @@ state={
 	state_category = large_town
 	
 	resources={
-		rubber=140 # was: 242
-		oil=10 # was: 16
+		rubber = 8
+		oil = 3
+		steel = 4
+		food = 26
 	}
 
 	history={
 		owner = VOC
 		add_core_of = VOC
 		victory_points = {
-			7381 5
+			7381 15
 		}
 		victory_points = {
-			4608 3 
+			4608 10
 		}
 		victory_points = {
-			10479 1
+			10479 3
 		}
 		victory_points = {
-			10135 1
+			10135 5
 		}
 		victory_points = {
-			1413 1
+			1413 5
 		}
 		victory_points = {
-			7421 1
+			7421 3
 		}
 		victory_points = {
-			4608 1
-		}
-		victory_points = {
-			12293 1
+			12293 2
 		}
 
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 1
-			dockyard = 1
-			air_base = 3
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 2
 			7381 = {
-				naval_base = 6
+				naval_base = 5
 			}
 			4608 = {
 				naval_base = 3
+			}
+			10135 = {
+				naval_base = 2
 			}
 		}
 	}

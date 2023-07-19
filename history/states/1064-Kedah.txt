@@ -2,17 +2,30 @@
 state={
 	id=1064
 	name="STATE_1064"
+	resources = {
+		rubber = 12
+		fabrics = 9
+		food = 11
+	}
 	provinces={
 		1291 7342 12144 
 	}
 	history={
 		owner = FEI
 		add_core_of = FEI
-		victory_points = {
-			7342 1
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			7342 = {
+				naval_base = 3
+			}
 		}
 		victory_points = {
-			12144 1
+			7342 10
+		}
+		victory_points = {
+			12144 2
 		}
 
 	}

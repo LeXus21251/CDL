@@ -1,6 +1,10 @@
 state={
 	id=737
 	name="STATE_737"
+	resources = {
+		rare_metals = 1
+		food = 2
+	}
 
 	history={
 		owner = NZL
@@ -9,10 +13,6 @@ state={
 			infrastructure = 1
 			air_base = 1
 			7251 = {
-				naval_base = 5
-
-			}
-			4352 = {
 				naval_base = 1
 
 			}
@@ -24,7 +24,7 @@ state={
 		}
 		
 		victory_points = {
-			7251 5 
+			7251 1 
 		}
 		
 	}

@@ -30,8 +30,6 @@ autonomy_state = {
 		OR = {
 			tag = MLT
 		}
-	}
-	allowed = {
 		voc_autonomy = no
 		ottoman_autonomy = no
 	}

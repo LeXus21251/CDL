@@ -5,8 +5,7 @@ state=
 	manpower = 1082637
 	state_category = rural
 	
-	history=
-	{
+	history= {
 		owner = PHI
 		buildings = {
 			infrastructure = 2

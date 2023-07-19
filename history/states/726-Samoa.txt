@@ -3,12 +3,15 @@ state={
 	name="STATE_726"
 	manpower=62738
 	state_category = small_island
+	resources = {
+		food = 4
+	}
 
 	history={
 		owner = NZL
 		add_core_of = NZL
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			7290 = {
 				naval_base = 1
 			}

@@ -3,16 +3,20 @@ state={
 	id=520
 	name="STATE_520"
 	resources={
-		steel=22.000
+		food = 14
+		fabrics = 7
+		aluminium = 7
 	}
 
 	history={
 		owner = OZZ
 		buildings = {
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
 			infrastructure = 2
-			air_base = 1
 			7669 = {
-				naval_base = 1
+				naval_base = 2
 
 			}
 

@@ -1,6 +1,9 @@
 state={
 	id=738
 	name="STATE_738"
+	resources = {
+		food = 3
+	}
 
 	history={
 		owner = PEI

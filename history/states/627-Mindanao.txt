@@ -2,6 +2,10 @@
 state={
 	id=627
 	name="STATE_627"
+	resources = {
+		food = 4
+		fabrics = 17
+	}
 	manpower = 1327881
 	
 	state_category = town
@@ -10,6 +14,8 @@ state={
 		owner = PHI
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
 			4241 = {
 				naval_base = 1
 			}
@@ -18,7 +24,7 @@ state={
 			4241 3 
 		}
 		victory_points = {
-			10243 1
+			10243 2
 		}
 		victory_points = {
 			1421 1

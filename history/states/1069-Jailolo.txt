@@ -2,12 +2,22 @@
 state={
 	id=1069
 	name="STATE_1069"
+	resources = {
+		rare_metals = 2
+		fabrics = 3
+	}
 	provinces={
 		1419 1437 7413 10141 10342 
 	}
 	history={
 		owner = PHI
 		add_core_of = PHI
+		buildings = {
+			infrastructure = 1
+			7413 = {
+				naval_base = 1
+			}
+		}
 		victory_points = {
 			7413 1
 		}

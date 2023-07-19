@@ -2,6 +2,10 @@
 state={
 	id=721
 	name="STATE_721"
+	resources = {
+		food = 7
+		fabrics = 2
+	}
 
 	history={
 		owner = PEI
@@ -10,10 +14,11 @@ state={
 			1355 1
 		}
 		victory_points = {
-			12190 1
+			12190 2
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			industrial_complex = 1
 			12190 = {
 				naval_base = 1
 

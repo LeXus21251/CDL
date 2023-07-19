@@ -28,8 +28,6 @@ autonomy_state = {
 	}
 	allowed = {
 		habsburg_autonomy = yes
-	}
-	allowed = {
 		voc_autonomy = no
 		ottoman_autonomy = no
 	}

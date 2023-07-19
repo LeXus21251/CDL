@@ -35,8 +35,6 @@ autonomy_state = {
 			tag = CRI
 			tag = PRE
 		}
-	}
-	allowed = {
 		voc_autonomy = no
 		ottoman_autonomy = no
 	}

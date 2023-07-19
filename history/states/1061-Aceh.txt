@@ -2,14 +2,27 @@
 state={
 	id=1061
 	name="STATE_1061"
+	resources = {
+		rubber = 9
+		oil = 4
+		food = 12
+		fabrics = 3
+	}
 	provinces={
 		1648 7658 10509 12488 13368
 	}
 	history={
 		owner = ACE
 		add_core_of = ACE
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			7658 = {
+				naval_base = 1
+			}
+		}
 		victory_points = {
-			7658 1
+			7658 5
 		}
 
 	}

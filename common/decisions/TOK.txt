@@ -1,3 +1,5 @@
+
+## MILITARY ITSUSHI WAR ##
 TOK_itsushi_war_times = {
 	TOK_recruit_sakai = {
 		fire_only_once = yes
@@ -183,7 +185,7 @@ TOK_moving_emperor_operation = {
 	TOK_moving_emperor_decision = {
 	}
 }
-
+## DUTCH HELP ##
 TOK_dutch_missions = {
 	TOK_dutch_port_setup = {
 		fire_only_once = yes

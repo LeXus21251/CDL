@@ -1,6 +1,10 @@
 state={
 	id=634
 	name="STATE_634"
+	resources = {
+		aluminium = 8
+		rare_metals = 1
+	}
 
 	history={
 		owner = NZL
@@ -22,7 +26,7 @@ state={
 
 		}
 		victory_points = {
-			1269 3 
+			1269 1
 		}
 		victory_points = {
 			4226 1 

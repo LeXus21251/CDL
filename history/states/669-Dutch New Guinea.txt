@@ -2,15 +2,20 @@
 state={
 	id=669
 	name="STATE_669"
+	resources = {
+		food = 30
+		fabrics = 16
+		steel = 3
+	}
 
 	history={
 		owner = NAN
 		add_core_of = NAN
 		victory_points = {
-			12371 1 
+			12371 10 
 		}
 		victory_points = {
-			12237 1 
+			12237 3 
 		}
 		victory_points = {
 			4468 1
@@ -20,6 +25,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 3
+			dockyard = 1
+			arms_factory = 1
 			12371 = {
 				naval_base = 2
 

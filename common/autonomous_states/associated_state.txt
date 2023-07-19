@@ -25,13 +25,9 @@ autonomy_state = {
 	}
 	allowed = {
 		OR = { 	
-			voc_autonomy = no
-			ottoman_autonomy = no
-			egypt_unique_autonomy = yes
-		}
-	}
-	allowed = {
-		OR = { 
+		voc_autonomy = no
+		ottoman_autonomy = no
+		egypt_unique_autonomy = yes
 		tag = AFG 
 		tag = OMA 
 		tag = EGY

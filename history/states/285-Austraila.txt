@@ -2,26 +2,20 @@
 state={
 	id=285
 	name="STATE_285"
+	resources = {
+		food = 8
+		fabrics = 12
+	}
 
 	history={
 		owner = AST
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
-			industrial_complex = 4
+			industrial_complex = 2
 			dockyard = 2
-			air_base = 5
 			12406 = {
-				naval_base = 6
-				coastal_bunker = 2
-
-			}
-			7859 = {
-				bunker = 1
-
-			}
-			7520 = {
-				coastal_bunker = 1
+				naval_base = 3
 
 			}
 

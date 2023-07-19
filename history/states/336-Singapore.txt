@@ -3,32 +3,21 @@ state={
 	id=336
 	name="STATE_336"
 	resources={
-		rubber=342.000
-		steel=20.000
-		tungsten=189.000
-		aluminium=15.000
+		rubber=25
+		fabrics = 32
 	}
 
 	history={
 		owner = VOC
 		victory_points = {
-			12299 10 
+			12299 15 
 		}
 
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			air_base = 6
+			infrastructure = 3
+			industrial_complex = 3
+			dockyard = 2
 			12299 = {
-				naval_base = 8
-				coastal_bunker = 3
-
-			}
-			7329 = {
-				naval_base = 1
-
-			}
-			10297 = {
 				naval_base = 5
 
 			}

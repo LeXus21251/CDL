@@ -2,16 +2,19 @@ state=
 {
 	id=518
 	name="STATE_518"
+	resources = {
+		steel = 1
+		tungsten = 3
+	}
 	manpower = 142738
 	
 	state_category = small_island
 
-	history=
-	{
+	history= {
 		owner = VOC
 		victory_points = {2189 5 }
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 1
 			2189 = {
 				naval_base = 2
 			}

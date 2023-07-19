@@ -2,10 +2,17 @@
 state={
 	id=872
 	name="STATE_872"
+	resources = {
+		tungsten = 7
+		aluminium = 3
+	}
 
 	history={
 		buildings = {
 			infrastructure = 1
+			4520 = {
+				naval_base = 1
+			}
 
 		}
 		victory_points = {7566 1}

@@ -3,25 +3,27 @@ state={
 	id=672
 	name="STATE_672"
 	resources={
-		rubber=150.000
-		oil=12.000
-		aluminium=28.000
+		rubber=27
+		oil=8
+		aluminium=14
+		rare_metals = 1
+		food = 31
 	}
 
 	history={
 		owner = VOC
 		add_core_of = VOC
 		victory_points = {
-			4652 1 
+			4652 2 
 		}
 		victory_points = {
-			12268 1 
+			12268 3 
 		}
 		victory_points = {
-			12138 1
+			12138 3
 		}
 		victory_points = {
-			7384 1
+			7384 2
 		}
 		victory_points = {
 			7463 1
@@ -33,7 +35,7 @@ state={
 			10382 1
 		}
 		victory_points = {
-			4361 1
+			4361 10
 		}
 		victory_points = {
 			4446 1
@@ -43,7 +45,7 @@ state={
 			industrial_complex = 1
 			air_base = 1
 			4652 = {
-				naval_base = 3
+				naval_base = 1
 
 			}
 			1648 = {
@@ -53,6 +55,9 @@ state={
 			12268 = {
 				naval_base = 1
 
+			}
+			4361 = {
+				naval_base = 2
 			}
 
 		}

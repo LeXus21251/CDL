@@ -2,17 +2,27 @@
 state={
 	id=522
 	name="STATE_522"
+	resources = {
+		rare_metals = 10
+		tungsten = 4
+		fabrics = 8
+		food = 10
+		aluminium = 15
+	}
 
 	history={
 		owner = OZZ
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 2
 			air_base = 1
 			1652 = {
+				naval_base = 4
+			}
+			8243 = {
 				naval_base = 1
-				coastal_bunker = 1
-
 			}
 
 		}

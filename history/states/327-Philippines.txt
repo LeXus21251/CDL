@@ -2,26 +2,27 @@ state=
 {
 	id=327
 	name="STATE_327" # Luzon
+	resources = {
+		rare_metals = 3
+	}
 	manpower = 2763716
 	
 	state_category = large_town
-	history=
-	{
+	history= {
 		owner = PHI
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 3
-			air_base = 6
+			industrial_complex = 2
 			10265 = {
-				naval_base = 5
+				naval_base = 3
 			}
 		}
 		victory_points = {
 			10265 15 
 		}
 		victory_points = {
-			1221 1 
+			1221 3 
 		}
 		add_core_of = PHI
 	}

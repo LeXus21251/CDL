@@ -3,20 +3,18 @@ state={
 	id=333
 	name="STATE_333"
 	resources={
-		rubber=40.000
-		oil=12.000
+		rubber=5
+		oil=2
+		steel = 1
+		rare_metals = 3
 	}
 
 	history={
 		owner = PHI
 
 		buildings = {
-			infrastructure = 2
-			1208 = {
-				naval_base = 1
-
-			}
-			7371 = {
+			infrastructure = 1
+			10212 = {
 				naval_base = 2
 
 			}
@@ -27,7 +25,7 @@ state={
 			10199 1
 		}
 		victory_points = {
-			10212 1
+			10212 3
 		}
 
 	}

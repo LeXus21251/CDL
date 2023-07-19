@@ -6,7 +6,9 @@ state= {
 	state_category = rural
 	
 	resources={
-		rubber=1 # was: 2
+		rubber=1
+		food = 7
+		fabrics = 2
 	}
 
 	history= {
@@ -23,10 +25,10 @@ state= {
 		}
 		
 		victory_points = {
-			1415 1 
+			1415 3 
 		}
 		victory_points = {
-			12213 1 
+			12213 3
 		}
 		victory_points = {
 			4368 1

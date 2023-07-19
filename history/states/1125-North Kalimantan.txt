@@ -3,20 +3,23 @@ state={
 	id=1125
 	name="STATE_1125"
 	resources={
-
+		rare_metals = 2
 	}
 
 	history={
 		owner = FEI
 		add_core_of = FEI
 		victory_points = {
-			7415 1
+			7415 5
 		}
 		victory_points = {
 			12228 1
 		}
 		buildings = {
 			infrastructure = 1
+			7415 = {
+				naval_base = 1
+			}
 		}
 
 	}

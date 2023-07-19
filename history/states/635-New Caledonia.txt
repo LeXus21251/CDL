@@ -3,7 +3,8 @@ state={
 	id=635
 	name="STATE_635"
 	resources={
-
+		rare_metals = 40
+		food = 6
 	}
 	
 	state_category = small_island
@@ -18,17 +19,14 @@ state={
 			12120 1
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			4268 = {
 				naval_base = 1
 
 			}
-			1237 = {
+			12120 = {
 				naval_base = 1
 
-			}
-			4247 = {
-				naval_base = 1
 			}
 		}
 
