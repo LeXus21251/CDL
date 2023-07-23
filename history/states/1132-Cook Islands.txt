@@ -1,0 +1,21 @@
+state={
+	id=1132
+	name="STATE_1132"
+	resources={
+	}
+	provinces={
+		13387
+	}
+	history={
+		owner = NZL
+		add_core_of = NZL
+		buildings = {
+			infrastructure = 1
+			13387 = {naval_base = 1}
+		}
+
+	}
+	manpower=8971
+	buildings_max_level_factor=1.000
+	state_category = small_island
+}

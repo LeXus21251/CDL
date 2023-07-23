@@ -73,9 +73,9 @@ FRA = {
 set_convoys = 10
 recruit_character = TON_siaosi_tupou_ii
 set_popularities = {
-absolutism = 78
-traditionalism = 4
-conservatism = 18
+abs = 78
+trad = 4
+conv = 18
 
 }
 

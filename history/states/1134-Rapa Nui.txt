@@ -1,0 +1,18 @@
+state={
+	id=1134
+	name="STATE_1134"
+	provinces={
+		13392
+	}
+	history={
+		owner = PRU
+		add_core_of = PRU
+		buildings = {
+			infrastructure = 1
+			13392 = {naval_base = 1}
+		}
+	}
+	manpower=981
+	buildings_max_level_factor=1.000
+	state_category = small_island
+}

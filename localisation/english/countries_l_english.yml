@@ -2993,18 +2993,6 @@
   RYU_abs:0 "Ryukyu Kingdom"
   RYU_abs_DEF:0 "the Ryukyu Kingdom"
 
-  TOK:0 "Tokugawa"
-  TOK_ADJ:0 "Tokugawan"
-  TOK_DEF:0 "the Tokugawa"
-  TOK_milgov:0 "Tokugawa Shogunate"
-  TOK_milgov_DEF:0 "the Tokugawa Shogunate"
-
-  JAP:0 "Japan"
-  JAP_ADJ:0 "Japanese"
-  JAP_DEF:0 "Japan"
-  JAP_abs:0 "Empire of Japan"
-  JAP_abs_DEF:0 "the Empire of Japan"
-
   JAC:0 "Tenri-Kyō"
   JAC_ADJ:0 "Tenri-Kyō"
   JAC_DEF:0 "Tenri-Kyō"

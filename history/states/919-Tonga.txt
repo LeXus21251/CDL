@@ -5,7 +5,7 @@ state={
 		food = 7
 	}
 	provinces={
-		13265 
+		13265 13385
 	}
 	history={
 		owner = TON

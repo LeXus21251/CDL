@@ -5,6 +5,9 @@ characters={
 			civilian={
 				large="gfx/leaders/TOK/Tokugawa_Yoshinobu.dds"
 			}
+			army = {
+				large = "gfx/leaders/TOK/Military/Tokugawa_Yoshinobu_Samurai.dds"
+			}
 		}
 		country_leader={
 			ideology=milgov_sub
@@ -14,6 +17,11 @@ characters={
 			id=-1
 		}
 		field_marshal={
+			skill = 5
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 3
 
 		}
 	}

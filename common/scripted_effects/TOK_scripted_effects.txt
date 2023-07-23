@@ -71,6 +71,11 @@ itsushi_war_script = {
 				transfer_state = 1060
 
 				set_province_controller = 7072
+
+				promote_character = {
+					character = JAP_saigo_takamori
+					ideology = abs_sub
+				}
 			}
 
 			JAC = {

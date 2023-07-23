@@ -38,11 +38,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-conservatism = 63
-social_cooperatism = 8
-liberalism = 6
-absolutism = 15
-nationalism = 8
+conv = 63
+sc = 8
+lib = 6
+abs = 15
+nat = 8
 }
 
 

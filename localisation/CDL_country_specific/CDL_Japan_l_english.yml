@@ -1,0 +1,35 @@
+﻿l_english:
+
+ ##NAMES
+  JAP:0 "Japan"
+  JAP_ADJ:0 "Japanese"
+  JAP_DEF:0 "Japan"
+  JAP_abs:0 "Empire of Japan"
+  JAP_abs_DEF:0 "the Empire of Japan"
+  
+ ##CTAGS
+  JAP_saigo_shogunate:0 "Saigō Shogunate"
+  JAP_satcho:0 "Satchō Alliance"
+  JAP_satcho_ADJ:0 "Japanese"
+  JAP_satcho_DEF:0 "the Satchō Alliance"
+
+ ##HISTORY
+
+ 
+ ##PARTIES
+
+ ##CHARACTERS
+  #LEADERS
+   JAP_mutsuhito: "Mutsuhito"
+   JAP_saigo_takamori: "Saigō Takamori"
+  
+
+   JAP_MUTSUHITO_DESC: "placeholder"
+  
+ ##IDEAS
+  
+ ##FOCUSES
+  #TREE NAMES
+   JAP_war_tree:0 "Satchō Alliance focus tree"
+
+  #WAR TREE

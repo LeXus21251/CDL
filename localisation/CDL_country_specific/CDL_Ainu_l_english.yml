@@ -1,0 +1,25 @@
+﻿l_english:
+
+ ##NAMES
+  AIN:0 "Ainu"
+  AIN_ADJ:0 "Ainu"
+  AIN_DEF:0 "the Ainu"
+
+
+
+ ##FOCUSES
+  #TREE NAMES
+   AIN_rebellion_tree:0 "Ainu Rebellion focus tree"
+  #REBELLION TREE
+   #JAPAN ALLIANCE
+    AIN_emperor_fealty:0 "Fealty to the Emperor"
+    AIN_hakodate_siege:0 "Joint siege of Hakodate"
+    AIN_autonomy_negotations:0 "Autonomy negotations"
+    AIN_retrieve_land:0 "Retrieve stolen land"
+    AIN_protect_culture:0 "Protect our culture"
+    AIN_role_in_empire:0 "Our role in the Empire"
+    AIN_equality:0 "Ainu equality"
+    AIN_language_subject:0 "Ainu language as a new subject"
+    AIN_divisions:0 "Ainu divisions"
+    AIN_trade_deals:0 "New trade deals"
+    AIN_ishigari_dake_treaty:0 "Treaty of Ishikari-Dake"

@@ -15,11 +15,18 @@ characters={
 		}
 	}
 	JAP_saigo_takamori={
-		name="Saigō Takamori"
+		name=JAP_saigo_takamori
 		portraits={
 			civilian={
 				large="gfx/leaders/JAP/Saigo_Takamori.dds"
 			}
+		}
+		country_leader = {
+			ideology = abs_sub
+			traits={}
+			desc=JAP_SAIGO_TAKAMORI_DESC
+			expire="1965.1.1.1"
+			id=-1
 		}
 		field_marshal={
 

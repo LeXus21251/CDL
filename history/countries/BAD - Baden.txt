@@ -1,4 +1,4 @@
-capital = 
+capital = 939
 
 oob = "BAD_1936"
 

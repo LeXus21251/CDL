@@ -87,10 +87,10 @@ set_politics = {
 }
 
 set_popularities = {
-conservatism = 71
-nationalism = 14
-liberalism = 8
-social_cooperatism = 7
+conv = 71
+nat = 14
+lib = 8
+sc = 7
 }
 
 recruit_character = AST_marie_dorothee

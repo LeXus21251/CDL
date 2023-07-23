@@ -4,9 +4,9 @@
   TOK:0 "Tokugawa"
   TOK_ADJ:0 "Tokugawan"
   TOK_DEF:0 "the Tokugawa"
-  TOK_military_government:0 "Tokugawa Shogunate"
-  TOK_military_government_ADJ:0 "Tokugawan"
-  TOK_military_government_DEF:0 "the Tokugawa Shogunate"
+  TOK_milgov:0 "Tokugawa Shogunate"
+  TOK_milgov_ADJ:0 "Tokugawan"
+  TOK_milgov_DEF:0 "the Tokugawa Shogunate"
   
  ##CTAGS
   TOK_ezo: "Ezo Republic"

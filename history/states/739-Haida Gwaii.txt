@@ -16,7 +16,7 @@ state={
 		}
 		add_core_of = ALA
 		victory_points = {
-			1869
+			1869 1
 		}
 	}
 

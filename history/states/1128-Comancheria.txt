@@ -1,0 +1,22 @@
+
+state={
+	id=1128
+	name="STATE_1128"
+	provinces={
+		1915 1998 3875 4955 5085 8064 9773 12301 12720 12848 12875 12893 
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+			
+		}
+		victory_points = {
+			8064 1 
+		}
+	}
+	manpower=78192
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

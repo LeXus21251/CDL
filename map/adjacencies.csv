@@ -149,6 +149,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13154;13157;sea;749;-1;-1;-1;-1;;Niagara River
 13154;13199;sea;13156;-1;-1;-1;-1;;Sainte-Claire River
 13200;13159;sea;5205;-1;-1;-1;-1;;Sainte-Marie River
+4967;13381;sea;34;-1;-1;-1;-1;;Maldives-Laccadives
+13265;13385;sea;8932;-1;-1;-1;-1;;Tonga
+13388;13389;sea;5474;-1;-1;-1;-1;;French Polynesia
 
 ## SAHARA CROSSINGS
 10875;13313;sea;10838;-1;-1;-1;-1;;Rio de oro-Zouerat

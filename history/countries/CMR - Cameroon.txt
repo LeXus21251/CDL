@@ -1,4 +1,4 @@
-﻿capital = 279
+﻿capital = 297
 set_cosmetic_tag = CMR_SPR
 # Starting tech
 set_technology = {

@@ -1322,3 +1322,8 @@ KAA = {
 	color = rgb { 255 255 128 }
 	color_ui = rgb { 255 255 128 }
 }
+
+AIN = {
+	color = rgb { 214 211 144 }
+	color_ui = rgb { 214 211 144 }
+}
