@@ -6,7 +6,8 @@ state={
 	state_category = rural
 	
 	resources={
-		rubber=40 # was: 70
+		rubber=17
+		rare_metals = 1
 	}
 
 
@@ -14,9 +15,13 @@ state={
 		owner = SIA
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
+			7236 = {
+				naval_base = 2
+			}
 		}
 		victory_points = {
-			7236 1 
+			7236 3 
 		}
 		victory_points = {
 			4297 1
@@ -25,7 +30,7 @@ state={
 			12230 1
 		}
 		victory_points = {
-			1281 1
+			1281 2
 		}
 
 		add_core_of = SIA

@@ -5,8 +5,6 @@ state={
 	resources = {
 		fabrics = 21
 		food = 30
-		steel = 1
-		rare_metals = 2
 	}
 
 	history={

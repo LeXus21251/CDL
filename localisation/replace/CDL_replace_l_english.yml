@@ -22,3 +22,8 @@
  NICARAGUA_CANAL:0 "Nicaragua Canal"
  HANSEATIC_CANAL:0 "Hanseatic Canal"
  LAWRENCE_RIVER:0 "Saint-Laurent River"
+
+### BUILDINGS ###
+ farm:0 "Farm"
+ farm_plural:0 "Farms"
+ farm_desc:0 "This building provides supplies in the form of food, part of the manpower and supplies in the state are used in the agro-culture sector"

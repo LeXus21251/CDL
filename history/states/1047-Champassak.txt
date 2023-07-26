@@ -5,9 +5,16 @@ state={
 	provinces={
 		1374 1390 1520 1563 1577 4539 4554 4596 7426 10453 12167 12210 
 	}
+	resources = {
+		food = 5
+		fabrics = 20
+	}
 	history={
 		owner = SIA
 		add_core_of = SIA
+		buildings = {
+			infrastructure = 1
+		}
 		victory_points = {
 			1563 1
 		}

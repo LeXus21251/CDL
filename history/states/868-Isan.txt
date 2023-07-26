@@ -2,18 +2,22 @@
 state={
 	id=868
 	name="STATE_868"
+	resources = {
+		food = 33
+	}
 
 	history={
 		owner = SIA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
 
 		}
 		victory_points = {
-			10438 1 
+			10438 3 
 		}
 		victory_points = {
-			12373 1
+			12373 5
 		}
 		victory_points = {
 			7516 1

@@ -3,31 +3,33 @@ state={
 	id=671
 	name="STATE_671"
 	resources={
-
-		tungsten=27.000
+		steel = 1
+		tungsten=1
+		food = 17
+		fabrics = 6
 	}
 
 	history={
 		add_core_of = VIN
 		owner = VIN
 		victory_points = {
-			4075 1 
+			4075 5 
 		}
 		victory_points = {
-			4119 1
+			4119 3
 		}
 		victory_points = {
-			7218 1
+			7218 2
 		}
 		victory_points = {
-			10004 1
+			10004 2
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			air_base = 1
+			arms_factory = 1
 			1185 = {
-				naval_base = 1
+				naval_base = 2
 
 			}
 

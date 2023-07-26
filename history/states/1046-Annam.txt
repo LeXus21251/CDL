@@ -8,6 +8,12 @@ state={
 	history={
 		owner = VIN
 		add_core_of = VIN
+		buildings = {
+			infrastructure = 1
+			4379 = {
+				naval_base = 1
+			}
+		}
 		victory_points = {
 			4379 5
 		}
@@ -21,10 +27,7 @@ state={
 			4363 1
 		}
 		victory_points = {
-			4379 1
-		}
-		victory_points = {
-			4405 1
+			4405 3
 		}
 
 	}

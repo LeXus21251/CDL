@@ -9,10 +9,10 @@ state={
 		owner = SIA
 		add_core_of = SIA
 		victory_points = {
-			4302 1
+			4302 3
 		}
 		victory_points = {
-			10177 1
+			10177 5
 		}
 		victory_points = {
 			4251 1

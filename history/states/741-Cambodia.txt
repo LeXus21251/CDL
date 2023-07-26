@@ -2,18 +2,22 @@
 state={
 	id=741
 	name="STATE_741"
+	resources = {
+		food = 8
+		fabrics = 19
+	}
 
 	history={
 		add_core_of = CAM
 		owner = CAM
 		victory_points = {
-			7376 1 
+			7376 5 
 		}
 		victory_points = {
-			4639 1
+			4639 2
 		}
 		victory_points = {
-			7645 1
+			7645 3
 		}
 		victory_points = {
 			7432 1
@@ -26,6 +30,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
 			7432 = {
 				naval_base = 1
 

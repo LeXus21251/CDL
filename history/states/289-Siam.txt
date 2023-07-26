@@ -3,17 +3,18 @@ state={
 	id=289
 	name="STATE_289"
 	resources={
-		rubber=8.000
-		tungsten=2.000
+		tungsten=2
+		food = 29SS
+		fabrics = 21
 	}
 
 	history={
 		owner = SIA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 5
-			air_base = 3
+			industrial_complex = 2
+			dockyard = 1
 			7408 = {
 				naval_base = 3
 
@@ -21,13 +22,13 @@ state={
 
 		}
 		victory_points = {
-			7408 10 
+			7408 15 
 		}
 		victory_points = {
-			10221 1
+			10221 5
 		}
 		victory_points = {
-			7572 1
+			7572 3
 		}
 		add_core_of = SIA
 
