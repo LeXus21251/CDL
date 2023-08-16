@@ -3,7 +3,7 @@
 ###########################
 
 add_namespace = special
-
+##launches itsushi war
 country_event = {
 	id = special.0
 	

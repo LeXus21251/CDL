@@ -9,20 +9,27 @@ on_actions = {
 			}
 		}
 		}
-	}
 
-	on_startup = {
 		effect = {
 			set_global_flag = politics_buttons_visible
 		}
-	}
 
-	on_startup = { 
 		effect = {
 			ENG = { # Don't mind this, scope fix.
 				CDL_cultures = yes
 			}
 		} 
+
+		effect = {
+			ENG = {
+				CDL_satcho_check = yes
+			}
+		}
+		effect = {
+			ENG = {
+				CDL_domain_check = yes
+			}
+		}
 	}
 
 

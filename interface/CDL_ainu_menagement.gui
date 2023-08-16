@@ -1,0 +1,85 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "ainu_menagement_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 500 }
+
+
+		containerWindowType = {
+			name = "map"
+			position = { x = 0  y = 0 }
+
+		    iconType = {
+		    	name ="region_map"
+		    	spriteType = "GFX_CDL_ainu_region_map"
+		    	position = { x= 70 y = 20 }
+				scale = 0.7
+				orientation = CENTER
+		    }
+
+
+	    }	
+		containerWindowType = {
+			name = "onmap_buttons"
+			position = { x = 0 y = 0 }
+
+			buttonType = {
+				name = "japan"
+				spriteType = "GFX_CDL_japan_onmap"
+				position = { x = 127 y = 252 }
+				scale = 0.7
+				clicksound = click_default
+				pdx_tooltip = "ainu_mgmt_japan_tt"
+			}
+			buttonType = {
+				name = "japan_hakodate"
+				spriteType = "GFX_CDL_japan_hakodate_whole_onmap"
+				position = { x = 127 y = 252 }
+				scale = 0.7
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "hakodate_ainu"
+				spriteType = "GFX_CDL_ainu_hakodate_onmap"
+				position = { x = 148 y = 281 }
+				scale = 0.7
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "ezochi_ainu"
+				spriteType = "GFX_CDL_ainu_ezochi_onmap"
+				position = { x = 173 y = 236 }
+				scale = 0.7
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "kurils_ainu"
+				spriteType = "GFX_CDL_ainu_kurils_onmap"
+				position = { x = 248 y = 121 }
+				scale = 0.7
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "s_sakhalin_ainu"
+				spriteType = "GFX_CDL_ainu_sakhalin_s_onmap"
+				position = { x = 187 y = 149 }
+				scale = 0.7
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "n_sakhalin_ainu"
+				spriteType = "GFX_CDL_ainu_sakhalin_n_onmap"
+				position = { x = 184 y = 42 }
+				scale = 0.7
+				clicksound = click_default
+			}
+		}
+
+}
+}

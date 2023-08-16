@@ -84,14 +84,6 @@ scripted_map_modes = {
 						set_temp_variable = { red = 0.537 }
 						set_temp_variable = { green = 0.196 }
 						set_temp_variable = { blue = 0.196 }
-						if = {
-                            limit = {
-                                ROOT = {
-                                    original_tag = ENG
-                                }
-                            }
-                            set_temp_variable = { highlighted = 1.0 }
-                        }
 					}
 					else_if = {
 						limit = {
@@ -100,14 +92,6 @@ scripted_map_modes = {
 						set_temp_variable = { red = 0.850 }
 						set_temp_variable = { green = 0.827 }
 						set_temp_variable = { blue = 0.203 }
-						if = {
-                            limit = {
-                                ROOT = {
-                                    original_tag = SCO
-                                }
-                            }
-                            set_temp_variable = { highlighted = 1.0 }
-                        }
 					}
 					else_if = {
 						limit = {
@@ -116,14 +100,6 @@ scripted_map_modes = {
 						set_temp_variable = { red = 0.098 }
 						set_temp_variable = { green = 0.482 }
 						set_temp_variable = { blue = 0.188 }
-						if = {
-                            limit = {
-                                ROOT = {
-                                    original_tag = WLS
-                                }
-                            }
-                            set_temp_variable = { highlighted = 1.0 }
-                        }
 					}
 					else_if = {
 						limit = {
@@ -132,14 +108,6 @@ scripted_map_modes = {
 						set_temp_variable = { red = 0.627 }
 						set_temp_variable = { green = 0.125 }
 						set_temp_variable = { blue = 0.125 }
-						if = {
-                            limit = {
-                                ROOT = {
-                                    original_tag = ENG
-                                }
-                            }
-                            set_temp_variable = { highlighted = 1.0 }
-                        }
 					}
 					else_if = {
 						limit = {
@@ -148,14 +116,6 @@ scripted_map_modes = {
 						set_temp_variable = { red = 0.635 }
 						set_temp_variable = { green = 0.850 }
 						set_temp_variable = { blue = 0.168 }
-						if = {
-                            limit = {
-                                ROOT = {
-                                    original_tag = SCO
-                                }
-                            }
-                            set_temp_variable = { highlighted = 1.0 }
-                        }
 					}
 					else_if = {
 						limit = {
@@ -164,14 +124,6 @@ scripted_map_modes = {
 						set_temp_variable = { red = 0.196 }
 						set_temp_variable = { green = 0.537 }
 						set_temp_variable = { blue = 0.361 }
-						if = {
-                            limit = {
-                                ROOT = {
-                                    original_tag = IRE
-                                }
-                            }
-                            set_temp_variable = { highlighted = 1.0 }
-                        }
 					}
 					else_if = {
 						limit = {
@@ -180,17 +132,6 @@ scripted_map_modes = {
 						set_temp_variable = { red = 0.529 }
 						set_temp_variable = { green = 0.274 }
 						set_temp_variable = { blue = 0.274 }
-						if = {
-                            limit = {
-                                ROOT = {
-									OR = {
-									original_tag = IRE
-                                    original_tag = ENG
-									}
-                                }
-                            }
-                            set_temp_variable = { highlighted = 1.0 }
-                        }
 					}
 					else_if = {
 						limit = {
@@ -199,14 +140,6 @@ scripted_map_modes = {
 						set_temp_variable = { red = 0.090 }
 						set_temp_variable = { green = 0.227 }
 						set_temp_variable = { blue = 0.541 }
-						if = {
-                            limit = {
-                                ROOT = {
-									original_tag = POR
-                                }
-                            }
-                            set_temp_variable = { highlighted = 1.0 }
-                        }
 					}
 					else_if = {
 						limit = {
@@ -215,17 +148,6 @@ scripted_map_modes = {
 						set_temp_variable = { red = 0.361 }
 						set_temp_variable = { green = 0.361 }
 						set_temp_variable = { blue = 0.659 }
-						if = {
-                            limit = {
-                                ROOT = {
-									OR = {
-									original_tag = GLC
-									original_tag = SPR
-									}
-                                }
-                            }
-                            set_temp_variable = { highlighted = 1.0 }
-                        }
 					}
 					else_if = {
 						limit = {
@@ -234,14 +156,7 @@ scripted_map_modes = {
 						set_temp_variable = { red = 0.909 }
 						set_temp_variable = { green = 0.745 }
 						set_temp_variable = { blue = 0.156 }
-						if = {
-                            limit = {
-                                ROOT = {
-									original_tag = SPR
-                                }
-                            }
-                            set_temp_variable = { highlighted = 1.0 }
-                        }
+
 					}
 					else_if = {
 						limit = {
@@ -250,17 +165,6 @@ scripted_map_modes = {
 						set_temp_variable = { red = 0.843 }
 						set_temp_variable = { green = 0.490 }
 						set_temp_variable = { blue = 0.117 }
-						if = {
-                            limit = {
-                                ROOT = {
-									OR = {
-									original_tag = SPR
-									original_tag = CAT
-									}
-                                }
-                            }
-                            set_temp_variable = { highlighted = 1.0 }
-                        }
 					}
 					else_if = {
 						limit = {
@@ -269,17 +173,6 @@ scripted_map_modes = {
 						set_temp_variable = { red = 0 }
 						set_temp_variable = { green = 0.607 }
 						set_temp_variable = { blue = 0.274 }
-						if = {
-                            limit = {
-                                ROOT = {
-									OR = {
-									original_tag = SPR
-									original_tag = NAV
-									}
-                                }
-                            }
-                            set_temp_variable = { highlighted = 1.0 }
-                        }
 					}
 					else_if = {
 						limit = {
@@ -288,30 +181,174 @@ scripted_map_modes = {
 						set_temp_variable = { red = 0 }
 						set_temp_variable = { green = 0.4 }
 						set_temp_variable = { blue = 1 }
-						if = {
-                            limit = {
-                                ROOT = {
-									original_tag = SPR
-                                }
-                            }
-                            set_temp_variable = { highlighted = 1.0 }
-                        }
 					}
 					else_if = {
 						limit = {
-							check_variable = { culture_id = 14 } #Aragonian
+							check_variable = { culture_id = 14 } #Aragonese
 						}
 						set_temp_variable = { red = 0.450 }
 						set_temp_variable = { green = 0.313 }
 						set_temp_variable = { blue = 0.196 }
-						if = {
-                            limit = {
-                                ROOT = {
-									original_tag = SPR
-                                }
-                            }
-                            set_temp_variable = { highlighted = 1.0 }
-                        }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 15 } #French
+						}
+						set_temp_variable = { red = 0.114 }
+						set_temp_variable = { green = 0.325 }
+						set_temp_variable = { blue = 0.478 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 16 } #Occitan
+						}
+						set_temp_variable = { red = 0.529 }
+						set_temp_variable = { green = 0 }
+						set_temp_variable = { blue = 0 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 17 } #Breton
+						}
+						set_temp_variable = { red = 0.431 }
+						set_temp_variable = { green = 0.549 }
+						set_temp_variable = { blue = 0.588 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 18 } #Walloon
+						}
+						set_temp_variable = { red = 0.929 }
+						set_temp_variable = { green = 0.870 }
+						set_temp_variable = { blue = 0.419 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 19 } #Corsican
+						}
+						set_temp_variable = { red = 0.713 }
+						set_temp_variable = { green = 0.862 }
+						set_temp_variable = { blue = 0.733 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 20 } #Arpitan
+						}
+						set_temp_variable = { red = 0.223 }
+						set_temp_variable = { green = 0.490 }
+						set_temp_variable = { blue = 0.388 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 21 } #Dutch
+						}
+						set_temp_variable = { red = 0.921 }
+						set_temp_variable = { green = 0.474 }
+						set_temp_variable = { blue = 0.027 }
+					}
+					else_if = {
+						limit = {
+						check_variable = { culture_id = 22 } #Frisian
+							}
+						set_temp_variable = { red = 0.729 }
+						set_temp_variable = { green = 0.458 }
+						set_temp_variable = { blue = 0.635 }
+					}
+					else_if = {
+						limit = {
+						check_variable = { culture_id = 23 } #Brandenburgish
+							}
+						set_temp_variable = { red = 0.380 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.043 }
+					}
+					else_if = {
+						limit = {
+						check_variable = { culture_id = 24 } #Low Saxon
+							}
+						set_temp_variable = { red = 0.901 }
+						set_temp_variable = { green = 0.321 }
+						set_temp_variable = { blue = 0.207 }
+					}
+					else_if = {
+						limit = {
+						check_variable = { culture_id = 25 } #Pomeranian
+							}
+						set_temp_variable = { red = 0.600 }
+						set_temp_variable = { green = 0.311 }
+						set_temp_variable = { blue = 0.212 }
+					}
+					else_if = {
+						limit = {
+						check_variable = { culture_id = 26 } #Saxon
+							}
+						set_temp_variable = { red = 0.027 }
+						set_temp_variable = { green = 0.431 }
+						set_temp_variable = { blue = 0.066 }
+					}
+					else_if = {
+						limit = {
+						check_variable = { culture_id = 27 } #Bavarian
+							}
+						set_temp_variable = { red = 0.066 }
+						set_temp_variable = { green = 0.666 }
+						set_temp_variable = { blue = 0.811 }
+					}
+					else_if = {
+						limit = {
+						check_variable = { culture_id = 28 } #Allemanic
+							}
+						set_temp_variable = { red = 0.928 }
+						set_temp_variable = { green = 0.905 }
+						set_temp_variable = { blue = 0.250 }
+					}
+					else_if = {
+						limit = {
+						check_variable = { culture_id = 29 } #Swabian
+							}
+						set_temp_variable = { red = 0.834 }
+						set_temp_variable = { green = 0.713 }
+						set_temp_variable = { blue = 0.546 }
+					}
+					else_if = {
+						limit = {
+						check_variable = { culture_id = 30 } #Middle Franconian
+							}
+						set_temp_variable = { red = 0.949 }
+						set_temp_variable = { green = 0.172 }
+						set_temp_variable = { blue = 0.172 }
+					}
+					else_if = {
+						limit = {
+						check_variable = { culture_id = 31 } #Rhenish Franconian
+							}
+						set_temp_variable = { red = 0.266 }
+						set_temp_variable = { green = 0.960 }
+						set_temp_variable = { blue = 0.196 }
+					}
+					else_if = {
+						limit = {
+						check_variable = { culture_id = 32 } #Moselle Franconian
+							}
+						set_temp_variable = { red = 0.329 }
+						set_temp_variable = { green = 0.568 }
+						set_temp_variable = { blue = 0.196 }
+					}
+					else_if = {
+						limit = {
+						check_variable = { culture_id = 33 } #Silesian
+							}
+						set_temp_variable = { red = 0.301 }
+						set_temp_variable = { green = 0.388 }
+						set_temp_variable = { blue = 0.211 }
+					}
+					else_if = {
+						limit = {
+						check_variable = { culture_id = 34 } #Sorbian
+							}
+						set_temp_variable = { red = 0.627 }
+						set_temp_variable = { green = 0.352 }
+						set_temp_variable = { blue = 0.882 }
 					}
 					else = {
 						set_temp_variable = { red = 0.63 }
@@ -324,7 +361,7 @@ scripted_map_modes = {
 		}
 
 		bottom = {
-			type = none 
+			type = country 
 
 			color = {
 				set_temp_variable = { alpha = 0.4 }

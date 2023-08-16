@@ -1,0 +1,239 @@
+focus_tree = {
+	id = AIN_rebellion_tree
+	continuous_focus_position = { x = 0 y = 1000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AIN
+		}
+	}
+
+	focus = {
+		id = AIN_our_chance
+		icon = GFX_AIN_our_chance
+		cost = 1
+		x = 12
+		y = 0
+
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = AIN_emperor_fealty
+		icon = GFX_AIN_emperor_fealty
+		cost = 1
+		x = 10
+		y = 1
+
+		prerequisite = {
+			focus = AIN_our_chance
+		}
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = AIN_hakodate_siege
+		icon = GFX_AIN_hakodate_siege
+		cost = 1
+		relative_position_id = AIN_emperor_fealty
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = AIN_emperor_fealty
+		}
+		available = {
+			AND = {
+				TOK = {
+					controls_province = 3962
+				}
+				JAP = {
+					controls_province = 9859
+				}
+				AIN = {
+					controls_province = 7532
+				}
+			}
+		}
+		bypass = {
+			TOK = {
+				exists = no
+			}
+		}
+		completion_reward = { 
+			AIN = {
+				add_ideas = hakodate_siege_idea
+			}
+			JAP = {
+				add_ideas = hakodate_siege_idea
+			}
+					
+			}
+
+		}
+
+	focus = {
+		id = AIN_autonomy_negotiations
+		icon = GFX_AIN_autonomy_negotations
+		cost = 1
+		relative_position_id = AIN_emperor_fealty
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = AIN_hakodate_siege
+		}
+		available = {
+			TOK = {
+				exists = no
+			}
+			AIN = {
+				has_full_control_of_state = 536
+			}
+		}
+		completion_reward = { 
+			country_event = {
+				id = ainu.5
+			}
+
+		}
+	}
+
+	focus = {
+		id = AIN_retrieve_land
+		icon = GFX_AIN_retrieve_land
+		cost = 1
+		relative_position_id = AIN_emperor_fealty
+		x = -2
+		y = 3
+		prerequisite = {
+			focus = AIN_autonomy_negotiations
+		}
+		completion_reward = { 
+			country_event = {
+				id = ainu.2
+			}
+
+		}
+	}
+
+	focus = {
+		id = AIN_protect_culture
+		icon = GFX_AIN_protect_culture
+		cost = 1
+		relative_position_id = AIN_emperor_fealty
+		x = 2
+		y = 3
+		prerequisite = {
+			focus = AIN_autonomy_negotiations
+		}
+		completion_reward = { 
+			country_event = {
+				id = ainu.4
+			}
+
+		}
+	}
+
+	focus = {
+		id = AIN_role_in_empire
+		icon = GFX_AIN_role_in_empire
+		cost = 1
+		relative_position_id = AIN_emperor_fealty
+		x = 0
+		y = 4
+		prerequisite = {
+			focus = AIN_retrieve_land
+		}
+		prerequisite = {
+			focus = AIN_protect_culture
+		}
+		completion_reward = { 
+			country_event = {
+				id = ainu.3
+			}
+
+		}
+	}
+	focus = {
+		id = AIN_equality
+		icon = GFX_AIN_equality
+		cost = 1
+		relative_position_id = AIN_emperor_fealty
+		x = -2
+		y = 5
+		prerequisite = {
+			focus = AIN_role_in_empire
+		}
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = AIN_divisions
+		icon = GFX_AIN_divisions
+		cost = 1
+		relative_position_id = AIN_emperor_fealty
+		x = -2
+		y = 6
+		prerequisite = {
+			focus = AIN_equality
+		}
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = AIN_language_subject
+		icon = GFX_AIN_language_subject
+		cost = 1
+		relative_position_id = AIN_emperor_fealty
+		x = 2
+		y = 5
+		prerequisite = {
+			focus = AIN_role_in_empire
+		}
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = AIN_trade_deals
+		icon = GFX_AIN_trade_deals
+		cost = 1
+		relative_position_id = AIN_emperor_fealty
+		x = 2
+		y = 6
+		prerequisite = {
+			focus = AIN_language_subject
+		}
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = AIN_ishigari_dake_treaty
+		icon = GFX_AIN_trade_deals
+		cost = 1
+		relative_position_id = AIN_emperor_fealty
+		x = 0
+		y = 7
+		prerequisite = {
+			focus = AIN_divisions
+		}
+		prerequisite = {
+			focus = AIN_trade_deals
+		}
+		completion_reward = { 
+
+		}
+	}
+	
+}

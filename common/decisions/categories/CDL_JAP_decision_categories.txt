@@ -1,0 +1,43 @@
+JAP_satcho_leaders = {
+	priority = 10
+
+	scripted_gui = CDL_satcho_leaders
+	visible_when_empty = yes
+
+	visible = {
+		has_country_flag = satcho_alliance
+	}
+	allowed = {
+		original_tag = JAP
+	}
+}
+
+JAP_ainu_menagement = {
+	priority = 11
+
+	scripted_gui = CDL_ainu_jap
+	visible_when_empty = yes
+
+	visible = {
+		AIN = {
+			exists = yes
+		}
+		JAP = {
+		has_country_flag = ainu_available_puppet
+		}
+
+	}
+	allowed = {
+		AIN = {
+			AND = {
+				exists = yes
+				is_subject_of = JAP
+			}
+		}
+		JAP = {
+			has_country_flag = ainu_available_puppet
+		}
+		original_tag = JAP
+		
+	}
+}

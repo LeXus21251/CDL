@@ -9,14 +9,19 @@
 
  ##FOCUSES
   #TREE NAMES
-   AIN_rebellion_tree:0 "Ainu Rebellion focus tree"
+   AIN_rebellion_tree:0 "Ainu focus tree"
   #REBELLION TREE
    #JAPAN ALLIANCE
     AIN_emperor_fealty:0 "Fealty to the Emperor"
+    AIN_emperor_fealty_desc:0 "We rebelled against the [TOK.GetName], not the Emperor. We should show him that we are not a enemy, but an ally in their struggle against rump state of the Shogunate."
     AIN_hakodate_siege:0 "Joint siege of Hakodate"
-    AIN_autonomy_negotations:0 "Autonomy negotations"
+    AIN_hakodate_siege_desc:0 "Our forces surrounded the capital of the Republic from the north, we should cooperate with Emperor's army to finally destroy the remnants of Shogun's troops."
+    AIN_autonomy_negotiations:0 "Autonomy negotations"
+    AIN_autonomy_negotiations_desc:0 "Our loyality to the Emperor should bear it's fruits, after we fought against Ezo, it's time to fight for our autonomy to become a living part of this empire."
     AIN_retrieve_land:0 "Retrieve stolen land"
+    AIN_retrieve_land_desc:0 "Our land was stolen by Samurais long before this war even happened, it's time to take it back - as a fee from the Emperor."
     AIN_protect_culture:0 "Protect our culture"
+    AIN_protect_culture_desc:0 "Yamato attacked our culture and tried to eradicate it, we should make sure that it will survive in the future. That's why we need to promote it."
     AIN_role_in_empire:0 "Our role in the Empire"
     AIN_equality:0 "Ainu equality"
     AIN_language_subject:0 "Ainu language as a new subject"

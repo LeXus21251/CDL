@@ -1,0 +1,31 @@
+state=
+{
+	id=650
+	name="STATE_650"
+	manpower=816293
+	state_category = rural
+	
+	history={
+		owner = TOK
+		add_core_of = TOK
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			3962 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			10444 3
+		}
+		victory_points = {
+			3962 5 
+		}
+		victory_points = {
+			7532 1
+		}
+	}
+	provinces={ 3962 7532 10444}
+
+	local_supplies=0.0 
+}

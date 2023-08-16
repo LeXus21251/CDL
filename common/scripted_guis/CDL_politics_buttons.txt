@@ -48,7 +48,7 @@ scripted_gui = {
 
 		triggers = {
 			political_parties_button_click_enabled = {
-				always = no
+				always = yes
 			}
 		}
 }

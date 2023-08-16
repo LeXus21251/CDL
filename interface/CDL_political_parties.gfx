@@ -65,4 +65,10 @@ spriteTypes = {
         texturefile = "gfx/interface/ideologies/TOK_milgov_group.dds"
     }
 
+
+    spriteType = {
+        name = "GFX_banned_party"
+        texturefile = "gfx/interface/scripted_guis/politics/banned_party.dds"
+    }
+
 }

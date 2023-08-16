@@ -33,3 +33,26 @@
    JAP_war_tree:0 "Satchō Alliance focus tree"
 
   #WAR TREE
+
+ ##EVENTS
+  japan.1.t:0 "Great military triumph"
+  japan.1.d:0 "Our troops reached as far north as Honsiu occupying all the important cities along the way. Now it depends on the will of the Shogun whether he will capitulate or try to continue to fight our powerful army pointlessly."
+  japan.2.t:0 "[AIN.GetLeader] oaths loyality to the Emperor"
+  japan.2.d:0 "The leader of the Ainu, [AIN.GetLeader] acted wisely in addressing us and giving honor to our Emperor. His people have been under the Shogun's boot for centuries and now he will probably want to change that"
+  japan.3.t:0 "Ainu territorial claims"
+  japan.3.d:0 "A newly formed country with no established borders hopes to give them the entire island of Ezochi, we must decide how much they deserve and how much we can hand over to them"
+  japan.4.t:0 "Ainu role in our empire"
+  japan.4.d:0 "The Ains cannot be independent, their territory is also ours. Besides, they are too weak to exist without our support"
+  japan.5.t:0 "The case of Ainu culture"
+  japan.5.d:0 "Ainu culture is significantly different from ours, but nevertheless they must get a sense of separateness and at the same time that they are subject to us"
+  japan.6.t:0 "Ainu delegation at the palace gate"
+  japan.6.d:0 "The Ainu have sent their delegation to us, and they want recognition of their state and a series of agreements regarding their existence. For their help in the war, they deserve our appreciation"
+
+  ##TOOLTIPS
+   satcho_domain_tt:0 "§Y[From.CDL_domain_name]§!"
+   satcho_leader_tt:0 "§Y[From.CDL_satcho_leader_name]§!"
+   CDL_satsuma_domain_tt:0 "Satsuma Domain"
+   CDL_choshu_domain_tt:0 "Chōshū Domain"
+   CDL_saigo_takamori_tt:0 "Saigō Takamori"
+   CDL_makino_nobuaki_tt:0 "Makino Nobuaki"
+   CDL_yamagata_aritomo_tt:0 "Yamagata Aritomo"

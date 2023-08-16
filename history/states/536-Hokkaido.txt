@@ -2,7 +2,7 @@
 state={
 	id=536
 	name="STATE_536"
-	manpower = 1032617
+	manpower = 216324
 	
 	state_category = rural
 
@@ -11,23 +11,12 @@ state={
 		add_core_of = TOK
 		buildings = {
 			infrastructure = 1
-			dockyard = 1
-			3962 = {
-				naval_base = 2
-			}
 		}
-		victory_points = {
-			10444 3
-		}
+
 		victory_points = {
 			4576 1
 		}
-		victory_points = {
-			3962 5 
-		}
-		victory_points = {
-			7532 1
-		}
+
 		victory_points = {
 			1512 1
 		}
@@ -35,7 +24,7 @@ state={
 	}
 
 	provinces={
-		1512 1642 3962 4576 4646 7532 7595 10444 10512 12352 12421 12493 
+		1512 1642 4576 4646 7595 10512 12352 12421 12493 
 	}
 
 	local_supplies=0.0 

@@ -1,26 +1,30 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_Saigo_Takamori"
+		name = "GFX_satcho_portrait_1"
 		texturefile = "gfx/interface/scripted_guis/satcho_leaders/Saigo_Takamori.dds"
 	}
 	spriteType = {
-		name = "GFX_Makino_Nobuaki"
+		name = "GFX_satcho_portrait_2"
 		texturefile = "gfx/interface/scripted_guis/satcho_leaders/Makino_Nobuaki.dds"
 	}
 	spriteType = {
-		name = "GFX_Yamagata_Aritomo"
+		name = "GFX_satcho_portrait_3"
 		texturefile = "gfx/interface/scripted_guis/satcho_leaders/Yamagata_Aritomo.dds"
+	}
+	spriteType = {
+		name = "GFX_satcho_portrait_4"
+		texturefile = "gfx/interface/scripted_guis/satcho_leaders/Saigo_Torotaro.dds"
 	}
 	spriteType = {
 		name = "GFX_leader_frame"
 		texturefile = "gfx/interface/scripted_guis/satcho_leaders/leader_frame.dds"
 	}
 	spriteType = {
-		name = "GFX_satsuma_flag"
+		name = "GFX_satcho_domain_1"
 		texturefile = "gfx/interface/scripted_guis/satcho_leaders/satsuma_flag.dds"
 	}
 	spriteType = {
-		name = "GFX_choshu_flag"
+		name = "GFX_satcho_domain_2"
 		texturefile = "gfx/interface/scripted_guis/satcho_leaders/choshu_flag.dds"
 	}
 	spriteType = {

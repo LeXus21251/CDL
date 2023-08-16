@@ -24,6 +24,16 @@ guiTypes = {
 			pdx_tooltip_delayed = "pol_parties_button_tt_delayed"
 		}
 
+		buttonType = {
+			name = "cultures_button"
+			position = { x = 102 y = 0 }
+			quadTextureSprite = "GFX_cultures_button"
+			shortcut = "c"
+			clicksound = click_default
+			pdx_tooltip = "culture_button_tt"
+			pdx_tooltip_delayed = "culture_button_tt_delayed"
+		}
+
 
 		
 	}

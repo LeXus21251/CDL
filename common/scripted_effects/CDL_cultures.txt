@@ -99,9 +99,151 @@ CDL_cultures = {
 	790 = { set_variable = { culture_id = 13 } }
 	174 = { set_variable = { culture_id = 13 } }
 
-	###  Aragonian Culture  ###
+	###  Aragonese Culture  ###
 
 	911 = { set_variable = { culture_id = 14 } }
 
+	###  French Culture  ###
+
+	16 = { set_variable = { culture_id = 15 } }
+	920 = { set_variable = { culture_id = 15 } }
+	15 = { set_variable = { culture_id = 15 } }
+	30 = { set_variable = { culture_id = 15 } }
+	23 = { set_variable = { culture_id = 15 } }
+	33 = { set_variable = { culture_id = 15 } }
+	24 = { set_variable = { culture_id = 15 } }
+	923 = { set_variable = { culture_id = 15 } }
+	785 = { set_variable = { culture_id = 15 } }
+	27 = { set_variable = { culture_id = 15 } }
+	18 = { set_variable = { culture_id = 15 } }
+	924 = { set_variable = { culture_id = 15 } }
+	922 = { set_variable = { culture_id = 15 } }
+	29 = { set_variable = { culture_id = 15 } }
+
+	###  Occitan Culture  ###
+
+	19 = { set_variable = { culture_id = 16 } }
+	31 = { set_variable = { culture_id = 16 } }
+	25 = { set_variable = { culture_id = 16 } }
+	26 = { set_variable = { culture_id = 16 } }
+	22 = { set_variable = { culture_id = 16 } }
+	20 = { set_variable = { culture_id = 16 } }
+	926 = { set_variable = { culture_id = 16 } }
+	21 = { set_variable = { culture_id = 16 } }
+	851 = { set_variable = { culture_id = 16 } }
+	927 = { set_variable = { culture_id = 16 } }
+
+	###  Breton Culture  ###
+
+	14 = { set_variable = { culture_id = 17 } }
+
+	###  Walloon Culture  ###
+
+	34 = { set_variable = { culture_id = 18 } }
+
+	###  Corsican Culture  ###
+
+	1 = { set_variable = { culture_id = 19 } }
+
+	###  Arpitan Culture  ###
+
+	32 = { set_variable = { culture_id = 20 } }
+	17 = { set_variable = { culture_id = 20 } }
+	735 = { set_variable = { culture_id = 20 } }
+	845 = { set_variable = { culture_id = 20 } }
+
+	###  Dutch Culture  ###
+
+	7 = { set_variable = { culture_id = 21 } }
+	35 = { set_variable = { culture_id = 21 } }
+	6 = { set_variable = { culture_id = 21 } }
+
+	###  Frisian Culture  ###
+
+	36 = { set_variable = { culture_id = 22 } }
+
+	###  Brandenburgish Culture  ###
+
+	64 = { set_variable = { culture_id = 23 } }
+	946 = { set_variable = { culture_id = 23 } }
+	68 = { set_variable = { culture_id = 23 } }
+
+	###  Low Saxon Culture  ###
+
+	914 = { set_variable = { culture_id = 24 } }
+	56 = { set_variable = { culture_id = 24 } }
+	942 = { set_variable = { culture_id = 24 } }
+	57 = { set_variable = { culture_id = 24 } }
+	59 = { set_variable = { culture_id = 24 } }
+	943 = { set_variable = { culture_id = 24 } }
+	945 = { set_variable = { culture_id = 24 } }
+
+	###  Pomeranian Culture  ###
+
+	63 = { set_variable = { culture_id = 25 } }
+	947 = { set_variable = { culture_id = 25 } }
+	61 = { set_variable = { culture_id = 25 } }
+	62 = { set_variable = { culture_id = 25 } }
+
+	###  Saxon Culture  ###
+
+	65 = { set_variable = { culture_id = 26 } }
+	60 = { set_variable = { culture_id = 26 } }
+	69 = { set_variable = { culture_id = 26 } }
+
+	###  Bavarian Culture  ###
+
+	52 = { set_variable = { culture_id = 27 } }
+	53 = { set_variable = { culture_id = 27 } }
+	938 = { set_variable = { culture_id = 27 } }
+	39 = { set_variable = { culture_id = 27 } }
+	935 = { set_variable = { culture_id = 27 } }
+	153 = { set_variable = { culture_id = 27 } }
+	152 = { set_variable = { culture_id = 27 } }
+	4 = { set_variable = { culture_id = 27 } }
+	936 = { set_variable = { culture_id = 27 } }
+	937 = { set_variable = { culture_id = 27 } }
+	72 = { set_variable = { culture_id = 27 } }
+
+	###  Allemanic Culture  ###
+
+	939 = { set_variable = { culture_id = 28 } }
+	848 = { set_variable = { culture_id = 28 } }
+	934 = { set_variable = { culture_id = 28 } }
+	847 = { set_variable = { culture_id = 28 } }
+	3 = { set_variable = { culture_id = 28 } }
+	28 = { set_variable = { culture_id = 28 } }
+
+	###  Swabian Culture  ###
+
+	50 = { set_variable = { culture_id = 29 } }
+
+	###  Middle Franconian Culture  ###
+
+	54 = { set_variable = { culture_id = 30 } }
+
+	###  Rhenish Franconian Culture  ###
+
+	55 = { set_variable = { culture_id = 31 } }
+	940 = { set_variable = { culture_id = 31 } }
+	42 = { set_variable = { culture_id = 31 } }
+	921 = { set_variable = { culture_id = 31 } }
+
+	###  Moselle Franconian Culture  ###
+
+	51 = { set_variable = { culture_id = 32 } }
+	8 = { set_variable = { culture_id = 32 } }
+	941 = { set_variable = { culture_id = 32 } }
+
+	###  Silesian Culture  ###
+
+	944 = { set_variable = { culture_id = 33 } }
+	66 = { set_variable = { culture_id = 33 } }
+	67 = { set_variable = { culture_id = 33 } }
+	74 = { set_variable = { culture_id = 33 } }
+
+	###  Sorbian Culture  ###
+
+	1135 = { set_variable = { culture_id = 34 } }
 
 }

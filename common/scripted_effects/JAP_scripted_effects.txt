@@ -1,0 +1,56 @@
+
+CDL_satcho_check = {
+			JAP = { set_variable = { satcho_id = 1 } }
+			JAP = { set_variable = { satcho_id = 2 } }
+			JAP = { set_variable = { satcho_id = 3 } }
+			JAP = { set_variable = { satcho_id = 4 } }
+}
+
+CDL_domain_check = {
+		JAP = { set_variable = { domain_id = 1 } }
+		JAP = { set_variable = { domain_id = 2 } }
+}
+
+
+
+satcho_setup = {
+	JAP = {
+	add_to_array = {
+		array = satcho_leaders
+		index = 0
+		value = 1
+	}
+	add_to_array = {
+		array = satcho_leaders
+		index = 1
+		value = 2
+	}
+	add_to_array = {
+		array = satcho_leaders
+		index = 2
+		value = 3
+	}
+	add_to_array = {
+		array = satcho_domains
+		index = 0
+		value = 1
+	}
+	add_to_array = {
+		array = satcho_domains
+		index = 1
+		value = 1
+	}
+	add_to_array = {
+		array = satcho_domains
+		index = 2
+		value = 2
+	}
+}
+}
+
+array_remove_test = {
+	remove_from_array = {
+		array = satcho_leaders
+		index = 0
+	}
+}

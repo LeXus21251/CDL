@@ -4,6 +4,9 @@
   TOK:0 "Tokugawa"
   TOK_ADJ:0 "Tokugawan"
   TOK_DEF:0 "the Tokugawa"
+  TOK_lib:0 "United Shogunate of Japan"
+  TOK_lib_ADJ:0 "Japanese"
+  TOK_lib_DEF:0 "the United Shogunate of Japan"
   TOK_milgov:0 "Tokugawa Shogunate"
   TOK_milgov_ADJ:0 "Tokugawan"
   TOK_milgov_DEF:0 "the Tokugawa Shogunate"
@@ -109,13 +112,13 @@
     TOK_samurai_way_desc:0 "Samurai adhere to the unwritten rules of Bushidō. This makes them dedicated, honorable and brave warriors. This is exactly what our army needs."
  ##EVENTS
   tokugawa.1.t:0 "Start of the inevitable civil war"
-  tokugawa.1.d:0 "[?global.date.GetDateStringNoHourLong] Itsushi War has started. At the end of the Yang Wood Dragon Year, the southern Daimyōs decided to oppose the Shogun and overthrow his government. Under the leadership of [JAP.JAP_saigo_takamori.GetName], the alliance is about to move in our direction and take back the Emperor. \n\nOn the other hand, the [JAC.GetNonIdeologyName] cult, which has been growing strongly in recent years, has taken advantage of the situation and seized several provinces with the help of their loyalists."
+  tokugawa.1.d:0 "[GetDateText] Itsushi War has started. At the end of the Yang Wood Dragon Year, the southern Daimyōs decided to oppose the Shogun and overthrow his government. Under the leadership of [JAP.JAP_saigo_takamori.GetName], the alliance is about to move in our direction and take back the Emperor. \n\nOn the other hand, the [JAC.GetNonIdeologyName] cult, which has been growing strongly in recent years, has taken advantage of the situation and seized several provinces with the help of their loyalists."
 
   tokugawa.2.t:0 "New Dutch port"
   tokugawa.2.d:0 "As Dejima has been occupied by [JAP.GetName] forces and we have decided to help the Dutch by providing them a new trading port from which to conduct operations and trade. In the future, there will be an opportunity to develop a network of foreign ports."
 
   tokugawa.3.t:0 "Last Tokugawan bastion"
-  tokugawa.3.d:0 "We were pushed by the enemy all the way to Ezo Island, our last bastion. Part of the general staff advises that we lay down our arms and accept the sovereignty of the imperial alliance. In contrast, others say we should not surrender."
+  tokugawa.3.d:0 "We were pushed by the enemy all the way to Ezochi Island, our last bastion. Part of the general staff advises that we lay down our arms and accept the sovereignty of the imperial alliance. In contrast, others say we should not surrender."
 
  ##DECISIONS
   TOK_itsushi_war_times:0 "Itsushi War Era"
@@ -123,7 +126,7 @@
   TOK_recruit_sakai:0 "Recruit Sakai Tadazumi"
   TOK_conscript_start_warriors:0 "Conscript more warriors from northern Domains"
   TOK_conscript_start_warriors_desc:0 "Our allies in the northern part of the country can help us with their warriors to restore order and the glory of the Shogun."
-  TOK_recruit_from_north_ezo:0 "Recruit Ezo warriors"
+  TOK_recruit_from_north_ezo:0 "Recruit Ezochi warriors"
   TOK_recruit_from_north_ezo_desc:0 "[ezo_warriors_desc]"
   TOK_recruit_from_north_mutsu:0 "Recruit Mutsu warriors"
   TOK_recruit_from_north_mutsu_desc:0 "[mutsu_warriors_desc]"
@@ -132,7 +135,7 @@
   TOK_recruit_from_north_echigo:0 "Recruit Echigo warriors"
   TOK_recruit_from_north_echigo_desc:0 "[echigo_warriors_desc]"
 
-  ezo_warriors_can_recruit: "Reach for the loyal Ezo soldiers \n§WYou can recruit [?TOK.northern_warriors_ezo_var|.0Y] more divisions§!"
+  ezo_warriors_can_recruit: "Reach for the loyal Ezochi soldiers \n§WYou can recruit [?TOK.northern_warriors_ezo_var|.0Y] more divisions§!"
   mutsu_warriors_can_recruit: "Reach for the loyal Mutsu soldiers \n§WYou can recruit [?TOK.northern_warriors_mutsu_var|.0Y] more divisions§!"
   dewa_warriors_can_recruit: "Reach for the loyal Dewa soldiers \n§WYou can recruit [?TOK.northern_warriors_dewa_var|.0Y] more divisions§!"
   echigo_warriors_can_recruit: "Reach for the loyal Echigo soldiers \n§WYou can recruit [?TOK.northern_warriors_echigo_var|.0Y] more divisions§!"

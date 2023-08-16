@@ -1,0 +1,88 @@
+scripted_gui = {
+	CDL_ainu_jap = {
+		window_name = ainu_menagement_window
+		context_type = decision_category
+
+		visible = {
+			AIN = {
+				exists = yes
+			}
+			has_country_flag = ainu_available_puppet
+	
+		}
+
+
+
+
+
+
+
+
+
+		###VISIBILITY TRIGGERS
+		triggers = {
+			japan_visible = {
+				AND = {
+					AIN = {
+						has_full_control_of_state = 650
+					}
+					JAP = {
+						AND = {
+						NOT = {
+							has_full_control_of_state = 650
+						}
+						has_full_control_of_state = 533
+					}
+					}
+				}
+			}
+			japan_hakodate_visible = {
+				AND = {
+					JAP = {
+						AND = {
+						has_full_control_of_state = 650
+						has_full_control_of_state = 533
+						}
+					}
+					AIN = {
+						NOT = {
+							has_full_control_of_state = 650
+						}
+					}
+				}
+			}
+			hakodate_ainu_visible = {
+				AND = {
+					AIN = {
+						has_full_control_of_state = 650
+					}
+					JAP = {
+						NOT = {
+							has_full_control_of_state = 650
+						}
+					}
+				}
+			}
+			ezochi_ainu_visible = {
+				AIN = {
+					has_full_control_of_state = 536
+				}
+			}
+			kurils_ainu_visible = {
+				AIN = {
+					has_full_control_of_state = 555
+				}
+			}
+			s_sakhalin_ainu_visible = {
+				AIN = {
+					has_full_control_of_state = 537
+				}
+			}
+			n_sakhalin_ainu_visible = {
+				AIN = {
+					has_full_control_of_state = 655
+				}
+			}
+		}
+	}
+}

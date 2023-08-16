@@ -98,14 +98,148 @@ defined_text = {
         trigger = {
             check_variable = { culture_id = 14}
         }
-        localization_key = "CDL_culture_aragonian_tt"
+        localization_key = "CDL_culture_aragonese_tt"
     }
 
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 15}
+        }
+        localization_key = "CDL_culture_french_tt"
+    }
 
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 16}
+        }
+        localization_key = "CDL_culture_occitan_tt"
+    }
 
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 17}
+        }
+        localization_key = "CDL_culture_breton_tt"
+    }
 
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 18}
+        }
+        localization_key = "CDL_culture_walloon_tt"
+    }
 
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 19}
+        }
+        localization_key = "CDL_culture_corsican_tt"
+    }
 
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 20}
+        }
+        localization_key = "CDL_culture_arpitan_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 21}
+        }
+        localization_key = "CDL_culture_dutch_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 22}
+        }
+        localization_key = "CDL_culture_frisian_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 23}
+        }
+        localization_key = "CDL_culture_brandenburgish_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 24}
+        }
+        localization_key = "CDL_culture_low_saxon_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 25}
+        }
+        localization_key = "CDL_culture_pomeranian_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 26}
+        }
+        localization_key = "CDL_culture_saxon_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 27}
+        }
+        localization_key = "CDL_culture_bavarian_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 28}
+        }
+        localization_key = "CDL_culture_alemannic_tt"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 29}
+        }
+        localization_key = "CDL_culture_swabian_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 30}
+        }
+        localization_key = "CDL_culture_middle_franconian_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 31}
+        }
+        localization_key = "CDL_culture_rhenish_franconian_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 32}
+        }
+        localization_key = "CDL_culture_moselle_franconian_tt"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 33}
+        }
+        localization_key = "CDL_culture_silesian_tt"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { culture_id = 34}
+        }
+        localization_key = "CDL_culture_sorbian_tt"
+    }
     
 
    
@@ -120,5 +254,235 @@ defined_text = {
             check_variable = { culture_id = 1 }
         }
         localization_key = "CDL_culture_english_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 2 }
+        }
+        localization_key = "CDL_culture_scottish_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 3 }
+        }
+        localization_key = "CDL_culture_welsh_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 4 }
+        }
+        localization_key = "CDL_culture_northumbrian_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 5 }
+        }
+        localization_key = "CDL_culture_gaelic_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 6 }
+        }
+        localization_key = "CDL_culture_irish_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 7 }
+        }
+        localization_key = "CDL_culture_anglo_irish_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 8 }
+        }
+        localization_key = "CDL_culture_portuguese_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 9 }
+        }
+        localization_key = "CDL_culture_galician_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 10 }
+        }
+        localization_key = "CDL_culture_castilian_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 11 }
+        }
+        localization_key = "CDL_culture_catalan_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 12 }
+        }
+        localization_key = "CDL_culture_basque_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 13 }
+        }
+        localization_key = "CDL_culture_asturleonese_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 14}
+        }
+        localization_key = "CDL_culture_aragonese_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 15}
+        }
+        localization_key = "CDL_culture_french_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 16}
+        }
+        localization_key = "CDL_culture_occitan_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 17}
+        }
+        localization_key = "CDL_culture_breton_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 18}
+        }
+        localization_key = "CDL_culture_walloon_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 19}
+        }
+        localization_key = "CDL_culture_corsican_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 20}
+        }
+        localization_key = "CDL_culture_arpitan_tt_delayed"
+    }
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 21}
+        }
+        localization_key = "CDL_culture_dutch_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 22}
+        }
+        localization_key = "CDL_culture_frisian_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 23}
+        }
+        localization_key = "CDL_culture_brandenburgish_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 24}
+        }
+        localization_key = "CDL_culture_low_saxon_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 25}
+        }
+        localization_key = "CDL_culture_pomeranian_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 26}
+        }
+        localization_key = "CDL_culture_saxon_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 27}
+        }
+        localization_key = "CDL_culture_bavarian_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 28}
+        }
+        localization_key = "CDL_culture_alemannic_tt_delayed"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 29}
+        }
+        localization_key = "CDL_culture_swabian_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 30}
+        }
+        localization_key = "CDL_culture_middle_franconian_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 31}
+        }
+        localization_key = "CDL_culture_rhenish_franconian_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 32}
+        }
+        localization_key = "CDL_culture_moselle_franconian_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 33}
+        }
+        localization_key = "CDL_culture_silesian_tt_delayed"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { culture_id = 34}
+        }
+        localization_key = "CDL_culture_sorbian_tt_delayed"
     }
 }

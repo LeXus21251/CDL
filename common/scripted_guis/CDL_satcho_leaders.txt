@@ -1,12 +1,42 @@
 scripted_gui = {
     CDL_satcho_leaders = {
-        window_name = satcho_leaders_window
+        window_name = "satcho_leaders_window"
         context_type = decision_category
+
          
         visible = {
-			always = yes
+			AND = {
+				original_tag = JAP
+				has_country_flag = satcho_alliance
+			}
           }
-    
+		  dynamic_lists = {
+			satcho_leaders_grid = {
+				array = satcho_leaders
+				change_scope = no
+
+				entry_container = satcho_leaders_portraits
+				value = satcho_id
+			}
+		}
+		dynamic_lists = {
+			satcho_domains_grid = {
+				array = satcho_domains
+				change_scope = no
+
+				entry_container = satcho_leaders_domains
+				value = domain_id
+			}
+		}
+
+		properties = {
+			satcho_leader_portrait = {
+				image = "GFX_satcho_portrait_[?satcho_id]"
+			}
+			satcho_domain_flag = {
+				image = "GFX_satcho_domain_[?domain_id]"
+			}
+		}
 
         }
 

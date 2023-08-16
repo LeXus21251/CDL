@@ -1,0 +1,129 @@
+###########################
+# AINU Events
+###########################
+
+add_namespace = ainu
+#setup ainu rebellion
+country_event = {
+	id = ainu.1
+	title = ainu.1.t
+	desc = ainu.1.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	#picture = 
+
+	immediate = {
+		AIN = {
+			complete_national_focus = AIN_our_chance
+		}
+		country_event = {
+			id = japan.2
+		}
+		hidden_effect = {
+			AIN = {
+				set_state_owner = 536
+				set_province_controller = 12352
+				set_province_controller = 1642
+				set_province_controller = 12421
+				set_province_controller = 7595
+				set_province_controller = 4646
+			}
+			TOK = {
+				set_province_controller = 10512
+				set_province_controller = 12493
+				set_province_controller = 1512
+				set_province_controller = 4576
+			}
+		}
+	}
+
+	option = {  
+		name = "Ainu rebellion will help us capture Ezochi"
+	}
+	option = {
+		name = "It's time to start the fight for the Ainu people!"
+		AIN = { change_tag_from = JAP }
+		trigger = {
+			is_ai = no
+		}
+	}
+	
+}
+
+	country_event = {
+		id = ainu.2
+		title = ainu.2.t
+		desc = ainu.2.d
+
+		fire_only_once = yes
+		is_triggered_only = yes
+
+		immediate = {
+			country_event = {
+				id = japan.3
+				hours = 5
+			}
+		}
+		option = {
+			name = "I wish we will get whole island..."
+		}
+	}
+
+	country_event = {
+		id = ainu.3
+		title = ainu.3.t
+		desc = ainu.3.d
+
+		fire_only_once = yes
+		is_triggered_only = yes
+
+		immediate = {
+			country_event = {
+				id = japan.4
+				hours = 5
+			}
+		}
+		option = {
+			name = "We should be protected but also independent..."
+		}
+	}
+
+	country_event = {
+		id = ainu.4
+		title = ainu.4.t
+		desc = ainu.4.d
+
+		fire_only_once = yes
+		is_triggered_only = yes
+
+		immediate = {
+			country_event = {
+				id = japan.5
+				hours = 5
+			}
+		}
+		option = {
+			name = "Our culture should be cultivated..."
+		}
+	}
+
+	country_event = {
+		id = ainu.5
+		title = ainu.5.t
+		desc = ainu.5.d
+
+		fire_only_once = yes
+		is_triggered_only = yes
+
+		immediate = {
+			country_event = {
+				id = japan.6
+				days = 2
+			}
+		}
+		option = {
+			name = "Send a delegation to Kyoto"
+		}
+	}

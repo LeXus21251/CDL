@@ -1,0 +1,19 @@
+JAP_satcho_leaders = {
+	array_test = {
+			complete_effect = {
+				remove_from_array = {
+					array = satcho_leaders
+					index = 0
+				}
+			}
+	}
+	array_test_2 = {
+		complete_effect = {
+			add_to_array = {
+				array = satcho_leaders
+				index = 0
+				value = 4
+			}
+		}
+}
+}

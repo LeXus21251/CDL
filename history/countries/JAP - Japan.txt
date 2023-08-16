@@ -6,10 +6,13 @@ set_cosmetic_tag = JAP_satcho
 set_research_slots = 4
 
 add_ideas = {
-	sakoku_edict
 	bushido
 	daimyo_nation
 	JAP_emperor
+
+	limited_conscription
+	sakoku_edict
+	low_economy_mobilization
 }
 
 recruit_character = JAP_mutsuhito

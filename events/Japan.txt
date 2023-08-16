@@ -1,0 +1,174 @@
+###########################
+# JAPAN Events
+###########################
+
+add_namespace = japan
+
+#control all mainland japan
+country_event = {
+	id = japan.1
+	title = japan.1.t
+	desc = japan.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		JAP = {
+			has_full_control_of_state = 528
+			has_full_control_of_state = 529
+			has_full_control_of_state = 1060
+			has_full_control_of_state = 530
+			has_full_control_of_state = 531
+			has_full_control_of_state = 1059
+			has_full_control_of_state = 535
+			has_full_control_of_state = 1058
+			has_full_control_of_state = 532
+			has_full_control_of_state = 282
+			has_full_control_of_state = 1057
+			has_full_control_of_state = 534
+			has_full_control_of_state = 1056
+			has_full_control_of_state = 533
+		}
+		TOK = {
+			exists = yes
+			has_capitulated = no
+		}
+	}
+
+	option = {
+		name = "All of mainland is ours, only Ezochi left!"
+		hidden_effect = {
+			country_event = {
+				id = ainu.1
+				days = 90
+			}
+			country_event = {
+				id = tokugawa.3
+				hours = 2
+				random_hours = 1
+			}
+		}
+		
+	}
+}
+#ainu choose japan side
+country_event = {
+	id = japan.2
+	title = japan.2.t
+	desc = japan.2.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	#picture = 
+
+	immediate = {
+		JAP = {
+			set_country_flag = ainu_available_puppet
+		}
+	}
+
+	option = {  
+		name = "We should consider what to do with them"
+	}
+	
+}
+
+	country_event = {
+		id = japan.3
+		title = japan.3.t
+		desc = japan.3.d
+
+		fire_only_once = yes
+		is_triggered_only = yes
+
+		option = {
+			name = "They can have northern part, excluding vital cities"
+			AIN = {
+				set_state_owner = 536
+			}
+			536 = {
+				add_core_of = AIN
+			}
+		}
+		option = {
+			name = "The Ainu fought their way to control the entire island"
+			AIN = {
+				set_state_owner = 536
+				set_state_owner = 650
+			}
+			536 = {
+				add_core_of = AIN
+			}
+			650 = {
+				add_core_of = AIN
+			}
+		}
+	}
+
+	country_event = {
+		id = japan.4
+		title = japan.4.t
+		desc = japan.4.d
+
+		fire_only_once = yes
+		is_triggered_only = yes
+
+		option = {
+			name = "Ainu protectorate will be enough"
+			JAP = {
+				set_autonomy = {
+					target = AIN
+					autonomy_state = autonomy_protectorate
+				}
+			}
+		}
+		option = {
+			name = "They should be satisfied with the autonomy"
+			JAP = {
+				set_autonomy = {
+					target = AIN
+					autonomy_state = autonomy_vassal
+				}
+			}
+		}
+		option = {
+			name = "They deserve nothing more than to be our dependent territory"
+			JAP = {
+				set_autonomy = {
+					target = AIN
+					autonomy_state = autonomy_puppet_dlc
+				}
+			}
+		}
+	}
+
+	country_event = {
+		id = japan.5
+		title = japan.5.t
+		desc = japan.5.d
+
+		fire_only_once = yes
+		is_triggered_only = yes
+
+		option = {
+			name = "Fully recognize the beliefs and culture of the Ainu"
+		}
+		option = {
+			name = "We can only allow those parts that do not conflict with our ideology"
+		}
+	}
+
+	country_event = {
+		id = japan.6
+		title = japan.6.t
+		desc = japan.6.d
+
+		fire_only_once = yes
+		is_triggered_only = yes
+
+		option = {
+			name = "Recognize the existence of an Ainu country on the international stage"
+		}
+	}
+	

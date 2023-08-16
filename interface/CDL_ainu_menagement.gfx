@@ -1,0 +1,50 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CDL_ainu_region_map"
+		texturefile = "gfx/interface/scripted_guis/ainu_menagement/ainu_region_map.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_CDL_japan_onmap"
+		texturefile = "gfx/interface/scripted_guis/ainu_menagement/japan_onmap.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_CDL_japan_hakodate_whole_onmap"
+		texturefile = "gfx/interface/scripted_guis/ainu_menagement/japan_hakodate_whole_onmap.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_CDL_ainu_hakodate_onmap"
+		texturefile = "gfx/interface/scripted_guis/ainu_menagement/ainu_hakodate_onmap.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_CDL_ainu_ezochi_onmap"
+		texturefile = "gfx/interface/scripted_guis/ainu_menagement/ainu_ezochi_onmap.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_CDL_ainu_kurils_onmap"
+		texturefile = "gfx/interface/scripted_guis/ainu_menagement/ainu_kurils_onmap.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_CDL_ainu_sakhalin_s_onmap"
+		texturefile = "gfx/interface/scripted_guis/ainu_menagement/ainu_sakhalin_s_onmap.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_CDL_ainu_sakhalin_n_onmap"
+		texturefile = "gfx/interface/scripted_guis/ainu_menagement/ainu_sakhalin_n_onmap.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		transparencecheck = yes
+	}
+}

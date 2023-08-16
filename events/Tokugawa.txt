@@ -4,7 +4,7 @@
 
 add_namespace = tokugawa
 
-#Japanese Civil War Side
+#Itsushi war side choose
 country_event = {
 	id = tokugawa.1
 	title = tokugawa.1.t
@@ -36,7 +36,7 @@ country_event = {
 
 		}
 }
-
+	#dutch port setup
 	country_event = {
 		id = tokugawa.2
 		title = tokugawa.2.t
@@ -64,41 +64,21 @@ country_event = {
 		option = {
 			name = "The northern port will be a better option"
 			set_global_flag = dutch_port_in_hakodate
-			536 = {
+			650 = {
 				add_manpower = 1500
 			}
 			set_country_flag = dutch_weapon_collapsed
 		}
 	}
 
-			
+	#can choose ezo republic
 	country_event = {
 		id = tokugawa.3
 		title = tokugawa.3.t
 		desc = tokugawa.3.d
 		is_triggered_only = yes
 
-		fire_only_once = no
-		trigger = {
-			JAP = {
-				AND = {
-				has_full_control_of_state = 528
-				has_full_control_of_state = 529
-				has_full_control_of_state = 1060
-				has_full_control_of_state = 530
-				has_full_control_of_state = 531
-				has_full_control_of_state = 1059
-				has_full_control_of_state = 535
-				has_full_control_of_state = 1058
-				has_full_control_of_state = 532
-				has_full_control_of_state = 282
-				has_full_control_of_state = 1057
-				has_full_control_of_state = 534
-				has_full_control_of_state = 1056
-				has_full_control_of_state = 533
-				}
-			}
-		}
+		fire_only_once = yes
 
 		option = {
 			name = "We have been defeated"

@@ -1,0 +1,42 @@
+
+defined_text = { 
+    name = CDL_domain_name
+
+    text = { 
+        trigger = {
+            check_variable = { domain_id = 1 }
+        }
+        localization_key = "CDL_satsuma_domain_tt"
+    }
+	text = { 
+        trigger = {
+            check_variable = { domain_id = 2 }
+        }
+        localization_key = "CDL_choshu_domain_tt"
+    }
+}
+
+defined_text = { 
+    name = CDL_satcho_leader_name
+
+    text = { 
+        trigger = {
+            check_variable = { satcho_id = 1 }
+        }
+        localization_key = "CDL_saigo_takamori_tt"
+    }
+	text = { 
+        trigger = {
+            check_variable = { satcho_id = 2 }
+        }
+        localization_key = "CDL_makino_nobuaki_tt"
+    }
+
+	text = { 
+        trigger = {
+            check_variable = { satcho_id = 3 }
+        }
+        localization_key = "CDL_yamagata_aritomo_tt"
+    }
+}
+

@@ -76,6 +76,11 @@ itsushi_war_script = {
 					character = JAP_saigo_takamori
 					ideology = abs_sub
 				}
+				set_country_flag = satcho_alliance
+				set_country_flag = satcho_saigo_takamori
+				set_country_flag = satcho_makino_nobuaki
+				set_country_flag = satcho_yamagata_aritomo
+				satcho_setup = yes
 			}
 
 			JAC = {
@@ -102,7 +107,6 @@ itsushi_war_script = {
 			}
 			JAP = {
 				declare_war_on = { target = TOK type = annex_everything }
-
 			}
 			JAC = {
 				declare_war_on = { target = JAP type = annex_everything }

@@ -66,6 +66,103 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_CDL_culture_14"
-		texturefile = "gfx/interface/scripted_guis/cultures/culture_aragonian.dds"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_aragonese.dds"
 	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_15"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_french.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_16"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_occitan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_17"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_breton.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_18"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_walloon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_19"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_corsican.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_21"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_dutch.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_22"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_frisian.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_23"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_brandenburgish.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_24"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_low_saxon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_25"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_pomeranian.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_26"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_saxon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_27"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_bavarian.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_28"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_allemanic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_29"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_swabian.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_30"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_middle_franconian.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_31"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_rhenish_franconian.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_32"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_moselle_franconian.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_33"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_silesian.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CDL_culture_34"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_sorbian.dds"
+	}
+
+
 }

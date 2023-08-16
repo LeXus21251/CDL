@@ -7,5 +7,12 @@ scripted_gui = {
 		visible = {
             has_variable = pol_parties_open
         }
+        dynamic_lists = {
+            pol_parties_grid = {
+                array = pol_parties_array
+                entry_container = pol_party_entry
+                value = pol_party_id
+            }
+        }
 	}
 }
