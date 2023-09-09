@@ -235,11 +235,11 @@ CDL_cultures = {
 	8 = { set_variable = { culture_id = 32 } }
 	941 = { set_variable = { culture_id = 32 } }
 
-	###  Silesian Culture  ###
+	###  German Silesian Culture  ###
 
 	944 = { set_variable = { culture_id = 33 } }
 	66 = { set_variable = { culture_id = 33 } }
-	67 = { set_variable = { culture_id = 33 } }
+	1136 = { set_variable = { culture_id = 33 } }
 	74 = { set_variable = { culture_id = 33 } }
 
 	###  Sorbian Culture  ###

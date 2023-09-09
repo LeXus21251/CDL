@@ -156,7 +156,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_CDL_culture_33"
-		texturefile = "gfx/interface/scripted_guis/cultures/culture_silesian.dds"
+		texturefile = "gfx/interface/scripted_guis/cultures/culture_german_silesian.dds"
 	}
 
 	spriteType = {

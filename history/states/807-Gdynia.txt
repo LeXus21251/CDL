@@ -8,23 +8,8 @@ state={
 		victory_points = {
 			9263 5 
 		}
-		victory_points = {
-			3295 5 
-		}
-		victory_points = {
-			279 1 
-		}
-		victory_points = {
-			3324 1
-		}
-		victory_points = {
-			243 1
-		}
 		buildings = {
-			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 1
-			air_base = 2
+			infrastructure = 2
 			9263 = {
 				naval_base = 1
 
@@ -33,17 +18,13 @@ state={
 		}
 		add_core_of = POL
 		add_core_of = KSH
-		1938.3.12 = {
-			add_claim_by = GER
-
-		}
 
 	}
 
 	provinces={
-		243 279 334 389 3295 3324 9252 9263 13283
+	 334 9252 9263 13283
 	}
-	manpower=752663
+	manpower=254501
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

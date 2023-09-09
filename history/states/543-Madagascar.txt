@@ -10,10 +10,7 @@ state={
 		add_core_of = MAD
 		owner = MAD
 		victory_points = {
-			13398 1
-		}
-		victory_points = {
-			8188 1
+			13398 5
 		}
 		victory_points = {
 			10993 1
@@ -27,7 +24,7 @@ state={
 		buildings = {
 			infrastructure = 1
 			air_base = 1
-			5222 = {
+			8188 = {
 				naval_base = 1
 			}
 		}

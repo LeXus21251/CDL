@@ -231,7 +231,7 @@ defined_text = {
         trigger = {
             check_variable = { culture_id = 33}
         }
-        localization_key = "CDL_culture_silesian_tt"
+        localization_key = "CDL_culture_german_silesian_tt"
     }
 
     text = { 
@@ -476,7 +476,7 @@ defined_text = {
         trigger = {
             check_variable = { culture_id = 33}
         }
-        localization_key = "CDL_culture_silesian_tt_delayed"
+        localization_key = "CDL_culture_german_silesian_tt_delayed"
     }
 
     text = { 

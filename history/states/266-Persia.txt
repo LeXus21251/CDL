@@ -16,7 +16,6 @@ state={
 		}
 
 		add_core_of = PER
-		add_core_of = RUS
 		victory_points = {
 			10768 1
 		}

@@ -1,33 +1,34 @@
 
 state={
-	id=69
-	name="STATE_69"
-	resources={
-		steel=4.000
-	}
+	id=1137
+	name="STATE_1137"
 
 	history={
+		owner = POL
 		victory_points = {
-			3585 3 
+			3295 5 
 		}
 		victory_points = {
-			469 1
+			279 1 
 		}
-
-		owner = CZE
+		victory_points = {
+			3324 1
+		}
+		victory_points = {
+			243 1
+		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+
 		}
-		add_core_of = CZE
-		add_claim_by = GER
+		add_core_of = POL
 
 	}
 
 	provinces={
-		424 469 3418 3585 6470 9555 11432 
+		243 279 389 3295 3324
 	}
-	manpower=863553
+	manpower=498162
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000
