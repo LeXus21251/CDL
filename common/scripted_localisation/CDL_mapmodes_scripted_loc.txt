@@ -1,29 +1,68 @@
 defined_text = {
-	name = mapmode_tooltips
+	name = CDL_mapmode_tooltip
+
 	text = {
-		trigger = {is_core_of = ROOT }
-		localization_key = "mapmode_core_tt"
+		trigger = {
+			is_core_of = ROOT
+		}
+		localization_key = mapmode_core_tt
 	}
 	text = {
 		trigger = {
-			AND = {
-				is_claimed_by = ROOT 
-				is_owned_by = ROOT
-				}
-			}
-			localization_key = "mapmode_can_be_integrated_tt"
+			is_owned_by = ROOT
 		}
+		localization_key = mapmode_owned_tt
+	}
+	text = {
+		trigger = {
+			is_claimed_by = ROOT
+		}
+		localization_key = mapmode_claim_tt
+	}
+	text = {
+		trigger = {
+			is_controlled_by = ROOT
+		}
+		localization_key = mapmode_controlled_tt
+	}
+}
+
+defined_text = {
+	name = CDL_mapmode_tooltip_delayed
 
 	text = {
-		trigger = {is_claimed_by = ROOT }
-		localization_key = "mapmode_claim_tt"
+		trigger = {
+			is_owned_by = ROOT
+			NOT = { is_controlled_by = ROOT }
+		}
+		localization_key = mapmode_controlled_enemy_tt
 	}
 	text = {
-		trigger = { is_owned_by = ROOT }
-		localization_key = "mapmode_owned_tt"
+		trigger = {
+			is_core_of = ROOT
+			NOT = { is_owned_by = ROOT }
+			is_controlled_by = ROOT
+		}
+		localization_key = mapmode_core_not_owned_controlled_tt
 	}
 	text = {
-		trigger = { is_controlled_by = ROOT }
-		localization_key = "mapmode_controlled_tt"
+		trigger = {
+			OR = {
+				is_core_of = ROOT
+			}
+			NOT = { is_owned_by = ROOT }
+			NOT = { is_controlled_by = ROOT }
+		}
+		localization_key = mapmode_core_not_owned_tt
+	}
+
+	text = {
+		trigger = {
+			AND = {
+				is_controlled_by = ROOT
+				is_claimed_by = ROOT
+			}
+		}
+		localization_key = mapmode_claim_controlled_tt
 	}
 }

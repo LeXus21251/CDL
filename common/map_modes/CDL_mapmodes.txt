@@ -1,70 +1,99 @@
 scripted_map_modes = {
 	core_map_mode = {
-		top = {
-			type = state
-			color = {
-				FROM = {
-					set_temp_variable = { alpha = 0.5 }
-					## CORE ##
+	top = {
+		type = state
+
+		color = {
+			FROM = {
+				set_temp_variable = { alpha = 1.0 }
+				if = {
+					limit = {
+						is_core_of = ROOT
+					}
 					if = {
-						limit = { is_core_of = ROOT }
-						set_temp_variable = { green = 0.5 }
-						set_temp_variable = { blue = 0.1 }
-					}
-					
-					## CLAIM OCCUPIED ##
-					else_if = {
-						limit = { 
-							AND = {
-							is_claimed_by = ROOT 
-							is_owned_by = ROOT
-							}
+						limit = {
+							is_controlled_by = ROOT
 						}
-						set_temp_variable = { green = 0.8 }
-						set_temp_variable = { blue = 1 }
+						set_temp_variable = { red = 0.0 }
+						set_temp_variable = { green = 0.5 }
+						set_temp_variable = { blue = 0.0 }
 					}
-					## CLAIM ##
 					else_if = {
-						limit = { is_claimed_by = ROOT }
-						set_temp_variable = { green = 0.8 }
-					}
-					## OCCUPIED OWNED ##
-					else_if = {
-						limit = { is_owned_by = ROOT }
-						set_temp_variable = { red = 1 }
-						set_temp_variable = { green = 0.9 }
-					}
-					## OCCUPATION WAR ##
-					else_if = {
-						limit = { is_controlled_by = ROOT }
-						set_temp_variable = { red = 1 }
+						limit = {
+							is_owned_by = ROOT
+						}
+						set_temp_variable = { red = 0.7 }
+						set_temp_variable = { green = 0.0 }
+						set_temp_variable = { blue = 0.0 }
 					}
 					else = {
-						set_temp_variable = { red = 0.35 }
-						set_temp_variable = { green = 0.35 }
-						set_temp_variable = { blue = 0.35 }
-						set_temp_variable = { alpha = 0.25 }
+						set_temp_variable = { red = 0.67 }
+						set_temp_variable = { green = 1.0 }
+						set_temp_variable = { blue = 0.67 }
+						set_temp_variable = { alpha = 0.5 }
 					}
+				}
+				else_if = {
+					limit = {
+						is_owned_by = ROOT
+					}
+					if = {
+						limit = {
+							is_controlled_by = ROOT
+						}
+						set_temp_variable = { red = 0.0 }
+						set_temp_variable = { green = 1.0 }
+						set_temp_variable = { blue = 0.0 }
+					}
+					else = {
+						set_temp_variable = { red = 1.0 }
+						set_temp_variable = { green = 0.0 }
+						set_temp_variable = { blue = 0.0 }
+					}
+				}
+				else_if = {
+					limit = {
+						is_claimed_by = ROOT
+					}
+					if = {
+						limit = {
+							is_controlled_by = ROOT
+						}
+						set_temp_variable = { red = 0.0 }
+						set_temp_variable = { green = 0.67 }
+						set_temp_variable = { blue = 1.0 }
+					}
+					else = {
+						set_temp_variable = { red = 0 }
+						set_temp_variable = { green = 0.9 }
+						set_temp_variable = { blue = 1.0 }
+						set_temp_variable = { alpha = 0.5 }
+					}
+				}
+				else = {
+					set_temp_variable = { red = 1.0 }
+					set_temp_variable = { green = 1.0 }
+					set_temp_variable = { blue = 0.0 }
 				}
 			}
 		}
 
-		bottom = {
-			type = country
-			color = {
-				set_temp_variable = { red = 0.6 }
-				set_temp_variable = { blue = 0.6 }
-				set_temp_variable = { green = 0.6 }
-				set_temp_variable = { alpha = 0.25 }
+		thickness = no
+
+		targets = {
+			target_array = global.states
+			target_trigger = {
+				FROM = {
+					OR = {
+						is_owned_by = ROOT
+						is_controlled_by = ROOT
+						is_core_of = ROOT
+						is_claimed_by = ROOT
+					}
+				}
 			}
-
-			thickness = yes
 		}
-
-		far_text = country
-		near_text = state
-
-		update_daily = no
+	}
 	}
 
 
@@ -349,6 +378,14 @@ scripted_map_modes = {
 						set_temp_variable = { red = 0.627 }
 						set_temp_variable = { green = 0.352 }
 						set_temp_variable = { blue = 0.882 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 35 } #Romansh
+						}
+						set_temp_variable = { red = 0.6 }
+						set_temp_variable = { green = 0.4 }
+						set_temp_variable = { blue = 0.66 }
 					}
 					else = {
 						set_temp_variable = { red = 0.63 }
