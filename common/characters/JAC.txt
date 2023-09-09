@@ -6,6 +6,9 @@ characters={
 			civilian={
 				large="gfx/leaders/JAC/Nakayama_Sakura.dds"
 			}
+			army = {
+				large = "gfx/leaders/JAC/Nakayama_Sakura.dds"
+			}
 		}
 		country_leader={
 			ideology=trad_sub
@@ -22,7 +25,10 @@ characters={
 		name="Iburi Izō"
 		portraits={
 			civilian={
-				large="gfx/leaders/JAC"
+				large="gfx/leaders/JAC/Iburi_Izo"
+			}
+			army = {
+				large = "gfx/leaders/JAC/Iburi_Izo"
 			}
 		}
 		field_marshal={

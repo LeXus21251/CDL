@@ -3,15 +3,12 @@ state={
 	id=955
 	name="STATE_955"
 	provinces={
-		22 64 76 2995 3016 3040 3058 3082 6015 6079 6092 9042 9064 9089 9116 11034 11063 11077 11104 
+		22 64 76 2995 3016 3040 3058 3082 6015 6079 6092 9042 9064 9089 11034 11063 11077 11104 
 	}
 	history={
 		owner = DEN
 		add_core_of = DEN
 		add_core_of = NOR
-		victory_points = {
-			9116 1
-		}
 		victory_points = {
 			22 1
 		}

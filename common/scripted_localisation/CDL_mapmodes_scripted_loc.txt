@@ -62,7 +62,7 @@ defined_text = {
 				is_controlled_by = ROOT
 				is_claimed_by = ROOT
 			}
-		}
+			NOT = { is_owned_by = ROOT }
 		localization_key = mapmode_claim_controlled_tt
 	}
 }
