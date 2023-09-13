@@ -2,20 +2,25 @@
 state={
 	id=953
 	name="STATE_953"
-	provinces={
-		10 133 171 179 3007 3105 3136 6160 6310 11151 
-	}
+
 	history={
 		owner = DEN
 		add_core_of = DEN
 		add_core_of = NOR
+		buildings = {
+			infrastructure = 1
+		}
 		victory_points = {
-			11151 1
+			11151 1 
 		}
 
 	}
-	manpower=243873
-	state_category = rural
+
+	provinces={
+		10 133 179 3007 3105 3136 6160 11151 
+	}
+	manpower=85172
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 	local_supplies=0.000
 }

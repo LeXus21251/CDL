@@ -1,0 +1,28 @@
+
+state={
+	id=1141
+	name="STATE_1141"
+	provinces={
+		67 3025 3119 3137 6047 6138 6141 6163 9056 9073 9160 9166 9167 9219 11033 11138 11144 13100 13102 13103 13106 13107 13113 
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = FIN
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			3137 1 
+		}
+		victory_points = {
+			67 1 
+		}
+	}
+	manpower=417817
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

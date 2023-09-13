@@ -8,32 +8,14 @@ state={
 
 	history={
 		victory_points = {
-			6115 15 
+			3021 1 
 		}
 		victory_points = {
-			14 1
-		}
-		victory_points = {
-			3171 1
-		}
-		victory_points = {
-			3021 1
-		}
-		victory_points = {
-			11028 1
+			11028 1 
 		}
 		owner = DEN
 		buildings = {
-			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 3
-			dockyard = 1
-			air_base = 4
-			6115 = {
-				naval_base = 6
-				coastal_bunker = 3
-
-			}
+			infrastructure = 1
 
 		}
 		add_core_of = NOR
@@ -42,10 +24,10 @@ state={
 	}
 
 	provinces={
-		14 27 100 111 144 3021 3059 3094 3171 6042 6072 6080 6114 6115 6136 6151 6184 9032 9036 9103 9135 9157 9174 9204 9227 11028 11029 11037 11078 11113 11135 11184 11206 
+		27 111 144 3021 3059 6042 6080 6114 6136 9032 9135 9157 9227 11028 11037 11113 11135 11206 
 	}
-	manpower=937827
+	manpower=427118
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=rural
 	local_supplies=0.000
 }

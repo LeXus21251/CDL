@@ -2,20 +2,22 @@
 state={
 	id=955
 	name="STATE_955"
-	provinces={
-		22 64 76 2995 3016 3040 3058 3082 6015 6079 6092 9042 9064 9089 11034 11063 11077 11104 
-	}
+
 	history={
 		owner = DEN
 		add_core_of = DEN
 		add_core_of = NOR
 		victory_points = {
-			22 1
+			22 1 
 		}
 
 	}
-	manpower=93827
-	state_category = pastoral
+
+	provinces={
+		22 64 76 2995 3016 3040 6015 6092 9042 9064 9089 11034 11063 11077 11104 
+	}
+	manpower=83827
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 	local_supplies=0.000
 }

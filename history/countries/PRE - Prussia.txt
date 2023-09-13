@@ -46,7 +46,7 @@ set_research_slots = 3
 set_convoys = 50
 
 set_politics = {
-	ruling_party = refsoc
+	ruling_party = abs
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -59,7 +59,7 @@ set_popularities = {
 add_ideas = {
 }
 
-
+recruit_character = PRE_nikolai_essen
 recruit_character = PRE_otto_braun
 
 

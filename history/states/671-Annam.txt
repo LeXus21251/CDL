@@ -3,10 +3,10 @@ state={
 	id=671
 	name="STATE_671"
 	resources={
-		steel = 1
-		tungsten=1
-		food = 17
-		fabrics = 6
+		steel=1.000
+		tungsten=1.000
+		food=17.000
+		fabrics=6.000
 	}
 
 	history={
@@ -16,13 +16,10 @@ state={
 			4075 5 
 		}
 		victory_points = {
-			4119 3
+			4119 3 
 		}
 		victory_points = {
-			7218 2
-		}
-		victory_points = {
-			10004 2
+			10004 2 
 		}
 		buildings = {
 			infrastructure = 2
@@ -38,9 +35,9 @@ state={
 	}
 
 	provinces={
-		1073 1157 1185 4075 4119 4339 4529 7015 7075 7093 7218 7356 7518 9948 9961 9988 10004 10016 10075 10103 10129 11909 11936 12008 12048 12065 12075 12319 12332 12392 12433
+		1073 1157 1185 4075 4119 7015 7093 7518 9948 10004 10016 10075 10103 10129 11909 11936 12008 12048 12065 12075 12319 
 	}
-	manpower=5846715
+	manpower=5046715
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

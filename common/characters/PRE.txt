@@ -1,4 +1,20 @@
 characters={
+
+	PRE_nikolai_essen={
+		name="Nikolai Ottovich von Essen"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRE/Nikolai_Essen.dds"
+			}
+		}
+		country_leader={
+			ideology=abs_sub
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
 	PRE_otto_braun={
 		name="Otto Braun"
 		portraits={

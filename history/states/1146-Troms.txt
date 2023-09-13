@@ -1,0 +1,36 @@
+
+state={
+	id=1146
+	name="STATE_1146"
+	provinces={
+		44 91 192 3058 3082 3145 6079 6130 11050 11090 11157 
+	}
+	history={
+		owner = DEN
+		buildings = {
+			infrastructure = 1
+			192 = {
+				naval_base = 3
+
+			}
+			11050 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			192 1 
+		}
+		victory_points = {
+			11050 1 
+		}
+		add_core_of = NOR
+		add_core_of = DEN
+
+	}
+	manpower=65172
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

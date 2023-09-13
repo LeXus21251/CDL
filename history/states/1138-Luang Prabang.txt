@@ -1,0 +1,26 @@
+
+state={
+	id=1138
+	name="STATE_1138"
+
+	history={
+		add_core_of = VIN
+		owner = VIN
+		victory_points = {
+			7218 2 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4339 4529 7075 7218 7356 9961 9988 12332 12392 12433 
+	}
+	manpower=817291
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

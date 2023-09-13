@@ -1,0 +1,31 @@
+
+state={
+	id=875
+	name="STATE_875"
+
+	history={
+		owner = DEN
+		buildings = {
+			infrastructure = 1
+			6361 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = DEN
+
+		victory_points = {
+			6361 1 
+		}
+
+	}
+
+	provinces={
+		6361 
+	}
+	manpower=43817
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

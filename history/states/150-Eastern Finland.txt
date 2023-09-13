@@ -9,33 +9,22 @@ state={
 	history={
 		owner = RUS
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 1
 
 		}
 		add_core_of = FIN
 		add_core_of = RUS
 		victory_points = {
-			3137 1 
+			11076 1 
 		}
-		victory_points = {
-			6033 1
-		}
-		victory_points = {
-			67 1
-		}
-		victory_points = {
-			3013 1
-		}
-		
 
 	}
 
 	provinces={
-		37 52 67 82 132 136 139 141 165 193 3013 3025 3030 3068 3115 3119 3125 3131 3137 3149 3185 6033 6047 6078 6082 6138 6141 6146 6156 6163 6210 9056 9061 9073 9104 9106 9160 9163 9166 9167 9169 9181 9183 9219 9233 11024 11033 11043 11056 11076 11079 11138 11141 11144 11199 11210 13100 13102 13103 13104 13105 13106 13107 13108 13109 13110 13111 13112 13113 13114 13115 13118 
+		82 132 193 3068 3115 3125 3149 3185 6033 6078 6146 6156 6210 9061 9104 9106 9169 9181 9233 11024 11076 11079 11141 11199 13112 13114 13115 13118 
 	}
-	manpower=1872637
+	manpower=987192
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 	local_supplies=0.000
 }

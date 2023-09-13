@@ -1,0 +1,28 @@
+
+state={
+	id=1149
+	name="STATE_1149"
+	provinces={
+		14 3171 6115 9103 9204 11078 11184 
+	}
+	history={
+		victory_points = {
+			14 1 
+		}
+		victory_points = {
+			3171 1 
+		}
+		owner = DEN
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = NOR
+		add_core_of = DEN
+
+	}
+	manpower=617281
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

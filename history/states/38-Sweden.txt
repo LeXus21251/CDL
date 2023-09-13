@@ -9,24 +9,20 @@ state={
 	history={
 		owner = SWE
 		victory_points = {
-			156 1 
+			9151 1 
 		}
 		victory_points = {
-			9151 1
+			3045 1 
 		}
 		victory_points = {
-			3045 1
+			11040 1 
 		}
 		victory_points = {
-			11040 1
-		}
-		victory_points = {
-			130 1
+			130 1 
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			air_base = 3
 			130 = {
 				naval_base = 1
 
@@ -38,9 +34,9 @@ state={
 	}
 
 	provinces={
-		49 77 114 125 130 156 205 3005 3045 3070 3108 3148 6023 6093 6123 6147 9035 9051 9068 9117 9148 9151 9173 9182 9193 11040 11053 11091 11123 11147 11197 11209 13099 
+		49 125 130 205 3045 3108 3148 6023 9035 9051 9117 9151 9193 11040 11091 11123 11147 11209 
 	}
-	manpower=243827
+	manpower=127182
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

@@ -152,6 +152,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4967;13381;sea;34;-1;-1;-1;-1;;Maldives-Laccadives
 13265;13385;sea;8932;-1;-1;-1;-1;;Tonga
 13388;13389;sea;5474;-1;-1;-1;-1;;French Polynesia
+9388;13399;sea;2358;-1;-1;-1;-1;;Rugen
 
 ## SAHARA CROSSINGS
 10875;13313;sea;10838;-1;-1;-1;-1;;Rio de oro-Zouerat

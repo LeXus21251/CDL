@@ -23,13 +23,7 @@ state={
 
 		}
 		victory_points = {
-			192 1 
-		}
-		victory_points = {
-			11050 1 
-		}
-		victory_points = {
-			9126 1
+			9126 1 
 		}
 		add_core_of = NOR
 		add_core_of = DEN
@@ -37,9 +31,9 @@ state={
 	}
 
 	provinces={
-		38 44 91 173 192 3034 3048 3088 3126 3132 3145 6071 6111 6130 6187 6214 9126 9208 11050 11090 11157 
+		38 173 3034 3048 3088 3126 3132 6071 6111 6187 6214 9126 9208 
 	}
-	manpower=89387
+	manpower=101918
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000
