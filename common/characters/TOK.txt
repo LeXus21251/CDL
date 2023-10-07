@@ -32,6 +32,10 @@ characters={
 				large="gfx/leaders/TOK/Enomoto_Takeaki.dds"
 				small = "gfx/interface/ideas/TOK_enomoto_takeaki.dds"
 			}
+
+			army = {
+				large="gfx/leaders/TOK/Enomoto_Takeaki.dds"
+			}
 		}
 		country_leader={
 			ideology=milgov_sub
@@ -59,27 +63,16 @@ characters={
 	TOK_sakai_tadazumi={
 		name="Sakai Tadazumi"
 		portraits={
-			civilian={
-				large="gfx/leaders/TOK"
+			army = {
+				large = "gfx/leaders/TOK/Military/Sakai_Tadazumi.dds"
 			}
 		}
 		corps_commander={
 
 		}
 	}
-	TOK_kasuya_toshizo={
-		name="Kasuya Toshizo"
-		portraits={
-			civilian={
-				large="gfx/leaders/TOK"
-			}
-		}
-		corps_commander={
-
-		}
-	}
-	TOK_makino_tadakatsu={
-		name="Makino Tadakatsu"
+	TOK_hijikata_toshizo={
+		name="Hijikata Toshizo"
 		portraits={
 			civilian={
 				large="gfx/leaders/TOK"

@@ -18,7 +18,10 @@ characters={
 		name=JAP_saigo_takamori
 		portraits={
 			civilian={
-				large="gfx/leaders/JAP/Saigo_Takamori.dds"
+				large="gfx/leaders/JAP/Military/Saigo_Takamori.dds"
+			}
+			army={
+				large="gfx/leaders/JAP/Military/Saigo_Takamori.dds"
 			}
 		}
 		country_leader = {
@@ -36,7 +39,10 @@ characters={
 		name="Saigō Toratarō"
 		portraits={
 			civilian={
-				large="gfx/leaders/JAP/Saigo_Torotaro.dds"
+				large="gfx/leaders/JAP/Military/Saigo_Torotaro.dds"
+			}
+			army={
+				large="gfx/leaders/JAP/Military/Saigo_Torotaro.dds"
 			}
 		}
 		corps_commander={
@@ -46,8 +52,8 @@ characters={
 	JAP_yamada_akiyoshi={
 		name="Yamada Akiyoshi"
 		portraits={
-			civilian={
-				large="gfx/leaders/JAP/Yamada_Akiyoshi.dds"
+			army={
+				large="gfx/leaders/JAP/Military/Yamada_Akiyoshi.dds"
 			}
 		}
 		corps_commander={
@@ -57,8 +63,8 @@ characters={
 	JAP_yamagata_aritomo={
 		name="Yamagata Aritomo"
 		portraits={
-			civilian={
-				large="gfx/leaders/JAP/Yamagata_Aritomo.dds"
+			army={
+				large="gfx/leaders/JAP/Military/Yamagata_Aritomo.dds"
 			}
 		}
 		corps_commander={
@@ -68,7 +74,7 @@ characters={
 	JAP_itagaki_taisuke={
 		name="Itagaki Taisuke"
 		portraits={
-			civilian={
+			army={
 				large="gfx/leaders/JAP"
 			}
 		}
@@ -76,38 +82,55 @@ characters={
 
 		}
 	}
+
+	JAP_Makino_Nobuaki={
+		name="Makino Nobuaki"
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/JAP_makino_nobuaki.dds"
+			}
+		}
+		advisor = {
+            slot = political_advisor
+            idea_token = JAP_makino_nobuaki
+            allowed = { original_tag = JAP }
+            available = {
+                always = yes
+            }
+            traits = {  
+				
+			}
+        }
+	}
 	JAP_saigo_judo={
 		name="Saigō Jūdō"
 		portraits={
-			civilian={
-				large="gfx/leaders/JAP/Saigo_Judo.dds"
+			army={
+				large="gfx/leaders/JAP/Military/Saigo_Judo.dds"
+				small="gfx/interface/ideas/JAP_saigo_judo.dds"
 			}
 		}
 		navy_leader={
 
 		}
-		advisor={
-			slot = navy_chief
-			ledger = navy
-		
-		}
+		advisor = {
+            slot = navy_chief
+            idea_token = JAP_saigo_judo
+            ledger = navy
+            allowed = { original_tag = JAP }
+            available = {
+                always = yes
+            }
+            traits = {  
+				navy_chief_decisive_battle_2
+			}
+        }
 	}
 	JAP_kabayama_sukenori={
 		name="Kabayama Sukenori"
 		portraits={
-			civilian={
-				large="gfx/leaders/JAP"
-			}
-		}
-		navy_leader={
-
-		}
-	}
-	JAP_asano_nagakoto={
-		name="Asano Nagakoto"
-		portraits={
-			civilian={
-				large="gfx/leaders/JAP"
+			army={
+				large="gfx/leaders/JAP/Military/Kabayama_Sukenori.dds"
 			}
 		}
 		navy_leader={
