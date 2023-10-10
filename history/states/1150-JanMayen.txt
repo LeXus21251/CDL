@@ -1,0 +1,22 @@
+state = { # Jan Mayen
+	id = 1150
+	name = "STATE_1150"
+	manpower = 10
+	state_category = tiny_island
+	history = {
+		owner = DEN	
+		add_core_of = DEN
+		buildings = {
+			13400 = {
+				naval_base = 1
+			}
+		}	
+	}
+
+
+	provinces = {
+		13400
+	}
+	
+	local_supplies=0.000
+}

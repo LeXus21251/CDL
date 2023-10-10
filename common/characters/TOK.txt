@@ -71,11 +71,23 @@ characters={
 
 		}
 	}
+
+	TOK_makino_tadakatsu={
+		name="Makino Tadakatsu"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOK/Military/Makino_Tadakatsu.dds"
+			}
+		}
+		corps_commander={
+
+		}
+	}
 	TOK_hijikata_toshizo={
 		name="Hijikata Toshizo"
 		portraits={
 			civilian={
-				large="gfx/leaders/TOK"
+				large="gfx/leaders/TOK/Military/Hijikata_Toshizo.dds"
 			}
 		}
 		corps_commander={
@@ -86,7 +98,7 @@ characters={
 		name="Matsudaira Yoritoshi"
 		portraits={
 			civilian={
-				large="gfx/leaders/TOK"
+				large="gfx/leaders/TOK/Military/Matsudaira_Yoritoshi.dds"
 			}
 		}
 		corps_commander={
@@ -97,7 +109,7 @@ characters={
 		name="Hayashi Tadataka"
 		portraits={
 			civilian={
-				large="gfx/leaders/TOK"
+				large="gfx/leaders/TOK/Military/Hayashi_Tadataka.dds"
 			}
 		}
 		navy_leader={
@@ -108,7 +120,7 @@ characters={
 		name="Arai Ikunosuke"
 		portraits={
 			civilian={
-				large="gfx/leaders/TOK"
+				large="gfx/leaders/TOK/Military/Arai_Ikunosuke.dds"
 			}
 		}
 		navy_leader={

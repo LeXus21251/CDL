@@ -104,12 +104,6 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 
-	spriteType = { # "frigate"
-		name = "GFX_navalcombat_ship_icon_frigate"
-		texturefile = "gfx/interface/navalcombat/ships/frigate.dds"
-		noOfFrames = 2
-	}
-
 
 	# ---------------------------------------------------------------------------
 	# Code expects GFX_navalcombat_air_icon_ + sprite name.

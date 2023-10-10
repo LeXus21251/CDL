@@ -40,7 +40,7 @@ set_politics = {
 }
 recruit_character = TOK_tokugawa_yoshinobu
 recruit_character = TOK_enomoto_takeaki
-recruit_character = TOK_kasuya_toshizo
+recruit_character = TOK_hijikata_toshizo
 recruit_character = TOK_makino_tadakatsu
 recruit_character = TOK_matsudaira_yoritoshi
 recruit_character = TOK_hayashi_tadataka
