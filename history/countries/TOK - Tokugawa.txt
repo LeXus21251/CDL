@@ -14,8 +14,6 @@ set_technology = {
 			bushido
 			daimyo_nation
 			TOK_tokugawa_clan
-			TOK_russian_threat
-			TOK_dutch_trade
 			
 			limited_conscription
 			sakoku_edict

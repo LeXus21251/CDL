@@ -393,7 +393,7 @@ focus_tree = {
 
 			every_country = {
 				limit = {
-					OR = {
+					AND = {
 				tag = VOC
 				tag = HOL
 				}

@@ -3,7 +3,7 @@ tags={
 	"Alternative History"
 }
 name="Champs De Lys"
-supported_version="1.12.*"
+supported_version="1.13.*"
 picture = "HOI4_icon.bmp"
 replace_path="history/states"
 replace_path="history/countries"
@@ -15,3 +15,4 @@ replace_path="map/buildings.txt"
 replace_path="map/rocketsites.txt"
 replace_path="map/airports.txt"
 replace_path="map/strategic_regions"
+replace_path="map/definition.csv"
